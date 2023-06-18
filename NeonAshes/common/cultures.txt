@@ -1,4 +1,4 @@
-# Do not change tags in here without changing every other reference to them.
+﻿# Do not change tags in here without changing every other reference to them.
 # If adding new groups or cultures, make sure they are unique.
 
 germanic = {
@@ -1749,7 +1749,7 @@ american_cultures = {
 	leader = european
 	is_overseas = no
 	yankee = {
-		color = {65 65 129}
+		color = {65 85 120}
 		first_names = { 
 			James John Robert Michael William David Richard Charles Joseph Thomas Christopher Daniel Paul Mark Donald George Kenneth Steven Edward Brian 
 			Ronald Anthony Kevin Jason Matthew Gary Timothy Jose Larry Jeffrey Frank Scott Eric Stephen Andrew Raymond Gregory Joshua Jerry Dennis 

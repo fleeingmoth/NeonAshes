@@ -1,0 +1,10 @@
+owner = IMT
+controller = IMT
+add_core = IMT
+trade_goods = cattle
+life_rating = 30
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}

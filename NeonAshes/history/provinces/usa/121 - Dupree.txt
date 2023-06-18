@@ -1,0 +1,5 @@
+owner = GPL
+controller = GPL
+add_core = GPL
+trade_goods = oilseed_crops
+life_rating = 25

@@ -1,0 +1,426 @@
+#West Virginia Region 
+#Morgantown (Fmr. Wheeling) (800,000 / 200,000 POPS)
+217 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}
+#Charleston (Fmr. Huntington) (1,000,000 / 250,000 POPS)
+218 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+}
+#Pennsylvania Region (12,000,000 / 3,000,000 POPS)
+#Philadelphia (6,000,000 / 1,500,000 POPS)
+223 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 30000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 600000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 40000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 60000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 600000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+}
+#Scranton (1,500,000 / 375,000 POPS)
+224 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 150000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 150000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+}
+#Williamsport (1,000,000 / 250,000 POPS)
+225 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+}
+#Harrisburg (1,000,000 / 250,000 POPS)
+226 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+}
+#Pittsburgh (2,000,000 / 500,000 POPS)
+227 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 200000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 15000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 40000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 9000
+	}
+}
+#Erie (500,000 / 125,000 POPS)
+228 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 50000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+}

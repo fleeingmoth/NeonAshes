@@ -1,0 +1,164 @@
+political_decisions = {
+	north_texas_victory = {
+		news = yes
+		news_desc_long = "north_texas_victory_NEWS_LONG"
+		news_desc_medium = "north_texas_victory_NEWS_MEDIUM"
+		news_desc_short = "north_texas_victory_NEWS_SHORT"
+		picture = flag_texas_smallpic
+		potential = { 
+			tag = NTX
+			NOT = { exists = TEX } #There is no Texas already
+		}
+		allow = {
+			NOT = { exists = STX } #There is no South Texas
+			war = no
+			owns = 137 #We have San Antonio
+		}
+		effect = {
+			prestige = 5
+			change_tag = TEX #The one and only Texas
+		}
+		ai_will_do = { factor = 1 }
+	}
+	south_texas_victory = {
+		news = yes
+		news_desc_long = "south_texas_victory_NEWS_LONG"
+		news_desc_medium = "south_texas_victory_NEWS_MEDIUM"
+		news_desc_short = "south_texas_victory_NEWS_SHORT"
+		picture = flag_texas_smallpic
+		potential = { 
+			tag = STX
+			NOT = { exists = TEX } #There is no Texas already
+		}
+		allow = {
+			NOT = { exists = NTX } #There is no North Texas
+			war = no
+			owns = 132 #We have Houston
+		}
+		effect = {
+			prestige = 5
+			change_tag = TEX #The one and only Texas
+		}
+		ai_will_do = { factor = 1 }
+	}
+	north_texas_walkover = { #North Texas is the only one remaining, but does not have Southern TX
+		news = yes
+		news_desc_long = "north_texas_walkover_NEWS_LONG"
+		news_desc_medium = "north_texas_walkover_NEWS_MEDIUM"
+		news_desc_short = "north_texas_walkover_NEWS_SHORT"
+		picture = flag_texas_smallpic
+		potential = { 
+			tag = NTX
+			NOT = { exists = STX } #Neither South Texas or Texas exist.
+			NOT = { exists = TEX }
+			NOT = { owns = 137 } #We do not have San Antonio.
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			prestige = 2
+			change_tag = TEX #Rump Texas
+		}
+		ai_will_do = { factor = 1 }
+	}
+	south_texas_walkover = { #South Texas is the only one remaining, but does not have Northern TX
+		news = yes
+		news_desc_long = "south_texas_walkover_NEWS_LONG"
+		news_desc_medium = "south_texas_walkover_NEWS_MEDIUM"
+		news_desc_short = "south_texas_walkover_NEWS_SHORT"
+		picture = flag_texas_smallpic
+		potential = { 
+			tag = STX
+			NOT = { exists = NTX } #Neither North Texas or Texas exist
+			NOT = { exists = TEX }
+			NOT = { owns = 132 } #We do not have Houston
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			prestige = 2
+			change_tag = TEX #Rump Texas
+		}
+		ai_will_do = { factor = 1 }
+	}
+	north_resume_texas_civil_war = { #North Texas restarts the Texan Civil War
+		news = yes
+		news_desc_long = "north_resume_texas_civil_war_NEWS_LONG"
+		news_desc_medium = "north_resume_texas_civil_war_NEWS_MEDIUM"
+		news_desc_short = "north_resume_texas_civil_war_NEWS_SHORT"
+		picture = artillery_smoke_smallpic
+		potential = {
+			tag = NTX
+			exists = STX #South Texas exists
+		}
+		allow = { war = no } 
+		effect = {
+			war = {
+				target = STX
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { STX = { brigades_compare = 1 } } #Needs to have at least numerical superiority for AI to take
+			}
+			modifier = {
+				factor = 0.01
+				NOT = { STX = { brigades_compare = 2 } } #Between one and two times the strength, one percent daily chance
+			}
+			modifier = {
+				factor = 0.02
+				NOT = { STX = { brigades_compare = 3 } } #Between two and three times the strength, two percent daily chance
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.8 #Don't attack if it will put you at the badboy limit
+			}
+		}
+	}
+	south_resume_texas_civil_war = { #South Texas restarts the Texan Civil War
+		news = yes
+		news_desc_long = "south_resume_texas_civil_war_NEWS_LONG"
+		news_desc_medium = "south_resume_texas_civil_war_NEWS_MEDIUM"
+		news_desc_short = "south_resume_texas_civil_war_NEWS_SHORT"
+		picture = artillery_smoke_smallpic
+		potential = {
+			tag = STX
+			exists = NTX #North Texas exists
+		}
+		allow = { war = no }
+		effect = {
+			war = {
+				target = NTX
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { NTX = { brigades_compare = 1 } } #Needs to have at least numerical superiority for AI to take
+			}
+			modifier = {
+				factor = 0.01
+				NOT = { NTX = { brigades_compare = 2 } } #Between one and two times the strength, one percent daily chance
+			}
+			modifier = {
+				factor = 0.02
+				NOT = { NTX = { brigades_compare = 3 } } #Between two and three times the strength, two percent daily chance
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.8 #Don't attack if it will put you at the badboy limit
+			}
+		}
+	}
+}

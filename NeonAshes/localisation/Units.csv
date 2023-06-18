@@ -1,0 +1,13 @@
+army_base;Armies;;;;;;;;;;;;;x;;;;
+navy_base;Navies;;;;;;;;;;;;;x;;;;
+irregular;Irregular;;;;;;;;;;;;;x;;;;
+infantry;Light Infantry;;;;;;;;;;;;;x;;;;
+motinfantry;Motorized Infantry;;;;;;;;;;;;;x;;;;
+mechinfantry;Mechanized Infantry;;;;;;;;;;;;;x;;;;
+fieldartillery;Field Artillery;;;;;;;;;;;;;x;;;;
+spartillery;Self-Propelled Artillery;;;;;;;;;;;;;x;;;;
+armyaviation;Army Aviation;;;;;;;;;;;;;x;;;;
+lightarmor;Light Armor;;;;;;;;;;;;;x;;;;
+heavyarmor;Heavy Armor;;;;;;;;;;;;;x;;;;
+fighteraircraft;Fighter Aircraft;;;;;;;;;;;;;x;;;;
+groundattackaircraft;Ground Attack Aircraft;;;;;;;;;;;;;x;;;;

@@ -1,0 +1,213 @@
+#Greenland (9800)
+#Qaqortoq (10,000 / 2,500 POPS)
+251 = {
+	aristocrats = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	capitalists = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 500
+	}
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	clerks = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+	officers = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 1500
+	}
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+}
+#Nuuk (20,000 / 5,000 POPS)
+2591 = {
+	aristocrats = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	capitalists = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 1000
+	}
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	officers = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	craftsmen = {
+		culture = danish
+		religion = protestant
+		size = 200
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 3000
+	}
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 250
+	}
+}
+#Tasiilaq (10,000 / 2,500 POPS)
+2632 = {
+	aristocrats = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	capitalists = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 500
+	}
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	clerks = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+	officers = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 1500
+	}
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+}
+#Sisimiut (10,000 / 2,500 POPS)
+2636 = {
+	aristocrats = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	capitalists = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 500
+	}
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+	clerks = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+	officers = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 1500
+	}
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+}

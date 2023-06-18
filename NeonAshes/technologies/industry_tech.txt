@@ -1,0 +1,698 @@
+### Energy Generation ###
+
+fossil_fuel_power = { # Fossil Fuel Power
+	area = energy_generation
+	year = 1980
+	cost = 3600
+
+	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.05
+	factory_throughput = 0.02
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			year = 1990
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 10
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 25
+		}
+	}
+}
+nuclear_energy = { # Nuclear Energy
+	area = energy_generation
+	year = 1980
+	cost = 7200
+
+	activate_building = nuclear_energy_plant
+	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.05
+	factory_throughput = 0.02
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 2
+			year = 1990
+		}
+		modifier = {
+			factor = 1.02
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			industrial_score = 100
+		}
+		modifier = {
+			factor = 1.02
+			industrial_score = 150
+		}
+	}
+}
+renewable_energy = { # Renewable Energy
+	area = energy_generation
+	year = 1990
+	cost = 10800
+
+	activate_building = bio_fuel_factory
+	mine_rgo_eff = 0.10
+	farm_rgo_eff = 0.10
+	factory_throughput = 0.03
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.01
+			year = 2000
+		}
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 200
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 250
+		}
+	}
+}
+smart_grid = { # Smart Grid
+	area = energy_generation
+	year = 2000
+	cost = 14400
+
+	mine_rgo_eff = 0.10
+	farm_rgo_eff = 0.10
+	factory_throughput = 0.03
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			year = 2010
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 400
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
+	}
+}
+energy_renaissance = { # Energy Renaissance
+	area = energy_generation
+	year = 2030
+	cost = 18000
+
+	mine_rgo_eff = 0.15
+	farm_rgo_eff = 0.15
+	factory_throughput = 0.05
+
+	ai_chance = {
+		factor = 1.25
+		modifier = {
+			factor = 2
+			year = 2040
+		}
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 750
+		}
+	}
+}
+nuclear_fusion = { # Nuclear Fusion
+	area = energy_generation
+	year = 2060
+	cost = 21600
+
+	mine_rgo_eff = 0.15
+	farm_rgo_eff = 0.15
+	factory_throughput = 0.05
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.4
+			is_greater_power = yes
+		}
+	}
+}
+
+### Industrial Engineering ###
+
+modern_manufacturing = { # Modern Manufacturing
+	area = industrial_engineering
+	year = 1980
+	cost = 3600
+
+	factory_throughput = 0.05
+	factory_owner_cost = -0.01
+
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1
+		}
+		modifier = {
+			factor = 0.9 # 0.1
+			not = { literacy = 0.2  }
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 10
+		}
+	}	
+
+}
+digital_automation = { # Digital Automation
+	area = industrial_engineering
+	year = 1980
+	cost = 7200
+
+	factory_throughput = 0.05
+	factory_owner_cost = -0.01
+	
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 20
+		}
+		modifier = {
+			factor = 0.9 # 0.1
+			not = { literacy = 0.2  }
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 50
+		}
+	}
+}
+3d_printing = { # 3D Printing
+	area = industrial_engineering
+	year = 2010
+	cost = 10800
+
+	factory_throughput = 0.10
+	factory_owner_cost = -0.02
+	
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 100
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 150
+		}
+		modifier = {
+			factor = 0.9 # 0.1
+			not = { literacy = 0.2  }
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}	
+}
+manufacturing_ai = { # Manufacturing A.I.
+	area = industrial_engineering
+	year = 2030
+	cost = 14400
+
+	factory_throughput = 0.10
+	factory_owner_cost = -0.02
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 250
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 400
+		}
+		modifier = {
+			factor = 0.9 # 0.1
+			not = { literacy = 0.2  }
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}	
+}
+nanoscale_manufacturing = { # Nanoscale Manufacturing
+	area = industrial_engineering
+	year = 2050
+	cost = 18000
+
+	factory_throughput = 0.15
+	factory_owner_cost = -0.03
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 750
+		}
+	}
+}
+full_automation = { # Full Automation
+	area = industrial_engineering
+	year = 2070
+	cost = 21600
+
+	factory_throughput = 0.15
+	factory_owner_cost = -0.03
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+	}	
+}
+
+### Materials Science ###
+
+polymers = { # Polymers
+	area = materials_science
+	year = 1980
+	cost = 3600
+
+	factory_output = 0.02
+
+	ai_chance = {
+		factor = 1.1
+	}
+}
+modern_composites = { # Modern Composites
+	area = materials_science
+	year = 1980
+	cost = 7200
+
+	factory_output = 0.02
+
+	ai_chance = {
+		factor = 1.1
+	}
+}
+metamaterials = { # Metamaterials
+	area = materials_science
+	year = 2000
+	cost = 10800
+
+	factory_output = 0.03
+
+	ai_chance = {
+		factor = 1.1
+	}
+}
+superconductors = { # Superconductors
+	area = materials_science
+	year = 2025
+	cost = 14400
+
+	factory_output = 0.03
+	ai_chance = {
+		factor = 1.1
+	}
+}
+nanomaterials = { # Nanomaterials
+	area = materials_science
+	year = 2050
+	cost = 18000
+
+	factory_output = 0.05
+
+	ai_chance = {
+		factor = 1.1
+	}
+}
+applied_exotics = { # Applied Exotics
+	area = materials_science
+	year = 2075
+	cost = 21600
+
+	factory_output = 0.05
+
+	ai_chance = {
+		factor = 1.1
+	}
+}
+
+### Infrastructure and Transport ###
+
+modern_transportation = { # Modern Transportation
+	area = infrastructure_and_transport
+	year = 1980
+	cost = 3600
+
+	activate_building = railroad
+
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+			year = 1990
+		}
+	}
+}
+comms_infrastructure = { # Communications Infrastructure
+	area = infrastructure_and_transport
+	year = 1990
+	cost = 7200
+
+	max_railroad = 1
+	
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+			year = 2000
+		}
+	}
+}
+globalized_infrastructure = { # Globalized Infrastructure
+	area = infrastructure_and_transport
+	year = 2010
+	cost = 10800
+
+	max_railroad = 1
+
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+			year = 2020
+		}
+	}
+}
+transport_revolution = { # Transport Revolution
+	area = infrastructure_and_transport
+	year = 2030
+	cost = 14400
+
+	max_railroad = 1
+ 
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+			year = 2040
+		}
+	}
+}
+hyper_projects = { # Hyperprojects
+	area = infrastructure_and_transport
+	year = 2050
+	cost = 18000
+
+	max_railroad = 1
+
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+			year = 2060
+		}
+	}
+}
+space_transportation = { # Space Transportation
+	area = infrastructure_and_transport
+	year = 2070
+	cost = 21600
+
+	max_railroad = 1
+
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			civilized = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+	}
+}
+
+### Medicine and Biology ###
+
+modern_medicine = { # Modern Medicine
+	area = medicine_and_biology
+	year = 1980
+	cost = 3600
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			civilized = yes
+		}
+	}
+}
+genetic_modification = { # Genetic Modification
+	area = medicine_and_biology
+	year = 1990
+	cost = 7200
+
+	supply_limit = 0.25
+
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.5
+			civilized = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+	}
+}
+bioengineering = { # Bioengineering
+	area = medicine_and_biology
+	year = 2010
+	cost = 10800
+
+	supply_limit = 0.25
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 100
+		}
+		modifier = {
+			factor = 1.1
+			year = 2020
+		}
+		modifier = {
+			factor = 2
+			year = 2030
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 150
+		}
+	}
+}
+genetic_engineering = { # Genetic Engineering
+	area = medicine_and_biology
+	year = 2030
+	cost = 14400
+
+	supply_limit = 0.25
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 400
+		}
+		modifier = {
+			factor = 1.1
+			year = 2040
+		}
+		modifier = {
+			factor = 2
+			year = 2050
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
+	}
+}
+nanomedicine = { # Nanomedicine
+	area = medicine_and_biology
+	year = 2050
+	cost = 18000
+	
+	supply_limit = 0.50
+
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.1
+			year = 2060
+		}
+		modifier = {
+			factor = 2
+			year = 2070
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 750
+		}
+	}
+
+}
+trans_human = { # Trans-Human
+	area = medicine_and_biology
+	year = 2070
+	cost = 21600
+
+	supply_limit = 0.50
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+	}
+	
+}
+
+

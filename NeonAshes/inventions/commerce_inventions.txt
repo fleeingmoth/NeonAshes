@@ -1,0 +1,223 @@
+#Banking and Finance
+#Modern Banking
+modern_portfolio_theory = { # Modern Portfolio Theory
+	limit = { modern_banking = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			fiat_currency = 1
+		}
+		modifier = {
+			factor = 1
+			laissez_faire_economics = 1
+		}
+		modifier = {
+			factor = 1
+			modern_corporate_structure = 1
+		}
+	}
+	global_pop_consciousness_modifier = -0.01	# Safer investing
+}
+retail_banking = { # Retail Banking
+	limit = { modern_banking = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 3
+			fiat_currency = 1
+		}
+	}
+	 administrative_efficiency_modifier = 0.05
+}
+commercial_banking = { # Commercial Banking
+	limit = { modern_banking = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 3
+			modern_corporate_structure = 1
+		}
+	}
+	effect = {
+		factory_cost = -0.03
+		factory_throughput = 0.03
+		rgo_throughput = 0.03
+	}
+}
+investment_banking = { # Investment Banking
+	limit = { modern_banking = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 3
+			laissez_faire_economics = 1
+		}
+	}
+	effect = {
+		loan_interest = -0.05
+	}
+	factory_owner_cost = -0.02
+}
+central_banking = { # Central Banking
+	limit = { modern_banking = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			realism = 1
+		}
+		modifier = {
+			factor = 2
+			fiat_currency = 1
+		}
+		modifier = {
+			factor = 2
+			laissez_faire_economics = 1
+		}
+		modifier = {
+			factor = 2
+			modern_corporate_structure = 1
+		}
+		modifier = {
+			factor = 3
+			new_keynesian_economics = 1
+		}
+	}
+	effect = { permanent_prestige = 5 }
+}
+
+banking_regulation = { # Banking Regulations
+	limit = { modern_banking = 1 }
+	chance = {
+		base = 0 # Needs, well, banks
+		modifier = {
+			factor = 1
+			invention = retail_banking
+		}
+		modifier = {
+			factor = 1
+			invention = commercial_banking
+		}
+		modifier = {
+			factor = 1
+			invention = investment_banking
+		}
+		modifier = {
+			factor = 1
+			invention = central_banking
+		}
+	}
+	effect = { tax_eff = 3 }
+}
+
+# Modern Financial Institutions
+
+post_modern_portfolio_theory = {
+	limit = { modern_financial_institutions = 1 }
+	chance = {
+		base = 0	# Needs Modern Portfolio Theory
+		modifier = {
+			factor = 3
+			invention = modern_portfolio_theory
+		}
+	}
+	global_pop_consciousness_modifier = -0.01	# Safer investing
+}
+universal_banking = {
+	limit = { modern_financial_institutions = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			invention = retail_banking
+		}
+		modifier = {
+			factor = 1
+			invention = commercial_banking
+		}
+		modifier = {
+			factor = 1
+			invention = investment_banking
+		}
+		modifier = {
+			factor = 1
+			invention = central_banking
+		}
+	}
+	effect = {
+		tax_eff = 2
+		factory_cost = -0.02
+		factory_throughput = 0.02
+		rgo_throughput = 0.02
+	}
+	administrative_efficiency_modifier = 0.03
+}
+electronic_comm_networks = {
+	limit = { modern_financial_institutions = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			digital_media = 1
+		}
+		modifier = {
+			factor = 2
+			the_internet = 1
+		}
+		modifier = {
+			factor = 1
+			microprocessors = 1
+		}
+	}
+	effect = {
+		factory_throughput = 0.01
+		rgo_throughput = 0.01
+	}
+}
+algorithmic_trading = {
+	limit = { modern_financial_institutions = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 3
+			invention = electronic_comm_networks
+		}
+	}
+	effect = {
+		factory_throughput = 0.01
+		rgo_throughput = 0.01
+	}
+}
+automated_trading = {
+	limit = { modern_financial_institutions = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = electronic_comm_networks
+		}
+		modifier = {
+			factor = 2
+			invention = algorithmic_trading
+		}
+	}
+	effect = {
+		factory_throughput = 0.01
+		rgo_throughput = 0.01
+	}
+}
+high_frequency_trading = {
+	limit = { modern_financial_institutions = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 3
+			invention = automated_trading
+		}
+	}
+	effect = {
+		factory_throughput = 0.01
+		rgo_throughput = 0.01
+	}
+}

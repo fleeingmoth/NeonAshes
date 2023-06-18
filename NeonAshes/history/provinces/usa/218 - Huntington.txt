@@ -1,0 +1,10 @@
+owner = NAP
+controller = NAP
+add_core = NAP
+trade_goods = coal
+life_rating = 30
+state_building = {
+	level = 1
+	building = steel_mill
+	upgrade = yes
+}

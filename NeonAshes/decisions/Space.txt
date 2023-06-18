@@ -1,0 +1,38 @@
+political_decisions = {
+	space_funding_review = {
+		news = yes
+		news_desc_long = "space_funding_review_NEWS_LONG"
+		news_desc_medium = "space_funding_review_NEWS_MEDIUM"
+		news_desc_short = "space_funding_review_NEWS_SHORT"
+		picture = space_agency_smallpic
+		potential = {
+			OR = {
+				has_country_modifier = space_program_lvl_0
+				has_country_modifier = space_program_lvl_1
+				has_country_modifier = space_program_lvl_2
+				has_country_modifier = space_program_lvl_3
+				has_country_modifier = space_program_lvl_4
+			}
+
+		}
+		allow = {
+			NOT = { has_country_modifier = space_agency_reorganization }
+		}
+		effect = {
+			remove_country_modifier = space_program_lvl_0
+			remove_country_modifier = space_program_lvl_1
+			remove_country_modifier = space_program_lvl_2
+			remove_country_modifier = space_program_lvl_3
+			remove_country_modifier = space_program_lvl_4
+			add_country_modifier = {
+				name = space_agency_reorganization
+				duration = 365
+			}
+			country_event = {
+				id = 2314
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

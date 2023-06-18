@@ -1,0 +1,15 @@
+owner = OZK
+controller = OZK
+add_core = OZK
+trade_goods = oilseed_crops
+life_rating = 25
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

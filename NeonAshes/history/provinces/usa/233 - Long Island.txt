@@ -1,0 +1,5 @@
+owner = NYC
+controller = NYC
+add_core = NYC
+trade_goods = fish
+life_rating = 35

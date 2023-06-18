@@ -1,0 +1,160 @@
+### Yucatan ###
+# Merida (1,000,000 / 250,000 pops)
+2183 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 20000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 10000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 800
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 12000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 10000
+	}
+}
+# Campeche (400,000 / 100,000 POPS)
+2184 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 30000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 6000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 40000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+}
+# Chetumal (200,000 / 50,000 POPS) (aka Cancun)
+2185 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 1500
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 15000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 1500
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 200
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 20000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 1000
+	}
+}

@@ -1,0 +1,5 @@
+owner = CDM
+controller = CDM
+add_core = CDM
+trade_goods = credit_money
+life_rating = 35

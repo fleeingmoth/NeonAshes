@@ -1,0 +1,134 @@
+# Defensive Democracy
+defensive_democracy = {
+
+	social_democrat = yes
+	socialist = yes
+	liberal = yes
+	anarcho_liberal = yes
+	green = yes
+	conservative = yes
+	nationalist = yes
+	traditionalist = yes
+
+	election = yes
+	duration = 42
+	appoint_ruling_party = no
+}
+# Socialist Democracy
+socialist_democracy = {
+
+	social_democrat = yes
+	socialist = yes
+	communist = yes
+	green = yes
+
+	election = yes
+	duration = 54
+	appoint_ruling_party = yes
+	flagtype = socialist
+}
+# Socialist Dictatorship
+socialist_dictatorship = {
+
+	socialist = yes
+
+	election = no
+	appoint_ruling_party = yes
+	flagtype = socialist
+}
+# Communist State
+communist_state = {
+
+	communist = yes
+
+	election = no
+	appoint_ruling_party = yes
+	flagtype = communist		# The Red Banner and the Hammer and Sickle
+}
+# Liberal Democracy
+democracy = {
+
+	social_democrat = yes
+	socialist = yes
+	communist = yes
+	liberal = yes
+	anarcho_liberal = yes
+	green = yes
+	conservative = yes
+	nationalist = yes
+	traditionalist = yes
+	ultranationalist = yes
+
+	election = yes
+	duration = 42
+	appoint_ruling_party = no
+}
+# Minarchist State
+minarchist_state = {
+
+	anarcho_liberal = yes
+
+	election = no
+	appoint_ruling_party = yes
+	flagtype = anarcho_liberal	# Don't Tread on Me
+}
+# Ecological State
+eco_state = {
+
+	green = yes
+
+	election = no
+	appoint_ruling_party = yes
+	flagtype = green		# Green, probably tie-dyed.
+}
+# Limited Democracy
+limited_democracy = {
+
+	social_democrat = yes
+	liberal = yes
+	conservative = yes
+
+	election = yes
+	duration = 42
+	appoint_ruling_party = no
+}
+# Authoritarian Democracy
+auth_democracy = {
+
+	social_democrat = yes
+	liberal = yes
+	conservative = yes
+	nationalist = yes
+	traditionalist = yes
+	ultranationalist = yes
+
+	election = yes
+	duration = 54
+	appoint_ruling_party = yes
+}
+# Nationalist Dictatorship
+nat_dictatorship = {
+
+	nationalist = yes
+
+	election = no
+	appoint_ruling_party = yes
+}
+#Theocratic Dictatorship
+theo_dictatorship = {
+
+	traditionalist = yes
+
+	election = no
+	appoint_ruling_party = yes
+	flagtype = traditionalist	# Religious symbolism galore
+}
+# Ultranationalist Dictatorship
+ultranat_dictatorship = {
+
+	ultranationalist = yes
+
+	election = no
+	appoint_ruling_party = yes
+	flagtype = ultranationalist	# Black, Red, White
+}

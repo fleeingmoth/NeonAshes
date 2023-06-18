@@ -1,0 +1,5 @@
+owner = WMX
+controller = WMX
+add_core = WMX
+trade_goods = fish
+life_rating = 25

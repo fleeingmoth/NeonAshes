@@ -1,0 +1,66 @@
+#Format is Category-Subcategory-Tech-Number
+
+#4110-4160 - Communications and Media
+
+#4210-4260 - Computer Science
+
+#4310-4360 - Sociology
+
+#4410-4460 - Political Science
+
+country_event = { # Establishment of our Intelligence and Security Apparatus
+	id = 4410
+	title = "EVT_4410_NAME"
+	desc = "EVT_4410_DESC"
+	picture = "intelligence_defense_agency_pic"
+	allow_multiple_instances = no
+	trigger = {
+		realism = 1		# Political Realism
+		NOT = {			# Do not trigger if you already have one
+			OR = {
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+		}
+	} 
+	mean_time_to_happen = { months = 3 } 	# Takes a few months
+	option = {
+		name = "EVT_4410_OPTA"
+		add_country_modifier = {
+			name = defense_intel_domestic	# ISA - Domestic Focus
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_4410_OPTB"
+		add_country_modifier = {
+			name = defense_intel_foreign	# ISA - Foreign Focus
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_4410_OPTC"
+		add_country_modifier = {
+			name = defense_intel_military	# ISA - Military Focus
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_4410_OPTD"
+		add_country_modifier = {
+			name = defense_intel_political	# ISA - Political Focus
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_4410_OPTE"
+		add_country_modifier = {
+			name = defense_intel_limited	# ISA - Limited Focus
+			duration = -1
+		}
+	}
+}
+#4510-4560 - Psychology

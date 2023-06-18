@@ -1,0 +1,25 @@
+owner = CAR
+controller = CAR
+add_core = CAR
+trade_goods = timber
+life_rating = 30
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = oil_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_mill
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

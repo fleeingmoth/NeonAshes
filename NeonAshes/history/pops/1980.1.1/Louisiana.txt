@@ -1,0 +1,213 @@
+#Louisiana Region
+#New Orleans (1,500,000 / 375,000 POPS)
+139 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 150000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 150000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+}
+#Baton Rouge (800,000 / 200,000 POPS)
+140 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}
+#Lake Charles (86500/21625 POPS)
+141 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}
+#Shreveport (120,000 / 30,000 POPS)
+142 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 600
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 12000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 800
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 300
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 1200
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 150
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 12000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+}

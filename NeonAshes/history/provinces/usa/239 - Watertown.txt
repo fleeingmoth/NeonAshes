@@ -1,0 +1,4 @@
+owner = NEN
+controller = NEN
+trade_goods = timber
+life_rating = 30

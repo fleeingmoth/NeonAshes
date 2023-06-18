@@ -1,0 +1,216 @@
+# goods types, organized by category
+
+military_goods = {
+	conv_ammunition = {	# Conventional Ammunition (e.g. bullets)
+		cost = 7.00	# 1980 Kilodollars per 100,000 rounds
+		color = { 208 202 127 } 
+	}
+	adv_ammunition = {	# Advanced Ammunition (e.g. rockets)
+		cost = 16.00	# 1980 Kilodollars for a single big bad rocket (e.g. Stinger)
+		color = { 255 39 12 }
+		available_from_start = no
+	}
+	small_arms = {		# Small Arms (e.g. handguns, rifles)
+		cost = 4.30	# 1980 Kilodollars per 6,000 arms
+		color = { 189 118 22 }
+	}
+	heavy_weapons = {	# Heavy Weapons (e.g. artillery, rocket launchers)
+		cost = 11.50 
+		color = { 145 130 86 }
+		available_from_start = no
+	}
+	elec_weapons = {	# Electronic Weapons (e.g. tasers, RADAR, laser guns)
+		cost = 98.00 
+		color = { 55 41 9 }
+		available_from_start = no 
+	}
+	armored_vehicles = {	# Armored Vehicles (e.g. tanks, armored trucks, big robots)
+		cost = 110.00 
+		color = { 221 213 182 }
+		available_from_start = no
+	}
+}
+
+raw_material_goods = {
+	fibre_crops = {
+		cost = 1.40 # 1980 Kilodollars per tonne
+		color = { 255 255 255 }
+	}
+	bauxite = {
+		cost = 1.50 # 1980 Kilodollars per 100 tonnes
+		color = { 69 0 182 }
+	}
+	sheeps = { 
+		cost = 1.40  # 1980 Kilodollars per 100 heads (guesstimated)
+		color = { 234 195 158 }
+	}
+	rare_earths = { 
+		cost = 10.0 #1980 Kilodollars per 100 kgs (guesstimated)
+		color = { 125 158 43 }
+	}
+	coal = { 
+		cost = 1.50 # 1980 Kilodollars per 100 tonnes
+		color = { 11 29 77 }
+	}
+	phosphate = { 
+		cost = 1.50 # 1980 Kilodollars per 100 tonnes
+		color = { 181 228 102 }
+	}
+	iron = { 
+		cost = 1.50 # 1980 Kilodollars per 100 dry tonnes
+		color = { 111 111 111 }
+	}
+	timber = { 
+		cost = 1.60 # 1980 Kilodollars per 100 tonnes
+		color = { 146 72 17 }
+	}
+	other_metals = { 
+		cost = 1.50 # 1980 Kilodollars per 100 tonnes
+		color = { 213 177 118 }
+	}
+	copper = { 
+		cost = 1.50 # 1980 Kilodollars per tonne
+		color = { 123 110 86 }
+	}
+	oil = { 
+		cost = 1.50 # 1980 Kilodollars per 1,000 barrels
+		color = { 0 0 0 }
+	}
+	credit_money = { 
+		cost = 10.00 # 1980 guesstimation
+		tradeable = no
+		money = yes	
+		color = { 253 199 110 }
+	}
+}
+
+industrial_goods = {
+	steel = { 
+		cost = 3.80 # 1980 Kilodollars per 100 tonnes
+		color = { 95 128 147 }
+	}
+	construction_materials = { 
+		cost = 1.50 # 1980 Kilodollars - Artisan price (1000 sqft)
+		color = { 185 187 164 }
+	}
+	machine_parts = { 
+		cost = 20.00 # 1980 Kilodollars for 100 metric tons of equipment.
+		color = { 177 198 196 }
+	}
+	polymers_and_plastics = { 
+		cost = 1.40 # 1980 Kilodollars per tonne, guesstimating 10 barrels.
+		color = { 201 200 199 }
+	}
+	energy = { 
+		cost = 0.80 # 1980 Kilodollars per MWh, considering source and range.
+		color = { 145 110 89 }
+	}
+	fertilizer = { 
+		cost = 1.0 # 1980 Kilodollars per tonne.
+		color = { 133 101 35 }
+	}
+	fuel = { 
+		cost = 2.50 # 1980 Kilodollars per 10,000 gallons (what you'd get from 333 barrels).
+		color = { 192 68 20 }
+	}
+	electronic_components = { 
+		cost = 5.40 # 1980 Kilodollars per 10 computer systems, roughly.
+		color = { 21 65 30 }
+	}
+	aluminum = { 
+		cost = 5.00 # 1980 Kilodollars per tonne.
+		color = { 76 18 0 }
+	}
+	textiles = { 
+		cost = 1.50 # 1980 Kilodollars per tonne.
+		color = { 76 18 0 }
+	}
+	engines = { 
+		cost = 3.30	# 1980 Kilodollars per 100 car engines
+		color = { 186 50 40 }
+	}
+	batteries = { 
+		cost = 5.0	# 1980 Kilodollars for 1 kWh (it will go down a lot over time)
+		color = { 180 94 26 }
+	}
+	canned_food = { 
+		cost = 1.80 # 1980 Kilodollars per 10 tonnes of wheat
+		color = { 219 157 36 }
+	}
+}
+
+consumer_goods = {
+	meats = { 
+		cost = 1.00 # 1980 Kilodollars per tonne of meat
+		color = { 216 185 77 }
+	}
+	cattle = { 
+		cost = 1.40 # 1980 Kilodollars per 100 heads of cattle
+		color = { 84 227 40 }
+	}
+	fish = { 
+		cost = 1.40 # 1980 Kilodollars per tonne of tuna (lowballing it)
+		color = { 128 98 73 }
+	}
+	fruit = {
+		cost = 1.40 # 1980 Kilodollars per tonne of bananas
+		color = { 255 0 0 }
+	}
+	grain = { 
+		cost = 1.40 # 1980 Kilodollars per 10 tonnes of wheat
+		color = { 219 157 36 }
+	}
+	sugar_crops = {	
+		cost = 2.00 # 1980 Kilodollars per tonne (it's actually quite pricy)
+		color = { 100 69 30 }
+	}
+	tea_n_coffee = {	
+		cost = 6.00 # 1980 Kilodollars per tonne
+		color = { 201 135 15 }
+	}
+	alcohol_beverages = { 
+		cost = 6.0 # 1980 Kilodollars per 1,000 standard drinks
+		color = { 27 19 7 }
+	}
+	oilseed_crops = { 
+		cost = 1.40 # 1980 Kilodollars per 10 tonne of soybeans
+		color = { 114 162 47 }
+	}
+	clothing = {	
+		cost = 2.90 # 1980 Kilodollars per shirt (at two dollars a tee)
+		color = { 61 67 64 }
+	}
+	furniture = { 
+		cost = 3.20
+		color = { 123 112 54 }
+	}
+	pharma_n_equipment = { 
+		cost = 2.0
+		color = { 123 0 54 }
+	}
+	office_supplies = { 
+		cost = 2.5
+		color = { 76 5 0 }
+	}
+	consumer_electronics = { 
+		cost = 4.4
+		color = { 217 17 19 }
+	}
+	motor_vehicles = { 
+		cost = 5.10 # 1980 Kilodollars per 100 vehicles (small car)
+		color = { 76 18 0 }
+	}
+	aircraft = { 
+		cost = 11.00
+		color = { 255 255 0 }
+	}
+	ships = { 
+		cost = 9.5
+		color = { 186 50 40 }
+	}
+	spacecraft = { 
+		cost = 1.0
+		available_from_start = no
+		color = { 180 94 26 }
+	}
+}

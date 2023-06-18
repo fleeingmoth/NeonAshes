@@ -1,0 +1,45 @@
+fighteraircraft = {
+	icon = 13
+
+	type = land
+	sprite = FighterAircraft
+	active = no
+	unit_type = special
+	floating_flag = yes
+
+	#Core Abilities
+	priority = 50
+	max_strength = 3
+	default_organisation = 60
+	maximum_speed = 12.00
+	weighted_value = 10.0
+
+	#Building Costs
+	build_time = 720
+	build_cost = {
+		heavy_weapons = 10
+		fuel = 12.5
+		aircraft = 15
+		electronic_components = 15
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		adv_ammunition = 0.1
+		fuel = 0.25		# 300,000 gal/day
+		canned_food = 0.02
+		fuel = 0.25
+		machine_parts = 0.15
+		engines = 0.1
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 4
+	attack = 2
+	defence = 10
+	discipline = 0.1
+	support = 3.0
+	maneuver = 4
+	siege = 0
+}

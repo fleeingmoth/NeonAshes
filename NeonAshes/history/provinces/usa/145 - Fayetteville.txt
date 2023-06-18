@@ -1,0 +1,5 @@
+owner = OZK
+controller = OZK
+add_core = OZK
+trade_goods = oil
+life_rating = 30

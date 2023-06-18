@@ -1,0 +1,623 @@
+country_event = { # Focus our Research (event)
+	id = 7000
+	title = "EVT_7000_NAME"
+	desc = "EVT_7000_DESC"
+	picture = "lvl_0_traditional_academia_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7000_OPTA" # Military Focus
+		tech_school = military_focus
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7000_OPTB" # Development Focus
+		tech_school = economic_focus
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7000_OPTC" } # Never mind
+}
+country_event = { # Military Focus Schools
+	id = 7010
+	title = "EVT_7010_NAME"
+	desc = "EVT_7010_DESC"
+	picture = "lvl_1_military_focus_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7010_OPTA" # Defense and Deterrence
+		tech_school = defense_n_deterrence_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7010_OPTB" # Power Projection
+		tech_school = power_projection_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7010_OPTC" } # Never mind
+}
+country_event = { # Development Focus Schools
+	id = 7011
+	title = "EVT_7011_NAME"
+	desc = "EVT_7011_DESC"
+	picture = "lvl_1_economy_focus_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7011_OPTA" # Economics School
+		tech_school = economics_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7011_OPTB" # Sociology School
+		tech_school = sociology_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7011_OPTC" # Industrial School
+		tech_school = industrial_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7011_OPTD" } # Never mind
+}
+country_event = { # Defense and Deterrence Refinement
+	id = 7020
+	title = "EVT_7020_NAME"
+	desc = "EVT_7020_DESC"
+	picture = "lvl_2_defense_n_deterrence_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7020_OPTA" # Military School
+		tech_school = military_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7020_OPTB" # Mercenary School
+		tech_school = mercenary_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7020_OPTC" # Regimented Society School
+		tech_school = regimented_society_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7020_OPTD" # Military-Industrial School
+		tech_school = military_industrial_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7020_OPTE" } # Never mind
+}
+country_event = { # Power Projection Refinement
+	id = 7021
+	title = "EVT_7021_NAME"
+	desc = "EVT_7021_DESC"
+	picture = "lvl_2_power_projection_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7021_OPTA" # Military School
+		tech_school = military_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7021_OPTB" # Trade School
+		tech_school = trade_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7021_OPTC" # Exploration School
+		tech_school = exploration_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7021_OPTD" # Export School
+		tech_school = export_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7021_OPTE" } # Never mind
+}
+country_event = { # Economics Refinement
+	id = 7022
+	title = "EVT_7022_NAME"
+	desc = "EVT_7022_DESC"
+	picture = "lvl_2_economic_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7022_OPTA" # Mercenary School
+		tech_school = mercenary_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7022_OPTB" # Trade School
+		tech_school = trade_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7022_OPTC" # Services School
+		tech_school = services_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7022_OPTD" # Manufacturing School
+		tech_school = manufacturing_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7022_OPTE" } # Never mind
+}
+country_event = { # Sociology Development Refinement
+	id = 7023
+	title = "EVT_7023_NAME"
+	desc = "EVT_7023_DESC"
+	picture = "lvl_2_social_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7023_OPTA" # Regimented Society School
+		tech_school = regimented_society_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7023_OPTB" # Exploration School
+		tech_school = exploration_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7023_OPTC" # Services School
+		tech_school = services_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7023_OPTD" # Production School
+		tech_school = production_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7023_OPTE" } # Never mind
+}
+country_event = { # Industrial Development Refinement
+	id = 7024
+	title = "EVT_7024_NAME"
+	desc = "EVT_7024_DESC"
+	picture = "lvl_2_industrial_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7024_OPTA" # Military-Industrial School
+		tech_school = military_industrial_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7024_OPTB" # Export School
+		tech_school = export_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7024_OPTC" # Manufacturing School
+		tech_school = manufacturing_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7024_OPTD" # Production School
+		tech_school = production_academic
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7024_OPTE" } # Never mind
+}
+country_event = { # Military School Supremacy
+	id = 7030
+	title = "EVT_7030_NAME"
+	desc = "EVT_7030_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7030_OPTA" # Land Supremacy
+		tech_school = land_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7030_OPTB" # Naval Aerospace Supremacy
+		tech_school = naval_aerospace_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7030_OPTC" } # Never mind
+}
+country_event = { # Mercenary School Supremacy
+	id = 7031
+	title = "EVT_7031_NAME"
+	desc = "EVT_7031_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7031_OPTA" # Land Supremacy
+		tech_school = land_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7031_OPTB" # Financial Supremacy
+		tech_school = financial_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7031_OPTC" } # Never mind
+}
+country_event = { # Regimented Society School Supremacy
+	id = 7032
+	title = "EVT_7032_NAME"
+	desc = "EVT_7032_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7032_OPTA" # Land Supremacy
+		tech_school = land_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7032_OPTB" # Cultural Supremacy
+		tech_school = cultural_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7032_OPTC" } # Never mind
+}
+country_event = { # Military-Industrial Supremacy
+	id = 7033
+	title = "EVT_7033_NAME"
+	desc = "EVT_7033_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7033_OPTA" # Land Supremacy
+		tech_school = land_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7033_OPTB" # Industrial Supremacy
+		tech_school = industrial_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7033_OPTC" } # Never mind
+}
+country_event = { # Trade School Supremacy
+	id = 7034
+	title = "EVT_7034_NAME"
+	desc = "EVT_7034_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7034_OPTA" # Naval Aerospace Supremacy
+		tech_school = naval_aerospace_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7034_OPTB" # Financial Supremacy
+		tech_school = financial_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7034_OPTC" } # Never mind
+}
+country_event = { # Exploration School Supremacy
+	id = 7035
+	title = "EVT_7035_NAME"
+	desc = "EVT_7035_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7035_OPTA" # Naval Aerospace Supremacy
+		tech_school = naval_aerospace_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7035_OPTB" # Cultural Supremacy
+		tech_school = cultural_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7035_OPTC" } # Never mind
+}
+country_event = { # Export School Supremacy
+	id = 7036
+	title = "EVT_7036_NAME"
+	desc = "EVT_7036_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7036_OPTA" # Naval Aerospace Supremacy
+		tech_school = naval_aerospace_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7036_OPTB" # Industrial Supremacy
+		tech_school = industrial_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7036_OPTC" } # Never mind
+}
+country_event = { # Services School Supremacy
+	id = 7037
+	title = "EVT_7037_NAME"
+	desc = "EVT_7037_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7037_OPTA" # Financial Supremacy
+		tech_school = financial_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7037_OPTB" # Cultural Supremacy
+		tech_school = cultural_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7037_OPTC" } # Never mind
+}
+country_event = { # Manufacturing School Supremacy
+	id = 7038
+	title = "EVT_7038_NAME"
+	desc = "EVT_7038_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7038_OPTA" # Financial Supremacy
+		tech_school = financial_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7038_OPTB" # Industrial Supremacy
+		tech_school = industrial_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7038_OPTC" } # Never mind
+}
+country_event = { # Production School Supremacy
+	id = 7039
+	title = "EVT_7039_NAME"
+	desc = "EVT_7039_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7039_OPTA" # Cultural Supremacy
+		tech_school = cultural_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = {
+		name = "EVT_7039_OPTB" # Industrial Supremacy
+		tech_school = industrial_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7039_OPTC" } # Never mind
+}
+country_event = { # Land Supremacy
+	id = 7040
+	title = "EVT_7040_NAME"
+	desc = "EVT_7040_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7040_OPTA" # Military Domination
+		tech_school = cultural_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7040_OPTB" } # Never mind
+}
+country_event = { # Naval Aerospace Supremacy
+	id = 7041
+	title = "EVT_7041_NAME"
+	desc = "EVT_7041_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7041_OPTA" # Military Domination
+		tech_school = cultural_supremacy
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7041_OPTB" } # Never mind
+}
+country_event = { # Financial Supremacy
+	id = 7042
+	title = "EVT_7042_NAME"
+	desc = "EVT_7042_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7042_OPTA" # Economic Domination
+		tech_school = economic_domination
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7042_OPTB" } # Never mind
+}
+country_event = { # Cultural Supremacy
+	id = 7043
+	title = "EVT_7043_NAME"
+	desc = "EVT_7043_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7043_OPTA" # Economic Domination
+		tech_school = economic_domination
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7043_OPTB" } # Never mind
+}
+country_event = { # Industrial Supremacy
+	id = 7044
+	title = "EVT_7044_NAME"
+	desc = "EVT_7044_DESC"
+	picture = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_7044_OPTA" # Economic Domination
+		tech_school = economic_domination
+		add_country_modifier = {
+			name = tech_school_reform
+			duration = 30
+		}
+	}
+	option = { name = "EVT_7044_OPTB" } # Never mind
+}

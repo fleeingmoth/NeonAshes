@@ -1,0 +1,5 @@
+owner = QBC
+controller = QBC
+add_core = QBC
+trade_goods = sugar_crops
+life_rating = 35

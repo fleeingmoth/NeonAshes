@@ -1,0 +1,36 @@
+#Pop growth
+#Education Efficiency
+
+So did a little play testing after I figured out how to reduce the pop growth rate, 
+it appears that the industry is not really flushed out to much as every unit seems to 
+require the same goods type and since everyone needs it my army of 5 units never really had full org, 
+it would rise up less than or around 0.5% org, but that was every time there was a direct injection of supply bought.
+
+I did some testing and digging, if you put the stagnate modifier for provincial province pop growth to 0.0005 
+then the pop grows at a nice moderate pace since it scales with the starting pop.
+So instead of 15k+ each day its now under 1k growth a day.
+
+
+
+#On Techs
+Basically, I want the economy to be intuitive and not overtly complex; 
+I have a sketch of resources and production chains present in the mod that's just a bit bigger than the one present in the base game.
+
+Regarding techs, I envision tech themselves to be more of a "focused effort in this area" 
+and the inventions as the actual results of research. For example, you can focus on small arms and infantry weapons, 
+which will immediately raise the cost of fielding infantry, but over time will unlock the techs that actually improve your units.
+
+By locking most benefits behind inventions, you can also regulate how soon a country will get them depending on other factors, 
+such as better industry or materials, and not just weapons research. I feel that's closer to modern science than granting bonuses directly with research.
+
+
+
+So I did some playtesting.
+The Core pop growth variable should be around 0.002 or 0.003, this is to prevent the explosion effects that is seen so early in the game as 0.02 is actually 2% growth, 
+which with tech effects and healthcare can get waaaay out of control.
+
+Education efficiency and or the base value of pops that effect literacy growth seems to be lower in general then what techs and reforms can provide as even with the pop change I made to 0.002, 
+I was still getting negative literacy growth it was just very slow to go into that.
+Started at -0.0187 and got it to -0.0162 by the time I ended my play test.
+
+Also I somehow got Pan-Southern California Rebels organizing as Greenland, they didn't rise up cause I didn't have a good enough pop for them to do so, but still.

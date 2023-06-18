@@ -1,0 +1,5 @@
+owner = NCA
+controller = NCA
+add_core = NCA
+trade_goods = fruit
+life_rating = 30

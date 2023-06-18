@@ -1,0 +1,10 @@
+owner = SAP
+controller = SAP
+add_core = SAP
+trade_goods = fibre_crops
+life_rating = 35
+state_building = {
+	level = 1
+	building = oil_refinery
+	upgrade = yes
+}

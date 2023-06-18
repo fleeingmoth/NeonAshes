@@ -1,0 +1,33 @@
+political_decisions = {
+	rethinking_service_rifle = {	# Rethinking the $COUNTRY_ADJ$ Service Rifle
+		news = yes
+		news_desc_long = "rethinking_service_rifle_NEWS_LONG"
+		news_desc_medium = "rethinking_service_rifle_NEWS_MEDIUM"
+		news_desc_short = "rethinking_service_rifle_NEWS_SHORT"
+		picture = service_rifle_smallpic
+		potential = { 
+			OR = {
+				has_country_modifier = 1980_battle_rifle
+				has_country_modifier = 1980_assault_rifle
+				has_country_modifier = 1990_battle_rifle
+				has_country_modifier = 1990_assault_rifle
+				has_country_modifier = 1990_carbine
+			}
+		}
+		allow = {
+			NOT = { has_country_modifier = service_rifle_change }
+		}
+		effect = {
+			remove_country_modifier = 1980_battle_rifle
+			remove_country_modifier = 1980_assault_rifle
+			remove_country_modifier = 1990_battle_rifle
+			remove_country_modifier = 1990_assault_rifle
+			remove_country_modifier = 1990_carbine
+			add_country_modifier = {
+				name = service_rifle_change
+				duration = 720
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

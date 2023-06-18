@@ -1,0 +1,134 @@
+# 101 - 107 - Canada
+#country_event = { # British Columbia
+#	id = 101
+#	title = "EVT_101_NAME"
+#	desc = "EVT_101_DESC"
+#	picture = "overview_british_columbia_pic"
+#	fire_only_once = yes
+#	trigger = { tag = BCB }
+#	mean_time_to_happen = { months = 1 }
+#	option = { name = "EVT_101_OPTA" } # "Splendor sine occasu!"
+#}
+#country_event = { #Canadian Prairies
+#	id = 102
+#	title = "EVT_102_NAME"
+#	desc = "EVT_102_DESC"
+#	picture = "overview_canadian_prairies_pic"
+#	fire_only_once = yes
+#	trigger = { tag = CPR }
+#	mean_time_to_happen = { months = 1 }
+#	option = { name = "EVT_102_OPTA" } # "Home sweet home, it's where I'm proud to be!"
+#}
+#country_event = { #Canadian Maritimes
+#	id = 103
+#	title = "EVT_103_NAME"
+#	desc = "EVT_103_DESC"
+#	picture = "events_default"
+#	fire_only_once = yes
+#	trigger = { tag = MAR }
+#	mean_time_to_happen = { months = 1 }
+#	option = { name = "EVT_103_OPTA" } # "And sing God save the land, we love so well!"
+#}
+#country_event = { #Newfoundland
+#	id = 104
+#	title = "EVT_104_NAME"
+#	desc = "EVT_104_DESC"
+#	picture = "events_default"
+#	fire_only_once = yes
+#	trigger = { tag = NFL }
+#	mean_time_to_happen = { months = 1 }
+#	option = { name = "EVT_104_OPTA" } # "God guard thee, Newfoundland!"
+#}
+#country_event = { #Northwest Territories
+#	id = 105
+#	title = "EVT_105_NAME"
+#	desc = "EVT_105_DESC"
+#	picture = "events_default"
+#	fire_only_once = yes
+#	trigger = { tag = NWT }
+#	mean_time_to_happen = { months = 1 }
+#	option = { name = "EVT_105_OPTA" } # "Blue lake and rocky shore, I will return once more!"
+#}
+#country_event = { #Ontario
+#	id = 106
+#	title = "EVT_106_NAME"
+#	desc = "EVT_106_DESC"
+#	picture = "events_default"
+#	fire_only_once = yes
+#	trigger = { tag = ONT }
+#	mean_time_to_happen = { months = 1 }
+#	option = { name = "EVT_106_OPTA" } # "A Place to Stand, a Place to Grow!"
+#}
+country_event = { # Quebec
+	id = 107
+	title = "EVT_107_NAME"
+	desc = "EVT_107_DESC"
+	picture = "overview_quebec_pic"
+	fire_only_once = yes
+	trigger = { tag = QBC }
+	mean_time_to_happen = { months = 1 }
+	option = {
+		name = "EVT_107_OPTA" # "Go on..."
+		add_country_modifier = {
+			name = qbc_national_spirit
+			duration = -1
+		}
+		country_event = { # "Gens du pays, c'est votre tour!"
+			id = 10700
+			days = 0
+		}
+	}
+}
+# 108 - 179 - USA
+country_event = { # Alaska
+	id = 108
+	title = "EVT_108_NAME"
+	desc = "EVT_108_DESC"
+	picture = "overview_alaska_pic"
+	fire_only_once = yes
+	trigger = { tag = ASK }
+	mean_time_to_happen = { months = 1 }
+	option = {
+		name = "EVT_108_OPTA" # "Go on..."
+		add_country_modifier = {
+			name = ask_national_spirit
+			duration = -1
+		}
+		country_event = { # "North to the Future!"
+			id = 10800
+			days = 0
+		}
+	}
+}
+# 180 - 189 - Canada and US Unification Events
+country_event = { # West Canada
+	id = 180
+	title = "EVT_180_NAME"
+	desc = "EVT_180_DESC"
+	picture = "overview_west_canada_pic"
+	fire_only_once = yes
+	trigger = { tag = WCA }
+	mean_time_to_happen = { months = 1 }
+	option = { name = "EVT_180_OPTA" } # "We're runnin' back to Saskatoon!"
+}
+country_event = { # East Canada
+	id = 181
+	title = "EVT_181_NAME"
+	desc = "EVT_181_DESC"
+	picture = "overview_east_canada_pic"
+	fire_only_once = yes
+	trigger = { tag = ECA }
+	mean_time_to_happen = { months = 1 }
+	option = { name = "EVT_181_OPTA" } # "The Maple and Fleur-de-Lis Forever!"
+}
+country_event = { # Canada
+	id = 182
+	title = "EVT_182_NAME"
+	desc = "EVT_182_DESC"
+	picture = "overview_canada_pic"
+	fire_only_once = yes
+	trigger = { tag = CAN }
+	mean_time_to_happen = { months = 1 }
+	option = { name = "EVT_182_OPTA" } # "Tracing one warm line, through our lands so wild and savage!"
+}
+# 190 - 199 - North American Unifications

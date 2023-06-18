@@ -1,0 +1,10 @@
+owner = MAT
+controller = MAT
+add_core = MAT
+trade_goods = cattle
+life_rating = 30
+state_building = {
+	level = 1
+	building = steel_mill
+	upgrade = yes
+}

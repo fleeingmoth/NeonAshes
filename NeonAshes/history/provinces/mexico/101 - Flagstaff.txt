@@ -1,0 +1,10 @@
+owner = ASW
+controller = ASW
+add_core = ASW
+trade_goods = fibre_crops
+life_rating = 35
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}

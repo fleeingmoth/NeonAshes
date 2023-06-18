@@ -1,0 +1,146 @@
+# West Canada Compact
+
+alliance = {
+	first = BCB
+	second = CPR
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = BCB
+	second = NWT
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = CPR
+	second = NWT
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+
+# East Canada Compact
+
+alliance = {
+	first = ONT
+	second = QBC
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = ONT
+	second = MAR
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = QBC
+	second = MAR
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+
+# Former United States
+
+alliance = {
+	first = DIX
+	second = OZK
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = NAP
+	second = SAP
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = IMT
+	second = GPL
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = ASW
+	second = NAV
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+
+# North Mexico
+
+alliance = {
+	first = SON
+	second = CHH
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = RGR
+	second = CHH
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = SON
+	second = RGR
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = SON
+	second = BAJ
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = CHH
+	second = BAJ
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = RGR
+	second = BAJ
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+
+# South Mexico
+
+alliance = {
+	first = WMX
+	second = EMX
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = WMX
+	second = CHP
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = WMX
+	second = YUC
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = EMX
+	second = CHP
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = EMX
+	second = YUC
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = YUC
+	second = CHP
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}

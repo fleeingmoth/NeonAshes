@@ -1,0 +1,2 @@
+trade_goods = other_metals
+life_rating = 35

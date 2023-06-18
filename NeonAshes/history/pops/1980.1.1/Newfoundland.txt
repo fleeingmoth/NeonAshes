@@ -1,0 +1,268 @@
+#Newfoundland Region (123015) - 1857 Census
+#Saint John's (300,000 / 75,000 POPS)
+74 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1500
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 35000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1000
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 3500
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 30000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 4000
+	}
+}
+#Millertown (200,000 / 50,000 POPS)
+75 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1500
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 16000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2500
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 3000
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 250
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 22000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+}
+#Hopedale (8,000 / 2,000 POPS)
+76 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 40
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 40
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 300
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 20
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+
+}
+#Port Hope Simpson (16,000 / 4,000 POPS)
+2625 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 20
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 20
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 250
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2400
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 120
+	}
+}
+#St Pierre & Miquelon Region (2200)
+#Saint Pierre (2200/550 POPS)
+77 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 20
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 150
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 5
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+}

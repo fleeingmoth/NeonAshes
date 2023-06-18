@@ -1,0 +1,107 @@
+#Navajo Nation (56,000 real / 14,000 pops)
+#Window Rock (40,000 real / 10,000 pops) (10%)
+3256 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 300
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 250
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 100
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 300
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 250
+	}
+}
+#Farmington (16,000 real / 4,000 pops) (4%)
+3257 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 50
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 50
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 40
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 50
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 1600
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 100
+	}
+}

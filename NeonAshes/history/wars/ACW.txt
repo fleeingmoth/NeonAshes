@@ -1,0 +1,20 @@
+name = "American Civil War"
+1861.6.30 = {
+	add_attacker = MAT
+	add_defender = DIX
+	war_goal = {
+		casus_belli = civil_war
+		actor = MAT
+		receiver = DIX
+	}
+	war_goal = {
+		casus_belli = status_quo
+		actor = DIX
+		receiver = MAT
+	}
+
+}
+1865.12.31 = {
+	rem_attacker = MAT
+	rem_defender = DIX
+}

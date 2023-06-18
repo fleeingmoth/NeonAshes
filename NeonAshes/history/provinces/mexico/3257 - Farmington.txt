@@ -1,0 +1,10 @@
+owner = NAV
+controller = NAV
+add_core = NAV
+trade_goods = sheeps
+life_rating = 30
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}

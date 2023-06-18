@@ -1,0 +1,1636 @@
+political_decisions = {
+
+### ### ### Social Democrats ### ### ###
+
+	propaganda_socdem_boost = {	# Boost Social Democrats
+		news = no
+		picture = propaganda_socdem_boost_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting tech
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			ruling_party_ideology = social_democrat		# Can only boost govt ideology
+			NOT = { social_democrat = 95 }			# Too popular already
+			NOT = { has_country_flag = hide_propaganda }	# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_pro_socdem
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.10					# Does it fairly often
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+	propaganda_socdem_reduce = {	# Reduce Social Democrats
+		news = no
+		picture = propaganda_socdem_reduce_smallpic
+		potential = {
+			broadcasting = 1					# Broadcasting tech
+			OR = {							# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { ruling_party_ideology = social_democrat }	# Can't reduce own govt support
+			OR = {							# Only anti-socdem govts can take this
+				government = socialist_dictatorship
+				government = communist_state
+				government = minarchist_state
+				government = eco_state
+				government = auth_democracy
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			social_democrat = 5					# There is at least some support for Social Democrats
+			NOT = { has_country_flag = hide_propaganda }		# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_anti_socdem
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.01					# Does it occasionally
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# 10 percent socdems
+				factor = 2
+				social_democrat = 10
+			}
+			modifier = {					# 20 percent socdems
+				factor = 2
+				social_democrat = 20
+			}
+			modifier = {					# 30 percent socdems
+				factor = 2
+				social_democrat = 30
+			}
+			modifier = {					# 50 percent socdems
+				factor = 2
+				social_democrat = 50
+			}
+			modifier = {					# 75 percent socdems
+				factor = 2
+				social_democrat = 75
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+
+### ### ### Socialists ### ### ###
+
+	propaganda_socialist_boost = {	# Boost Socialists
+		news = no
+		picture = propaganda_socialism_boost_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting tech
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			ruling_party_ideology = socialist		# Can only boost govt ideology
+			NOT = { socialist = 95 }			# Too popular already
+			NOT = { has_country_flag = hide_propaganda }	# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_pro_socialist
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.10					# Does it fairly often
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+	propaganda_socialist_reduce = {	# Reduce Socialists
+		news = no
+		picture = propaganda_socialism_reduce_smallpic
+		potential = {
+			broadcasting = 1					# Broadcasting tech
+			OR = {							# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { ruling_party_ideology = socialist }		# Can't reduce own govt support
+			OR = {							# Only anti-socialist govts can take this
+				government = communist_state
+				government = minarchist_state
+				government = eco_state
+				government = limited_democracy
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			socialist = 5						# There is at least some support for Socialists
+			NOT = { has_country_flag = hide_propaganda }		# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_anti_socialist
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.01					# Does it occasionally
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# 10 percent socialists
+				factor = 2
+				socialist = 10
+			}
+			modifier = {					# 20 percent socialists
+				factor = 2
+				socialist = 20
+			}
+			modifier = {					# 30 percent socialists
+				factor = 2
+				socialist = 30
+			}
+			modifier = {					# 50 percent socialists
+				factor = 2
+				socialist = 50
+			}
+			modifier = {					# 75 percent socialists
+				factor = 2
+				socialist = 75
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+
+### ### ### Communists ### ### ###
+
+	propaganda_communist_boost = {	# Boost Communists
+		news = no
+		picture = propaganda_communism_boost_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting tech
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			ruling_party_ideology = communist		# Can only boost govt ideology
+			NOT = { communist = 95 }			# Too popular already
+			NOT = { has_country_flag = hide_propaganda }	# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_pro_communist
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.10					# Does it fairly often
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+	propaganda_communist_reduce = {	# Reduce Communism
+		news = no
+		picture = propaganda_communism_reduce_smallpic
+		potential = {
+			broadcasting = 1					# Broadcasting tech
+			OR = {							# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { ruling_party_ideology = communist }		# Can't reduce own govt support
+			OR = {							# Only anti-commie govts can take this
+				government = defensive_democracy
+				government = socialist_dictatorship
+				government = minarchist_state
+				government = limited_democracy
+				government = eco_state
+				government = auth_democracy
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			communist = 5						# There is at least some support for Communists
+			NOT = { has_country_flag = hide_propaganda }		# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_anti_communist
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.01					# Does it occasionally
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# 10 percent communists
+				factor = 2
+				communist = 10
+			}
+			modifier = {					# 20 percent communists
+				factor = 2
+				communist = 20
+			}
+			modifier = {					# 30 percent communists
+				factor = 2
+				communist = 30
+			}
+			modifier = {					# 50 percent communists
+				factor = 2
+				communist = 50
+			}
+			modifier = {					# 75 percent communists
+				factor = 2
+				communist = 75
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+
+### ### ### Liberals ### ### ###
+
+	propaganda_liberal_boost = {	# Boost Liberals
+		news = no
+		picture = propaganda_liberals_boost_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting tech
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			ruling_party_ideology = liberal			# Can only boost govt ideology
+			NOT = { liberal = 95 }			# Too popular already
+			NOT = { has_country_flag = hide_propaganda }	# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_pro_liberal
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.10					# Does it fairly often
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+	propaganda_liberal_reduce = {	# Reduce Liberals
+		news = no
+		picture = propaganda_liberals_reduce_smallpic
+		potential = {
+			broadcasting = 1					# Broadcasting tech
+			OR = {							# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { ruling_party_ideology = liberal }		# Can't reduce own govt support
+			OR = {							# Only anti-liberals govts can take this
+				government = socialist_democracy
+				government = socialist_dictatorship
+				government = communist_state
+				government = minarchist_state
+				government = eco_state
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			liberal = 5						# There is at least some support for Liberals
+			NOT = { has_country_flag = hide_propaganda }		# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_anti_liberal
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.01					# Does it occasionally
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# 10 percent liberals
+				factor = 2
+				liberal = 10
+			}
+			modifier = {					# 20 percent liberals
+				factor = 2
+				liberal = 20
+			}
+			modifier = {					# 30 percent liberals
+				factor = 2
+				liberal = 30
+			}
+			modifier = {					# 50 percent liberals
+				factor = 2
+				liberal = 50
+			}
+			modifier = {					# 75 percent liberals
+				factor = 2
+				liberal = 75
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+
+### ### ### Libertarians ### ### ###
+
+	propaganda_anarcho_liberal_boost = {	# Boost Libertarians
+		news = no
+		picture = propaganda_libertarian_boost_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting tech
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			ruling_party_ideology = anarcho_liberal		# Can only boost govt ideology
+			NOT = { anarcho_liberal = 95 }			# Too popular already
+			NOT = { has_country_flag = hide_propaganda }	# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_pro_anarcho_liberal
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.10					# Does it fairly often
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+	propaganda_anarcho_liberal_reduce = {	# Reduce Libertarians
+		news = no
+		picture = propaganda_libertarian_reduce_smallpic
+		potential = {
+			broadcasting = 1					# Broadcasting tech
+			OR = {							# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { ruling_party_ideology = anarcho_liberal }	# Can't reduce own govt support
+			OR = {							# Only anti-libertarian govts can take this
+				government = socialist_democracy
+				government = socialist_dictatorship
+				government = communist_state
+				government = eco_state
+				government = limited_democracy
+				government = auth_democracy
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			anarcho_liberal = 5					# There is at least some support for Libertarians
+			NOT = { has_country_flag = hide_propaganda }		# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_anti_anarcho_liberal
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.01					# Does it occasionally
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# 10 percent libertarians
+				factor = 2
+				anarcho_liberal = 10
+			}
+			modifier = {					# 20 percent libertarians
+				factor = 2
+				anarcho_liberal = 20
+			}
+			modifier = {					# 30 percent libertarians
+				factor = 2
+				anarcho_liberal = 30
+			}
+			modifier = {					# 50 percent libertarians
+				factor = 2
+				anarcho_liberal = 50
+			}
+			modifier = {					# 75 percent libertarians
+				factor = 2
+				anarcho_liberal = 75
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+
+### ### ### Greens ### ### ###
+
+	propaganda_greens_boost = {	# Boost Greens
+		news = no
+		picture = propaganda_greens_boost_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting tech
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			ruling_party_ideology = green			# Can only boost govt ideology
+			NOT = { green = 95 }			# Too popular already
+			NOT = { has_country_flag = hide_propaganda }	# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_pro_greens
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.10					# Does it fairly often
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+	propaganda_greens_reduce = {	# Reduce Greens
+		news = no
+		picture = propaganda_greens_reduce_smallpic
+		potential = {
+			broadcasting = 1					# Broadcasting tech
+			OR = {							# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { ruling_party_ideology = green }			# Can't reduce own govt support
+			OR = {							# Only anti-liberals govts can take this
+				government = socialist_dictatorship
+				government = communist_state
+				government = minarchist_state
+				government = limited_democracy
+				government = auth_democracy
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			green = 5						# There is at least some support for Greens
+			NOT = { has_country_flag = hide_propaganda }		# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_anti_greens
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.01					# Does it occasionally
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# 10 percent greens
+				factor = 2
+				green = 10
+			}
+			modifier = {					# 20 percent greens
+				factor = 2
+				green = 20
+			}
+			modifier = {					# 30 percent greens
+				factor = 2
+				green = 30
+			}
+			modifier = {					# 50 percent greens
+				factor = 2
+				green = 50
+			}
+			modifier = {					# 75 percent greens
+				factor = 2
+				green = 75
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+
+### ### ### Conservative ### ### ###
+
+	propaganda_conservative_boost = {	# Boost Conservatives
+		news = no
+		picture = propaganda_cons_boost_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting tech
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			ruling_party_ideology = conservative		# Can only boost govt ideology
+			NOT = { conservative = 95 }			# Too popular already
+			NOT = { has_country_flag = hide_propaganda }	# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_pro_conservative
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.10					# Does it fairly often
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+	propaganda_conservative_reduce = {	# Reduce Conservatives
+		news = no
+		picture = propaganda_cons_reduce_smallpic
+		potential = {
+			broadcasting = 1					# Broadcasting tech
+			OR = {							# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { ruling_party_ideology = conservative }		# Can't reduce own govt support
+			OR = {							# Only anti-conservative govts can take this
+				government = socialist_democracy
+				government = socialist_dictatorship
+				government = communist_state
+				government = minarchist_state
+				government = eco_state
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+
+			}
+			conservative = 5					# There is at least some support for Conservatives
+			NOT = { has_country_flag = hide_propaganda }		# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_anti_conservative
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.01					# Does it occasionally
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# 10 percent conservatives
+				factor = 2
+				conservative = 10
+			}
+			modifier = {					# 20 percent conservatives
+				factor = 2
+				conservative = 20
+			}
+			modifier = {					# 30 percent conservatives
+				factor = 2
+				conservative = 30
+			}
+			modifier = {					# 50 percent conservatives
+				factor = 2
+				conservative = 50
+			}
+			modifier = {					# 75 percent conservatives
+				factor = 2
+				conservative = 75
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+
+### ### ### Nationalists ### ### ###
+
+	propaganda_nationalism_boost = {	# Boost Nationalists
+		news = no
+		picture = propaganda_nats_boost_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting tech
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			ruling_party_ideology = nationalist		# Can only boost govt ideology
+			NOT = { nationalist = 95 }			# Too popular already
+			NOT = { has_country_flag = hide_propaganda }	# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_pro_nationalist
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.10					# Does it fairly often
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+	propaganda_nationalism_reduce = {	# Reduce Nationalists
+		news = no
+		picture = propaganda_nats_reduce_smallpic
+		potential = {
+			broadcasting = 1					# Broadcasting tech
+			OR = {							# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { ruling_party_ideology = nationalist }		# Can't reduce own govt support
+			OR = {							# Only anti-nationalist govts can take this
+				government = socialist_democracy
+				government = socialist_dictatorship
+				government = communist_state
+				government = minarchist_state
+				government = eco_state
+				government = limited_democracy
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			nationalist = 5						# There is at least some support for Nationalists
+			NOT = { has_country_flag = hide_propaganda }		# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_anti_nationalist
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.01					# Does it occasionally
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# 10 percent nationalists
+				factor = 2
+				nationalist = 10
+			}
+			modifier = {					# 20 percent nationalists
+				factor = 2
+				nationalist = 20
+			}
+			modifier = {					# 30 percent nationalists
+				factor = 2
+				nationalist = 30
+			}
+			modifier = {					# 50 percent nationalists
+				factor = 2
+				nationalist = 50
+			}
+			modifier = {					# 75 percent nationalists
+				factor = 2
+				nationalist = 75
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+
+### ### ### Traditionalists ### ### ###
+
+	propaganda_traditionalist_boost = {	# Boost Traditionalists
+		news = no
+		picture = propaganda_trads_boost_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting tech
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			ruling_party_ideology = traditionalist		# Can only boost govt ideology
+			NOT = { traditionalist = 95 }			# Too popular already
+			NOT = { has_country_flag = hide_propaganda }	# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_pro_traditionalist
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.10					# Does it fairly often
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+	propaganda_traditionalist_reduce = {	# Reduce Traditionalists
+		news = no
+		picture = propaganda_trads_reduce_smallpic
+		potential = {
+			broadcasting = 1					# Broadcasting tech
+			OR = {							# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { ruling_party_ideology = traditionalist }	# Can't reduce own govt support
+			OR = {							# Only anti-traditionalist govts can take this
+				government = socialist_democracy
+				government = socialist_dictatorship
+				government = communist_state
+				government = minarchist_state
+				government = eco_state
+				government = limited_democracy
+				government = nat_dictatorship
+				government = ultranat_dictatorship
+
+			}
+			traditionalist = 5					# There is at least some support for Traditionalists
+			NOT = { has_country_flag = hide_propaganda }		# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_anti_traditionalist
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.01					# Does it occasionally
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# 10 percent traditionalists
+				factor = 2
+				traditionalist = 10
+			}
+			modifier = {					# 20 percent traditionalists
+				factor = 2
+				traditionalist = 20
+			}
+			modifier = {					# 30 percent traditionalists
+				factor = 2
+				traditionalist = 30
+			}
+			modifier = {					# 50 percent traditionalists
+				factor = 2
+				traditionalist = 50
+			}
+			modifier = {					# 75 percent traditionalists
+				factor = 2
+				traditionalist = 75
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+
+### ### ### Ultranationalists ### ### ###
+
+	propaganda_ultranat_boost = {	# Boost Ultranationalists
+		news = no
+		picture = propaganda_ultranat_boost_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting tech
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			ruling_party_ideology = ultranationalist	# Can only boost govt ideology
+			NOT = { ultranationalist = 95 }			# Too popular already
+			NOT = { has_country_flag = hide_propaganda }	# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_pro_ultranat
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.10					# Does it fairly often
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+	propaganda_ultranat_reduce = {	# Reduce Ultranationalism
+		news = no
+		picture = propaganda_ultranat_reduce_smallpic
+		potential = {
+			broadcasting = 1					# Broadcasting tech
+			OR = {							# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { ruling_party_ideology = ultranationalist }	# Can't reduce own govt support
+			OR = {							# Only anti-ultranat govts can take this
+				government = defensive_democracy
+				government = socialist_democracy
+				government = socialist_dictatorship
+				government = communist_state
+				government = minarchist_state
+				government = eco_state
+				government = limited_democracy
+				government = nat_dictatorship
+				government = theo_dictatorship
+			}
+			ultranationalist = 5					# There is at least some support for Ultranationalists
+			NOT = { has_country_flag = hide_propaganda }		# Decluttering toggle
+		}
+		allow = {
+			NOT = { 		# Not running any propaganda campaigns
+				OR = {
+					has_country_modifier = propaganda_pro_socdem
+					has_country_modifier = propaganda_anti_socdem
+					has_country_modifier = propaganda_pro_socialist
+					has_country_modifier = propaganda_anti_socialist
+					has_country_modifier = propaganda_pro_communist
+					has_country_modifier = propaganda_anti_communist
+					has_country_modifier = propaganda_pro_liberal
+					has_country_modifier = propaganda_anti_liberal
+					has_country_modifier = propaganda_pro_anarcho_liberal
+					has_country_modifier = propaganda_anti_anarcho_liberal
+					has_country_modifier = propaganda_pro_greens
+					has_country_modifier = propaganda_anti_greens
+					has_country_modifier = propaganda_pro_conservative
+					has_country_modifier = propaganda_anti_conservative
+					has_country_modifier = propaganda_pro_nationalist
+					has_country_modifier = propaganda_anti_nationalist
+					has_country_modifier = propaganda_pro_traditionalist
+					has_country_modifier = propaganda_anti_traditionalist
+					has_country_modifier = propaganda_pro_ultranat
+					has_country_modifier = propaganda_anti_ultranat
+				}
+			}
+		}
+		effect = {
+			add_tax_relative_income = -10			# It costs money to run
+			add_country_modifier = {			# Start the presses
+				name = propaganda_anti_ultranat
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0.01					# Does it occasionally
+			modifier = {					# No money, no propaganda.
+				factor = 0
+				NOT = { money = 50000 }
+			}
+			modifier = {					# 10 percent ultranationalists
+				factor = 2
+				ultranationalist = 10
+			}
+			modifier = {					# 20 percent ultranationalists
+				factor = 2
+				ultranationalist = 20
+			}
+			modifier = {					# 30 percent ultranationalists
+				factor = 2
+				ultranationalist = 30
+			}
+			modifier = {					# 50 percent ultranationalists
+				factor = 2
+				ultranationalist = 50
+			}
+			modifier = {					# 75 percent ultranationalists
+				factor = 2
+				ultranationalist = 75
+			}
+			modifier = {					# Censored press
+				factor = 2
+				press_rights = censored_press
+			}
+			modifier = {					# State press
+				factor = 3
+				press_rights = state_press
+			}
+		}
+	}
+}

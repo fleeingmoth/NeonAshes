@@ -1,0 +1,4 @@
+owner = GPL
+controller = GPL
+add_core = GPL
+trade_goods = bauxitelife_rating = 25

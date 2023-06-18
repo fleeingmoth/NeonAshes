@@ -1,0 +1,5 @@
+owner = ASW
+controller = ASW
+add_core = ASW
+trade_goods = other_metals
+life_rating = 35

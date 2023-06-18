@@ -1,0 +1,15 @@
+owner = CHH
+controller = CHH
+add_core = CHH
+trade_goods = cattle
+life_rating = 30
+state_building = {
+	level = 1
+	building = construction_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_mill
+	upgrade = yes
+}

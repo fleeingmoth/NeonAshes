@@ -1,0 +1,531 @@
+#California Region
+#San Francisco (5,000,000 / 1,250,000 POPS)
+84 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 15000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 15000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 500000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 40000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 12500
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 7500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 500000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 25000
+	}
+}
+#Eureka (1,000,000 / 250,000 POPS)
+85 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+}
+#Sacramento (1,500,000 / 375,000 POPS)
+86 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 150000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 150000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+}
+#Monterey (1,000,000 / 250,000 POPS)
+87 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+}
+#Mariposa (2,000,000 / 500,000 POPS)
+88 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 140000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 12000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 160000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+}
+#Los Angeles (10,000,000 / 2,500,000 POPS)
+89 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 30000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 30000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 1000000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 200000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 15000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 40000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 1000000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+}
+#San Diego (800,000 / 200,000 POPS)
+90 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}
+# Redding
+3251 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}
+# Fresno
+3252 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}
+# Barstow
+3253 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}

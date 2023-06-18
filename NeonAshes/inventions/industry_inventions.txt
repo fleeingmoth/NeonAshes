@@ -1,0 +1,494 @@
+### ### Energy Generation ### ###
+### Fossil Fuel Power ###
+seismic_imaging = { # Seismic Imaging
+	limit = { fossil_fuel_power = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			microprocessors = 1
+		}
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1
+		}
+		modifier = {
+			factor = 1
+			modern_transportation = 1
+		}
+		modifier = {
+			factor = -4
+			NOT = { any_owned_province = { produces = oil } }
+		}
+	}
+	effect = {
+		rgo_size = { oil = 0.2 }	# More oil fields to work in
+	}
+}
+hydraulic_fracturing = { # Hydraulic Fracturing
+	limit = { fossil_fuel_power = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1
+		}
+		modifier = {
+			factor = 1
+			polymers = 1
+		}
+		modifier = {
+			factor = 1
+			modern_transportation = 1
+		}
+		modifier = {
+			factor = -4
+			NOT = { any_owned_province = { produces = oil } }
+		}
+	}
+	effect = {
+		rgo_goods_output = { oil = 0.2 }	# Greater oil output
+	}
+}
+refined_coal = { # Refined Coal
+	limit = { fossil_fuel_power = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			microprocessors = 1
+		}
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1
+		}
+		modifier = {
+			factor = 1
+			polymers = 1
+		}
+		modifier = {
+			factor = -4
+			NOT = { any_owned_province = { produces = coal } }
+		}
+	}
+	effect = {
+		rgo_goods_output = { coal = 0.2 }	# Better, more marketable coal
+	}
+}
+pressurized_fluid_bed_combustion = { # Pressurized Fluid Bed Combustion
+	limit = { fossil_fuel_power = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1
+		}
+		modifier = {
+			factor = 1
+			polymers = 1
+		}
+		modifier = {
+			factor = 1
+			modern_composites = 1
+		}
+		modifier = {
+			factor = 1
+			any_owned_province = { produces = coal }
+		}
+	}
+	effect = {
+		factory_goods_input = { energy = -0.05 }	# We can improve coal efficiency
+	}
+}
+supercritical_steam_generator = { # Supercritical Steam Generator
+	limit = { fossil_fuel_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			nuclear_energy = 1
+		}
+		modifier = {
+			factor = 1
+			renewable_energy = 1
+		}
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1
+		}
+		modifier = {
+			factor = 1
+			modern_composites = 1
+		}
+	}
+	effect = {
+		factory_goods_output = { energy = 0.10 }	# We can improve power plants
+	}
+}
+ultra_supercritical_steam_generator = { # Supercritical Steam Generator
+	limit = { fossil_fuel_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			nuclear_energy = 1
+		}
+		modifier = {
+			factor = 1
+			renewable_energy = 1
+		}
+		modifier = {
+			factor = 1
+			digital_automation = 1
+		}
+		modifier = {
+			factor = 1
+			metamaterials = 1
+		}
+		modifier = {
+			factor = -4
+			NOT = { invention = supercritical_steam_generator }
+		}
+	}
+	effect = {
+		factory_goods_output = { energy = 0.10 }	# We can improve power plants
+	}
+}
+
+### Nuclear Energy ###
+
+### Renewable Energy ###
+
+### Smart Grid ###
+
+### Energy Renaissance ###
+
+### Nuclear Fusion ###
+
+### ### Industrial Engineering ### ###
+### Modern Manufacturing ###
+
+### Digital Automation ###
+
+### 3D Printing ###
+
+### Manufacturing AI ##
+
+### Nanoscale Manufacturing ###
+
+### Full Automation ###
+
+### ### Materials Science ### ###
+### Polymers ###
+
+aramids = { # Aramids
+	limit = { polymers = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1 # Better industrial base
+		}
+		modifier = {
+			factor = 2
+			modern_composites = 1 # We have increased materials knowledge
+		}
+	}
+	effect = {
+		soldier_to_pop_loss = 0.01				# Impromptu armor, extra bonus on mil techs
+		factory_goods_output = { polymers_and_plastics = 0.05 } # Light, versatile material
+		factory_goods_output = { construction_materials = 0.05 }# Better construction
+		factory_goods_output = { motor_vehicles = 0.05 }	# Lighter cars
+		factory_goods_output = { ships = 0.05 }			# Lighter ships
+	}
+}
+high_modulus_polyethylene = { # High-Modulus Polyethylene
+	limit = { polymers = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1 # Better industrial base
+		}
+		modifier = {
+			factor = 2
+			modern_composites = 1 # We have increased materials knowledge
+		}
+	}
+	effect = {
+		factory_goods_output = { polymers_and_plastics = 0.05 } # Light, versatile material
+		factory_goods_output = { pharma_n_equipment = 0.05 } # You can use it in medicine
+	}
+}
+metallic_fiber = { # Metallic Fiber
+	limit = { polymers = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1 # Better industrial base
+		}
+		modifier = {
+			factor = 1
+			modern_composites = 1 # We have increased materials knowledge
+		}
+		modifier = {
+			factor = 1
+			invention = optical_fiber # Parallel advancements in fiber making
+		}
+	}
+	effect = {
+		factory_input = -0.02					# Filters, several practical industrial uses...
+		factory_goods_output = { energy = 0.05 }		# Energy efficiency
+		factory_goods_output = { motor_vehicles = 0.05 }	# Lighter cars
+		factory_goods_output = { aircraft = 0.05 }		# Lighter aircraft
+		factory_goods_output = { ships = 0.05 }			# Lighter ships
+		factory_goods_output = { spacecraft = 0.05 }		# Lighter spaceships
+	}
+}
+optical_fiber = { # Optical Fiber
+	limit = { polymers = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1 # Better industrial base
+		}
+		modifier = {
+			factor = 1
+			modern_composites = 1 # We have increased materials knowledge
+		}
+		modifier = {
+			factor = 1
+			invention = metallic_fiber # Parallel advancements in fiber making
+		}
+	}
+	effect = {
+		factory_goods_output = { electronic_components = 0.05 } # Sensors, fibre optic cables...
+	}
+}
+modal_rayon = { # Modal Rayon
+	limit = { polymers = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1 # Better industrial base
+		}
+		modifier = {
+			factor = 1
+			modern_composites = 1 # We have increased materials knowledge
+		}
+		modifier = {
+			factor = 1
+			invention = lyocell_rayon # Parallel advancements in rayon
+		}
+	}
+	effect = {
+		factory_goods_output = { textiles = 0.10 } # More fibers to work with
+	}
+}
+lyocell_rayon = { # Lyocell Rayon
+	limit = { polymers = 1 }
+	chance = {
+		base = 1 # Very low chance by itselflf
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1 # Better industrial base
+		}
+		modifier = {
+			factor = 1
+			modern_composites = 1 # We have increased materials knowledge
+		}
+		modifier = {
+			factor = 1
+			invention = modal_rayon # Parallel advancements in rayon
+		}
+	}
+	effect = {
+		factory_goods_input = { textiles = -0.05 } # Better fibers to work with
+	}
+}
+conductive_polymers = { # Conductive Polymers
+	limit = { polymers = 1 }
+	chance = {
+		base = 0 # Has other requirements
+		modifier = {
+			factor = 2
+			mobile_computing = 1 # Higher demand for it
+		}
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1 # Better industrial base
+		}
+		modifier = {
+			factor = 2
+			modern_composites = 1 # We have increased materials knowledge
+		}
+	}
+	effect = {
+		factory_goods_output = { energy = 0.05 }		# Energy efficiency
+		factory_goods_output = { electronic_components = 0.05 }	# Sensors, fibre optic cables...
+	}
+}
+high_performance_plastics = { # High Performance Plastics
+	limit = { polymers = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			modern_manufacturing = 1 # Better industrial base
+		}
+		modifier = {
+			factor = 2
+			modern_composites = 1 # We have increased materials knowledge
+		}
+	}
+	effect = { factory_throughput = 0.02 } # Big strong material
+}
+
+### Modern Composites ###
+
+aerogel = { # Aerogel
+	limit = { modern_composites = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			digital_automation = 1 # Better industrial base
+		}
+	}
+	effect = {
+		factory_goods_output = { polymers_and_plastics = 0.05 } # Light, versatile material
+		factory_goods_output = { pharma_n_equipment = 0.05 } # You can use it in medicine
+	}
+}
+duplex_stainless_steel = { # Duplex Stainless Steel
+	limit = { modern_composites = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			digital_automation = 1 # Better industrial base
+		}
+	}
+	effect = {
+		factory_goods_output = { steel = 0.10 } # Stronger, better-quality steel
+	}
+}
+amorphous_metals = { # Amorphous Metals
+	limit = { modern_composites = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			digital_automation = 1 # Better industrial base
+		}
+	}
+	effect = { factory_throughput = 0.02 } # Cool, useful, specialized material
+}
+rare_earth_metal_alloys = { # Rare-Earth Metal Alloys
+	limit = { modern_composites = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			digital_automation = 1 # Better industrial base
+		}
+	}
+	effect = {
+		rgo_goods_output = { rare_earths = 0.2 }
+	}
+}
+carbon_fiber = { # Carbon Fiber
+	limit = { modern_composites = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			digital_automation = 1 # Better industrial base
+		}
+	}
+	effect = {
+		factory_goods_output = { textiles = 0.05 }		# Advanced textiles
+		factory_goods_output = { motor_vehicles = 0.05 }	# Lighter cars
+		factory_goods_output = { aircraft = 0.05 }		# Lighter aircraft
+		factory_goods_output = { ships = 0.05 }			# Lighter ships
+		factory_goods_output = { spacecraft = 0.05 }		# Lighter spaceships
+	}
+}
+syntactic_foams = { # Syntactic Foams
+	limit = { modern_composites = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			digital_automation = 1 # Better industrial base
+		}
+	}
+	effect = {
+		factory_input = -0.02
+		factory_goods_output = { aircraft = 0.05 }	# Lighter aircraft
+		factory_goods_output = { ships = 0.05 }		# Lighter ships
+	}
+}
+ultra_high_temperature_ceramic_composites = { # Ultra-High Temperature Ceramic Composites (UHTCCs)
+	limit = { modern_composites = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			digital_automation = 1 # Better industrial base
+		}
+	}
+	effect = {
+		factory_throughput = 0.02			# Big, strong material
+		factory_goods_output = { aircraft = 0.05 }	# Lighter aircraft
+		factory_goods_output = { spacecraft = 0.05 }	# Lighter spaceships
+	}
+}
+synthetic_diamonds = { # Synthetic Diamonds
+	limit = { modern_composites = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			digital_automation = 1 # Better industrial base
+		}
+	}
+	effect = { factory_output = 0.02 } # Big strong material
+}
+
+### Metamaterials ###
+
+### Superconductors ###
+
+### Nanomaterials ###
+
+### Applied Exotics ###
+
+### ### Infrastructure and Transport ###
+### Modern Transportation ###
+
+### Communications Infrastructure ###
+
+### Globalized Infrastructure ###
+
+### Transport Revolution ###
+
+### Hyper Projects ###
+
+### Space Transportation ###
+
+### ### Medicine and Biology ###
+### Modern Medicine ###
+
+### Genetic Modification ###
+
+### Bioengineering ###
+
+### Genetic Engineering ###
+
+### Nanomedicine ###
+
+### Trans-Human ###

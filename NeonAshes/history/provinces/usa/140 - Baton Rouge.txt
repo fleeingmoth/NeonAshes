@@ -1,0 +1,14 @@
+owner = DIX
+controller = DIX
+trade_goods = oilseed_crops
+life_rating = 35
+state_building = {
+	level = 1
+	building = oil_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = oil_refinery
+	upgrade = yes
+}

@@ -1,0 +1,5 @@
+owner = NWT
+controller = NWT
+add_core = NWT
+trade_goods = timber
+life_rating = 20

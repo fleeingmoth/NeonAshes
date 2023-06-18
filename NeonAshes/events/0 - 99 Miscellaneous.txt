@@ -1,0 +1,99 @@
+# 0-99 - Miscellaneous and Hidden Events
+country_event = { # Social Reform - Unemployment
+	id = 24
+	title = "EVT_24_NAME"
+	desc = "EVT_24_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_24_OPTA"
+		money = 1000000
+		social_reform = no_subsidies
+	}
+	option = {
+		name = "EVT_24_OPTB"
+		money = 1000000
+		social_reform = trinket_subsidies
+	}
+	option = {
+		name = "EVT_24_OPTC"
+		money = 1000000
+		social_reform = low_subsidies
+	}
+	option = {
+		name = "EVT_24_OPTD"
+		money = 1000000
+		social_reform = acceptable_subsidies
+	}
+	option = {
+		name = "EVT_24_OPTE"
+		money = 1000000
+		social_reform = good_subsidies
+	}
+}
+country_event = { # Social Reform - Welfare
+	id = 25
+	title = "EVT_25_NAME"
+	desc = "EVT_25_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_25_OPTA"
+		money = 1000000
+		social_reform = no_pensions
+	}
+	option = {
+		name = "EVT_25_OPTB"
+		money = 1000000
+		social_reform = trinket_pensions
+	}
+	option = {
+		name = "EVT_25_OPTC"
+		money = 1000000
+		social_reform = low_pensions
+	}
+	option = {
+		name = "EVT_25_OPTD"
+		money = 1000000
+		social_reform = acceptable_pensions
+	}
+	option = {
+		name = "EVT_25_OPTE"
+		money = 1000000
+		social_reform = good_pensions
+	}
+}
+country_event = { # Deep Thought
+	id = 42
+	title = "EVT_42_NAME"
+	desc = "EVT_42_DESC"
+	picture = "event_42_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_42_OPTA"
+		years_of_research = 1 # An entire year of research points
+		add_country_modifier = {
+			name = deep_thought
+			duration = -1
+		}
+	}
+}
+country_event = { # Mitosis and Meiosis (pop growth and decay cheat)
+	id = 69
+	title = "EVT_69_NAME"
+	desc = "EVT_69_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_69_OPTA" # Mitosis
+		any_pop = { reduce_pop = 2.0 } #Pop doubled
+	}
+	option = {
+		name = "EVT_69_OPTB" # Meiosis
+		any_pop = { reduce_pop = 0.5 } #Pop cut in half
+	}
+}

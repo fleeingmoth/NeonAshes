@@ -1,0 +1,5 @@
+owner = SON
+controller = SON
+add_core = SON
+trade_goods = fibre_crops
+life_rating = 30

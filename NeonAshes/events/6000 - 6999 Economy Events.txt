@@ -1,0 +1,1333 @@
+### 6000-6009 - Economic Expansion and Contraction ###
+country_event = { # Economic Depression to Recession
+	id = 6000
+	title = "EVT_6000_NAME"
+	desc = "EVT_6000_DESC"
+	picture = "economics_positive_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = economic_depression		# We are in a depression
+		OR = {							# We don't have hyperinflation or hyperdeflation
+			has_country_modifier = rapid_deflation
+			has_country_modifier = deflation
+			has_country_modifier = very_low_inflation
+			has_country_modifier = low_inflation
+			has_country_modifier = moderate_inflation
+			has_country_modifier = high_inflation
+			has_country_modifier = very_high_inflation
+			has_country_modifier = extremely_high_inflation
+		}
+		NOT = { has_country_modifier = contractionary_fiscal_policy }	# Contractionary fiscal policy pushes down
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# More moderate inflation means faster recovery
+			factor = 0.5
+			has_country_modifier = deflation
+			has_country_modifier = very_low_inflation
+			has_country_modifier = low_inflation
+			has_country_modifier = moderate_inflation
+			has_country_modifier = high_inflation
+			has_country_modifier = very_high_inflation
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_fiscal_policy	# Expansionary fiscal policy pushes up
+		}
+	}
+	option = {
+		name = "EVT_6000_OPTA"
+		remove_country_modifier = economic_depression
+		remove_country_modifier = economic_recession		# Sanity check
+		remove_country_modifier = economic_stagnation
+		remove_country_modifier = economic_expansion		# Just in case they got doubled up
+		remove_country_modifier = economic_boom
+		add_country_modifier = {
+			name = economic_recession
+			duration = -1
+		}
+	}
+}
+country_event = { # Economic Recession to Depression
+	id = 6001
+	title = "EVT_6001_NAME"
+	desc = "EVT_6001_DESC"
+	picture = "economics_negative_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = economic_recession		# We are in a recession
+		OR = {							# We have hyperinflation or hyperdeflation
+			has_country_modifier = hyperdeflation
+			has_country_modifier = hyperinflation
+		}
+		NOT = { has_country_modifier = expansionary_fiscal_policy }	# Expansionary fiscal policy pushes up
+	}
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_fiscal_policy	# Contractionary fiscal policy pushes down
+		}
+	}
+	option = {
+		name = "EVT_6001_OPTA"
+		remove_country_modifier = economic_depression
+		remove_country_modifier = economic_recession		# Sanity check
+		remove_country_modifier = economic_stagnation
+		remove_country_modifier = economic_expansion		# Just in case they got doubled up
+		remove_country_modifier = economic_boom
+		add_country_modifier = {
+			name = economic_depression
+			duration = -1
+		}
+	}
+}
+country_event = { # Economic Recession to Stagnation
+	id = 6002
+	title = "EVT_6002_NAME"
+	desc = "EVT_6002_DESC"
+	picture = "economics_positive_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = economic_recession		# We are in a recession
+		OR = {							# We don't have extremely high inflation or deflation
+			has_country_modifier = deflation
+			has_country_modifier = very_low_inflation
+			has_country_modifier = low_inflation
+			has_country_modifier = moderate_inflation
+			has_country_modifier = high_inflation
+			has_country_modifier = very_high_inflation
+		}
+		NOT = { has_country_modifier = contractionary_fiscal_policy }	# Contractionary fiscal policy pushes down
+	}
+	mean_time_to_happen = {
+		months = 18
+		modifier = {						# More moderate inflation means faster recovery
+			factor = 0.5
+			has_country_modifier = low_inflation
+			has_country_modifier = moderate_inflation
+			has_country_modifier = high_inflation
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_fiscal_policy	# Expansionary fiscal policy pushes up
+		}
+	}
+	option = {
+		name = "EVT_6002_OPTA"
+		remove_country_modifier = economic_depression
+		remove_country_modifier = economic_recession		# Sanity check
+		remove_country_modifier = economic_stagnation
+		remove_country_modifier = economic_expansion		# Just in case they got doubled up
+		remove_country_modifier = economic_boom
+		add_country_modifier = {
+			name = economic_stagnation
+			duration = -1
+		}
+	}
+}
+country_event = { # Economic Stagnation to Recession
+	id = 6003
+	title = "EVT_6003_NAME"
+	desc = "EVT_6003_DESC"
+	picture = "economics_negative_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = economic_stagnation		# We are stagnant or normal
+		OR = {							# We have extremely high inflation or deflation
+			has_country_modifier = hyperdeflation
+			has_country_modifier = rapid_deflation
+			has_country_modifier = extremely_high_inflation
+			has_country_modifier = hyperinflation
+		}
+		NOT = { has_country_modifier = expansionary_fiscal_policy }	# Expansionary fiscal policy pushes up
+	}
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_fiscal_policy	# Contractionary fiscal policy pushes down
+		}
+	}
+	option = {
+		name = "EVT_6003_OPTA"
+		remove_country_modifier = economic_depression
+		remove_country_modifier = economic_recession		# Sanity check
+		remove_country_modifier = economic_stagnation
+		remove_country_modifier = economic_expansion		# Just in case they got doubled up
+		remove_country_modifier = economic_boom
+		add_country_modifier = {
+			name = economic_recession
+			duration = -1
+		}
+	}
+}
+country_event = { # Economic Stagnation to Expansion
+	id = 6004
+	title = "EVT_6004_NAME"
+	desc = "EVT_6004_DESC"
+	picture = "economics_positive_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = economic_stagnation		# We are stagnant or normal
+		OR = {							# We don't have very high inflation or deflation
+			has_country_modifier = low_inflation
+			has_country_modifier = moderate_inflation
+			has_country_modifier = high_inflation
+		}
+		NOT = { has_country_modifier = contractionary_fiscal_policy }	# Contractionary fiscal policy pushes down
+	}
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_fiscal_policy	# Expansionary fiscal policy pushes up
+		}
+	}
+	option = {
+		name = "EVT_6004_OPTA"
+		remove_country_modifier = economic_depression
+		remove_country_modifier = economic_recession		# Sanity check
+		remove_country_modifier = economic_stagnation
+		remove_country_modifier = economic_expansion		# Just in case they got doubled up
+		remove_country_modifier = economic_boom
+		add_country_modifier = {
+			name = economic_expansion
+			duration = -1
+		}
+	}
+}
+country_event = { # Economic Expansion to Stagnation
+	id = 6005
+	title = "EVT_6005_NAME"
+	desc = "EVT_6005_DESC"
+	picture = "economics_negative_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = economic_expansion		# We are in an expansion
+		OR = {							# We have very high inflation or deflation
+			has_country_modifier = hyperdeflation
+			has_country_modifier = rapid_deflation
+			has_country_modifier = deflation
+			has_country_modifier = very_low_inflation
+			has_country_modifier = very_high_inflation
+			has_country_modifier = extremely_high_inflation
+			has_country_modifier = hyperinflation
+		}
+		NOT = { has_country_modifier = expansionary_fiscal_policy }	# Expansionary fiscal policy pushes up
+	}
+	mean_time_to_happen = {
+		months = 18
+		modifier = {						# More extreme inflation means faster slowdown
+			factor = 0.5
+			has_country_modifier = hyperdeflation
+			has_country_modifier = rapid_deflation
+			has_country_modifier = extremely_high_inflation
+			has_country_modifier = hyperinflation
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_fiscal_policy	# Contractionary fiscal policy pushes down
+		}
+	}
+	option = {
+		name = "EVT_6005_OPTA"
+		remove_country_modifier = economic_depression
+		remove_country_modifier = economic_recession		# Sanity check
+		remove_country_modifier = economic_stagnation
+		remove_country_modifier = economic_expansion		# Just in case they got doubled up
+		remove_country_modifier = economic_boom
+		add_country_modifier = {
+			name = economic_stagnation
+			duration = -1
+		}
+	}
+}
+country_event = { # Economic Expansion to Boom
+	id = 6006
+	title = "EVT_6006_NAME"
+	desc = "EVT_6006_DESC"
+	picture = "economics_positive_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = economic_expansion		# We are in an expansion
+		has_country_modifier = moderate_inflation		# We have moderate inflation
+		NOT = { has_country_modifier = contractionary_fiscal_policy }	# Contractionary fiscal policy pushes down
+	}
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_fiscal_policy	# Expansionary fiscal policy pushes up
+		}
+	}
+	option = {
+		name = "EVT_6006_OPTA"
+		remove_country_modifier = economic_depression
+		remove_country_modifier = economic_recession		# Sanity check
+		remove_country_modifier = economic_stagnation
+		remove_country_modifier = economic_expansion		# Just in case they got doubled up
+		remove_country_modifier = economic_boom
+		add_country_modifier = {
+			name = economic_boom
+			duration = -1
+		}
+	}
+}
+country_event = { # Economic Boom to Expansion
+	id = 6007
+	title = "EVT_6007_NAME"
+	desc = "EVT_6007_DESC"
+	picture = "economics_negative_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = economic_boom			# We are in a boom
+		OR = {							# We don't have moderate inflation
+			has_country_modifier = hyperdeflation
+			has_country_modifier = rapid_deflation
+			has_country_modifier = deflation
+			has_country_modifier = very_low_inflation
+			has_country_modifier = low_inflation
+			has_country_modifier = high_inflation
+			has_country_modifier = very_high_inflation
+			has_country_modifier = extremely_high_inflation
+			has_country_modifier = hyperinflation
+		}
+		NOT = { has_country_modifier = expansionary_fiscal_policy }	# Expansionary fiscal policy pushes up
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# More extreme inflation means faster slowdown
+			factor = 0.5
+			has_country_modifier = hyperdeflation
+			has_country_modifier = rapid_deflation
+			has_country_modifier = deflation
+			has_country_modifier = very_low_inflation
+			has_country_modifier = very_high_inflation
+			has_country_modifier = extremely_high_inflation
+			has_country_modifier = hyperinflation
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_fiscal_policy	# Contractionary fiscal policy pushes down
+		}
+	}
+	option = {
+		name = "EVT_6007_OPTA"
+		remove_country_modifier = economic_depression
+		remove_country_modifier = economic_recession		# Sanity check
+		remove_country_modifier = economic_stagnation
+		remove_country_modifier = economic_expansion		# Just in case they got doubled up
+		remove_country_modifier = economic_boom
+		add_country_modifier = {
+			name = economic_expansion
+			duration = -1
+		}
+	}
+}
+country_event = {	# Adopt Expansionary Fiscal Policy (event)
+	id = 6008
+	title = "EVT_6008_NAME"
+	desc = "EVT_6008_DESC"
+	picture = "economic_policy_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6008_OPTA"
+		any_pop = { consciousness = 0.1 }
+		add_country_modifier = {
+			name = expansionary_fiscal_policy
+			duration = 90
+		}
+		add_country_modifier = {
+			name = fiscal_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6008_OPTB"
+		any_pop = { consciousness = 0.2 }
+		add_country_modifier = {
+			name = expansionary_fiscal_policy
+			duration = 180
+		}
+		add_country_modifier = {
+			name = fiscal_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6008_OPTC"
+		any_pop = { consciousness = 0.4 }
+		add_country_modifier = {
+			name = expansionary_fiscal_policy
+			duration = 365
+		}
+		add_country_modifier = {
+			name = fiscal_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6008_OPTD"
+		any_pop = { consciousness = 0.5 }
+		add_country_modifier = {
+			name = expansionary_fiscal_policy
+			duration = -1
+		}
+		add_country_modifier = {
+			name = fiscal_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6008_OPTE"
+	}
+}
+country_event = {	# Adopt Contractionary Fiscal Policy (event)
+	id = 6009
+	title = "EVT_6009_NAME"
+	desc = "EVT_6009_DESC"
+	picture = "economic_policy_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6009_OPTA"
+		any_pop = { consciousness = 0.1 }
+		add_country_modifier = {
+			name = contractionary_fiscal_policy
+			duration = 90
+		}
+		add_country_modifier = {
+			name = fiscal_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6009_OPTB"
+		any_pop = { consciousness = 0.2 }
+		add_country_modifier = {
+			name = contractionary_fiscal_policy
+			duration = 180
+		}
+		add_country_modifier = {
+			name = fiscal_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6009_OPTC"
+		any_pop = { consciousness = 0.4 }
+		add_country_modifier = {
+			name = contractionary_fiscal_policy
+			duration = 365
+		}
+		add_country_modifier = {
+			name = fiscal_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6009_OPTD"
+		any_pop = { consciousness = 0.5 }
+		add_country_modifier = {
+			name = contractionary_fiscal_policy
+			duration = -1
+		}
+		add_country_modifier = {
+			name = fiscal_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6009_OPTE"
+	}
+}
+
+### 6010-6019 Inflation Increase ###
+
+country_event = { # Hyperdeflation to Rapid Deflation
+	id = 6010
+	title = "EVT_6010_NAME"
+	desc = "EVT_6010_DESC"
+	picture = "inflation_growth_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = hyperdeflation			# We have hyperdeflation
+		OR = {							# We aren't shrinking
+			has_country_modifier = economic_stagnation
+			has_country_modifier = economic_expansion
+			has_country_modifier = economic_boom
+		}
+		NOT = { has_country_modifier = contractionary_monetary_policy } # Contractionary monetary policy halts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Economic expansion makes it go fast
+			factor = 0.5
+			has_country_modifier = economic_expansion
+		}
+		modifier = {						# Bigger expansion makes it faster
+			factor = 0.2
+			has_country_modifier = economic_boom
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_monetary_policy	# Expansionary monetary policy boosts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6010_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = rapid_deflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Rapid Deflation to Deflation
+	id = 6011
+	title = "EVT_6011_NAME"
+	desc = "EVT_6011_DESC"
+	picture = "inflation_growth_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = rapid_deflation			# We have rapid deflation
+		OR = {							# We aren't shrinking
+			has_country_modifier = economic_stagnation
+			has_country_modifier = economic_expansion
+			has_country_modifier = economic_boom
+		}
+		NOT = { has_country_modifier = contractionary_monetary_policy } # Contractionary monetary policy halts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Economic expansion makes it go fast
+			factor = 0.5
+			has_country_modifier = economic_expansion
+		}
+		modifier = {						# Bigger expansion makes it faster
+			factor = 0.2
+			has_country_modifier = economic_boom
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_monetary_policy	# Expansionary monetary policy boosts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6011_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = deflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Deflation to Very Low Inflation
+	id = 6012
+	title = "EVT_6012_NAME"
+	desc = "EVT_6012_DESC"
+	picture = "inflation_growth_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = deflation			# We have deflation
+		OR = {							# We are growing
+			has_country_modifier = economic_expansion
+			has_country_modifier = economic_boom
+		}
+		NOT = { has_country_modifier = contractionary_monetary_policy } # Contractionary monetary policy halts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Bigger expansion makes it faster
+			factor = 0.5
+			has_country_modifier = economic_boom
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_monetary_policy	# Expansionary monetary policy boosts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6012_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = very_low_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Very Low Inflation to Low Inflation
+	id = 6013
+	title = "EVT_6013_NAME"
+	desc = "EVT_6013_DESC"
+	picture = "inflation_growth_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = very_low_inflation		# We have very low inflation
+		OR = {							# We are growing
+			has_country_modifier = economic_expansion
+			has_country_modifier = economic_boom
+		}
+		NOT = { has_country_modifier = contractionary_monetary_policy } # Contractionary monetary policy halts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Bigger expansion makes it faster
+			factor = 0.5
+			has_country_modifier = economic_boom
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_monetary_policy	# Expansionary monetary policy boosts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6013_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = low_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Low Inflation to Moderate Inflation
+	id = 6014
+	title = "EVT_6014_NAME"
+	desc = "EVT_6014_DESC"
+	picture = "inflation_growth_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = low_inflation			# We have low inflation
+		OR = {							# We are growing
+			has_country_modifier = economic_expansion
+			has_country_modifier = economic_boom
+		}
+		NOT = { has_country_modifier = contractionary_monetary_policy } # Contractionary monetary policy halts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Bigger expansion makes it faster
+			factor = 0.5
+			has_country_modifier = economic_boom
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_monetary_policy	# Expansionary monetary policy boosts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6014_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = moderate_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Moderate Inflation to High Inflation
+	id = 6015
+	title = "EVT_6015_NAME"
+	desc = "EVT_6015_DESC"
+	picture = "inflation_growth_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = moderate_inflation		# We have moderate inflation
+		OR = {							# We are growing
+			has_country_modifier = economic_expansion
+			has_country_modifier = economic_boom
+		}
+		NOT = { has_country_modifier = contractionary_monetary_policy } # Contractionary monetary policy halts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Bigger expansion makes it faster
+			factor = 0.5
+			has_country_modifier = economic_boom
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_monetary_policy	# Expansionary monetary policy boosts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6015_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = high_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # High Inflation to Very High Inflation
+	id = 6016
+	title = "EVT_6016_NAME"
+	desc = "EVT_6016_DESC"
+	picture = "inflation_growth_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = high_inflation			# We have high inflation
+		has_country_modifier = economic_boom			# Economy is still booming
+		NOT = { has_country_modifier = contractionary_monetary_policy } # Contractionary monetary policy halts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_monetary_policy	# Expansionary monetary policy boosts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6016_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = very_high_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Very High Inflation to Extremely High Inflation
+	id = 6017
+	title = "EVT_6017_NAME"
+	desc = "EVT_6017_DESC"
+	picture = "inflation_growth_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = very_high_inflation		# We have very high inflation
+		has_country_modifier = economic_boom			# Economy is still booming
+		NOT = { has_country_modifier = contractionary_monetary_policy } # Contractionary monetary policy halts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_monetary_policy	# Expansionary monetary policy boosts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6017_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = extremely_high_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Extremely High Inflation to Hyperinflation
+	id = 6018
+	title = "EVT_6018_NAME"
+	desc = "EVT_6018_DESC"
+	picture = "inflation_growth_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = extremely_high_inflation		# We have extremely high inflation
+		has_country_modifier = economic_boom			# Economy is still booming
+		NOT = { has_country_modifier = contractionary_monetary_policy } # Contractionary monetary policy halts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			has_country_modifier = expansionary_monetary_policy	# Expansionary monetary policy boosts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6018_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = hyperinflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Adopt Expansionary Monetary Policy (event)
+	id = 6019
+	title = "EVT_6019_NAME"
+	desc = "EVT_6019_DESC"
+	picture = "economic_policy_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6019_OPTA"
+		any_pop = { consciousness = 0.1 }
+		add_country_modifier = {
+			name = expansionary_monetary_policy
+			duration = 90
+		}
+		add_country_modifier = {
+			name = monetary_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6019_OPTB"
+		any_pop = { consciousness = 0.2 }
+		add_country_modifier = {
+			name = expansionary_monetary_policy
+			duration = 180
+		}
+		add_country_modifier = {
+			name = monetary_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6019_OPTC"
+		any_pop = { consciousness = 0.4 }
+		add_country_modifier = {
+			name = expansionary_monetary_policy
+			duration = 365
+		}
+		add_country_modifier = {
+			name = monetary_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6019_OPTD"
+		any_pop = { consciousness = 0.5 }
+		add_country_modifier = {
+			name = expansionary_monetary_policy
+			duration = -1
+		}
+		add_country_modifier = {
+			name = monetary_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6019_OPTE"
+	}
+}
+
+### 6020-6029 Inflation Decrease ###
+
+country_event = { # Hyperinflation to Extremely High Inflation
+	id = 6020
+	title = "EVT_6020_NAME"
+	desc = "EVT_6020_DESC"
+	picture = "inflation_reduction_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = hyperinflation			# We have hyperinflation
+		OR = {							# Economy isn't growing
+			has_country_modifier = economic_depression
+			has_country_modifier = economic_recession
+			has_country_modifier = economic_stagnation
+		}
+		NOT = { has_country_modifier = expansionary_monetary_policy } # Expansionary monetary policy boosts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Economic recession slows it
+			factor = 0.5
+			has_country_modifier = economic_recession
+		}
+		modifier = {						# Economic depression really slows it
+			factor = 0.2
+			has_country_modifier = economic_depression
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_monetary_policy	# Contractionary monetary policy halts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6020_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = extremely_high_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Extremely High Inflation to Very High Inflation
+	id = 6021
+	title = "EVT_6021_NAME"
+	desc = "EVT_6021_DESC"
+	picture = "inflation_reduction_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = extremely_high_inflation		# We have extremely high inflation
+		OR = {							# Economy isn't growing
+			has_country_modifier = economic_depression
+			has_country_modifier = economic_recession
+			has_country_modifier = economic_stagnation
+		}
+		NOT = { has_country_modifier = expansionary_monetary_policy } # Expansionary monetary policy boosts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Economic recession slows it
+			factor = 0.5
+			has_country_modifier = economic_recession
+		}
+		modifier = {						# Economic depression really slows it
+			factor = 0.2
+			has_country_modifier = economic_depression
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_monetary_policy	# Contractionary monetary policy halts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6021_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = very_high_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Very High Inflation to High Inflation
+	id = 6022
+	title = "EVT_6022_NAME"
+	desc = "EVT_6022_DESC"
+	picture = "inflation_reduction_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = very_high_inflation		# We have very high inflation
+		OR = {							# Economy isn't growing
+			has_country_modifier = economic_depression
+			has_country_modifier = economic_recession
+			has_country_modifier = economic_stagnation
+		}
+		NOT = { has_country_modifier = expansionary_monetary_policy } # Expansionary monetary policy boosts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Economic recession slows it
+			factor = 0.5
+			has_country_modifier = economic_recession
+		}
+		modifier = {						# Economic depression really slows it
+			factor = 0.2
+			has_country_modifier = economic_depression
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_monetary_policy	# Contractionary monetary policy halts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6022_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = high_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # High Inflation to Moderate Inflation
+	id = 6023
+	title = "EVT_6023_NAME"
+	desc = "EVT_6023_DESC"
+	picture = "inflation_reduction_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = high_inflation			# We have high inflation
+		OR = {							# Economy is shrinking
+			has_country_modifier = economic_depression
+			has_country_modifier = economic_recession
+		}
+		NOT = { has_country_modifier = expansionary_monetary_policy } # Expansionary monetary policy boosts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Economic depression really slows it
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_monetary_policy	# Contractionary monetary policy halts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6023_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = moderate_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Moderate Inflation to Low Inflation
+	id = 6024
+	title = "EVT_6024_NAME"
+	desc = "EVT_6024_DESC"
+	picture = "inflation_reduction_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = moderate_inflation		# We have moderate inflation
+		OR = {							# Economy is shrinking
+			has_country_modifier = economic_depression
+			has_country_modifier = economic_recession
+		}
+		NOT = { has_country_modifier = expansionary_monetary_policy } # Expansionary monetary policy boosts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Economic depression really slows it
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_monetary_policy	# Contractionary monetary policy halts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6024_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = low_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Low Inflation to Very Low Inflation
+	id = 6025
+	title = "EVT_6025_NAME"
+	desc = "EVT_6025_DESC"
+	picture = "inflation_reduction_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = low_inflation			# We have low inflation
+		OR = {							# Economy is shrinking
+			has_country_modifier = economic_depression
+			has_country_modifier = economic_recession
+		}
+		NOT = { has_country_modifier = expansionary_monetary_policy } # Expansionary monetary policy boosts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Economic depression really slows it
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_monetary_policy	# Contractionary monetary policy halts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6025_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = very_low_inflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Very Low Inflation to Deflation
+	id = 6026
+	title = "EVT_6026_NAME"
+	desc = "EVT_6026_DESC"
+	picture = "inflation_reduction_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = very_low_inflation		# We have very low inflation
+		OR = {							# Economy is shrinking
+			has_country_modifier = economic_depression
+			has_country_modifier = economic_recession
+		}
+		NOT = { has_country_modifier = expansionary_monetary_policy } # Expansionary monetary policy boosts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {						# Economic depression really slows it
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_monetary_policy	# Contractionary monetary policy halts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6026_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = deflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Deflation to Rapid Deflation
+	id = 6027
+	title = "EVT_6027_NAME"
+	desc = "EVT_6027_DESC"
+	picture = "inflation_reduction_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = deflation			# We have deflation				
+		has_country_modifier = economic_depression		# Economy is shrinking bigly
+		NOT = { has_country_modifier = expansionary_monetary_policy } # Expansionary monetary policy boosts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_monetary_policy	# Contractionary monetary policy halts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6027_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = rapid_deflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Rapid Deflation to Hyperdeflation
+	id = 6028
+	title = "EVT_6028_NAME"
+	desc = "EVT_6028_DESC"
+	picture = "inflation_reduction_pic"
+	allow_multiple_instances = yes
+	trigger = { 
+		has_country_modifier = rapid_deflation			# We have rapid deflation				
+		has_country_modifier = economic_depression		# Economy is shrinking bigly
+		NOT = { has_country_modifier = expansionary_monetary_policy } # Expansionary monetary policy boosts inflation growth
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			has_country_modifier = contractionary_monetary_policy	# Contractionary monetary policy halts inflation growth
+		}
+	}
+	option = {
+		name = "EVT_6028_OPTA"
+		remove_country_modifier = hyperdeflation
+		remove_country_modifier = rapid_deflation
+		remove_country_modifier = deflation
+		remove_country_modifier = very_low_inflation		# Sanity check
+		remove_country_modifier = low_inflation
+		remove_country_modifier = moderate_inflation
+		remove_country_modifier = high_inflation		# Just in case they got doubled up
+		remove_country_modifier = very_high_inflation
+		remove_country_modifier = extremely_high_inflation
+		remove_country_modifier = hyperinflation
+		add_country_modifier = {
+			name = hyperdeflation
+			duration = -1
+		}
+	}
+}
+country_event = { # Adopt Contractionary Monetary Policy (event)
+	id = 6029
+	title = "EVT_6029_NAME"
+	desc = "EVT_6029_DESC"
+	picture = "economic_policy_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6029_OPTA"
+		any_pop = { consciousness = 0.1 }
+		add_country_modifier = {
+			name = contractionary_monetary_policy
+			duration = 90
+		}
+		add_country_modifier = {
+			name = monetary_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6029_OPTB"
+		any_pop = { consciousness = 0.2 }
+		add_country_modifier = {
+			name = contractionary_monetary_policy
+			duration = 180
+		}
+		add_country_modifier = {
+			name = monetary_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6029_OPTC"
+		any_pop = { consciousness = 0.4 }
+		add_country_modifier = {
+			name = contractionary_monetary_policy
+			duration = 365
+		}
+		add_country_modifier = {
+			name = monetary_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6029_OPTD"
+		any_pop = { consciousness = 0.5 }
+		add_country_modifier = {
+			name = contractionary_monetary_policy
+			duration = -1
+		}
+		add_country_modifier = {
+			name = monetary_policy_cooldown
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_6029_OPTE"
+	}
+}

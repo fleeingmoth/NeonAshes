@@ -1,0 +1,15 @@
+owner = ASW
+controller = ASW
+add_core = ASW
+trade_goods = copper
+life_rating = 35
+state_building = {
+	level = 1
+	building = construction_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

@@ -1,0 +1,283 @@
+# 10800 - Intro Event Pt. 2
+country_event = {
+	id = 10800
+	title = "EVT_10800_NAME" # The Good Friday Earthquake & Independence
+	desc = "EVT_10800_DESC"
+	picture = "good_friday_earthquake_pic"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { name = "EVT_10800_OPTA" }
+}
+# 10801-10809 - Red Dog Mine
+country_event = {
+	id = 10801
+	title = "EVT_10801_NAME" # The Red Dog Mine - Opening
+	desc = "EVT_10801_DESC"
+	picture = "resource_red_dog_mine_pic"
+	fire_only_once = yes
+	trigger = {
+		owns = 2631 					# Hooper Bay
+		has_country_modifier = arctic_surveyor		# We have surveyed the Arctic
+	}
+	mean_time_to_happen = { months = 6 }	# Six months average after recon
+	option = {
+		name = "EVT_10801_OPTA"
+		prestige = 1
+		treasury = -5000		# Five thousand Kilodollars (or $5M dollars)
+		any_pop = {
+			ideology = {
+				factor = 0.02	# Environmental movement boost in the country
+				value = green
+			}
+		}
+		USA_2 = {
+			aristocrats = {
+				militancy = -0.50	# All Landowners in AK get a bit less MIL and CON
+				consciousness = -1
+			}
+		}	
+		2631 = {
+			trade_goods = other_metals	# Mine begins operations
+			add_province_modifier = {
+				name = resource_booming	# And is super effective
+				duration = -1
+			}
+		}
+		ai_chance = {		# Will do, unless it's Green
+			factor = 1
+			modifier = {
+				factor = 0
+				ruling_party_ideology = green
+			}
+		}
+	}
+	option = {
+		name = "EVT_10801_OPTB"
+		treasury = -2000		# Two thousand Kilodollars (or $2M dollars)
+		2631 = { trade_goods = timber }
+		ai_chance = { factor = 0 }
+	}
+	option = {
+		name = "EVT_10801_OPTC"
+		USA_2 = {
+			aristocrats = {
+				militancy = 0.50	# All Landowners in AK get a bit upset at this
+				consciousness = 1
+			}
+		}
+		ai_chance = {		# Will not do, unless it's Green
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { ruling_party_ideology = green }
+			}
+		}
+	}
+}
+country_event = {
+	id = 10802
+	title = "EVT_10802_NAME" # The Red Dog Mine - Abundant Resources
+	desc = "EVT_10802_DESC"
+	picture = "resource_red_dog_mine_pic"
+	trigger = {
+		owns = 2631 						# Hooper Bay
+		2631 = { has_province_modifier = resource_booming }	# Business is booming
+	}
+	mean_time_to_happen = { months = 60 } # 5 years average after discovery
+	option = {
+		name = "EVT_10802_OPTA"
+		2631 = {
+			remove_province_modifier = resource_booming	# From boom to great
+			add_province_modifier = {
+				name = resource_abundant
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 10803
+	title = "EVT_10803_NAME" # The Red Dog Mine - Significant Resources
+	desc = "EVT_10803_DESC"
+	picture = "resource_red_dog_mine_pic"
+	trigger = {
+		owns = 2631 						# Hooper Bay
+		2631 = { has_province_modifier = resource_abundant }	# Business is booming
+	}
+	mean_time_to_happen = { months = 120 } # 10 years average after last depletion
+	option = {
+		name = "EVT_10803_OPTA"
+		2631 = {
+			remove_province_modifier = resource_abundant	# From great to good
+			add_province_modifier = {
+				name = resource_significant
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 10804
+	title = "EVT_10804_NAME" # The Red Dog Mine - Average Resources
+	desc = "EVT_10804_DESC"
+	picture = "resource_red_dog_mine_pic"
+	trigger = {
+		owns = 2631 						# Hooper Bay
+		2631 = { has_province_modifier = resource_significant }	# Business is great
+	}
+	mean_time_to_happen = { months = 120 } # 10 years average after last depletion
+	option = {
+		name = "EVT_10804_OPTA"
+		2631 = {
+			remove_province_modifier = resource_significant	# From good to average
+		}
+	}
+}
+country_event = {
+	id = 10805
+	title = "EVT_10805_NAME" # The Red Dog Mine - Dwindling Resources
+	desc = "EVT_10805_DESC"
+	picture = "resource_red_dog_mine_pic"
+	trigger = {
+		owns = 2631 							# Hooper Bay
+		2631 = {
+			trade_goods = other_metals				# Produces other metals
+			NOT = { has_province_modifier = resource_booming }
+			NOT = { has_province_modifier = resource_abundant }
+			NOT = { has_province_modifier = resource_significant }
+			NOT = { has_province_modifier = resource_dwindling }
+			NOT = { has_province_modifier = resource_scarce }
+			NOT = { has_province_modifier = resource_exhausted }
+		}
+	}
+	mean_time_to_happen = { months = 120 } # 10 years after average output
+	option = {
+		name = "EVT_10805_OPTA"
+		2631 = {
+			add_province_modifier = {		# From average to dwindling
+				name = resource_dwindling
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 10806
+	title = "EVT_10806_NAME" # The Red Dog Mine - Scarce Resources
+	desc = "EVT_10806_DESC"
+	picture = "resource_red_dog_mine_pic"
+	trigger = {
+		owns = 2631 						# Hooper Bay
+		2631 = { has_province_modifier = resource_dwindling }	# Business is bad
+	}
+	mean_time_to_happen = { months = 1 } # 10 years average after last depletion
+	option = {
+		name = "EVT_10806_OPTA"
+		treasury = -100000					# Hundred thousand Kilodollars
+		2631 = {
+			remove_province_modifier = resource_dwindling	# From bad to worse
+			add_province_modifier = {
+				name = resource_scarce
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_10806_OPTB"
+		2631 = {
+			trade_goods = fish				# Return to fishe
+			remove_province_modifier = resource_dwindling	# Mine shuts down
+			add_province_modifier = {			# Takes a bit to come back
+				name = resource_retooling
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = "EVT_10806_OPTC"
+		treasury = -10000					# Ten thousand Kilodollars
+		2631 = {
+			trade_goods = timber				# The wood is good
+			remove_province_modifier = resource_dwindling	# Mine shuts down
+			add_province_modifier = {			# Takes a bit to come back
+				name = resource_retooling
+				duration = 365
+			}
+		}
+	}
+}
+country_event = {
+	id = 10807
+	title = "EVT_10807_NAME" # The Red Dog Mine - Exhausted Resources
+	desc = "EVT_10807_DESC"
+	picture = "resource_red_dog_mine_pic"
+	trigger = {
+		owns = 2631 						# Hooper Bay
+		2631 = { has_province_modifier = resource_scarce }	# Business is great
+	}
+	mean_time_to_happen = { months = 120 } # 10 years average after last depletion
+	option = {
+		name = "EVT_10807_OPTA"
+		treasury = -50000					# Fifty thousand Kilodollars
+		2631 = {
+			remove_province_modifier = resource_scarce	# From bad to worse
+			add_province_modifier = {
+				name = resource_exhausted
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_10807_OPTB"
+		2631 = {
+			trade_goods = fish				# Return to fishe
+			remove_province_modifier = resource_scarce	# Mine shuts down
+			add_province_modifier = {			# Takes a bit to come back
+				name = resource_retooling
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = "EVT_10807_OPTC"
+		treasury = -20000					# Twenty thousand Kilodollars
+		2631 = {
+			trade_goods = timber				# The wood is good
+			remove_province_modifier = resource_scarce	# Mine shuts down
+			add_province_modifier = {			# Takes a bit to come back
+				name = resource_retooling
+				duration = 365
+			}
+		}
+	}
+}
+# 10810-10819 - Alaska Pipeline
+country_event = {
+	id = 10811
+	title = "EVT_10811_NAME" # The Trans-Alaska Pipeline System
+	desc = "EVT_10811_DESC"
+	picture = "resource_trans_alaska_pipeline_pic"
+	fire_only_once = yes
+	trigger = {
+		owns = 2630 			# Valdez
+		fossil_fuel_power = 1		# In the rare case that AK gets annexed by another country before it fires up.
+	}
+	mean_time_to_happen = { months = 12 }	# 1 year average before firing up
+	option = {
+		name = "EVT_10811_OPTA"
+		prestige = 1			# It's impressive
+		any_pop = {
+			ideology = {
+				factor = 0.02	# Environmental movement boost in the country
+				value = green
+			}
+		}
+		2630 = {				# Valdez
+			trade_goods = oil		# Pipe begins operations
+			add_province_modifier = {
+				name = resource_booming	# And is super effective
+				duration = -1
+			}
+		}
+	}
+}

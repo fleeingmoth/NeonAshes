@@ -1,0 +1,7 @@
+great_power;Great Power;Grande Puissance;Großmacht;;Gran potencia;;;;;;;;;x;
+second_power;Secondary Power;Puissance secondaire;Sekundärmacht;;Potencia menor;;;;;;;;;x;
+civ_nation;Small Power;Petite puissance;Kleinstaat;;Potencia pequeña;;;;;;;;;x;
+unciv_nation;Developing Country;Pays en Développement;Entwicklungsland;;País en Desarrollo;;;;;;;;;x;
+DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Newly Industrialized Country;Nouveaux Pays Industrialisés;Schwellenland;;;;;;;;;;;x
+DIPLOMACY_PRIMITIVENATION_STATUS;Undeveloped Country;Pays Sous-Développé;Unentwickeltes Land;;;;;;;;;;;x
+UNCIV_CANT_RESEARCH;Developing countries are restricted with the research they can do.;;;;;;;;;;;x

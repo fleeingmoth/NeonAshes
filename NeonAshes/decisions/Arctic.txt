@@ -1,0 +1,595 @@
+political_decisions = {
+	arctic_exploration = {
+		news = yes
+		news_desc_long = "arctic_exploration_NEWS_LONG"
+		news_desc_medium = "arctic_exploration_NEWS_MEDIUM"
+		news_desc_short = "arctic_exploration_NEWS_SHORT"
+		picture = arctic_circle_smallpic
+		potential = {
+			NOT = {
+				OR = {
+					has_country_modifier = arctic_surveyor
+					has_country_modifier = arctic_researcher
+					has_country_modifier = arctic_exploiter
+					has_country_modifier = arctic_conqueror
+					has_country_modifier = arctic_colonizer
+					has_country_modifier = arctic_overlord
+				}
+			}
+			OR = {
+				owns = 2631	# Alaska - Hooper Bay
+				owns = 2599	# Alaska - Fairbanks
+				owns = 6	# NWT - Whitehorse
+				owns = 7	# NWT - Dawson
+				owns = 8	# NWT - Watson
+				owns = 10	# NWT - Inuvik
+				owns = 9	# NWT - Fort Simpson
+				owns = 11	# NWT - Yellowknife
+				owns = 12	# NWT - Lutselk'e
+				owns = 2595	# NWT - Rankin Inlet
+				owns = 44	# NWT - Coral Harbour
+				owns = 45	# NWT - Iqaluit
+				owns = 2636	# Greenland - Sisimiut
+				owns = 2632	# Greenland - Tasiilaq
+				owns = 252	# Iceland - Reykjavik
+				owns = 3246	# Norway - Jan Mayen
+				owns = 307	# Norway - Hammerfest
+				owns = 321	# Sweden - Lulea
+				owns = 338	# Finland - Tornio
+				owns = 982	# Murmansk - Pechengsky
+				owns = 2587	# Murmansk - Murmansk
+				owns = 983	# Murmansk - Kandalaska
+				owns = 984	# Murmansk - Kostomushka
+				owns = 2588	# Archangelsk - Onega
+				owns = 981	# Archangelsk - Archangelsk
+				owns = 985	# Archangelsk - Mezen
+				owns = 2589	# Archangelsk - Shoyna
+				owns = 986	# Archangelsk - Naryn Mar
+				owns = 2688	# Archangelsk - Imda
+				owns = 2687	# Archangelsk - Anderma
+				owns = 2614	# Trans-Ural - Mordiyaka
+				owns = 2684	# Trans-Ural - Yar Sale
+				owns = 2613	# Trans-Ural - Nyda
+				owns = 2659	# Trans-Ural - Napalkovo
+				owns = 2680	# Krasnoyarsk - Dudinka
+				owns = 2658	# Krasnoyarsk - Kheta
+				owns = 2654	# Krasnoyarsk - Khatanga
+				owns = 2674	# Krasnoyarsk - Essey
+				owns = 2653	# Krasnoyarsk - Saskylah
+				owns = 2673	# Sakha - Olenyok
+				owns = 2670	# Sakha - Tiksi
+				owns = 2652	# Sakha - Kular
+				owns = 2667	# Sakha - Bulum
+				owns = 2647	# Sakha - Yansk
+				owns = 2665	# Sakha - Chokurdakh
+				owns = 2664	# Sakha - Olyotuni
+				owns = 2662	# Sakha - Cherskiy
+				owns = 2661	# Sakha - Niznekolymsk
+				owns = 2666	# Far East - Pevek
+				owns = 2590	# Far East - Ugolnoye
+			}
+		}
+		allow = {
+			war = no			# War makes things harder
+			green_water_navy = 1		# Naval capabilities
+			airspace_control = 1		# Air capabilities
+			broadcasting = 1		# Communications
+			modern_transportation = 1	# Transport
+			money = 10000			# Must be able to afford it
+		}
+		effect = {
+			add_country_modifier = {
+				name = arctic_surveyor
+				duration = -1
+			}
+			prestige = 5	# Exploration is nice
+			money = -10000	# But it is also expensive
+		}
+		ai_will_do = { factor = 1 }
+	}
+	arctic_research = {
+		news = yes
+		news_desc_long = "arctic_research_NEWS_LONG"
+		news_desc_medium = "arctic_research_NEWS_MEDIUM"
+		news_desc_short = "arctic_research_NEWS_SHORT"
+		picture = arctic_circle_smallpic
+		potential = {
+			has_country_modifier = arctic_surveyor
+			NOT = {
+				OR = {
+					has_country_modifier = arctic_researcher
+					has_country_modifier = arctic_exploiter
+					has_country_modifier = arctic_conqueror
+					has_country_modifier = arctic_colonizer
+					has_country_modifier = arctic_overlord
+				}
+			}
+			OR = {
+				owns = 2631	# Alaska - Hooper Bay
+				owns = 2599	# Alaska - Fairbanks
+				owns = 6	# NWT - Whitehorse
+				owns = 7	# NWT - Dawson
+				owns = 8	# NWT - Watson
+				owns = 10	# NWT - Inuvik
+				owns = 9	# NWT - Fort Simpson
+				owns = 11	# NWT - Yellowknife
+				owns = 12	# NWT - Lutselk'e
+				owns = 2595	# NWT - Rankin Inlet
+				owns = 44	# NWT - Coral Harbour
+				owns = 45	# NWT - Iqaluit
+				owns = 2636	# Greenland - Sisimiut
+				owns = 2632	# Greenland - Tasiilaq
+				owns = 252	# Iceland - Reykjavik
+				owns = 3246	# Norway - Jan Mayen
+				owns = 307	# Norway - Hammerfest
+				owns = 321	# Sweden - Lulea
+				owns = 338	# Finland - Tornio
+				owns = 982	# Murmansk - Pechengsky
+				owns = 2587	# Murmansk - Murmansk
+				owns = 983	# Murmansk - Kandalaska
+				owns = 984	# Murmansk - Kostomushka
+				owns = 2588	# Archangelsk - Onega
+				owns = 981	# Archangelsk - Archangelsk
+				owns = 985	# Archangelsk - Mezen
+				owns = 2589	# Archangelsk - Shoyna
+				owns = 986	# Archangelsk - Naryn Mar
+				owns = 2688	# Archangelsk - Imda
+				owns = 2687	# Archangelsk - Anderma
+				owns = 2614	# Trans-Ural - Mordiyaka
+				owns = 2684	# Trans-Ural - Yar Sale
+				owns = 2613	# Trans-Ural - Nyda
+				owns = 2659	# Trans-Ural - Napalkovo
+				owns = 2680	# Krasnoyarsk - Dudinka
+				owns = 2658	# Krasnoyarsk - Kheta
+				owns = 2654	# Krasnoyarsk - Khatanga
+				owns = 2674	# Krasnoyarsk - Essey
+				owns = 2653	# Krasnoyarsk - Saskylah
+				owns = 2673	# Sakha - Olenyok
+				owns = 2670	# Sakha - Tiksi
+				owns = 2652	# Sakha - Kular
+				owns = 2667	# Sakha - Bulum
+				owns = 2647	# Sakha - Yansk
+				owns = 2665	# Sakha - Chokurdakh
+				owns = 2664	# Sakha - Olyotuni
+				owns = 2662	# Sakha - Cherskiy
+				owns = 2661	# Sakha - Niznekolymsk
+				owns = 2666	# Far East - Pevek
+				owns = 2590	# Far East - Ugolnoye
+			}
+		}
+		allow = {
+			war = no			# War makes things harder
+			blue_water_navy = 1		# Naval capabilities
+			global_strike_command = 1	# Air capabilities
+			mobile_computing = 1		# Research
+			comms_infrastructure = 1	# Transport (and comms)
+			money = 20000			# Must be able to afford it
+		}
+		effect = {
+			remove_country_modifier = arctic_surveyor
+			add_country_modifier = {
+				name = arctic_researcher
+				duration = -1
+			}
+			prestige = 10	# Research is worth it
+			money = -20000	# But it is also expensive
+		}
+		ai_will_do = { factor = 1 }
+	}
+	arctic_exploitation = {
+		news = yes
+		news_desc_long = "arctic_exploitation_NEWS_LONG"
+		news_desc_medium = "arctic_exploitation_NEWS_MEDIUM"
+		news_desc_short = "arctic_exploitation_NEWS_SHORT"
+		picture = arctic_circle_smallpic
+		potential = {
+			has_country_modifier = arctic_researcher
+			NOT = {
+				OR = {
+					has_country_modifier = arctic_surveyor
+					has_country_modifier = arctic_exploiter
+					has_country_modifier = arctic_conqueror
+					has_country_modifier = arctic_colonizer
+					has_country_modifier = arctic_overlord
+				}
+			}
+			OR = {
+				owns = 2631	# Alaska - Hooper Bay
+				owns = 2599	# Alaska - Fairbanks
+				owns = 6	# NWT - Whitehorse
+				owns = 7	# NWT - Dawson
+				owns = 8	# NWT - Watson
+				owns = 10	# NWT - Inuvik
+				owns = 9	# NWT - Fort Simpson
+				owns = 11	# NWT - Yellowknife
+				owns = 12	# NWT - Lutselk'e
+				owns = 2595	# NWT - Rankin Inlet
+				owns = 44	# NWT - Coral Harbour
+				owns = 45	# NWT - Iqaluit
+				owns = 2636	# Greenland - Sisimiut
+				owns = 2632	# Greenland - Tasiilaq
+				owns = 252	# Iceland - Reykjavik
+				owns = 3246	# Norway - Jan Mayen
+				owns = 307	# Norway - Hammerfest
+				owns = 321	# Sweden - Lulea
+				owns = 338	# Finland - Tornio
+				owns = 982	# Murmansk - Pechengsky
+				owns = 2587	# Murmansk - Murmansk
+				owns = 983	# Murmansk - Kandalaska
+				owns = 984	# Murmansk - Kostomushka
+				owns = 2588	# Archangelsk - Onega
+				owns = 981	# Archangelsk - Archangelsk
+				owns = 985	# Archangelsk - Mezen
+				owns = 2589	# Archangelsk - Shoyna
+				owns = 986	# Archangelsk - Naryn Mar
+				owns = 2688	# Archangelsk - Imda
+				owns = 2687	# Archangelsk - Anderma
+				owns = 2614	# Trans-Ural - Mordiyaka
+				owns = 2684	# Trans-Ural - Yar Sale
+				owns = 2613	# Trans-Ural - Nyda
+				owns = 2659	# Trans-Ural - Napalkovo
+				owns = 2680	# Krasnoyarsk - Dudinka
+				owns = 2658	# Krasnoyarsk - Kheta
+				owns = 2654	# Krasnoyarsk - Khatanga
+				owns = 2674	# Krasnoyarsk - Essey
+				owns = 2653	# Krasnoyarsk - Saskylah
+				owns = 2673	# Sakha - Olenyok
+				owns = 2670	# Sakha - Tiksi
+				owns = 2652	# Sakha - Kular
+				owns = 2667	# Sakha - Bulum
+				owns = 2647	# Sakha - Yansk
+				owns = 2665	# Sakha - Chokurdakh
+				owns = 2664	# Sakha - Olyotuni
+				owns = 2662	# Sakha - Cherskiy
+				owns = 2661	# Sakha - Niznekolymsk
+				owns = 2666	# Far East - Pevek
+				owns = 2590	# Far East - Ugolnoye
+			}
+		}
+		allow = {
+			war = no			# War makes things harder
+			regional_power_projection = 1	# Naval capabilities
+			full_spectrum_dominance = 1	# Air capabilities
+			renewable_energy = 1		# Powering those settlements
+			globalized_infrastructure = 1	# Transport (and comms)
+			money = 50000			# Must be able to afford it
+		}
+		effect = {
+			remove_country_modifier = arctic_researcher
+			add_country_modifier = {
+				name = arctic_exploiter
+				duration = -1
+			}
+			prestige = 15	# Mining on the final frontier
+			badboy = 1	# A threatening move
+			money = -50000	# But it is also expensive
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				ruling_party_ideology = green	# Hippies don't want to bother the polar bears
+			}
+		}
+	}
+	arctic_militarization = {
+		news = yes
+		news_desc_long = "arctic_militarization_NEWS_LONG"
+		news_desc_medium = "arctic_militarization_NEWS_MEDIUM"
+		news_desc_short = "arctic_militarization_NEWS_SHORT"
+		picture = arctic_circle_smallpic
+		potential = {
+			has_country_modifier = arctic_exploiter
+			NOT = {
+				OR = {
+					has_country_modifier = arctic_surveyor
+					has_country_modifier = arctic_researcher
+					has_country_modifier = arctic_conqueror
+					has_country_modifier = arctic_colonizer
+					has_country_modifier = arctic_overlord
+				}
+			}
+			OR = {
+				owns = 2631	# Alaska - Hooper Bay
+				owns = 2599	# Alaska - Fairbanks
+				owns = 6	# NWT - Whitehorse
+				owns = 7	# NWT - Dawson
+				owns = 8	# NWT - Watson
+				owns = 10	# NWT - Inuvik
+				owns = 9	# NWT - Fort Simpson
+				owns = 11	# NWT - Yellowknife
+				owns = 12	# NWT - Lutselk'e
+				owns = 2595	# NWT - Rankin Inlet
+				owns = 44	# NWT - Coral Harbour
+				owns = 45	# NWT - Iqaluit
+				owns = 2636	# Greenland - Sisimiut
+				owns = 2632	# Greenland - Tasiilaq
+				owns = 252	# Iceland - Reykjavik
+				owns = 3246	# Norway - Jan Mayen
+				owns = 307	# Norway - Hammerfest
+				owns = 321	# Sweden - Lulea
+				owns = 338	# Finland - Tornio
+				owns = 982	# Murmansk - Pechengsky
+				owns = 2587	# Murmansk - Murmansk
+				owns = 983	# Murmansk - Kandalaska
+				owns = 984	# Murmansk - Kostomushka
+				owns = 2588	# Archangelsk - Onega
+				owns = 981	# Archangelsk - Archangelsk
+				owns = 985	# Archangelsk - Mezen
+				owns = 2589	# Archangelsk - Shoyna
+				owns = 986	# Archangelsk - Naryn Mar
+				owns = 2688	# Archangelsk - Imda
+				owns = 2687	# Archangelsk - Anderma
+				owns = 2614	# Trans-Ural - Mordiyaka
+				owns = 2684	# Trans-Ural - Yar Sale
+				owns = 2613	# Trans-Ural - Nyda
+				owns = 2659	# Trans-Ural - Napalkovo
+				owns = 2680	# Krasnoyarsk - Dudinka
+				owns = 2658	# Krasnoyarsk - Kheta
+				owns = 2654	# Krasnoyarsk - Khatanga
+				owns = 2674	# Krasnoyarsk - Essey
+				owns = 2653	# Krasnoyarsk - Saskylah
+				owns = 2673	# Sakha - Olenyok
+				owns = 2670	# Sakha - Tiksi
+				owns = 2652	# Sakha - Kular
+				owns = 2667	# Sakha - Bulum
+				owns = 2647	# Sakha - Yansk
+				owns = 2665	# Sakha - Chokurdakh
+				owns = 2664	# Sakha - Olyotuni
+				owns = 2662	# Sakha - Cherskiy
+				owns = 2661	# Sakha - Niznekolymsk
+				owns = 2666	# Far East - Pevek
+				owns = 2590	# Far East - Ugolnoye
+			}
+		}
+		allow = {
+			war = no			# War makes things harder
+			global_power_projection = 1	# Naval capabilities
+			space_command = 1		# Air capabilities
+			sixth_gen_warfare = 1		# Military capabilities
+			transport_revolution = 1	# Transport
+			money = 100000			# Must be able to afford it
+		}
+		effect = {
+			remove_country_modifier = arctic_exploiter
+			add_country_modifier = {
+				name = arctic_conqueror
+				duration = -1
+			}
+			prestige = 20	# This is hard to do
+			badboy = 3	# An aggressive move
+			money = -100000	# Really expensive
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					OR = {
+						ruling_party_ideology = green		# Hippies don't want to bother the polar bears
+						ruling_party_ideology = anarcho_liberal	# This is clearly statism
+					}
+					OR = {
+						war_policy = pacifism		# The Arctic should be demilitarized
+						war_policy = anti_military	# There are better ways to spend money
+					}
+				}
+			}
+		}
+	}
+	arctic_colonization = {
+		news = yes
+		news_desc_long = "arctic_colonization_NEWS_LONG"
+		news_desc_medium = "arctic_colonization_NEWS_MEDIUM"
+		news_desc_short = "arctic_colonization_NEWS_SHORT"
+		picture = arctic_circle_smallpic
+		potential = {
+			has_country_modifier = arctic_conqueror
+			NOT = {
+				OR = {
+					has_country_modifier = arctic_surveyor
+					has_country_modifier = arctic_researcher
+					has_country_modifier = arctic_exploiter
+					has_country_modifier = arctic_colonizer
+					has_country_modifier = arctic_overlord
+				}
+			}
+			OR = {
+				owns = 2631	# Alaska - Hooper Bay
+				owns = 2599	# Alaska - Fairbanks
+				owns = 6	# NWT - Whitehorse
+				owns = 7	# NWT - Dawson
+				owns = 8	# NWT - Watson
+				owns = 10	# NWT - Inuvik
+				owns = 9	# NWT - Fort Simpson
+				owns = 11	# NWT - Yellowknife
+				owns = 12	# NWT - Lutselk'e
+				owns = 2595	# NWT - Rankin Inlet
+				owns = 44	# NWT - Coral Harbour
+				owns = 45	# NWT - Iqaluit
+				owns = 2636	# Greenland - Sisimiut
+				owns = 2632	# Greenland - Tasiilaq
+				owns = 252	# Iceland - Reykjavik
+				owns = 3246	# Norway - Jan Mayen
+				owns = 307	# Norway - Hammerfest
+				owns = 321	# Sweden - Lulea
+				owns = 338	# Finland - Tornio
+				owns = 982	# Murmansk - Pechengsky
+				owns = 2587	# Murmansk - Murmansk
+				owns = 983	# Murmansk - Kandalaska
+				owns = 984	# Murmansk - Kostomushka
+				owns = 2588	# Archangelsk - Onega
+				owns = 981	# Archangelsk - Archangelsk
+				owns = 985	# Archangelsk - Mezen
+				owns = 2589	# Archangelsk - Shoyna
+				owns = 986	# Archangelsk - Naryn Mar
+				owns = 2688	# Archangelsk - Imda
+				owns = 2687	# Archangelsk - Anderma
+				owns = 2614	# Trans-Ural - Mordiyaka
+				owns = 2684	# Trans-Ural - Yar Sale
+				owns = 2613	# Trans-Ural - Nyda
+				owns = 2659	# Trans-Ural - Napalkovo
+				owns = 2680	# Krasnoyarsk - Dudinka
+				owns = 2658	# Krasnoyarsk - Kheta
+				owns = 2654	# Krasnoyarsk - Khatanga
+				owns = 2674	# Krasnoyarsk - Essey
+				owns = 2653	# Krasnoyarsk - Saskylah
+				owns = 2673	# Sakha - Olenyok
+				owns = 2670	# Sakha - Tiksi
+				owns = 2652	# Sakha - Kular
+				owns = 2667	# Sakha - Bulum
+				owns = 2647	# Sakha - Yansk
+				owns = 2665	# Sakha - Chokurdakh
+				owns = 2664	# Sakha - Olyotuni
+				owns = 2662	# Sakha - Cherskiy
+				owns = 2661	# Sakha - Niznekolymsk
+				owns = 2666	# Far East - Pevek
+				owns = 2590	# Far East - Ugolnoye
+			}
+		}
+		allow = {
+			war = no			# War makes things harder
+			modern_AA_AD = 1		# Naval capabilities
+			swarm_warfare = 1		# Air capabilities
+			energy_renaissance = 1		# Energy production
+			hyper_projects = 1		# Transport
+			money = 200000			# Must be able to afford it
+			OR = {
+				is_secondary_power = yes	# At least secondary power
+				is_greater_power = yes		# or great power
+			}
+		}
+		effect = {
+			remove_country_modifier = arctic_conqueror
+			add_country_modifier = {
+				name = arctic_colonizer
+				duration = -1
+			}
+			prestige = 25	# This is very hard to do
+			badboy = 5	# An expansionistic move
+			money = -200000	# Incredibly expensive
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					OR = {
+						ruling_party_ideology = green		# Hippies don't want to bother the polar bears
+						ruling_party_ideology = anarcho_liberal	# This is clearly statism
+					}
+					OR = {
+						war_policy = pacifism		# The Arctic should be demilitarized
+						war_policy = anti_military	# There are better ways to spend money
+					}
+				}
+			}
+		}
+	}
+	arctic_domination = {
+		news = yes
+		news_desc_long = "arctic_domination_NEWS_LONG"
+		news_desc_medium = "arctic_domination_NEWS_MEDIUM"
+		news_desc_short = "arctic_domination_NEWS_SHORT"
+		picture = arctic_circle_smallpic
+		potential = {
+			has_country_modifier = arctic_colonizer
+			NOT = {
+				OR = {
+					has_country_modifier = arctic_surveyor
+					has_country_modifier = arctic_researcher
+					has_country_modifier = arctic_exploiter
+					has_country_modifier = arctic_conqueror
+					has_country_modifier = arctic_overlord
+				}
+			}
+			OR = {
+				owns = 2631	# Alaska - Hooper Bay
+				owns = 2599	# Alaska - Fairbanks
+				owns = 6	# NWT - Whitehorse
+				owns = 7	# NWT - Dawson
+				owns = 8	# NWT - Watson
+				owns = 10	# NWT - Inuvik
+				owns = 9	# NWT - Fort Simpson
+				owns = 11	# NWT - Yellowknife
+				owns = 12	# NWT - Lutselk'e
+				owns = 2595	# NWT - Rankin Inlet
+				owns = 44	# NWT - Coral Harbour
+				owns = 45	# NWT - Iqaluit
+				owns = 2636	# Greenland - Sisimiut
+				owns = 2632	# Greenland - Tasiilaq
+				owns = 252	# Iceland - Reykjavik
+				owns = 3246	# Norway - Jan Mayen
+				owns = 307	# Norway - Hammerfest
+				owns = 321	# Sweden - Lulea
+				owns = 338	# Finland - Tornio
+				owns = 982	# Murmansk - Pechengsky
+				owns = 2587	# Murmansk - Murmansk
+				owns = 983	# Murmansk - Kandalaska
+				owns = 984	# Murmansk - Kostomushka
+				owns = 2588	# Archangelsk - Onega
+				owns = 981	# Archangelsk - Archangelsk
+				owns = 985	# Archangelsk - Mezen
+				owns = 2589	# Archangelsk - Shoyna
+				owns = 986	# Archangelsk - Naryn Mar
+				owns = 2688	# Archangelsk - Imda
+				owns = 2687	# Archangelsk - Anderma
+				owns = 2614	# Trans-Ural - Mordiyaka
+				owns = 2684	# Trans-Ural - Yar Sale
+				owns = 2613	# Trans-Ural - Nyda
+				owns = 2659	# Trans-Ural - Napalkovo
+				owns = 2680	# Krasnoyarsk - Dudinka
+				owns = 2658	# Krasnoyarsk - Kheta
+				owns = 2654	# Krasnoyarsk - Khatanga
+				owns = 2674	# Krasnoyarsk - Essey
+				owns = 2653	# Krasnoyarsk - Saskylah
+				owns = 2673	# Sakha - Olenyok
+				owns = 2670	# Sakha - Tiksi
+				owns = 2652	# Sakha - Kular
+				owns = 2667	# Sakha - Bulum
+				owns = 2647	# Sakha - Yansk
+				owns = 2665	# Sakha - Chokurdakh
+				owns = 2664	# Sakha - Olyotuni
+				owns = 2662	# Sakha - Cherskiy
+				owns = 2661	# Sakha - Niznekolymsk
+				owns = 2666	# Far East - Pevek
+				owns = 2590	# Far East - Ugolnoye
+			}
+		}
+		allow = {
+			war = no				# War makes things harder
+			naval_battlespace_integration = 1	# Naval capabilities
+			exospace_control = 1			# Air capabilities
+			full_automation = 1			# Energy production
+			space_transportation = 1		# Transport
+			money = 500000				# Must be able to afford it
+			is_greater_power = yes			# Big boys only
+		}
+		effect = {
+			remove_country_modifier = arctic_colonizer
+			add_country_modifier = {
+				name = arctic_overlord
+				duration = -1
+			}
+			prestige = 30	# You've won the game at this point
+			badboy = 7	# Santa is dead, and we have killed him
+			money = -500000	# It's like its own continent up there
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					OR = {
+						ruling_party_ideology = green		# Hippies don't want to bother the polar bears
+						ruling_party_ideology = anarcho_liberal	# This is clearly statism
+					}
+					OR = {
+						war_policy = pacifism		# The Arctic should be demilitarized
+						war_policy = anti_military	# There are better ways to spend money
+					}
+				}
+			}
+		}
+	}
+}

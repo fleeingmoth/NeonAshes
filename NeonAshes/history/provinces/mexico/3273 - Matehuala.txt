@@ -1,0 +1,5 @@
+owner = BAJ
+controller = BAJ
+add_core = BAJ
+trade_goods = copper
+life_rating = 25

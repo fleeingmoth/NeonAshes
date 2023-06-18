@@ -1,0 +1,639 @@
+#Iowa Region (3,000,000 750,000 POPS)
+#Des Moines (1,000,000 / 250,000 POPS)
+151 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+}
+#Iowa City (fmr. Oskaloosa)
+152 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}
+#Cedar Rapids
+153 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}
+#Sioux City
+154 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 30000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 300
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 35000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+}
+#Minnesota Region (4,000,000)
+#Minneapolis (2,000,000 / 500,000 POPS)
+155 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 200000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 15000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 40000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 9000
+	}
+}
+#Granite Falls (800,000 / 200,000 POPS)
+156 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}
+#Moorhead (500,000 / 125,000 POPS)
+157 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 50000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+}
+#Duluth (800,000 / 200,000 POPS)
+158 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+}
+#Wisconsin Region
+#Milwaukee (1,600,000 / 400,000 POPS)
+159 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 160000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 12000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 22000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 160000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+}
+#Eau Claire (800,000 / 200,000 pops)
+160 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+}
+#Green Bay (1,200,000 / 300,000 POPS)
+161 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 120000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 5000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 12000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 120000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+}
+#Madison (800,000 / 200,000 pops)
+162 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+}

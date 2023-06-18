@@ -1,0 +1,2587 @@
+### ### Military Doctrine ### ### 
+### Third Generation Warfare ### 
+
+military_engineering = { # Military Engineering (fort 1)
+	limit = { third_gen_warfare = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			arms_industry = 1 # We have the big guns to defend them
+		}
+		modifier = {
+			factor = 2
+			professional_army = 1 # We have the men to staff them
+		}
+		modifier = {
+			factor = 2
+			modern_manufacturing = 1 # We have the factories to supply them
+		}
+		modifier = {
+			factor = 2
+			modern_transportation = 1 # We have the roads to feed them
+		}
+		modifier = {
+			factor = 5
+			war = yes # We need defenses pronto
+		}
+	}
+	effect = {
+		activate_building = fort
+		dig_in_cap = 1
+	}
+}
+guerilla_warfare = { # Guerilla Warfare
+	limit = { third_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = 2
+			national_provinces_occupied = 0.05  # We are being invaded!
+		}
+		modifier = {
+			factor = 5
+			national_provinces_occupied = 0.10  # They are getting closer!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.20  # They are taking a lot of ground!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.50  # We are close to surrender!
+		}
+	}
+	effect = {
+		irregular = { default_organisation = 10 }
+	}
+}
+cbrn_defense = { # CBRN Defense
+	limit = { third_gen_warfare = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			polymers = 1 # Chemical
+		}
+		modifier = {
+			factor = 2
+			modern_medicine = 1 # Biological
+		}
+		modifier = {
+			factor = 2
+			nuclear_energy = 1 # Radiological and Nuclear
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		infantry = { defence = 0.5 }
+		motinfantry = { defence = 0.5 }
+		mechinfantry = { defence = 0.5 }
+		fieldartillery = { defence = 0.5 }
+		spartillery = { defence = 0.5 }
+		lightarmor = { defence = 0.5 }
+		heavyarmor = { defence = 0.5 }
+		armyaviation = { defence = 0.5 }
+	}
+}
+maskirovka = { # Maskirovka
+	limit = { third_gen_warfare = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			professional_army = 1 # A professional military helps
+		}
+		modifier = {
+			factor = 2
+			broadcasting = 1 # Propaganda broadcasts
+		}
+		modifier = {
+			factor = 2
+			postmodernism = 1 # Sociological studies
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = { military_tactics = 0.10 }
+}
+air_land_battle = { # Air-Land Battle
+	limit = { third_gen_warfare = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			professional_army = 1 # A professional military helps
+		}
+		modifier = {
+			factor = 2
+			infantry_fighting_vehicles = 1 # Land component
+		}
+		modifier = {
+			factor = 2
+			airspace_control = 1 # Air component
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = { morale = 0.10 }
+}
+military_lines_of_communication = { # Military Lines of Communication
+	limit = { third_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			professional_army = 1 # We have an organized army
+		}
+		modifier = {
+			factor = 2
+			modern_corporate_structure = 1 # Corporate logistics
+		}
+		modifier = {
+			factor = 2
+			modern_transportation = 1 # Roads and Trains
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		supply_limit = 0.10
+		land_attrition = -0.05
+	}
+}
+
+### Fourth Generation Warfare ###
+
+force_protection = { # Force Protection (fort 2)
+	limit = { fourth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			rocket_artillery = 1 # We have good weapons systems
+		}
+		modifier = {
+			factor = 2
+			composite_armament = 1 # We have good firearms
+		}
+		modifier = {
+			factor = 2
+			command_and_control = 1 # We have a very organized army
+		}
+		modifier = {
+			factor = 3
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -10
+			NOT = {	invention = military_engineering } # Bases come before protected bases
+		}
+	}
+	effect = {
+		max_fort = 1
+		dig_in_cap = 1
+	}
+}
+modern_asymmetric_warfare = { # Modern Asymmetric Warfare
+	limit = { fourth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = 2
+			national_provinces_occupied = 0.05  # We are being invaded!
+		}
+		modifier = {
+			factor = 5
+			national_provinces_occupied = 0.10  # They are getting closer!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.20  # They are taking a lot of ground!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.50  # We are close to surrender!
+		}
+		modifier = {
+			factor = -30
+			NOT = {	invention = guerilla_warfare } # Need guerillas before modern asymmetric warfare
+		}
+	}
+	effect = {
+		irregular = { default_organisation = 10 }
+	}
+}
+counter_ied_efforts = { # Counter-IED Efforts
+	limit = { fourth_gen_warfare = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			infantry_fighting_vehicles = 1 # Bomb proof cars help
+		}
+		modifier = {
+			factor = 2
+			command_and_control = 1 # We have a very organized army
+		}
+		modifier = {
+			factor = 1
+			microprocessors = 1 # Very early electronic warfare
+		}
+		modifier = {
+			factor = 1
+			modern_transportation = 1 # It helps to build roads
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		infantry = { defence = 0.5 }
+		motinfantry = { defence = 0.5 }
+		mechinfantry = { defence = 0.5 }
+		fieldartillery = { defence = 0.5 }
+		spartillery = { defence = 0.5 }
+		lightarmor = { defence = 0.5 }
+		heavyarmor = { defence = 0.5 }
+		armyaviation = { defence = 0.5 }
+	}
+}
+civil_military_operations = { # Civil-Military Operations
+	limit = { fourth_gen_warfare = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			command_and_control = 1 # We have a very organized army
+		}
+		modifier = {
+			factor = 2
+			broadcasting = 1 # Winning their hearts and minds
+		}
+		modifier = {
+			factor = 2
+			realism = 1 # Knowing about politics helps
+		}
+		modifier = {
+			factor = 2
+			cognitive_psychology = 1 # Knowing about the mind helps
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		military_tactics = 0.10
+		morale = 0.10
+	}
+}
+joint_basing = { # Joint Basing
+	limit = { fourth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			command_and_control = 1 # We have a very organized army
+		}
+		modifier = {
+			factor = 2
+			green_water_navy = 1 # We have a navy
+		}
+		modifier = {
+			factor = 2
+			airspace_control = 1 # We have an airforce
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		supply_limit = 0.10
+		land_attrition = -0.05
+	}
+}
+
+### Fifth Generation Warfare ###
+
+integrated_cyberdefense = { # Integrated Cyberdefense (fort 3)
+	limit = { fifth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = military_cybersec # We already have cybersec in our army
+		}
+		modifier = {
+			factor = 1
+			electronic_weapons = 1 # We use electronic weapons
+		}
+		modifier = {
+			factor = 1
+			electromagnetic_weapons = 1 # We use electromagnetic weapons
+		}
+		modifier = {
+			factor = 1
+			electronic_battlespace_integration = 1 # We have a lot of comms in tanks
+		}
+		modifier = {
+			factor = 1
+			digital_battle_command = 1 # We use digital communications
+		}
+		modifier = {
+			factor = 1
+			web_20 = 1 # We have networks
+		}
+		modifier = {
+			factor = 1
+			mobile_computing = 1 # We have cellphones
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -10
+			NOT = {	invention = force_protection } # Need the previous level
+		}
+	}
+	effect = {
+		max_fort = 1
+		dig_in_cap = 1
+	}
+}
+modern_insurgency = { # Modern Insurgency
+	limit = { fifth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = 2
+			national_provinces_occupied = 0.05  # We are being invaded!
+		}
+		modifier = {
+			factor = 5
+			national_provinces_occupied = 0.10  # They are getting closer!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.20  # They are taking a lot of ground!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.50  # We are close to surrender!
+		}
+		modifier = {
+			factor = -30
+			NOT = {	invention = modern_asymmetric_warfare } # Need asymmetric warfare before insurgency
+		}
+	}
+	effect = {
+		irregular = { default_organisation = 10 }
+	}
+}
+military_cybersec = { # Military Cybersecurity
+	limit = { fifth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = integrated_cyberdefense # We already have geeks in our bases
+		}
+		modifier = {
+			factor = 1
+			digital_psychology = 1 # We understand them
+		}
+		modifier = {
+			factor = 1
+			comms_infrastructure = 1 # We have robust communication networks
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		infantry = { defence = 1 }
+		motinfantry = { defence = 1 }
+		mechinfantry = { defence = 1 }
+		fieldartillery = { defence = 1 }
+		spartillery = { defence = 1 }
+		lightarmor = { defence = 1 }
+		heavyarmor = { defence = 1 }
+		armyaviation = { defence = 1 }
+		fighteraircraft = { defence = 1 }
+		groundattackaircraft = { defence = 1 }
+	}
+}
+cyber_command = { # Cyber Command
+	limit = { fifth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = integrated_cyberdefense # We already have geeks in our bases
+		}
+		modifier = {
+			factor = 2
+			invention = military_cybersec # We already have defenses set up
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		military_tactics = 0.15
+		morale = 0.15
+	}
+}
+data_driven_logistics = { # Data-Driven Logistics
+	limit = { fifth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			digital_battle_command = 1 # We use digital communications
+		}
+		modifier = {
+			factor = 2
+			globalized_infrastructure = 1 # We have global reach
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		supply_limit = 0.20
+		land_attrition = -0.05
+	}
+}
+
+### Sixth Generation Warfare ###
+
+autonomous_defenses = { # Autonomous Defenses (fort 4)
+	limit = { sixth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			smart_weapons = 1 # We have smart firearms
+		}
+		modifier = {
+			factor = 1
+			autonomous_weapons = 1 # We have smart heavy weapons
+		}
+		modifier = {
+			factor = 1
+			autonomous_armored_vehicles = 1 # We have smart tanks
+		}
+		modifier = {
+			factor = 1
+			command_ai = 1 # We have computers making decisions
+		}
+		modifier = {
+			factor = 1
+			augmented_reality = 1 # Better man-machine interactions
+		}
+		modifier = {
+			factor = 1
+			machine_intelligence = 1 # Smart computers making smart decisions
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -8
+			NOT = {	invention = integrated_cyberdefense } # Need the previous level
+		}
+	}
+	effect = {
+		max_fort = 1
+		dig_in_cap = 1
+	}
+}
+digital_subversion = { # Digital Subversion
+	limit = { sixth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = 2
+			national_provinces_occupied = 0.05  # We are being invaded!
+		}
+		modifier = {
+			factor = 5
+			national_provinces_occupied = 0.10  # They are getting closer!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.20  # They are taking a lot of ground!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.50  # We are close to surrender!
+		}
+		modifier = {
+			factor = -30
+			NOT = {	invention = modern_insurgency } # Need insurgency before digital terrorism
+		}
+	}
+	effect = {
+		irregular = { default_organisation = 10 }
+	}
+}
+ai_hardening = { # A.I. Hardening
+	limit = { sixth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			command_ai = 1 # We have computers making decisions
+		}
+		modifier = {
+			factor = 1
+			quantum_computing = 1 # Very smart computers
+		}
+		modifier = {
+			factor = 1
+			neuropsychology = 1 # We understand them
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		infantry = { defence = 1 }
+		motinfantry = { defence = 1 }
+		mechinfantry = { defence = 1 }
+		fieldartillery = { defence = 1 }
+		spartillery = { defence = 1 }
+		lightarmor = { defence = 1 }
+		heavyarmor = { defence = 1 }
+		armyaviation = { defence = 1 }
+		fighteraircraft = { defence = 1 }
+		groundattackaircraft = { defence = 1 }
+	}
+}
+digital_battle_rhythm = { # Digital Battle Rhythm
+	limit = { sixth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = autonomous_defenses # We already have robots in our bases
+		}
+		modifier = {
+			factor = 2
+			invention = ai_hardening # We can protect our robots
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		military_tactics = 0.15
+		morale = 0.15
+	}
+}
+mechanical_boots = { # Mechanical Boots (on the ground)
+	limit = { sixth_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			autonomous_weapons = 1 # We have smart heavy weapons
+		}
+		modifier = {
+			factor = 1
+			autonomous_armored_vehicles = 1 # We have smart tanks
+		}
+		modifier = {
+			factor = 1
+			command_ai = 1 # We have computers making decisions
+		}
+		modifier = {
+			factor = 2
+			transport_revolution = 1 # Fast robots, quickly
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		supply_limit = 0.20
+		land_attrition = -0.05
+	}
+}
+
+### Seventh Generation Warfare ###
+
+precognitive_defenses = { # Precognitive Defenses (fort 5)
+	limit = { seventh_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			nano_weapons = 1 # Nanobot warfare
+		}
+		modifier = {
+			factor = 1
+			directed_energy_weapons = 1 # Faster weapons make it easier to react
+		}
+		modifier = {
+			factor = 1
+			heavy_armored_robotic_platforms = 1 # Going all out here with the big bots
+		}
+		modifier = {
+			factor = 1
+			global_decision_making = 1 # Bigger scope, better intel
+		}
+		modifier = {
+			factor = 1
+			virtual_reality = 1 # Perfect reality modeling
+		}
+		modifier = {
+			factor = 1
+			artificial_intelligence = 1 # We need to be almost superhuman here
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -8
+			NOT = {	invention = integrated_cyberdefense } # Need the previous level
+		}
+	}
+	effect = {
+		max_fort = 1
+		dig_in_cap = 1
+	}
+}
+nanoterrorism = { # Nanoterrorism
+	limit = { seventh_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = 2
+			national_provinces_occupied = 0.05  # We are being invaded!
+		}
+		modifier = {
+			factor = 5
+			national_provinces_occupied = 0.10  # They are getting closer!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.20  # They are taking a lot of ground!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.50  # We are close to surrender!
+		}
+		modifier = {
+			factor = -30
+			NOT = {	invention = digital_subversion } # Need digital terror before nano terror
+		}
+	}
+	effect = {
+		irregular = { default_organisation = 10 }
+	}
+}
+enemy_anticipation = { # Enemy Anticipation
+	limit = { seventh_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			global_decision_making = 1 # Bigger scope, better intel
+		}
+		modifier = {
+			factor = 1
+			invention = precognitive_defenses # Precog defenses help
+		}
+		modifier = {
+			factor = 1
+			artificial_psychology = 1 # We understand them
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		infantry = { defence = 2 }
+		motinfantry = { defence = 2 }
+		mechinfantry = { defence = 2 }
+		fieldartillery = { defence = 2 }
+		spartillery = { defence = 2 }
+		lightarmor = { defence = 2 }
+		heavyarmor = { defence = 2 }
+		armyaviation = { defence = 2 }
+		fighteraircraft = { defence = 2 }
+		groundattackaircraft = { defence = 2 }
+	}
+}
+real_time_battlefield_sim = { # Real-Time Battlefield Simulation
+	limit = { seventh_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = precognitive_defenses # We know what they will do
+		}
+		modifier = {
+			factor = 2
+			invention = enemy_anticipation # We will react to them
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		military_tactics = 0.20
+		morale = 0.20
+	}
+}
+modern_prepositioning = { # Modern Prepositioning
+	limit = { seventh_gen_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			global_decision_making = 1 # Global reach
+		}
+		modifier = {
+			factor = 1
+			energy_renaissance = 1 # Powering super well
+		}
+		modifier = {
+			factor = 1
+			nanoscale_manufacturing = 1 # Building super small
+		}
+		modifier = {
+			factor = 1
+			hyper_projects = 1 # Big buildings
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		supply_limit = 0.30
+		land_attrition = -0.05
+	}
+}
+
+### Redefinition of Warfare ###
+
+neo_total_warfare = { # Neo-Total Warfare (fort 6)
+	limit = { redefinition_of_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			exotic_weapons = 1 # Warfare of the new
+		}
+		modifier = {
+			factor = 1
+			command_decentralization = 1 # Warfare of the individual
+		}
+		modifier = {
+			factor = 1
+			exo_cortex = 1 # Warfare of the mind
+		}
+		modifier = {
+			factor = 1
+			superintelligence = 1 # Warfare of the superhuman
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -6
+			NOT = {	invention = precognitive_defenses } # Need the previous level
+		}
+	}
+	effect = {
+		max_fort = 1
+		dig_in_cap = 1
+	}
+}
+stochastic_combat = { # Stochastic Combat
+	limit = { redefinition_of_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = 2
+			national_provinces_occupied = 0.05  # We are being invaded!
+		}
+		modifier = {
+			factor = 5
+			national_provinces_occupied = 0.10  # They are getting closer!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.20  # They are taking a lot of ground!
+		}
+		modifier = {
+			factor = 10
+			national_provinces_occupied = 0.50  # We are close to surrender!
+		}
+		modifier = {
+			factor = -30
+			NOT = {	invention = nanoterrorism } # Need nanoterror before stochastic
+		}
+	}
+	effect = {
+		irregular = { default_organisation = 10 }
+	}
+}
+battlefield_extrapolation = { # Battlefield Extrapolation
+	limit = { redefinition_of_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			command_decentralization = 1 # Warfare of the individual
+		}
+		modifier = {
+			factor = 1
+			invention = neo_total_warfare # Warfare of all
+		}
+		modifier = {
+			factor = 1
+			superintelligence = 1 # Warfare of the superhuman
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		infantry = { defence = 2 }
+		motinfantry = { defence = 2 }
+		mechinfantry = { defence = 2 }
+		fieldartillery = { defence = 2 }
+		spartillery = { defence = 2 }
+		lightarmor = { defence = 2 }
+		heavyarmor = { defence = 2 }
+		armyaviation = { defence = 2 }
+		fighteraircraft = { defence = 2 }
+		groundattackaircraft = { defence = 2 }
+	}
+}
+matrix_of_conflict = { # Matrix of Conflict
+	limit = { redefinition_of_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = neo_total_warfare # War of all
+		}
+		modifier = {
+			factor = 2
+			invention = battlefield_extrapolation # War on all
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		military_tactics = 0.20
+		morale = 0.20
+	}
+}
+flexible_military_infrastructure = { # Flexible Military Infrastructure
+	limit = { redefinition_of_warfare = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			command_decentralization = 1 # Warfare of the individual
+		}
+		modifier = {
+			factor = 1
+			nuclear_fusion = 1 # Unlimited Power
+		}
+		modifier = {
+			factor = 1
+			full_automation = 1 # We just tell our robots what to do
+		}
+		modifier = {
+			factor = 1
+			space_transportation = 1 # Get them there right now
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		supply_limit = 0.30
+		land_attrition = -0.05
+	}
+}
+
+### ### Small Arms & Light Weapons ### ###
+### Mass-Produced Armament ###
+
+kevlar_body_armor = { # Aramid Body Armor
+	limit = { mass_produced_armament = 1 }
+	chance = {
+		base = 3 # Average chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = aramids } # We need Kevlar (Aramids) to make Kevlar body armor
+		}
+	}
+	effect = { soldier_to_pop_loss = 0.01 } # Less casualties
+}
+
+modern_service_rifle = { # Modern Service Rifle
+	limit = { mass_produced_armament = 1 }
+	chance = {
+		base = 3 # Average chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 0.5 }
+		infantry = { attack = 1 }
+		motinfantry = { attack = 1 }
+		mechinfantry = { attack = 1 }
+		fieldartillery = { attack = 0.5 }
+		spartillery = { attack = 0.5 }
+		lightarmor = { attack = 0.5 }
+		heavyarmor = { attack = 0.5 }
+		armyaviation = { attack = 0.5 }
+	}
+}
+standarized_equipment = { # Standarized Equipment
+	limit = { mass_produced_armament = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			modern_manufacturing = 1 # Manufacturing prowress
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = { army_base = { supply_consumption = -0.05 } }
+}
+reflex_sights = { # Reflex Sights
+	limit = { mass_produced_armament = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			polymers = 1 # Plastics needed
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 0.5 }
+		infantry = { attack = 0.5 }
+		motinfantry = { attack = 0.5 }
+		mechinfantry = { attack = 0.5 }
+	}
+}
+riot_control_agents = { # Riot Control Agents
+	limit = { mass_produced_armament = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			polymers = 1 # Materials science helps
+		}
+		modifier = {
+			factor = 2
+			modern_medicine = 1 # Medical advancement help
+		}
+	}
+	effect = { suppression_points_modifier = 0.25 }
+}
+smoke_grenades = { # Smoke Grenades
+	limit = { mass_produced_armament = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = 2
+			polymers = 1 # Materials science helps
+		}
+	}
+	effect = {
+		irregular = { defence = 0.5 }
+		infantry = { defence = 0.5 }
+		motinfantry = { defence = 0.5 }
+		mechinfantry = { defence = 0.5 }
+	}
+}
+
+### Composite Armament ###
+
+modern_ceramic_armor = { # Modern Ceramic Armor
+	limit = { composite_armament = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = kevlar_body_armor # Previous body armor
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { modern_composites = 1 } # We need composites
+		}
+	}
+	effect = { soldier_to_pop_loss = 0.01 } # Less casualties
+}
+modern_carbine = { # Modern Carbine
+	limit = { composite_armament = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 1
+			modern_composites = 1 # Materials science upgrade
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 0.5 }
+		infantry = { attack = 1 }
+		motinfantry = { attack = 1 }
+		mechinfantry = { attack = 1 }
+		fieldartillery = { attack = 0.5 }
+		spartillery = { attack = 0.5 }
+		lightarmor = { attack = 0.5 }
+		heavyarmor = { attack = 0.5 }
+		armyaviation = { attack = 0.5 }
+	}
+}
+caseless_ammo = { # Caseless Ammunition
+	limit = { composite_armament = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			digital_automation = 1 # Manufacturing prowress
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = { army_base = { supply_consumption = -0.05 } }
+}
+modern_night_vision = { # Modern Night Vision
+	limit = { composite_armament = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			modern_composites = 1 # Complex materials needed
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 0.5 }
+		infantry = { attack = 0.5 }
+		motinfantry = { attack = 0.5 }
+		mechinfantry = { attack = 0.5 }
+	}
+}
+modern_baton_rounds = { # Modern Baton Rounds
+	limit = { composite_armament = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			modern_composites = 1 # Materials science helps
+		}
+		modifier = {
+			factor = 2
+			invention = riot_control_agents # We're working on it
+		}
+	}
+	effect = { suppression_points_modifier = 0.25 }
+}
+infrared_smoke_grenades = { # Infrared Smoke Grenades
+	limit = { composite_armament = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			modern_composites = 1 # Materials science upgrade
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = smoke_grenades } # We need smoke grenades
+		}
+	}
+	effect = {
+		irregular = { defence = 0.5 }
+		infantry = { defence = 0.5 }
+		motinfantry = { defence = 0.5 }
+		mechinfantry = { defence = 0.5 }
+	}
+}
+
+### Electronic Weapons ###
+
+personal_reactive_armor = { # Personal Reactive Armor
+	limit = { electronic_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = modern_ceramic_armor # Previous body armor
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { metamaterials = 1 } # We need new materials
+		}
+	}
+	effect = { soldier_to_pop_loss = 0.01 } # Less casualties
+}
+early_electronic_weapons = { # Early Electronic Weapons
+	limit = { electronic_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			mobile_computing = 1 # Small computers
+		}
+		modifier = {
+			factor = 1
+			metamaterials = 1 # Materials science upgrade
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 1 }
+		infantry = { attack = 2 }
+		motinfantry = { attack = 2 }
+		mechinfantry = { attack = 2 }
+		fieldartillery = { attack = 1 }
+		spartillery = { attack = 1 }
+		lightarmor = { attack = 1 }
+		heavyarmor = { attack = 1 }
+		armyaviation = { attack = 1 }
+	}
+}
+in_situ_ammo_manufacturing = { # In-Situ Ammunition Manufacturing
+	limit = { electronic_weapons = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			3d_printing = 1 # Manufacturing prowress
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = { army_base = { supply_consumption = -0.05 } }
+}
+electronic_sights = { # Electronic Sights
+	limit = { electronic_weapons = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			machine_intelligence = 1 # Smart machines
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 1 }
+		infantry = { attack = 1 }
+		motinfantry = { attack = 1 }
+		mechinfantry = { attack = 1 }
+	}
+}
+electronic_riot_control = { # Electronic Riot Control
+	limit = { electronic_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			machine_intelligence = 1 # We have small, smart computers
+		}
+		modifier = {
+			factor = 2
+			invention = modern_baton_rounds # We have some experience in the subject
+		}
+	}
+	effect = { suppression_points_modifier = 0.50 }
+}
+multispectral_smoke_grenades = { # Multispectral Smoke Grenades
+	limit = { electronic_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			metamaterials = 1 # Materials science upgrade
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = infrared_smoke_grenades } # We need new materials
+		}
+	}
+	effect = {
+		irregular = { defence = 1 }
+		infantry = { defence = 1 }
+		motinfantry = { defence = 1 }
+		mechinfantry = { defence = 1 }
+	}
+}
+
+### Smart Weapons ###
+
+combat_exoskeleton = { # Combat Exoskeleton
+	limit = { smart_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			invention = personal_reactive_armor # Previous body armor
+		}
+		modifier = {
+			factor = 1
+			neuropsychology = 1 # Mind connection
+		}
+		modifier = {
+			factor = 1
+			bioengineering = 1 # Body connection
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { superconductors = 1 } # We need superconductors
+		}
+	}
+	effect = { soldier_to_pop_loss = 0.01 } # Less casualties
+}
+smart_rifle = { # Smart Rifle
+	limit = { smart_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			machine_intelligence = 1 # Smart computers
+		}
+		modifier = {
+			factor = 1
+			superconductors = 1 # Materials science upgrade
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 1 }
+		infantry = { attack = 2 }
+		motinfantry = { attack = 2 }
+		mechinfantry = { attack = 2 }
+		fieldartillery = { attack = 1 }
+		spartillery = { attack = 1 }
+		lightarmor = { attack = 1 }
+		heavyarmor = { attack = 1 }
+		armyaviation = { attack = 1 }
+	}
+}
+smart_trigger = { # Smart Trigger
+	limit = { smart_weapons = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			manufacturing_ai = 1 # Manufacturing prowress
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = { army_base = { supply_consumption = -0.05 } }
+}
+smart_sights = { # Smart Sights
+	limit = { smart_weapons = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			neuropsychology = 1 # Better human-mind interaction
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 1 }
+		infantry = { attack = 1 }
+		motinfantry = { attack = 1 }
+		mechinfantry = { attack = 1 }
+	}
+}
+pinpoint_riot_control = { # Pinpoint Riot Control
+	limit = { smart_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			neuropsychology = 1 # Using brainwaves to selectively target rioters
+		}
+		modifier = {
+			factor = 2
+			invention = electronic_riot_control # We have some experience in the subject
+		}
+	}
+	effect = { suppression_points_modifier = 0.50 }
+}
+hyperspectral_smoke_grenades = { # Hyperspectral Smoke Grenades
+	limit = { smart_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			superconductors = 1 # Materials science upgrade
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = multispectral_smoke_grenades } # We need multispectral smoke grenades
+		}
+	}
+	effect = {
+		irregular = { defence = 1 }
+		infantry = { defence = 1 }
+		motinfantry = { defence = 1 }
+		mechinfantry = { defence = 1 }
+	}
+}
+
+### Nano Weapons ###
+
+nanoweave_armor = { # Nanoweave Armor
+	limit = { nano_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			invention = combat_exoskeleton # Previous body armor
+		}
+		modifier = {
+			factor = 1
+			quantum_computing = 1 # Needs some coding
+		}
+		modifier = {
+			factor = 1
+			nanoscale_manufacturing = 1 # Easier to make
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { nanomaterials = 1 } # We need nanomamterials
+		}
+	}
+	effect = { soldier_to_pop_loss = 0.01 } # Less casualties
+}
+manpans = { # Man-Portable Attack Nanite System
+	limit = { nano_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			quantum_computing = 1 # Smart small computers
+		}
+		modifier = {
+			factor = 1
+			nanoscale_manufacturing = 1 # Easier to make
+		}
+		modifier = {
+			factor = 1
+			nanomaterials = 1 # We need nanos
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 2 }
+		infantry = { attack = 4 }
+		motinfantry = { attack = 4 }
+		mechinfantry = { attack = 4 }
+		fieldartillery = { attack = 2 }
+		spartillery = { attack = 2 }
+		lightarmor = { attack = 2 }
+		heavyarmor = { attack = 2 }
+		armyaviation = { attack = 2 }
+	}
+}
+reconfigurable_ammo = { # Reconfigurable Ammunition
+	limit = { nano_weapons = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			nanoscale_manufacturing = 1 # Manufacturing prowress
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = { army_base = { supply_consumption = -0.05 } }
+}
+nanoaugmented_aiming_system = { # Nanoaugmented Aiming System
+	limit = { nano_weapons = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			augmented_reality = 1 # Excellent vision
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 2 }
+		infantry = { attack = 2 }
+		motinfantry = { attack = 2 }
+		mechinfantry = { attack = 2 }
+	}
+}
+incapacitating_nanogas = { # Incapacitating Nanogas
+	limit = { nano_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			nanoscale_manufacturing = 1 # Making lots of tiny robots
+		}
+		modifier = {
+			factor = 2
+			invention = pinpoint_riot_control # We have some experience in the subject
+		}
+	}
+	effect = { suppression_points_modifier = 0.75 }
+}
+camo_smoke_grenades = { # Camo Smoke Grenade
+	limit = { nano_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			nanomaterials = 1 # Materials science upgrade
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = hyperspectral_smoke_grenades } # We need nanomamterials
+		}
+	}
+	effect = {
+		irregular = { defence = 1.5 }
+		infantry = { defence = 1.5 }
+		motinfantry = { defence = 1.5 }
+		mechinfantry = { defence = 1.5 }
+	}
+}
+
+### Exotic Weapons ###
+
+antifragile_armor = { # Antifragile Armor
+	limit = { exotic_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			invention = nanoweave_armor # Previous body armor
+		}
+		modifier = {
+			factor = 1
+			artificial_intelligence = 1 # Really strong computing needed
+		}
+		modifier = {
+			factor = 1
+			full_automation = 1 # Easier to make
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { applied_exotics = 1 } # We need exotics
+		}
+	}
+	effect = { soldier_to_pop_loss = 0.01 } # Less casualties
+}
+plasma_rifle = { # Plasma Rifle
+	limit = { exotic_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			artificial_intelligence = 1 # Needs to be pretty smart and capable
+		}
+		modifier = {
+			factor = 1
+			nuclear_fusion = 1 # Batteries not included
+		}
+		modifier = {
+			factor = 1
+			applied_exotics = 1 # Plasma is pretty exotic
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 2 }
+		infantry = { attack = 4 }
+		motinfantry = { attack = 4 }
+		mechinfantry = { attack = 4 }
+		fieldartillery = { attack = 2 }
+		spartillery = { attack = 2 }
+		lightarmor = { attack = 2 }
+		heavyarmor = { attack = 2 }
+		armyaviation = { attack = 2 }
+	}
+}
+regenerative_ammo = { # Regenerative Ammunition
+	limit = { exotic_weapons = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			full_automation = 1 # Manufacturing prowress
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = { army_base = { supply_consumption = -0.05 } }
+}
+dets = { # Dynamic Environmental Targeting System
+	limit = { exotic_weapons = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			virtual_reality = 1 # It's just like real life
+		}
+		modifier = {
+			factor = 1
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		irregular = { attack = 2 }
+		infantry = { attack = 2 }
+		motinfantry = { attack = 2 }
+		mechinfantry = { attack = 2 }
+	}
+}
+full_spectrum_suppression = { # Full Spectrum Suppression
+	limit = { exotic_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			superintelligence = 1 # Computers
+		}
+		modifier = {
+			factor = 2
+			invention = incapacitating_nanogas # We have some experience in the subject
+		}
+	}
+	effect = { suppression_points_modifier = 0.75 }
+}
+near_invisibility_field = { # Near-Invisibility Field
+	limit = { exotic_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			applied_exotics = 1 # Materials science upgrade
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = camo_smoke_grenades } # We need camo smoke
+		}
+	}
+	effect = {
+		irregular = { defence = 1.5 }
+		infantry = { defence = 1.5 }
+		motinfantry = { defence = 1.5 }
+		mechinfantry = { defence = 1.5 }
+	}
+}
+
+### ### Artillery & Weapons Systems ### ###
+### Arms Industry ###
+
+field_artillery_brigade = { # Field Artillery Brigade
+	limit = { arms_industry = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 3
+			invention = light_infantry_brigade # Already organizing infantry brigades
+		}
+		modifier = {
+			factor = 3
+			invention = military_engineering # Already building forts
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = { activate_unit = fieldartillery }
+}
+sp_artillery_brigade = { # Self-Propelled Artillery Brigade
+	limit = { arms_industry = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			infantry_fighting_vehicles = 1 # Already mechanizing
+		}
+		modifier = {
+			factor = 1
+			light_tanks = 1 # We have light tanks already
+		}
+		modifier = {
+			factor = 1
+			main_battle_tanks = 1 # We have heavy tanks already
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -7
+			NOT = {	invention = field_artillery_brigade } # Need field artillery before mechanization
+		}
+	}
+	effect = { activate_unit = spartillery }
+}
+fire_control_radar = { # Fire Control Radar
+	limit = { arms_industry = 1 }
+	chance = {
+		base = 3 # Average chance by itself
+		modifier = {
+			factor = 2
+			invention = counter_battery_radar # We have a similar radar
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { attack = 1 }
+		spartillery = { attack = 1 }
+	}
+}
+counter_battery_radar = { # Counter-Battery Radar
+	limit = { arms_industry = 1 }
+	chance = {
+		base = 3 # Average chance by itself
+		modifier = {
+			factor = 2
+			invention = fire_control_radar # We have a similar radar
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { attack = 1 }
+		spartillery = { attack = 1 }
+	}
+}
+
+rocket_assisted_projectiles = { # Rocket-Assisted Projectiles
+	limit = { arms_industry = 1 }
+	chance = {
+		base = 0 # Needs other requirements
+		modifier = {
+			factor = 2
+			invention = field_artillery_brigade # We have conventional arty
+		}
+		modifier = {
+			factor = 2
+			invention = sp_artillery_brigade # We have self-prop arty
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { support = 0.25 }
+		spartillery = { support = 0.25 }
+	}
+}
+improved_conventional_munitions = { # Improved Conventional Munitions
+	limit = { arms_industry = 1 }
+	chance = {
+		base = 0 # Needs other requirements
+		modifier = {
+			factor = 2
+			invention = field_artillery_brigade # We have conventional arty
+		}
+		modifier = {
+			factor = 2
+			invention = sp_artillery_brigade # We have self-prop arty
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { attack = 1 }
+		spartillery = { attack = 1 }
+	}
+}
+
+### Rocket Artillery ###
+
+land_based_pesa = { # Land-Based PESA
+	limit = { rocket_artillery = 1 }
+	chance = {
+		base = 0 # Needs other requirements
+		modifier = {
+			factor = 2
+			invention = fire_control_radar # We have the previous radar tech
+		}
+		modifier = {
+			factor = 2
+			invention = counter_battery_radar # We have the previous radar tech
+		}
+		modifier = {
+			factor = 1
+			invention = naval_pesa # We already have them in our ships
+		}
+		modifier = {
+			factor = 1
+			invention = air_pesa # We already have them in our planes
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -8
+			NOT = {	microprocessors = 1 } # We need microprocessors for this
+		}
+	}
+	effect = {
+		fieldartillery = { attack = 1 }
+		fieldartillery = { defence = 2 }
+		spartillery = { attack = 1 }
+		spartillery = { defence = 2 }
+		lightarmor = { attack = 0.5 }
+		lightarmor = { defence = 0.5 }
+		heavyarmor = { attack = 0.5 }
+		heavyarmor = { defence = 0.5 }
+	}
+}
+base_bleed_projectiles = { # Base Bleed Projectiles
+	limit = { rocket_artillery = 1 }
+	chance = {
+		base = 0 # Needs other requirements
+		modifier = {
+			factor = 2
+			invention = rocket_assisted_projectiles # Previous gen conventional shells
+		}
+		modifier = {
+			factor = 2
+			aerospace_industry = 1 # Aerodynamics knowledge
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { support = 0.25 }
+		spartillery = { support = 0.25 }
+	}
+}
+subsonic_cruise_missiles = { # Subsonic Cruise Missiles
+	limit = { rocket_artillery = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			suborbital_flight = 1 # We're working with rockets
+		}
+		modifier = {
+			factor = 2
+			aerospace_industry = 1 # Aerodynamics knowledge
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { support = 0.25 }
+		spartillery = { support = 0.25 }
+	}
+}
+high_capacity_artillery_projectile = { # High-Capacity Artillery Projectile
+	limit = { rocket_artillery = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			modern_composites = 1 # Better shell materials
+		}
+		modifier = {
+			factor = 2
+			invention = improved_conventional_munitions # We were working in something similar
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { attack = 1 }
+		spartillery = { attack = 1 }
+	}
+}
+terrain_contour_matching = { # Terrain Contour Matching
+	limit = { rocket_artillery = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			microprocessors = 1 # Better computers
+		}
+		modifier = {
+			factor = 2
+			invention = subsonic_cruise_missiles # Missiles to put them on
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { attack = 1 }
+		spartillery = { attack = 1 }
+	}
+}
+
+### Precision-Guided Munitions ###
+
+land_based_aesa = { # Land-Based AESA
+	limit = { precision_guided_munitions = 1 }
+	chance = {
+		base = 0 # Needs other requirements
+		modifier = {
+			factor = 2
+			invention = land_based_pesa # We have the previous radar tech
+		}
+		modifier = {
+			factor = 1
+			invention = naval_aesa # We already have them in our ships
+		}
+		modifier = {
+			factor = 1
+			invention = air_aesa # We already have them in our planes
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -6
+			NOT = {	mobile_computing = 1 } # We need better processing power
+		}
+	}
+	effect = {
+		fieldartillery = { attack = 1 }
+		fieldartillery = { defence = 2 }
+		spartillery = { attack = 1 }
+		spartillery = { defence = 2 }
+		lightarmor = { attack = 0.5 }
+		lightarmor = { defence = 0.5 }
+		heavyarmor = { attack = 0.5 }
+		heavyarmor = { defence = 0.5 }
+	}
+}
+supersonic_cruise_missiles = { # Supersonic Cruise Missiles
+	limit = { precision_guided_munitions = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = subsonic_cruise_missiles # We have slow cruise missiles
+		}
+		modifier = {
+			factor = 2
+			fly_by_wire = 1 # Smarter flight controls
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { support = 0.50 }
+		spartillery = { support = 0.50 }
+	}
+}
+automatic_target_recognition = { # Automatic Target Recognition
+	limit = { precision_guided_munitions = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			mobile_computing = 1 # Better, smaller, computers
+		}
+		modifier = {
+			factor = 2
+			invention = supersonic_cruise_missiles # Better missiles to put them in
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { attack = 2 }
+		spartillery = { attack = 2 }
+	}
+}
+
+### Electromagnetic Weapons ###
+
+modern_battlefield_radar = { # Modern Battlefield Radar
+	limit = { electromagnetic_weapons = 1 }
+	chance = {
+		base = 0 # Needs other requirements
+		modifier = {
+			factor = 2
+			invention = land_based_aesa # We have the previous radar tech
+		}
+		modifier = {
+			factor = 2
+			digital_battle_command = 1 # We are networking
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -5
+			NOT = {	machine_intelligence = 1 } # We need better processing power
+		}
+	}
+	effect = {
+		motinfantry = { attack = 0.5 }
+		motinfantry = { defence = 0.5 }
+		mechinfantry = { attack = 0.5 }
+		mechinfantry = { defence = 0.5 }
+		fieldartillery = { attack = 2 }
+		fieldartillery = { defence = 4 }
+		spartillery = { attack = 2 }
+		spartillery = { defence = 4 }
+		lightarmor = { attack = 1 }
+		lightarmor = { defence = 1 }
+		heavyarmor = { attack = 1 }
+		heavyarmor = { defence = 1 }
+	}
+}
+hypersonic_cruise_missiles = { # Hypersonic Cruise Missiles
+	limit = { electromagnetic_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = supersonic_cruise_missiles # We have fast cruise missiles
+		}
+		modifier = {
+			factor = 2
+			modern_avionics = 1 # Better avionics
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { support = 0.50 }
+		spartillery = { support = 0.50 }
+	}
+}
+linear_motor_artillery = { # Linear Motor Artillery
+	limit = { electromagnetic_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			smart_grid = 1 # Lotsa Power
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -5
+			NOT = {	superconductors = 1 } # We need the materials to do so
+		}
+	}
+	effect = {
+		fieldartillery = { attack = 2 }
+	}
+}
+
+### Autonomous Weapons ###
+
+integrated_chassis_sensors = { # Integrated Chassis Sensors
+	limit = { autonomous_weapons = 1 }
+	chance = {
+		base = 0 # Needs other requirements
+		modifier = {
+			factor = 2
+			invention = modern_battlefield_radar # We have the previous radar tech
+		}
+		modifier = {
+			factor = 1
+			invention = integrated_hull_sensors # We already have them in our ships
+		}
+		modifier = {
+			factor = 1
+			invention = integrated_skin_sensors # We already have them in our planes
+		}
+		modifier = {
+			factor = 1
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -5
+			NOT = {	quantum_computing = 1 } # We need better processing power
+		}
+	}
+	effect = {
+		motinfantry = { attack = 0.5 }
+		motinfantry = { defence = 0.5 }
+		mechinfantry = { attack = 0.5 }
+		mechinfantry = { defence = 0.5 }
+		fieldartillery = { attack = 2 }
+		fieldartillery = { defence = 4 }
+		spartillery = { attack = 2 }
+		spartillery = { defence = 4 }
+		lightarmor = { attack = 1 }
+		lightarmor = { defence = 1 }
+		heavyarmor = { attack = 1 }
+		heavyarmor = { defence = 1 }
+	}
+}
+hunter_killer_cruise_missiles = { # Hunter-Killer Cruise Missiles
+	limit = { autonomous_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = hypersonic_cruise_missiles # We have really fast cruise missiles
+		}
+		modifier = {
+			factor = 2
+			hypersonic_aircraft = 1 # Perfected hypersonic flight
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { support = 0.50 }
+		spartillery = { support = 0.50 }
+	}
+}
+
+### Directed Energy Weapons ###
+
+euclidean_artillery = { # Euclidean Artillery
+	limit = { directed_energy_weapons = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = hunter_killer_cruise_missiles # We have really fast cruise missiles
+		}
+		modifier = {
+			factor = 2
+			nuclear_fusion = 1 # Serious energy consumption
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		fieldartillery = { support = 0.50 }
+		spartillery = { support = 0.50 }
+	}
+}
+
+### ### Armored Vehicles ### ###
+### Infantry Fighting Vehicles ###
+
+mechanized_infantry_brigade = { # Mechanized Infantry Brigade
+	limit = { infantry_fighting_vehicles = 1 }
+	chance = {
+		base = 2 # Low chance by itself
+		modifier = {
+			factor = 2
+			invention = sp_artillery_brigade # Already mechanizing
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -6
+			NOT = {	invention = motorized_infantry_brigade } # You need motorized infantry before mechanized
+		}
+	}
+	effect = { activate_unit = mechinfantry }
+}
+
+### Light Tanks ###
+
+light_armored_brigade = { # Light Armoured Brigade
+	limit = { light_tanks = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = mechanized_infantry_brigade # Already has mechanized infantry
+		}
+		modifier = {
+			factor = 2
+			main_battle_tanks = 1 # Already going up the tech tree
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = { activate_unit = lightarmor }
+}
+
+### Main Battle Tanks ###
+
+mbt_brigade = { # Heavy Armored Brigade
+	limit = { main_battle_tanks = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = light_armored_brigade # Already knows how to make tanks
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = { activate_unit = heavyarmor }
+}
+
+### ### Military Organization ### ###
+### Professional Army ###
+
+light_infantry_brigade = { # Light Infantry Brigade
+	limit = { professional_army = 1 }
+	chance = {
+		base = 3 # Moderate chance by itself
+		modifier = {
+			factor = 3
+			mass_produced_armament = 1 # Making guns
+		}
+		modifier = {
+			factor = 3
+			third_gen_warfare = 1 # Has some military knowledge
+		}
+		modifier = {
+			factor = 3
+			war = yes # Learning by combat
+		}
+	}
+	effect = { activate_unit = infantry }
+}
+motorized_infantry_brigade = { # Motorized Infantry Brigade
+	limit = { professional_army = 1 }
+	chance = {
+		base = 3 # Moderate chance by itself
+		modifier = {
+			factor = 3 
+			arms_industry = 1 # Making trucks
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -8
+			NOT = {	invention = light_infantry_brigade } # You need light infantry brigades before motorized ones
+		}
+	}
+	effect = { activate_unit = motinfantry }
+}
+army_aviation_tech = { # Army Aviation
+	limit = { professional_army = 1 }
+	chance = {
+		base = 0 # Requires other stuffs
+		modifier = {
+			factor = 2
+			aerospace_industry = 1 # Making aircraft
+		}
+		modifier = {
+			factor = 2
+			airspace_control = 1 # Using aircraft
+		}
+		modifier = {
+			factor = 2
+			third_gen_warfare = 1 # Has some military knowledge
+		}
+		modifier = {
+			factor = 2
+			invention = modern_attack_wing # We are doing the same thing in the Air Force
+		}
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+		modifier = {
+			factor = -10
+			NOT = {	invention = light_infantry_brigade } # You need infantry brigades before having choppers
+		}
+	}
+	effect = { activate_unit = armyaviation }
+}
+
+military_police = { # Military Police
+	limit = { professional_army = 1 }
+	chance = {
+		base = 3 # Moderate chance by itself
+		modifier = {
+			factor = 2
+			third_gen_warfare = 1 # Military knowledge
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		infantry = { discipline = 0.10 }
+		motinfantry = { discipline = 0.10 }
+		mechinfantry = { discipline = 0.10 }
+		fieldartillery = { discipline = 0.10 }
+		spartillery = { discipline = 0.10 }
+		lightarmor = { discipline = 0.10 }
+		heavyarmor = { discipline = 0.10 }
+		armyaviation = { discipline = 0.10 }
+	}
+}
+military_academy = { # Military Academy
+	limit = { professional_army = 1 }
+	chance = {
+		base = 3 # Moderate chance by itself
+		modifier = {
+			factor = 2
+			third_gen_warfare = 1 # Military knowledge
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	leadership_modifier = 0.20
+}
+basic_combat_training = { # Basic Combat Training
+	limit = { professional_army = 1 }
+	chance = {
+		base = 3 # Moderate chance by itself
+		modifier = {
+			factor = 2
+			cognitive_psychology = 1 # Psych knowledge
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	land_unit_start_experience = 10
+}
+war_college = { # War College
+	limit = { professional_army = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = military_academy # We are already training officers
+		}
+		modifier = {
+			factor = 2
+			third_gen_warfare = 1 # Military knowledge
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	education_efficiency_modifier = 0.05
+	research_points_modifier = 0.05
+}
+military_reserve_force = { # Military Reserve Force
+	limit = { professional_army = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 1
+			invention = military_academy # Training officers
+		}
+		modifier = {
+			factor = 1
+			invention = basic_combat_training # Training troops
+		}
+		modifier = {
+			factor = 1
+			invention = war_college # Teaching everybody
+		}
+		modifier = {
+			factor = 2
+			third_gen_warfare = 1 # Military knowledge
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		regular_experience_level = 5
+		reinforce_rate = 0.05
+	}
+}
+
+### Command and Control ###
+
+special_operations_forces = { # Special Operations Forces
+	limit = { command_and_control = 1 }
+	chance = {
+		base = 3 # Moderate chance by itself
+		modifier = {
+			factor = 2
+			fourth_gen_warfare = 1 # Military knowledge
+		}
+		modifier = {
+			factor = 3
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		infantry = { discipline = 0.10 }
+		motinfantry = { discipline = 0.10 }
+		mechinfantry = { discipline = 0.10 }
+		fieldartillery = { discipline = 0.10 }
+		spartillery = { discipline = 0.10 }
+		lightarmor = { discipline = 0.10 }
+		heavyarmor = { discipline = 0.10 }
+		armyaviation = { discipline = 0.10 }
+	}
+}
+modern_national_service = { # Modern National Service
+	limit = { command_and_control = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			fourth_gen_warfare = 1 # Military knowledge
+		}
+		modifier = {
+			factor = 1
+			green_water_navy = 1	# We have a navy
+		}
+		modifier = {
+			factor = 1
+			airspace_control = 1	# We have an air force
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+	}
+	effect = {
+		regular_experience_level = 5
+	}
+}
+active_reserves = { # Active Reserves
+	limit = { command_and_control = 1 }
+	chance = {
+		base = 1 # Very low chance by itself
+		modifier = {
+			factor = 2
+			invention = modern_national_service
+		}
+		modifier = {
+			factor = 2
+			war = yes # War makes haste
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = military_reserve_force }
+		}
+	}
+	effect = {
+		reinforce_rate = 0.05
+	}
+}
+
+### Digital Battle Command ###
+
+total_force_policy = { # Total Force Policy
+	limit = { digital_battle_command = 1 }
+	chance = {
+		base = 1 # Moderate chance by itself
+		modifier = {
+			factor = 2
+			fifth_gen_warfare = 1	# Military knowledge
+		}
+		modifier = {
+			factor = 2
+			war = yes		# War makes haste
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = active_reserves }
+		}
+	}
+	effect = {
+		reinforce_rate = 0.05
+	}
+}

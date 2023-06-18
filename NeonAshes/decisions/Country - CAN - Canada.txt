@@ -1,0 +1,152 @@
+political_decisions = {
+	canadian_unification_yes_cc = { # Unify Canada (signatory of the Canadian Compact)
+		news = yes
+		news_desc_long = "canadian_unification_yes_cc_NEWS_LONG"
+		news_desc_medium = "canadian_unification_yes_cc_NEWS_MEDIUM"
+		news_desc_short = "canadian_unification_yes_cc_NEWS_SHORT"
+		picture = flags_canada_smallpic
+		potential = {
+			has_country_modifier = canada_compact_signatory		# Signatory to the Canadian Compact
+			institutionalism = 1					# We have Institutionalism
+			OR = {							# We are in West Canada
+				tag = WCA
+				tag = ECA
+			}
+			NOT = { exists = CAN }					# Canada already unified
+		}
+		allow = {
+			new_international_system = 1				# We have New International System
+			war = no
+			OR = {
+				owns = 13					# Vancouver
+				13 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+			OR = {
+				owns = 30					# Regina
+				30 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+			OR = {
+				owns = 46					# Toronto
+				46 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+			OR = {
+				owns = 65					# Quebec City
+				65 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 2			# Tiny badboy hit
+			prestige = 10			# Rising up in the world
+			all_core = { add_core = CAN }	# All our cores become Canada
+			change_tag = CAN		# We become Canada
+			country_event = {
+				id = 182
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	canadian_unification_no_cc = { # Unify Canada (Not signatory of the Canadian Compact)
+		news = yes
+		news_desc_long = "canadian_unification_no_cc_NEWS_LONG"
+		news_desc_medium = "canadian_unification_no_cc_NEWS_MEDIUM"
+		news_desc_short = "canadian_unification_no_cc_NEWS_SHORT"
+		picture = flags_canada_smallpic
+		potential = {
+			NOT = { has_country_modifier = canada_compact_signatory }	# Not part of the Canadian Compact
+			institutionalism = 1						# We have Institutionalism
+			OR = {								# We are in West Canada
+				tag = WCA
+				tag = ECA
+			}
+			NOT = { exists = CAN }						# Canada already unified
+		}
+		allow = {
+			new_international_system = 1					# We have New International System
+			war = no
+			OR = {
+				owns = 13						# Vancouver
+				13 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+			OR = {
+				owns = 30						# Regina
+				30 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+			OR = {
+				owns = 46						# Toronto
+				46 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+			OR = {
+				owns = 65						# Quebec City
+				65 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 5			# Moderate badboy hit
+			prestige = 10			# Rising up in the world
+			all_core = { add_core = CAN }	# All our cores become Canada
+			change_tag = CAN		# We become Canada
+			country_event = {
+				id = 182
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

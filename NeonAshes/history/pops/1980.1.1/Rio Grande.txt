@@ -1,0 +1,479 @@
+# Coahuila Region
+# Piedras Negras (500,000 / 125,000 POPS)
+2147 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 7000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 2500
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 2500
+	}
+}
+# Saltillo (500,000 / 125,000 POPS)
+2151 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 7000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 2500
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 2500
+	}
+}
+# Monclova (400,000 / 100,000 POPS)
+2152 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 30000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 6000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 40000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+}
+# Torreon (400,000 / 100,000 POPS)
+2155 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 30000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 6000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 40000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+}
+# Nuevo Leon-Tamaulipas Region
+# Monterrey (2,000,000 / 500,000 POPS)
+2146 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 15000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 150000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 15000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 30000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 10000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 10000
+	}
+}
+# Nuevo Laredo (600,000 / 150,000 POPS)
+2148 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 4000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 45000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 4000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 1200
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 8000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 60000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+}
+# Matamoros (500,000 / 125,000 POPS)
+2149 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 7000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 2500
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 2500
+	}
+}
+# Ciudad Victoria (500,000 / 125,000 POPS)
+2150 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 7000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 2500
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 2500
+	}
+}
+#Tampico (400,000 / 100,000 POPS)
+2163 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 30000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 6000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 40000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+}

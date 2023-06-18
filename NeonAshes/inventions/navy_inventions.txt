@@ -1,0 +1,1504 @@
+#Naval Doctrine & Tactics
+#Green Water Navy
+
+sealift_ship_tech = { #Sealift Ship e.g. transport
+	limit = { green_water_navy = 1 }
+	chance = {
+		base = 0 #Need some additional requirements
+		modifier = {
+			factor = 2
+			shipbuilding_industry = 1 #Already building ships
+		}
+		modifier = {
+			factor = 2
+			modern_naval_engineering = 1 #Already building modern ships
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 1 #We have sea access
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 3 #We have a small coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 6 #We have a decent coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 10 #We have a large coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 15 #We have a really big coastline
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+	}
+	effect = {  }
+}
+corvette_tech = { #Corvettes
+	limit = { green_water_navy = 1 }
+	chance = {
+		base = 0 #Need some additional requirements
+		modifier = {
+			factor = 2
+			shipbuilding_industry = 1 #Already building ships
+		}
+		modifier = {
+			factor = 2
+			modern_naval_engineering = 1 #Already building modern ships
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 1 #We have sea access
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 3 #We have a small coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 6 #We have a decent coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 10 #We have a large coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 15 #We have a really big coastline
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+	}
+	effect = {  }
+}
+frigate_tech = { #Frigates
+	limit = { green_water_navy = 1 }
+	chance = {
+		base = 0 #Need some additional requirements
+		modifier = {
+			factor = 2
+			shipbuilding_industry = 1 #Already building ships
+		}
+		modifier = {
+			factor = 2
+			modern_naval_engineering = 1 #Already building modern ships
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 1 #We have sea access
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 3 #We have a small coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 6 #We have a decent coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 10 #We have a large coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 15 #We have a really big coastline
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+	}
+	effect = {  }
+}
+
+#Blue Water Navy
+
+destroyer_tech = { #Destroyers
+	limit = { blue_water_navy = 1 }
+	chance = {
+		base = 0 #Need some additional requirements
+		modifier = {
+			factor = 2
+			shipbuilding_industry = 1 #Already building ships
+		}
+		modifier = {
+			factor = 2
+			modern_naval_engineering = 1 #Already building modern ships
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 1 #We have sea access
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 5 #We have a decent coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 10 #We have a large coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 20 #We have a huge coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 40 #We have the better part of a continent
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+	}
+	effect = {  }
+}
+cruiser_tech = { #Cruisers
+	limit = { blue_water_navy = 1 }
+	chance = {
+		base = 0 #Need some additional requirements
+		modifier = {
+			factor = 2
+			shipbuilding_industry = 1 #Already building ships
+		}
+		modifier = {
+			factor = 2
+			modern_naval_engineering = 1 #Already building modern ships
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 1 #We have sea access
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 5 #We have a decent coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 10 #We have a large coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 20 #We have a huge coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 40 #We have the better part of a continent
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+	}
+	effect = {  }
+}
+
+#Regional Power Projection
+
+attack_sub_tech = { #Attack Submarines
+	limit = { regional_power_projection = 1 }
+	chance = {
+		base = 0 #Need some additional requirements
+		modifier = {
+			factor = 2
+			modern_naval_engineering = 1 #Already building modern ships
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 1 #We have sea access
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 5 #We have a decent coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 10 #We have a large coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 20 #We have a huge coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 40 #We have the better part of a continent
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+	}
+	effect = {  }
+}
+carrier_tech = { #Aircraft Carriers
+	limit = { regional_power_projection = 1 }
+	chance = {
+		base = 0 #Need some additional requirements
+		modifier = {
+			factor = 2
+			modern_naval_engineering = 1 #Already building modern ships
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 1 #We have sea access
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 5 #We have a decent coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 10 #We have a large coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 20 #We have a huge coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 40 #We have the better part of a continent
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -10
+			NOT = {	aerospace_industry = 1 } #You need airplanes in order to have carriers
+		}
+	}
+	effect = {  }
+}
+
+#Global Power Projection
+
+supercarrier_tech = { #Supercarriers
+	limit = { global_power_projection = 1 }
+	chance = {
+		base = 0 #Need some additional requirements
+		modifier = {
+			factor = 2
+			composite_hull_superstructure = 1 #Advanced shipbuilding
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 1 #We have sea access
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 5 #We have a decent coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 10 #We have a large coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 20 #We have a huge coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 40 #We have the better part of a continent
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -10
+			NOT = {	invention = carrier_tech } #You need small carriers before building bigger ones
+		}
+	}
+	effect = {  }
+}
+
+#Modern Anti-Access and Area Denial
+
+hypercarrier_tech = { #Hypercarriers
+	limit = { modern_AA_AD = 1 }
+	chance = {
+		base = 0 #Need some additional requirements
+		modifier = {
+			factor = 2
+			modern_ship_propulsion = 1 #Advanced shipbuilding
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 1 #We have sea access
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 5 #We have a decent coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 10 #We have a large coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 20 #We have a huge coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 40 #We have the better part of a continent
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -10
+			NOT = {	invention = supercarrier_tech } #You need big carriers before building huge ones
+		}
+	}
+	effect = {  }
+}
+
+#Naval Engineering
+#Shipbuilding Industry
+
+naval_pesa = { #Naval PESA
+	limit = { shipbuilding_industry = 1 }
+	chance = {
+		base = 2 #Low chance of discovery by itself
+		modifier = {
+			factor = 2
+			invention = land_based_pesa #We already have them on land
+		}
+		modifier = {
+			factor = 2
+			invention = air_pesa #We already have them in our planes
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -8
+			NOT = {	microprocessors = 1 } #We need microprocessors for this
+		}
+	}
+	effect = { }
+}
+
+#Modern Naval Engineering
+
+naval_aesa = { #Naval AESA
+	limit = { modern_naval_engineering = 1 }
+	chance = {
+		base = 0 #Needs other requirements
+		modifier = {
+			factor = 2
+			invention = naval_pesa #We have the previous radar tech
+		}
+		modifier = {
+			factor = 1
+			invention = land_based_aesa #We already have them on land
+		}
+		modifier = {
+			factor = 1
+			invention = air_aesa #We already have them in our planes
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -6
+			NOT = {	mobile_computing = 1 } #We need microprocessors for this
+		}
+	}
+	effect = { }
+}
+
+#Composite Hull Superstructure
+
+modern_naval_optics = { #Modern Naval Optics
+	limit = { composite_hull_superstructure = 1 }
+	chance = {
+		base = 0 #Needs other requirements
+		modifier = {
+			factor = 2
+			invention = naval_aesa #We have the previous radar tech
+		}
+		modifier = {
+			factor = 2
+			global_power_projection = 1 #We need these
+		}
+		modifier = {
+			factor = 1
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -5
+			NOT = {	machine_intelligence = 1 } #We need better processing power
+		}
+	}
+	effect = { }
+}
+
+#Modern Ship Propulsion
+
+integrated_hull_sensors = { #Integrated Hull Sensors
+	limit = { modern_ship_propulsion = 1 }
+	chance = {
+		base = 0 #Needs other requirements
+		modifier = {
+			factor = 2
+			invention = modern_naval_optics #We have the previous radar tech
+		}
+		modifier = {
+			factor = 1
+			invention = integrated_chassis_sensors #We already have them in our vehicles
+		}
+		modifier = {
+			factor = 1
+			invention = integrated_skin_sensors #We already have them in our planes
+		}
+		modifier = {
+			factor = 1
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -5
+			NOT = {	quantum_computing = 1 } #We need really good processing power
+		}
+	}
+	effect = { }
+}
+
+#Astronautical Engineering
+#Sub-Orbital Flight
+
+sounding_rockets = { #Sounding Rockets
+	limit = { suborbital_flight = 1 }
+	chance = {
+		base = 1 #Very low chance by itself
+		modifier = {
+			factor = 1
+			has_country_modifier = space_program_lvl_0
+		}
+		modifier = {
+			factor = 2
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 3
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 4
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 5
+			has_country_modifier = space_program_lvl_4
+		}
+	}
+	research_points = 0.05
+	research_points_modifier = 0.05
+}
+
+artificial_satellites = { # Artificial Satellites
+	limit = { suborbital_flight = 1 }
+	chance = {
+		base = 0				# Needs other requirements - triggered by event
+		modifier = {
+			factor = 100			# Ensuring its discovery
+			has_country_modifier = satellite_in_space
+		}
+	}
+	effect = { shared_prestige = 10 }
+}
+
+suborbital_animal_spaceflight = { #Suborbital Animal Spaceflight
+	limit = { suborbital_flight = 1 }
+	chance = {
+		base = 0				# Needs other requirements - triggered by event
+		modifier = {
+			factor = 100			# Ensuring its discovery
+			has_country_modifier = animal_in_space
+		}
+	}
+	effect = { shared_prestige = 15 }
+}
+
+suborbital_human_spaceflight = { #Suborbital Human Spaceflight
+	limit = { suborbital_flight = 1 }
+	chance = {
+		base = 0				# Needs other requirements - triggered by event
+		modifier = {
+			factor = 100			# Ensuring its discovery
+			has_country_modifier = man_in_space
+		}
+	}
+	effect = { shared_prestige = 20 }		# It's impressive
+	education_efficiency_modifier = 0.05		# Raises interest in science
+	global_pop_consciousness_modifier = 0.01	# Really makes you think
+}
+
+tcbms = { #Tactical Ballistic Missiles
+	limit = { suborbital_flight = 1 }
+	chance = {
+		base = 2 #Low chance by itself
+		modifier = {
+			factor = 2
+			third_gen_warfare = 1 #We know some military strategy
+		}
+		modifier = {
+			factor = 3
+			invention = tbms #We have Theatre Ballistic Missiles
+		}
+		modifier = {
+			factor = 3
+			invention = irbms #We have Intermediate Range Ballistic Missiles
+		}
+		modifier = {
+			factor = 3
+			invention = icbms #We have Intercontinental Ballistic Missiles
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -15
+			NOT = {	rocket_artillery = 1 } #We need rocket arty in order to develop this.
+		}
+	}
+	effect = {
+		fieldartillery = { support = 0.25 }
+		spartillery = { support = 0.25 }
+	}
+}
+
+tbms = { #Theatre Ballistic Missiles
+	limit = { suborbital_flight = 1 }
+	chance = {
+		base = 2 #Low chance by itself
+		modifier = {
+			factor = 2
+			third_gen_warfare = 1 #We know some military strategy
+		}
+		modifier = {
+			factor = 2
+			invention = tcbms #We have Tactical Ballistic Missiles
+		}
+		modifier = {
+			factor = 2
+			invention = irbms #We have Intermediate Range Ballistic Missiles
+		}
+		modifier = {
+			factor = 2
+			invention = icbms #We have Intercontinental Ballistic Missiles
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -12
+			NOT = {	rocket_artillery = 1 } #We need rocket arty in order to develop this.
+		}
+	}
+	effect = {
+		fieldartillery = { attack = 1 }
+		spartillery = { attack = 1 }
+	}
+}
+
+irbms = { #Intermediate Range Ballistic Missiles
+	limit = { suborbital_flight = 1 }
+	chance = {
+		base = 1 #Very low chance by itself
+		modifier = {
+			factor = 1
+			third_gen_warfare = 1 #We know some military strategy
+		}
+		modifier = {
+			factor = 2
+			invention = tcbms #We have Tactical Ballistic Missiles
+		}
+		modifier = {
+			factor = 2
+			invention = tbms #We have Theatre Ballistic Missiles
+		}
+		modifier = {
+			factor = 2
+			invention = icbms #We have Intercontinental Ballistic Missiles
+		}
+		modifier = {
+			factor = 1
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -9
+			NOT = {	rocket_artillery = 1 } #We need rocket arty in order to develop this.
+		}
+	}
+	effect = { military_tactics = 0.05 }
+}
+
+icbms = { #Intercontinental Ballistic Missiles
+	limit = { suborbital_flight = 1 }
+	chance = {
+		base = 1 #Very low chance by itself
+		modifier = {
+			factor = 1
+			third_gen_warfare = 1 #We know some military strategy
+		}
+		modifier = {
+			factor = 1
+			invention = tcbms #We have Tactical Ballistic Missiles
+		}
+		modifier = {
+			factor = 1
+			invention = tbms #We have Theatre Ballistic Missiles
+		}
+		modifier = {
+			factor = 1
+			invention = irbms #We have Intermediate Range Ballistic Missiles
+		}
+		modifier = {
+			factor = 1
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -6
+			NOT = {	rocket_artillery = 1 } #We need rocket arty in order to develop this.
+		}
+	}
+	effect = {
+		prestige = 0.05 		# Better to be feared...
+		influence_modifier = 0.05 	# ...than to be loved
+	}
+}
+
+# Orbital Flight
+
+small_and_med_launch_vehicles = { # Small and Medium Launch Vehicles
+	limit = { orbital_flight = 1 }
+	chance = {
+		base = 0 # Needs other requirements
+		modifier = {
+			factor = 1
+			has_country_modifier = space_program_lvl_0
+		}
+		modifier = {
+			factor = 2
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 3
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 4
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 5
+			has_country_modifier = space_program_lvl_4
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = icbms }	# ICBMs are just really small launch vehicles
+		}
+		modifier = {
+			factor = -5
+			NOT = { any_core = { has_province_modifier = spaceport_location } }
+		}
+	}
+	effect = {
+		prestige = 0.05 		# Really impressive
+		influence_modifier = 0.05
+	}
+}
+
+research_satellites = { # Research Satellites
+	limit = { orbital_flight = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			broadcasting = 1
+		}
+		modifier = {
+			factor = 1
+			microprocessors = 1
+		}
+		modifier = {
+			factor = 1
+			mobile_computing = 1
+		}
+		modifier = {
+			factor = 1
+			digital_media = 1
+		}
+		modifier = {
+			factor = 1
+			modern_medicine = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = small_and_med_launch_vehicles }	# Needs LVs
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = artificial_satellites }	# Needs satellites
+		}
+	}
+	research_points = 0.10
+	research_points_modifier = 0.10
+}
+
+communications_satellites = { # Communications Satellites
+	limit = { orbital_flight = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			broadcasting = 1
+		}
+		modifier = {
+			factor = 1
+			microprocessors = 1
+		}
+		modifier = {
+			factor = 1
+			command_and_control = 1
+		}
+		modifier = {
+			factor = 1
+			modern_corporate_structure = 1
+		}
+		modifier = {
+			factor = 1
+			modern_transportation = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = small_and_med_launch_vehicles }	# Needs LVs
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = artificial_satellites }	# Needs satellites
+		}
+	}
+	effect = {
+		factory_throughput = 0.05
+		factory_output = 0.03
+	}
+}
+
+reconnaissance_satellites = { # Reconnaissance Satellites
+	limit = { orbital_flight = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			broadcasting = 1
+		}
+		modifier = {
+			factor = 1
+			microprocessors = 1
+		}
+		modifier = {
+			factor = 1
+			professional_army = 1
+		}
+		modifier = {
+			factor = 1
+			green_water_navy = 1
+		}
+		modifier = {
+			factor = 1
+			airspace_control = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = small_and_med_launch_vehicles }	# Needs LVs
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = artificial_satellites }	# Needs satellites
+		}
+	}
+	effect = {
+		infantry = { reconnaissance = 1 }
+		motinfantry = { reconnaissance = 1 }
+		mechinfantry = { reconnaissance = 1 }
+		fieldartillery = { reconnaissance = 1 }
+		spartillery = { reconnaissance = 1 }
+		lightarmor = { reconnaissance = 1 }
+		heavyarmor = { reconnaissance = 1 }
+		armyaviation = { reconnaissance = 1 }
+		fighteraircraft = { reconnaissance = 1 }
+		groundattackaircraft = { reconnaissance = 1 }
+	}
+}
+
+weather_satellites = { # Weather Satellites
+	limit = { orbital_flight = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			broadcasting = 1
+		}
+		modifier = {
+			factor = 1
+			microprocessors = 1
+		}
+		modifier = {
+			factor = 1
+			modern_corporate_structure = 1
+		}
+		modifier = {
+			factor = 1
+			fossil_fuel_power = 1
+		}
+		modifier = {
+			factor = 1
+			modern_transportation = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = small_and_med_launch_vehicles }	# Needs LVs
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = artificial_satellites }	# Needs satellites
+		}
+	}
+	effect = {
+		rgo_throughput = 0.05
+		rgo_output = 0.03
+	}
+	global_population_growth = 0.01
+}
+
+orbital_human_spaceflight = { #Orbital Human Spaceflight
+	limit = { orbital_flight = 1 }
+	chance = {
+		base = 0				# Needs other requirements - triggered by event
+		modifier = {
+			factor = 100			# Ensuring its discovery
+			has_country_modifier = man_in_orbit
+		}
+	}
+	effect = { shared_prestige = 25 }		# It's very impressive
+	education_efficiency_modifier = 0.05		# Raises interest in science
+	global_pop_consciousness_modifier = 0.01	# Really makes you think
+}
+
+space_docking = { #Space Docking
+	limit = { orbital_flight = 1 }
+	chance = {
+		base = 0				# Needs other requirements - triggered by event
+		modifier = {
+			factor = 100			# Ensuring its discovery
+			has_country_modifier = docking_in_space
+		}
+	}
+	effect = { shared_prestige = 30 }		# It's amazing
+	education_efficiency_modifier = 0.05		# Raises interest in science
+}
+
+lunar_space_probe = { #Lunar Probes
+	limit = { orbital_flight = 1 }
+	chance = {
+		base = 0				# Needs other requirements - triggered by event
+		modifier = {
+			factor = 100			# Ensuring its discovery
+			has_country_modifier = lunar_probe_launched
+		}
+	}
+	effect = { shared_prestige = 30 }		# It's amazing
+	research_points = 0.10				# Scientific discoveries
+}
+
+heavy_and_sh_launch_vehicles = { # Heavy and S-Heavy Lift Launch Vehicles
+	limit = { interplanetary_flight = 1 }
+	chance = {
+		base = 0 # Needs other requirements
+		modifier = {
+			factor = 1
+			has_country_modifier = space_program_lvl_0
+		}
+		modifier = {
+			factor = 2
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 3
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 4
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 5
+			has_country_modifier = space_program_lvl_4
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = small_and_med_launch_vehicles }	# Smaller launch vehicles
+		}
+		modifier = {
+			factor = -5
+			NOT = { any_core = { has_province_modifier = spaceport_location } }
+		}
+	}
+	effect = {
+		prestige = 0.05 		# Really impressive
+		influence_modifier = 0.05
+	}
+}
+
+inner_solar_system_probes = { # Inner Solar System Probes
+	limit = { interplanetary_flight = 1 }
+	chance = {
+		base = 0				# Needs other requirements
+		modifier = {
+			factor = 1
+			invention = lunar_space_probe
+		}
+		modifier = {
+			factor = 1
+			invention = small_and_med_launch_vehicles
+		}
+		modifier = {
+			factor = 1
+			invention = heavy_and_sh_launch_vehicles
+		}
+		modifier = {
+			factor = 2
+			invention = outer_solar_system_probes
+		}
+	}
+	effect = { shared_prestige = 10 }		# It's cool
+	research_points = 0.05				# Scientific discoveries
+	education_efficiency_modifier = 0.05		# Raises interest in science
+}
+
+outer_solar_system_probes = { # Outer Solar System Probes
+	limit = { interplanetary_flight = 1 }
+	chance = {
+		base = 0				# Needs other requirements
+		modifier = {
+			factor = 1
+			invention = lunar_space_probe
+		}
+		modifier = {
+			factor = 1
+			invention = small_and_med_launch_vehicles
+		}
+		modifier = {
+			factor = 1
+			invention = heavy_and_sh_launch_vehicles
+		}
+		modifier = {
+			factor = 2
+			invention = inner_solar_system_probes
+		}
+	}
+	effect = { shared_prestige = 10 }		# It's cool
+	research_points = 0.05				# Scientific discoveries
+	education_efficiency_modifier = 0.05		# Raises interest in science
+}
+
+lunar_orbital_spaceflight = { # Lunar Spaceflight
+	limit = { interplanetary_flight = 1 }
+	chance = {
+		base = 0				# Needs other requirements - triggered by event
+		modifier = {
+			factor = 100			# Ensuring its discovery
+			has_country_modifier = manned_lunar_orbit
+		}
+	}
+	effect = { shared_prestige = 40 }		# It's amazing
+	education_efficiency_modifier = 0.05		# Raises interest in science
+}
+
+lunar_landing = { # Lunar Landing
+	limit = { interplanetary_flight = 1 }
+	chance = {
+		base = 0				# Needs other requirements - triggered by event
+		modifier = {
+			factor = 100			# Ensuring its discovery
+			has_country_modifier = manned_lunar_landing
+		}
+	}
+	effect = { shared_prestige = 50 }		# It's amazing
+	education_efficiency_modifier = 0.05		# Raises interest in science
+	research_points = 0.10				# Scientific discoveries
+	global_pop_consciousness_modifier = 0.01	# Really makes you think
+}
+
+
+#Aeronautical Engineering
+#Aerospace Industry
+
+third_gen_fighter = { #Third Generation Fighter
+	limit = { aerospace_industry = 1 }
+	chance = {
+		base = 0 #Requires other stuffs
+		modifier = {
+			factor = 2
+			airspace_control = 1 #Using aircraft
+		}
+		modifier = {
+			factor = 2
+			third_gen_warfare = 1 #Has some military knowledge
+		}
+		modifier = {
+			factor = 2
+			polymers = 1 #Materials Science makes this easier
+		}
+		modifier = {
+			factor = 2
+			war = yes #Learning by combat
+		}
+	}
+	effect = { }
+}
+
+air_pesa = { #Aircraft PESA
+	limit = { aerospace_industry = 1 }
+	chance = {
+		base = 2 #Low chance of discovery by itself
+		modifier = {
+			factor = 2
+			invention = land_based_pesa #We already have them on land
+		}
+		modifier = {
+			factor = 2
+			invention = naval_pesa #We already have them in our ships
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -8
+			NOT = {	microprocessors = 1 } #We need microprocessors for this
+		}
+	}
+	effect = {
+		armyaviation = { attack = 2 }
+		armyaviation = { defence = 2 }
+		fighteraircraft = { attack = 2 }
+		fighteraircraft = { defence = 2 }
+		groundattackaircraft = { attack = 2 }
+		groundattackaircraft = { defence = 2 }
+	}
+}
+
+#Fly-By-Wire
+
+fourth_gen_fighter = { #Fourth Generation Fighter
+	limit = { fly_by_wire = 1 }
+	chance = {
+		base = 0 #Requires other stuffs
+		modifier = {
+			factor = 1
+			global_strike_command = 1 #Air doctrine developments
+		}
+		modifier = {
+			factor = 1
+			fourth_gen_warfare = 1 #Military doctrine developments
+		}
+		modifier = {
+			factor = 2
+			microprocessors = 1 #Smarter planes need smaller chips
+		}
+		modifier = {
+			factor = 2
+			modern_composites = 1 #Materials Science makes this easier
+		}
+		modifier = {
+			factor = 2
+			war = yes #Learning by combat
+		}
+		modifier = {
+			factor = -8
+			NOT = {	invention = third_gen_fighter } #You need third gen before fourth gen
+		}
+	}
+	effect = { }
+}
+
+air_aesa = { #Aircraft AESA
+	limit = { fly_by_wire = 1 }
+	chance = {
+		base = 0 #Needs other requirements
+		modifier = {
+			factor = 2
+			invention = air_pesa #We have the previous radar tech
+		}
+		modifier = {
+			factor = 1
+			invention = land_based_aesa #We already have them on land
+		}
+		modifier = {
+			factor = 1
+			invention = naval_aesa #We already have them in our ships
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -6
+			NOT = {	mobile_computing = 1 } #We need microprocessors for this
+		}
+	}
+	effect = {
+		armyaviation = { attack = 2 }
+		armyaviation = { defence = 2 }
+		fighteraircraft = { attack = 2 }
+		fighteraircraft = { defence = 2 }
+		groundattackaircraft = { attack = 2 }
+		groundattackaircraft = { defence = 2 }
+	}
+}
+
+#Modern Avionics
+
+fifth_gen_fighter = { #Fifth Generation Fighter
+	limit = { modern_avionics = 1 }
+	chance = {
+		base = 0 #Requires other stuffs
+		modifier = {
+			factor = 1
+			full_spectrum_dominance = 1 #Air doctrine developments
+		}
+		modifier = {
+			factor = 1
+			fifth_gen_warfare = 1 #Military doctrine developments
+		}
+		modifier = {
+			factor = 2
+			mobile_computing = 1 #Smarter planes need better electronics
+		}
+		modifier = {
+			factor = 2
+			metamaterials = 1 #Materials Science makes this easier
+		}
+		modifier = {
+			factor = 2
+			war = yes #Learning by combat
+		}
+		modifier = {
+			factor = -8
+			NOT = {	invention = fourth_gen_fighter } #You need third gen before fourth gen
+		}
+	}
+	effect = { }
+}
+
+modern_aircraft_optics = { #Modern Aircraft Optics
+	limit = { modern_avionics = 1 }
+	chance = {
+		base = 0 #Needs other requirements
+		modifier = {
+			factor = 2
+			invention = air_aesa #We have the previous radar tech
+		}
+		modifier = {
+			factor = 2
+			full_spectrum_dominance = 1 #Theory begets praxis
+		}
+		modifier = {
+			factor = 1
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -5
+			NOT = {	machine_intelligence = 1 } #We need better processing power
+		}
+	}
+	effect = {
+		armyaviation = { attack = 4 }
+		armyaviation = { defence = 4 }
+		fighteraircraft = { attack = 4 }
+		fighteraircraft = { defence = 4 }
+		groundattackaircraft = { attack = 4 }
+		groundattackaircraft = { defence = 4 }
+	}
+}
+
+#Hypersonic Aircraft
+
+sixth_gen_fighter = { #Sixth Generation Fighter
+	limit = { hypersonic_aircraft = 1 }
+	chance = {
+		base = 0 #Requires other stuffs
+		modifier = {
+			factor = 1
+			space_command = 1 #Air doctrine developments
+		}
+		modifier = {
+			factor = 1
+			sixth_gen_warfare = 1 #Military doctrine developments
+		}
+		modifier = {
+			factor = 2
+			machine_intelligence = 1 #Smarter planes need smartitude
+		}
+		modifier = {
+			factor = 2
+			superconductors = 1 #Materials Science makes this easier
+		}
+		modifier = {
+			factor = 2
+			war = yes #Learning by combat
+		}
+		modifier = {
+			factor = -8
+			NOT = {	invention = fifth_gen_fighter } #You need third gen before fourth gen
+		}
+	}
+	effect = { }
+}
+
+integrated_skin_sensors = { #Integrated Skin Sensors
+	limit = { hypersonic_aircraft = 1 }
+	chance = {
+		base = 0 #Needs other requirements
+		modifier = {
+			factor = 2
+			invention = modern_aircraft_optics #We have the previous radar tech
+		}
+		modifier = {
+			factor = 1
+			invention = integrated_chassis_sensors #We already have them in our vehicles
+		}
+		modifier = {
+			factor = 1
+			invention = integrated_hull_sensors #We already have them on our ships
+		}
+		modifier = {
+			factor = 1
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -5
+			NOT = {	quantum_computing = 1 } #We need really good processing power
+		}
+	}
+	effect = {
+		armyaviation = { attack = 4 }
+		armyaviation = { defence = 4 }
+		fighteraircraft = { attack = 4 }
+		fighteraircraft = { defence = 4 }
+		groundattackaircraft = { attack = 4 }
+		groundattackaircraft = { defence = 4 }
+	}
+}
+
+#Modern Airframe & Propulsion
+seventh_gen_fighter = { #Seventh Generation Fighter
+	limit = { modern_airframe_and_propulsion = 1 }
+	chance = {
+		base = 0 #Requires other stuffs
+		modifier = {
+			factor = 1
+			swarm_warfare = 1 #Air doctrine developments
+		}
+		modifier = {
+			factor = 1
+			seventh_gen_warfare = 1 #Military doctrine developments
+		}
+		modifier = {
+			factor = 2
+			artificial_intelligence = 1 #The plane also beats people at chess
+		}
+		modifier = {
+			factor = 2
+			nanomaterials = 1 #Materials Science makes this easier
+		}
+		modifier = {
+			factor = 2
+			war = yes #Learning by combat
+		}
+		modifier = {
+			factor = -8
+			NOT = {	invention = sixth_gen_fighter } #You need third gen before fourth gen
+		}
+	}
+	effect = { }
+}
+#Blurring of the Karman Line
+first_gen_space_fighter = { #First Generation Space Fighter
+	limit = { blurring_karman_line = 1 }
+	chance = {
+		base = 0 #Requires other stuffs
+		modifier = {
+			factor = 1
+			exospace_control = 1 #Air doctrine developments
+		}
+		modifier = {
+			factor = 1
+			redefinition_of_warfare = 1 #Military doctrine developments
+		}
+		modifier = {
+			factor = 2
+			non_rocket_spacelaunch_systems = 1 #Solid space tech
+		}
+		modifier = {
+			factor = 2
+			applied_exotics = 1 #Materials Science makes this easier
+		}
+		modifier = {
+			factor = 2
+			war = yes #Learning by combat
+		}
+		modifier = {
+			factor = -8
+			NOT = {	invention = seventh_gen_fighter } #You need third gen before fourth gen
+		}
+	}
+	effect = { }
+}
+#Aerospace Doctrine
+#Airspace Control
+
+modern_fighter_wing = { #Modern Fighter Wing
+	limit = { airspace_control = 1 }
+	chance = {
+		base = 3 #Moderate chance by itself
+		modifier = {
+			factor = 2
+			aerospace_industry = 1 #Already building aircraft
+		}
+		modifier = {
+			factor = 2
+			third_gen_warfare = 1 #Has some military knowledge
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+	}
+	effect = { activate_unit = fighteraircraft }
+}
+modern_attack_wing = { #Modern Attack Wing
+	limit = { airspace_control = 1 }
+	chance = {
+		base = 1 #Very low chance by itself
+		modifier = {
+			factor = 2
+			aerospace_industry = 1 #Already building aircraft
+		}
+		modifier = {
+			factor = 2
+			third_gen_warfare = 1 #Has some military knowledge
+		}
+		modifier = {
+			factor = 2
+			invention = army_aviation_tech #We are doing the same thing in the Army
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+	}
+	effect = { activate_unit = groundattackaircraft }
+}
+modern_fighter_bomber = { #Modern Fighter-Bomber
+	limit = { airspace_control = 1 }
+	chance = {
+		base = 0 #Requires other stuffs
+		modifier = {
+			factor = 2
+			invention = modern_fighter_wing #We need fighters
+		}
+		modifier = {
+			factor = 2
+			invention = modern_attack_wing #We need bombers
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+	}
+	effect = {
+		groundattackaircraft = {
+			reconnaissance = 1
+			siege = -1
+		}
+	}
+}
+
+#Global Strike Command
+multirole_fighter = { #Multirole Fighter
+	limit = { global_strike_command = 1 }
+	chance = {
+		base = 0 #Requires other stuffs
+		modifier = {
+			factor = 2
+			invention = third_gen_fighter #Will need better planes
+		}
+		modifier = {
+			factor = 2
+			fourth_gen_warfare = 1 #Military doctrine supports it
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -6
+			NOT = {	invention = modern_fighter_bomber } #Previous doctrine
+		}
+	}
+	effect = {
+		fighteraircraft = {
+			reconnaissance = -1
+			siege = 1
+		}
+	}
+}
+#Full Spectrum Dominance
+strike_fighter = { #Strike Fighter
+	limit = { full_spectrum_dominance = 1 }
+	chance = {
+		base = 0 #Requires other stuffs
+		modifier = {
+			factor = 2
+			invention = fourth_gen_fighter #Will need better planes
+		}
+		modifier = {
+			factor = 2
+			fifth_gen_warfare = 1 #Military doctrine supports it
+		}
+		modifier = {
+			factor = 2
+			war = yes #War makes haste
+		}
+		modifier = {
+			factor = -6
+			NOT = {	invention = multirole_fighter } #Previous doctrine
+		}
+	}
+	effect = {
+		fighteraircraft = {
+			reconnaissance = -1
+			siege = 1
+		}
+		groundattackaircraft = {
+			reconnaissance = 1
+			siege = -1
+		}
+	}
+}

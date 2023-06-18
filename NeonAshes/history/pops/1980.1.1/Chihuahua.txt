@@ -1,0 +1,320 @@
+# Chihuahua Region
+# Chihuahua City (600,000 / 150,000 POPS)
+2142 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 4000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 45000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 4000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 1200
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 8000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 60000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+}
+# Ciudad Juarez (800,000 / 200,000 POPS)
+2143 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 6000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 800
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 60000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 12000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 800
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+}
+# Ojinaga (200,000 / 50,000 POPS)
+2144 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 1500
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 15000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 1500
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 200
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 20000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 1000
+	}
+}
+# Hidalgo del Parral (400,000 / 100,000 POPS)
+2145 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 30000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 6000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 40000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+}
+# Durango Region
+# Durango City (600,000 / 150,000 POPS)
+2153 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 4000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 45000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 4000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 1200
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 8000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 60000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+}
+# Gomez Palacio (400,000 / 100,000 POPS)
+2154 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 30000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 3000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 6000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 400
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 40000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 2000
+	}
+}

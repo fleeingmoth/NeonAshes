@@ -1,0 +1,237 @@
+# New Songs
+
+# Protip: make sure your songs are mp3, 320kbps, 48000hz sampling rate.
+# Also, chance does not refer to the odds of a song playing, but the hierarchy for the game to place the song on its predetermined playlist.
+#
+# Song Priorities:
+# 1.0 - Highest priority - 1980 opening song
+# 0.9 - Ultra high priority - losing wars - major expansion.
+# 0.8 - Very High priority - high MIL
+# 0.7 - High Priority - high CON
+# 0.6 - Elevated Priority - 
+# 0.5 - Normal priority - war songs.
+# 0.4 - Decreased Priority - geographic songs
+# 0.3 - Low Priority - peace songs, low CON, low MIL
+# 0.2 - Very Low Priority - "main" songs.
+# 0.1 - Lowest Priority - "filler" songs.
+# 0.0 - Don't play.
+
+###############
+# Title Theme #
+###############
+
+song = {
+	name = "thecoronation_titletheme.mp3"	# Kai Engel - Augmentations
+	chance = { factor = 0.05 }		# Last resort
+}
+
+#############################
+# Songs to play at all time #
+#############################
+
+
+song = {
+	name = "street_dancing.mp3"	# Timecrawler 82 - Street Dancing
+	chance = {
+		factor = 0.2
+		modifier = {
+			NOT = { year = 1981 }	# Highest priority in 1980
+			factor = 4.5
+		}
+	}
+}
+song = {
+	name = "infinity.mp3"		# Timecrawler 82 - Infinity
+	chance = { factor = 0.1 }
+}
+song = {
+	name = "gleam.mp3"		# Serat - Gleam
+	chance = { factor = 0.1 }
+}
+
+############################
+# Songs to play during war #
+############################
+
+song = {
+	name = "phantasia.mp3"		# Timecrawler 82 - Phantasia
+	chance = { 
+		factor = 0.5
+		modifier = {
+			NOT = { war = yes }
+			factor = 0
+		}
+	}
+}
+song = {
+	name = "turbulence.mp3"		# Timecrawler 82 - Turbulence
+	chance = { 
+		factor = 0.5
+		modifier = {
+			NOT = { war = yes }
+			factor = 0
+		}
+	}
+}
+song = {
+	name = "downfall.mp3"		# Kai Engel - Downfall
+	chance = { 
+		factor = 0.5
+		modifier = {
+			NOT = { war = yes }
+			factor = 0
+		}
+	}
+}
+
+##############################
+# Songs to play during peace #
+##############################
+
+song = {
+	name = "mt_fuji.mp3"		# Timecrawler 82 - Mt. Fuji
+	chance = { 
+		factor = 0.3
+		modifier = {
+			war = yes
+			factor = 0
+		}
+	}
+}
+song = {
+	name = "interception.mp3"	# Kai Engel - Interception
+	chance = { 
+		factor = 0.3
+		modifier = {
+			war = yes
+			factor = 0
+		}
+	}
+}
+
+###################
+# Low Average MIL #
+###################
+
+song = {
+	name = "midnight_walk.mp3"	# Timecrawler 82 - Midnight Walk
+	chance = { 
+		factor = 0.4
+		modifier = {
+			average_militancy = 5.0
+			factor = 0
+		}
+	}
+}
+song = {
+	name = "chance.mp3"		# Kai Engel - Chance
+	chance = { 
+		factor = 0.4
+		modifier = {
+			average_militancy = 5.0
+			factor = 0
+		}
+	}
+}
+
+####################
+# High Average MIL #
+####################
+
+song = {
+	name = "hour_of_the_wolf.mp3"	# Serat - Hour of the Wolf
+	chance = { 
+		factor = 0.8
+		modifier = {
+			NOT = { average_militancy = 5.0 }
+			factor = 0
+		}
+	}
+}
+
+###################
+# Low Average CON #
+###################
+
+song = {
+	name = "tentative_steps.mp3"	# Kai Engel - Tentative Steps
+	chance = { 
+		factor = 0.4
+		modifier = {
+			average_consciousness = 5.0
+			factor = 0
+		}
+	}
+}
+
+####################
+# High Average CON #
+####################
+
+song = {
+	name = "coral.mp3"		# Timecrawler 82 - Coral
+	chance = { 
+		factor = 0.7
+		modifier = {
+			NOT = { average_consciousness = 5.0 }
+			factor = 0
+		}
+	}
+}
+song = {
+	name = "foresight.mp3"		# Serat - Foresight
+	chance = { 
+		factor = 0.7
+		modifier = {
+			NOT = { average_consciousness = 5.0 }
+			factor = 0
+		}
+	}
+}
+
+#################################
+# Geographic and Prestige Songs #
+#################################
+
+song = {
+	name = "palms_and_seagulls.mp3"			# Timecrawler 82 - Palms and Seagulls
+	chance = { 
+		factor = 0.4
+		modifier = {
+			NOT = { num_of_ports = 1 }	# You need at least one port to hear the seagulls
+			factor = 0
+		}
+		modifier = {
+			war = yes			# Does not play if at war
+			factor = 0
+		}
+	}
+}
+song = {
+	name = "junction.mp3"	# Kai Engel - Junction
+	chance = { 
+		factor = 0.9
+		modifier = {
+			NOT = { national_provinces_occupied = 0.10 }	# Have ten percent of the country occupied
+			factor = 0
+		}
+		modifier = {
+			NOT = { has_recently_lost_war = yes }		# Have recently lost a war
+			factor = 0
+		}
+	}
+}
+song = {
+	name = "orion.mp3"					# The Present Sound - Orion
+	chance = { 
+		factor = 0.6
+		modifier = {
+			NOT = { is_greater_power = yes }	# Is great power
+			factor = 0
+		}
+		modifier = {
+			war = yes				# Does not play if at war
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,35 @@
+owner = ILL
+controller = ILL
+add_core = ILL
+trade_goods = cattle
+life_rating = 40
+state_building = {
+	level = 1
+	building = construction_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = oil_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_mill
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = oil_refinery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

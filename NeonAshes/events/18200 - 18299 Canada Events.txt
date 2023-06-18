@@ -1,0 +1,174 @@
+# 18200 - 18299 - Canadian Events
+# 18201 - 18209 - Unification (and Reactions)
+
+country_event = { # Formation of Canada (Canadian Compact)
+	id = 18201
+	title = "EVT_18201_NAME"
+	desc = "EVT_18201_DESC"
+	picture = "canadian_provinces_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_18201_OPTA" # Positive
+		prestige = -5
+		any_pop = { consciousness = 1.00 }
+		relation = {
+			who = CAN
+			value = 100
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				has_country_modifier = canada_compact_signatory
+			}
+			modifier = {
+				factor = 5
+				alliance_with = CAN
+			}
+			modifier = {
+				factor = 5
+				relation = {
+					who = CAN
+					value = 100
+				}
+			}
+			modifier = {
+				factor = 0
+				CAN = { badboy = 0.2 }
+			}
+			modifier = {
+				factor = 0
+				war_with = CAN
+			}
+		}
+	}
+	option = {
+		name = "EVT_18201_OPTB" # Neutral
+		any_pop = { consciousness = 0.50 }
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				war_with = CAN
+			}
+			modifier = {
+				factor = 5
+				relation = {
+					who = CAN
+					value = 0
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVT_18201_OPTC" # Negative
+		prestige = 5
+		any_pop = { consciousness = 1.00 }
+		relation = {
+			who = CAN
+			value = -100
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				CAN = { badboy = 0.4 }
+			}
+			modifier = {
+				factor = 5
+				NOT = {
+					relation = {
+						who = CAN
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+country_event = { # Formation of Canada (Not Canadian Compact)
+	id = 18202
+	title = "EVT_18202_NAME"
+	desc = "EVT_18202_DESC"
+	picture = "canadian_provinces_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_18202_OPTA" # Positive
+		prestige = -10
+		any_pop = { consciousness = 2.00 }
+		remove_country_modifier = canada_compact_signatory
+		relation = {
+			who = CAN
+			value = 100
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				alliance_with = CAN
+			}
+			modifier = {
+				factor = 5
+				relation = {
+					who = CAN
+					value = 100
+				}
+			}
+			modifier = {
+				factor = 0
+				CAN = { badboy = 0.2 }
+			}
+			modifier = {
+				factor = 0
+				war_with = CAN
+			}
+		}
+	}
+	option = {
+		name = "EVT_18202_OPTB" # Neutral
+		any_pop = { consciousness = 1.00 }
+		remove_country_modifier = canada_compact_signatory
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				war_with = CAN
+			}
+			modifier = {
+				factor = 5
+				relation = {
+					who = CAN
+					value = 0
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVT_18202_OPTC" # Negative
+		prestige = 10
+		any_pop = { consciousness = 2.00 }
+		remove_country_modifier = canada_compact_signatory
+		relation = {
+			who = CAN
+			value = -100
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				CAN = { badboy = 0.4 }
+			}
+			modifier = {
+				factor = 5
+				NOT = {
+					relation = {
+						who = CAN
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}

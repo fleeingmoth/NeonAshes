@@ -1,0 +1,44 @@
+spartillery = {
+	icon = 20
+	
+	type = land
+	sprite = SPArtillery
+	active = no
+	unit_type = support
+	primary_culture = yes
+	floating_flag = no
+
+	#Core Abilities
+	priority = 18
+	max_strength = 3
+	default_organisation = 50
+	maximum_speed = 8.00
+	weighted_value = 9.0
+
+
+	#Building Costs
+	build_time = 180
+	build_cost = {
+		heavy_weapons = 12
+		electronic_components = 5
+		armored_vehicles = 5
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		adv_ammunition = 0.1
+		fuel = 0.015		# 150,000 gal/day
+		clothing = 0.05
+		canned_food = 0.07
+		armored_vehicles = 0.075
+	}
+	
+	#Land Abilties
+	reconnaissance = 0
+	attack = 3
+	defence = 4
+	discipline = 1.0
+	support = 2.0
+	maneuver = 3
+	siege = 3
+}

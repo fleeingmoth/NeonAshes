@@ -1,0 +1,246 @@
+#Hawaii Region (800,000) (200,000 POPS)
+#Hawaii's Big Island (100,000 / 25,000 POPS)
+658 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 300
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 300
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 800
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 100
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 150
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 400
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 500
+	}
+}
+#Maui (80,000 / 20,000 POPS)
+3265 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 600
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 100
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 400
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 8000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 400
+	}
+}
+#Oahu (500,000) (125,000 POPS)
+3266 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 50000
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 10000
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 3000
+	}
+}
+#Kawai (40,000) (10,000 POPS)
+3267 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 300
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 1500
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 250
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 100
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 300
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	craftsmen = {
+		culture = yankee
+		religion = protestant
+		size = 200
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 4000
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 1000
+	}
+}
+#Midway (400) (100 POPS)
+2623 = {
+	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 5
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 5
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 5
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 5
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 60
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 20
+	}
+}

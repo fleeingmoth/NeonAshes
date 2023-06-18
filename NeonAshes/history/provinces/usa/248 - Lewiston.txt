@@ -1,0 +1,15 @@
+owner = NEN
+controller = NEN
+add_core = NEN
+trade_goods = fish
+life_rating = 30
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = oil_power_plant
+	upgrade = yes
+}

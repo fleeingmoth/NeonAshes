@@ -1,0 +1,351 @@
+#  STRING NAME (do not change!);English;;;;;;;;;;X
+military_doctrine;Military Doctrine;;;;;;;;;;X
+military_doctrine_desc;The compendium of military doctrinal knowledge of the nation.;;;;;;;;;;X
+third_gen_warfare;Third Generation Warfare;;;;;;;;;;X
+third_gen_warfare_desc;Third Generation Warfare emphasises speed and maneouverability over static defenses, in order to bypass the enemy and strike deep within enemy lines. Typical examples of this type of warfare are the Blitzkrieg during the Second World War and the opening salvos of the Third World War.;;;;;;;;;;X
+fourth_gen_warfare;Fourth Generation Warfare;;;;;;;;;;X
+fourth_gen_warfare_desc;Fourth Generation Warfare;;;;;;;;;;X
+fifth_gen_warfare;Fifth Generation Warfare;;;;;;;;;;X
+fifth_gen_warfare_desc;Fifth Generation Warfare;;;;;;;;;;X
+sixth_gen_warfare;Sixth Generation Warfare;;;;;;;;;;X
+sixth_gen_warfare_desc;Sixth Generation Warfare;;;;;;;;;;X
+seventh_gen_warfare;Seventh Generation Warfare;;;;;;;;;;X
+seventh_gen_warfare_desc;Seventh Generation Warfare;;;;;;;;;;X
+redefinition_of_warfare;Redefinition of Conflict;;;;;;;;;;X
+redefinition_of_warfare_desc;Redefinition of Conflict;;;;;;;;;;X
+light_armament;Small Arms & Light Weapons;;;;;;;;;;X
+light_armament_desc;Small Arms & Light Weapons;;;;;;;;;;X
+mass_produced_armament;Mass-Produced Armament;;;;;;;;;;X
+mass_produced_armament_desc;Mass-Produced Armament;;;;;;;;;;X
+composite_armament;Composite Firearms;;;;;;;;;;X
+composite_armament_desc;Composite Firearms;;;;;;;;;;X
+electronic_weapons;Electronic Weapons;;;;;;;;;;X
+electronic_weapons_desc;Electronic Weapons;;;;;;;;;;X
+smart_weapons;Smart Weapons;;;;;;;;;;X
+smart_weapons_desc;Smart Weapons;;;;;;;;;;X
+nano_weapons;Nano Weapons;;;;;;;;;;X
+nano_weapons_desc;Nano Weapons;;;;;;;;;;X
+exotic_weapons;Exotic Weapons;;;;;;;;;;X
+exotic_weapons_desc;Exotic Weapons;;;;;;;;;;X
+heavy_armament;Artillery & Weapons Systems;;;;;;;;;;X
+heavy_armament_desc;Artillery & Weapons Systems;;;;;;;;;;X
+arms_industry;Arms Industry;;;;;;;;;;X
+arms_industry_desc;Arms Industry;;;;;;;;;;X
+rocket_artillery;Rocket Artillery;;;;;;;;;;X
+rocket_artillery_desc;Rocket Artillery;;;;;;;;;;X
+precision_guided_munitions;Precision-Guided Munitions;;;;;;;;;;X
+precision_guided_munitions_desc;Precision-Guided Munitions;;;;;;;;;;X
+electromagnetic_weapons;Electromagnetic Weapons;;;;;;;;;;X
+electromagnetic_weapons_desc;Electromagnetic Weapons;;;;;;;;;;X
+autonomous_weapons;Autonomous Weapons;;;;;;;;;;X
+autonomous_weapons_desc;Autonomous Weapons;;;;;;;;;;X
+directed_energy_weapons;Directed Energy Weapons;;;;;;;;;;X
+directed_energy_weapons_desc;Directed Energy Weapons;;;;;;;;;;X
+armored_vehicles;Armored Vehicles;;;;;;;;;;X
+armored_vehicles_desc;Armored Vehicles;;;;;;;;;;X
+infantry_fighting_vehicles;Infantry Fighting Vehicles;;;;;;;;;;X
+infantry_fighting_vehicles_desc;Infantry Fighting Vehicles;;;;;;;;;;X
+light_tanks;Light Tanks;;;;;;;;;;X
+light_tanks_desc;Light Tanks;;;;;;;;;;X
+main_battle_tanks;Main Battle Tanks;;;;;;;;;;X
+main_battle_tanks_desc;Main Battle Tanks;;;;;;;;;;X
+electronic_battlespace_integration;Electronic Battlespace Integration;;;;;;;;;;X
+electronic_battlespace_integration_desc;Electronic Battlespace Integration;;;;;;;;;;X
+autonomous_armored_vehicles;Autonomous Armored Vehicles;;;;;;;;;;X
+autonomous_armored_vehicles_desc;Autonomous Armored Vehicles;;;;;;;;;;X
+heavy_armored_robotic_platforms;Heavy Armored Robotic Platforms;;;;;;;;;;X
+heavy_armored_robotic_platforms_desc;Heavy Armored Robotic Platforms;;;;;;;;;;X
+military_organization;Military Organization;;;;;;;;;;X
+military_organization_desc;Military Organization;;;;;;;;;;X
+professional_army;Professional Army;;;;;;;;;;X
+professional_army_desc;Professional Army;;;;;;;;;;X
+command_and_control;Command and Control;;;;;;;;;;X
+command_and_control_desc;Command and Control;;;;;;;;;;X
+digital_battle_command;Digital Battle Command;;;;;;;;;;X
+digital_battle_command_desc;Digital Battle Command;;;;;;;;;;X
+command_ai;Command A.I.;;;;;;;;;;X
+command_ai_desc;Command A.I.;;;;;;;;;;X
+global_decision_making;Global Decision Making;;;;;;;;;;X
+global_decision_making_desc;Global Decision Making;;;;;;;;;;X
+command_decentralization;Command Decentralization;;;;;;;;;;X
+command_decentralization_desc;Command Decentralization;;;;;;;;;;X
+naval_doctrine;Naval Doctrine & Tactics;;;;;;;;;;X
+naval_doctrine_desc;Naval Doctrine & Tactics;;;;;;;;;;X
+green_water_navy;Green Water Navy;;;;;;;;;;X
+green_water_navy_desc;Green Water Navy;;;;;;;;;;X
+blue_water_navy;Blue Water Navy;;;;;;;;;;X
+blue_water_navy_desc;Blue Water Navy;;;;;;;;;;X
+regional_power_projection;Regional Power Projection;;;;;;;;;;X
+regional_power_projection_desc;Regional Power Projection;;;;;;;;;;X
+global_power_projection;Global Power Projection;;;;;;;;;;X
+global_power_projection_desc;Global Power Projection;;;;;;;;;;X
+modern_AA_AD;Modern Anti-Access & Area Denial;;;;;;;;;;X
+modern_AA_AD_desc;Modern Anti-Access & Area Denial;;;;;;;;;;X
+naval_battlespace_integration;Naval Battlespace Integration;;;;;;;;;;X
+naval_battlespace_integration_desc;Naval Battlespace Integration;;;;;;;;;;X
+naval_engineering;Naval Engineering;;;;;;;;;;X
+naval_engineering_desc;Naval Engineering;;;;;;;;;;X
+shipbuilding_industry;Shipbuilding Industry;;;;;;;;;;X
+shipbuilding_industry_desc;Shipbuilding Industry;;;;;;;;;;X
+modern_naval_engineering;Modern Naval Engineering;;;;;;;;;;X
+modern_naval_engineering_desc;Modern Naval Engineering;;;;;;;;;;X
+composite_hull_superstructure;Composite Hull Superstructure;;;;;;;;;;X
+composite_hull_superstructure_desc;Composite Hull Superstructure;;;;;;;;;;X
+modern_ship_propulsion;Modern Ship Propulsion;;;;;;;;;;X
+modern_ship_propulsion_desc;Modern Ship Propulsion;;;;;;;;;;X
+large_scale_naval_construction;Large-Scale Naval Construction;;;;;;;;;;X
+large_scale_naval_construction_desc;Large-Scale Naval Construction;;;;;;;;;;X
+aerodynamic_megaships;Aerodynamic Megaships;;;;;;;;;;X
+aerodynamic_megaships_desc;Aerodynamic Megaships;;;;;;;;;;X
+astronautical_engineering;Astronautical Engineering;;;;;;;;;;X
+astronautical_engineering_desc;Astronautical Engineering;;;;;;;;;;X
+suborbital_flight;Sub-Orbital Flight;;;;;;;;;;X
+suborbital_flight_desc;Sub-Orbital Flight;;;;;;;;;;X
+orbital_flight;Orbital Flight;;;;;;;;;;X
+orbital_flight_desc;Orbital Flight;;;;;;;;;;X
+interplanetary_flight;Interplanetary Flight;;;;;;;;;;X
+interplanetary_flight_desc;Interplanetary Flight;;;;;;;;;;X
+reusable_launch_systems;Reusable Launch Systems;;;;;;;;;;X
+reusable_launch_systems_desc;Reusable Launch Systems;;;;;;;;;;X
+non_rocket_spacelaunch_systems;Non-Rocket Spacelaunch Systems;;;;;;;;;;X
+non_rocket_spacelaunch_systems_desc;Non-Rocket Spacelaunch Systems;;;;;;;;;;X
+interstellar_travel;Interstellar Travel;;;;;;;;;;X
+interstellar_travel_desc;Interstellar Travel;;;;;;;;;;X
+aeronautical_engineering;Aeronautical Engineering;;;;;;;;;;X
+aeronautical_engineering_desc;Aeronautical Engineering;;;;;;;;;;X
+aerospace_industry;Aerospace Industry;;;;;;;;;;X
+aerospace_industry_desc;Aerospace Industry;;;;;;;;;;X
+fly_by_wire;Fly-By-Wire;;;;;;;;;;X
+fly_by_wire_desc;Fly-By-Wire;;;;;;;;;;X
+modern_avionics;Modern Avionics;;;;;;;;;;X
+modern_avionics_desc;Modern Avionics;;;;;;;;;;X
+hypersonic_aircraft;Hypersonic Aircraft;;;;;;;;;;X
+hypersonic_aircraft_desc;Hypersonic Aircraft;;;;;;;;;;X
+modern_airframe_and_propulsion;Modern Airframes & Propulsion;;;;;;;;;;X
+modern_airframe_and_propulsion_desc;Modern Airframes & Propulsion;;;;;;;;;;X
+blurring_karman_line;Blurring of the Karman Line;;;;;;;;;;X
+blurring_karman_line_desc;Blurring of the Karman Line;;;;;;;;;;X
+aerospace_doctrine;Aerospace Doctrine & Tactics;;;;;;;;;;X
+aerospace_doctrine_desc;Aerospace Doctrine & Tactics;;;;;;;;;;X
+airspace_control;Airspace Control;;;;;;;;;;X
+airspace_control_desc;Airspace Control;;;;;;;;;;X
+global_strike_command;Global Strike Command;;;;;;;;;;X
+global_strike_command_desc;Global Strike Command;;;;;;;;;;X
+full_spectrum_dominance;Full Spectrum Dominance;;;;;;;;;;X
+full_spectrum_dominance_desc;Full Spectrum Dominance;;;;;;;;;;X
+space_command;Space Command;;;;;;;;;;X
+space_command_desc;Space Command;;;;;;;;;;X
+swarm_warfare;Swarm Warfare;;;;;;;;;;X
+swarm_warfare_desc;Swarm Warfare;;;;;;;;;;X
+exospace_control;Exospace Control;;;;;;;;;;X
+exospace_control_desc;Exospace Control;;;;;;;;;;X
+banking_and_finance;Banking and Finance;;;;;;;;;;X
+banking_and_finance_desc;Banking & Finance;;;;;;;;;;X
+modern_banking;Modern Banking;;;;;;;;;;X
+modern_banking_desc;Modern Banking;;;;;;;;;;X
+modern_financial_institutions;Modern Financial Institutions;;;;;;;;;;X
+modern_financial_institutions_desc;Modern Financial Institutions;;;;;;;;;;X
+international_banking;International Banking;;;;;;;;;;X
+international_banking_desc;International Banking;;;;;;;;;;X
+supranational_banking;Supranational Banking;;;;;;;;;;X
+supranational_banking_desc;Supranational Banking;;;;;;;;;;X
+decentralized_banking;Decentralized Banking;;;;;;;;;;X
+decentralized_banking_desc;Decentralized Banking;;;;;;;;;;X
+trans_finance;Trans-Finance;;;;;;;;;;X
+trans_finance_desc;Trans-Finance;;;;;;;;;;X
+monetary_system;Monetary System;;;;;;;;;;X
+monetary_system_desc;Monetary System;;;;;;;;;;X
+fiat_currency;Fiat Currency;;;;;;;;;;X
+fiat_currency_desc;Fiat Currency;;;;;;;;;;X
+digital_currency;Digital Currency;;;;;;;;;;X
+digital_currency_desc;Digital Currency;;;;;;;;;;X
+cryptocurrencies;Cryptocurrencies;;;;;;;;;;X
+cryptocurrencies_desc;Cryptocurrencies;;;;;;;;;;X
+monetary_hegemony;Monetary Hegemony;;;;;;;;;;X
+monetary_hegemony_desc;Monetary Hegemony;;;;;;;;;;X
+universal_currency;Universal Currency;;;;;;;;;;X
+universal_currency_desc;Universal Currency;;;;;;;;;;X
+post_monetary_economy;Post-Monetary Economy;;;;;;;;;;X
+post_monetary_economy_desc;Post-Monetary Economy;;;;;;;;;;X
+macroeconomics;Macroeconomics;;;;;;;;;;X
+macroeconomics_desc;Macroeconomics;;;;;;;;;;X
+new_classical_economics;New Classical Economics;;;;;;;;;;X
+new_classical_economics_desc;New Classical Economics;;;;;;;;;;X
+new_keynesian_economics;New Keynesian Economics;;;;;;;;;;X
+new_keynesian_economics_desc;New Keynesian Economics;;;;;;;;;;X
+modern_political_economy;Modern Political Economy;;;;;;;;;;X
+modern_political_economy_desc;Modern Political Economy;;;;;;;;;;X
+polarization_theory;Polarization Theory;;;;;;;;;;X
+polarization_theory_desc;Polarization Theory;;;;;;;;;;X
+globality_theory;Globality Theory;;;;;;;;;;X
+globality_theory_desc;Globality Theory;;;;;;;;;;X
+post_scarity_economics;Post-Scarcity Economics;;;;;;;;;;X
+post_scarity_economics_desc;Post-Scarcity Economics;;;;;;;;;;X
+microeconomics;Microeconomics;;;;;;;;;;X
+microeconomics_desc;Microeconomics;;;;;;;;;;X
+laissez_faire_economics;Laissez-Faire Economics;;;;;;;;;;X
+laissez_faire_economics_desc;Laissez-Faire Economics;;;;;;;;;;X
+planned_economies;Planned Economies;;;;;;;;;;X
+planned_economies_desc;Planned Economies;;;;;;;;;;X
+behavioral_economics;Behavioral Economics;;;;;;;;;;X
+behavioral_economics_desc;Behavioral Economics;;;;;;;;;;X
+modern_distortion_analysis;Modern Distortion Analysis;;;;;;;;;;X
+modern_distortion_analysis_desc;Modern Distortion Analysis;;;;;;;;;;X
+modern_market_ai;Modern Market A.I.;;;;;;;;;;X
+modern_market_ai_desc;Modern Market A.I.;;;;;;;;;;X
+pervasive_market_theory;Pervasive Market Theory;;;;;;;;;;X
+pervasive_market_theory_desc;Pervasive Market Theory;;;;;;;;;;X
+management;Management;;;;;;;;;;X
+management_desc;Management;;;;;;;;;;X
+modern_corporate_structure;Modern Corporate Structure;;;;;;;;;;X
+modern_corporate_structure_desc;Modern Corporate Structure;;;;;;;;;;X
+modern_cybernetics;Modern Cybernetics;;;;;;;;;;X
+modern_cybernetics_desc;Modern Cybernetics;;;;;;;;;;X
+digital_management;Digital Management;;;;;;;;;;X
+digital_management_desc;Digital Management;;;;;;;;;;X
+decentralized_management;Decentralized Management;;;;;;;;;;X
+decentralized_management_desc;Decentralized Management;;;;;;;;;;X
+modern_flexible_management;Modern Flexible Management;;;;;;;;;;X
+modern_flexible_management_desc;Modern Flexible Management;;;;;;;;;;X
+democratic_decision_making;Democratic Decision-Making;;;;;;;;;;X
+democratic_decision_making_desc;Democratic Decision-Making;;;;;;;;;;X
+comms_and_media;Communications and Media;;;;;;;;;;X
+comms_and_media_desc;Communications and Media;;;;;;;;;;X
+broadcasting;Broadcasting;;;;;;;;;;X
+broadcasting_desc;Broadcasting;;;;;;;;;;X
+digital_media;Digital Media;;;;;;;;;;X
+digital_media_desc;Digital Media;;;;;;;;;;X
+the_internet;The Internet;;;;;;;;;;X
+the_internet_desc;The Internet;;;;;;;;;;X
+web_20;Web 2.0;;;;;;;;;;X
+web_20_desc;Web 2.0;;;;;;;;;;X
+augmented_reality;Augmented Reality;;;;;;;;;;X
+augmented_reality_desc;Augmented Reality;;;;;;;;;;X
+virtual_reality;Virtual Reality;;;;;;;;;;X
+virtual_reality_desc;Virtual Reality;;;;;;;;;;X
+computer_science;Computer Science;;;;;;;;;;X
+computer_science_desc;Computer Science;;;;;;;;;;X
+microprocessors;Microprocessors;;;;;;;;;;X
+microprocessors_desc;Microprocessors;;;;;;;;;;X
+mobile_computing;Mobile Computing;;;;;;;;;;X
+mobile_computing_desc;Mobile Computing;;;;;;;;;;X
+machine_intelligence;Machine Intelligence;;;;;;;;;;X
+machine_intelligence_desc;Machine Intelligence;;;;;;;;;;X
+quantum_computing;Quantum Computing;;;;;;;;;;X
+quantum_computing_desc;Quantum Computing;;;;;;;;;;X
+artificial_intelligence;Artificial Intelligence;;;;;;;;;;X
+artificial_intelligence_desc;Artificial Intelligence;;;;;;;;;;X
+exo_cortex;Exo-Cortex;;;;;;;;;;X
+exo_cortex_desc;Exo-Cortex;;;;;;;;;;X
+sociology;Sociology;;;;;;;;;;X
+sociology_desc;Sociology;;;;;;;;;;X
+postmodernism;Postmodernism;;;;;;;;;;X
+postmodernism_desc;Postmodernism;;;;;;;;;;X
+reconstructivism;Reconstructivism;;;;;;;;;;X
+reconstructivism_desc;Reconstructivism;;;;;;;;;;X
+digital_sociology;Digital Sociology;;;;;;;;;;X
+digital_sociology_desc;Digital Sociology;;;;;;;;;;X
+neostructuralism;Neostructuralism;;;;;;;;;;X
+neostructuralism_desc;Neostructuralism;;;;;;;;;;X
+hephaestism;Hephaestism;;;;;;;;;;X
+hephaestism_desc;Hephaestism;;;;;;;;;;X
+super_sociology;Super-Sociology;;;;;;;;;;X
+super_sociology_desc;Super-Sociology;;;;;;;;;;X
+political_science;Political Science;;;;;;;;;;X
+political_science_desc;Political Science;;;;;;;;;;X
+realism;Realism;;;;;;;;;;X
+realism_desc;Realism;;;;;;;;;;X
+institutionalism;Institutionalism;;;;;;;;;;X
+institutionalism_desc;Institutionalism;;;;;;;;;;X
+new_international_system;New International System;;;;;;;;;;X
+new_international_system_desc;New International System;;;;;;;;;;X
+neo_nationalism;Neo-Nationalism;;;;;;;;;;X
+neo_nationalism_desc;Neo-Nationalism;;;;;;;;;;X
+modern_technocracy;Modern Technocracy;;;;;;;;;;X
+modern_technocracy_desc;Modern Technocracy;;;;;;;;;;X
+the_end_of_history;The End of History;;;;;;;;;;X
+the_end_of_history_desc;The End of History;;;;;;;;;;X
+psychology;Psychology;;;;;;;;;;X
+psychology_desc;Psychology;;;;;;;;;;X
+cognitive_psychology;Cognitive Psychology;;;;;;;;;;X
+cognitive_psychology_desc;Cognitive Psychology;;;;;;;;;;X
+evolutionary_psychology;Evolutionary Psychology;;;;;;;;;;X
+evolutionary_psychology_desc;Evolutionary Psychology;;;;;;;;;;X
+digital_psychology;Digital Psychology;;;;;;;;;;X
+digital_psychology_desc;Digital Psychology;;;;;;;;;;X
+neuropsychology;Neuropsychology;;;;;;;;;;X
+neuropsychology_desc;Neuropsychology;;;;;;;;;;X
+artificial_psychology;Artificial Psychology;;;;;;;;;;X
+artificial_psychology_desc;Artificial Psychology;;;;;;;;;;X
+superintelligence;Superintelligence;;;;;;;;;;X
+superintelligence_desc;Superintelligence;;;;;;;;;;X
+energy_generation;Energy Generation;;;;;;;;;;X
+energy_generation_desc;Energy Generation;;;;;;;;;;X
+fossil_fuel_power;Fossil Fuel Power;;;;;;;;;;X
+fossil_fuel_power_desc;Fossil Fuel Power;;;;;;;;;;X
+nuclear_energy;Nuclear Energy;;;;;;;;;;X
+nuclear_energy_desc;Nuclear Energy;;;;;;;;;;X
+renewable_energy;Renewable Energy;;;;;;;;;;X
+renewable_energy_desc;Renewable Energy;;;;;;;;;;X
+smart_grid;Smart Grid;;;;;;;;;;X
+smart_grid_desc;Smart Grid;;;;;;;;;;X
+energy_renaissance;Energy Renaissance;;;;;;;;;;X
+energy_renaissance_desc;Energy Renaissance;;;;;;;;;;X
+nuclear_fusion;Nuclear Fusion;;;;;;;;;;X
+nuclear_fusion_desc;Nuclear Fusion;;;;;;;;;;X
+industrial_engineering;Industrial Engineering;;;;;;;;;;X
+industrial_engineering_desc;Industrial Engineering;;;;;;;;;;X
+modern_manufacturing;Modern Manufacturing;;;;;;;;;;X
+modern_manufacturing_desc;Modern Manufacturing;;;;;;;;;;X
+digital_automation;Digital Automation;;;;;;;;;;X
+digital_automation_desc;Digital Automation;;;;;;;;;;X
+3d_printing;3D Printing;;;;;;;;;;X
+3d_printing_desc;3D Printing;;;;;;;;;;X
+manufacturing_ai;Manufacturing A.I.;;;;;;;;;;X
+manufacturing_ai_desc;Manufacturing A.I.;;;;;;;;;;X
+nanoscale_manufacturing;Nanoscale Manufacturing;;;;;;;;;;X
+nanoscale_manufacturing_desc;Nanoscale Manufacturing;;;;;;;;;;X
+full_automation;Full Automation;;;;;;;;;;X
+full_automation_desc;Full Automation;;;;;;;;;;X
+materials_science;Materials Science;;;;;;;;;;X
+materials_science_desc;Materials Science;;;;;;;;;;X
+polymers;Polymers;;;;;;;;;;X
+polymers_desc;Polymers;;;;;;;;;;X
+modern_composites;Modern Composites;;;;;;;;;;X
+modern_composites_desc;Modern Composites;;;;;;;;;;X
+metamaterials;Metamaterials;;;;;;;;;;X
+metamaterials_desc;Metamaterials;;;;;;;;;;X
+superconductors;Superconductors;;;;;;;;;;X
+superconductors_desc;Superconductors;;;;;;;;;;X
+nanomaterials;Nanomaterials;;;;;;;;;;X
+nanomaterials_desc;Nanomaterials;;;;;;;;;;X
+applied_exotics;Applied Exotics;;;;;;;;;;X
+applied_exotics_desc;Applied Exotics;;;;;;;;;;X
+infrastructure_and_transport;Infrastructure and Transport;;;;;;;;;;X
+infrastructure_and_transport_desc;Infrastructure and Transport;;;;;;;;;;X
+modern_transportation;Modern Transportation;;;;;;;;;;X
+modern_transportation_desc;Modern Transportation;;;;;;;;;;X
+comms_infrastructure;Communications Infrastructure;;;;;;;;;;X
+comms_infrastructure_desc;Communications Infrastructure;;;;;;;;;;X
+globalized_infrastructure;Globalized Infrastructure;;;;;;;;;;X
+globalized_infrastructure_desc;Globalized Infrastructure;;;;;;;;;;X
+transport_revolution;Transport Revolution;;;;;;;;;;X
+transport_revolution_desc;Transport Revolution;;;;;;;;;;X
+hyper_projects;Hyper Projects;;;;;;;;;;X
+hyper_projects_desc;Hyper Projects;;;;;;;;;;X
+space_transportation;Space Transportation;;;;;;;;;;X
+space_transportation_desc;Space Transportation;;;;;;;;;;X
+medicine_and_biology;Medicine & Biology;;;;;;;;;;X
+medicine_and_biology_desc;Medicine & Biology;;;;;;;;;;X
+modern_medicine;Modern Medicine;;;;;;;;;;X
+modern_medicine_desc;Modern Medicine;;;;;;;;;;X
+genetic_modification;Genetic Modification;;;;;;;;;;X
+genetic_modification_desc;Genetic Modification;;;;;;;;;;X
+bioengineering;Bioengineering;;;;;;;;;;X
+bioengineering_desc;Bioengineering;;;;;;;;;;X
+genetic_engineering;Genetic Engineering;;;;;;;;;;X
+genetic_engineering_desc;Genetic Engineering;;;;;;;;;;X
+nanomedicine;Nanomedicine;;;;;;;;;;X
+nanomedicine_desc;Nanomedicine;;;;;;;;;;X
+trans_human;Trans-Human;;;;;;;;;;X
+trans_human_desc;Trans-Human;;;;;;;;;;X

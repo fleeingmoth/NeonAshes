@@ -1,0 +1,254 @@
+political_decisions = {
+	west_canada_unification_yes_cc = { # Unify Western Canada (signatory of the Canadian Compact)
+		news = yes
+		news_desc_long = "west_canada_unification_yes_cc_NEWS_LONG"
+		news_desc_medium = "west_canada_unification_yes_cc_NEWS_MEDIUM"
+		news_desc_short = "west_canada_unification_yes_cc_NEWS_SHORT"
+		picture = flags_canada_smallpic
+		potential = {
+			has_country_modifier = canada_compact_signatory		# Signatory to the Canadian Compact
+			realism = 1						# We have Political Realism
+			OR = {							# We are in West Canada
+				tag = BCB
+				tag = CPR
+				tag = NWT
+			}
+			NOT = {
+				OR = {						# Canada already unified
+					exists = WCA
+					exists = CAN
+				}
+			}
+		}
+		allow = {
+			institutionalism = 1					# We have Institutionalism
+			war = no
+			OR = {
+				owns = 13					# Vancouver
+				13 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+			OR = {
+				owns = 30					# Regina
+				30 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 1			# Tiny badboy hit
+			prestige = 10			# Rising up in the world
+			all_core = { add_core = WCA }	# All our cores become West Canada
+			change_tag = WCA		# We become West Canada
+			any_country = {
+				limit = {
+					OR = {
+						tag = BCB
+						tag = CPR
+						tag = MAR
+						tag = NFL
+						tag = NWT
+						tag = ONT
+						tag = QBC
+					}
+				}
+				country_event = {
+					id = 18001
+					days = 0
+				}
+			}
+			country_event = {
+				id = 180
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	west_canada_unification_no_cc = { # Unify Western Canada (Not signatory of the Canadian Compact)
+		news = yes
+		news_desc_long = "west_canada_unification_no_cc_NEWS_LONG"
+		news_desc_medium = "west_canada_unification_no_cc_NEWS_MEDIUM"
+		news_desc_short = "west_canada_unification_no_cc_NEWS_SHORT"
+		picture = flags_canada_smallpic
+		potential = {
+			NOT = { has_country_modifier = canada_compact_signatory }	# Not part of the Canadian Compact
+			realism = 1							# We have Political Realism
+			OR = {								# We are in West Canada
+				tag = BCB
+				tag = CPR
+				tag = NWT
+			}
+			NOT = {
+				OR = {							# Canada already unified
+					exists = WCA
+					exists = CAN
+				}
+			}
+		}
+		allow = {
+			institutionalism = 1						# We have Institutionalism
+			war = no
+			OR = {
+				owns = 13						# Vancouver
+				13 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+			OR = {
+				owns = 30						# Regina
+				30 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 3			# Small badboy hit
+			prestige = 10			# Rising up in the world
+			all_core = { add_core = WCA }	# All our cores become West Canada
+			change_tag = WCA		# We become West Canada
+			country_event = {
+				id = 180
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	integrate_bcb = { # Integrate British Columbia
+		news = no
+		picture = flags_canada_smallpic
+		potential = {
+			institutionalism = 1		# We have Institutionalism
+			OR = {				# Either West Canada or Canada
+				tag = WCA
+				tag = CAN
+			}
+			OR = {				# Either BCB exists under our thumb, or we have BCB cores that aren't cored
+				BCB = {			# BCB exists and is vassal or puppet
+					OR = {
+						in_sphere = THIS
+						is_our_vassal = THIS
+					}
+				}
+				any_owned_province = {	# We have BCB cores that aren't our cores
+					AND = {
+						is_core = BCB
+						NOT = { is_core = THIS }
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			badboy = 1				# Tiny badboy hit
+			BCB = {
+				all_core = { add_core = THIS }	# All British Columbian cores become ours
+				country_event = {		# Their choice
+					id = 18000
+					days = 0
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	integrate_cpr = { # Integrate Canadian Prairies
+		news = no
+		picture = flags_canada_smallpic
+		potential = {
+			institutionalism = 1		# We have Institutionalism
+			OR = {				# Either West Canada or Canada
+				tag = WCA
+				tag = CAN
+			}
+			OR = {				# Either CPR exists under our thumb, or we have CPR cores that aren't cored
+				CPR = {			# CPR exists and is vassal or puppet
+					OR = {
+						in_sphere = THIS
+						is_our_vassal = THIS
+					}
+				}
+				any_owned_province = {	# We have CPR cores that aren't our cores
+					AND = {
+						is_core = CPR
+						NOT = { is_core = THIS }
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			badboy = 1				# Tiny badboy hit
+			CPR = {
+				all_core = { add_core = THIS }	# All Canadian Prairie cores become ours
+				country_event = {		# Their choice
+					id = 18000
+					days = 0
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	integrate_nwt = { # Integrate Northwest Territories
+		news = no
+		picture = flags_canada_smallpic
+		potential = {
+			institutionalism = 1		# We have Institutionalism
+			OR = {				# Either West Canada or Canada
+				tag = WCA
+				tag = CAN
+			}
+			OR = {				# Either NWT exists under our thumb, or we have NWT cores that aren't cored
+				NWT = {			# NWT exists and is vassal or puppet
+					OR = {
+						in_sphere = THIS
+						is_our_vassal = THIS
+					}
+				}
+				any_owned_province = {	# We have NWT cores that aren't our cores
+					AND = {
+						is_core = NWT
+						NOT = { is_core = THIS }
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			badboy = 1				# Tiny badboy hit
+			NWT = {
+				all_core = { add_core = THIS }	# All Northwestern Territory cores become ours
+				country_event = {		# Their choice
+					id = 18000
+					days = 0
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

@@ -1,0 +1,20 @@
+owner = UGL
+controller = UGL
+add_core = UGL
+trade_goods = oilseed_crops
+life_rating = 30
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_mill
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

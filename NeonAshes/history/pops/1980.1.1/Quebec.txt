@@ -1,0 +1,744 @@
+#North Quebec
+#Mistissini (4,000 / 1,000 POPS)
+59 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 20
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 150
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 5
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+}
+#Salluit (4,000 / 1,000 POPS)
+2592 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 20
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 150
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 5
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+}
+#Inukjuak (4,000 / 1,000 POPS)
+2626 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 20
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 150
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 5
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+}
+#Kuujjuak (4,000 / 1,000 POPS)
+2627 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 20
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 150
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 5
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+}
+#Fort Rupert (20,000 / 5,000 POPS)
+60 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 150
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 2000
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 300
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 250
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 300
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 25
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 2000
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+}
+#Chisasibi ((4,000 / 1,000 POPS)
+2593 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 20
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 150
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 5
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 10
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+}
+#Southern Quebec
+#Montreal (2,000,000 / 500,000 POPS)
+58 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 150000
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 5000
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 10000
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 15000
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 2500
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 5000
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 20000
+	}
+}
+#Saguenay (100,000 / 25,000 POPS)
+61 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 400
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 10000
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 400
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 1000
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 150
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 10000
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 1500
+	}
+}
+#Sept-Iles (20,000/5,000 POPS)
+62 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 100
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 3500
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 300
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 250
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 300
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 25
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 50
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 4500
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+}
+#Val d'Or (100,000 / 25,000 POPS)
+63 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 400
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 10000
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 400
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 1000
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 150
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 10000
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 1500
+	}
+}
+#Trois-Rivieres (160,000 / 40,000 POPS)
+64 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 200
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 10000
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 2500
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 100
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 24000
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 1200
+	}
+}
+#Quebec City (400,000 / 100,000 POPS)
+65 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 100
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 60000
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 5000
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 6000
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 80000
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 10000
+	}
+}
+#Sherbrooke (160,000 / 40,000 POPS)
+66 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 200
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 10000
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 2500
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 100
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 24000
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 1200
+	}
+}
+#Rimouski (120,000 / 30,000 POPS)
+67 = {
+	aristocrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 600
+	}
+	capitalists = {
+		culture = french_canadian
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 12000
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 400
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 1200
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 150
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 12000
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 2000
+	}
+}

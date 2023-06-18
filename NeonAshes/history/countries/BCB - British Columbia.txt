@@ -1,0 +1,51 @@
+capital = 14 # Victoria (Vancouver Island)
+primary_culture = anglo_canadian
+religion = protestant
+government = democracy
+plurality = 80.0
+nationalvalue = nv_liberty
+literacy = 0.20
+civilized = yes
+prestige = 5
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = state_controlled
+voting_system = first_past_the_post
+political_parties = secret_ballots
+
+# Social Reforms
+wage_reform = trinket_wage
+work_hours = fourteen_hours
+safety_regulations = trinket_safety
+health_care = low_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+school_reforms = low_schools
+
+ruling_party = BCB_traditionalist
+last_election = 1980.1.1
+upper_house = {
+	social_democrat = 5
+	socialist = 3
+	communist = 2
+	liberal = 22
+	anarcho_liberal = 5
+	green = 5
+	conservative = 20
+	nationalist = 3
+	traditionalist = 38
+	ultranationalist = 2
+}
+
+# Technologies
+
+# Starting Consciousness
+consciousness = 3
+
+# Decisions
+decision = join_canada_compact

@@ -1,0 +1,10 @@
+# 10700 - Intro Event Pt. 2
+country_event = {
+	id = 10700
+	title = "EVT_10700_NAME" # The October Crisis & Independence
+	desc = "EVT_10700_DESC"
+	picture = "montreal_skyline_pic"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { name = "EVT_10700_OPTA" }
+}

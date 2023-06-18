@@ -1,0 +1,100 @@
+# Special countries
+REB = "countries/rebels.txt"
+
+# North America - Canada
+
+BCB = "countries/British Columbia.txt"
+CPR = "countries/Canadian Prairies.txt"
+MAR = "countries/Canadian Maritimes.txt"
+NFL = "countries/Newfoundland.txt"
+NWT = "countries/Northwest Territories.txt"
+ONT = "countries/Ontario.txt"
+QBC = "countries/Quebec.txt"
+
+# North America - Western United States
+
+ASK = "countries/Alaska.txt"
+ASW = "countries/American Southwest.txt"
+CAL = "countries/California.txt"
+GPL = "countries/Great Plains.txt"
+HAW = "countries/Hawaii.txt"
+IMT = "countries/Intermountain.txt"
+NAV = "countries/Navajo.txt"
+OZK = "countries/Ozark.txt"
+PNW = "countries/Pacific Northwest.txt"
+TEX = "countries/Texas.txt"
+
+# North America - Eastern United States
+
+CAR = "countries/Carolina.txt"
+DIX = "countries/Dixie.txt"
+FLA = "countries/Florida.txt"
+ILL = "countries/Illinois.txt"
+MAT = "countries/Mid Atlantic.txt"
+NAP = "countries/North Appalachia.txt"
+NEN = "countries/New England.txt"
+NOL = "countries/New Orleans.txt"
+NYC = "countries/New York.txt"
+SAP = "countries/South Appalachia.txt"
+UGL = "countries/Union of Great Lakes.txt"
+UMW = "countries/Upper Midwest.txt"
+
+# North America - Civil War Factions
+
+NCA = "countries/North California.txt"
+NTX = "countries/North Texas.txt"
+SCA = "countries/South California.txt"
+STX = "countries/South Texas.txt"
+
+# North America - Canadian Unification
+
+WCA = "countries/West Canada.txt"
+ECA = "countries/East Canada.txt"
+CAN = "countries/Canada.txt"
+
+# North America - US Unification
+
+# UNW = "countries/Northwestern United States.txt"
+# USW = "countries/Southwestern United States.txt"
+# UNC = "countries/Northcentral United States.txt"
+# USC = "countries/Southcentral United States.txt"
+# UNE = "countries/Northeastern United States.txt"
+# USE = "countries/Southeastern United States.txt"
+# USA = "countries/United States of America.txt"
+
+# Latin and South America - Mexico
+
+SON = "countries/Sonora.txt"
+CHH = "countries/Chihuahua.txt"
+RGR = "countries/Rio Grande.txt"
+BAJ = "countries/Bajio.txt"
+CDM = "countries/Mexico City.txt"
+WMX = "countries/West Mexico.txt"
+EMX = "countries/East Mexico.txt"
+CHP = "countries/Chiapas.txt"
+YUC = "countries/Yucatan.txt"
+
+# Latin and South America - Central America
+
+# Latin and South America - Caribbean
+
+#BHS = "countries/Bahamas.txt"
+
+# Latin and South America - Andes
+
+# Latin and South America - Southern Cone
+
+# Latin and South America - Brazil
+
+# Europe - GIUK
+
+GRN = "countries/Greenland.txt"
+ICE = "countries/Iceland.txt"
+#IRE = "countries/Ireland.txt"
+#ENG = "countries/England.txt"
+#SCO = "countries/Scotland.txt"
+#WAL = "countries/Wales.txt"
+#NIR = "countries/Northern Ireland.txt"
+
+## HoD Dominions
+dynamic_tags  = yes # any tags after this is considered dynamic dominions

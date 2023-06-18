@@ -1,0 +1,40 @@
+infantry = {
+	icon = 1
+	type = land
+	sprite = Infantry
+	active = no
+	unit_type = infantry
+	floating_flag = no
+	
+	#Core Abilities
+	priority = 10
+	max_strength = 3
+	default_organisation = 50
+	maximum_speed = 4.00
+	weighted_value = 2.0
+
+	#Building Costs
+	build_time = 90
+	build_cost = {
+		small_arms = 10.0
+		motor_vehicles = 1
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		conv_ammunition = 0.08
+		canned_food = 0.07
+		fuel = 0.012
+		clothing = 0.05
+		aircraft = 0.025
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 3
+	defence = 3
+	discipline = 1.0
+	support = 0.0
+	maneuver = 2
+}

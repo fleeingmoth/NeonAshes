@@ -1,0 +1,52 @@
+lightarmor = {
+	icon = 2
+	
+	type = land
+	sprite = LightArmor
+	active = no
+	unit_type = cavalry
+	
+	#Avatar
+	sprite_override = Cavalry
+	sprite_mount = GenericMount
+	sprite_mount_attach_node = Saddle_Node
+	floating_flag = yes
+	
+	
+	#Core Abilities
+	priority = 30
+	max_strength = 3
+	default_organisation = 50
+	maximum_speed = 10.00
+	weighted_value = 8.0
+
+
+	#Building Costs
+	build_time = 720
+	build_cost = {
+		small_arms = 10
+		fuel = 10
+		heavy_weapons = 20
+		electronic_components = 3
+		armored_vehicles = 5
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		conv_ammunition = 0.15
+		fuel = 0.40		# 200,000 gal/day
+		machine_parts = 0.1
+		canned_food = 0.1
+		heavy_weapons = 0.1
+		armored_vehicles = 0.1
+	}
+
+	#Land Abilties
+	reconnaissance = 2
+	attack = 6
+	defence = 6
+	discipline = 1.0
+	support = 0.5
+	maneuver = 3
+	siege = 1
+}

@@ -1,0 +1,5 @@
+owner = GPL
+controller = GPL
+add_core = GPL
+trade_goods = coal
+life_rating = 30

@@ -1,0 +1,19 @@
+name = "Texan Civil War"
+1979.12.31 = {
+	add_attacker = STX
+	add_defender = NTX
+	war_goal = {
+		casus_belli = civil_war
+		actor = STX
+		receiver = NTX
+	}
+	war_goal = {
+		casus_belli = civil_war
+		actor = NTX
+		receiver = STX
+	}
+}
+2199.12.31 = {
+	rem_attacker = STX
+	rem_defender = NTX
+}

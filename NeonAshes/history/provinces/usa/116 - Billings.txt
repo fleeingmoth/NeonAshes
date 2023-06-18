@@ -1,0 +1,9 @@
+owner = GPL
+controller = GPL
+add_core = GPL
+trade_goods = coallife_rating = 25
+state_building = {
+	level = 1
+	building = oil_refinery
+	upgrade = yes
+}

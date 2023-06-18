@@ -1,0 +1,5 @@
+owner = WMX
+controller = WMX
+add_core = WMX
+trade_goods = iron
+life_rating = 25

@@ -1,0 +1,5 @@
+owner = CPR
+controller = CPR
+add_core = CPR
+trade_goods = coal
+life_rating = 25

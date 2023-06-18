@@ -1,0 +1,2118 @@
+### Military Doctrine ###
+
+third_gen_warfare = { # Third Generation Warfare
+	area = military_doctrine
+	year = 1980
+	cost = 3600
+	unciv_military = yes
+
+	activate_building = adv_ammo_factory	# Conventional Ammo Factory
+	army_base = { supply_consumption = 0.10 }
+
+	ai_chance = {
+		factor = 1.50		# Kind of important
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.2
+			year = 1990
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.5
+			year = 2000
+		}
+		modifier = {		# Come on guys
+			factor = 2
+			year = 2010
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+fourth_gen_warfare = { # Fourth Generation Warfare
+	area = military_doctrine
+	year = 1990
+	cost = 7200
+	unciv_military = yes
+
+	activate_building = adv_ammo_factory	# Advanced Ammo Factory
+	army_base = { supply_consumption = 0.20 }
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.2
+			year = 2000
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.2
+			year = 2020
+		}
+		modifier = {		# Come on guys
+			factor = 1.2
+			year = 2040
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+fifth_gen_warfare = { # Fifth Generation Warfare
+	area = military_doctrine
+	year = 2010
+	cost = 10800
+	unciv_military = yes
+
+	army_base = { supply_consumption = 0.30 } 
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2030
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2050
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+sixth_gen_warfare = { # Sixth Generation Warfare
+	area = military_doctrine
+	year = 2030
+	cost = 14400
+	unciv_military = yes
+
+	army_base = { supply_consumption = 0.40 } 
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2050
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+seventh_gen_warfare= { # Seventh Generation Warfare
+	area = military_doctrine
+	year = 2050
+	cost = 18000
+	unciv_military = yes
+
+	army_base = { supply_consumption = 0.50 } 
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+redefinition_of_warfare = { # Redefinition of Conflict
+	area = military_doctrine
+	year = 2070
+	cost = 21600
+	unciv_military = yes
+
+	army_base = { supply_consumption = 0.60 } 
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+### Small Arms & Light Weapons ###
+
+mass_produced_armament = { # Mass Produced Armament
+	area = light_armament
+	year = 1980
+	cost = 3600
+	unciv_military = yes
+
+	activate_building = armored_vehicles
+	irregular = { supply_consumption = 0.10 }
+	infantry = { supply_consumption = 0.10 }
+	motinfantry = { supply_consumption = 0.10 }
+	mechinfantry = { supply_consumption = 0.10 }
+
+	ai_chance = {
+		factor = 1.5		# Kind of important
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.2
+			year = 1990
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.3
+			year = 2000
+		}
+		modifier = {		# Come on guys
+			factor = 1.5
+			year = 2010
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+composite_armament = { # Composite Armament
+	area = light_armament
+	year = 1990
+	cost = 7200
+	unciv_military = yes
+
+	irregular = { supply_consumption = 0.20 }
+	infantry = { supply_consumption = 0.20 }
+	motinfantry = { supply_consumption = 0.20 }
+	mechinfantry = { supply_consumption = 0.20 }
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.2
+			year = 2000
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.2
+			year = 2030
+		}
+		modifier = {		# Come on guys
+			factor = 1.2
+			year = 2050
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+electronic_weapons = { # Electronic Weapons
+	area = light_armament
+	year = 2010
+	cost = 10800
+	unciv_military = yes
+
+	irregular = { supply_consumption = 0.30 }
+	infantry = { supply_consumption = 0.30 }
+	motinfantry = { supply_consumption = 0.30 }
+	mechinfantry = { supply_consumption = 0.30 }
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2030
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2050
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+smart_weapons = { # Smart Weapons
+	area = light_armament
+	year = 2030
+	cost = 14400
+	unciv_military = yes
+
+	irregular = { supply_consumption = 0.40 }
+	infantry = { supply_consumption = 0.40 }
+	motinfantry = { supply_consumption = 0.40 }
+	mechinfantry = { supply_consumption = 0.40 }
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2050
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+nano_weapons = { # Nano-Weapons
+	area = light_armament
+	year = 2050
+	cost = 18000
+	unciv_military = yes
+
+	irregular = { supply_consumption = 0.50 }
+	infantry = { supply_consumption = 0.50 }
+	motinfantry = { supply_consumption = 0.50 }
+	mechinfantry = { supply_consumption = 0.50 }
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+exotic_weapons = { # Exotic Weapons
+	area = light_armament
+	year = 2070
+	cost = 21600
+	unciv_military = yes
+
+	irregular = { supply_consumption = 0.60 }
+	infantry = { supply_consumption = 0.60 }
+	motinfantry = { supply_consumption = 0.60 }
+	mechinfantry = { supply_consumption = 0.60 }
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+### Artillery & Weapons Systems ###
+
+arms_industry = { # Arms Industry
+	area = heavy_armament
+	year = 1980
+	cost = 3600
+	unciv_military = yes
+
+	activate_building = heavy_weapons_factory
+	fieldartillery = { supply_consumption = 0.10 }
+	spartillery = { supply_consumption = 0.10 }
+
+	ai_chance = {
+		factor = 1.2		# Above average
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.2
+			year = 1990
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.3
+			year = 2000
+		}
+		modifier = {		# Come on guys
+			factor = 1.5
+			year = 2010
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+rocket_artillery = { # Rocket Artillery
+	area = heavy_armament
+	year = 1980
+	cost = 7200
+	unciv_military = yes
+
+	fieldartillery = { supply_consumption = 0.20 }
+	spartillery = { supply_consumption = 0.20 }
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {		# Smaller countries don't worry as much
+			factor = 0.9
+			NOT = { is_greater_power = yes }
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.2
+			year = 1990
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.2
+			year = 2000
+		}
+		modifier = {		# Come on guys
+			factor = 1.2
+			year = 2010
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+precision_guided_munitions = { # Precision-guided Munitions
+	area = heavy_armament
+	year = 1980
+	cost = 10800
+	unciv_military = yes
+
+	fieldartillery = { supply_consumption = 0.30 }
+	spartillery = { supply_consumption = 0.30 }
+
+	ai_chance = {
+		factor = 1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {		# Smaller countries don't worry as much
+			factor = 0.8
+			NOT = {
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 1990
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2010
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2030
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+electromagnetic_weapons = { # Electromagnetic Weapons
+	area = heavy_armament
+	year = 2010
+	cost = 14400
+	unciv_military = yes
+
+	fieldartillery = { supply_consumption = 0.40 }
+	spartillery = { supply_consumption = 0.40 }
+
+	ai_chance = {
+		factor = 1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {		# Smaller countries don't worry as much
+			factor = 0.8
+			NOT = {
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2030
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2050
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+autonomous_weapons = { # Autonomous Weapons
+	area = heavy_armament
+	year = 2030
+	cost = 18000
+	unciv_military = yes
+
+	fieldartillery = { supply_consumption = 0.50 }
+	spartillery = { supply_consumption = 0.50 }
+
+	ai_chance = {
+		factor = 1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {		# Smaller countries don't worry as much
+			factor = 0.8
+			NOT = {
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2050
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+directed_energy_weapons = { # Directed Energy Weapons
+	area = heavy_armament
+	year = 2060
+	cost = 21600
+	unciv_military = yes
+
+	fieldartillery = { supply_consumption = 0.60 }
+	spartillery = { supply_consumption = 0.60 }
+
+	ai_chance = {
+		factor = 1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {		# Smaller countries don't worry as much
+			factor = 0.8
+			NOT = {
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2080
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+### Armored Vehicles ###
+
+infantry_fighting_vehicles = { # Infantry Fighting Vehicle
+	area = armored_vehicles
+	year = 1980
+	cost = 3600
+	unciv_military = yes
+
+	activate_building = armored_vehicles_factory
+	lightarmor = { supply_consumption = 0.10 }
+	heavyarmor = { supply_consumption = 0.10 }
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.2
+			year = 1990
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.3
+			year = 2000
+		}
+		modifier = {		# Come on guys
+			factor = 1.5
+			year = 2010
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+light_tanks = { # Light Tanks
+	area = armored_vehicles
+	year = 1980
+	cost = 7200
+	unciv_military = yes
+
+	lightarmor = { supply_consumption = 0.20 }
+	heavyarmor = { supply_consumption = 0.20 }
+
+	ai_chance = {
+		factor = 1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {		# Smaller countries don't worry as much
+			factor = 0.9
+			NOT = { is_greater_power = yes }
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.2
+			year = 1990
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.2
+			year = 2000
+		}
+		modifier = {		# Come on guys
+			factor = 1.2
+			year = 2010
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+main_battle_tanks = { # Main Battle Tanks
+	area = armored_vehicles
+	year = 1980
+	cost = 10800
+	unciv_military = yes
+
+	lightarmor = { supply_consumption = 0.30 }
+	heavyarmor = { supply_consumption = 0.30 }
+
+	ai_chance = {
+		factor = 0.9
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {		# Smaller countries don't worry as much
+			factor = 0.8
+			NOT = {
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 1990
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2010
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2030
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+electronic_battlespace_integration = { # Electronic Battlespace Integration
+	area = armored_vehicles
+	year = 2000
+	cost = 14400
+	unciv_military = yes
+
+	lightarmor = { supply_consumption = 0.40 }
+	heavyarmor = { supply_consumption = 0.40 }
+
+	ai_chance = {
+		factor = 0.8
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {		# Smaller countries don't worry as much
+			factor = 0.8
+			NOT = {
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2020
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2040
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2060
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+autonomous_armored_vehicles = { # Autonomous Armored Vehicles
+	area = armored_vehicles
+	year = 2030
+	cost = 18000
+	unciv_military = yes
+
+	lightarmor = { supply_consumption = 0.50 }
+	heavyarmor = { supply_consumption = 0.50 }
+
+	ai_chance = {
+		factor = 0.8
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {		# Smaller countries don't worry as much
+			factor = 0.8
+			NOT = {
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2050
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+heavy_armored_robotic_platforms = { # Heavy Armored Robotic Platforms
+	area = armored_vehicles
+	year = 2060
+	cost = 21600
+	unciv_military = yes
+
+	lightarmor = { supply_consumption = 0.60 }
+	heavyarmor = { supply_consumption = 0.60 }
+	
+	ai_chance = {
+		factor = 0.8
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {		# Smaller countries don't worry as much
+			factor = 0.8
+			NOT = {
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2080
+		}
+		modifier = {		# No money for guns
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# No money for guns
+			factor = 0.75
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+### Military Organization ###
+
+professional_army = { # Professional Army
+	area = military_organization
+	year = 1980
+	cost = 3600
+	unciv_military = yes
+
+	infantry = { default_organisation = 5 }
+	motinfantry = { default_organisation = 5 }
+	mechinfantry = { default_organisation = 5 }
+	fieldartillery = { default_organisation = 5 }
+	spartillery = { default_organisation = 5 }
+	lightarmor = { default_organisation = 5 }
+	heavyarmor = { default_organisation = 5 }
+	armyaviation = { default_organisation = 5 }
+
+	ai_chance = {
+		factor = 1.3		# Above average
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.2
+			year = 1990
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.5
+			year = 2000
+		}
+		modifier = {		# Come on guys
+			factor = 2
+			year = 2010
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+command_and_control = { # Command and Control
+	area = military_organization
+	year = 1980
+	cost = 7200
+	unciv_military = yes
+
+	infantry = { default_organisation = 5 }
+	motinfantry = { default_organisation = 5 }
+	mechinfantry = { default_organisation = 5 }
+	fieldartillery = { default_organisation = 5 }
+	spartillery = { default_organisation = 5 }
+	lightarmor = { default_organisation = 5 }
+	heavyarmor = { default_organisation = 5 }
+	armyaviation = { default_organisation = 5 }
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.2
+			year = 1990
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.2
+			year = 2000
+		}
+		modifier = {		# Come on guys
+			factor = 1.2
+			year = 2010
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+digital_battle_command = { # Digital Battle Command
+	area = military_organization
+	year = 2000
+	cost = 10800
+	unciv_military = yes
+
+	infantry = { default_organisation = 5 }
+	motinfantry = { default_organisation = 5 }
+	mechinfantry = { default_organisation = 5 }
+	fieldartillery = { default_organisation = 5 }
+	spartillery = { default_organisation = 5 }
+	lightarmor = { default_organisation = 5 }
+	heavyarmor = { default_organisation = 5 }
+	armyaviation = { default_organisation = 5 }
+
+	ai_chance = {
+		factor = 1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2020
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2040
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2060
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+command_ai = { # Command AI
+	area = military_organization
+	year = 2030
+	cost = 14400
+	unciv_military = yes
+
+	infantry = { default_organisation = 5 }
+	motinfantry = { default_organisation = 5 }
+	mechinfantry = { default_organisation = 5 }
+	fieldartillery = { default_organisation = 5 }
+	spartillery = { default_organisation = 5 }
+	lightarmor = { default_organisation = 5 }
+	heavyarmor = { default_organisation = 5 }
+	armyaviation = { default_organisation = 5 }
+
+	ai_chance = {
+		factor = 1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2050
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# Come on guys
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+global_decision_making = { #Global Decision-Making
+	area = military_organization
+	year = 2050
+	cost = 18000
+	unciv_military = yes
+
+	infantry = { default_organisation = 5 }
+	motinfantry = { default_organisation = 5 }
+	mechinfantry = { default_organisation = 5 }
+	fieldartillery = { default_organisation = 5 }
+	spartillery = { default_organisation = 5 }
+	lightarmor = { default_organisation = 5 }
+	heavyarmor = { default_organisation = 5 }
+	armyaviation = { default_organisation = 5 }
+
+	ai_chance = {
+		factor = 1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2070
+		}
+		modifier = {		# We're really lagging behind
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}
+
+command_decentralization = { #Command Decentralization
+	area = military_organization
+	year = 2070
+	cost = 21600
+	unciv_military = yes
+
+	infantry = { default_organisation = 5 }
+	motinfantry = { default_organisation = 5 }
+	mechinfantry = { default_organisation = 5 }
+	fieldartillery = { default_organisation = 5 }
+	spartillery = { default_organisation = 5 }
+	lightarmor = { default_organisation = 5 }
+	heavyarmor = { default_organisation = 5 }
+	armyaviation = { default_organisation = 5 }
+
+	ai_chance = {
+		factor = 1
+		modifier = {		# Menacing neighbors
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {		# Big menacing neighbors
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5	# Guns over Butter
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 1.2	# Support our troops
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 0.8	# Our troops are okay
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5	# Butter over Guns
+			war_policy = pacifism
+		}
+		modifier = {		# We're lagging behind
+			factor = 1.1
+			year = 2090
+		}
+		modifier = {		# War makes haste
+			factor = 1.5
+			war = yes
+		}
+	}
+}

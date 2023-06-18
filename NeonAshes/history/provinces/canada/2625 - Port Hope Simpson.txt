@@ -1,0 +1,5 @@
+owner = NFL
+controller = NFL
+add_core = NFL
+trade_goods = timber
+life_rating = 20

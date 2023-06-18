@@ -1,0 +1,15 @@
+name = "Californian Civil War"
+1979.12.31 = {
+	add_attacker = SCA
+	add_defender = NCA
+	war_goal = {
+		casus_belli = civil_war
+		actor = SCA
+		receiver = NCA
+	}
+	war_goal = {
+		casus_belli = civil_war
+		actor = NCA
+		receiver = SCA
+	}
+}

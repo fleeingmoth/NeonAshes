@@ -1,0 +1,54 @@
+### Mexico City (part) ###
+# Mexico City (12,000,000 / 3,000,000 POPS)
+2172 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 60000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 1200000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 50000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 35000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 120000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 20000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 1200000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 30000
+	}
+}

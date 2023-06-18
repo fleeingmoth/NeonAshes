@@ -1,0 +1,5 @@
+owner = NTX
+controller = NTX
+add_core = NTX
+trade_goods = timber
+life_rating = 35

@@ -1,0 +1,5 @@
+owner = CHH
+controller = CHH
+add_core = CHH
+trade_goods = iron
+life_rating = 30

@@ -1,0 +1,5 @@
+owner = NWT
+controller = NWT
+add_core = NWT
+trade_goods = fish # But can change to iron
+life_rating = 15

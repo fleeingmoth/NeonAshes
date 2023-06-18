@@ -1,0 +1,14 @@
+resource_booming;Booming Resource;;;;;;;;;;;;;x;;;;
+resource_booming_desc;We have impressive quantities of easily-accessible resources in this province.;;;;;;;;;;;;;x;;;;
+resource_abundant;Abundant Resource;;;;;;;;;;;;;x;;;;
+resource_abundant_desc;We have abundant quantities of resources in this province.;;;;;;;;;;;;;x;;;;
+resource_significant;Significant Resource;;;;;;;;;;;;;x;;;;
+resource_significant_desc;We have higher-than-average reserves of resources in this province.;;;;;;;;;;;;;x;;;;
+resource_dwindling;Dwindling Resource;;;;;;;;;;;;;x;;;;
+resource_dwindling_desc;We are seeing depletion of readily-available resources in this province.;;;;;;;;;;;;;x;;;;
+resource_scarce;Scarce Resource;;;;;;;;;;;;;x;;;;
+resource_scarce_desc;We have ran out of most economically-exploitable areas, and have to dig further and deeper to continue acquiring resources in this province.;;;;;;;;;;;;;x;;;;
+resource_exhausted;Exhausted Resource;;;;;;;;;;;;;x;;;;
+resource_exhausted_desc;We are scraping the last remnants of resources from this province.;;;;;;;;;;;;;x;;;;
+resource_retooling;Resource Retooling;;;;;;;;;;;;;x;;;;
+resource_retooling_desc;It takes some time for the province to readjust to the new economic situation.;;;;;;;;;;;;;x;;;;

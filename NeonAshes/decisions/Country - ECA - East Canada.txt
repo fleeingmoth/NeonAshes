@@ -1,0 +1,278 @@
+political_decisions = {
+	east_canada_unification_yes_cc = { # Unify Eastern Canada (signatory of the Canadian Compact)
+		news = yes
+		news_desc_long = "east_canada_unification_yes_cc_NEWS_LONG"
+		news_desc_medium = "east_canada_unification_yes_cc_NEWS_MEDIUM"
+		news_desc_short = "east_canada_unification_yes_cc_NEWS_SHORT"
+		picture = flags_canada_smallpic
+		potential = {
+			has_country_modifier = canada_compact_signatory		# Signatory to the Canadian Compact
+			realism = 1						# We have Political Realism
+			OR = {							# We are in West Canada
+				tag = MAR
+				tag = NFL
+				tag = ONT
+				tag = QBC
+			}
+			NOT = {
+				OR = {						# Canada already unified
+					exists = ECA
+					exists = CAN
+				}
+			}
+		}
+		allow = {
+			institutionalism = 1					# We have Institutionalism
+			war = no
+			OR = {
+				owns = 46					# Toronto
+				46 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+			OR = {
+				owns = 65					# Quebec City
+				65 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 1			# Tiny badboy hit
+			prestige = 10			# Rising up in the world
+			all_core = { add_core = ECA }	# All our cores become East Canada
+			change_tag = ECA		# We become East Canada
+			country_event = {
+				id = 181
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	east_canada_unification_no_cc = { # Unify Eastern Canada (signatory of the Canadian Compact)
+		news = yes
+		news_desc_long = "east_canada_unification_no_cc_NEWS_LONG"
+		news_desc_medium = "east_canada_unification_no_cc_NEWS_MEDIUM"
+		news_desc_short = "east_canada_unification_no_cc_NEWS_SHORT"
+		picture = flags_canada_smallpic
+		potential = {
+			NOT = { has_country_modifier = canada_compact_signatory }	# Not part of the Canadian Compact
+			realism = 1							# We have Political Realism
+			OR = {								# We are in West Canada
+				tag = MAR
+				tag = NFL
+				tag = ONT
+				tag = QBC
+			}
+			NOT = {
+				OR = {							# Canada already unified
+					exists = ECA
+					exists = CAN
+				}
+			}
+		}
+		allow = {
+			institutionalism = 1						# We have Institutionalism
+			war = no
+			OR = {
+				owns = 46						# Toronto
+				46 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+			OR = {
+				owns = 65						# Quebec City
+				65 = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							is_our_vassal = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 3			# Small badboy hit
+			prestige = 10			# Rising up in the world
+			all_core = { add_core = ECA }	# All our cores become East Canada
+			change_tag = ECA		# We become East Canada
+			country_event = {
+				id = 181
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	integrate_ont = { # Integrate Ontario
+		news = no
+		picture = flags_canada_smallpic
+		potential = {
+			institutionalism = 1		# We have Institutionalism
+			OR = {				# Either East Canada or Canada
+				tag = ECA
+				tag = CAN
+			}
+			OR = {				# Either ONT exists under our thumb, or we have ONT cores that aren't cored
+				ONT = {			# ONT exists and is vassal or puppet
+					OR = {
+						in_sphere = THIS
+						is_our_vassal = THIS
+					}
+				}
+				any_owned_province = {	# We have ONT cores that aren't our cores
+					AND = {
+						is_core = ONT
+						NOT = { is_core = THIS }
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			badboy = 1				# Tiny badboy hit
+			ONT = {
+				all_core = { add_core = THIS }	# All Ontario cores become ours
+				country_event = {		# Their choice
+					id = 18100
+					days = 0
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	integrate_qbc = { # Integrate Quebec
+		news = no
+		picture = flags_canada_smallpic
+		potential = {
+			institutionalism = 1		# We have Institutionalism
+			OR = {				# Either East Canada or Canada
+				tag = ECA
+				tag = CAN
+			}
+			OR = {				# Either QBC exists under our thumb, or we have QBC cores that aren't cored
+				QBC = {			# QBC exists and is vassal or puppet
+					OR = {
+						in_sphere = THIS
+						is_our_vassal = THIS
+					}
+				}
+				any_owned_province = {	# We have QBC cores that aren't our cores
+					AND = {
+						is_core = QBC
+						NOT = { is_core = THIS }
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			badboy = 1				# Tiny badboy hit
+			QBC = {
+				all_core = { add_core = THIS }	# All Quebec cores become ours
+				country_event = {		# Their choice
+					id = 18100
+					days = 0
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	integrate_mar = { # Integrate Canadian Maritimes
+		news = no
+		picture = flags_canada_smallpic
+		potential = {
+			institutionalism = 1		# We have Institutionalism
+			OR = {				# Either East Canada or Canada
+				tag = ECA
+				tag = CAN
+			}
+			OR = {				# Either MAR exists under our thumb, or we have MAR cores that aren't cored
+				MAR = {			# MAR exists and is vassal or puppet
+					OR = {
+						in_sphere = THIS
+						is_our_vassal = THIS
+					}
+				}
+				any_owned_province = {	# We have MAR cores that aren't our cores
+					AND = {
+						is_core = MAR
+						NOT = { is_core = THIS }
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			badboy = 1				# Tiny badboy hit
+			MAR = {
+				all_core = { add_core = THIS }	# All Maritime cores become ours
+				country_event = {		# Their choice
+					id = 18100
+					days = 0
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	integrate_nfl = { # Integrate Newfoundland
+		news = no
+		picture = flags_canada_smallpic
+		potential = {
+			institutionalism = 1		# We have Institutionalism
+			OR = {				# Either East Canada or Canada
+				tag = ECA
+				tag = CAN
+			}
+			OR = {				# Either NFL exists under our thumb, or we have NFL cores that aren't cored
+				NFL = {			# NFL exists and is vassal or puppet
+					OR = {
+						in_sphere = THIS
+						is_our_vassal = THIS
+					}
+				}
+				any_owned_province = {	# We have NFL cores that aren't our cores
+					AND = {
+						is_core = NFL
+						NOT = { is_core = THIS }
+					}
+				}
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			badboy = 1				# Tiny badboy hit
+			NFL = {
+				all_core = { add_core = THIS }	# All Newfoundland cores become ours
+				country_event = {		# Their choice
+					id = 18100
+					days = 0
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

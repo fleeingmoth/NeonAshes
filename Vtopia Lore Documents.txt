@@ -1,0 +1,80 @@
+Blaskowicz Jul 15 2021
+He had less to work with, and was in a more challenging environment. The US didn't start to crack until the 60s, 
+and the dissolution of the Union was in the late 70s, but the more aggressive and unstable early Cold War did get the ball rolling. 
+
+Dev Diary 1 May 26 2021
+The mod is set in an alternate timeline, set between 1980 and 2100. Franklin Delano Roosevelt dies on December 1944, 
+which leads to a more aggressive early Cold War, the use of tactical nuclear weapons, widespread riots and revolts in the 60s, 
+culminating in a vastly different world by the start of the game in 1980.
+
+I try to stay close to the original gameplay and flavor of Victoria II, rather than the more realistic and complex approaches of similar Victoria mods, 
+such as NWO and CWE. Similar to the base game, the game goes through social, political and economic revolutions, albeit at a faster and more dramatic pace.
+
+The name of the mod is a portmanteau of Victoria and -topia (Greek suffix for place, but in this case, referencing both Utopia and Dystopia). 
+It will be possible to lead nations into totalitarian techno-dystopias, environmental continental communes, laissez-faire mega-corporation paradises, 
+engaged pluralistic democracies, and pretty much every conceivable system. The world of Brave New World is just as possible an outcome as Nineteen-Eighty-Four, 
+as is the world of Neuromancer, or Gattaca.
+
+The mod also possesses a narrative of sorts: having nation-states duke it out for supremacy in a grand strategy simulator is fun, 
+but having specific entities pursuing specific goals, sometimes openly, sometimes covertly, adds to the world and the goals. 
+A chaotic world is fertile ground for power-hungry individuals, organizations, and cabals, seeking local and global power. 
+From the United Nations to the Bilderberg Group, from the Club of Rome to the Fifth International, transnational groups will have an effect on the world, 
+sometimes openly, sometimes covertly. They may aid or hinder the player, depending on their goals and, if ambitious enough, 
+could take direct control of nations. Perhaps we should line our thinking caps with tinfoil, just in case.
+
+Technology plays a central role as well: not only it improves your nation, but it opens up new dilemmas and problems. 
+Mass media is great, but it's easy to manipulate by domestic and foreign factors (and, perhaps, yourself). The Internet gives 
+people the capacity to work remotely and access nearly limitless information, but it makes you vulnerable to cyberattacks. 
+
+Nanomachines bring forth a medical and industrial revolution, at least until a madman unleashes a grey goo flood on the world. 
+Perhaps we shouldn't dabble into exotic matter too much, lest we ignite the atmosphere.
+
+Ultimately, the vision that I have for the mod is a balance of fun and engaging gameplay, with interesting world political, 
+social, economic and technological development and challenges over time, within a realistic plausible path.
+
+Dev Diary 3 June 13 2021
+It all starts with the sudden death of Franklin Delano Roosevelt in December 1944 (as opposed to April 1945 in our timeline), in the middle of the Battle of the Bulge.
+
+1944/1945
+
+The news and political effects lead to a more successful push by the Axis and the fall of Antwerp, and stops the Allied attack until January. 
+An emboldened Hitler then shifts troops from the Eastern front to the Western front, trying to push the advantage. 
+The Germans end up getting encircled in Antwerp, and putting up less of a resistance to the Vistula-Oder offensive in February, 
+and Berlin falls to the Soviets by March. The Soviets managed to push all the way to the Rhine by the end of the war.
+
+At the same time, the Manhattan project is stalled by several months due to a Japanese fire balloon cutting the power off at the Hanford site and causing a meltdown (this actually almost happened.)
+
+The Allies meet up to discuss the future of Europe, and it's patently clear that they will not reach an understanding. 
+The Western Allies push for autonomy and territorial integrity of Poland, and a neutral Germany. 
+The Soviets are increasingly concerned by post-war isolation and demand to extend their sphere of influence throughout the occupied lands, all the way to the Rhine. 
+They agree with a partition of Germany, but they're not quite sure where to draw the lines.
+
+In order to weaken the Western Allies and use as potential negotiation leverage for Europe, Stalin negotiates with Japan: 
+Manchuria, in exchange for military aid and Soviet intercession in negotiations. The USSR invades a suspiciously-undefended Manchuria, 
+as the Japanese prepare to fight in the Home Isles, recalling the Kwantung Army.
+
+In June, Truman, Churchill, and de Gaulle sign the West Bonn Declaration, 
+which demands democracy, self-determination and freedom for "the people of Europe from any totalitarian regime." 
+which ends any potential negotiation, and the occupation lines remain the de facto borders of Europe for the foreseeable future.
+
+Germany is split into three by the Soviets: North, South, and East Germany. The land west of the Rhine is 
+initially occupied and administered by France. The borders of Poland are shifted westward, 
+to the Oder-Neisse line (AS OTL), and the Soviet Union annexes Königsberg. The Allies protest, but they have no resources or willingness to openly contest the Soviets at this time.
+
+With the center of gravity in the Pacific, Dutch Indonesia was reinforced, and French Indochina was invaded, in preparation for an invasion of Japan.
+
+Operation Downfall, the invasion of Japan, takes place in October 1945, and opens one of the bloodiest chapters of the Second World War, (MASS DEATH IN JAPAN)
+with millions of casualties on either side. There are reports of some Soviet equipment in the hands of the Japanese armed forces.
+
+1946
+
+In January, the Republic of Mahabad, the Azerbaijan's People's Government, and the Soviet Socialist Republic of Iran, are established in northern Iran. (AS OTL)
+Austria is divided along occupation zones into East and West Austria.
+
+In March, both the Greek and Chinese Civil Wars reignite, with both sides covertly aided by their ideological counterparts. 
+Winston Churchill claims that an "Iron Curtain" has descended across Europe. (AS OTL)
+
+Tokyo falls in August, and the articles of surrender are signed on September 2nd, putting an end to the Second World War. 
+But with increased Soviet hostility and mutual paranoia, some fear the third one is right around the corner.
+
+# See Alaska lore

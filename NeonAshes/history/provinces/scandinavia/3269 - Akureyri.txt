@@ -1,0 +1,5 @@
+owner = ICE
+controller = ICE
+add_core = ICE
+trade_goods = sheeps
+life_rating = 20

@@ -1,0 +1,5 @@
+owner = STX
+controller = STX
+add_core = STX
+trade_goods = grain
+life_rating = 35

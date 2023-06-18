@@ -1,0 +1,79 @@
+#Format is Category-Subcategory-Tech-Number
+
+#3110-3160 - Banking and Finance
+
+#3210-3260 - Monetary System
+
+#3310-3360 - Macroeconomics
+country_event = { # Introduction to Macroeconomics
+	id = 3310
+	title = "EVT_3310_NAME"
+	desc = "EVT_3310_DESC"
+	picture = "economics_meeting_pic"
+	allow_multiple_instances = no
+	trigger = {
+		new_classical_economics = 1		# Macroeconomics research needed
+		NOT = {					# Do not trigger if already have mechanics
+			OR = {
+				has_country_modifier = hyperdeflation
+				has_country_modifier = rapid_deflation
+				has_country_modifier = deflation
+				has_country_modifier = very_low_inflation
+				has_country_modifier = low_inflation
+				has_country_modifier = moderate_inflation
+				has_country_modifier = high_inflation
+				has_country_modifier = very_high_inflation
+				has_country_modifier = extremely_high_inflation
+				has_country_modifier = hyperinflation
+			}
+		}
+	} 
+	mean_time_to_happen = { months = 1 } # ASAP
+	option = {
+		name = "EVT_3310_OPTA"
+		random_list = {
+			20 = {
+				add_country_modifier = {
+					name = low_inflation
+					duration = -1
+				}
+			}
+			30 = {
+				add_country_modifier = {
+					name = moderate_inflation
+					duration = -1
+				}
+			}
+			50 = {
+				add_country_modifier = {
+					name = high_inflation
+					duration = -1
+				}
+			}
+		}
+		random_list = {
+			20 = {
+				add_country_modifier = {
+					name = economic_recession
+					duration = -1
+				}
+			}
+			60 = {
+				add_country_modifier = {
+					name = economic_stagnation
+					duration = -1
+				}
+			}
+			20 = {
+				add_country_modifier = {
+					name = economic_expansion
+					duration = -1
+				}
+			}
+		}
+		prestige = 2
+	}
+}
+#3410-3460 - Microeconomics
+
+#3510-3560 - Management

@@ -1,0 +1,5 @@
+owner = UMW
+controller = UMW
+add_core = UMW
+trade_goods = cattle
+life_rating = 35

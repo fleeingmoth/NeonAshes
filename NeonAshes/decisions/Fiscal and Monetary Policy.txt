@@ -1,0 +1,193 @@
+political_decisions = {
+	reevaluate_fiscal_policy = {	# Reevaluate Fiscal Policy
+		picture = fiscal_policy_smallpic
+		potential = { 
+			OR = {
+				modern_banking = 1
+				fiat_currency = 1
+				new_keynesian_economics = 1
+			}
+			OR = {
+				has_country_modifier = contractionary_fiscal_policy
+				has_country_modifier = expansionary_fiscal_policy
+			}
+		}
+		allow = {
+			modern_banking = 1
+			fiat_currency = 1
+			new_keynesian_economics = 1
+			OR = {
+				has_country_modifier = contractionary_fiscal_policy
+				has_country_modifier = expansionary_fiscal_policy
+			}
+			NOT = { has_country_modifier = fiscal_policy_cooldown }
+		}
+		effect = {
+			remove_country_modifier = contractionary_fiscal_policy
+			remove_country_modifier = expansionary_fiscal_policy
+		}
+		ai_will_do = { factor = 0 }
+	}
+	adopt_expansionary_fiscal_policy = {	# Adopt Expansionary Fiscal Policy (decision)
+		news = yes
+		news_desc_long = "adopt_expansionary_fiscal_policy_NEWS_LONG"
+		news_desc_medium = "adopt_expansionary_fiscal_policy_NEWS_MEDIUM"
+		news_desc_short = "adopt_expansionary_fiscal_policy_NEWS_SHORT"
+		picture = fiscal_policy_expansion_smallpic
+		potential = { 
+			OR = {
+				modern_banking = 1
+				fiat_currency = 1
+				new_keynesian_economics = 1
+			}
+			NOT = { has_country_modifier = contractionary_fiscal_policy }
+			NOT = {	has_country_modifier = expansionary_fiscal_policy }
+			NOT = { economic_policy = laissez_faire }	# This is clearly government meddling
+		}
+		allow = {
+			modern_banking = 1
+			fiat_currency = 1
+			new_keynesian_economics = 1
+			NOT = { has_country_modifier = contractionary_fiscal_policy }
+			NOT = {	has_country_modifier = expansionary_fiscal_policy }
+			NOT = { has_country_modifier = fiscal_policy_cooldown }
+			NOT = { has_country_modifier = economic_boom }	# Economy is already running at max speed
+		}
+		effect = {
+			country_event = {
+				id = 6008
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	adopt_contractionary_fiscal_policy = {	# Adopt Contractionary Fiscal Policy (decision)
+		news = yes
+		news_desc_long = "adopt_contractionary_fiscal_policy_NEWS_LONG"
+		news_desc_medium = "adopt_contractionary_fiscal_policy_NEWS_MEDIUM"
+		news_desc_short = "adopt_contractionary_fiscal_policy_NEWS_SHORT"
+		picture = fiscal_policy_contraction_smallpic
+		potential = { 
+			OR = {
+				modern_banking = 1
+				fiat_currency = 1
+				new_keynesian_economics = 1
+			}
+			NOT = { has_country_modifier = contractionary_fiscal_policy }
+			NOT = {	has_country_modifier = expansionary_fiscal_policy }
+			NOT = { economic_policy = laissez_faire }	# This is clearly government meddling
+		}
+		allow = {
+			modern_banking = 1
+			fiat_currency = 1
+			new_keynesian_economics = 1
+			NOT = { has_country_modifier = contractionary_fiscal_policy }
+			NOT = {	has_country_modifier = expansionary_fiscal_policy }
+			NOT = { has_country_modifier = fiscal_policy_cooldown }
+			NOT = { has_country_modifier = economic_depression }	# Economy is already in the down low
+		}
+		effect = {
+			country_event = {
+				id = 6009
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	reevaluate_monetary_policy = {	# Reevaluate Monetary Policy
+		picture = monetary_policy_smallpic
+		potential = { 
+			OR = {
+				modern_banking = 1
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+			OR = {
+				has_country_modifier = contractionary_monetary_policy
+				has_country_modifier = expansionary_monetary_policy
+			}
+		}
+		allow = {
+			invention = central_banking
+			fiat_currency = 1
+			new_classical_economics = 1
+			OR = {
+				has_country_modifier = contractionary_monetary_policy
+				has_country_modifier = expansionary_monetary_policy
+			}
+			NOT = { has_country_modifier = monetary_policy_cooldown }
+		}
+		effect = {
+			remove_country_modifier = contractionary_monetary_policy
+			remove_country_modifier = expansionary_monetary_policy
+		}
+		ai_will_do = { factor = 0 }
+	}
+	adopt_expansionary_monetary_policy = {		# Adopt Expansionary Monetary Policy (decision)
+		news = yes
+		news_desc_long = "adopt_expansionary_monetary_policy_NEWS_LONG"
+		news_desc_medium = "adopt_expansionary_monetary_policy_NEWS_MEDIUM"
+		news_desc_short = "adopt_expansionary_monetary_policy_NEWS_SHORT"
+		picture = monetary_policy_expansion_smallpic
+		potential = { 
+			OR = {
+				modern_banking = 1
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+			NOT = { has_country_modifier = contractionary_monetary_policy }
+			NOT = {	has_country_modifier = expansionary_monetary_policy }
+			NOT = { economic_policy = laissez_faire }	# This is clearly government meddling
+		}
+		allow = {
+			invention = central_banking
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = contractionary_monetary_policy }
+			NOT = {	has_country_modifier = expansionary_monetary_policy }
+			NOT = { has_country_modifier = monetary_policy_cooldown }
+			NOT = { has_country_modifier = hyperinflation }	# Can't expand more than this
+		}
+		effect = {
+			country_event = {
+				id = 6019
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	adopt_contractionary_monetary_policy = {	# Adopt Contractionary Monetary Policy (decision)
+		news = yes
+		news_desc_long = "adopt_contractionary_monetary_policy_NEWS_LONG"
+		news_desc_medium = "adopt_contractionary_monetary_policy_NEWS_MEDIUM"
+		news_desc_short = "adopt_contractionary_monetary_policy_NEWS_SHORT"
+		picture = monetary_policy_contraction_smallpic
+		potential = { 
+			OR = {
+				modern_banking = 1
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+			NOT = { has_country_modifier = contractionary_monetary_policy }
+			NOT = {	has_country_modifier = expansionary_monetary_policy }
+			NOT = { economic_policy = laissez_faire }	# This is clearly government meddling
+		}
+		allow = {
+			invention = central_banking
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = contractionary_monetary_policy }
+			NOT = {	has_country_modifier = expansionary_monetary_policy }
+			NOT = { has_country_modifier = monetary_policy_cooldown }
+			NOT = { has_country_modifier = hyperdeflation }	# Can't contract more than this
+		}
+		effect = {
+			country_event = {
+				id = 6029
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
+

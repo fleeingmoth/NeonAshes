@@ -1,0 +1,229 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+folders = {
+	army_tech = 
+	{
+		military_doctrine	#Military Doctrine
+		light_armament		#Small Arms & Light Weapons
+		heavy_armament		#Artillery & Weapons Systems
+		armored_vehicles	#Armored Vehicles
+		military_organization	#Military Organization
+	}
+
+	navy_tech = {
+		naval_doctrine			#Naval Doctrine & Tactics
+		naval_engineering		#Naval Engineering
+		astronautical_engineering	#Astronautical Engineering
+		aeronautical_engineering	#Aeronautical Engineering
+		aerospace_doctrine		#Aerospace Doctrine
+	}
+	
+	commerce_tech = {
+		banking_and_finance	#Banking and Finance
+		monetary_system		#Monetary System
+		macroeconomics		#Macroeconomics
+		microeconomics		#Microeconomics
+		management		#Management
+	}
+	
+	culture_tech = {
+		comms_and_media		#Communications and Media
+		computer_science	#Computer Science
+		sociology		#Sociology
+		political_science	#Political Science
+		psychology		#Psychology
+	}
+	
+	industry_tech = {
+		energy_generation		#Energy Generation
+		industrial_engineering		#Industrial Engineering
+		materials_science		#Materials Science
+		infrastructure_and_transport	#Infrastructure and Transport
+		medicine_and_biology		#Medicine and Biology
+	}
+}
+
+schools = {
+# Tier 0
+	traditional_academic = { # Traditional Academia
+		army_tech_research_bonus = 0
+		navy_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+	}
+# Tier 1
+	military_focus = { # Military Focus
+		army_tech_research_bonus = 0.05
+		navy_tech_research_bonus = 0.05
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = -0.05
+		industry_tech_research_bonus = 0
+	}
+	economic_focus = { # Economic Focus
+		army_tech_research_bonus = -0.05
+		navy_tech_research_bonus = -0.05
+		commerce_tech_research_bonus = 0.05
+		culture_tech_research_bonus = 0.05
+		industry_tech_research_bonus = 0.05
+	}
+# Tier 2
+	defense_n_deterrence_academic = { # Defense and Deterrence School
+		army_tech_research_bonus = 0.10
+		navy_tech_research_bonus = 0.05
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = -0.05
+		industry_tech_research_bonus = 0
+	}
+	power_projection_academic = { # Power Projection School
+		army_tech_research_bonus = -0.05
+		navy_tech_research_bonus = 0.10
+		commerce_tech_research_bonus = 0.05
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+	}
+	economics_academic = { # Economics School
+		army_tech_research_bonus = -0.05
+		navy_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0.10
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0.05
+	}
+	sociology_academic = { # Sociology School
+		army_tech_research_bonus = -0.05
+		navy_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0.05
+		culture_tech_research_bonus = 0.10
+		industry_tech_research_bonus = 0
+	}
+	industrial_academic = { # Industrial School
+		army_tech_research_bonus = -0.05
+		navy_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0.05
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0.10
+	}
+# Tier 3
+	military_academic = {
+		army_tech_research_bonus = 0.15
+		navy_tech_research_bonus = 0.15
+		commerce_tech_research_bonus = -0.10
+		culture_tech_research_bonus = -0.05
+		industry_tech_research_bonus = 0
+	}
+	mercenary_academic = {
+		army_tech_research_bonus = 0.15
+		navy_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0.15
+		culture_tech_research_bonus = -0.10
+		industry_tech_research_bonus = -0.05
+	}
+	regimented_society_academic = {
+		army_tech_research_bonus = 0.15
+		navy_tech_research_bonus = 0
+		commerce_tech_research_bonus = -0.10
+		culture_tech_research_bonus = 0.15
+		industry_tech_research_bonus = -0.05
+	}
+	military_industrial_academic = {
+		army_tech_research_bonus = 0.15
+		navy_tech_research_bonus = -0.05
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = -0.10
+		industry_tech_research_bonus = 0.15
+	}
+	trade_academic = {
+		army_tech_research_bonus = -0.10
+		navy_tech_research_bonus = 0.15
+		commerce_tech_research_bonus = 0.15
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = -0.05
+	}
+	exploration_academic = {
+		army_tech_research_bonus = -0.10
+		navy_tech_research_bonus = 0.15
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0.15
+		industry_tech_research_bonus = -0.05
+	}
+	export_academic = {
+		army_tech_research_bonus = -0.10
+		navy_tech_research_bonus = 0.15
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = -0.05
+		industry_tech_research_bonus = 0.15
+	}
+	services_academic = {
+		army_tech_research_bonus = -0.10
+		navy_tech_research_bonus = -0.05
+		commerce_tech_research_bonus = 0.15
+		culture_tech_research_bonus = 0.15
+		industry_tech_research_bonus = 0
+	}
+	manufacturing_academic = {
+		army_tech_research_bonus = -0.10
+		navy_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0.15
+		culture_tech_research_bonus = -0.05
+		industry_tech_research_bonus = 0.15
+	}
+	production_academic = {
+		army_tech_research_bonus = -0.10
+		navy_tech_research_bonus = -0.05
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0.15
+		industry_tech_research_bonus = 0.15
+	}
+# Tier 4
+	land_supremacy = {
+		army_tech_research_bonus = 0.25
+		navy_tech_research_bonus = 0
+		commerce_tech_research_bonus = -0.05
+		culture_tech_research_bonus = -0.10
+		industry_tech_research_bonus = 0.10
+	}
+	naval_aerospace_supremacy = {
+		army_tech_research_bonus = -0.05
+		navy_tech_research_bonus = 0.25
+		commerce_tech_research_bonus = 0.10
+		culture_tech_research_bonus = -0.10
+		industry_tech_research_bonus = 0
+	}
+	financial_supremacy = {
+		army_tech_research_bonus = -0.10
+		navy_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0.25
+		culture_tech_research_bonus = -0.05
+		industry_tech_research_bonus = 0.10
+	}
+	cultural_supremacy = {
+		army_tech_research_bonus = -0.10
+		navy_tech_research_bonus = -0.05
+		commerce_tech_research_bonus = 0.10
+		culture_tech_research_bonus = 0.25
+		industry_tech_research_bonus = 0
+	}
+	industrial_supremacy = {
+		army_tech_research_bonus = -0.10
+		navy_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0.10
+		culture_tech_research_bonus = -0.05
+		industry_tech_research_bonus = 0.25
+	}
+# Tier 5
+	military_domination = {
+		army_tech_research_bonus = 0.30
+		navy_tech_research_bonus = 0.30
+		commerce_tech_research_bonus = -0.15
+		culture_tech_research_bonus = -0.15
+		industry_tech_research_bonus = -0.05
+	}
+	economic_domination = {
+		army_tech_research_bonus = -0.20
+		navy_tech_research_bonus = -0.15
+		commerce_tech_research_bonus = 0.20
+		culture_tech_research_bonus = 0.20
+		industry_tech_research_bonus = 0.20
+	}
+}

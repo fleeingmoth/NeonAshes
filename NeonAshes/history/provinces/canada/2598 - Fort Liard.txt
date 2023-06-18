@@ -1,0 +1,5 @@
+owner = NWT
+controller = NWT
+add_core = NWT
+trade_goods = rare_earths
+life_rating = 20

@@ -1,0 +1,461 @@
+political_decisions = {
+	print_money_hyperdeflation = {
+		news = yes
+		news_desc_long = "print_money_hyperdeflation_NEWS_LONG"
+		news_desc_medium = "print_money_hyperdeflation_NEWS_MEDIUM"
+		news_desc_short = "print_money_hyperdeflation_NEWS_SHORT"
+		picture = money_printing_smallpic
+		potential = {
+			has_country_modifier = hyperdeflation
+			OR = {
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+		}
+		allow = {
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = recently_issued_money }
+		}
+		effect = {							# Sanity check - removes all inflation modifiers
+			remove_country_modifier = hyperdeflation
+			remove_country_modifier = rapid_deflation
+			remove_country_modifier = deflation
+			remove_country_modifier = very_low_inflation
+			remove_country_modifier = low_inflation
+			remove_country_modifier = moderate_inflation
+			remove_country_modifier = high_inflation
+			remove_country_modifier = very_high_inflation
+			remove_country_modifier = extremely_high_inflation
+			remove_country_modifier = hyperinflation
+			add_country_modifier = {
+				name = rapid_deflation
+				duration = -1
+			}
+			add_country_modifier = {
+				name = recently_issued_money
+				duration = 30
+			}
+			add_tax_relative_income = 360	# One year of tax income
+			prestige = -1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	print_money_rapid_deflation = {
+		news = yes
+		news_desc_long = "print_money_rapid_deflation_NEWS_LONG"
+		news_desc_medium = "print_money_rapid_deflation_NEWS_MEDIUM"
+		news_desc_short = "print_money_rapid_deflation_NEWS_SHORT"
+		picture = money_printing_smallpic
+		potential = {
+			has_country_modifier = rapid_deflation
+			OR = {
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+		}
+		allow = {
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = recently_issued_money }
+		}
+		effect = {							# Sanity check - removes all inflation modifiers
+			remove_country_modifier = hyperdeflation
+			remove_country_modifier = rapid_deflation
+			remove_country_modifier = deflation
+			remove_country_modifier = very_low_inflation
+			remove_country_modifier = low_inflation
+			remove_country_modifier = moderate_inflation
+			remove_country_modifier = high_inflation
+			remove_country_modifier = very_high_inflation
+			remove_country_modifier = extremely_high_inflation
+			remove_country_modifier = hyperinflation
+			add_country_modifier = {
+				name = deflation
+				duration = -1
+			}
+			add_country_modifier = {
+				name = recently_issued_money
+				duration = 30
+			}
+			add_tax_relative_income = 360	# One year of tax income
+			prestige = -1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	print_money_deflation = {
+		news = yes
+		news_desc_long = "print_money_deflation_NEWS_LONG"
+		news_desc_medium = "print_money_deflation_NEWS_MEDIUM"
+		news_desc_short = "print_money_deflation_NEWS_SHORT"
+		picture = money_printing_smallpic
+		potential = {
+			has_country_modifier = deflation
+			OR = {
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+		}
+		allow = {
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = recently_issued_money }
+		}
+		effect = {							# Sanity check - removes all inflation modifiers
+			remove_country_modifier = hyperdeflation
+			remove_country_modifier = rapid_deflation
+			remove_country_modifier = deflation
+			remove_country_modifier = very_low_inflation
+			remove_country_modifier = low_inflation
+			remove_country_modifier = moderate_inflation
+			remove_country_modifier = high_inflation
+			remove_country_modifier = very_high_inflation
+			remove_country_modifier = extremely_high_inflation
+			remove_country_modifier = hyperinflation
+			add_country_modifier = {
+				name = very_low_inflation
+				duration = -1
+			}
+			add_country_modifier = {
+				name = recently_issued_money
+				duration = 30
+			}
+			add_tax_relative_income = 360	# One year of tax income
+			prestige = -1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	print_money_very_low_inflation = {
+		news = yes
+		news_desc_long = "print_money_very_low_inflation_NEWS_LONG"
+		news_desc_medium = "print_money_very_low_inflation_NEWS_MEDIUM"
+		news_desc_short = "print_money_very_low_inflation_NEWS_SHORT"
+		picture = money_printing_smallpic
+		potential = {
+			has_country_modifier = very_low_inflation
+			OR = {
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+		}
+		allow = {
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = recently_issued_money }
+		}
+		effect = {							# Sanity check - removes all inflation modifiers
+			remove_country_modifier = hyperdeflation
+			remove_country_modifier = rapid_deflation
+			remove_country_modifier = deflation
+			remove_country_modifier = very_low_inflation
+			remove_country_modifier = low_inflation
+			remove_country_modifier = moderate_inflation
+			remove_country_modifier = high_inflation
+			remove_country_modifier = very_high_inflation
+			remove_country_modifier = extremely_high_inflation
+			remove_country_modifier = hyperinflation
+			add_country_modifier = {
+				name = low_inflation
+				duration = -1
+			}
+			add_country_modifier = {
+				name = recently_issued_money
+				duration = 30
+			}
+			add_tax_relative_income = 360	# One year of tax income
+			prestige = -1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	print_money_low_inflation = {
+		news = yes
+		news_desc_long = "print_money_low_inflation_NEWS_LONG"
+		news_desc_medium = "print_money_low_inflation_NEWS_MEDIUM"
+		news_desc_short = "print_money_low_inflation_NEWS_SHORT"
+		picture = money_printing_smallpic
+		potential = {
+			has_country_modifier = low_inflation
+			OR = {
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+		}
+		allow = {
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = recently_issued_money }
+		}
+		effect = {							# Sanity check - removes all inflation modifiers
+			remove_country_modifier = hyperdeflation
+			remove_country_modifier = rapid_deflation
+			remove_country_modifier = deflation
+			remove_country_modifier = very_low_inflation
+			remove_country_modifier = low_inflation
+			remove_country_modifier = moderate_inflation
+			remove_country_modifier = high_inflation
+			remove_country_modifier = very_high_inflation
+			remove_country_modifier = extremely_high_inflation
+			remove_country_modifier = hyperinflation
+			add_country_modifier = {
+				name = moderate_inflation
+				duration = -1
+			}
+			add_country_modifier = {
+				name = recently_issued_money
+				duration = 30
+			}
+			add_tax_relative_income = 360	# One year of tax income
+			prestige = -1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				money = 100000
+			}
+		}
+	}
+	print_money_moderate_inflation = {
+		news = yes
+		news_desc_long = "print_money_moderate_inflation_NEWS_LONG"
+		news_desc_medium = "print_money_moderate_inflation_NEWS_MEDIUM"
+		news_desc_short = "print_money_moderate_inflation_NEWS_SHORT"
+		picture = money_printing_smallpic
+		potential = {
+			has_country_modifier = moderate_inflation
+			OR = {
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+		}
+		allow = {
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = recently_issued_money }
+		}
+		effect = {							# Sanity check - removes all inflation modifiers
+			remove_country_modifier = hyperdeflation
+			remove_country_modifier = rapid_deflation
+			remove_country_modifier = deflation
+			remove_country_modifier = very_low_inflation
+			remove_country_modifier = low_inflation
+			remove_country_modifier = moderate_inflation
+			remove_country_modifier = high_inflation
+			remove_country_modifier = very_high_inflation
+			remove_country_modifier = extremely_high_inflation
+			remove_country_modifier = hyperinflation
+			add_country_modifier = {
+				name = high_inflation
+				duration = -1
+			}
+			add_country_modifier = {
+				name = recently_issued_money
+				duration = 60
+			}
+			add_tax_relative_income = 360	# One year of tax income
+			prestige = -1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				money = 50000
+			}
+		}
+	}
+	print_money_high_inflation = {
+		news = yes
+		news_desc_long = "print_money_high_inflation_NEWS_LONG"
+		news_desc_medium = "print_money_high_inflation_NEWS_MEDIUM"
+		news_desc_short = "print_money_high_inflation_NEWS_SHORT"
+		picture = money_printing_smallpic
+		potential = {
+			has_country_modifier = high_inflation
+			OR = {
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+		}
+		allow = {
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = recently_issued_money }
+		}
+		effect = {							# Sanity check - removes all inflation modifiers
+			remove_country_modifier = hyperdeflation
+			remove_country_modifier = rapid_deflation
+			remove_country_modifier = deflation
+			remove_country_modifier = very_low_inflation
+			remove_country_modifier = low_inflation
+			remove_country_modifier = moderate_inflation
+			remove_country_modifier = high_inflation
+			remove_country_modifier = very_high_inflation
+			remove_country_modifier = extremely_high_inflation
+			remove_country_modifier = hyperinflation
+			add_country_modifier = {
+				name = very_high_inflation
+				duration = -1
+			}
+			add_country_modifier = {
+				name = recently_issued_money
+				duration = 90
+			}
+			add_tax_relative_income = 360	# One year of tax income
+			prestige = -1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				money = 20000
+			}
+		}
+	}
+	print_money_very_high_inflation = {
+		news = yes
+		news_desc_long = "print_money_very_high_inflation_NEWS_LONG"
+		news_desc_medium = "print_money_very_high_inflation_NEWS_MEDIUM"
+		news_desc_short = "print_money_very_high_inflation_NEWS_SHORT"
+		picture = money_printing_smallpic
+		potential = {
+			has_country_modifier = very_high_inflation
+			OR = {
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+		}
+		allow = {
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = recently_issued_money }
+		}
+		effect = {							# Sanity check - removes all inflation modifiers
+			remove_country_modifier = hyperdeflation
+			remove_country_modifier = rapid_deflation
+			remove_country_modifier = deflation
+			remove_country_modifier = very_low_inflation
+			remove_country_modifier = low_inflation
+			remove_country_modifier = moderate_inflation
+			remove_country_modifier = high_inflation
+			remove_country_modifier = very_high_inflation
+			remove_country_modifier = extremely_high_inflation
+			remove_country_modifier = hyperinflation
+			add_country_modifier = {
+				name = extremely_high_inflation
+				duration = -1
+			}
+			add_country_modifier = {
+				name = recently_issued_money
+				duration = 120
+			}
+			add_tax_relative_income = 360	# One year of tax income
+			prestige = -1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				money = 10000
+			}
+		}
+	}
+	print_money_extremely_high_inflation = {
+		news = yes
+		news_desc_long = "print_money_extremely_high_inflation_NEWS_LONG"
+		news_desc_medium = "print_money_extremely_high_inflation_NEWS_MEDIUM"
+		news_desc_short = "print_money_extremely_high_inflation_NEWS_SHORT"
+		picture = money_printing_smallpic
+		potential = {
+			has_country_modifier = extremely_high_inflation
+			OR = {
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+		}
+		allow = {
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = recently_issued_money }
+		}
+		effect = {							# Sanity check - removes all inflation modifiers
+			remove_country_modifier = hyperdeflation
+			remove_country_modifier = rapid_deflation
+			remove_country_modifier = deflation
+			remove_country_modifier = very_low_inflation
+			remove_country_modifier = low_inflation
+			remove_country_modifier = moderate_inflation
+			remove_country_modifier = high_inflation
+			remove_country_modifier = very_high_inflation
+			remove_country_modifier = extremely_high_inflation
+			remove_country_modifier = hyperinflation
+			add_country_modifier = {
+				name = hyperinflation
+				duration = -1
+			}
+			add_country_modifier = {
+				name = recently_issued_money
+				duration = 150
+			}
+			add_tax_relative_income = 360	# One year of tax income
+			prestige = -1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				money = 5000
+			}
+		}
+	}
+	print_money_hyperinflation = {
+		news = yes
+		news_desc_long = "print_money_hyperinflation_NEWS_LONG"
+		news_desc_medium = "print_money_hyperinflation_NEWS_MEDIUM"
+		news_desc_short = "print_money_hyperinflation_NEWS_SHORT"
+		picture = money_printing_smallpic
+		potential = {
+			has_country_modifier = hyperinflation
+			OR = {
+				fiat_currency = 1
+				new_classical_economics = 1
+			}
+		}
+		allow = {
+			fiat_currency = 1
+			new_classical_economics = 1
+			NOT = { has_country_modifier = recently_issued_money }
+		}
+		effect = {							# Sanity check - removes all inflation modifiers
+			remove_country_modifier = hyperdeflation		# Except for hyperinflation
+			remove_country_modifier = rapid_deflation
+			remove_country_modifier = deflation
+			remove_country_modifier = very_low_inflation
+			remove_country_modifier = low_inflation
+			remove_country_modifier = moderate_inflation
+			remove_country_modifier = high_inflation
+			remove_country_modifier = very_high_inflation
+			remove_country_modifier = extremely_high_inflation
+			add_country_modifier = {
+				name = recently_issued_money
+				duration = 180
+			}
+			add_tax_relative_income = 360	# One year of tax income
+			prestige = -1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				money = 2000
+			}
+		}
+	}
+}

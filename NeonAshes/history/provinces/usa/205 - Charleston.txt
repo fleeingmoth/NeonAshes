@@ -1,0 +1,5 @@
+owner = CAR
+controller = CAR
+add_core = CAR
+trade_goods = fibre_crops
+life_rating = 30

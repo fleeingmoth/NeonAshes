@@ -1,0 +1,710 @@
+#Banking and Finance
+
+modern_banking = { #Modern Banking
+	area = banking_and_finance
+	year = 1980
+	cost = 3600
+
+	tax_eff = 3
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+modern_financial_institutions = { #Modern Financial Institutions
+	area = banking_and_finance
+	year = 1980
+	cost = 7200
+
+	tax_eff = 5
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.6
+		}
+	}
+}
+international_banking = { #International Banking
+	area = banking_and_finance
+	year = 1990
+	cost = 10800
+
+	tax_eff = 5
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.6
+		}
+	}
+}
+supranational_banking = { #Supranational Banking
+	area = banking_and_finance
+	year = 2000
+	cost = 14400
+
+	tax_eff = 5
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.6
+		}		
+	}
+}
+decentralized_banking = { #Decentralized Banking
+	area = banking_and_finance
+	year = 2020
+	cost = 18000
+
+	tax_eff = 5
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+trans_finance = { #Trans-Finance
+	area = banking_and_finance
+	year = 2050
+	cost = 21600
+
+	tax_eff = 5
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			rank = 16
+		}
+	}
+}
+
+#Monetary System
+
+fiat_currency = { #Fiat Currency
+	area = monetary_system
+	year = 1980
+	cost = 3600
+
+	administrative_efficiency = 0.05
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+	}
+}
+digital_currency = { #Digital Currency
+	area = monetary_system
+	year = 2000
+	cost = 7200
+	
+	administrative_efficiency = 0.05
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.25
+			rank = 16
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}
+}  
+cryptocurrencies = { #Cryptocurrencies
+	area = monetary_system
+	year = 2015
+	cost = 10800
+
+	administrative_efficiency = 0.05
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.25
+			rank = 16
+		}
+	}
+}
+monetary_hegemony = { #Monetary Hegemony
+	area = monetary_system
+	year = 2030
+	cost = 14400
+
+	administrative_efficiency = 0.05
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+	}
+}
+universal_currency = { #Universal Currency
+	area = monetary_system
+	year = 2050
+	cost = 18000
+
+	administrative_efficiency = 0.05
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}
+}
+post_monetary_economy = { #Post-Monetary Economy
+	area = monetary_system
+	year = 2070
+	cost = 21600
+
+	administrative_efficiency = 0.05
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+	}
+}
+
+#Macroeconomics
+
+new_classical_economics = { #New Classical Economics
+	area = macroeconomics
+	year = 1980
+	cost = 3600
+
+	factory_input = -0.01
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}
+}
+new_keynesian_economics = { #New Keynesian Economics
+	area = macroeconomics
+	year = 1980
+	cost = 7200
+
+	factory_input = -0.01
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			industrial_score = 20
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 100
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}
+}
+modern_political_economy = { #Modern Political Economy
+	area = macroeconomics
+	year = 1990
+	cost = 10800
+
+	factory_input = -0.01
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			industrial_score = 150
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 200
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+polarization_theory = { #Polarization Theory
+	area = macroeconomics
+	year = 2010
+	cost = 14400
+
+	factory_input = -0.01
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.1
+			industrial_score = 250
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 300
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+globality_theory = { #Globality Theory
+	area = macroeconomics
+	year = 2040
+	cost = 18000
+
+	factory_input = -0.01
+
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.1
+			industrial_score = 500
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 600
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+post_scarity_economics = { #Post-Scarcity Economics
+	area = macroeconomics
+	year = 2070
+	cost = 21600
+
+	factory_input = -0.01
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 2000
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+
+#Microeconomics
+
+laissez_faire_economics = { #Laissez-Faire Economics
+	area = microeconomics
+	year = 1980
+	cost = 3600 
+
+	influence = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+	
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.1 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.2
+		}
+	}
+}
+planned_economies = { #Planned Economies
+	area = microeconomics
+	year = 1980
+	cost = 7200
+
+	influence = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+	
+	ai_chance = {
+		factor = 3.5
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 10
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 50
+		}
+	}	
+
+}
+behavioral_economics = { #Behavioral Economics
+	area = microeconomics
+	year = 1990
+	cost = 10800
+
+	influence = 0.2
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 100
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 150
+		}
+	}
+	
+}
+modern_distortion_analysis = { #Modern Distortion Analysis
+	area = microeconomics
+	year = 2010
+	cost = 14400
+
+	influence = 0.2
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 200
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 250
+		}
+	}	
+	
+}
+modern_market_ai = { #Modern Market A.I.
+	area = microeconomics
+	year = 2030
+	cost = 18000
+
+	influence = 0.2
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 400
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
+	}	
+	
+}
+pervasive_market_theory = { #Pervasive Market Theory
+	area = microeconomics
+	year = 2060
+	cost = 21600
+
+	influence = 0.2
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+	}	
+	
+}
+
+#Management
+
+modern_corporate_structure = { #Modern Corporate Structure
+	area = management
+	year = 1980
+	cost = 3600
+
+	factory_output = 0.01
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 10
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 50
+		}
+		modifier = {
+			factor = 1.25
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.5
+			literacy = 0.6
+		}		
+	}	
+}
+modern_cybernetics = { #Modern Cybernetics
+	area = management
+	year = 1990
+	cost = 7200
+
+	factory_output = 0.01
+
+		ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.25
+			literacy = 0.6
+		}		
+		modifier = {
+			factor = 1.2
+			industrial_score = 100
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 150
+		}
+	}	
+}
+digital_management = { #Digital Management
+	area = management
+	year = 2010
+	cost = 10800
+
+	factory_output = 0.01
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+		modifier = {
+			factor = 1.2
+			industrial_score = 200
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 250
+		}
+	}	
+}
+decentralized_management = { #Decentralized Management
+	area = management
+	year = 2030
+	cost = 14400
+
+	factory_output = 0.01
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 300
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 400
+		}
+	}	
+}
+modern_flexible_management = { #Modern Flexible Management
+	area = management
+	year = 2050
+	cost = 18000
+
+	factory_output = 0.01
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 750
+		}
+	}	
+}
+democratic_decision_making = { #Democratic Decision-Making
+	area = management
+	year = 2070
+	cost = 21600
+
+	factory_output = 0.01
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+	}	
+}
+

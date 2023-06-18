@@ -1,0 +1,10 @@
+owner = ASK
+controller = ASK
+add_core = ASK
+trade_goods = fish
+life_rating = 30
+state_building = {
+	level = 1
+	building = oil_refinery
+	upgrade = yes
+}

@@ -1,0 +1,2 @@
+trade_goods = timber # Potential for rare_earths
+life_rating = 35

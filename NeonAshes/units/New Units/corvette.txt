@@ -1,0 +1,42 @@
+corvette = {
+	icon = 4
+	naval_icon = 1
+
+	type = naval
+	sprite = Manowar
+	active = no
+	unit_type = light_ship
+	floating_flag = yes
+	colonial_points = 5
+
+	#Core Abilities
+	priority = 25
+	max_strength = 100
+	default_organisation = 30
+	maximum_speed = 40
+	weighted_value = 3.0
+	can_build_overseas = yes
+
+
+	#Building Costs
+	build_time = 360
+	build_cost = {
+		timber = 10
+	}
+	min_port_level = 1
+	limit_per_port = -1
+	supply_consumption_score = 2
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		timber = 0.1
+	}
+	
+	#Naval Abilties
+	hull = 20
+	gun_power = 10
+	fire_range = 0.30
+	evasion = 0.25
+	torpedo_attack = 3
+}
+

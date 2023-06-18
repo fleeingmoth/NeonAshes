@@ -1,0 +1,5 @@
+owner = BCB
+controller = BCB
+add_core = BCB
+trade_goods = timber
+life_rating = 30

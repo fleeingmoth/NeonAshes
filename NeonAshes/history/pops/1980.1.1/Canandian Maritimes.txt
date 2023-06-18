@@ -1,0 +1,318 @@
+#Fredericton (400,000 / 100,000 POPS)
+68 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1000
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 40000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1000
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1500
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 6000
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 40000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+}
+#Bathurst (300,000 / 75,000 POPS)
+69 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1500
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 750
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 30000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 750
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 6000
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 40000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+}
+#Prince Edward Island (120,000 / 30,000 POPS)
+70 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 600
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 12000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 400
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1200
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 150
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 12000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+}
+#Halifax (160,000 / 40,000 POPS)
+71 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 800
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 400
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 16000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 600
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1800
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 800
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 15000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 3000
+	}
+}
+#Truro (95945/23985 POPS) +105 POPs from Cape Breton Island
+72 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 600
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 12000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 400
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 800
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1200
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 150
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 12000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+}
+#Cape Breton Island (100,000 / 25,000 POPS)
+73 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 750
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 250
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1500
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1000
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1500
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+}

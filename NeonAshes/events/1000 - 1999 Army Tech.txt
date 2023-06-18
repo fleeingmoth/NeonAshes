@@ -1,0 +1,845 @@
+# Format is Category-Subcategory-Tech-Number
+
+# 1110-1160 - Military Doctrine
+
+# Third Generation Warfare
+
+country_event = {
+	id = 1110
+	title = "EVT_1110_NAME" # Meeting of the General Staff (3rd Gen - 1980s)
+	desc = "EVT_1110_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		third_gen_warfare = 1			# We have Third Generation Warfare...
+		NOT = { fourth_gen_warfare = 1 }	# ...but we haven't researched the next gen.
+		NOT = {					# Also, do not trigger if you have doctrines.
+			OR = {
+				has_country_modifier = air_land_battle_doctrine
+				has_country_modifier = deep_battle_doctrine
+				has_country_modifier = peoples_war_doctrine
+			}
+		}
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1110_OPTA" # Air-Land Battle
+		add_country_modifier = {
+			name = air_land_battle_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1110_OPTB" # Deep Battle
+		add_country_modifier = {
+			name = deep_battle_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1110_OPTC" # People's War
+		add_country_modifier = {
+			name = peoples_war_doctrine
+			duration = -1
+		}
+	}
+}
+
+#Fourth Generation Warfare
+
+country_event = {
+	id = 1120
+	title = "EVT_1120_NAME" # Meeting of the General Staff (4th Gen - 1990s)
+	desc = "EVT_1120_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		fourth_gen_warfare = 1			# We have Fourth Generation Warfare...
+		NOT = { fifth_gen_warfare = 1 }		# ...but we haven't researched the next gen.
+		NOT = {					# Also, do not trigger if you have doctrines.
+			OR = {
+				has_country_modifier = air_land_battle_doctrine
+				has_country_modifier = deep_battle_doctrine
+				has_country_modifier = peoples_war_doctrine
+				has_country_modifier = shock_and_awe_doctrine
+				has_country_modifier = hearts_and_minds_doctrine
+				has_country_modifier = asymmetric_war_doctrine
+			}
+		}
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1120_OPTA" # Shock and Awe
+		add_country_modifier = {
+			name = shock_and_awe_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1120_OPTB" # Hearts and Minds
+		add_country_modifier = {
+			name = hearts_and_minds_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1120_OPTC" # Asymmetric War
+		add_country_modifier = {
+			name = asymmetric_war_doctrine
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 1121
+	title = "EVT_1121_NAME" # Air-Land Battle refinement (to Shock and Awe)
+	desc = "EVT_1121_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		fourth_gen_warfare = 1
+		NOT = { fifth_gen_warfare = 1 }
+		has_country_modifier = air_land_battle_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1121_OPTA" # Shock and Awe? Sounds catchy.
+		remove_country_modifier = air_land_battle_doctrine
+		add_country_modifier = {
+			name = shock_and_awe_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1121_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = air_land_battle_doctrine
+		add_country_modifier = {
+			name = fourth_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+country_event = {
+	id = 1122
+	title = "EVT_1122_NAME" # Deep Battle refinement (to Hearts and Minds)
+	desc = "EVT_1122_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		fourth_gen_warfare = 1
+		NOT = { fifth_gen_warfare = 1 }
+		has_country_modifier = deep_battle_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1122_OPTA" # It is key to win the Hearts and Minds of the enemy.
+		remove_country_modifier = deep_battle_doctrine
+		add_country_modifier = {
+			name = hearts_and_minds_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1122_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = deep_battle_doctrine
+		add_country_modifier = {
+			name = fourth_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+country_event = {
+	id = 1123
+	title = "EVT_1123_NAME" # People's War refinement (to Asymmetric War)
+	desc = "EVT_1123_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		fourth_gen_warfare = 1
+		NOT = { fifth_gen_warfare = 1 }
+		has_country_modifier = peoples_war_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1123_OPTA" # A people's insurrection is not only natural, but inevitable.
+		remove_country_modifier = peoples_war_doctrine
+		add_country_modifier = {
+			name = asymmetric_war_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1123_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = peoples_war_doctrine
+		add_country_modifier = {
+			name = fourth_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+# Fifth Generation Warfare
+
+country_event = {
+	id = 1130
+	title = "EVT_1130_NAME" # Meeting of the General Staff (5th Gen - 2010s)
+	desc = "EVT_1130_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		fifth_gen_warfare = 1			# We have Fifth Generation Warfare...
+		NOT = { sixth_gen_warfare = 1 }		# ...but we haven't researched the next gen.
+		NOT = {					# Also, do not trigger if you have doctrines.
+			OR = {
+				has_country_modifier = shock_and_awe_doctrine
+				has_country_modifier = hearts_and_minds_doctrine
+				has_country_modifier = asymmetric_war_doctrine
+				has_country_modifier = network_centric_war_doctrine
+				has_country_modifier = hybrid_warfare_doctrine
+				has_country_modifier = modern_peoples_war_doctrine
+			}
+		}
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1130_OPTA" # Network-Centric War
+		add_country_modifier = {
+			name = network_centric_war_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1130_OPTB" # Hybrid Warfare
+		add_country_modifier = {
+			name = hybrid_warfare_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1130_OPTC" # People's War under Modern Conditions
+		add_country_modifier = {
+			name = modern_peoples_war_doctrine
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 1131
+	title = "EVT_1131_NAME" # Shock and Awe refinement (to Network-Centric Warfare)
+	desc = "EVT_1131_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		fifth_gen_warfare = 1
+		NOT = { sixth_gen_warfare = 1 }
+		has_country_modifier = shock_and_awe_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1131_OPTA" # The future of warfare can be seen through a digital lens.
+		remove_country_modifier = shock_and_awe_doctrine
+		add_country_modifier = {
+			name = network_centric_war_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1131_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = shock_and_awe_doctrine
+		add_country_modifier = {
+			name = fifth_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+country_event = {
+	id = 1132
+	title = "EVT_1132_NAME" # Hearts and Minds refinement (to Hybrid Warfare)
+	desc = "EVT_1132_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		fifth_gen_warfare = 1
+		NOT = { sixth_gen_warfare = 1 }
+		has_country_modifier = hearts_and_minds_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1132_OPTA" # Keyboards and screens are weapons, too.
+		remove_country_modifier = hearts_and_minds_doctrine
+		add_country_modifier = {
+			name = hybrid_warfare_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1132_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = hearts_and_minds_doctrine
+		add_country_modifier = {
+			name = fifth_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+country_event = {
+	id = 1133
+	title = "EVT_1133_NAME" # Asymmetric War refinement (to Modern People's War)
+	desc = "EVT_1133_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		fifth_gen_warfare = 1
+		NOT = { sixth_gen_warfare = 1 }
+		has_country_modifier = asymmetric_war_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1133_OPTA" # The world has changed, and so does the People's War.
+		remove_country_modifier = asymmetric_war_doctrine
+		add_country_modifier = {
+			name = modern_peoples_war_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1133_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = asymmetric_war_doctrine
+		add_country_modifier = {
+			name = fifth_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+# Sixth Generation Warfare
+
+country_event = {
+	id = 1140
+	title = "EVT_1140_NAME" # Meeting of the General Staff (6th Gen - 2030s)
+	desc = "EVT_1140_DESC"
+	picture = "army_reorganization_pic"
+
+	trigger = {
+		sixth_gen_warfare = 1			# We have Sixth Generation Warfare...
+		NOT = { seventh_gen_warfare = 1 }	# ...but we haven't researched the next gen.
+		NOT = {					# Also, do not trigger if you have doctrines.
+			OR = {
+				has_country_modifier = network_centric_war_doctrine
+				has_country_modifier = hybrid_warfare_doctrine
+				has_country_modifier = modern_peoples_war_doctrine
+				has_country_modifier = rapid_dominance_doctrine
+				has_country_modifier = tailored_defense_doctrine
+				has_country_modifier = decentralized_networks_doctrine
+			}
+		}
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1140_OPTA" # Rapid Dominance Doctrine
+		add_country_modifier = {
+			name = rapid_dominance_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1140_OPTB" # Tailored Defense
+		add_country_modifier = {
+			name = tailored_defense_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1140_OPTC" # Decentralized Networks
+		add_country_modifier = {
+			name = decentralized_networks_doctrine
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = 1141
+	title = "EVT_1141_NAME" # Network-Centric Warfare refinement (to Rapid Dominance)
+	desc = "EVT_1141_DESC"
+	picture = "army_reorganization_pic"
+
+	trigger = {
+		sixth_gen_warfare = 1
+		NOT = { seventh_gen_warfare = 1 }
+		has_country_modifier = network_centric_war_doctrine
+	} 
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1141_OPTA" # Speed is the critical variable of modern warfare.
+		remove_country_modifier = network_centric_war_doctrine
+		add_country_modifier = {
+			name = rapid_dominance_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1141_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = network_centric_war_doctrine
+		add_country_modifier = {
+			name = sixth_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+country_event = {
+	id = 1142
+	title = "EVT_1142_NAME" # Hybrid Warfare refinement (to Tailored Defense)
+	desc = "EVT_1142_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		sixth_gen_warfare = 1
+		NOT = { seventh_gen_warfare = 1 }
+		has_country_modifier = hybrid_warfare_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1142_OPTA" # Tactical flexibility is necessary in modern warfare.
+		remove_country_modifier = hybrid_warfare_doctrine
+		add_country_modifier = {
+			name = tailored_defense_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1142_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = hybrid_warfare_doctrine
+		add_country_modifier = {
+			name = sixth_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+country_event = {
+	id = 1143
+	title = "EVT_1143_NAME" # Modern People's War refinement (to Decentralized Networks)
+	desc = "EVT_1143_DESC"
+	picture = "army_reorganization_pic"
+
+	trigger = {
+		sixth_gen_warfare = 1
+		NOT = { seventh_gen_warfare = 1 }
+		has_country_modifier = modern_peoples_war_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1143_OPTA" # Decentralized command is necessary in modern warfare.
+		remove_country_modifier = modern_peoples_war_doctrine
+		add_country_modifier = {
+			name = decentralized_networks_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1143_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = modern_peoples_war_doctrine
+		add_country_modifier = {
+			name = sixth_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+# Seventh Generation Warfare
+
+country_event = {
+	id = 1150
+	title = "EVT_1150_NAME" # Meeting of the General Staff (7th Gen - 2050s)
+	desc = "EVT_1150_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		seventh_gen_warfare = 1			# We have Seventh Generation Warfare...
+		NOT = { redefinition_of_warfare = 1 }	# ...but we haven't researched the next gen.
+		NOT = {					# Also, do not trigger if you have doctrines.
+			OR = {
+				has_country_modifier = rapid_dominance_doctrine
+				has_country_modifier = tailored_defense_doctrine
+				has_country_modifier = decentralized_networks_doctrine
+				has_country_modifier = data_driven_blitzkrieg_doctrine
+				has_country_modifier = automated_deterrence_doctrine
+				has_country_modifier = cicada_warfare_doctrine
+			}
+		}
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1150_OPTA" # Data-driven Blitzkrieg
+		add_country_modifier = {
+			name = data_driven_blitzkrieg_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1150_OPTB" # Automated Deterrence
+		add_country_modifier = {
+			name = automated_deterrence_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1150_OPTC" # Cicada Warfare
+		add_country_modifier = {
+			name = cicada_warfare_doctrine
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 1151
+	title = "EVT_1151_NAME" # Rapid Dominance refinement (to Data-Driven Blitzkrieg)
+	desc = "EVT_1151_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		seventh_gen_warfare = 1
+		NOT = { redefinition_of_warfare = 1 }
+		has_country_modifier = rapid_dominance_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1151_OPTA" # Applying new technologies to old concepts.
+		remove_country_modifier = rapid_dominance_doctrine
+		add_country_modifier = {
+			name = data_driven_blitzkrieg_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1151_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = rapid_dominance_doctrine
+		add_country_modifier = {
+			name = seventh_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+country_event = {
+	id = 1152
+	title = "EVT_1152_NAME" # Tailored Defense refinement (to Automated Deterrence)
+	desc = "EVT_1152_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		seventh_gen_warfare = 1
+		NOT = { redefinition_of_warfare = 1 }
+		has_country_modifier = tailored_defense_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1152_OPTA" # War machines are better than warriors.
+		remove_country_modifier = tailored_defense_doctrine
+		add_country_modifier = {
+			name = automated_deterrence_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1152_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = tailored_defense_doctrine
+		add_country_modifier = {
+			name = seventh_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+country_event = {
+	id = 1153
+	title = "EVT_1153_NAME" # Decentralized Network refinement (to Cicada Warfare)
+	desc = "EVT_1153_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		seventh_gen_warfare = 1
+		NOT = { redefinition_of_warfare = 1 }
+		has_country_modifier = decentralized_networks_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1153_OPTA" # We don't have to wait seven years to come out, though.
+		remove_country_modifier = decentralized_networks_doctrine
+		add_country_modifier = {
+			name = cicada_warfare_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1153_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = decentralized_networks_doctrine
+		add_country_modifier = {
+			name = seventh_gen_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+# Redefinition of Warfare
+
+country_event = {
+	id = 1160
+	title = "EVT_1160_NAME" # Meeting of the General Staff (The Future - 2070s)
+	desc = "EVT_1160_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		redefinition_of_warfare = 1	# Last tech for the time being
+		NOT = {				# Also, do not trigger if you have doctrines.
+			OR = {
+				has_country_modifier = data_driven_blitzkrieg_doctrine
+				has_country_modifier = automated_deterrence_doctrine
+				has_country_modifier = cicada_warfare_doctrine
+				has_country_modifier = hyper_intensity_warfare_doctrine
+				has_country_modifier = gambit_theorem_doctrine
+				has_country_modifier = laborers_of_war_doctrine
+			}
+		}
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1160_OPTA" #Hyper-Intensity Warfare
+		add_country_modifier = {
+			name = hyper_intensity_warfare_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1160_OPTB" # Gambit Theorem
+		add_country_modifier = {
+			name = gambit_theorem_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1160_OPTC" # Laborers of War
+		add_country_modifier = {
+			name = laborers_of_war_doctrine
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 1161
+	title = "EVT_1161_NAME" # Data-Driven Blitzkrieg refinement (to Hyper-Intensity Warfare)
+	desc = "EVT_1161_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		redefinition_of_warfare = 1
+		has_country_modifier = data_driven_blitzkrieg_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1161_OPTA" # Keeping up the pressure to ensure victory.
+		remove_country_modifier = data_driven_blitzkrieg_doctrine
+		add_country_modifier = {
+			name = hyper_intensity_warfare_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1161_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = data_driven_blitzkrieg_doctrine
+		add_country_modifier = {
+			name = redefined_warfare_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+country_event = {
+	id = 1162
+	title = "EVT_1162_NAME" # Automated Deterrence refinement (to Gambit Theorem)
+	desc = "EVT_1162_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		redefinition_of_warfare = 1
+		has_country_modifier = automated_deterrence_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1162_OPTA" # Strategy can be automated.
+		remove_country_modifier = automated_deterrence_doctrine
+		add_country_modifier = {
+			name = gambit_theorem_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1162_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = automated_deterrence_doctrine
+		add_country_modifier = {
+			name = redefined_warfare_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+country_event = {
+	id = 1163
+	title = "EVT_1163_NAME" # Cicada Warfare refinement (to Laborers of War)
+	desc = "EVT_1163_DESC"
+	picture = "army_reorganization_pic"
+	trigger = {
+		redefinition_of_warfare = 1
+		has_country_modifier = cicada_warfare_doctrine
+	} 
+
+	mean_time_to_happen = { months = 1 } # ASAP
+
+	option = {
+		name = "EVT_1163_OPTA" # Every warrior a citizen, every citizen a warrior.
+		remove_country_modifier = cicada_warfare_doctrine
+		add_country_modifier = {
+			name = laborers_of_war_doctrine
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1163_OPTB" # Perhaps we need a change of course.
+		remove_country_modifier = cicada_warfare_doctrine
+		add_country_modifier = {
+			name = redefined_warfare_military_reorganization
+			duration = 729
+		}
+	}
+}
+
+# 1210-1260 - Small Arms & Light Weapons
+
+# Mass-Produced Armament
+
+country_event = {
+	id = 1210
+	title = "EVT_1210_NAME" # Basic Service Rifle (Battle Rifle / Assault Rifle)
+	desc = "EVT_1210_DESC"
+	picture = "service_rifle_1_pic"
+	trigger = {
+		invention = modern_service_rifle	# We are fielding service rifles
+		NOT = { invention = modern_carbine }	# We haven't researched carbines yet
+		NOT = {
+			OR = {
+				has_country_modifier = 1980_battle_rifle
+				has_country_modifier = 1980_assault_rifle
+			}
+		}
+	}
+
+	mean_time_to_happen = { months = 1 } #ASAP
+
+	option = {
+		name = "EVT_1210_OPTA" # Battle Rifle
+		remove_country_modifier = 1980_assault_rifle
+		add_country_modifier = {
+			name = 1980_battle_rifle
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1210_OPTB" # Assault Rifle
+		remove_country_modifier = 1980_battle_rifle
+		add_country_modifier = {
+			name = 1980_assault_rifle
+			duration = -1
+		}
+	}
+}
+
+# Composite Armament
+
+country_event = {
+	id = 1220
+	title = "EVT_1220_NAME" # Improved Service Rifle (Battle Rifle / Assault Rifle / Carbine)
+	desc = "EVT_1220_DESC"
+	picture = "service_rifle_2_pic"
+	trigger = {
+		invention = modern_carbine	# We can now field carbines too
+		NOT = {
+			OR = {
+				has_country_modifier = 1990_battle_rifle
+				has_country_modifier = 1990_assault_rifle
+				has_country_modifier = 1990_carbine
+			}
+		}
+	} 
+
+	mean_time_to_happen = { months = 1 } #ASAP
+
+	option = {
+		name = "EVT_1220_OPTA" # Battle Rifle
+		remove_country_modifier = 1980_battle_rifle
+		remove_country_modifier = 1980_assault_rifle
+		remove_country_modifier = 1990_assault_rifle
+		remove_country_modifier = 1990_carbine
+		add_country_modifier = {
+			name = 1990_battle_rifle
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1220_OPTB" # Assault Rifle
+		remove_country_modifier = 1980_battle_rifle
+		remove_country_modifier = 1980_assault_rifle
+		remove_country_modifier = 1990_battle_rifle
+		remove_country_modifier = 1990_carbine
+		add_country_modifier = {
+			name = 1990_assault_rifle
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_1220_OPTC" # Carbine
+		remove_country_modifier = 1980_battle_rifle
+		remove_country_modifier = 1980_assault_rifle
+		remove_country_modifier = 1990_battle_rifle
+		remove_country_modifier = 1990_assault_rifle
+		add_country_modifier = {
+			name = 1990_carbine
+			duration = -1
+		}
+	}
+}
+
+#1310-1360 - Artillery & Weapons Systems
+
+#1410-1460 - Armored Vehicles
+
+#1510-1560 - Military Organization

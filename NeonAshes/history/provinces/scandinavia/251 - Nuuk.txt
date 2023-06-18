@@ -1,0 +1,5 @@
+owner = GRN
+controller = GRN
+add_core = GRN
+trade_goods = rare_earths
+life_rating = 20

@@ -1,0 +1,890 @@
+#Communications and Media
+
+broadcasting = { #Broadcasting
+	area = comms_and_media
+	year = 1980
+	cost = 3600
+
+	prestige = 0.05
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 0.5
+			not = { literacy = 0.3 }
+		}
+	}
+}
+
+digital_media = { #Digital Media
+	area = comms_and_media
+	year = 1980
+	cost = 7200
+	
+	prestige = 0.05
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1000
+			continent = north_america
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 0.1
+			not = { literacy = 0.5  }
+			is_greater_power = no
+		}			
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}
+}
+
+the_internet = { #The Internet
+	area = comms_and_media
+	year = 1990
+	cost = 10800
+
+	prestige = 0.05
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 0.1
+			not = { literacy = 0.3  }
+			is_greater_power = no
+		}			
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+web_20 = { #Web 2.0
+	area = comms_and_media
+	year = 2010
+	cost = 14400
+
+	prestige = 0.05
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 0.1
+			not = { literacy = 0.4  }
+			is_greater_power = no
+		}			
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}
+}
+augmented_reality = { #Augmented Reality
+	area = comms_and_media
+	year = 2030
+	cost = 18000
+
+	prestige = 0.05
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 0.1
+			not = { literacy = 0.5  }
+			is_greater_power = no
+		}			
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}
+}
+virtual_reality = { #Virtual Reality
+	area = comms_and_media
+	year = 2060
+	cost = 21600
+
+	prestige = 0.05
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 0.1
+			not = { literacy = 0.5  }
+			is_greater_power = no
+		}			
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}
+}
+
+#Computer Science
+
+microprocessors = { #Microprocessors
+	area = computer_science
+	year = 1980
+	cost = 3600
+
+	activate_building = electronic_components_factory
+	increase_research = 0.50
+	
+	ai_chance = {
+		factor = 51
+		modifier = {
+			factor = 1.1
+			year = 1985
+		}
+		modifier = {
+			factor = 2
+			year = 1990
+		}
+		modifier = {
+			factor = 1.1
+			year = 2000
+		}
+		modifier = {
+			factor = 2
+			year = 2010
+		}
+		modifier = {
+			factor = 2
+			year = 2020
+		}
+	}
+}
+mobile_computing = { #Mobile Computing
+	area = computer_science
+	year = 1990
+	cost = 7200
+
+	increase_research = 0.50
+	ai_chance = {
+		factor = 51
+		modifier = {
+			factor = 1.1
+			year = 1995
+		}
+		modifier = {
+			factor = 2
+			year = 2000
+		}
+		modifier = {
+			factor = 1.1
+			year = 2010
+		}
+		modifier = {
+			factor = 2
+			year = 2020
+		}
+		modifier = {
+			factor = 2
+			year = 2030
+		}
+	}
+}
+
+machine_intelligence = { #Machine Intelligence
+	area = computer_science
+	year = 2010
+	cost = 10800
+	
+	increase_research = 0.50
+	ai_chance = {
+		factor = 51
+		modifier = {
+			factor = 1.1
+			year = 2030
+		}
+		modifier = {
+			factor = 2
+			year = 2040
+		}
+		modifier = {
+			factor = 2
+			year = 2050
+		}
+	}
+}
+quantum_computing = { #Quantum Computing
+	area = computer_science
+	year = 2030
+	cost = 14400
+
+	increase_research = 1.0
+	ai_chance = {
+		factor = 51
+		modifier = {
+			factor = 1.1
+			year = 2040
+		}
+		modifier = {
+			factor = 2
+			year = 2050
+		}
+	}
+}
+artificial_intelligence = { #Artificial Intelligence
+	area = computer_science
+	year = 2050
+	cost = 18000
+
+	increase_research = 1.0
+	ai_chance = {
+		factor = 51
+		modifier = {
+			factor = 1.1
+			year = 2060
+		}
+		modifier = {
+			factor = 2
+			year = 2070
+		}
+	}
+}
+exo_cortex = { #Exo-Cortex
+	area = computer_science
+	year = 2070
+	cost = 21600
+
+	increase_research = 1.0
+	ai_chance = {
+		factor = 51
+		modifier = {
+			factor = 1.1
+			year = 2080
+		}
+		modifier = {
+			factor = 2
+			year = 2090
+		}
+	}
+}
+
+#Sociology
+
+postmodernism = { #Postmodernism
+	area = sociology
+	year = 1980
+	cost = 3600
+
+	colonial_migration = 0.05
+	education_efficiency = 0.1
+	
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.5 #2
+			not = { literacy = 0.3 }
+		}
+		modifier = {
+			factor = 1.5 #2
+			not = { literacy = 0.2 }
+		}
+	}
+}
+reconstructivism = { #Reconstructivism
+	area = sociology
+	year = 1990
+	cost = 7200
+	colonial_migration = 0.05
+	education_efficiency = 0.1
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 3 #6
+			not = { literacy = 0.3 }
+		}
+	}
+
+}
+digital_sociology = { #Digital Sociology
+	area = sociology
+	year = 2010
+	cost = 10800
+
+	colonial_migration = 0.05
+	education_efficiency = 0.1
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 3 #6
+			not = { literacy = 0.3 }
+		}
+	}
+
+}
+neostructuralism = { #Neostructuralism
+	area = sociology
+	year = 2030
+	cost = 14400
+
+	colonial_migration = 0.05
+	education_efficiency = 0.1
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 3 #6
+			not = { literacy = 0.3 }
+		}
+	}
+
+}
+hephaestism = { #Hephaestism
+	area = sociology
+	year = 2050
+	cost = 18000
+
+	colonial_migration = 0.05
+	education_efficiency = 0.1
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 3 #6
+			not = { literacy = 0.3 }
+		}
+	}
+
+}
+super_sociology = { #Super-Sociology
+	area = sociology
+	year = 2070
+	cost = 21600
+	
+	colonial_migration = 0.05
+	education_efficiency = 0.1
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 3 #6
+			not = { literacy = 0.3 }
+		}
+	}
+
+}
+
+#Political Science
+
+realism = { #Realism
+	area = political_science
+	year = 1980
+	cost = 3600
+
+	max_national_focus = 1
+
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 6
+			is_greater_power = yes
+			year = 1990
+		}
+	}
+}
+institutionalism = { #Institutionalism
+	area = political_science
+	year = 1980
+	cost = 7200
+
+	max_national_focus = 1 
+		
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 6
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			total_pops = 1000000
+		}
+		modifier = {
+			factor = 51
+			rank = 16
+			year = 1990
+		}
+		modifier = {
+			factor = 51
+			year = 2000
+		}
+		
+	}
+}
+new_international_system = { #New International System
+	area = political_science
+	year = 1990
+	cost = 10800
+
+	max_national_focus = 1 
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			total_pops = 2000000
+		}
+		modifier = {
+			factor = 51
+			rank = 16
+			year = 2000
+		}
+		modifier = {
+			factor = 51
+			year = 2010
+		}
+	}	
+}
+neo_nationalism = { #Neo-Nationalism
+	area = political_science
+	year = 2010
+	cost = 14400
+
+	max_national_focus = 1
+	#colonial_life_rating = -10 
+	cb_creation_speed = 0.1
+	
+	ai_chance = {
+		factor = 1.15
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 11
+			rank = 16
+			year = 2015
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+			year = 2020
+		}
+		modifier = {
+			factor = 51
+			rank = 16
+			year = 2025
+		}
+		modifier = {
+			factor = 1.5
+			total_pops = 3000000
+		}
+	}
+}
+modern_technocracy = { #Modern Technocracy
+	area = political_science
+	year = 2030
+	cost = 18000
+
+	max_national_focus = 1
+	diplomatic_points = 0.25
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.3
+			total_pops = 4000000
+		}
+	}	
+}
+the_end_of_history = { #The End of History
+	area = political_science
+	year = 2060
+	cost = 21600
+
+	max_national_focus = 1 
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.03
+			total_pops = 5000000
+		}
+	}
+}
+
+### Psychology ###
+
+cognitive_psychology = { # Cognitive Psychology
+	area = psychology
+	year = 1980
+	cost = 3600
+
+	increase_research = 0.10
+	
+	ai_chance = {
+		factor = 1
+		modifier = {		# Disagreement
+			factor = 1.1
+			average_consciousness = 2
+		}
+		modifier = {		# Critique
+			factor = 1.2
+			average_consciousness = 4
+		}
+		modifier = {		# Dissent
+			factor = 1.3
+			average_consciousness = 6
+		}
+		modifier = {		# Opposition
+			factor = 1.4
+			average_consciousness = 8
+		}
+		modifier = {		# Scuffle
+			factor = 1.1
+			average_militancy = 2
+		}
+		modifier = {		# Protest
+			factor = 1.2
+			average_militancy = 4
+		}
+		modifier = {		# Riot
+			factor = 1.3
+			average_militancy = 6
+		}
+		modifier = {		# Rebellion
+			factor = 1.4
+			average_militancy = 8
+		}
+		modifier = {		# Autocrats will pursue this more often
+			factor = 1.5
+			OR = {
+				government = socialist_dictatorship
+				government = communist_state
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			
+		}
+		modifier = {		# We're late to the game
+			factor = 1.1
+			year = 2000
+		}
+	}
+}
+evolutionary_psychology = { # Evolutionary Psychology
+	area = psychology
+	year = 1990
+	cost = 7200
+
+	increase_research = 0.10
+	
+	ai_chance = {
+		factor = 1
+		modifier = {		# Disagreement
+			factor = 1.1
+			average_consciousness = 2
+		}
+		modifier = {		# Critique
+			factor = 1.2
+			average_consciousness = 4
+		}
+		modifier = {		# Dissent
+			factor = 1.3
+			average_consciousness = 6
+		}
+		modifier = {		# Opposition
+			factor = 1.4
+			average_consciousness = 8
+		}
+		modifier = {		# Scuffle
+			factor = 1.1
+			average_militancy = 2
+		}
+		modifier = {		# Protest
+			factor = 1.2
+			average_militancy = 4
+		}
+		modifier = {		# Riot
+			factor = 1.3
+			average_militancy = 6
+		}
+		modifier = {		# Rebellion
+			factor = 1.4
+			average_militancy = 8
+		}
+		modifier = {		# Autocrats will pursue this more often
+			factor = 1.5
+			OR = {
+				government = socialist_dictatorship
+				government = communist_state
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			
+		}
+		modifier = {		# We're late to the game
+			factor = 1.1
+			year = 2010
+		}
+	}
+}
+digital_psychology = { # Digital Psychology
+	area = psychology
+	year = 2010
+	cost = 10800
+
+	increase_research = 0.15
+	
+	ai_chance = {
+		factor = 1
+		modifier = {		# Disagreement
+			factor = 1.1
+			average_consciousness = 2
+		}
+		modifier = {		# Critique
+			factor = 1.2
+			average_consciousness = 4
+		}
+		modifier = {		# Dissent
+			factor = 1.3
+			average_consciousness = 6
+		}
+		modifier = {		# Opposition
+			factor = 1.4
+			average_consciousness = 8
+		}
+		modifier = {		# Scuffle
+			factor = 1.1
+			average_militancy = 2
+		}
+		modifier = {		# Protest
+			factor = 1.2
+			average_militancy = 4
+		}
+		modifier = {		# Riot
+			factor = 1.3
+			average_militancy = 6
+		}
+		modifier = {		# Rebellion
+			factor = 1.4
+			average_militancy = 8
+		}
+		modifier = {		# Autocrats will pursue this more often
+			factor = 1.5
+			OR = {
+				government = socialist_dictatorship
+				government = communist_state
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			
+		}
+		modifier = {		# We're late to the game
+			factor = 1.1
+			year = 2030
+		}
+	}
+}
+neuropsychology = { # Neuropsychology
+	area = psychology
+	year = 2030
+	cost = 14400
+
+	increase_research = 0.15
+	
+	ai_chance = {
+		factor = 1
+		modifier = {		# Disagreement
+			factor = 1.1
+			average_consciousness = 2
+		}
+		modifier = {		# Critique
+			factor = 1.2
+			average_consciousness = 4
+		}
+		modifier = {		# Dissent
+			factor = 1.3
+			average_consciousness = 6
+		}
+		modifier = {		# Opposition
+			factor = 1.4
+			average_consciousness = 8
+		}
+		modifier = {		# Scuffle
+			factor = 1.1
+			average_militancy = 2
+		}
+		modifier = {		# Protest
+			factor = 1.2
+			average_militancy = 4
+		}
+		modifier = {		# Riot
+			factor = 1.3
+			average_militancy = 6
+		}
+		modifier = {		# Rebellion
+			factor = 1.4
+			average_militancy = 8
+		}
+		modifier = {		# Autocrats will pursue this more often
+			factor = 1.5
+			OR = {
+				government = socialist_dictatorship
+				government = communist_state
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			
+		}
+		modifier = {		# We're late to the game
+			factor = 1.1
+			year = 2050
+		}
+	}
+}
+artificial_psychology = { # Artificial Psychology
+	area = psychology
+	year = 2050
+	cost = 18000
+
+	increase_research = 0.20
+
+	ai_chance = {
+		factor = 1
+		modifier = {		# Disagreement
+			factor = 1.1
+			average_consciousness = 2
+		}
+		modifier = {		# Critique
+			factor = 1.2
+			average_consciousness = 4
+		}
+		modifier = {		# Dissent
+			factor = 1.3
+			average_consciousness = 6
+		}
+		modifier = {		# Opposition
+			factor = 1.4
+			average_consciousness = 8
+		}
+		modifier = {		# Scuffle
+			factor = 1.1
+			average_militancy = 2
+		}
+		modifier = {		# Protest
+			factor = 1.2
+			average_militancy = 4
+		}
+		modifier = {		# Riot
+			factor = 1.3
+			average_militancy = 6
+		}
+		modifier = {		# Rebellion
+			factor = 1.4
+			average_militancy = 8
+		}
+		modifier = {		# Autocrats will pursue this more often
+			factor = 1.5
+			OR = {
+				government = socialist_dictatorship
+				government = communist_state
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			
+		}
+		modifier = {		# We're late to the game
+			factor = 1.1
+			year = 2070
+		}
+	}
+}
+superintelligence = { # Superintelligence
+	area = psychology
+	year = 2070
+	cost = 21600
+
+	increase_research = 0.20
+	
+	ai_chance = {
+		factor = 1
+		modifier = {		# Disagreement
+			factor = 1.1
+			average_consciousness = 2
+		}
+		modifier = {		# Critique
+			factor = 1.2
+			average_consciousness = 4
+		}
+		modifier = {		# Dissent
+			factor = 1.3
+			average_consciousness = 6
+		}
+		modifier = {		# Opposition
+			factor = 1.4
+			average_consciousness = 8
+		}
+		modifier = {		# Scuffle
+			factor = 1.1
+			average_militancy = 2
+		}
+		modifier = {		# Protest
+			factor = 1.2
+			average_militancy = 4
+		}
+		modifier = {		# Riot
+			factor = 1.3
+			average_militancy = 6
+		}
+		modifier = {		# Rebellion
+			factor = 1.4
+			average_militancy = 8
+		}
+		modifier = {		# Autocrats will pursue this more often
+			factor = 1.5
+			OR = {
+				government = socialist_dictatorship
+				government = communist_state
+				government = nat_dictatorship
+				government = theo_dictatorship
+				government = ultranat_dictatorship
+			}
+			
+		}
+		modifier = {		# We're late to the game
+			factor = 1.1
+			year = 2090
+		}
+	}
+}

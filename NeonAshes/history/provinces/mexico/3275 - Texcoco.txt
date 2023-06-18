@@ -1,0 +1,5 @@
+owner = EMX
+controller = EMX
+add_core = EMX
+trade_goods = cattle
+life_rating = 30

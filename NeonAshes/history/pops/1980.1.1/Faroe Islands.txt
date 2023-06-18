@@ -1,0 +1,4 @@
+### Faroe Islands Region ###
+# Torshavn
+253 = {
+}

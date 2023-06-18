@@ -1,0 +1,772 @@
+TBA:
+"Basic interpreter on the DVK computer.JPG" by Sergei Frolov, Soviet Computers Museum. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Basic_interpreter_on_the_DVK_computer.JPG
+"Dmitry Medvedev in the United Kingdom 2 April 2009-3.jpg" by the Russian Presidential Press and Information Office. Kremlin.ru. CC BY-3.0. https://commons.wikimedia.org/wiki/File:Dmitry_Medvedev_in_the_United_Kingdom_2_April_2009-3.jpg
+
+###############
+# Disclaimers #
+###############
+
+-The appearance of U.S. Department of Defense (DoD) visual information does not imply or constitute DoD endorsement.
+-All images used were subject to edits to better suit the aesthetics of the mod.
+
+##################################
+# Attribution of Text and Quotes #
+##################################
+
+##################################
+# Attribution of Music and Audio #
+##################################
+
+Sound Effects
+ DeclarationofWar (sfx when war gets declared on you): "PC Shutdown Sound XD" by Beetlemuse. CC BY 3.0. https://freesound.org/people/Beetlemuse/sounds/554066/
+ GI_ErrorBlip (sfx when something unfortunate happens): "GASP_UI_Notification_4.wav" by Rob Marion. CC0. https://freesound.org/people/Rob_Marion/sounds/542035/
+ GI_InfantrySelected (sfx when selecting land units): "GASP_Lock and Load.wav" by Rob Marion. CC0. https://freesound.org/people/Rob_Marion/sounds/542003/
+ GI_MessageWindow (sfx of top screen messages): "UI_2-1 NTFO Triangle(Sytrus,arpegio,multiprocessing,rsmpl).wav" by newlocknew. CC BY 3.0. https://freesound.org/people/newlocknew/sounds/515829/
+ GI_MinorBlip (sfx for prov events): "old_pc_button_turn_off.wav" by magedu. CC BY 3.0. https://freesound.org/people/magedu/sounds/264386/
+ GI_SuccessBlip (sfx when doing successful diplo): "Notification 2" by ebcrosby. CC BY 3.0. https://freesound.org/people/ebcrosby/sounds/332651/
+ Misc_Attention (sfx for events): "beep4.wav" by thisusernameis. CC0. https://freesound.org/people/thisusernameis/sounds/426888/
+ Misc_Peace (sfx for declaration of peace): "Sound FX #2 (Roland MT-32)" by Beetlemuse. CC0. https://freesound.org/people/Beetlemuse/sounds/554483/
+ Misc_revolt (sfx for revolts): "Startup Sound FX #1 (Roland MT-32)" by Beetlemuse. CC0. https://freesound.org/people/Beetlemuse/sounds/554482
+ turning_page (sfx of news): "Radio_beep.wav", by AlienXXX. CC BY 3.0. https://freesound.org/people/AlienXXX/sounds/259710/
+ UI_CavalrySelect (sfx when selecting cavalry (armored) land units): "GASP_Lock and Load.wav" by Rob Marion. CC0. https://freesound.org/people/Rob_Marion/sounds/542003/
+ UI_LandUnitFinished (sfx for landn unit construction): "GASP_Lock Interact_4.wav" by Rob Marion. CC0. https://freesound.org/people/Rob_Marion/sounds/542006/
+ UI_TechnologyFinished (sfx of completed techs): "Simple Computer Beep 1" by Erokia. CC BY 3.0. https://freesound.org/people/Erokia/sounds/417141
+
+Music by Timecrawler 82 - https://timecrawler82.com
+ "Street Dancing", from the album Osaka Lights. CC BY 4.0. https://freemusicarchive.org/music/Timecrawler_82/Osaka_Lights/Street_Dancing
+ "Mt. Fuji", from the album Osaka Lights. CC BY 4.0. https://freemusicarchive.org/music/Timecrawler_82/Osaka_Lights/Mt_Fuji_1433
+ "Palms and Seagulls", from the album Osaka Lights. CC BY 4.0. https://freemusicarchive.org/music/Timecrawler_82/Osaka_Lights/Palms_and_Seagulls
+ "Infinity", from the album Infinity. CC BY 4.0. https://freemusicarchive.org/music/Timecrawler_82/infinity/infinity
+ "Coral", from the album Infinity. CC BY 4.0. https://freemusicarchive.org/music/Timecrawler_82/infinity/coral
+ "Midnight Walk", from the album Infinity. CC BY 4.0. https://freemusicarchive.org/music/Timecrawler_82/infinity/midnight-walk
+ "Phantasia", from the album Infinity. CC BY 4.0. https://freemusicarchive.org/music/Timecrawler_82/infinity/phantasia
+ "Turbulence", from the album Infinity. CC BY 4.0. https://freemusicarchive.org/music/Timecrawler_82/infinity/turbulence-1
+
+Music by Serat - https://serat.bandcamp.com/
+ "Gleam", from the album Gleam. CC BY 4.0. https://freemusicarchive.org/music/serat/gleam/gleam
+ "Foresight", from the album Gleam. CC BY 4.0. https://freemusicarchive.org/music/serat/gleam/foresight
+ "Hour of the Wolf", from the album Gleam. CC BY 4.0. https://freemusicarchive.org/music/serat/gleam/hour-of-the-wolf
+
+Music by Kai Engel - https://www.kai-engel.com/
+ "Tentative Steps", from the album Paradigm Lost. CC BY-NC-SA 4.0. https://freemusicarchive.org/music/Kai_Engel/Paradigm_Lost/03_-_Tentative_Steps
+ "Junction", from the album Paradigm Lost. CC BY-NC-SA 4.0. https://freemusicarchive.org/music/Kai_Engel/Paradigm_Lost/09_-_Junction
+ "Chance", from the album The Run. CC BY-4.0. https://freemusicarchive.org/music/Kai_Engel/The_Run/Kai_Engel_-_The_Run_-_08_Chance
+ "Augmentations", from the album Satin. CC BY-NC 4.0. https://freemusicarchive.org/music/Kai_Engel/Satin_1564/Kai_Engel_-_Satin_-_01_Augmentations
+ "Interception", from the album Satin. CC BY 4.0. https://freemusicarchive.org/music/Kai_Engel/Satin_1564/Kai_Engel_-_Satin_-_07_Interception
+ "Downfall", from the album Satin. CC BY-NC 4.0. https://freemusicarchive.org/music/Kai_Engel/Satin_1564/Kai_Engel_-_Satin_-_08_Downfall_1687
+
+Music by The Present Sound - https://thepresentsound.bandcamp.com/
+ "Orion", from the album Orion. All rights reserved, used with permission for non-commercial purposes. https://thepresentsound.bandcamp.com/track/orion
+
+#################
+# Icons and GUI #
+#################
+
+#######################
+# Goods and Resources #
+#######################
+
+###########################
+# Attribution of Pictures #
+###########################
+
+###################
+# Loading Screens #
+###################
+
+ TV border screen
+  "Old photo frame png - Tv Border Png - Screen" from VIPPNG.com. Public domain / fair use. https://www.vippng.com/maxp/iiwJmRo/ 
+ Death of Franklin Delano Roosevelt
+  New York Times Front Page, April 13, 1945. The New York Times, Arthur Krock. Fair use. https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/big/0412.html
+ Korean War
+  "Huntley Brinkley Report NBC News 1963.JPG" by NBC Television, The Huntley-Brinkley Report. Public domain. https://commons.wikimedia.org/wiki/File:Huntley_Brinkley_Report_NBC_News_1963.JPG
+  "38th parallel" by NARA / Encyclopedia Britannica. Public domain. https://www.britannica.com/place/38th-parallel
+ Invasion of Prague
+  "Prague-1968-protest.jpg" by Reijo Nikkilä. Public domain. https://commons.wikimedia.org/wiki/File:Prague-1968-protest.jpg
+ CBRN Soldiers
+  "Chemical Warfare in the Twentieth Century GLF1138.jpg" by U.S. Military or Department of Defense personnel. Public domain. https://commons.wikimedia.org/wiki/File:Chemical_Warfare_in_the_Twentieth_Century_GLF1138.jpg
+ Computer screens
+  "S79-29067.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:S79-29067.jpg
+ Loading game
+  "1959 NORAD sectors.png" by NORAD. Public domain. https://commons.wikimedia.org/wiki/File:1959_NORAD_sectors.png
+
+##########################
+# General Pictures / GUI #
+##########################
+Main Screen:
+ "United Nations Security Council.JPG" by Mr Bullitt. CC-BY-SA 3.0. https://commons.wikimedia.org/wiki/File:United_Nations_Security_Council.JPG
+Budget screen background:
+ "Cargo Ship-ctg" by S. M. Tanim. CC-BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Cargo_Ship-ctg.jpg
+ "SEG classroom" by Naxtr4Time. CC-BY-SA 4.0. https://commons.wikimedia.org/wiki/File:SEG_classroom.jpg
+ "Capitol Building Full View" by Noclip. Public domain. https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg
+ "Fachada del Hospital Dr. Ramon Ruiz Arnau" by Jose G Ruiz Cox. CC-BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Fachada_del_Hospital_Dr._Ramon_Ruiz_Arnau.jpg
+ "The Pentagon US Department of Defense building" by Master Sgt. Ken Hammond, U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:The_Pentagon_US_Department_of_Defense_building.jpg
+ "Gulf Oil Corporation, Waddell Gasoline Corp, West Texas (9191340269)" by Robert Yarnall Richie. DeGolyer Library, Southern Methodist University. No known copyright. https://www.flickr.com/photos/smu_cul_digitalcollections/9191340269/
+ "Kenneth Harris 7" by NASA/Chris Gunn. CC-BY-2.0. https://www.flickr.com/photos/gsfc/36869571923
+ "CFK Wall Street" by Presidencia de la Nacion (Argentine Office of the President). CC-BY-SA 2.0. https://commons.wikimedia.org/wiki/File:CFK_Wall_Street.jpg
+
+Tech screen background:
+ "Microchip-24lcs52-HD" by ZeptoBars. CC-BY-3.0 https://commons.wikimedia.org/wiki/File:Microchip-24lcs52-HD.jpg
+
+Military screen background:
+ "4-14 Marines in Fallujah" by Lance Corporal Samantha L. Jones, USMC. Public domain. https://commons.wikimedia.org/wiki/File:4-14_Marines_in_Fallujah.jpg
+ "US Navy 020612-N-9407M-522 Formation during a joint U.S. and British missile exercise" by Photographer’s Mate 2nd Class Isaac Merriman, U.S. Navy. Public domain. https://commons.wikimedia.org/wiki/File:US_Navy_020612-N-9407M-522_Formation_during_a_joint_U.S._and_British_missile_exercise.jpg
+ "Camo patterns" by Thimbleweed. CC BY-SA https://commons.wikimedia.org/wiki/File:Camo_patterns.jpg
+
+#######################
+# Technology Pictures #
+#######################
+
+Tech images:
+ No Image
+  "Farben-Testbild" by Furfur. CC BY-SA https://commons.wikimedia.org/wiki/File:Farben-Testbild.svg
+ Army Tech:
+  Military Doctrine
+   Third Generation Warfare:
+    "DesertStormMap v2" by Jeff Dahl. CC BY-SA https://commons.wikimedia.org/wiki/File:DesertStormMap_v2.svg
+   Fourth Generation Warfare:
+    "FARC guerrillas during the Caguan peace talks (1998-2002)" by DEA Public Affairs. Public domain. https://commons.wikimedia.org/wiki/File:FARC_guerrillas_during_the_Caguan_peace_talks_(1998-2002).jpg
+   Fifth Generation Warfare:
+    "Italian Army - 28th Regiment "Pavia" PSYOPS exercise with the US Army 7th Psychological Operations Battalion" by the Italian Army. CC 2.5 https://commons.wikimedia.org/wiki/File:Italian_Army_-_28th_Regiment_%22Pavia%22_PSYOPS_exercise_with_the_US_Army_7th_Psychological_Operations_Battalion.jpg
+   Sixth Generation Warfare:
+    "Meeting LS3: Marines experiment with military robotics [Image 6 of 6]" by Sgt. Sarah Anderson. Public domain. https://www.dvidshub.net/image/1445816/meeting-ls3-marines-experiment-with-military-robotics
+   Seventh Generation Warfare:
+    "JADC2 ‘Experiment 2’ provides looking glass into future experimentation" by Jonathan Koester. Public domain. https://www.dvidshub.net/image/6183929/jadc2-experiment-2-provides-looking-glass-into-future-experimentation
+   Redefinition of Conflict:
+    "A Labor-Intensive Picture [Image 2 of 3]" by the U.S. Army Acquisition Support Center. Public domain. https://www.dvidshub.net/image/4139282/labor-intensive-picture
+  Small Arms & Light Weapons
+   Mass-Produced Armament
+    "Sten Gun Production in Britain, 1943" by the Ministry of Information Photo Division Photographer. Public domain. https://commons.wikimedia.org/wiki/File:Sten_Gun_Production_in_Britain,_1943_D12370.jpg
+   Composite Armament
+    "Polymer has Possibilities [Image 2 of 3]" by the U.S. Army Acquisition Support Center. Public domain. https://www.dvidshub.net/image/5804710/polymer-has-possibilities
+   Electronic Weapons
+    "Italian Army - 17th Anti-aircraft Artillery Regiment "Sforzesca" troops with CPM-Drone Jammer.jpg" by the Italian Army. CC 2.5 https://commons.wikimedia.org/wiki/File:Italian_Army_-_17th_Anti-aircraft_Artillery_Regiment_%22Sforzesca%22_troops_with_CPM-Drone_Jammer.jpg
+   Smart Weapons
+    "Augmented Training [Image 4 of 4] by the U.S. Army Acquisition Support Center. Public domain. https://www.dvidshub.net/image/4120706/augmented-training
+   Nano Weapons
+    "Brain Rescue: Recovery From Neurological Attack [Image 2 of 2]" by the Defense Threat Reduction Agency's Chemical and Biological Technologies Department. Public domain. https://www.dvidshub.net/image/3289440/brain-rescue-recovery-neurological-attack
+   Exotic Weapons
+    "Soldier Carries Out Personal Decontamination Drills MOD 45150768.jpg" by Martin Jones. Open Government Licence 1.0. https://commons.wikimedia.org/wiki/File:Soldier_Carries_Out_Personal_Decontamination_Drills_MOD_45150768.jpg
+  Artillery and Weapons Systems
+   Arms Industry
+    "Panzer-Konstruktionswerkstätte Thun (1977)" by Comet Photo AG (Zürich). CC BY-SA https://commons.wikimedia.org/wiki/File:Com_C26-023-001.jpg
+   Rocket Artillery
+    "Artillery Fire.jpg" by U.S. Army. Sgt. James Lefty Larimer. CC BY 2.0. https://commons.wikimedia.org/wiki/File:Artillery_Fire.jpg
+   Precision-Guided Munitions
+    "Umbani at TFDC 2012.jpg" by Brent Best. CC0 1.0. https://commons.wikimedia.org/wiki/File:Umba"ni_at_TFDC_2012.jpg
+   Electromagnetic Weapons
+    "Electromagnetic Railgun at Terminal Range [Image 1 of 2]" by John Williams, Office of Naval Research. Public domain. https://www.dvidshub.net/image/3424712/electromagnetic-railgun-terminal-range
+   Autonomous Weapons
+    "Next Generation Combat Vehicle Cross-Functional Team Demonstrations [Image 20 of 40]" by Luke Allen, Army Futures Command. Public domain. https://www.dvidshub.net/image/6153055/next-generation-combat-vehicle-cross-functional-team-demonstrations
+   Directed Energy Weapons
+    "Laser weapons development by 2023" by David Vergun, Defense Media Activity-Army. Public domain. https://www.dvidshub.net/image/2455273/laser-weapons-development-2023
+  Armored Vehicles
+   Infantry Fighting Vehicles
+    "Vostok-2018-96.jpg" by the Ministry of Defence of the Russian Federation (Mil.ru). CC BY-4.0. https://commons.wikimedia.org/wiki/File:Vostok-2018-96.jpg
+   Light Tanks
+    "Soldiers of the 11th Armored Cavalry deploying around M551 on Inner German Border with observation towers in background DA-ST-86-06118.jpg" by an unknown U.S. Army photographer. Public domain. https://commons.wikimedia.org/wiki/File:Soldiers_of_the_11th_Armored_Cavalry_deploying_around_M551_on_Inner_German_Border_with_observation_towers_in_background_DA-ST-86-06118.jpg
+   Main Battle Tanks
+    "M1A1.jpg" by Staff Sgt. Shane A. Cuomo, U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:M1A1.jpg
+   Electronic Battlespace Integration
+    "Combat Logistics Battalion 6 performs live fire of motorized weapon system [Image 1 of 7]" by Lance Cpl. Devin Nichols, II Marine Expeditionary Force. Public domain. https://www.dvidshub.net/image/910579/combat-logistics-battalion-6-performs-live-fire-motorized-weapon-system
+   Autonomous Armored Vehicles
+    "Next Generation Combat Vehicle Cross-Functional Team Demonstrations [Image 28 of 40]" by Luke Allen, Army Futures Command. Public domain. https://www.dvidshub.net/image/6153055/next-generation-combat-vehicle-cross-functional-team-demonstrations
+   Heavy Armored Robotic Platforms
+    "Riflemen learn basics of LAV weapons systems [Image 2 of 3]" by Cpl. James Gulliver, 1st Marine Division. Public domain. https://www.dvidshub.net/image/1000378/riflemen-learn-basics-lav-weapons-systems
+  Military Organization
+   Professional Army
+    "111201-F-YC711-317 (6504758273).jpg" by Senior Airman Andrea Salazar, USAF, NATO Training Mission, Afghanistan. CC BY-SA 2.0 https://commons.wikimedia.org/wiki/File:111201-F-YC711-317_(6504758273).jpg
+   Command and Control
+    "Defense.gov News Photo 000829-N-1110A-502.jpg" by Petty Officer 1st Class Tina M. Ackerman, U.S. Navy. Public domain. https://commons.wikimedia.org/wiki/File:Defense.gov_News_Photo_000829-N-1110A-502.jpg
+   Digital Battle Command
+    "NORADCommandCenter.jpg" by U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:NORADCommandCenter.jpg
+   Command A.I.
+    "SETTING THE SCENE [Image 2 of 2]" by the U.S. Army Acquisition Support Center. Public domain. https://www.dvidshub.net/image/4129969/setting-scene
+   Global Decision-Making
+    "Global Airmen [Image 1 of 4]" by Staff Sgt. Alex Montes, 9th Reconnaissance Wing Public Affairs, U.S. Air Force. Public domain. https://www.dvidshub.net/image/5561656/global-airmen
+   Command Decentralization
+    "1959 NORAD sectors.png" by NORAD. Public domain. https://commons.wikimedia.org/wiki/File:1959_NORAD_sectors.png
+ Navy Tech:
+  Naval Doctrine & Tactics
+   Green Water Navy
+    "Destroyers train for deployment [Image 1 of 2]" by U.S. Navy Seaman Jared M. King. Public domain. https://www.dvidshub.net/image/316277/destroyers-train-deployment
+   Blue Water Navy
+    "Guided-missile cruiser conduct a pass and review" by U.S. Navy Petty Oficer 3rd Class Johndion L. Magsipoc. Public domain. https://www.dvidshub.net/image/87733/guided-missile-cruiser-conduct-pass-and-review
+   Regional Power Projection
+    "UK Carrier Strike Group Assembles [Image 7 of 68]" by the Royal Navy, LPhot Alker. Public domain. https://www.dvidshub.net/image/6380494/uk-carrier-strike-group-assembles
+   Global Power Projection
+    "UK Carrier Strike Group Assembles [Image 34 of 68] by the Royal Navy, LPhot Alker. Public domain. https://www.dvidshub.net/image/6380524/uk-carrier-strike-group-assembles
+   Modern Anti-Access and Area Denial
+    "HMCS Regina fires a missile [Image 1 of 2]" by U.S. Navy. Courtesy photo. Public domain. https://www.dvidshub.net/image/104835/hmcs-regina-fires-missile
+   Naval Battlespace Integration
+    "USS Stethem Surface Ship Anti-Submarine Warfare Readiness and Effectiveness Measure [Image 2 of 2]" by U.S. Navy Chief Firecontrolman James Downs. Public domain. https://www.dvidshub.net/image/1526028/uss-stethem-surface-ship-anti-submarine-warfare-readiness-and-effectiveness-measure
+  Naval Engineering
+   Shipbuilding Industry
+    "BCFerries SuperC-class.jpg" by Markus Brinkmann. CC BY-SA 2.0. https://www.flickr.com/photos/brinkmann/391054492/
+   Modern Naval Engineering
+    "Marine-engineering.jpg" by BlairSnow. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Marine-engineering.jpg
+   Composite Hull Superstructure
+    "141114-N-EW716-003 (23924937819).jpg" by U.S. Navy, courtesy of Bath Iron Works. Public domain. https://www.flickr.com/photos/127906254@N06/23924937819/
+   Modern Ship Propulsion
+    "E-ferry Ellen 3.JPG" by Erik Christensen. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:E-ferry_Ellen_3.JPG
+   Large Scale Naval Construction
+    "STS operations on suezmax oil tanker.jpg" by Martian-2007. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:STS_operations_on_suezmax_oil_tanker.jpg
+   Aerodynamic Megaships
+    "MV-22 approaches USS America (LHA-6) in July 2014.JPG" by U.S. Navy Mass Communication Specialist 2nd Class Ryan Riley. Public domain. https://commons.wikimedia.org/wiki/File:MV-22_approaches_USS_America_(LHA-6)_in_July_2014.JPG
+  Astronautical Engineering
+   Sub-Orbital Flight
+    "Scout launch vehicle.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Scout_launch_vehicle.jpg
+   Orbital Flight
+    "GPS-IIR.jpg" by by the U.S. Government. Public domain. https://commons.wikimedia.org/wiki/File:GPS-IIR.jpg
+   Interplanetary Flight
+    "Voyager spacecraft.jpg" by NASA/JPL. Public domain. https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg
+   Reusable Launch Systems
+    "STS120LaunchHiRes.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:STS120LaunchHiRes.jpg
+   Non-Rocket Spacelaunch Systems
+    "X-33 artistic.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:X-33_artistic.jpg
+   Interstellar Travel
+    "Innovative Interstellar Explorer interstellar space probe .jpg" by NASA/JPL. Public domain. https://commons.wikimedia.org/wiki/File:Innovative_Interstellar_Explorer_interstellar_space_probe_.jpg
+  Aeronautical Engineering
+   Aerospace Industry
+    "SR71 factoryfloor SkunkWorks.jpg' by the CIA. Public domain. https://commons.wikimedia.org/wiki/File:SR71_factoryfloor_SkunkWorks.jpg
+   Fly-By-Wire
+    "F-8 Digital Fly-By-Wire" by NASA/Dennis Taylor. Public domain. https://www.dvidshub.net/image/834002/f-8-digital-fly-wire
+   Modern Avionics
+    "Eurofighter Cockpit cut.jpg" by tribp, modified by Silent Sentry. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Eurofighter_Cockpit_cut.jpg
+   Hypersonic Aircraft
+    "X-51A Waverider.jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:X-51A_Waverider.jpg
+   Modern Airframe and Propulsion
+    "U.S. Sailors move a U.S. Navy X-47B Unmanned Combat Air System demonstrator aircraft onto an aircraft elevator aboard the aircraft carrier USS George H.W. Bush (CVN 77) May 14, 2013, in the Atlantic Ocean 130514-N-FU443-025.jpg" by MC2 Timothy Walter. Public domain. https://commons.wikimedia.org/wiki/File:U.S._Sailors_move_a_U.S._Navy_X-47B_Unmanned_Combat_Air_System_demonstrator_aircraft_onto_an_aircraft_elevator_aboard_the_aircraft_carrier_USS_George_H.W._Bush_(CVN_77)_May_14,_2013,_in_the_Atlantic_Ocean_130514-N-FU443-025.jpg
+   Blurring of the Karman Line
+    "X-43 NASA.jpg" by NASA/Steve Lighthill. Public domain. https://commons.wikimedia.org/wiki/File:X-43_NASA.jpg
+  Aerospace Doctrine
+   Airspace Control
+    "F-16XL flies with an F-16B.jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:F-16XL_flies_with_an_F-16B.jpg
+   Global Strike Command
+    "180830-F-FF346-1004 (44420418142).jpg" by U.S. Air Force Airman 1st Class Gerald R. Willis. Public domain. https://commons.wikimedia.org/wiki/File:180830-F-FF346-1004_(44420418142).jpg
+   Full Spectrum Dominance
+    "Lelystad Flugsimulatorwochenende 20091107 244.JPG" by Sterilgutassistentin. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Lelystad_Flugsimulatorwochenende_20091107_244.JPG
+   Space Command
+    "200613-F-DJ189-1110.jpg" by U.S. Space Force Senior Airman Dalton Williams. Public domain. https://commons.wikimedia.org/wiki/File:200613-F-DJ189-1110.jpg
+   Swarm Warfare
+    "Drone Incoming [Image 2 of 5]" by U.S. Army Pv2 James Newsome. Public domain. https://www.dvidshub.net/image/5356100/drone-incoming
+   Exospace Control
+    "Space lasers.jpg" by the U.S. Department of Defense. Public domain. https://commons.wikimedia.org/wiki/File:Space_lasers.jpg
+ Commerce Tech:
+  Banking and Finance
+   Modern Banking
+    "CB BM 070213 BR 272 (9194507322).jpg" by the U.S. Federal Reserve. Public domain. https://commons.wikimedia.org/wiki/File:CB_BM_070213_BR_272_(9194507322).jpg
+   Modern Financial Institutions
+    "Robert Hack, NYSE [New York Stock Exchange] President and scenes of stock exchange" by Warren K. Leffler and Thomas J. O'Halloran. U.S. Library of Congress. No known copyright restriction. https://www.loc.gov/item/2019636736/
+   International Banking
+    "Basel - Bank für internationalen Zahlungsausgleich1.jpg" by Taxiarchos228. Copyleft Free Art Licence. https://commons.wikimedia.org/wiki/File:Basel_-_Bank_f%C3%BCr_internationalen_Zahlungsausgleich1.jpg
+   Supranational Banking
+    "ECB Frankfurt.jpg" by M. Minderhoud. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:ECB_Frankfurt.jpg
+   Decentralized Banking
+    "Nfc machine.jpg" by Emerson Alecrim. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Nfc_machine.jpg
+   Trans-Finance
+    "NASDAQ studio.jpg" by Luis Villa del Campo. CC BY-2.0. https://commons.wikimedia.org/wiki/File:NASDAQ_studio.jpg
+  Monetary System
+   Fiat Currency
+    "RIAN archive 978879 Printing banknotes at Goznak factory in Perm.jpg" by Alexey Kudenko / Алексей Куденко. RIA Novosti. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:RIAN_archive_978879_Printing_banknotes_at_Goznak_factory_in_Perm.jpg
+   Digital Currency
+    "Tokyo stock exchange.jpg" by Chris 73. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Tokyo_stock_exchange.jpg
+   Cryptocurrencies
+    "Bitcoin (33540791008).jpg" by Tim Reckmann. CC BY 2.0. https://commons.wikimedia.org/wiki/File:Bitcoin_(33540791008).jpg
+   Monetary Hegemony
+    "Europäische Zentralbank - European Central Bank (19190136328).jpg" by Kiefer. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Europ%C3%A4ische_Zentralbank_-_European_Central_Bank_(19190136328).jpg
+   Universal Currency
+    "Moscow-City (36211143494) (crop).jpg" by Deensel (Cropped by Danloud). CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Moscow-City_(36211143494)_(crop).jpg
+   Post-Monetary Economy
+    "Ethereum Gas Price Visualization.png" by Daniel von Fange. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Ethereum_Gas_Price_Visualization.png
+  Macroeconomics
+   New Classical Economics
+    "Harper Library, interior, University of Chicago.jpg" by Richie Diesterheft. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Harper_Library,_interior,_University_of_Chicago.jpg
+   New Keynesian Economics
+    "Marriner S. Eccles Federal Reserve Board Building.jpg" by AgnosticPreachersKid. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg
+   Modern Political Economy
+    ""Out of Gas" Signs Have Cropped Up All over the Portland Area Since the Start of the Fuel Shortage 06-1973 (4271653593).jpg" by David Falconer, U.S. National Archives. No known copyright restrictions. https://commons.wikimedia.org/wiki/File:%22Out_of_Gas%22_Signs_Have_Cropped_Up_All_over_the_Portland_Area_Since_the_Start_of_the_Fuel_Shortage_06-1973_(4271653593).jpg
+   Polarization Theory
+    "Enfrentamientos en Bello Monte, 12Abr14 (14140525296).jpg" by Carlos Diaz. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Enfrentamientos_en_Bello_Monte,_12Abr14_(14140525296).jpg
+   Globality Theory
+    "President Rodrigo Roa Duterte at the Leaders’ Roundtable Discussion of the 2nd Belt and Road Forum (03).jpg" by Alfred Frias/Presidential Photo. Public domain. https://commons.wikimedia.org/wiki/File:President_Rodrigo_Roa_Duterte_at_the_Leaders%E2%80%99_Roundtable_Discussion_of_the_2nd_Belt_and_Road_Forum_(03).jpg
+   Post-Scarcity Economics
+    "Relativity Stargate 3D Printer.jpg" by Relativity Space, Inc. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Relativity_Stargate_3D_Printer.jpg
+  Microeconomics
+   Laissez-Faire Economics
+    "Wall Street (4456029904).jpg" by Andrés Nieto Porras. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Wall_Street_(4456029904).jpg
+   Planned Economies
+    "Red Square 1977-11-07-27.jpg" by Szilas. Public domain. https://commons.wikimedia.org/wiki/File:Red_Square_1977-11-07-27.jpg
+   Behavioral Economics
+    "Faced products on a supermarket shelf.JPG" by Amnesiac86. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Faced_products_on_a_supermarket_shelf.JPG
+   Modern Distortion Analysis
+    "Occupy Boston - backdrop.jpg" by Tim Pierce. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Occupy_Boston_-_backdrop.jpg
+   Modern Market A.I.
+    "Leanux Industries Inc.jpg" by Leanux Industries. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Leanux_Industries_Inc.jpg
+   Pervasive Market Theory
+    "Evolution vendor category relationships.png" by Ryan Compton. CC BY-3.0. https://commons.wikimedia.org/wiki/File:Evolution_vendor_category_relationships.png
+  Management
+   Modern Corporate Structure
+    "The Boardroom.png" by Iboota. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:The_Boardroom.png
+   Modern Cybernetics
+    "Dynamix Automation KPI - Real Time OEE.png" by Saivy Singh. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Dynamix_Automation_KPI_-_Real_Time_OEE.png
+   Digital Management
+    "NetworkOperations.jpg" by Gsmith1of2. Public domain. https://commons.wikimedia.org/wiki/File:NetworkOperations.jpg
+   Decentralized Management
+    "Planalto Palace Supreme Meeting Room.jpg" by Limongi. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Planalto_Palace_Supreme_Meeting_Room.jpg
+   Modern Flexible Management
+    "Coworking Audiovisual NOLICH.jpg" by Espacio Nolich. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Coworking_Audiovisual_NOLICH.jpg
+   Democratic Decision-Making
+    "Campus Party.jpg" by Aythami Melian Perdomo. CC BY-SA-2.5-ES. https://commons.wikimedia.org/wiki/File:Campus_Party.jpg
+ Culture Tech:
+  Communications and Media
+   Broadcasting
+    "Regie Studio 9.jpg" by Cujik. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Regie_Studio_9.jpg
+   Digital Media
+    "DARPA Big Data.jpg" by the Defense Advanced Research Projects Agency (DARPA). Public domain. https://commons.wikimedia.org/wiki/File:DARPA_Big_Data.jpg
+   The Interenet
+    "Cyber Security at the Ministry of Defence MOD 45153613.jpg" by Harland Quarrington. Open Government Licence v1.0. https://commons.wikimedia.org/wiki/File:Cyber_Security_at_the_Ministry_of_Defence_MOD_45153613.jpg
+   Web 2.0.
+    "Mobile-phone-426559 1920.jpg" by Geralt. CC0. https://commons.wikimedia.org/wiki/File:Mobile-phone-426559_1920.jpg
+   Augmented Reality
+    "Magic Leap No - 1.jpg" by KKPCW. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Magic_Leap_No_-_1.jpg
+   Virtual Reality
+    "ManusVR Glove 2016.png" by Manus VR. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:ManusVR_Glove_2016.png
+  Computer Science
+   Microprocessors
+    "Integrated circuit on microchip.jpg" by Jon Sullivan. Public domain. https://commons.wikimedia.org/wiki/File:Integrated_circuit_on_microchip.jpg
+   Mobile Computing
+    "Alcatel One Touch Com-CnAM 43679-IMG 5391-gradient.jpg" by Rama. CC BY-SA 3.0. FR. https://commons.wikimedia.org/wiki/File:Alcatel_One_Touch_Com-CnAM_43679-IMG_5391-gradient.jpg
+   Machine Intelligence
+    "Two-layer feedforward artificial neural network.png" by Akritasa. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Two-layer_feedforward_artificial_neural_network.png
+   Quantum Computing
+    "D-Wave-Washington-1000Q.jpg" by Mwjohnson0. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:D-Wave-Washington-1000Q.jpg
+   Artificial Intelligence
+    "Shadow Hand Bulb large.jpg" by Richard Greenhill and Hugo Elias of the Shadow Robot Company. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Shadow_Hand_Bulb_large.jpg
+   Exo-Cortex
+    "Machine Learning & Artificial Intelligence" by Mike MacKenzie. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Artificial_Neural_Network_with_Chip.jpg and https://www.vpnsrus.com/
+  Sociology
+   Postmodernism
+    "Statue of liberty from studio 54.jpg" by William Armstrong. Public domain. https://commons.wikimedia.org/wiki/File:Statue_of_liberty_from_studio_54.jpg
+   Reconstructivism
+    "St Nikolai.jpg" by LuxTonnerre. CC BY-2.0. https://commons.wikimedia.org/wiki/File:St_Nikolai.jpg
+   Digital Sociology
+    "Flickr - Per Ola Wiberg ~ mostly away - Vincent looking for friends on Flickr.jpg" by Per Ola Wiberg. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Flickr_-_Per_Ola_Wiberg_~_mostly_away_-_Vincent_looking_for_friends_on_Flickr.jpg
+   Neostructuralism
+    "Guangzhou Opera House overview.JPG" by 圍棋一級. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Guangzhou_Opera_House_overview.JPG
+   Hephaestism
+    "Spirit of Communication AT&T logo 1914.jpg" by the American Telegraph & Telephone Company. Author unknown. Scanned by Centpacrr. Public domain. https://commons.wikimedia.org/wiki/File:Spirit_of_Communication_AT%26T_logo_1914.jpg
+   Super-Sociology
+    "Artificial Intelligence in E-Commerce.jpg" by Chitra Sancheti. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_in_E-Commerce.jpg
+  Political Science
+   Realism
+    "Jimmy Carter, Richard Nixon and Deng Xiaoping during the state dinner for the Vice Premier of China. - NARA - 183214.tif" by White House staff photographers. Public domain. https://commons.wikimedia.org/wiki/File:Jimmy_Carter,_Richard_Nixon_and_Deng_Xiaoping_during_the_state_dinner_for_the_Vice_Premier_of_China._-_NARA_-_183214.tif
+   Institutionalism
+    "UNNYbuilding.jpg" by Theodoranian. CC BY-SA 2.5. https://commons.wikimedia.org/wiki/File:UNNYbuilding.jpg
+   New International System
+    "32nd G8 Summit-3.jpg" by the Russian Presidential Press and Information Office (www.kremlin.ru). CC BY-4.0. https://commons.wikimedia.org/wiki/File:32nd_G8_Summit-3.jpg
+   Neo-Nationalism
+    "Demonstrations and protests against United States recognition of Jerusalem in Damascus 02.jpg" by the Tasnim News Agency CC BY-4.0. https://commons.wikimedia.org/wiki/File:Demonstrations_and_protests_against_United_States_recognition_of_Jerusalem_in_Damascus_02.jpg
+   Modern Technocracy
+    "Nordiska Radets session 2011 i Kopenhamn (6).jpg" by Magnus Fröderberg. CC BY-2.5. DK. https://commons.wikimedia.org/wiki/File:Nordiska_Radets_session_2011_i_Kopenhamn_(6).jpg
+   The End of History
+    "NASA ISS006-E-24987.jpg" by Image Science & Analysis Laboratory, NASA Johnson Space Center. Public domain. https://commons.wikimedia.org/wiki/File:NASA_ISS006-E-24987.jpg
+  Psychology
+   Cognitive Psychology
+    "MagnetSchool.jpg" by Department of Agriculture Forest Service Southern Research Station. Public domain. https://commons.wikimedia.org/wiki/File:MagnetSchool.jpg
+   Evolutionary Psychology
+    "Macaca fascicularis aurea using a stone tool - journal.pone.0072872.g002e.png" by Haslam M, Gumert MD, Biro D, Carvalho S, Malaivijitnond S (2013). "Use-Wear Patterns on Wild Macaque Stone Tools Reveal Their Behavioural History. PLoS ONE 8(8): e72872. doi:10.1371/journal.pone.0072872" CC BY-2.5. https://commons.wikimedia.org/wiki/File:Macaca_fascicularis_aurea_using_a_stone_tool_-_journal.pone.0072872.g002e.png
+   Digital Psychology
+    "Uso de dispositivos digitales - 4.jpg" by TitiNicola. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Uso_de_dispositivos_digitales_-_4.jpg
+   Neuropsychology
+    "FMRI scan during working memory tasks.jpg" by John Graner, Neuroimaging Department, National Intrepid Center of Excellence, Walter Reed National Military Medical Center. Public domain. https://commons.wikimedia.org/wiki/File:FMRI_scan_during_working_memory_tasks.jpg
+   Artificial Psychology
+    "Musical brainwave performance at deconism gallery.jpg" by Deconism Gallery. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Musical_brainwave_performance_at_deconism_gallery.jpg
+   Superintelligence
+    "Artificial Intelligence & AI & Machine Learning - 30212411048.jpg" by Mike MacKenzie. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_%26_AI_%26_Machine_Learning_-_30212411048.jpg and https://www.vpnsrus.com/
+ Industry Tech:
+  Energy Generation
+   Fossil Fuel Power
+    "Sunset over Trommekilen from Norrkila 7.jpg" by W. Carter. CC-0. https://commons.wikimedia.org/wiki/File:Sunset_over_Trommekilen_from_Norrkila_7.jpg
+   Nuclear Energy
+    "Three Mile Island (color)-2.jpg" by the United States Department of Energy. Public domain. https://commons.wikimedia.org/wiki/File:Three_Mile_Island_(color)-2.jpg
+   Renewable Energy
+    "Solar Energy.jpg" by ANeely2020. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Solar_Energy.jpg
+   Smart Grid
+    "Dispatching Heisdorf.jpg" by Phillipe HURLIN. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Dispatching_Heisdorf.jpg
+   Energy Renaissance
+    "TOTAL Wasserstofftankstelle 700 bar in Köln Bonn Flughafen b.jpg" by Dr. Arthur Braun. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:TOTAL_Wasserstofftankstelle_700_bar_in_K%C3%B6ln_Bonn_Flughafen_b.jpg
+   Nuclear Fusion
+    "Preamplifier at the National Ignition Facility.jpg" by Damien Jemison/Lawrence Livermore National Laboratory. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Preamplifier_at_the_National_Ignition_Facility.jpg
+  Industrial Engineering
+   Modern Manufacturing
+    "Garrafas de vidros.jpg" by Adrianameloo. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Garrafas_de_vidros.jpg
+   Digital Automation
+    "Control console of Buk-M2E missile system TELAR.jpg" by Yuriy Lapitsky. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Control_console_of_Buk-M2E_missile_system_TELAR.jpg
+   3D Printing
+    "ORDbot quantum.jpg" by Bart Dring. GNU Free Documentation License 1.2. https://commons.wikimedia.org/wiki/File:ORDbot_quantum.jpg
+   Manufacturing A.I.
+    "ASM-e1516805109201.jpg" by Jeff Green/Rethink Robotics. CC BY-4.0. https://commons.wikimedia.org/wiki/File:ASM-e1516805109201.jpg
+   Nanoscale Manufacturing
+    "Microchip for Carbon Nanotube Field Effect Transistors fabrication.jpg" by Aidar Kemelbay. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Microchip_for_Carbon_Nanotube_Field_Effect_Transistors_fabrication.jpg
+   Full Automation
+    "Kommissionierroboter in der Apotheke der Universitätsklinik Münster.jpg" by UKM Elisabeth Deiters-Keul. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Kommissionierroboter_in_der_Apotheke_der_Universit%C3%A4tsklinik_M%C3%BCnster.jpg
+  Materials Science
+   Polymers
+    "A UPW Installation using PVDF Piping.png" by Wikikart99. CC-0 Public Domain. https://commons.wikimedia.org/wiki/File:A_UPW_Installation_using_PVDF_Piping.png
+   Modern Composites
+    "Metal composite.jpg" by IEAP-CTU in Prague and Centre of Excellence Telč, Czech Republic. Public domain. https://commons.wikimedia.org/wiki/File:Metal_composite.jpg
+   Metamaterials
+    "Metamaterial.jpg" by Nalaf. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Metamaterial.jpg
+   Superconductors
+    "High-Temperature Superconducting Cables (5884863158).jpg" by van der Laan/NIST. Public domain. https://commons.wikimedia.org/wiki/File:High-Temperature_Superconducting_Cables_(5884863158).jpg
+   Nanomaterials
+    "Fullereno.png" by IMeowbot. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Fullereno.png
+   Applied Exotics
+    "FY221c15.png" by Alain R. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:FY221c15.png
+  Infrastructure and Transport
+   Modern Transportation
+    "TRAFFIC FLOW ON THE SALEM FREEWAY OF INTERSTATE ^5 SOUTH OF TIGARD, OREGON ON SUNDAYS WAS REDUCED TO A FRACTION OF... - NARA - 555451.jpg" by photographer David Falconer. Public domain. https://commons.wikimedia.org/wiki/File:TRAFFIC_FLOW_ON_THE_SALEM_FREEWAY_OF_INTERSTATE_%5E5_SOUTH_OF_TIGARD,_OREGON_ON_SUNDAYS_WAS_REDUCED_TO_A_FRACTION_OF..._-_NARA_-_555451.jpg
+   Communications Infrastructure
+    "Radiový vysílač.jpg" by Cryoman. CC-0 Public Domain. https://commons.wikimedia.org/wiki/File:Radiov%C3%BD_vys%C3%ADla%C4%8D.jpg
+   Globalized Infrastructure
+    "Heathrow Airport 010.jpg" by Panhard. CC BY-SA 3.0. 
+   Transport Revolution
+    "Krossblade SkyProwler Hover VTOL 800.jpg" by Krossblade1. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Krossblade_SkyProwler_Hover_VTOL_800.jpg
+   Hyperprojects
+    "Ostseequerungen.JPG" by Casper. Public domain. https://commons.wikimedia.org/wiki/File:Ostseequerungen.JPG
+   Space Transportation
+    "OTV-6 X-37B.jpg" by the United States Department of Defense. Public domain. https://commons.wikimedia.org/wiki/File:OTV-6_X-37B.jpg
+  Medicine & Biology    
+   Modern Medicine
+    "Ces-ultra-kit.jpg" by Noviroz. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Ces-ultra-kit.jpg
+   Genetic Modification
+    "Golden Rice.jpg" by the International Rice Research Institute (IRRI). CC BY-2.0. https://commons.wikimedia.org/wiki/File:Golden_Rice.jpg
+   Bioengineering
+    "Nanofiber-based engineered cartilage.jpg" by the United States National Institute of Health, National Institute of Arthrits and Musculoskeletal and Skin Diseases. Public domain. https://commons.wikimedia.org/wiki/File:Nanofiber-based_engineered_cartilage.jpg
+   Genetic Engineering
+    "PGlo-UltraViolet.jpg" by Dejuliot. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:PGlo-UltraViolet.jpg
+   Nanomedicine
+    "Biodegradable polymer material during hydrolysis.tiff" by Julia Higuchi, Jan Mizeracki. CC BY-4.0. https://commons.wikimedia.org/wiki/File:Biodegradable_polymer_material_during_hydrolysis.tiff
+   Trans-Human
+    "Prosthetic Arm on Blue Background" by ThisIsEngineering. Free to use. https://www.pexels.com/photo/prosthetic-arm-on-blue-background-3913025/
+
+######################
+# Decisions Pictures #
+######################
+
+Decisions Images
+ Default/No Image
+  "Farben-Testbild" by Furfur. CC BY-SA https://commons.wikimedia.org/wiki/File:Farben-Testbild.svg
+
+ Country Introductions Decision
+  "Walter Cronkite on television 1976.jpg" by the U.S. News and World Report photographer Thomas J. O'Halloran. No known copyright restrictions. https://commons.wikimedia.org/wiki/File:Walter_Cronkite_on_television_1976.jpg
+
+ Tech Schools
+  Tech School Reorganization
+   "Gian-Carlo Rota blackboard Nizza 1970.jpg" by Konrad Jacobs. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Gian-Carlo_Rota_blackboard_Nizza_1970.jpg
+  Tech School Advance/Refinement/Specialization/etc
+   "Great Dome, Massachusetts Institute of Technology, Aug 2019.jpg" by Mys_721tx. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Great_Dome,_Massachusetts_Institute_of_Technology,_Aug_2019.jpg
+
+ Army Reorganization
+  "National Centre for management of defence (2015-09-07) 01.jpg" by the Ministry of Defense of the Russian Federation (mil.ru). CC BY 4.0. https://commons.wikimedia.org/wiki/File:National_Centre_for_management_of_defence_(2015-09-07)_01.jpg
+ Service Rifle Reconsideration
+  "FN FAL DA-SD-04-01067.jpg" by Joseph Bonet, U.S. Department of Defense. Defenseimagery.mil. Public domain. https://commons.wikimedia.org/wiki/File:FN_FAL_DA-SD-04-01067.jpg
+
+ Space
+  Space Agency Reorganization
+   "1970 Mission Control Apollo 13.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:1970_Mission_Control_Apollo_13.jpg
+  Rocket Sites
+   Show/Hide Rocket Sites
+    "M-V with ASTRO-E2 on launch pad.jpeg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:M-V_with_ASTRO-E2_on_launch_pad.jpeg
+   British Columbia - Estevan Point
+    "Talos Terrier Oriole Nihka (Oriole-4) ASSP launch.jpg" by Lee Wingfield, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Talos_Terrier_Oriole_Nihka_(Oriole-4)_ASSP_launch.jpg
+   Canadian Prairies - Churchill
+    "Rocket launch Churchill Manitoba circa 1965 07.jpg" by Clyde L. Nickerson (Warrenthornickerson). CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Rocket_launch_Churchill_Manitoba_circa_1965_07.jpg
+   Canadian Maritimes - Canso
+    "First NASA ISINGLASS rocket launch.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:First_NASA_ISINGLASS_rocket_launch.jpg
+   Newfoundland - St. Johns
+    "Antares liftoff from Pad 0A at the Wallops Flight Facility.jpg" by Bill Ingalls, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Antares_liftoff_from_Pad_0A_at_the_Wallops_Flight_Facility.jpg
+   NWT - Resolute
+    "GREECE Mission Launching Into Aurora (12934096334).jpg" by Christopher Perry, NASA. Public domain. https://commons.wikimedia.org/wiki/File:GREECE_Mission_Launching_Into_Aurora_(12934096334).jpg
+   Ontario - Cochrane
+    "Launch of Terrier Orion rocket carrying RockOn! and RockSat-C payloads (WFF-2017-010-004).jpg" by Kyle Hoppes, Wallops Flight Facility, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Launch_of_Terrier_Orion_rocket_carrying_RockOn!_and_RockSat-C_payloads_(WFF-2017-010-004).jpg
+   Quebec - Gaspe
+    "Rocket 3.1 Orbital Launch Attempt Luscious grass (50617516186).jpg" by Astra. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Rocket_3.1_Orbital_Launch_Attempt_Luscious_grass_(50617516186).jpg
+   Alaska - Kodiak
+    "Rocket 3.1 Orbital Launch Attempt Liftoff from Kodiak Island, Alaska (50625064307).jpg" by Astra. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Rocket_3.1_Orbital_Launch_Attempt_Liftoff_from_Kodiak_Island,_Alaska_(50625064307).jpg
+   ASW - White Sands
+    "Delta Clipper DC-X first test launch.png" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Delta_Clipper_DC-X_first_test_launch.png
+   North California - Humboldt
+    "Launch of Falcon 9 carrying CASSIOPE (130929-F-ET475-012).jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Launch_of_Falcon_9_carrying_CASSIOPE_(130929-F-ET475-012).jpg
+   South California - Vandenberg
+    "Landsat 8 launch 2013-02-11 (1).jpg" by DLR/Thilo Kranz. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Landsat_8_launch_2013-02-11_(1).jpg
+   Great Plains - Cavalier
+    "Cavalierairforcestationparcs.jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Cavalierairforcestationparcs.jpg
+   Hawaii - Barking Sands
+    "Missile launch from Pacific Missile Range.jpg" by the U.S. Navy. Public domain. https://commons.wikimedia.org/wiki/File:Missile_launch_from_Pacific_Missile_Range.jpg
+   Intermountain - Green River
+    "Athena - Green River launch.jpg" by the U.S. Army. Public domain. https://commons.wikimedia.org/wiki/File:Athena_-_Green_River_launch.jpg
+   Navajo - Window Rock (exclusive)
+    "Orion Pad Abort 1 launch (JSC2010-E-125337).jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Orion_Pad_Abort_1_launch_(JSC2010-E-125337).jpg
+   Ozark - Oklahoma
+    "Daytime Dynamo Rocket Launch (9218456164).jpg" by NASA/Wallops/Thom Rogers and Terry Zaperach. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Daytime_Dynamo_Rocket_Launch_(9218456164).jpg
+   PNW - Olympic
+    "Delta II 7320-10C con SAC-C.jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Delta_II_7320-10C_con_SAC-C.jpg
+   North Texas - Houston
+    "FM-5 TARGET ROCKET 008.jpg" by the U.S. Department of Energy. Public domain. https://commons.wikimedia.org/wiki/File:FM-5_TARGET_ROCKET_008.jpg
+   South Texas - Brownsville
+    "Starship sidebar image.jpg" by Alexander Hatley from Spring, Texas, USA. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Starship_sidebar_image.jpg
+   Carolina - Kitty Hawk
+    "TacSat3 launch 090518-F-9999B-001.jpg" by U.S. Air Force, ID 090520-F-5147E-001. Public domain. https://commons.wikimedia.org/wiki/File:TacSat3_launch_090518-F-9999B-001.jpg
+   Dixie - Camden
+    "Super Strypi with HiakaSat at KTF.jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Super_Strypi_with_HiakaSat_at_KTF.jpg
+   Florida - Cape Canaveral
+    "Saturn SA3 with rain cover on launch pad.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Saturn_SA3_with_rain_cover_on_launch_pad.jpg
+   Illinois - Scott
+    "Gemini 5 on the pad - GPN-2006-000039.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Gemini_5_on_the_pad_-_GPN-2006-000039.jpg
+   Mid-Atlantic - Wallops
+    "Antares A-ONE launch.1..jpg" by Bill Ingalls, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Antares_A-ONE_launch.1..jpg
+   North Appalachia - Yeager Memorial (Charleston)
+    "Minotaur IV Flight 3 (101119-F-0000F-373).jpg" by Col. Marty France, U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Minotaur_IV_Flight_3_(101119-F-0000F-373).jpg
+   New England - Goddard Memorial (North Truro)
+    "S68-48666.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:S68-48666.jpg
+   New Orleans - Michoud (exclusive)
+    "Four NASA Barges at Michoud Assembly Facility (9464619499).jpg" by NASA, NASA on the Commons. No known copyright restrictions. https://commons.wikimedia.org/wiki/File:Four_NASA_Barges_at_Michoud_Assembly_Facility_(9464619499).jpg
+   New York - Montauk
+    "Minotaur I Rocket Launch at NASA Wallops.jpg" by Ed Campion, NASA Goddard Space Center. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Minotaur_I_Rocket_Launch_at_NASA_Wallops.jpg
+   South Appalachia - Science Hill
+    "Minotaur IV Flight 3 (101119-F-0000X-201).jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Minotaur_IV_Flight_3_(101119-F-0000X-201).jpg
+   UGL - Keweenaw
+    "Super Strypi Hiakasat 3.jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Super_Strypi_Hiakasat_3.jpg
+   UMW - Milwaukee
+    "First Commercial Flight, Conestoga I.jpg" by Eric Grabow, Space Vector Corporation. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:First_Commercial_Flight,_Conestoga_I.jpg
+   Sonora - 
+    ""
+   Chihuahua - 
+    ""
+   Rio Grande - 
+    ""
+   Bajio - 
+    ""
+   West Mexico -
+    ""
+   East Mexico -
+    ""
+   Chiapas - 
+    ""
+   Yucatan - 
+    ""
+   Greenland - Kangerlussuaq
+    ""
+   Iceland - Vik
+    ""
+
+ Economy
+  Money Printing
+   "RIAN archive 978876 Printing banknotes at Goznak factory in Perm.jpg" RIA Novosti archive, image #978876, by Alexey Kudenko / Алексей Куденко. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:RIAN_archive_978876_Printing_banknotes_at_Goznak_factory_in_Perm.jpg
+  Monetary Policy
+   "L1018082 (10480830434).jpg" by the Federal Reserve of the United States. Public domain. https://commons.wikimedia.org/wiki/File:L1018082_(10480830434).jpg
+  Fiscal Policy
+   "Aerial view of the U.S. Capitol in the foreground toward National Mall 15993v.jpg" by Carol M. Highsmith, United States Library of Congress. Public domain. https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_U.S._Capitol_in_the_foreground_toward_National_Mall_15993v.jpg
+ Articles of Dissolution and Unification
+  "President Ronald Reagan gives the State of the Union Address to Congress.jpg" by the White House Photographic Collection, 1/20/1981 - 1/20/1989. Public domain. https://commons.wikimedia.org/wiki/File:President_Ronald_Reagan_gives_the_State_of_the_Union_Address_to_Congress.jpg
+ Canadian Compacts and Unification
+  "West Block Test 1-2019.jpg" by Leafsfan67. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:West_Block_Test_1-2019.jpg
+  "Drapeaux des jeux du Canada a Sherbrooke - panoramio.jpg" by Mario Hains. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Drapeaux_des_jeux_du_Canada_a_Sherbrooke_-_panoramio.jpg
+ Cali/Texas Civil Wars
+  "Wikimania 2016 - By Dyolf77 - DSC 2521.jpg" by Habib M’henni. CC BY 4.0. https://commons.wikimedia.org/wiki/File:Wikimania_2016_-_By_Dyolf77_-_DSC_2521.jpg
+  "Flag-of-Texas.jpg" by Makaristos. Public domain. https://commons.wikimedia.org/wiki/File:Flag-of-Texas.jpg
+  "M110 howitzer hidden by smoke.JPEG" by Anthony Edgeworth, U.S. Department of Defense. Public domain. https://commons.wikimedia.org/wiki/File:M110_howitzer_hidden_by_smoke.JPEG
+ Arctic Circle
+  "Arctic circle.svg" by the CIA World Factbook. Public domain. https://commons.wikimedia.org/wiki/File:Arctic_circle.svg
+ Norman Wells
+  "Norman Wells, NWT.JPG" by Sharingknowledge. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Norman_Wells,_NWT.JPG
+
+ Politics
+  Intelligence and Security Apparatus
+   "National Security Agency headquarters, Fort Meade, Maryland.jpg", by the National Security Agency. Public domain. https://commons.wikimedia.org/wiki/File:National_Security_Agency_headquarters,_Fort_Meade,_Maryland.jpg
+  Propaganda
+   Show/Hide
+    "Inside the Face the Nation control room.jpg" by Alextincbs. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Inside_the_Face_the_Nation_control_room.jpg
+   Social Democracy
+    "1981 election poster PvdA.jpg" by Frans van der Linde, Partij van de Arbeid. CC BY-2.0. https://commons.wikimedia.org/wiki/File:1981_election_poster_PvdA.jpg
+   Socialism
+    "USSRRepublicsPoster.jpg". Unknown author. Public domain. https://commons.wikimedia.org/wiki/File:USSRRepublicsPoster.jpg
+   Communism
+    "Arm with Hammer and sickle, red star and "V" in background 1922 art detail, from- Да здравствует пятая годовщина великой пролетарской революции (плакат) (cropped).jpg" by Иван Васильевич Симаков / Ivan Vasilyevich Simakov. Public domain. https://commons.wikimedia.org/wiki/File:Arm_with_Hammer_and_sickle,_red_star_and_%22V%22_in_background_1922_art_detail,_from-_%D0%94%D0%B0_%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82_%D0%BF%D1%8F%D1%82%D0%B0%D1%8F_%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2%D1%89%D0%B8%D0%BD%D0%B0_%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D0%BB%D0%B5%D1%82%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D0%B8_(%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82)_(cropped).jpg
+   Liberalism
+    "Statue of Liberty art in 1917 detail, from- Statueoflibertyd (cropped).jpg" by Georges Goursat a.k.a. Sem (1863-1934). Library of Congress POS - Fr .G67, no. 2. Public domain. https://commons.wikimedia.org/wiki/File:Statue_of_Liberty_art_in_1917_detail,_from-_Statueoflibertyd_(cropped).jpg
+   Libertarianism
+    "Objectivist1.jpg" by Michael Greene (photograph) and Lee Lawrie (sculptor). Public domain. https://commons.wikimedia.org/wiki/File:Objectivist1.jpg
+   Greens
+    "JV diadelatierra 08.jpg" by Jóvenes Verdes. CC BY-2.0. https://commons.wikimedia.org/wiki/File:JV_diadelatierra_08.jpg
+   Conservatives
+    "Aanesta Kokoomusta 1948.jpeg", unknown author. Public domain. https://commons.wikimedia.org/wiki/File:Aanesta_Kokoomusta_1948.jpeg
+   Traditionalists
+    "O God Our Help... Art.IWMPST14794.jpg" by Ministry of Information, Unknown artist, Lowe and Brydone Printers Ltd, London NW10, Her Majesty's Stationery Office. Public domain. https://commons.wikimedia.org/wiki/File:O_God_Our_Help..._Art.IWMPST14794.jpg
+   Nationalists
+    "Joan of Arc WWI lithograph2.jpg" by the US Library of Congress. Public domain. https://commons.wikimedia.org/wiki/File:Joan_of_Arc_WWI_lithograph2.jpg
+   Ultranationalist
+    ""Buy War Bonds" (Uncle Sam) - NARA - 514010.jpg" by the Office for Emergency Management. Office of War Information. Domestic Operations Branch. Bureau of Special Services. (03/09/1943 - 09/15/1945). U.S. National Archives and Records Administration. Public domain. https://commons.wikimedia.org/wiki/File:%22Buy_War_Bonds%22_(Uncle_Sam)_-_NARA_-_514010.jpg
+   
+
+###################
+# Events Pictures #
+###################
+
+Events Images
+ Default/No Image
+   "FARIB COLOR BAR 100.png" by the Association of Radio Industries and Businesses. Public domain. https://commons.wikimedia.org/wiki/File:ARIB_COLOR_BAR_100.png
+ Misc Events Pictures
+  Event 42
+   "The Hitchhiker's Guide to the Galaxy.svg" by nclm. CC0 Public Domain. https://commons.wikimedia.org/wiki/File:The_Hitchhiker%27s_Guide_to_the_Galaxy.svg
+ Tech Schools
+  Level 0
+   Traditional Academia
+    "Great Dome, Massachusetts Institute of Technology, Aug 2019.jpg" by Mys_721tx. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Great_Dome,_Massachusetts_Institute_of_Technology,_Aug_2019.jpg
+  Level 1
+   Military Focus
+    "Future Force Warrior 2007.jpg" by Maj. Deanna Bague, U.S. Army. Public domain. https://commons.wikimedia.org/wiki/File:Future_Force_Warrior_2007.jpg
+   Development Focus
+    "Sunrise Toronto Bayview and Finch.JPG" by MarcusObal. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Sunrise_Toronto_Bayview_and_Finch.JPG
+  Level 2
+   Defense and Deterrence
+    "Russian T-90 tanks, parade.jpg" by Администрация Волгоградской области, www.volganet.ru. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Russian_T-90_tanks,_parade.jpg
+   Power Projection
+    "Harrier Pilot Prepares for Takeoff MOD 45151641.jpg" by POA(Phot) Jonathan Hamlet, Royal Navy, UK Ministry of Defence. OGL 1.0. https://commons.wikimedia.org/wiki/File:Harrier_Pilot_Prepares_for_Takeoff_MOD_45151641.jpg
+   Economic and Finance School
+    "City of London, seen from Tower Bridge.jpg" by Tristan Surtel. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:City_of_London,_seen_from_Tower_Bridge.jpg
+   Sociopolitical School
+    "2018-12-08 Gele hesjes Brussel protest.jpg" by Pelle De Brabander. CC BY-2.0. https://commons.wikimedia.org/wiki/File:2018-12-08_Gele_hesjes_Brussel_protest.jpg
+   Industrial School
+    "https://commons.wikimedia.org/wiki/File:Godorf_Cologne_Rhineland-Refinery-Cooling-Towers-during-demolition-02.jpg". Photo by CEphoto, Uwe Aranas. © CEphoto, Uwe Aranas. https://commons.wikimedia.org/wiki/File:Godorf_Cologne_Rhineland-Refinery-Cooling-Towers-during-demolition-02.jpg
+  Level 3
+  Level 4
+  Level 5
+
+ Economy
+  Economics Meeting
+   "Informal meeting of economic and financial affairs ministers (ECOFIN). Round table (36843405630).jpg" by the EU2017EE Estonian Presidency. CC BY 2.0. https://commons.wikimedia.org/wiki/File:Informal_meeting_of_economic_and_financial_affairs_ministers_(ECOFIN)._Round_table_(36843405630).jpg
+  Economics (Negative and Positive)
+   "Black Blue and Red Graph Illustration" by Burak Kebapci. Free to use. https://www.pexels.com/photo/black-blue-and-red-graph-illustration-186461/
+  Inflation (Negative and Positive)
+   "Qtstalker candlestick chart.png" by Yagnesh N Desai (Yndesai). CC-0. https://commons.wikimedia.org/wiki/File:Qtstalker_candlestick_chart.png
+  Economic Policy
+   "Board Members meet on June 3 to discuss advance notes of proposed rulemaking.jpg" by the Federal Reserve of the United States. Public domain. https://commons.wikimedia.org/wiki/File:Board_Members_meet_on_June_3_to_discuss_advance_notes_of_proposed_rulemaking.jpg
+ Army Reorganization
+  "National Centre for management of defence (2015-09-07) 03.jpg" by the Ministry of Defense of the Russian Federation (mil.ru). CC BY 4.0. https://commons.wikimedia.org/wiki/File:National_Centre_for_management_of_defence_(2015-09-07)_03.jpg
+ Service Rifle Reconsideration
+  "Squad Designated Marksman Rifle 1.jpg". Unknown author, U.S. Department of Defense. Public domain. https://commons.wikimedia.org/wiki/File:Squad_Designated_Marksman_Rifle_1.jpg
+  "10 Brygada KPanc (06).jpg" by the Polish Ministry of National Defence. Free to use, as long as it's sourced. https://commons.wikimedia.org/wiki/File:10_Brygada_KPanc_(06).jpg
+
+ Space Exploration
+  Creation of Space Agency
+   "Msfc aerial view.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Msfc_aerial_view.jpg
+  Reorganization of Space Agency
+   "NASA and funded-CCDev2 partners.jpg" by Kim Shiflett, NASA. Public domain. https://commons.wikimedia.org/wiki/File:NASA_and_funded-CCDev2_partners.jpg
+  Satellite Launch
+   "Explorer 32.jpg" by Goddard Projects Directory, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Explorer_32.jpg
+  Satellite Launch Failure
+   "Vanguard tv3 launch failure.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Vanguard_tv3_launch_failure.jpg
+  Animal Launch
+   "Chimpanzee Ham in Biopack Couch for MR-2 flight MSFC-6100114.jpg" by Marshall Space Flight Center's Marshall Image Exchange, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Chimpanzee_Ham_in_Biopack_Couch_for_MR-2_flight_MSFC-6100114.jpg
+  Human Launch
+   "Гагарин в корабле.jpg" by Mil.ru of the Ministry of Defence of the Russian Federation. CC BY 4.0. https://commons.wikimedia.org/wiki/File:%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD_%D0%B2_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D0%B5.jpg
+  Human Orbit
+   "John Glenn Entering Friendship 7 - GPN-2000-000652.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:John_Glenn_Entering_Friendship_7_-_GPN-2000-000652.jpg
+  Space Docking
+   "Gemini 10 - Agena Target Docking Vehicle.jpg" by the crew of Gemini 10, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Gemini_10_-_Agena_Target_Docking_Vehicle.jpg
+  Lunar Probe
+   "LADEE in moon orbit.jpg" by Dana Berry, Ames Research Center, NASA. Public domain. https://commons.wikimedia.org/wiki/File:LADEE_in_moon_orbit.jpg
+  Lunar Orbit
+   "Apollo 15 CSM Endeavour during rendezvous.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Apollo_15_CSM_Endeavour_during_rendezvous.jpg
+  Lunar Landing
+   "Aldrin Apollo 11.jpg" by Neil A. Armstrong, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11.jpg
+
+ Country Pictures
+  British Columbia
+   Geography Overview
+    "Vancouver night.jpg" by Thom Quine. CC BY 2.0. https://commons.wikimedia.org/wiki/File:Vancouver_night.jpg
+  Canadian Prairies
+   Geography Overview
+    "Farm Hwy 37 Alberta Canada 02A.jpg" by WinterE229 - WinterforceMedia. Public domain. https://commons.wikimedia.org/wiki/File:Farm_Hwy_37_Alberta_Canada_02A.jpg
+  Canadian Maritimes
+   Geography Overview
+    "Halifax from the Citadel (3109984581).jpg" by elPadawan. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Halifax_from_the_Citadel_(3109984581).jpg
+  Newfoundland
+   Geography Overview
+    "St. John's, Newfoundland 2019-08-08 (01).jpg" by Ryan Hodnett. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:St._John%27s,_Newfoundland_2019-08-08_(01).jpg
+  Northwest Territories
+   Geography Overview
+    "Iqlauit waterfront.JPG" by Sebastian Kasten. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Iqlauit_waterfront.JPG
+  Ontario
+   Geography Overview
+    "Toronto - Septembre 2009.jpg" by Martin St-Amant (S23678). CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:122_-_Toronto_-_Septembre_2009.jpg
+  Quebec
+   Geography Overview
+    "Granby-Rue Principale-1.jpg" by Pierre Bona. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Granby-Rue_Principale-1.jpg
+    "View of Montreal in winter from Mount Royal.JPG" by Jami430. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:View_of_Montreal_in_winter_from_Mount_Royal.JPG
+  Alaska
+   Geography Overview
+    "Seward, Alaska, 1959.jpg" by Harley D. Nygren, NOAA Photo Library. Public domain. https://commons.wikimedia.org/wiki/File:Seward,_Alaska,_1959.jpg
+    "Earthquake damage, 4-64. Anchorage - Fourth Ave. Graben. See photos 527,882,301A, 621 (looking east) (24822219172) (cropped).jpg" by the U.S. National Archives. No copyright restrictions. https://commons.wikimedia.org/wiki/File:Earthquake_damage,_4-64._Anchorage_-_Fourth_Ave._Graben._See_photos_527,882,301A,_621_(looking_east)_(24822219172)_(cropped).jpg
+   Red Dog Mine
+    "Red Dog Mine, AK" by Karen Duttweiler Kelley, U.S. Geological Survey. Public domain. https://www.usgs.gov/media/images/red-dog-mine-ak
+   Trans-Alaska Pipeline
+    "Trans-Alaska Pipeline System Luca Galuzzi 2005.jpg" by Luca Galuzzi. CC BY-SA 2.5. https://commons.wikimedia.org/wiki/File:Trans-Alaska_Pipeline_System_Luca_Galuzzi_2005.jpg
+  Western Canada
+   Geography Overview
+    "A view from the Tillicum Bridge. Underneath is the only reversing waterfall in western Canada. - panoramio.jpg" by wongo888. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:A_view_from_the_Tillicum_Bridge._Underneath_is_the_only_reversing_waterfall_in_western_Canada._-_panoramio.jpg
+  Eastern Canada
+   Geography Overview
+    "Balloon ride 057.jpg" by Joyce Lundrigan. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Balloon_ride_057.jpg
+  Canada
+   Geography Overview
+    "Parliament Ottawa Canada.jpg" by _muckraker_. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Parliament_Ottawa_Canada.jpg
+   Canadian Unification
+    "Drapeaux des jeux du Canada a Sherbrooke - panoramio.jpg" by Mario Hains. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Drapeaux_des_jeux_du_Canada_a_Sherbrooke_-_panoramio.jpg
+
+ Politics
+  Intelligence and Security Apparatus
+   "National Security Agency headquarters, Fort Meade, Maryland.jpg", by the National Security Agency. Public domain. https://commons.wikimedia.org/wiki/File:National_Security_Agency_headquarters,_Fort_Meade,_Maryland.jpg
+  Ideologies
+   Social Democracy
+    "1981 election poster PvdA.jpg" by Frans van der Linde, Partij van de Arbeid. CC BY-2.0. https://commons.wikimedia.org/wiki/File:1981_election_poster_PvdA.jpg
+   Socialism
+    "USSRRepublicsPoster.jpg". Unknown author. Public domain. https://commons.wikimedia.org/wiki/File:USSRRepublicsPoster.jpg
+   Communism
+    "Да здравствует пятая годовщина великой пролетарской революции (плакат).jpg" by Иван Васильевич Симаков / Ivan Vasilyevich Simakov. Public domain. https://commons.wikimedia.org/wiki/File:%D0%94%D0%B0_%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82_%D0%BF%D1%8F%D1%82%D0%B0%D1%8F_%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2%D1%89%D0%B8%D0%BD%D0%B0_%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D0%BB%D0%B5%D1%82%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D0%B8_(%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82).jpg
+   Liberalism
+    "Statueoflibertyd.jpg" by Georges Goursat a.k.a. Sem (1863-1934). Library of Congress POS - Fr .G67, no. 2. Public domain. https://commons.wikimedia.org/wiki/File:Statueoflibertyd.jpg
+   Libertarianism
+    "Atlas - Rockefeller Center (51394733772).jpg" by ajay_suresh (photograph) and Lee Lawrie (sculptor). CC BY-2.0. https://commons.wikimedia.org/wiki/File:Objectivist1.jpg
+   Greens
+    "JV diadelatierra 08.jpg" by Jóvenes Verdes. CC BY-2.0. https://commons.wikimedia.org/wiki/File:JV_diadelatierra_08.jpg
+   Conservatives
+    "Alexander II (Romanov) monument Helsinki HDR 2008.jpg", by BKfi. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Alexander_II_(Romanov)_monument_Helsinki_HDR_2008.jpg
+   Traditionalists
+    "Emanuel Leutze - Westward the Course of Empire Takes Its Way (Central Section) - Capitol.png" by Emanuel Leutze. Public domain. https://commons.wikimedia.org/wiki/File:Emanuel_Leutze_-_Westward_the_Course_of_Empire_Takes_Its_Way_(Central_Section)_-_Capitol.png
+   Nationalists
+    "Joan of Arc WWI lithograph2.jpg" by the US Library of Congress. Public domain. https://commons.wikimedia.org/wiki/File:Joan_of_Arc_WWI_lithograph2.jpg
+   Ultranationalist
+    ""Buy War Bonds" (Uncle Sam) - NARA - 514010.jpg" by the Office for Emergency Management. Office of War Information. Domestic Operations Branch. Bureau of Special Services. (03/09/1943 - 09/15/1945). U.S. National Archives and Records Administration. Public domain. https://commons.wikimedia.org/wiki/File:%22Buy_War_Bonds%22_(Uncle_Sam)_-_NARA_-_514010.jpg
+  Propaganda
+   Propaganda Failure
+    "ThreeWiseCryptoPartyMonkeys.jpg" by grahamc99. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:ThreeWiseCryptoPartyMonkeys.jpg
+   Social Strata + Ideology
+    "Chinatown 1.jpg" by chaddavis.photography. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Chinatown_1.jpg
+   Gov bureaucrats + Ideology
+    "2012 CM Governors reception for HM's birthday 2012 01.jpg" by Takeaway. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:2012_CM_Governors_reception_for_HM%27s_birthday_2012_01.jpg
+   Education + Ideology
+    "301 wiki picture.jpg" by Lbaze002 at English Wikibooks. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:301_wiki_picture.jpg
+   Military + Ideology 
+    "PLA soldiers.jpg". U.S. Department of Defense, unknown author. Public domain. https://commons.wikimedia.org/wiki/File:PLA_soldiers.jpg
+   Militancy and Consciousness + Ideology
+    ""Black Block".jpg" by Dominic Alves. CC BY-2.0. https://commons.wikimedia.org/wiki/File:%22Black_Block%22.jpg
+   Foreign Affairs + Ideology
+    "Rodrigo Duterte meets with Salman of Saudi Arabia 2 (2017-04-11).jpg" by Robinson Niñal, Philippine Presidential Communications Operations Office. Public domain. https://commons.wikimedia.org/wiki/File:Rodrigo_Duterte_meets_with_Salman_of_Saudi_Arabia_2_(2017-04-11).jpg
+   Coalition + Ideology
+    "Tallinn Digital Summit. Welcome dinner hosted by HE Donald Tusk. Handshake (37348248012).jpg" by Arno Mikkor (EU2017EE), Estonian Presidency. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Tallinn_Digital_Summit._Welcome_dinner_hosted_by_HE_Donald_Tusk._Handshake_(37348248012).jpg
+
+[END OF FILE]

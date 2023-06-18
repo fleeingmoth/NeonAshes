@@ -1,0 +1,20 @@
+owner = DIX
+controller = DIX
+add_core = DIX
+trade_goods = fruit
+life_rating = 35
+state_building = {
+	level = 1
+	building = construction_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

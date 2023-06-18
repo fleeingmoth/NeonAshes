@@ -1,0 +1,78 @@
+political_decisions = {
+	sign_articles_of_dissolution = {
+		news = yes
+		news_desc_long = "sign_articles_of_dissolution_NEWS_LONG"
+		news_desc_medium = "sign_articles_of_dissolution_NEWS_MEDIUM"
+		news_desc_short = "sign_articles_of_dissolution_NEWS_SHORT"
+		picture = articles_of_dissolution_smallpic
+		potential = {
+			NOT = { has_country_modifier = articles_of_dissolution }
+			OR = {
+				tag = ASK
+				tag = ASW
+				tag = CAL
+				tag = GPL
+				tag = HAW
+				tag = IMT
+				tag = OZK
+				tag = PNW
+				tag = TEX
+				tag = CAR
+				tag = DIX
+				tag = FLA
+				tag = ILL
+				tag = MAT
+				tag = NAP
+				tag = NEN
+				tag = NOL
+				tag = NYC
+				tag = SAP
+				tag = UGL
+				tag = UMW
+			}
+		}
+		allow = {
+			war = no
+			OR = {
+				institutionalism = 1
+				NOT = { ruling_party_ideology = ultranationalist }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = articles_of_dissolution
+				duration = -1
+			}
+			prestige = -5
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				ruling_party_ideology = ultranationalist
+			}
+		}
+	}
+	rescind_articles_of_dissolution = {
+		picture = articles_of_dissolution_smallpic
+		potential = { has_country_modifier = articles_of_dissolution }
+		allow = {
+			war = no
+			OR = {
+				realism = 1
+				ruling_party_ideology = ultranationalist
+			}
+		}
+		effect = {
+			remove_country_modifier = articles_of_dissolution
+			badboy = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { ruling_party_ideology = ultranationalist }
+			}
+		}
+	}
+}

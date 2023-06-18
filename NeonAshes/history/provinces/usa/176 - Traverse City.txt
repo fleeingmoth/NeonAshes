@@ -1,0 +1,5 @@
+owner = UGL
+controller = UGL
+add_core = UGL
+trade_goods = timber
+life_rating = 25

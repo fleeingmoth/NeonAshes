@@ -1,0 +1,532 @@
+#British Columbia Region (2,700,000 real / 675,000 pops)
+#Vancouver (1,200,000 / 300,000 POPS) (44.4%)
+13 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 6000
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 120000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 5000
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 8000
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 12000
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 120000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 6000
+	}
+}
+#Vancouver Island (500,000 / 125,000 POPS) (18.5%)
+14 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 3000
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1000
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 80000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 4000
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 6000
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 3000
+	}
+
+}
+#Prince Rupert (40,000 / 10,000 POPS) (1.5%)
+15 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1500
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 5000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+}
+#Glenora (12,000 / 3,000 POPS) (1.5%)
+16 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 5
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 5
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 700
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 20
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 30
+	}
+}
+#Atlin (12,000 / 3,000 POPS) (1.5%)
+17 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 5
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 5
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 700
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 20
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 2000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 30
+	}
+}
+#Fort St John (28,000 / 7,000 POPS)
+18 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 15
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 15
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1500
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 70
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 600
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 5000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+}
+#Prince George (30,000 / 7,500 POPS)
+19 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 70
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 5000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 400
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 4000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+}
+#Kelowna (120,000 / 30,000 POPS) (4.4%)
+20 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 600
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 12000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 400
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1200
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 20
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 12000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 500
+	}
+}
+#Vernon (60,000 / 15,000 POPS) (2.2%)
+21 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 300
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 7000
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 200
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 700
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 400
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 6000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 300
+	}
+}
+#Fort Nelson (28,000 / 7,000 POPS)
+2629 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 15
+	}
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 15
+	}
+	artisans = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1500
+	}
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 600
+	}
+	officers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 50
+	}
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 5000
+	}
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 100
+	}
+}

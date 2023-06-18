@@ -1,0 +1,1085 @@
+### ### Misc and cheat modifiers ### ###
+
+deep_thought = {
+	research_points = 100 # That's a lot of research!
+	icon = 3
+}
+
+### ### Nuclear Winter ### ###
+
+nuclear_winter = {
+	global_population_growth = -0.0003
+	icon = 9
+}
+
+### ### National Spirits ### ###
+
+bcb_national_spirit = {
+	global_pop_militancy_modifier = -0.02	# Pluralistic society
+	global_immigrant_attract = 0.10		# People like moving to BCB
+	icon = 1
+}
+cpr_national_spirit = {
+	social_reform_desire = 0.05		# Rebel Prairies
+	rgo_throughput = 0.10			# Mineral Might
+	icon = 1
+}
+nwt_national_spirit = {
+	global_pop_militancy_modifier = -0.02		# Pluralistic Democracy
+	global_pop_consciousness_modifier = -0.02	# No Parties Allowed
+	icon = 1
+}
+qbc_national_spirit = {
+	research_points_modifier = 0.05			# Research Hub
+	education_efficiency_modifier = 0.05		# Commitment to Education
+	icon = 1
+}
+ask_national_spirit = {
+	rgo_throughput = 0.15			# Alaskan folks are rugged...
+	icon = 1
+}
+
+#### ### Tech and Research effects ### ###
+
+### Tech Teams ###
+
+tech_school_reform = {
+	research_points_modifier = -0.05
+	icon = 3
+}
+
+### ### Economic Events ### ###
+
+### Inflation Levels ###
+
+hyperdeflation = {			# Hyperdeflation (more than 50 percent deflation)
+	goods_demand = -0.40		# It's like a bubble for the currency
+	import_cost = 0.20		# Huge increase in import costs
+	loan_interest = -0.15		# They're just throwing money at you
+	rgo_throughput = -0.25		# Huge RGO malus
+	factory_throughput = -0.25	# Huge factory malus
+	prestige = -0.03		# This is very bad
+	icon = 10
+}
+rapid_deflation = {			# Rapid Deflation (between 3 and 50 percent deflation)
+	goods_demand = -0.20		# People save a lot of money
+	import_cost = 0.10		# Large increase in import costs
+	loan_interest = -0.10		# Very large negative interest rates
+	rgo_throughput = -0.15		# Large RGO malus
+	factory_throughput = -0.15	# Large factory malus
+	prestige = -0.02		# This is bad
+	icon = 10
+}
+deflation = {					# Deflation (between 0 and 3 percent deflation)
+	goods_demand = -0.10			# Goods lose value versus money
+	import_cost = 0.05			# Moderate increase in import costs
+	loan_interest = -0.05			# Negative interest rates
+	rgo_throughput = -0.05			# Slight RGO malus
+	factory_throughput = -0.05		# Slight factory malus
+	ruling_party_support = 0.02		# People like this
+	global_pop_militancy_modifier = -0.02	# People are having it good
+	diplomatic_points_modifier = 0.05	# Could be worse
+	influence_modifier = 0.05		# Stable currency, although depreciating
+	icon = 10
+}
+very_low_inflation = {				# Very Low Inflation (between 0 and 2 percent inflation)
+	import_cost = -0.02			# Slight reduction in import costs
+	loan_interest = 0.02			# Very low interest rates
+	rgo_throughput = 0.05			# Slight RGO boost
+	factory_throughput = 0.05		# Slight factory boost
+	ruling_party_support = 0.05		# People really like this
+	global_pop_militancy_modifier = -0.05	# People are having it great
+	diplomatic_points_modifier = 0.15	# Macroeconomic stability has its perks
+	influence_modifier = 0.15		# Very stable currency
+	factory_cost = 0.01			# Factory costs increase
+	icon = 10
+}
+low_inflation = {				# Low Inflation (between 2 and 5 percent inflation)
+	goods_demand = 0.10			# Slight increase in goods demand
+	import_cost = -0.05			# Moderate reduction in import costs
+	loan_interest = 0.05			# Low interest rates
+	rgo_throughput = 0.15			# Large RGO boost
+	factory_throughput = 0.15		# Large factory boost
+	ruling_party_support = 0.02		# People like this
+	global_pop_militancy_modifier = -0.02	# People are having it good
+	diplomatic_points_modifier = 0.10	# Macroeconomic stability has its perks
+	influence_modifier = 0.10		# Stable currency
+	factory_cost = 0.02			# Factory costs increase
+	icon = 10
+}
+moderate_inflation = {				# Moderate Inflation (between 5 and 10 percent inflation)
+	goods_demand = 0.20			# Moderate increase in goods demand
+	import_cost = -0.10			# Large reduction in import costs
+	loan_interest = 0.10			# Moderate interest rates
+	rgo_throughput = 0.25			# Huge RGO boost
+	factory_throughput = 0.25		# Huge factory boost
+	diplomatic_points_modifier = 0.05	# Macroeconomic stability has its perks
+	influence_modifier = 0.05		# Not very stable currency
+	factory_cost = 0.05			# Factory costs increase
+	icon = 10
+}
+high_inflation = {				# High Inflation (between 10 and 50 percent inflation)
+	goods_demand = 0.50			# Buy now, or it will be pricier later
+	import_cost = -0.20			# Huge reduction in import costs
+	loan_interest = 0.20			# High interest rates
+	rgo_throughput = 0.10			# Moderate RGO boost
+	factory_throughput = 0.10		# Moderate factory boost
+	prestige = -0.01			# This is embarassing
+	global_immigrant_attract = -0.1		# People are having second thoughts about coming
+	ruling_party_support = -0.05		# Slightly unpopular situation
+	global_pop_militancy_modifier = 0.05	# People are getting antsy
+	influence_modifier = -0.05		# Unstable currency
+	factory_cost = 0.10			# Factory costs increase
+	icon = 10
+}
+very_high_inflation = {				# Very High Inflation (between 50 and 200 percent inflation)
+	goods_demand = 1.00			# Goods are a good safeguard against inflation
+	import_cost = -0.25			# Starting to hit diminishing returns
+	loan_interest = 0.50			# Very high interest rates
+	rgo_throughput = -0.05			# Slight RGO malus
+	factory_throughput = -0.05		# Slight factory malus
+	prestige = -0.02			# This is very embarassing
+	global_immigrant_attract = -0.2		# Some people are leaving
+	ruling_party_support = -0.10		# Unpopular situation
+	global_pop_militancy_modifier = 0.10	# Breeds instability
+	influence_modifier = -0.10		# Very unstable currency
+	factory_cost = 0.20			# Factory costs increase
+	icon = 10
+}
+extremely_high_inflation = {			# Very High Inflation (between 200 and 10,000 percent inflation)
+	goods_demand = 2.00			# People want goods, not money
+	import_cost = -0.28			# Marginal reduction in import costs compared to previous one
+	loan_interest = 1.00			# Extremely high interest rates
+	rgo_throughput = -0.15			# Large RGO malus
+	factory_throughput = -0.15		# Large factory malus
+	prestige = -0.03			# This is extremely embarassing
+	global_immigrant_attract = -0.5		# Lots of people are leaving
+	ruling_party_support = -0.30		# Very unpopular situation
+	global_pop_militancy_modifier = 0.30	# People are threatening to revolt
+	influence_modifier = -0.15		# Extremely unstable currency
+	factory_cost = 0.50			# Factory costs increase
+	icon = 10
+}
+hyperinflation = {				# Hyperinflation (more than 10,000 percent inflation)
+	goods_demand = 3.00			# Economy out of whack
+	import_cost = -0.30			# Tiny reduction in import costs compared to previous one
+	loan_interest = 2.00			# Protip: Do not go into debt
+	rgo_throughput = -0.25			# Huge RGO malus
+	factory_throughput = -0.25		# Huge factory malus
+	prestige = -0.05			# This is hyper-embarassing
+	global_immigrant_attract = -1.0		# People are jumping ship
+	ruling_party_support = -0.50		# Good lord, people hate you
+	global_pop_militancy_modifier = 0.50	# And they're getting ready for action
+	influence_modifier = -0.25		# Basically worthless currency
+	factory_cost = 1.00			# Factory costs increase
+	icon = 10
+}
+
+### Economic Cycles ###
+
+economic_depression = {				# Economic Depression
+	prestige = -0.05			# Very bad
+	ruling_party_support = -0.10		# People hate this
+	global_pop_militancy_modifier = 0.10	# People are having it really bad
+	diplomatic_points_modifier = -0.20	# Business is sinking
+	influence_modifier = -0.20		# People don't quite like us
+	global_immigrant_attract = -0.50	# People flee from here
+	rgo_throughput = -0.20			# Large RGO malus
+	factory_throughput = -0.20		# Large factory malus
+	research_points_modifier = -0.15	# R&D collapse
+	tax_efficiency = -0.10			# Tax collection collapse
+	icon = 9
+}
+economic_recession = {				# Economic Recession
+	prestige = -0.02			# Bad
+	ruling_party_support = -0.05		# People dislike this
+	global_pop_militancy_modifier = 0.05	# People are having it bad
+	diplomatic_points_modifier = -0.10	# Business is bad
+	influence_modifier = -0.10		# And we're bad for business
+	global_immigrant_attract = -0.20	# People emigrate from here
+	rgo_throughput = -0.10			# Small RGO malus
+	factory_throughput = -0.10		# Small factory malus
+	research_points_modifier = -0.05	# R&D cuts
+	tax_efficiency = -0.05			# Tax collection decrease
+	icon = 9
+}
+economic_stagnation = {				# Economic Stagnation
+	prestige = 0.01				# At least it's stable
+	icon = 10
+}
+economic_expansion = {				# Economic Expansion
+	prestige = 0.02				# Nice
+	ruling_party_support = 0.05		# People like this
+	global_pop_militancy_modifier = -0.05	# People are having it good
+	diplomatic_points_modifier = 0.10	# Business is good
+	influence_modifier = 0.10		# And we're good for business
+	global_immigrant_attract = 0.20		# People immigrate here
+	rgo_throughput = 0.10			# Small RGO boost
+	factory_throughput = 0.10		# Small factory boost
+	research_points_modifier = 0.05		# R&D investing
+	tax_efficiency = 0.05			# Tax collection increase
+	icon = 8
+}
+economic_boom = {				# Economic Boom
+	prestige = 0.05				# Very nice
+	ruling_party_support = 0.10		# People really like this
+	global_pop_militancy_modifier = -0.10	# People are having it great
+	diplomatic_points_modifier = 0.20	# Business is booming
+	influence_modifier = 0.20		# People like doing business with us
+	global_immigrant_attract = 0.50		# People flock here
+	rgo_throughput = 0.20			# Large RGO boost
+	factory_throughput = 0.20		# Large factory boost
+	research_points_modifier = 0.15		# R&D boost
+	tax_efficiency = 0.10			# Tax collection boost
+	icon = 8
+}
+
+### Economic Cooldowns ###
+
+recently_issued_money = {			# Recently Issued Money
+	prestige = -0.01			# Money printers go zzzz
+	tax_efficiency = -0.01			# Reduces income a bit
+	icon = 9
+}
+monetary_policy_cooldown = {			# Monetary Policy Cooldown
+	prestige = -0.01			# Not worth doing often
+	tax_efficiency = -0.01			# Reduces income a bit
+	icon = 9
+}
+fiscal_policy_cooldown = {			# Fiscal Policy Cooldown
+	prestige = -0.01			# Not worth doing often
+	tax_efficiency = -0.01			# Reduces income a bit
+	icon = 9
+}
+
+### Central Bank ###
+
+contractionary_monetary_policy = {		# Contractionary Monetary Policy (targets inflation)
+	prestige = -0.01			# Tight Money
+	factory_cost = 0.25			# Restricted credit
+	factory_owner_cost = 0.25		# Running things is harder
+	rgo_output = -0.10			# Brakes on production
+	factory_output = -0.10			# Cooling down factories
+	icon = 9
+}
+expansionary_monetary_policy = {		# Expansionary Monetary Policy (targets inflation)
+	prestige = 0.01				# Generous Money
+	factory_cost = -0.25			# Genenrous loans for investment
+	factory_owner_cost = -0.25		# Running things is easier
+	rgo_output = 0.10			# Gas on production
+	factory_output = 0.10			# Firing up factories
+	icon = 8
+}
+contractionary_fiscal_policy = {		# Contractionary Fiscal Policy (targets business cycle)
+	prestige = -0.01			# Livin' Frugal
+	diplomatic_points_modifier = -0.10	# Foreign Affairs cuts
+	max_military_spending = 0.20		# Military spending cuts
+	max_social_spending = 0.25		# Social spending cuts
+	min_tax = 0.25				# Tax hikes
+	min_tariff = 0.25			# Tariff hikes. They are taxes, after all
+	research_points_modifier = -0.05	# R&D cuts
+	ruling_party_support = -0.10		# This is unpopular
+	icon = 9
+}
+expansionary_fiscal_policy = {			# Expansionary Fiscal Policy (targets business cycle)
+	prestige = 0.01				# Livin' Large
+	diplomatic_points_modifier = -0.10	# Foreign Affairs increase
+	min_military_spending = 0.20		# Military spending increase
+	min_social_spending = 0.25		# Social spending increase
+	max_tax = 0.25				# Tax cuts
+	max_tariff = 0.25			# Tariff cuts. They are taxes, after all
+	research_points_modifier = 0.05		# R&D increase
+	ruling_party_support = 0.10		# This is popular
+	icon = 8
+}
+
+### ### Arctic Events ### ###
+
+### Arctic Exploration ###
+
+arctic_surveyor = {
+	prestige = 0.01			# It's nice, innit
+	research_points = 0.01		# Tiny extra research
+	research_points_modifier = 0.01	# Tiny research boost
+	icon = 7
+}
+arctic_researcher = {
+	prestige = 0.02			# Gets invited to all the polar bear conventions
+	research_points = 0.05		# Extra research
+	research_points_modifier = 0.05	# Research boost
+	tax_efficiency = -0.01		# It costs money to do research
+	icon = 7
+}
+arctic_exploiter = {
+	prestige = 0.03			# You are the talk of the local igloo bar
+	research_points = 0.07		# Extra research
+	research_points_modifier = 0.07	# Research boost
+	rgo_output = 0.02		# Getting those Arctic resources
+	tax_efficiency = -0.02		# Winter coat budget is through the roof
+	icon = 7
+}
+arctic_conqueror = {
+	prestige = 0.04			# Everybody knows your name north of the Arctic Circle
+	research_points = 0.10		# Extra research
+	research_points_modifier = 0.10	# Research boost
+	rgo_output = 0.03		# Getting those Arctic resources
+	org_regain = 0.02		# Getting some military bonuses
+	tax_efficiency = -0.03		# Things are expensive up here
+	badboy = 0.01			# You ain't Santa Claus
+	min_military_spending = 0.01	# And this ain't a sledge
+	icon = 7
+}
+arctic_colonizer = {
+	prestige = 0.05			# Like Christopher Columbus on Ice
+	research_points = 0.10		# Extra research
+	research_points_modifier = 0.12	# Research boost
+	rgo_output = 0.04		# Getting those Arctic resources
+	org_regain = 0.03		# Getting some military bonuses
+	global_immigrant_attract = 0.03 # Colonizers are pouring in
+	tax_efficiency = -0.04		# Icebreaker maintenance costs
+	badboy = 0.02			# Wait, that's illegal, or is it?
+	min_military_spending = 0.02	# Navy seals
+	icon = 7
+}
+arctic_overlord = {
+	prestige = 0.06			# Avenging the Titanic
+	research_points = 0.10		# Extra research
+	research_points_modifier = 0.15	# Research boost
+	rgo_output = 0.05		# Getting those Arctic resources
+	org_regain = 0.05		# Getting some military bonuses
+	global_immigrant_attract = 0.05 # Colonizers are pouring in
+	factory_throughput = 0.02	# Factories and trade are benefitting from this
+	tax_efficiency = -0.05		# The world's cocoa resources are strained to the max
+	badboy = 0.03			# You just annexed the North Pole
+	min_military_spending = 0.05	# Those bears are looking suspicious
+	icon = 7
+}
+
+### ### Political ### ###
+
+### Defense and Intelligence Agencies ###
+
+defense_intel_reorganization = {			# ISA - Reorganization
+	tax_efficiency = -0.02				# Costs a bit of money
+	administrative_efficiency_modifier = -0.05	# Some admin chaos
+	icon = 9
+}
+defense_intel_domestic = {				# ISA - Domestic Focus
+	tax_efficiency = -0.05				# It costs money to run a security apparatus
+	research_points = 0.05				# Domestic tech developments
+	ruling_party_support = 0.10			# Political stability
+	administrative_efficiency_modifier = 0.10	# Clamp down on corruption
+	cb_generation_speed_modifier = 0.10		# Mobilize our people for war
+	mobilisation_size = 0.05			# Ready to Serve
+	suppression_points_modifier = 0.20		# Counter-Terrorists Win
+	icon = 1
+}
+defense_intel_foreign = {				# ISA - Foreign Focus
+	tax_efficiency = -0.05				# It costs money to run a security apparatus
+	research_points = 0.07				# Steal Foreign Blueprints
+	ruling_party_support = 0.05			# Minor political stability
+	prestige = 0.05					# Improve our image abroad
+	diplomatic_points_modifier = 0.15		# Open up embassies and consulates
+	badboy = -0.03					# We're the good guys!
+	cb_generation_speed_modifier = 0.20		# Planting WMDs on our enemies
+	icon = 1
+}
+defense_intel_military = {				# ISA - Military Focus
+	tax_efficiency = -0.05				# It costs money to run a security apparatus
+	research_points = 0.10				# Military R&D
+	ruling_party_support = 0.05			# Minor political stability
+	administrative_efficiency_modifier = 0.05	# Military efficiency
+	cb_generation_speed_modifier = 0.15		# Rally Around the (False) Flag
+	land_organisation = 0.1				# Institutional Experience
+	naval_organisation = 0.1			# Institutional Experience
+	org_regain = 0.1				# Why We Fight
+	leadership_modifier = 0.20			# Best and Brightest
+	min_military_spending = 0.05			# Need to fund the military
+	mobilization_economy_impact = -0.05		# Prepared for war
+	mobilization_impact = -0.05			# Prepared for war
+	mobilisation_size = 0.10			# School Recruitment Drives
+	suppression_points_modifier = 0.10		# Crack down on dissent
+	war_exhaustion = -0.05				# We're used to it
+	icon = 1
+}
+defense_intel_political = {				# ISA - Political Focus
+	tax_efficiency = -0.05				# It costs money to run a security apparatus
+	research_points = -0.05				# Suppressing bad research
+	ruling_party_support = 0.20			# An extension of the Party
+	cb_generation_speed_modifier = 0.15		# Rally Around the (False) Flag
+	mobilization_economy_impact = -0.15		# Primed for war
+	mobilization_impact = -0.15			# Primed for war
+	mobilisation_size = 0.15			# For the Motherland!
+	social_reform_desire = -0.10			# Reforms are bad
+	political_reform_desire = -0.15			# Especially political reforms
+	suppression_points_modifier = 0.10		# Crack down on dissent
+	war_exhaustion = -0.1				# Politics by other means
+	icon = 1
+}
+defense_intel_limited = {				# ISA - Limited Focus
+	tax_efficiency = -0.03				# Muzzled
+	research_points = 0.03				# Limited research benefit
+	administrative_efficiency_modifier = 0.05	# We're getting some benefits
+	diplomatic_points_modifier = 0.05		# Soft power is cheaper than hard power
+	badboy = -0.01					# Defanged
+	cb_generation_speed_modifier = 0.05		# There's bad guys over there
+	icon = 1
+}
+
+### Ideological Propaganda ###
+
+propaganda_pro_socdem = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_anti_socdem = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_pro_socialist = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_anti_socialist = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_pro_communist = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_anti_communist = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_pro_liberal = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_anti_liberal = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_pro_anarcho_liberal = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_anti_anarcho_liberal = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_pro_greens = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_anti_greens = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_pro_conservative = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_anti_conservative = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_pro_nationalist = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_anti_nationalist = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_pro_traditionalist = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_anti_traditionalist = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_pro_ultranat = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+propaganda_anti_ultranat = {
+	prestige = -0.01			# Some can see through it
+	tax_efficiency = -0.01			# It costs money
+	research_points_modifier = -0.05	# Eliminate wrong kinds of research
+	icon = 15
+}
+
+### America - Articles of Dissolution ###
+
+articles_of_dissolution = {
+	badboy = -0.05				# Playing nice with the other States
+	diplomatic_points_modifier = -0.1	# More like the HRE than the USA
+	global_pop_militancy_modifier = -0.05	# Somehow things are easier like this
+	prestige = -0.02			# We're barely a country
+	icon = 6
+}
+american_hegemon = {
+	diplomatic_points_modifier = 0.1	# More like an HRE elector than the USA
+	global_immigrant_attract = 0.1		# Things are starting to look good for us
+	global_pop_militancy_modifier = -0.02	# Somehow things are a bit easier like this
+	prestige = 0.02				# Might makes right
+	icon = 6
+}
+primus_inter_pares = {
+	badboy = -0.03				# Playing nice with the other States
+	diplomatic_points_modifier = 0.2	# More like an HRE elector than the USA
+	global_immigrant_attract = 0.1		# Things are starting to look good for us
+	global_pop_militancy_modifier = -0.03	# Somehow things are a bit easier like this
+	prestige = 0.03				# Your friendly neighborhood hero
+	icon = 6
+}
+a_more_perfect_union = {
+	diplomatic_points_modifier = 0.3	# America is back
+	global_immigrant_attract = 0.2		# Land of the Free
+	prestige = 0.05				# Home of the Brave
+	icon = 6
+}
+
+### Canada - Canadian Compacts ###
+
+canada_compact_signatory = {
+	badboy = -0.05				# Playing nice with the other Canucks
+	diplomatic_points_modifier = -0.1	# More like the HRE than Canada
+	global_pop_militancy_modifier = -0.05	# Somehow things are easier like this
+	prestige = -0.02			# We're barely a country
+	icon = 6
+}
+
+### ### Military Doctrines ### ###
+
+### Third Generation Warfare ###
+
+air_land_battle_doctrine = {
+	land_organisation = 0.10
+	naval_organisation = 0.10
+	supply_consumption = 0.05
+	icon = 14
+}
+deep_battle_doctrine = {
+	org_regain = 0.10
+	war_exhaustion = -0.1
+	icon = 14
+}
+peoples_war_doctrine = {
+	global_population_growth = 0.005
+	mobilisation_size = 0.20
+	mobilization_impact = 0.20
+	supply_consumption = -0.05
+	icon = 14
+}
+third_gen_military_reorganization = {
+	land_organisation = -0.05
+	naval_organisation = -0.05
+	org_regain = -0.05
+	supply_consumption = 0.05
+	icon = 9
+}
+
+### Fourth Generation Warfare ###
+
+shock_and_awe_doctrine = {
+	land_organisation = 0.15
+	naval_organisation = 0.15
+	supply_consumption = 0.05
+	icon = 14
+}
+
+hearts_and_minds_doctrine = {
+	org_regain = 0.15
+	war_exhaustion = -0.2
+	non_accepted_pop_consciousness_modifier = -0.05
+	non_accepted_pop_militancy_modifier = -0.05
+	icon = 14
+}
+asymmetric_war_doctrine = {
+	global_population_growth = 0.01
+	mobilisation_size = 0.40
+	mobilization_impact = 0.40
+	supply_consumption = -0.10
+	mobilization_economy_impact = 0.10
+	icon = 14
+}
+fourth_gen_military_reorganization = {
+	land_organisation = -0.05
+	naval_organisation = -0.05
+	org_regain = -0.05
+	supply_consumption = 0.10
+	icon = 9
+}
+
+### Fifth Generation Warfare ###
+
+network_centric_war_doctrine = {
+	land_organisation = 0.20
+	naval_organisation = 0.20
+	land_unit_start_experience = 0.05
+	naval_unit_start_experience = 0.05
+	research_points_modifier = 0.01
+	supply_consumption = 0.20
+	icon = 14
+}
+hybrid_warfare_doctrine = {
+	org_regain = 0.20
+	war_exhaustion = -0.2
+	non_accepted_pop_consciousness_modifier = -0.05
+	non_accepted_pop_militancy_modifier = -0.05
+	core_pop_consciousness_modifier = -0.05
+	core_pop_militancy_modifier = -0.05
+	diplomatic_points_modifier = 0.1
+	icon = 14
+}
+modern_peoples_war_doctrine = {
+	global_population_growth = 0.015
+	mobilisation_size = 0.60
+	mobilization_impact = 0.60
+	supply_consumption = -0.20
+	mobilization_economy_impact = 0.20
+	icon = 14
+}
+fifth_gen_military_reorganization = {
+	land_organisation = -0.10
+	naval_organisation = -0.10
+	org_regain = -0.10
+	supply_consumption = 0.10
+	icon = 9
+}
+
+### Sixth Generation Warfare ###
+
+rapid_dominance_doctrine = {
+	land_organisation = 0.30
+	naval_organisation = 0.30
+	land_unit_start_experience = 0.05
+	naval_unit_start_experience = 0.05
+	research_points_modifier = 0.02
+	supply_consumption = 0.30
+	icon = 14
+}
+tailored_defense_doctrine = {
+	org_regain = 0.30
+	war_exhaustion = -0.3
+	non_accepted_pop_consciousness_modifier = -0.05
+	non_accepted_pop_militancy_modifier = -0.10
+	core_pop_consciousness_modifier = -0.05
+	core_pop_militancy_modifier = -0.10
+	diplomatic_points_modifier = 0.1
+	icon = 14
+}
+decentralized_networks_doctrine = {
+	global_population_growth = 0.02
+	mobilisation_size = 0.80
+	mobilization_impact = 0.80
+	supply_consumption = -0.30
+	mobilization_economy_impact = 0.30
+	icon = 14
+}
+sixth_gen_military_reorganization = {
+	land_organisation = -0.15
+	naval_organisation = -0.15
+	org_regain = -0.15
+	supply_consumption = 0.15
+	icon = 9
+}
+
+### Seventh Generation Warfare ###
+
+data_driven_blitzkrieg_doctrine = {
+	land_organisation = 0.40
+	naval_organisation = 0.40
+	land_unit_start_experience = 0.05
+	naval_unit_start_experience = 0.05
+	research_points_modifier = 0.05
+	supply_consumption = 0.40
+	icon = 14
+}
+automated_deterrence_doctrine = {
+	org_regain = 0.40
+	war_exhaustion = -0.4
+	non_accepted_pop_consciousness_modifier = -0.05
+	non_accepted_pop_militancy_modifier = -0.15
+	core_pop_consciousness_modifier = -0.05
+	core_pop_militancy_modifier = -0.15
+	diplomatic_points_modifier = 0.1
+	icon = 14
+}
+cicada_warfare_doctrine = {
+	global_population_growth = 0.025
+	mobilisation_size = 1
+	mobilization_impact = 1
+	supply_consumption = -0.40
+	mobilization_economy_impact = 0.40
+	icon = 14
+}
+seventh_gen_military_reorganization = {
+	land_organisation = -0.20
+	naval_organisation = -0.20
+	org_regain = -0.20
+	supply_consumption = 0.20
+	icon = 9
+}
+
+### Redefinition of Warfare ###
+
+hyper_intensity_warfare_doctrine = {
+	land_organisation = 0.50
+	naval_organisation = 0.50
+	land_unit_start_experience = 0.10
+	naval_unit_start_experience = 0.10
+	research_points_modifier = 0.10
+	supply_consumption = 0.50
+	icon = 14
+}
+gambit_theorem_doctrine = {
+	org_regain = 0.50
+	war_exhaustion = -0.5
+	non_accepted_pop_consciousness_modifier = -0.10
+	non_accepted_pop_militancy_modifier = -0.20
+	core_pop_consciousness_modifier = -0.10
+	core_pop_militancy_modifier = -0.20
+	diplomatic_points_modifier = 0.2
+	icon = 14
+}
+laborers_of_war_doctrine = {
+	global_population_growth = 0.03
+	mobilisation_size = 1.5
+	mobilization_impact = 1.5
+	supply_consumption = -0.50
+	mobilization_economy_impact = 0.50
+	icon = 14
+}
+redefined_warfare_military_reorganization = {
+	land_organisation = -0.30
+	naval_organisation = -0.30
+	org_regain = -0.30
+	supply_consumption = 0.30
+	icon = 9
+}
+
+### Mass-Produced Armament ###
+
+1980_battle_rifle = {
+	supply_consumption = 0.15
+	land_organisation = 0.07
+	icon = 14
+}
+1980_assault_rifle = {
+	land_organisation = 0.03
+	org_regain = 0.03
+	icon = 14
+}
+service_rifle_change = {
+	org_regain = -0.10
+	supply_consumption = 0.15
+	icon = 9
+}
+
+### Composite Armament ###
+
+1990_battle_rifle = {
+	supply_consumption = 0.20
+	land_organisation = 0.10
+	icon = 14
+}
+1990_assault_rifle = {
+	land_organisation = 0.05
+	org_regain = 0.05
+	icon = 14
+}
+1990_carbine = {
+	supply_consumption = -0.10
+	org_regain = 0.10
+	icon = 14
+}
+
+
+### ### Space Tech ### ###
+
+### Space Program ###
+
+space_agency_reorganization = {
+	prestige = -0.01
+	research_points_modifier = -0.05
+	icon = 9
+}
+recently_built_launch_site = {
+	tax_efficiency = -0.01
+	global_pop_consciousness_modifier = 0.01
+	icon = 9
+}
+recently_built_space_center = {
+	tax_efficiency = -0.02
+	global_pop_consciousness_modifier = 0.01
+	icon = 9
+}
+recently_built_spaceport = {
+	tax_efficiency = -0.03
+	global_pop_consciousness_modifier = 0.01
+	icon = 9
+}
+space_program_lvl_0 = {
+	research_points_modifier = 0.03		# Tiny research boost
+	research_points = 0.05			# Tiny extra research
+	icon = 5
+}
+space_program_lvl_1 = {
+	tax_efficiency = -0.01				# Costs a bit of money
+	research_points_modifier = 0.06			# Small research boost
+	research_points = 0.10				# Small extra research
+	prestige = 0.01					# Slightly prestigious
+	global_pop_consciousness_modifier = 0.01	# Interesting
+	icon = 5
+}
+space_program_lvl_2 = {
+	tax_efficiency = -0.03				# Cost some money
+	research_points_modifier = 0.09			# Good research boost
+	research_points = 0.15				# Good extra research
+	prestige = 0.02					# Prestigious
+	influence_modifier = 0.05			# Decent
+	global_pop_consciousness_modifier = 0.02	# Why are we doing this?
+	icon = 5
+}
+space_program_lvl_3 = {
+	tax_efficiency = -0.06				# Cost a lot of money
+	research_points_modifier = 0.12			# Large research boost
+	research_points = 0.20				# Large extra research
+	prestige = 0.05					# Very prestigious
+	influence_modifier = 0.10			# Respectful
+	global_pop_consciousness_modifier = 0.05	# Perhaps this money can be used somewhere else
+	icon = 5
+}
+space_program_lvl_4 = {
+	tax_efficiency = -0.10				# Cost a serious amount of money
+	research_points_modifier = 0.15			# Huge research boost
+	research_points = 0.25				# Huge extra research
+	prestige = 0.10					# Quite impressive
+	influence_modifier = 0.15			# Admirable
+	global_pop_consciousness_modifier = 0.10	# Really makes you think
+	icon = 5
+}
+
+### Space Milestones ###
+
+satellite_in_space = {
+	research_points_modifier = 0.05			# For Science
+	research_points = 0.05				# 
+	prestige = 0.1					# For Country
+	influence_modifier = 0.03			#
+	diplomatic_points_modifier = 0.1		# For All Mankind
+	badboy = -0.01					#
+	global_pop_militancy_modifier = -0.05		# For the People
+	global_pop_consciousness_modifier = -0.02	#
+	ruling_party_support = 0.05			# For the Party
+	icon = 5
+}
+animal_in_space = {
+	research_points_modifier = 0.05			# For Science
+	research_points = 0.10				# 
+	prestige = 0.2					# For Country
+	influence_modifier = 0.05			#
+	diplomatic_points_modifier = 0.1		# For All Mankind
+	badboy = -0.02					#
+	global_pop_militancy_modifier = -0.05		# For the People
+	global_pop_consciousness_modifier = -0.02	#
+	ruling_party_support = 0.05			# For the Party
+	icon = 5
+}
+man_in_space = {
+	research_points_modifier = 0.10			# For Science
+	research_points = 0.15				# 
+	prestige = 0.5					# For Country
+	influence_modifier = 0.10			#
+	diplomatic_points_modifier = 0.3		# For All Mankind
+	badboy = -0.03					#
+	global_pop_militancy_modifier = -0.10		# For the People
+	global_pop_consciousness_modifier = -0.05	#
+	ruling_party_support = 0.10			# For the Party
+	icon = 5
+}
+man_in_orbit = {
+	research_points_modifier = 0.15			# For Science
+	research_points = 0.20				# 
+	prestige = 0.7					# For Country
+	influence_modifier = 0.15			#
+	diplomatic_points_modifier = 0.5		# For All Mankind
+	badboy = -0.04					#
+	global_pop_militancy_modifier = -0.15		# For the People
+	global_pop_consciousness_modifier = -0.05	#
+	ruling_party_support = 0.10			# For the Party
+	icon = 5
+}
+docking_in_space = {
+	research_points_modifier = 0.20			# For Science
+	research_points = 0.30				# 
+	prestige = 1.0					# For Country
+	influence_modifier = 0.15			#
+	diplomatic_points_modifier = 0.5		# For All Mankind
+	badboy = -0.05					#
+	global_pop_militancy_modifier = -0.15		# For the People
+	global_pop_consciousness_modifier = -0.05	#
+	ruling_party_support = 0.15			# For the Party
+	icon = 5
+}
+lunar_probe_launched = {
+	research_points_modifier = 0.20			# For Science
+	research_points = 0.30				# 
+	prestige = 1.0					# For Country
+	influence_modifier = 0.15			#
+	diplomatic_points_modifier = 0.7		# For All Mankind
+	badboy = -0.05					#
+	global_pop_militancy_modifier = -0.15		# For the People
+	global_pop_consciousness_modifier = -0.05	#
+	ruling_party_support = 0.15			# For the Party
+	icon = 5
+}
+manned_lunar_orbit = {
+	research_points_modifier = 0.25			# For Science
+	research_points = 0.40				# 
+	prestige = 1.5					# For Country
+	influence_modifier = 0.20			#
+	diplomatic_points_modifier = 0.5		# For All Mankind
+	badboy = -0.07					#
+	global_pop_militancy_modifier = -0.20		# For the People
+	global_pop_consciousness_modifier = -0.07	#
+	ruling_party_support = 0.20			# For the Party
+	icon = 5
+}
+manned_lunar_landing = {
+	research_points_modifier = 0.30			# For Science
+	research_points = 0.50				# 
+	prestige = 2.0					# For Country
+	influence_modifier = 0.25			#
+	diplomatic_points_modifier = 1.0		# For All Mankind
+	badboy = -0.10					#
+	global_pop_militancy_modifier = -0.25		# For the People
+	global_pop_consciousness_modifier = -0.10	#
+	ruling_party_support = 0.25			# For the Party
+	icon = 5
+}
+
+### Misc Space Modifiers ###
+
+space_political_boost = {
+	ruling_party_support = 0.25			# For the Party
+	suppression_points_modifier = 0.25		# By any means
+	tax_efficiency = -0.02				# Propaganda costs money
+	icon = 5
+}
+
+### ### Province Events ### ###
+
+### Resource Events - Positive ###
+
+resource_booming = {				# Booming Resource
+	local_RGO_output = 2			# Triple normal production
+	immigrant_attract = 0.50		# 50 percent more immigrant attract here
+	immigrant_push = 10			# Ten times the usual amount of immigrants
+	population_growth = 0.01		# Tiny pop growth
+	icon = 10
+}
+resource_abundant = {				# Abundant Resource
+	local_RGO_output = 1			# Double normal production
+	immigrant_attract = 0.20		# 20 percent more immigrant attract here
+	immigrant_push = 5			# Five times the usual amount of immigrants
+	icon = 10
+}
+resource_significant = {			# Significant Resource
+	local_RGO_output = 0.50			# Fifty percent more output
+	immigrant_attract = 0.10		# 10 percent more immigrant attract here
+	immigrant_push = 2			# Twice the usual amount of immigrants
+	icon = 10
+}
+
+### Resource Events - Negative ###
+
+resource_dwindling = {				# Dwindling Resource
+	local_RGO_output = -0.25		# 75 percent baseline output
+	immigrant_attract = -0.10		# 10 percent immigrant push from here
+	immigrant_push = 2			# Twice the usual amount of immigrants
+	icon = 11
+}
+resource_scarce = {				# Scarce Resource
+	local_RGO_output = -0.50		# 50 percent baseline output
+	immigrant_attract = -0.20		# 20 percent immigrant push from here
+	immigrant_push = 5			# Five times the usual amount of immigrants
+	pop_consciousness_modifier = 0.05	# Pops are getting restless
+	pop_militancy_modifier = 0.05		# Pops are getting angry
+	icon = 11
+}
+resource_exhausted = {				# Exhausted Resource
+	local_RGO_output = -0.75		# 25 percent baseline output
+	immigrant_attract = -0.50		# 50 percent immigrant push from here
+	immigrant_push = 10			# Ten times the usual amount of immigrants
+	pop_consciousness_modifier = 0.10	# Pops are getting very restless
+	pop_militancy_modifier = 0.10		# Pops are getting very angry
+	population_growth = -0.01		# Tiny pop reduction
+	icon = 11
+}
+resource_retooling = {				# Retooling for New Resource
+	local_RGO_output = -0.50		# 50 base output
+	immigrant_push = 10			# Ten times the usual amount of immigrants
+	icon = 13
+}
+
+### ### Research, Labs, and Rocket Sites ### ###
+
+rocket_launch_site_location = {			# Rocket Launch Site (Tier 1)
+	local_RGO_throughput = -0.01		# It bothers the local wildlife
+	pop_consciousness_modifier = 0.01	# HOA noise complaints
+	icon = 7
+}
+space_center_location = {			# Space Center (Tier 2)
+	local_RGO_throughput = -0.02		# It bothers the local farmers
+	pop_consciousness_modifier = 0.02	# NIMBYs gather to protest
+	icon = 7
+}
+spaceport_location = {				# Spaceport (Tier 3)
+	local_RGO_throughput = -0.05		# It bothers the local townsfolk
+	pop_consciousness_modifier = 0.03	# It ruins the neighborhood character
+	icon = 7
+}
+

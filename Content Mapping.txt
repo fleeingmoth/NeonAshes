@@ -1,0 +1,104 @@
+Dev Diary 2 June 5 2021
+
+Pre-Alpha - Versions 0.01 - 0.09
+
+    Work on North America exclusively - done # pops are done too
+    Core stability, tech, loc, politics, pops. - done 
+    Make sure it doesn't crash when you declare wars. - done
+    Early event chains and national intros. # still missing!
+One of the issues with Victoria II's map is that it is incredibly outdated: states like California and Texas have huge provinces 
+(as they were not as populated as in contemporary times), and Florida, the third most populous state, 
+with an economy of over one trillion dollars nowadays, has a grand total of three provinces. For reference, Greenland has four.
+
+So, I added two more provinces, splitting up the state between major metropolitan areas, and allowing for greater economic diversity. 
+I plan to do this with other states and regions that could use a few more states, as well as re-balancing states and provinces along modern division lines.
+
+Alpha - Version 0.10
+
+    North American nations finished. # not done 
+    All techs developed. # more or less true
+    Localization and introduction events developed. # still missing! 
+    Hopefully very few crashes by this point. # seems accurate
+
+Version 0.20
+
+    Latin American nations finished. #
+    All inventions developed. # not true
+    Basic political events developed. #
+
+Version 0.30
+
+    Western European nations finished. # *** West Europe settled?
+    Economic system, resources, and industries fully developed. 
+Dev Diary 4 July 2 2021
+I want to keep is just as the base game: 48 goods, with a few caveats: timber and lumber are merged, 
+oil now includes gas, cotton now involves all textile crops, cement has been replaced by construction materials, etc. 
+At the same time, factories are more (and increasingly) dependent in white collar workers (e.g. clerks) 
+and executives (e.g. capitalists) than in the Victorian era, and job loss and deindustrialisation will be an early economic issue to work with.
+
+At the same time, resource discovery and exhaustion will be a key part of the mid-game: 
+the discovery of new sources of oil, metals, and rare materials will be balanced 
+with the depletion of existing reserves. Would you rather purchase resources and goods from 
+the world market, or spend costly (and risky) endeavors to discover new resources under your lands? 
+Is it worth it to shut down unprofitable mines, or to subsidize their exploitation of ever-dwindling resources?
+
+Resource exploration is not limited just to the actual provinces; offshore resources will rise in prominence as the land-based deposits become exhausted and, 
+in the far future, space and deep-mantle mining become more and more prevalent.
+
+Likewise, arctic exploration begins as a research and prestige endeavor, but it can become a matter of colonization and military supremacy. 
+For the far northern countries, it may even become a matter of survival.
+
+Dev Diary 5 July 15 2021
+I chose to develop the economic model, at first, around Neoclassical economics and the New Neoclassical Synthesis, 
+as these are the closest thing to an economic consensus in the present day, the one most players are likely familiarized with, 
+and the most relevant one for the first region in the game, North America. Over time, as countries get added and the political system gets developed, I will add more economic paths and effects.
+
+Dev Diary 7 Sep 13 2021
+In conjunction with this, military brigades now require small arms to be created, and ammunition to keep them supplied. 
+Over time, there will be more types of weapons and supplies added, especially for bigger (and more advanced) brigades, and I will expand more into this on its own dev diary once implemented.
+
+
+Dev Diary 8 Oct 18 2021
+While their chief effect is in research policy, these [research schools] ultimately also affect the nation as a whole through events and 
+opportunities that may be available (or unavailable) for certain schools.
+
+Version 0.40
+
+    East European nations finished.
+    Supranational unions (for the respective nations) for the respective regions. # moved up b/c of Canada formation events 
+
+Version 0.50
+
+    Middle Eastern nations finished.
+    Supranational organizations (e.g. the UN), and shadow groups (e.g. the Club of Rome) for the respective regions.
+
+Version 0.60
+
+    Sub-Saharan African nations finished.
+    Continental unions for the respective regions.
+
+Version 0.70
+
+    South Asian nations finished.
+    Global unions and events finished.
+
+Version 0.80
+
+    East Asian nations finished.
+    News for all relevant events.
+
+Version 0.90
+
+    Pacific nations finished.
+
+Beta - Version 1.00
+
+    All countries present.
+    All content in place until year 2100.
+    Game is stable enough to run until 2100 with minimal issues.
+
+Version 2.00 #1980-2200 is 220 years...
+
+    Content until year 2200
+        New techs, inventions, countries, events, for the next 100 years.
+        Dilation of the timeline and rebalancement (e.g. exotic weapons getting researched in the 22nd Century).

@@ -1,0 +1,5 @@
+owner = ASK
+controller = ASK
+add_core = ASK
+trade_goods = timber
+life_rating = 25

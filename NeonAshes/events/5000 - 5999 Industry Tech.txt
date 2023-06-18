@@ -1,0 +1,11 @@
+#Format is Category-Subcategory-Tech-Number
+
+#5110-5160 - Energy Generation
+
+#5210-5260 - Industrial Engineering
+
+#5310-5360 - Materials Science
+
+#5410-5460 - Infrastructure and Transport
+
+#5510-5560 - Medicine and Biology

@@ -1,0 +1,19 @@
+owner = NAP
+controller = NAP
+trade_goods = oilseed_crops
+life_rating = 30
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = oil_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

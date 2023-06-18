@@ -1,0 +1,160 @@
+### Tabasco-Chiapas ###
+# Villahermosa (1,000,000 / 250,000 pops)
+2165 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 20000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 10000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 800
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 12000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 10000
+	}
+}
+# Tuxtla Gutierrez (1,000,000 / 250,000 pops)
+2181 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 20000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 10000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 800
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 12000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 10000
+	}
+}
+# Tapachula (1,000,000 / 250,000 pops)
+2182 = {
+	aristocrats = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = mexican
+		religion = protestant
+		size = 100000
+	}
+	bureaucrats = {
+		culture = mexican
+		religion = protestant
+		size = 20000
+	}
+	clergymen = {
+		culture = mexican
+		religion = protestant
+		size = 5000
+	}
+	clerks = {
+		culture = mexican
+		religion = protestant
+		size = 10000
+	}
+	officers = {
+		culture = mexican
+		religion = protestant
+		size = 800
+	}
+	craftsmen = {
+		culture = mexican
+		religion = protestant
+		size = 12000
+	}
+	farmers = {
+		culture = mexican
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = mexican
+		religion = protestant
+		size = 10000
+	}
+}

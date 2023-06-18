@@ -1,0 +1,7 @@
+EVT_4410_NAME;Establishment of our Intelligence and Security Apparatus;;;;;;;;;;;;;x;;;;
+EVT_4410_DESC;With little fanfare, lawmakers, police liaisons, diplomats and military officers convened yesterday in $CAPITAL$ to reorganize the separate intelligence operations, national defense and clandestine projects into a new national intelligence-security framework.\n\nHowever, there is disagreement over which agency should be the "head" of the apparatus: some legislators and police representatives vouch for the National Security Bureau and its focus on internal security. Diplomats favor the Office of Foreign Affairs and its international focus. The Armed Forces favor the Military Intelligence Directorate and want to center the efforts in warfighting and military R&D. Lastly, some legislators want the agencies reporting directly to $COUNTRY_ADJ$ lawmakers and politicians in $CAPITAL$, and a small but vocal minority aims to subject them under the National Comptroller's Office to limit their scope and reach.\n\nWith a slim majority, it was decided that the prime agency would be...;;;;;;;;;;;;;x;;;;
+EVT_4410_OPTA;The National Security Bureau - Domestic affairs.;;;;;;;;;;;;;x;;;;
+EVT_4410_OPTB;The Office of Foreign Affairs and Intelligence - International affairs.;;;;;;;;;;;;;x;;;;
+EVT_4410_OPTC;The Military Intelligence Directorate - National defense.;;;;;;;;;;;;;x;;;;
+EVT_4410_OPTD;The Legislature in $CAPITAL$ - Political control.;;;;;;;;;;;;;x;;;;
+EVT_4410_OPTE;The National Comptroller's Office - Keep them on a short leash.;;;;;;;;;;;;;x;;;;

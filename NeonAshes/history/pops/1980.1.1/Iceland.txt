@@ -1,0 +1,213 @@
+#Iceland (64960)
+#Reykjavik (120,000 / 30,000 POPS)
+252 = {
+	aristocrats = {
+		culture = danish
+		religion = protestant
+		size = 600
+	}
+	capitalists = {
+		culture = danish
+		religion = protestant
+		size = 200
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 12000
+	}
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 500
+	}
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 500
+	}
+	clerks = {
+		culture = danish
+		religion = protestant
+		size = 120
+	}
+	officers = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	craftsmen = {
+		culture = danish
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 12000
+	}
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 600
+	}
+}
+#Selfoss (40,000 / 10,000 POPS)
+3268 = {
+	aristocrats = {
+		culture = danish
+		religion = protestant
+		size = 200
+	}
+	capitalists = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 4000
+	}
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	clerks = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	officers = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = danish
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 4000
+	}
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 200
+	}
+}
+#Akureyri (40,000 / 10,000 POPS)
+3269 = {
+	aristocrats = {
+		culture = danish
+		religion = protestant
+		size = 200
+	}
+	capitalists = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 4000
+	}
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	clerks = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	officers = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = danish
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 4000
+	}
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 200
+	}
+}
+#Eglisstadir (40,000 / 10,000 POPS)
+3270 = {
+	aristocrats = {
+		culture = danish
+		religion = protestant
+		size = 200
+	}
+	capitalists = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 4000
+	}
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 100
+	}
+	clerks = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+	officers = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+	craftsmen = {
+		culture = danish
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 4000
+	}
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 200
+	}
+}

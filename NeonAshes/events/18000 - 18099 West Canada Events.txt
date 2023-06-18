@@ -1,0 +1,249 @@
+# 18000 - 18099 - West Canada Events
+
+# 18000 - Demand Integration
+
+country_event = {
+	id = 18000
+	title = "EVT_18000_NAME"
+	desc = "EVT_18000_DESC"
+	picture = "canadian_provinces_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_18000_OPTA" # Annexation (Game Over)
+		FROM = { inherit = THIS }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10 # We are in no position to fight
+				has_recently_lost_war = yes
+			}
+			modifier = {
+				factor = 10 # Our economy is in tatters
+				OR = {
+					has_country_modifier = hyperdeflation
+					has_country_modifier = hyperinflation
+					has_country_modifier = economic_depression
+				}
+			}
+			modifier = {
+				factor = 5 # We are in financial turmoil
+				in_default = yes
+			}
+			modifier = {
+				factor = 3 # If they are a great power, defect.
+				FROM = { is_greater_power = yes }
+			}
+			modifier = {
+				factor = 2 # If they are a secondary power, defect.
+				FROM = { is_secondary_power = yes }
+			}
+		}
+	}
+	option = {
+		name = "EVT_18000_OPTB" # Resist!
+		war = {
+			target = FROM
+			attacker_goal = { casus_belli = become_independent }
+			defender_goal = { casus_belli = annex_core_country }
+			call_ally = yes
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 10 # If we are a great power, fight back hard
+				is_greater_power = yes
+			}
+			modifier = {
+				factor = 5 # If we are a secondary power, fight back
+				is_secondary_power = yes
+			}
+			modifier = {
+				factor = 5 # If overlord is big bad, revolt
+				FROM = { badboy = 1.0 }
+			}
+			modifier = {
+				factor = 5 # If overlord is weaker, it's more likely
+				NOT = { FROM = { brigades_compare = 0.5 } }
+			}
+			modifier = {
+				factor = 0 # If overlord is much more powerful, don't
+				FROM = { brigades_compare = 3 }
+			}
+		}
+	}
+}
+
+# 18001 - 18009 - Unification (and reactions)
+
+country_event = { # Unification of West Canada (Canadian Compact) - Reactions
+	id = 18001
+	title = "EVT_18001_NAME"
+	desc = "EVT_18001_DESC"
+	picture = "canadian_provinces_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_18001_OPTA" # Positive
+		prestige = -3
+		any_pop = { consciousness = 1.00 }
+		relation = {
+			who = WCA
+			value = 100
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				has_country_modifier = canada_compact_signatory
+			}
+			modifier = {
+				factor = 5
+				alliance_with = WCA
+			}
+			modifier = {
+				factor = 5
+				relation = {
+					who = WCA
+					value = 100
+				}
+			}
+			modifier = {
+				factor = 0
+				WCA = { badboy = 0.2 }
+			}
+			modifier = {
+				factor = 0
+				war_with = WCA
+			}
+		}
+	}
+	option = {
+		name = "EVT_18001_OPTB" # Neutral
+		any_pop = { consciousness = 0.50 }
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				war_with = WCA
+			}
+			modifier = {
+				factor = 5
+				relation = {
+					who = WCA
+					value = 0
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVT_18001_OPTC" # Negative
+		prestige = 3
+		any_pop = { consciousness = 1.00 }
+		relation = {
+			who = WCA
+			value = -100
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				WCA = { badboy = 0.4 }
+			}
+			modifier = {
+				factor = 5
+				NOT = {
+					relation = {
+						who = WCA
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+country_event = { # Unification of West Canada (Not Canadian Compact) - Reactions
+	id = 18002
+	title = "EVT_18002_NAME"
+	desc = "EVT_18002_DESC"
+	picture = "canadian_provinces_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_18002_OPTA" # Positive
+		prestige = -5
+		any_pop = { consciousness = 2.00 }
+		remove_country_modifier = canada_compact_signatory
+		relation = {
+			who = WCA
+			value = 100
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				alliance_with = WCA
+			}
+			modifier = {
+				factor = 5
+				relation = {
+					who = WCA
+					value = 100
+				}
+			}
+			modifier = {
+				factor = 0
+				WCA = { badboy = 0.2 }
+			}
+			modifier = {
+				factor = 0
+				war_with = WCA
+			}
+		}
+	}
+	option = {
+		name = "EVT_18002_OPTB" # Neutral
+		any_pop = { consciousness = 1.00 }
+		remove_country_modifier = canada_compact_signatory
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				war_with = WCA
+			}
+			modifier = {
+				factor = 5
+				relation = {
+					who = WCA
+					value = 0
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVT_18002_OPTC" # Negative
+		prestige = 5
+		any_pop = { consciousness = 2.00 }
+		remove_country_modifier = canada_compact_signatory
+		relation = {
+			who = WCA
+			value = -100
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				WCA = { badboy = 0.4 }
+			}
+			modifier = {
+				factor = 5
+				NOT = {
+					relation = {
+						who = WCA
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}

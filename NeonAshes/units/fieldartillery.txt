@@ -1,0 +1,40 @@
+fieldartillery = {
+	icon = 3
+	type = land
+	sprite = FieldArtillery
+	active = no
+	unit_type = support
+
+	#Core Abilities
+	priority = 15
+	max_strength = 3
+	default_organisation = 50
+	maximum_speed = 4.00
+	weighted_value = 3.0
+	floating_flag = no
+
+	#Building Costs
+	build_time = 180
+	build_cost = {
+		heavy_weapons = 12
+		electronic_components = 5
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		adv_ammunition = 0.2
+		fuel = 0.02
+		canned_food = 0.03			# 50,000 gal/day
+		clothing = 0.02
+		motor_vehicles = 0.1
+	}
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 3
+	defence = 2
+	discipline = 1.0
+	support = 2.0
+	maneuver = 3
+	siege = 3
+}

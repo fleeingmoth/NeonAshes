@@ -1,0 +1,992 @@
+# Format is Category-Subcategory-Tech-Number
+
+### ### 2110-2160 - Naval Doctrine & Tactics ### ### 
+
+### ### 2210-2260 - Naval Engineering ### ###
+
+### ### 2310-2360 - Astronautical Engineering ### ###
+### 2310-2319 - Sub-Orbital Flight ###
+
+country_event = {
+	id = 2310
+	title = "EVT_2310_NAME" # Establishment of the $COUNTRY$ Space Agency
+	desc = "EVT_2310_DESC"
+	picture = "space_program_start_pic"
+	trigger = {
+		suborbital_flight = 1			# We are thinking about space
+		NOT = {					# Do not trigger if you already have a space program
+			OR = {
+				has_country_modifier = space_program_lvl_0
+				has_country_modifier = space_program_lvl_1
+				has_country_modifier = space_program_lvl_2
+				has_country_modifier = space_program_lvl_3
+				has_country_modifier = space_program_lvl_4
+			}
+		}
+	} 
+
+	mean_time_to_happen = { months = 1 } #ASAP
+
+	option = {
+		name = "EVT_2310_OPTA" # Private Space Agency
+		add_country_modifier = {
+			name = space_program_lvl_0
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_2310_OPTB" # Public Space Agency
+		add_country_modifier = {
+			name = space_program_lvl_1
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_2310_OPTC" # Lightly-Funded Space Program
+		add_country_modifier = {
+			name = space_program_lvl_2
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_2310_OPTD" # Well-Funded Space Program
+		add_country_modifier = {
+			name = space_program_lvl_3
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_2310_OPTE" # Generously-Funded Space Program
+		add_country_modifier = {
+			name = space_program_lvl_4
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = 2311
+	title = "EVT_2311_NAME" # The First $COUNTRY_ADJ$ Satellite!
+	desc = "EVT_2311_DESC"
+	picture = "space_program_satellite_pic"
+	trigger = {
+		invention = sounding_rockets			# We have a big enough rocket to launch stuff
+		NOT = { invention = artificial_satellites }	# We already went through this
+		OR = {
+			any_core = { has_province_modifier = rocket_launch_site_location }
+			any_core = { has_province_modifier = space_center_location }
+			any_core = { has_province_modifier = spaceport_location }	# Launch sites
+		}
+	} 
+
+	mean_time_to_happen = {
+		months = 120		# 10 years
+		modifier = {
+			factor = 0.5	# 5 years
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 0.3	# 3 years
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 0.2	# 2 years
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 0.1	# 1 year
+			has_country_modifier = space_program_lvl_4
+		}
+		modifier = {
+			factor = 0.5	# Big rockets halve the time
+			invention = icbms
+		}
+		modifier = {
+			factor = 2.0	# Non-GP have it twice as hard
+			is_greater_power = no
+		}
+		modifier = {
+			factor = 2.0	# War makes it harder
+			war = yes
+		}
+		modifier = {
+			factor = 0.75	# Space center bonus - also triggers with spaceports
+			OR = {
+				any_core = { has_province_modifier = space_center_location }
+				any_core = { has_province_modifier = spaceport_location }
+			}
+		}
+		modifier = {
+			factor = 0.75	# Spaceport bonus
+			any_core = { has_province_modifier = spaceport_location }
+		}
+	}
+
+	option = {
+		name = "EVT_2311_OPTA" # For Science
+		years_of_research = 0.08 # A month's worth of research
+		add_country_modifier = {
+			name = satellite_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2311_OPTB" # For Country
+		prestige = 5
+		add_country_modifier = {
+			name = satellite_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2311_OPTC" # For All Mankind
+		badboy = -1
+		add_country_modifier = {
+			name = satellite_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2311_OPTD" # For the People
+		any_pop = { militancy = -1.00 }
+		any_pop = { consciousness = -0.50 }
+		add_country_modifier = {
+			name = satellite_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2311_OPTE" # For the Party
+		add_country_modifier = {
+			name = satellite_in_space
+			duration = 365
+		}
+		add_country_modifier = {
+			name = space_political_boost
+			duration = 365
+		}
+	}
+}
+country_event = {
+	id = 2312
+	title = "EVT_2312_NAME" # The First $COUNTRY_ADJ$ Creature in Space!
+	desc = "EVT_2312_DESC"
+	picture = "space_program_animal_pic"
+	trigger = {
+		invention = artificial_satellites			# We've put something small in orbit
+		NOT = { invention = suborbital_animal_spaceflight }	# We already went through this
+		OR = {
+			any_core = { has_province_modifier = rocket_launch_site_location }
+			any_core = { has_province_modifier = space_center_location }
+			any_core = { has_province_modifier = spaceport_location }	# Launch sites
+		}
+	}	
+
+	mean_time_to_happen = {
+		months = 120		# 10 years
+		modifier = {
+			factor = 0.5	# 5 years
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 0.3	# 3 years
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 0.2	# 2 years
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 0.1	# 1 year
+			has_country_modifier = space_program_lvl_4
+		}
+		modifier = {
+			factor = 0.5	# Big rockets halve the time
+			invention = icbms
+		}
+		modifier = {
+			factor = 2.0	# Non-GP have it twice as hard
+			is_greater_power = no
+		}
+		modifier = {
+			factor = 2.0	# War makes it harder
+			war = yes
+		}
+		modifier = {
+			factor = 0.75	# Space center bonus - also triggers with spaceports
+			OR = {
+				any_core = { has_province_modifier = space_center_location }
+				any_core = { has_province_modifier = spaceport_location }
+			}
+		}
+		modifier = {
+			factor = 0.75	# Spaceport bonus
+			any_core = { has_province_modifier = spaceport_location }
+		}
+	}
+
+	option = {
+		name = "EVT_2312_OPTA" # For Science
+		years_of_research = 0.12 # An month and a half's worth of research
+		add_country_modifier = {
+			name = animal_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2312_OPTB" # For Country
+		prestige = 10
+		add_country_modifier = {
+			name = animal_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2312_OPTC" # For All Mankind
+		badboy = -2
+		add_country_modifier = {
+			name = animal_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2312_OPTD" # For the People
+		any_pop = { militancy = -1.50 }
+		any_pop = { consciousness = -0.75 }
+		add_country_modifier = {
+			name = animal_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2312_OPTE" # For the Party
+		add_country_modifier = {
+			name = animal_in_space
+			duration = 365
+		}
+		add_country_modifier = {
+			name = space_political_boost
+			duration = 365
+		}
+	}
+}
+country_event = {
+	id = 2313
+	title = "EVT_2313_NAME" # The First $COUNTRY_ADJ$ in Space!
+	desc = "EVT_2313_DESC"
+	picture = "space_program_suborbital_pic"
+	trigger = {
+		invention = suborbital_animal_spaceflight		# We tried with animal first
+		NOT = { invention = suborbital_human_spaceflight }	# We already went through this
+		OR = {
+			any_core = { has_province_modifier = rocket_launch_site_location }
+			any_core = { has_province_modifier = space_center_location }
+			any_core = { has_province_modifier = spaceport_location }	# Launch sites
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.5	# 10 years
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 0.3	# 5 years
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 0.2	# 3 years
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 0.1	# 2 years
+			has_country_modifier = space_program_lvl_4
+		}
+		modifier = {
+			factor = 0.5	# Big rockets halve the time
+			invention = icbms
+		}
+		modifier = {
+			factor = 2.0	# Non-GP have it twice as hard
+			is_greater_power = no
+		}
+		modifier = {
+			factor = 2.0	# War makes it harder
+			war = yes
+		}
+		modifier = {
+			factor = 0.75	# Space center bonus - also triggers with spaceports
+			OR = {
+				any_core = { has_province_modifier = space_center_location }
+				any_core = { has_province_modifier = spaceport_location }
+			}
+		}
+		modifier = {
+			factor = 0.75	# Spaceport bonus
+			any_core = { has_province_modifier = spaceport_location }
+		}
+	}
+
+	option = {
+		name = "EVT_2313_OPTA" # For Science
+		years_of_research = 0.16 # Two month's worth of research
+		add_country_modifier = {
+			name = man_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2313_OPTB" # For Country
+		prestige = 15
+		add_country_modifier = {
+			name = man_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2313_OPTC" # For All Mankind
+		badboy = -3
+		add_country_modifier = {
+			name = man_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2313_OPTD" # For the People
+		any_pop = { militancy = -2.00 }
+		any_pop = { consciousness = -1.00 }
+		add_country_modifier = {
+			name = man_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2313_OPTE" # For the Party
+		add_country_modifier = {
+			name = man_in_space
+			duration = 365
+		}
+		add_country_modifier = {
+			name = space_political_boost
+			duration = 365
+		}
+	}
+}
+country_event = {
+	id = 2314
+	title = "EVT_2314_NAME" # Review of $COUNTRY$'s Space Agency Funding
+	desc = "EVT_2314_DESC"
+	picture = "space_program_review_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	option = {
+		name = "EVT_2310_OPTA" # Private Space Agency
+		add_country_modifier = {
+			name = space_program_lvl_0
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_2310_OPTB" # Public Space Agency
+		add_country_modifier = {
+			name = space_program_lvl_1
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_2310_OPTC" # Lightly-Funded Space Program
+		add_country_modifier = {
+			name = space_program_lvl_2
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_2310_OPTD" # Well-Funded Space Program
+		add_country_modifier = {
+			name = space_program_lvl_3
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_2310_OPTE" # Generously-Funded Space Program
+		add_country_modifier = {
+			name = space_program_lvl_4
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = 2318
+	title = "EVT_2318_NAME" # Satellite Launch Failure
+	desc = "EVT_2318_DESC"
+	picture = "space_program_satellite_fail_pic"
+	trigger = {
+		invention = sounding_rockets			# We have a big enough rocket to launch stuff
+		NOT = { invention = artificial_satellites }	# We already succeeded
+		OR = {
+			any_core = { has_province_modifier = rocket_launch_site_location }
+			any_core = { has_province_modifier = space_center_location }
+			any_core = { has_province_modifier = spaceport_location }	# Launch sites
+		}
+	} 
+
+	mean_time_to_happen = {
+		months = 60		# 5 years
+		modifier = {
+			factor = 0.5	# Non-GP have it harder
+			is_greater_power = no
+		}
+		modifier = {
+			factor = 0.5	# War makes things explode
+			war = yes
+		}
+	}
+
+	option = {
+		name = "EVT_2318_OPTA"		# It looked so easy on paper.
+		years_of_research = -0.08	# A month's worth of research, gone
+		prestige_factor = -0.01		# Bit embarassing innit
+	}
+}
+country_event = {
+	id = 2319
+	title = "EVT_2319_NAME" # Rocket Launch Failure
+	desc = "EVT_2319_DESC"
+	picture = "space_program_satellite_fail_pic"
+	trigger = {
+		invention = sounding_rockets			# We have a big enough rocket to launch stuff
+		invention = artificial_satellites		# Sometimes they explode
+		OR = {
+			any_core = { has_province_modifier = rocket_launch_site_location }
+			any_core = { has_province_modifier = space_center_location }
+			any_core = { has_province_modifier = spaceport_location }	# Launch sites
+		}
+	} 
+
+	mean_time_to_happen = {
+		months = 360		# 30 years
+		modifier = {
+			factor = 0.5	# War makes things explode
+			war = yes
+		}
+	}
+
+	option = {
+		name = "EVT_2319_OPTA"		# Conduct a thorough review of our launch platforms.
+		years_of_research = -0.08	# A month's worth of research
+	}
+	option = {
+		name = "EVT_2319_OPTB"		# We cannot let a few accidents tarnish our otherwise successful track record.
+		prestige_factor = -0.01		# Bit embarassing innit
+	}
+}
+
+### 2320-2329 - Orbital Flight ###
+
+country_event = {
+	id = 2321
+	title = "EVT_2321_NAME" # An $COUNTRY_ADJ$ in Orbit!
+	desc = "EVT_2321_DESC"
+	picture = "space_program_orbital_pic"
+	trigger = {
+		invention = suborbital_human_spaceflight	# We've sent people up
+		invention = small_and_med_launch_vehicles	# We have good rockets
+		NOT = { invention = orbital_human_spaceflight }	# We already went through this
+		OR = {
+			any_core = { has_province_modifier = rocket_launch_site_location }
+			any_core = { has_province_modifier = space_center_location }
+			any_core = { has_province_modifier = spaceport_location }	# Launch sites
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.5	# 10 years
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 0.3	# 5 years
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 0.2	# 3 years
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 0.1	# 2 years
+			has_country_modifier = space_program_lvl_4
+		}
+		modifier = {
+			factor = 2.0	# Non-GP have it twice as hard
+			is_greater_power = no
+		}
+		modifier = {
+			factor = 2.0	# War makes it harder
+			war = yes
+		}
+		modifier = {
+			factor = 0.75	# Space center bonus - also triggers with spaceports
+			OR = {
+				any_core = { has_province_modifier = space_center_location }
+				any_core = { has_province_modifier = spaceport_location }
+			}
+		}
+		modifier = {
+			factor = 0.75	# Spaceport bonus
+			any_core = { has_province_modifier = spaceport_location }
+		}
+	}
+
+	option = {
+		name = "EVT_2321_OPTA" # For Science
+		years_of_research = 0.20 # Two and a half months' worth of research
+		add_country_modifier = {
+			name = man_in_orbit
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2321_OPTB" # For Country
+		prestige = 20
+		add_country_modifier = {
+			name = man_in_orbit
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2321_OPTC" # For All Mankind
+		badboy = -4
+		add_country_modifier = {
+			name = man_in_orbit
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2321_OPTD" # For the People
+		any_pop = { militancy = -2.50 }
+		any_pop = { consciousness = -1.25 }
+		add_country_modifier = {
+			name = man_in_orbit
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2321_OPTE" # For the Party
+		add_country_modifier = {
+			name = man_in_orbit
+			duration = 365
+		}
+		add_country_modifier = {
+			name = space_political_boost
+			duration = 365
+		}
+	}
+}
+country_event = {
+	id = 2322
+	title = "EVT_2322_NAME" # A Rendezvous in Space
+	desc = "EVT_2322_DESC"
+	picture = "space_program_docking_pic"
+	trigger = {
+		invention = orbital_human_spaceflight		# We've sent people up
+		invention = small_and_med_launch_vehicles	# We have good rockets
+		NOT = { invention = space_docking }		# We already went through this
+		OR = {
+			any_core = { has_province_modifier = rocket_launch_site_location }
+			any_core = { has_province_modifier = space_center_location }
+			any_core = { has_province_modifier = spaceport_location }	# Launch sites
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.5	# 10 years
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 0.3	# 5 years
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 0.2	# 3 years
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 0.1	# 2 years
+			has_country_modifier = space_program_lvl_4
+		}
+		modifier = {
+			factor = 2.0	# Non-GP have it twice as hard
+			is_greater_power = no
+		}
+		modifier = {
+			factor = 2.0	# War makes it harder
+			war = yes
+		}
+		modifier = {
+			factor = 0.75	# Space center bonus - also triggers with spaceports
+			OR = {
+				any_core = { has_province_modifier = space_center_location }
+				any_core = { has_province_modifier = spaceport_location }
+			}
+		}
+		modifier = {
+			factor = 0.75	# Spaceport bonus
+			any_core = { has_province_modifier = spaceport_location }
+		}
+	}
+
+	option = {
+		name = "EVT_2322_OPTA" # For Science
+		years_of_research = 0.25 # Three months' worth of research
+		add_country_modifier = {
+			name = docking_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2322_OPTB" # For Country
+		prestige = 25
+		add_country_modifier = {
+			name = docking_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2322_OPTC" # For All Mankind
+		badboy = -5
+		add_country_modifier = {
+			name = docking_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2322_OPTD" # For the People
+		any_pop = { militancy = -3.00 }
+		any_pop = { consciousness = -1.50 }
+		add_country_modifier = {
+			name = docking_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2322_OPTE" # For the Party
+		add_country_modifier = {
+			name = docking_in_space
+			duration = 365
+		}
+		add_country_modifier = {
+			name = space_political_boost
+			duration = 365
+		}
+	}
+}
+country_event = {
+	id = 2323
+	title = "EVT_2323_NAME" # An $COUNTRY_ADJ$ Lunar Probe
+	desc = "EVT_2323_DESC"
+	picture = "space_program_lunar_probe_pic"
+	trigger = {
+		invention = artificial_satellites		# We got sats
+		invention = small_and_med_launch_vehicles	# We have good rockets
+		NOT = { invention = lunar_space_probe }		# We already went through this
+		OR = {
+			any_core = { has_province_modifier = rocket_launch_site_location }
+			any_core = { has_province_modifier = space_center_location }
+			any_core = { has_province_modifier = spaceport_location }	# Launch sites
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.5	# 10 years
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 0.3	# 5 years
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 0.2	# 3 years
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 0.1	# 2 years
+			has_country_modifier = space_program_lvl_4
+		}
+		modifier = {
+			factor = 2.0	# Non-GP have it twice as hard
+			is_greater_power = no
+		}
+		modifier = {
+			factor = 2.0	# War makes it harder
+			war = yes
+		}
+		modifier = {
+			factor = 0.75	# Space center bonus - also triggers with spaceports
+			OR = {
+				any_core = { has_province_modifier = space_center_location }
+				any_core = { has_province_modifier = spaceport_location }
+			}
+		}
+		modifier = {
+			factor = 0.75	# Spaceport bonus
+			any_core = { has_province_modifier = spaceport_location }
+		}
+	}
+
+	option = {
+		name = "EVT_2323_OPTA" # For Science
+		years_of_research = 0.25 # Three months' worth of research
+		add_country_modifier = {
+			name = docking_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2323_OPTB" # For Country
+		prestige = 25
+		add_country_modifier = {
+			name = docking_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2323_OPTC" # For All Mankind
+		badboy = -5
+		add_country_modifier = {
+			name = docking_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2323_OPTD" # For the People
+		any_pop = { militancy = -3.00 }
+		any_pop = { consciousness = -1.50 }
+		add_country_modifier = {
+			name = docking_in_space
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2323_OPTE" # For the Party
+		add_country_modifier = {
+			name = docking_in_space
+			duration = 365
+		}
+		add_country_modifier = {
+			name = space_political_boost
+			duration = 365
+		}
+	}
+}
+
+### 2330-2339 - Interplanetary Flight ###
+
+country_event = {
+	id = 2331
+	title = "EVT_2331_NAME" # Manned Lunar Orbit
+	desc = "EVT_2331_DESC"
+	picture = "space_program_lunar_orbit_pic"
+	trigger = {
+		invention = space_docking			# We can rendezvous in space
+		invention = lunar_space_probe			# Surveyed the Moon
+		invention = heavy_and_sh_launch_vehicles	# Big rockets for big mission
+		NOT = { invention = lunar_orbital_spaceflight }	# We already went through this
+		OR = {
+			any_core = { has_province_modifier = rocket_launch_site_location }
+			any_core = { has_province_modifier = space_center_location }
+			any_core = { has_province_modifier = spaceport_location }	# Launch sites
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.5	# 10 years
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 0.3	# 5 years
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 0.2	# 3 years
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 0.1	# 2 years
+			has_country_modifier = space_program_lvl_4
+		}
+		modifier = {
+			factor = 2.0	# Non-GP have it twice as hard
+			is_greater_power = no
+		}
+		modifier = {
+			factor = 2.0	# War makes it harder
+			war = yes
+		}
+		modifier = {
+			factor = 0.75	# Space center bonus - also triggers with spaceports
+			OR = {
+				any_core = { has_province_modifier = space_center_location }
+				any_core = { has_province_modifier = spaceport_location }
+			}
+		}
+		modifier = {
+			factor = 0.75	# Spaceport bonus
+			any_core = { has_province_modifier = spaceport_location }
+		}
+	}
+
+	option = {
+		name = "EVT_2331_OPTA" # For Science
+		years_of_research = 0.30 # Three and a half months' worth of research
+		add_country_modifier = {
+			name = manned_lunar_orbit
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2331_OPTB" # For Country
+		prestige = 30
+		add_country_modifier = {
+			name = manned_lunar_orbit
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2331_OPTC" # For All Mankind
+		badboy = -6
+		add_country_modifier = {
+			name = manned_lunar_orbit
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2331_OPTD" # For the People
+		any_pop = { militancy = -3.50 }
+		any_pop = { consciousness = -1.75 }
+		add_country_modifier = {
+			name = manned_lunar_orbit
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2331_OPTE" # For the Party
+		add_country_modifier = {
+			name = manned_lunar_orbit
+			duration = 365
+		}
+		add_country_modifier = {
+			name = space_political_boost
+			duration = 365
+		}
+	}
+}
+country_event = {
+	id = 2332
+	title = "EVT_2332_NAME" # Manned Lunar Landing
+	desc = "EVT_2332_DESC"
+	picture = "space_program_lunar_landing_pic"
+	trigger = {
+		invention = lunar_orbital_spaceflight		# We've already orbited
+		NOT = { invention = lunar_landing }		# We already went through this
+		OR = {
+			any_core = { has_province_modifier = rocket_launch_site_location }
+			any_core = { has_province_modifier = space_center_location }
+			any_core = { has_province_modifier = spaceport_location }	# Launch sites
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120		# 10 years
+		modifier = {
+			factor = 0.5	# 5 years
+			has_country_modifier = space_program_lvl_1
+		}
+		modifier = {
+			factor = 0.3	# 3 years
+			has_country_modifier = space_program_lvl_2
+		}
+		modifier = {
+			factor = 0.2	# 2 years
+			has_country_modifier = space_program_lvl_3
+		}
+		modifier = {
+			factor = 0.1	# 1 year
+			has_country_modifier = space_program_lvl_4
+		}
+		modifier = {
+			factor = 2.0	# Non-GP have it twice as hard
+			is_greater_power = no
+		}
+		modifier = {
+			factor = 2.0	# War makes it harder
+			war = yes
+		}
+		modifier = {
+			factor = 0.75	# Space center bonus - also triggers with spaceports
+			OR = {
+				any_core = { has_province_modifier = space_center_location }
+				any_core = { has_province_modifier = spaceport_location }
+			}
+		}
+		modifier = {
+			factor = 0.75	# Spaceport bonus
+			any_core = { has_province_modifier = spaceport_location }
+		}
+	}
+
+	option = {
+		name = "EVT_2332_OPTA" # For Science
+		years_of_research = 0.33 # Four months' worth of research
+		add_country_modifier = {
+			name = manned_lunar_landing
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2332_OPTB" # For Country
+		prestige = 40
+		add_country_modifier = {
+			name = manned_lunar_landing
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2332_OPTC" # For All Mankind
+		badboy = -7
+		add_country_modifier = {
+			name = manned_lunar_landing
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2332_OPTD" # For the People
+		any_pop = { militancy = -4.00 }
+		any_pop = { consciousness = -2.00 }
+		add_country_modifier = {
+			name = manned_lunar_landing
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVT_2332_OPTE" # For the Party
+		add_country_modifier = {
+			name = manned_lunar_landing
+			duration = 365
+		}
+		add_country_modifier = {
+			name = space_political_boost
+			duration = 365
+		}
+	}
+}
+#2410-2460 - Aeronautical Engineering
+
+#2510-2560 - Aerospace Doctrine

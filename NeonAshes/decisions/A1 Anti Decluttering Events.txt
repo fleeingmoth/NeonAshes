@@ -1,0 +1,66 @@
+political_decisions = {
+
+### Toggle Rocket Sites ###
+
+	toggle_hide_rocket_sites = {					# Hide the Rocket Sites Decisions
+		news = no
+		picture = hide_rocket_sites_smallpic
+		potential = {
+			suborbital_flight = 1				# Suborbital Flight to see
+			NOT = { has_country_flag = hide_rocket_sites }	# We're not hiding them
+		}
+		allow = { orbital_flight = 1 }				# Orbital Flight to take
+		effect = { set_country_flag = hide_rocket_sites }	# Hide them rocket sites
+		ai_will_do = { factor = 0 }
+	}
+	toggle_show_rocket_sites = {					# Show the Rocket Sites Decisions
+		news = no
+		picture = show_rocket_sites_smallpic
+		potential = {
+			suborbital_flight = 1				# Suborbital Flight to see
+			has_country_flag = hide_rocket_sites		# We are hiding them
+		}
+		allow = { orbital_flight = 1 }				# Orbital Flight to take
+		effect = { clr_country_flag = hide_rocket_sites }	# Show them rocket sites
+		ai_will_do = { factor = 0 }
+	}
+
+### Toggle Propaganda Campaigns ###
+
+	toggle_hide_propaganda = {					# Hide the Propaganda Decisions
+		news = no
+		picture = propaganda_hide_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting to see
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			NOT = { has_country_flag = hide_propaganda }	# We're not hiding them
+		}
+		allow = { broadcasting = 1 }				# Broadcasting to take (redundant)
+		effect = { set_country_flag = hide_propaganda }		# Hide them propagandas
+		ai_will_do = { factor = 0 }
+	}
+	toggle_show_propaganda = {					# Show the Propaganda Decisions
+		news = no
+		picture = propaganda_show_smallpic
+		potential = {
+			broadcasting = 1				# Broadcasting to see
+			OR = {						# Has an Defense-Intelligence Apparatus
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+			has_country_flag = hide_propaganda		# We are hiding them
+		}
+		allow = { broadcasting = 1 }				# Broadcasting to take (redundant)
+		effect = { clr_country_flag = hide_propaganda }		# Show them propagandas
+		ai_will_do = { factor = 0 }
+	}
+}

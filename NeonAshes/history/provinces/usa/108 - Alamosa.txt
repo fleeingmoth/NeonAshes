@@ -1,0 +1,5 @@
+owner = IMT
+controller = IMT
+add_core = IMT
+trade_goods = other_metals
+life_rating = 20

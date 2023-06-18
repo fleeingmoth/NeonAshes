@@ -1,0 +1,347 @@
+### ### Psychology ### ###
+### Cognitive Psychology ###
+
+the_cognitive_process = { # The Cognitive Process
+	limit = { cognitive_psychology = 1 }
+	chance = {
+		base = 5 		# Very high chance by itself
+		modifier = {
+			factor = 2
+			year = 1990	# Running behind
+		}
+		modifier = {
+			factor = 2
+			year = 2010	# Running really behind
+		}
+	}
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = -0.01
+}
+dual_coding_theory = { # Dual-Coding Theory
+	limit = { cognitive_psychology = 1 }
+	chance = {
+		base = 1 					# Very low chance by itself
+		modifier = {
+			factor = 1
+			literacy = 0.2				# Good tertiary education
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.5				# Great tertiary education
+		}
+		modifier = {
+			factor = 1
+			school_reforms = low_schools		# Basic schools
+		}
+		modifier = {
+			factor = 2
+			school_reforms = acceptable_schools	# Good schools
+		}
+		modifier = {
+			factor = 3
+			school_reforms = good_schools		# Excellent schools
+		}
+	}
+	education_efficiency_modifier = 0.05
+}
+selective_exposure_theory = { # Selective Exposure Theory
+	limit = { cognitive_psychology = 1 }
+	chance = {
+		base = 0 			# Has other requirements
+		modifier = {
+			factor = 3
+			broadcasting = 1	# Broadcasting
+		}
+		modifier = {
+			factor = 2
+			digital_media = 1	# Digital media
+		}
+		modifier = {
+			factor = 2
+			the_internet = 1	# The Internet
+		}
+	}
+	global_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = -0.01
+}
+feminist_psychology = { # Feminist Psychology
+	limit = { cognitive_psychology = 1 }
+	chance = {
+		base = 1 					# Very low chance
+		modifier = {
+			factor = 2
+			postmodernism = 1			# Socoiological aspects
+		}
+		modifier = {					# Autocrats and libertarians dislike this
+			factor = -1
+			OR = {
+				government = communist_state
+				government = socialist_dictatorship
+				government = minarchist_state
+				government = auth_democracy
+			}
+		}
+		modifier = {					# Nationalists restrict this
+			factor = -2
+			OR = {
+				government = nat_dictatorship
+				government = ultranat_dictatorship
+			}
+		}
+		modifier = {					# Traditionalists ban this
+			factor = -3
+			government = theo_dictatorship
+		}
+	}
+	effect = { plurality = 0.05 }
+}
+cognitive_behavioral_therapy = { # Cognitive Behavioral Therapy
+	limit = { cognitive_psychology = 1 }
+	chance = {
+		base = 0 					# Has other requirements
+		modifier = {
+			factor = 3
+			invention = the_cognitive_process	# Cognitive Psychology bases
+		}
+	}
+	global_pop_militancy_modifier = -0.01
+	goods_demand = -0.02
+}
+
+### Evolutionary Psychology ###
+
+applied_evolutionary_biology = { # Applied Evolutionary Biology
+	limit = { evolutionary_psychology = 1 }
+	chance = {
+		base = 2 			# Low chance by itself
+		modifier = {
+			factor = 2
+			modern_medicine = 1	# Evo-biology
+		}
+		modifier = {
+			factor = 1
+			year = 2010		# Running behind
+		}
+		modifier = {
+			factor = 1
+			year = 2030		# Running really behind
+		}
+	}
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = -0.01
+}
+dual_inheritance_theory = { # Dual Inheritance Theory
+	limit = { evolutionary_psychology = 1 }
+	chance = {
+		base = 0					# Needs other requirements
+		modifier = {
+			factor = 1
+			literacy = 0.2				# Good tertiary education
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.5				# Great tertiary education
+		}
+		modifier = {
+			factor = 1
+			school_reforms = low_schools		# Basic schools
+		}
+		modifier = {
+			factor = 2
+			school_reforms = acceptable_schools	# Good schools
+		}
+		modifier = {
+			factor = 3
+			school_reforms = good_schools		# Excellent schools
+		}
+	}
+	education_efficiency_modifier = 0.05
+}
+echo_chamber_analysis = { # Echo Chamber Analysis
+	limit = { evolutionary_psychology = 1 }
+	chance = {
+		base = 0 			# Has other requirements
+		modifier = {
+			factor = 3
+			digital_media = 1	# Digital media
+		}
+		modifier = {
+			factor = 2
+			the_internet = 1	# The Internet
+		}
+		modifier = {
+			factor = 2
+			web_20 = 1		# Web 2.0.
+		}
+	}
+	global_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = -0.01
+}
+gender_psychology = { # Gender Psychology
+	limit = { evolutionary_psychology = 1 }
+	chance = {
+		base = 1 					# Very low chance
+		modifier = {
+			factor = 2
+			reconstructivism = 1 			# Socoiological aspects
+		}
+		modifier = {					# Autocrats and libertarians dislike this
+			factor = -1
+			OR = {
+				government = communist_state
+				government = socialist_dictatorship
+				government = minarchist_state
+				government = auth_democracy
+			}
+		}
+		modifier = {					# Nationalists restrict this
+			factor = -2
+			OR = {
+				government = nat_dictatorship
+				government = ultranat_dictatorship
+			}
+		}
+		modifier = {					# Traditionalists ban this
+			factor = -3
+			government = theo_dictatorship
+		}
+		modifier = {					# Feminist Psychology is a prereq
+			factor = -3
+			NOT = { invention = feminist_psychology }
+		}
+	}
+	effect = { plurality = 0.05 }
+}
+multimodal_therapy = { # Multimodal Therapy
+	limit = { evolutionary_psychology = 1 }
+	chance = {
+		base = 0 						# Has other requirements
+		modifier = {
+			factor = 3
+			invention = applied_evolutionary_biology	# Evolutionary Psychology bases
+		}
+	}
+	global_pop_militancy_modifier = -0.01
+	goods_demand = -0.02
+}
+
+### Digital Psychology ###
+
+extended_mind_thesis = { # The Extended Mind Thesis
+	limit = { digital_psychology = 1 }
+	chance = {
+		base = 1 			# Very low chance by itself
+		modifier = {
+			factor = 2
+			digital_media = 1	# Digital Media
+		}
+		modifier = {
+			factor = 2
+			mobile_computing = 1	# Mobile Computing
+		}
+		modifier = {
+			factor = 1
+			year = 2030		# Running behind
+		}
+		modifier = {
+			factor = 1
+			year = 2050		# Running really behind
+		}
+	}
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = -0.02
+}
+evidence_based_education = { # Evidence-based Education
+	limit = { digital_psychology = 1 }
+	chance = {
+		base = 0					# Needs other requirements
+		modifier = {
+			factor = 1
+			literacy = 0.2				# Good tertiary education
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.5				# Great tertiary education
+		}
+		modifier = {
+			factor = 1
+			school_reforms = low_schools		# Basic schools
+		}
+		modifier = {
+			factor = 2
+			school_reforms = acceptable_schools	# Good schools
+		}
+		modifier = {
+			factor = 3
+			school_reforms = good_schools		# Excellent schools
+		}
+	}
+	education_efficiency_modifier = 0.05
+}
+media_filter_bubble = { # Media Filter Bubble
+	limit = { digital_psychology = 1 }
+	chance = {
+		base = 0 			# Has other requirements
+		modifier = {
+			factor = 3
+			the_internet = 1	# The Internet
+		}
+		modifier = {
+			factor = 2
+			web_20 = 1		# Web 2.0.
+		}
+		modifier = {
+			factor = 2
+			augmented_reality = 1	# Augmented Reality
+		}
+	}
+	global_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = -0.02
+}
+transgender_psychology = { # Transgender Psychology
+	limit = { digital_psychology = 1 }
+	chance = {
+		base = 1 					# Very low chance
+		modifier = {
+			factor = 2
+			digital_sociology = 1			# Socoiological aspects
+		}
+		modifier = {					# Autocrats and libertarians dislike this
+			factor = -1
+			OR = {
+				government = communist_state
+				government = socialist_dictatorship
+				government = minarchist_state
+				government = auth_democracy
+			}
+		}
+		modifier = {					# Nationalists restrict this
+			factor = -2
+			OR = {
+				government = nat_dictatorship
+				government = ultranat_dictatorship
+			}
+		}
+		modifier = {					# Traditionalists ban this
+			factor = -3
+			government = theo_dictatorship
+		}
+		modifier = {
+			factor = -3
+			NOT = { invention = gender_psychology }	# Gender Psychology is a prereq
+		}
+	}
+	effect = { plurality = 0.05 }
+}
+online_counseling = { # Online Counseling
+	limit = { digital_psychology = 1 }
+	chance = {
+		base = 0 					# Has other requirements
+		modifier = {
+			factor = 3
+			invention = extended_mind_thesis	# Digital Psychology bases
+		}
+	}
+	global_pop_militancy_modifier = -0.01
+	goods_demand = -0.03
+}

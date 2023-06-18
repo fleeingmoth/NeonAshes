@@ -1,0 +1,3 @@
+color = { 154  132  126 } #Rebel Grey
+graphical_culture = Generic
+

@@ -1,0 +1,5 @@
+owner = MAT
+controller = MAT
+add_core = MAT
+trade_goods = fibre_crops
+life_rating = 30

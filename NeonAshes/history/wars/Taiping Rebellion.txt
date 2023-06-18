@@ -1,0 +1,22 @@
+#name = "Taiping Rebellion"
+
+1861.6.30 = {
+	add_attacker = ASK
+	add_defender = BCB
+
+	war_goal = {
+		casus_belli = civil_war
+		actor = ASK
+		receiver = BCB
+	}
+	war_goal = {
+		casus_belli = civil_war
+		actor = BCB
+		receiver = ASK
+	}
+
+}
+1865.12.31 = {
+	rem_attacker = ASK
+	rem_defender = BCB
+}

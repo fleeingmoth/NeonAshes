@@ -1,0 +1,5 @@
+owner = UMW
+controller = UMW
+add_core = UMW
+trade_goods = grain
+life_rating = 25

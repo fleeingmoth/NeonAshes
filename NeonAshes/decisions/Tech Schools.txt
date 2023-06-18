@@ -1,0 +1,280 @@
+political_decisions = {
+	rethink_academia = { # Rethink our Academia (reset!)
+		news = yes
+		news_desc_long = "rethink_academia_NEWS_LONG"
+		news_desc_medium = "rethink_academia_NEWS_MEDIUM"
+		news_desc_short = "rethink_academia_NEWS_SHORT"
+		picture = academia_reform_smallpic
+		potential = { NOT = { tech_school = traditional_academic } }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+		}
+		effect = {
+			tech_school = traditional_academic
+			prestige = -1
+			add_country_modifier = {
+				name = tech_school_reform
+				duration = 180
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	traditional_academic_expansion = { # Focus our Research (decision)
+		news = yes
+		news_desc_long = "traditional_academic_expansion_NEWS_LONG"
+		news_desc_medium = "traditional_academic_expansion_NEWS_MEDIUM"
+		news_desc_short = "traditional_academic_expansion_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = traditional_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 1 Army Tech
+				third_gen_warfare = 1
+				mass_produced_armament = 1
+				arms_industry = 1
+				infantry_fighting_vehicles = 1
+				professional_army = 1
+			}
+			OR = {	# Lvl 1 Naval Aerospace Tech
+				green_water_navy = 1
+				shipbuilding_industry = 1
+				suborbital_flight = 1
+				aerospace_industry = 1
+				airspace_control = 1
+			}
+			OR = {	# Lvl 1 Commerce Tech
+				modern_banking = 1
+				fiat_currency = 1
+				new_classical_economics = 1
+				laissez_faire_economics = 1
+				modern_corporate_structure = 1
+			}
+			OR = {	# Lvl 1 Culture Tech
+				broadcasting = 1
+				microprocessors = 1
+				postmodernism = 1
+				realism = 1
+				cognitive_psychology = 1
+			}
+			OR = {	# Lvl 1 Industry Tech
+				fossil_fuel_power = 1
+				modern_manufacturing = 1
+				polymers = 1
+				modern_transportation = 1
+				modern_medicine = 1
+			}
+		}
+		effect = {
+			country_event = { # Focus our Research (event)
+				id = 7000
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	military_school_focus = { # Focus our Military Research
+		news = yes
+		news_desc_long = "military_school_focus_NEWS_LONG"
+		news_desc_medium = "military_school_focus_NEWS_MEDIUM"
+		news_desc_short = "military_school_focus_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = military_focus }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 2 Army Tech
+				fourth_gen_warfare = 1
+				composite_armament = 1
+				rocket_artillery = 1
+				light_tanks = 1
+				command_and_control = 1
+			}
+			OR = {	# Lvl 2 Naval Aerospace Tech
+				blue_water_navy = 1
+				modern_naval_engineering = 1
+				orbital_flight = 1
+				fly_by_wire = 1
+				global_strike_command = 1
+			}
+		}
+		effect = {
+			country_event = { # Military Focus Schools
+				id = 7010
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	economic_school_focus = { # Focus our Development Research
+		news = yes
+		news_desc_long = "economic_school_focus_NEWS_LONG"
+		news_desc_medium = "economic_school_focus_NEWS_MEDIUM"
+		news_desc_short = "economic_school_focus_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = economic_focus }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 2 Commerce Tech
+				modern_financial_institutions = 1
+				digital_currency = 1
+				new_keynesian_economics = 1
+				planned_economies = 1
+				modern_cybernetics = 1
+			}
+			OR = {	# Lvl 2 Culture Tech
+				digital_media = 1
+				mobile_computing = 1
+				reconstructivism = 1
+				institutionalism = 1
+				evolutionary_psychology = 1
+			}
+			OR = {	# Lvl 2 Industry Tech
+				nuclear_energy = 1
+				digital_automation = 1
+				modern_composites = 1
+				comms_infrastructure = 1
+				genetic_modification = 1
+			}
+		}
+		effect = {
+			country_event = { # Development Focus Schools
+				id = 7011
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	refine_defense_n_deterrence = { # Refine our Defense and Deterrence
+		news = yes
+		news_desc_long = "refine_defense_n_deterrence_NEWS_LONG"
+		news_desc_medium = "refine_defense_n_deterrence_NEWS_MEDIUM"
+		news_desc_short = "refine_defense_n_deterrence_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = defense_n_deterrence_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 3 Army Tech
+				fifth_gen_warfare = 1
+				electronic_weapons = 1
+				precision_guided_munitions = 1
+				main_battle_tanks = 1
+				digital_battle_command = 1
+			}
+		}
+		effect = {
+			country_event = { # Defense and Deterrence Refinement
+				id = 7020
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	refine_power_projection = { # Refine our Power Projection
+		news = yes
+		news_desc_long = "refine_power_projection_NEWS_LONG"
+		news_desc_medium = "refine_power_projection_NEWS_MEDIUM"
+		news_desc_short = "refine_power_projection_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = power_projection_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 3 Naval Aerospace Tech
+				regional_power_projection = 1
+				composite_hull_superstructure = 1
+				interplanetary_flight = 1
+				modern_avionics = 1
+				full_spectrum_dominance = 1
+			}
+		}
+		effect = {
+			country_event = { # Power Projection Refinement
+				id = 7021
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	refine_economics = { # Refine our Economic Development
+		news = yes
+		news_desc_long = "refine_economics_NEWS_LONG"
+		news_desc_medium = "refine_economics_NEWS_MEDIUM"
+		news_desc_short = "refine_economics_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = economics_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 3 Commerce Tech
+				international_banking = 1
+				cryptocurrencies = 1
+				modern_political_economy = 1
+				behavioral_economics = 1
+				digital_management = 1
+			}
+		}
+		effect = {
+			country_event = { # Economic Development Refinement
+				id = 7022
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	refine_sociology = { # Refine our Social Development
+		news = yes
+		news_desc_long = "refine_sociology_NEWS_LONG"
+		news_desc_medium = "refine_sociology_NEWS_MEDIUM"
+		news_desc_short = "refine_sociology_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = sociology_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 3 Culture Tech
+				the_internet = 1
+				machine_intelligence = 1
+				digital_sociology = 1
+				new_international_system = 1
+				digital_psychology = 1
+			}
+		}
+		effect = {
+			country_event = { # Sociology Development Refinement
+				id = 7023
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	refine_industrial = { # Refine our Industrial Development
+		news = yes
+		news_desc_long = "refine_industrial_NEWS_LONG"
+		news_desc_medium = "refine_industrial_NEWS_MEDIUM"
+		news_desc_short = "refine_industrial_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = industrial_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 3 Industry Tech
+				renewable_energy = 1
+				3d_printing = 1
+				metamaterials = 1
+				globalized_infrastructure = 1
+				bioengineering = 1
+			}
+		}
+		effect = {
+			country_event = { # Industrial Development Refinement
+				id = 7024
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+}

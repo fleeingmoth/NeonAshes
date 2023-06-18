@@ -1,0 +1,31 @@
+political_decisions = {
+	military_reorganization_1 = {
+		news = yes
+		news_desc_long = "military_reorganization_1_NEWS_LONG"
+		news_desc_medium = "military_reorganization_1_NEWS_MEDIUM"
+		news_desc_short = "military_reorganization_1_NEWS_SHORT"
+		picture = army_reorganization_smallpic
+		potential = {
+			third_gen_warfare = 1
+			NOT = { fourth_gen_warfare = 1 }
+			OR = {
+				has_country_modifier = air_land_battle_doctrine
+				has_country_modifier = deep_battle_doctrine
+				has_country_modifier = peoples_war_doctrine
+			}
+		}
+		allow = {
+			NOT = { has_country_modifier = third_gen_military_reorganization }
+		}
+		effect = {
+			remove_country_modifier = air_land_battle_doctrine
+			remove_country_modifier = deep_battle_doctrine
+			remove_country_modifier = peoples_war_doctrine
+			add_country_modifier = {
+				name = third_gen_military_reorganization
+				duration = 720
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

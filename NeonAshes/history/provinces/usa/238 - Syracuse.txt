@@ -1,0 +1,4 @@
+owner = NEN
+controller = NEN
+trade_goods = fruit
+life_rating = 30

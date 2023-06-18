@@ -1,0 +1,10 @@
+owner = DIX
+controller = DIX
+add_core = DIX
+trade_goods = oilseed_crops
+life_rating = 30
+state_building = {
+	level = 1
+	building = steel_mill
+	upgrade = yes
+}

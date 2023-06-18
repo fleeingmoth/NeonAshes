@@ -1,0 +1,71 @@
+#Central America 
+
+#Belize (100,000 real / 20,000 pops)
+2190 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 1000
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 500
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 500
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 13000
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 3000
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 500
+}
+
+
+
+}
+
+#Guatemala
+#Sayaxche (Maya)
+
+#Flores (Border with Chiapas)
+
+#Guatemala City
+
+#Puerto Barrios
+
+
+#El Salvador
+#San Salvador 
+
+#SM
+
+#Honduras
+
+#Nicaragua
+
+#Costa Rica
+
+#Panama

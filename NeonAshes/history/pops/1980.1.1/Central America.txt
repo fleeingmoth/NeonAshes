@@ -47,14 +47,18 @@
 
 }
 
-#Guatemala
-#Sayaxche (Maya)
+#Guatemala (7,001,000 real, 1,400,200 pops)
+#Sayaxche (Maya) Peten department (4.5% of 2018 data) (5) (Total 2018 = 15,806,675) (5%)
+#70,010 pops #timber
 
-#Flores (Border with Chiapas)
+#Flores (Border with Chiapas) (7, 10, 14, 15, 17, 19, 20, 21) (Quiche, Huehuetenango, Quetzaltenango, Retalhuleu, San Marcos, Solola, Suchitepequez, Totonicapan.) (35.8897%) (36%)
+#504,072 pops #wheat, sheep. sheep -> antimony (other metals)
 
-#Guatemala City
+#Guatemala City (3, 8, 9, 12, 13, 16, 18) (Chimaltenango, Escuintla, Guatemala, Jalapa, Jutiapa, Sacatepequez, Santa Rosa.) (37.467%) (41%)
+#574,082 pops
 
-#Puerto Barrios
+#Puerto Barrios (1, 2, 4, 6, 11, 22) (Alta Verapaz, Baja Verapaz, El Progreso, Izabal, Zacapa.) (17.46%) (18%)
+#252,036 pops
 
 
 #El Salvador

@@ -1,5 +1,4 @@
 #Central America 
-
 #Belize (100,000 real / 20,000 pops)
 2190 = {
 	aristocrats = {
@@ -41,24 +40,225 @@
 		culture = central_american
 		religion = protestant
 		size = 500
-}
-
-
-
+	}
 }
 
 #Guatemala (7,001,000 real, 1,400,200 pops)
 #Sayaxche (Maya) Peten department (4.5% of 2018 data) (5) (Total 2018 = 15,806,675) (5%)
-#70,010 pops #timber
+#70,010 pops #timber 70,010
+2189 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 2710
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 250
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 9000
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 500
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 1500
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 100
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 2000
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 52950
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 1000
+	}
+}
 
-#Flores (Border with Chiapas) (7, 10, 14, 15, 17, 19, 20, 21) (Quiche, Huehuetenango, Quetzaltenango, Retalhuleu, San Marcos, Solola, Suchitepequez, Totonicapan.) (35.8897%) (36%)
-#504,072 pops #wheat, sheep. sheep -> antimony (other metals)
 
 #Guatemala City (3, 8, 9, 12, 13, 16, 18) (Chimaltenango, Escuintla, Guatemala, Jalapa, Jutiapa, Sacatepequez, Santa Rosa.) (37.467%) (41%)
-#574,082 pops
+#574,082 pops 574,080 not done
+2186 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 13000
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 180000
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 8000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 20000
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 1500
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 35000
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 300000
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 6580
+	}
+}
+
+#Flores (Border with Chiapas) (7, 10, 14, 15, 17, 19, 20, 21) (Quiche, Huehuetenango, Quetzaltenango, Retalhuleu, San Marcos, Solola, Suchitepequez, Totonicapan.) (35.8897%) (36%)
+#504,072 pops #wheat, sheep. sheep -> antimony (other_metals) 504,070 not done yet
+2187 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 6000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 180000
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 10000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 3000
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 15000
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 2000
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 37000
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 248000
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 10070
+	}
+}
 
 #Puerto Barrios (1, 2, 4, 6, 11, 22) (Alta Verapaz, Baja Verapaz, El Progreso, Izabal, Zacapa.) (17.46%) (18%)
-#252,036 pops
+#252,036 pops 252,040 not done
+2188 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 50000
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 6000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 7000
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 8000
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 3000
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 8000
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 148000
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 15040
+	}
+}
 
 
 #El Salvador

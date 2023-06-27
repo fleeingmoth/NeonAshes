@@ -81,9 +81,9 @@ YUC = "countries/Yucatan.txt"
 #ELS = "countries/El Salvador.txt"
 #HON = "countries/Honduras.txt"
 #NIC = "countries/Nicaragua.txt"
-#MSK = "countries/Miskito.txt" #Miskito tag? this would be during Sandinista times
 #COS = "countries/Costa Rica.txt"
-#PNM = "countries/Panama.txt" #Panama Canal Zone?
+#PNM = "countries/Panama.txt"
+#PCZ = "countries/Panama Canal Zone.txt"
 
 # Latin and South America - Caribbean
 

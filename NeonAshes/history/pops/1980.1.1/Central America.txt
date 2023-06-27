@@ -60,7 +60,7 @@
 	artisans = {
 		culture = central_american
 		religion = protestant
-		size = 9000
+		size = 10000
 	}
 	bureaucrats = {
 		culture = central_american
@@ -85,18 +85,18 @@
 	farmers = {
 		culture = central_american
 		religion = protestant
-		size = 52950
+		size = 50750
 	}
 	soldiers = {
 		culture = central_american
 		religion = protestant
-		size = 1000
+		size = 2200
 	}
 }
 
 
 #Guatemala City (3, 8, 9, 12, 13, 16, 18) (Chimaltenango, Escuintla, Guatemala, Jalapa, Jutiapa, Sacatepequez, Santa Rosa.) (37.467%) (41%)
-#574,082 pops 574,080 not done
+#574,082 pops 574,080
 2186 = {
 	aristocrats = {
 		culture = central_american
@@ -111,7 +111,7 @@
 	artisans = {
 		culture = central_american
 		religion = protestant
-		size = 180000
+		size = 170000
 	}
 	bureaucrats = {
 		culture = central_american
@@ -126,7 +126,7 @@
 	clerks = {
 		culture = central_american
 		religion = protestant
-		size = 20000
+		size = 14000
 	}
 	officers = {
 		culture = central_american
@@ -136,22 +136,22 @@
 	craftsmen = {
 		culture = central_american
 		religion = protestant
-		size = 35000
+		size = 53000
 	}
 	farmers = {
 		culture = central_american
 		religion = protestant
-		size = 300000
+		size = 294000
 	}
 	soldiers = {
 		culture = central_american
 		religion = protestant
-		size = 6580
+		size = 10580
 	}
 }
 
 #Flores (Border with Chiapas) (7, 10, 14, 15, 17, 19, 20, 21) (Quiche, Huehuetenango, Quetzaltenango, Retalhuleu, San Marcos, Solola, Suchitepequez, Totonicapan.) (35.8897%) (36%)
-#504,072 pops #wheat, sheep. sheep -> antimony (other_metals) 504,070 not done yet
+#504,072 pops #wheat, sheep. sheep -> antimony (other_metals) 504,070
 2187 = {
 	aristocrats = {
 		culture = central_american
@@ -206,7 +206,7 @@
 }
 
 #Puerto Barrios (1, 2, 4, 6, 11, 22) (Alta Verapaz, Baja Verapaz, El Progreso, Izabal, Zacapa.) (17.46%) (18%)
-#252,036 pops 252,040 not done
+#252,036 pops 252,040
 2188 = {
 	aristocrats = {
 		culture = central_american

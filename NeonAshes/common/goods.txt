@@ -212,5 +212,9 @@ consumer_goods = {
 		cost = 1.0
 		available_from_start = no
 		color = { 180 94 26 }
+<<<<<<< Updated upstream
+=======
+		available_from_start = no
+>>>>>>> Stashed changes
 	}
 }

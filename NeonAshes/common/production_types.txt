@@ -57,31 +57,6 @@ construction_materials_template = {
 	workforce = 10000 
 }
 
-bank_template = {
-	effeciency = {
-		construction_materials = 0.30
-		energy = 0.20
-		electric_gear = 0.20
-		machine_parts = 0.20
-	}
-	owner = { 
-		poptype = capitalists
-		effect = input
-		effect_multiplier = -2.5
-	}
-	employees = {
-		{ 
-			poptype = clerks 
-			effect = throughput
-			effect_multiplier = 1.5
-			amount = 0.7
-		}
-		
-	}
-	type = factory
-	workforce = 10000
-}
-
 energy_power_template = {
 	efficiency = {
 		machine_parts = 0.10		# About 2.00
@@ -206,12 +181,12 @@ modern_factory_template = {
 conv_ammo_factory = {       
 	template = modern_factory_template
 	input_goods = {           
-		copper = 5.00 			# 10 tonnes of copper		# 20
-		other_metals = 2.00 		# 10 tonnes of lead		# 10
+		copper = 10.00 			# 10 tonnes of copper		# 20
+		other_metals = 1.00 		# 10 tonnes of lead		# 10
 		polymers_and_plastics = 1.00 	# 1 tonne of plastics		# 2.50
 	}
 	output_goods = conv_ammunition 			# Total cost of inputs	# 32.50
-	value = 6.00					# Total value of goods	# 35.00
+	value = 1.00					# Total value of goods	# 35.00
 	bonus = {
 		trigger = { trade_goods_in_state = copper }
 		value = 0.10
@@ -235,13 +210,13 @@ conv_ammo_factory = {
 adv_ammo_factory = {       
 	template = modern_factory_template
 	input_goods = {           
-		aluminum = 4.00 		# 2 tonnes of aluminum		# 4
+		aluminum = 2.00 		# 2 tonnes of aluminum		# 4
 		electronic_components = 2.00 	# About 20 computers		# 2
-		polymers_and_plastics = 2.00 	# 1 tonne of plastics		# 2.50
+		polymers_and_plastics = 1.00 	# 1 tonne of plastics		# 2.50
 		conv_ammunition = 0.10		# About 10,000 bullets		# 3.50
 	}
 	output_goods = adv_ammunition			# Total cost of inputs	# 12.00
-	value = 4.50					# Total value of goods	# 16.00
+	value = 1.00					# Total value of goods	# 16.00
 	bonus = {
 		trigger = { has_building = aluminum_refinery }
 		value = 0.10
@@ -265,12 +240,12 @@ adv_ammo_factory = {
 small_arms_factory = {       
 	template = modern_factory_template
 	input_goods = {           
-		steel = 4.00 			# 300 tonnes of steel		# 18
+		steel = 3.00 			# 300 tonnes of steel		# 18
 		polymers_and_plastics = 4.00 	# 4 tonnes of plastics		# 10
 		other_metals = 0.10 		# 1 tonne of other metals	# 1
 	}
 	output_goods = small_arms 			# Total cost of inputs	# 29.00
-	value = 4.50					# Total value of goods	# 32.00
+	value = 1.00					# Total value of goods	# 32.00
 	bonus = {
 		trigger = { has_building = steel_mill }
 		value = 0.10
@@ -291,116 +266,23 @@ small_arms_factory = {
 
 ### Heavy Weapons ###
 
-heavy_weapons_factory = {
-	template = modern_factory_template
-	input_goods = {    
-		steel = 4	
-		engines = 4
-		motor_vehicles = 1
-		machine_parts = 3
-	}
-	output_goods = heavy_weapons 
-	value = 4.5
-	bonus = {
-		trigger = { has_building = traditional_vehicle_assembly }
-		value = 0.125
-	}
-	bonus = {
-		trigger = { has_building = machine_parts_factory }
-		value = 0.125
-	}
-	bonus = {
-		trigger = { has_building = steel_mill }
-		value = 0.125
-	}	
-	bonus = {
-		trigger = { has_building = engine_factory }
-		value = 0.125
-	}
-}
-
 ### Electronic Weapons ###
-
-electric_weapons_factory = {       
-	template = modern_factory_template
-	input_goods = {           
-		steel = 4.00 			# 300 tonnes of steel		# 18
-		polymers_and_plastics = 4.00 	# 4 tonnes of plastics		# 10
-		other_metals = 0.10 		# 1 tonne of other metals	# 1
-	}
-	output_goods = elec_weapons 			# Total cost of inputs	# 29.00
-	value = 4.50					# Total value of goods	# 32.00
-	bonus = {
-		trigger = { has_building = steel_mill }
-		value = 0.10
-	}
-	bonus = {
-		trigger = { has_building = chemical_plant }
-		value = 0.05
-	}
-	bonus = {
-		trigger = { has_building = batteries } # Military-Industrial Synergy
-		value = 0.10
-	}
-}
 
 ### Armored Vehicles ###
 
-armored_vehicles_factory = {
-	template = modern_factory_template
-	input_goods = {
-		steel = 20.00			# 2,000 tonnes of steel		# 120
-		engines = 2.00			# 200 small car engines 	# 150
-		polymers_and_plastics = 100.00	# 100 tonnes of polymers	# 250
-		textiles = 10.00		# 10 tonnes of textiles		# 20
-	}
-	output_goods = armored_vehicles		# Total cost of inputs	# 540
-	value = 5				# Total value of goods	# 600
-	bonus = {
-		trigger = { trade_goods_in_state = iron }
-		value = 0.15
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = coal }
-		value = 0.10
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = other_metals }
-		value = 0.05
-	}
-}
-
 ### ### Industrial Goods Factories ### ###
-
-credit_money_bank = {       
-	template = bank_template
-	input_goods = { 
-		rare_earths = 2
-		office_supplies = 1
-		energy = 1
-	}
-	output_goods = credit_money 
-	value = 2
-        bonus = {
-                trigger = { trade_goods_in_state = rare_earths }
-                value = 0.25
-        }
-	bonus = {
-		trigger = { has_building = office_supplies_factory }
-		value = 0.15
-	}
-}
 
 ### Steel ###
 
 steel_mill = {       
 	template = labor_heavy_factory_template
 	input_goods = { 		# Limestone is locally-sourced
-		iron = 25.00		# 10,000 dry tonnes of iron ore	# 300
-		coal = 9.00		# 8,000 tonnes of coal		# 240
+		iron = 100.00		# 10,000 dry tonnes of iron ore	# 300
+		coal = 80.00		# 8,000 tonnes of coal		# 240
+		other_metals = 1.00	# 100 tonnes of other metals	# 10
 	}
 	output_goods = steel			# Total cost of inputs	# 550
-	value = 15				# Total value of goods	# 600
+	value = 100				# Total value of goods	# 600
 	bonus = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.15
@@ -420,10 +302,10 @@ steel_mill = {
 construction_factory = {       
 	template = construction_materials_template
 	input_goods = {           
-		timber = 2.00			# 400 tonnes of timber		# 20
-		steel = 2.00			# 400 tonnes of steel		# 24
+		timber = 4.00			# 400 tonnes of timber		# 20
+		steel = 4.00			# 400 tonnes of steel		# 24
 		copper = 2.00			# About 2 tonnes of copper	# 4
-		polymers_and_plastics = 1.00	# 10 tonnes of polymers		# 25
+		polymers_and_plastics = 10.00	# 10 tonnes of polymers		# 25
 	}
 	output_goods = construction_materials 		# Total cost of inputs	# 74
 	value = 10.00					# Total value of goods	# 75
@@ -445,130 +327,6 @@ construction_factory = {
 	}
 }
 
-liquor_distillery = {
-	template = modern_factory_template
-		input_goods = {
-		grain = 5.00
-		aluminum = 5.00
-	}
-	output_goods = alcohol_beverages
-	value = 8.00
-	bonus = {
-		trigger = { trade_goods_in_state = grain }
-		value = .10
-	}
-	bonus = {
-		trigger = { has_building = aluminum_refinery }
-		value = .15
-	}
-}
-
-batteries_manufactory = {
-	template = modern_factory_template
-		input_goods = {
-		other_metals = 100
-		polymers_and_plastics = 100
-	}
-	output_goods = batteries
-	value = 90
-	bonus = {
-		trigger = { trade_goods_in_state = other_metals }
-		value = .15
-	}
-	bonus = {
-		trigger = { has_building = chemical_plant }
-		value = .10
-	}
-}
-furniture_factory = {
-	template = labor_heavy_factory_template
-		input_goods = {
-		construction_materials  = 6
-		polymers_and_plastics = 1 
-		textiles = 2
-	}
-	output_goods = furniture
-	value = 5.2
-	bonus = {
-		trigger = { has_building = textile_mill }
-		value = .25
-	}
-	bonus = {
-		trigger = { has_building = chemical_plant }
-		value = .10
-	}
-	bonus = {
-		trigger = { has_building = construction_factory }
-		value = .15
-	}
-}
-pharma_n_equipment_factory = {
-	template = modern_factory_template
-		input_goods = {
-		oilseed_crops = 3
-		polymers_and_plastics =  3
-	}
-	output_goods = pharma_n_equipment
-	value = 9.3
-	bonus = {
-		trigger = { trade_goods_in_state = oilseed_crops }
-		value = .25
-	}
-	bonus = {
-		trigger = { has_building = chemical_plant }
-		value = .15
-	}
-}
-office_supplies_factory = {
-	template = modern_factory_template
-		input_goods = {
-		timber = 4
-		aluminum = 2
-		steel = 2
-	}
-	output_goods = office_supplies
-	value = 3.2
-	bonus = {
-		trigger = { trade_goods_in_state = timber }
-		value = .25
-	}
-	bonus = {	
-		trigger = { has_building = aluminum_refinery }
-		value = .15
-	}
-	bonus = {	
-		trigger = { has_building = steel_mill }
-		value = .10
-	}
-}
-consumer_electronics_factory = {
-	template = modern_factory_template
-		input_goods = {
-		electronic_components = 2
-		rare_earths = 1
-		machine_parts = 2
-		polymers_and_plastics = 1
-	}
-	output_goods = consumer_electronics
-	value = 10.2
-	bonus = {
-		trigger = { has_building = electronic_components_factory }
-		value = .25
-	}
-	bonus = {	
-		trigger = { trade_goods_in_state = rare_earths }
-		value = .15
-	}
-	bonus = {	
-		trigger = { has_building = machine_parts_factory }
-		value = .10
-	}
-	bonus = {
-		trigger = { has_building = chemical_plant }
-		value = .10
-	}
-}
-
 ### Machine Parts ###
 
 machine_parts_factory = {       
@@ -580,7 +338,7 @@ machine_parts_factory = {
 		other_metals = 0.10		# 10 tonnes of other metals	# 1
 	} 
 	output_goods = machine_parts			# Total cost of inputs	# 19
-	value = 20.00					# Total value of goods	# 20
+	value = 1.00					# Total value of goods	# 20
 	bonus = {
 		trigger = { has_building = steel_mill }
 		value = 0.10
@@ -605,9 +363,12 @@ chemical_plant = {
 	template = modern_factory_template
 	input_goods = { 
 		oil = 7.00		# 7,000 barrels of oil (or gas)	# 210
+		steel = 1.00		# 100 tonnes of steel		# 6
+		other_metals = 0.10	# 10 tonnes of other metals	# 1
+		rare_earths = 2.00	# 200 kgs of rare earths	# 20
 	}
 	output_goods = polymers_and_plastics	# Total cost of inputs	# 234
-	value = 10				# Total value of goods	# 250
+	value = 100				# Total value of goods	# 250
 	bonus = {
 		trigger = { trade_goods_in_state = oil }
 		value = 0.05
@@ -635,10 +396,10 @@ chemical_plant = {
 coal_power_plant = {       
 	template = energy_power_template
 	input_goods = { 
-		coal = 4.00 				# 1000 tonnes		# 30.00
+		coal = 10.00 				# 1000 tonnes		# 30.00
 	}
 	output_goods = energy				# Total cost of inputs	# 30.00
-	value = 2.20					# Total value of goods	# 40.00
+	value = 50.00					# Total value of goods	# 40.00
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
@@ -647,10 +408,10 @@ coal_power_plant = {
 oil_power_plant = {       
 	template = energy_power_template
 	input_goods = { 
-		oil = 15.00 			# 10,000 barrels	# 30
+		oil = 1.00 			# 10,000 barrels	# 30
 	}
 	output_goods = energy			# Total cost of inputs	# 30
-	value = 12.00				# Total value of goods	# 40
+	value = 50.00				# Total value of goods	# 40
 	bonus = {
 		trigger = { trade_goods_in_state = oil }
 		value = 0.25
@@ -663,25 +424,13 @@ oil_power_plant = {
 
 ### Fertilizer ###
 
-fertilizer_factory = {
-	template = modern_factory_template
-	input_goods = {
-		phosphate = 6.00
-	}
-	output_goods = fertilizer
-	value = 5.00
-	bonus = {
-		trigger = { trade_goods_in_state = phosphate }
-		value = 0.25
-	}
-}
-
 ### Fuel (aka refineries)
 
 oil_refinery = {       
 	template = labor_heavy_factory_template
 	input_goods = { 
-		oil = 2.50 			# 10,000 barrels	# 30
+		oil = 1.00 			# 10,000 barrels	# 30
+		other_metals = 0.10		# 10 tonnes		#  1
 	}
 	output_goods = fuel			# Total cost of inputs	# 31
 	value = 3.00				# Total value of goods	# 36
@@ -691,134 +440,18 @@ oil_refinery = {
 	}
 }
 
-nuclear_energy_plant = {
-	template = energy_power_template
-	input_goods = {    
-		other_metals = 10
-	} 
-	output_goods = energy
-	value = 10
-	bonus = {
-		trigger = { trade_goods_in_state = other_metals }
-		value = 0.25
-	}
-}
-
-bio_fuel_factory = {       
-	template = fuel_template
-	input_goods = {    
-		grain = 4.5
-	} 
-	output_goods = fuel 
-	value = 2
-	bonus = {
-		trigger = { trade_goods_in_state = grain }
-		value = 0.5
-	}
-}
-
-fish_canned_food_factory = {
-	template = modern_factory_template
-	input_goods = {
-		fish = 4
-		steel = 1 
-	}
-	output_goods = canned_food
-	value = 7
-	bonus = {
-		trigger = { has_building = steel_mill }
-		value = .25
-	}
-	bonus = {
-		trigger =  { trade_goods_in_state = fish }
-		value = .15
-	}
-}
-
-oilseeds_canned_food_factory = {
-	template = modern_factory_template
-	input_goods = {
-		oilseed_crops = 4
-		steel = 1 
-	}
-	output_goods = canned_food
-	value = 7
-	bonus = {
-		trigger = { has_building = steel_mill }
-		value = .25
-	}
-	bonus = {
-		trigger =  { trade_goods_in_state = oilseed_crops }
-		value = .15
-	}
-}
-
-grain_canned_food_factory = {
-	template = modern_factory_template
-	input_goods = {
-		grain = 4
-		steel = 1 
-	}
-	output_goods = canned_food
-	value = 7
-	bonus = {
-		trigger = { has_building = steel_mill }
-		value = .25
-	}
-	bonus = {
-		trigger =  { trade_goods_in_state = grain }
-		value = .15
-	}
-}
-
-fruit_canned_food_factory = {
-	template = modern_factory_template
-	input_goods = {
-		fruit = 4
-		steel = 1 
-	}
-	output_goods = canned_food
-	value = 7
-	bonus = {
-		trigger = { has_building = steel_mill }
-		value = .25
-	}
-	bonus = {
-		trigger =  { trade_goods_in_state = fruit }
-		value = .15
-	}
-}
-
-meats_canned_food_factory = {
-	template = modern_factory_template
-	input_goods = {
-		meats = 4
-		steel = 1 
-	}
-	output_goods = canned_food
-	value = 7
-	bonus = {
-		trigger = { has_building = steel_mill }
-		value = .25
-	}
-	bonus = {
-		trigger =  { trade_goods_in_state = meats }
-		value = .15
-	}
-}
-
 ### Electronic Components ###
 
 electronic_components_factory = {       
 	template = modern_factory_template
 	input_goods = { 			# Silicon is locally-sourced
-		copper = 2.00			# 1 tonne of copper		# 2
-		aluminum = 2.00			# 1 tonne of aluminum		# 2
-		polymers_and_plastics = 2.00	# 1 tonne of plastics		# 2.50
+		copper = 1.00			# 1 tonne of copper		# 2
+		aluminum = 1.00			# 1 tonne of aluminum		# 2
+		polymers_and_plastics = 1.00	# 1 tonne of plastics		# 2.50
 		other_metals = 0.25		# 5 tonnes of other metals	# 2.50
 	}
 	output_goods = electronic_components	# Total cost of inputs	# 9
-	value = 6.5	# 100 computers-ish	# Total value of goods	# 10
+	value = 10	# 100 computers-ish	# Total value of goods	# 10
 	bonus = {
 		trigger = { trade_goods_in_state = copper }
 		value = 0.05
@@ -842,11 +475,12 @@ electronic_components_factory = {
 aluminum_refinery = {       
 	template = energy_heavy_factory_template
 	input_goods = {
-		bauxite = 6.00		# 100 tonnes of bauxite		# 3
-		energy = 3.00		# 200,000 MWh			# 80
+		bauxite = 1.00		# 100 tonnes of bauxite		# 3
+		energy = 200.00		# 200,000 MWh			# 80
+		other_metals = 1.00	# 100 tonnes of other metals	# 10
 	}
 	output_goods = aluminum			# Total cost of inputs	# 93
-	value = 6				# Total value of goods	# 100
+	value = 50				# Total value of goods	# 100
 	bonus = {
 		trigger = { trade_goods_in_state = bauxite }
 		value = 0.10
@@ -871,31 +505,13 @@ aluminum_refinery = {
 textile_mill = {
 	template = labor_heavy_factory_template
 	input_goods = {
-		fibre_crops = 6.00		# 60 tonnes of fibre crops	# 60
-		polymers_and_plastics = 2.00	# 12 tonnes of polymers		# 30
+		fibre_crops = 60.00		# 60 tonnes of fibre crops	# 60
+		polymers_and_plastics = 12.00	# 12 tonnes of polymers		# 30
 	}
 	output_goods = textiles			# Total cost of inputs	# 90
-	value = 5				# Total value of goods	# 100
+	value = 50				# Total value of goods	# 100
 	bonus = {
 		trigger = { trade_goods_in_state = fibre_crops }
-		value = 0.20
-	}
-	bonus = {
-		trigger = { has_building = chemical_plant }
-		value = 0.05
-	}
-}
-
-sheeps_textile_mill = {
-	template = labor_heavy_factory_template
-	input_goods = {
-		sheeps = 6.00		# 60 tonnes of fibre crops	# 60
-		polymers_and_plastics = 2.00	# 12 tonnes of polymers		# 30
-	}
-	output_goods = textiles			# Total cost of inputs	# 90
-	value = 5				# Total value of goods	# 100
-	bonus = {
-		trigger = { trade_goods_in_state = sheeps }
 		value = 0.20
 	}
 	bonus = {
@@ -909,61 +525,45 @@ sheeps_textile_mill = {
 engine_factory = {
 	template = modern_factory_template
 	input_goods = {
-		steel = 10.00			# 100 tonnes of steel		# 6.00
-		aluminum = 1.00		# 10 tonnes of aluminum		# 20.00
+		steel = 1.00			# 100 tonnes of steel		# 6.00
+		aluminum = 10.00		# 10 tonnes of aluminum		# 20.00
 		machine_parts = 1.00		# 100 tonnes of machine parts	# 20.00
 		polymers_and_plastics = 10.00	# 10 tonnes of plastics		# 25.00
 	}
 	output_goods = engines			# Total cost of inputs	# 71
 	value = 1				# Total value of goods	# 75
 	bonus = {
-		trigger = { has_building = chemical_plant }
-		value = 0.05
+		trigger = { trade_goods_in_state = iron }
+		value = 0.15
 	}
 	bonus = {
-		trigger = { has_building = aluminum_refinery }
-		value = 0.05
+		trigger = { trade_goods_in_state = coal }
+		value = 0.10
 	}
 	bonus = {
-		trigger = { has_building = steel_mill }
+		trigger = { trade_goods_in_state = other_metals }
 		value = 0.05
 	}
-	bonus = {
-		trigger = { has_building = machine_parts_factory }
-		value = 0.05
-	}	
 }
 
 ### Batteries ###
 
 ### ### Consumer Goods Factories ###
 
-hfcs_factory = {
-	template = modern_factory_template
-		input_goods = {
-		grain = 10.00
-	}
-	output_goods = sugar_crops
-	value = 7.00
-	bonus = {
-	trigger = { trade_goods_in_state = grain }
-	}
-}
-
 ### Meat Processing Factories ###
 
-fish_factory = {       
-	template = labor_heavy_factory_template
-	input_goods = { 
-		fish = 10.00 			# 100 tons of tuna	# 80
-	}
-	output_goods = meats			# Total cost of inputs	# 80
-	value = 8.00				# Total value of goods	# 85
-	bonus = {
-		trigger = { trade_goods_in_state = fish }
-		value = 0.20
-	}
-}
+#fish_factory = {       
+#	template = labor_heavy_factory_template
+#	input_goods = { 
+#		fish = 100.00 			# 100 tons of tuna	# 80
+#	}
+#	output_goods = meats			# Total cost of inputs	# 80
+#	value = 85.00				# Total value of goods	# 85
+#	bonus = {
+#		trigger = { trade_goods_in_state = fish }
+#		value = 0.20
+#	}
+#}
 
 ### Alcoholic Beverages (aka breweries) ###
 
@@ -972,11 +572,11 @@ fish_factory = {
 clothing_manufacturer = {
 	template = labor_heavy_factory_template
 	input_goods = {
-		textiles = 5.00		# 60 tonnes of textiles		# 60
-		polymers_and_plastics = 1.00	# 10 tonnes of polymers		# 25
+		textiles = 30.00		# 60 tonnes of textiles		# 60
+		polymers_and_plastics = 10.00	# 10 tonnes of polymers		# 25
 	}
 	output_goods = clothing			# Total cost of inputs	# 85
-	value = 4				# Total value of goods	# 100
+	value = 10				# Total value of goods	# 100
 	bonus = {
 		trigger = { has_building = textile_mill }
 		value = 0.20
@@ -1023,226 +623,158 @@ traditional_vehicle_assembly = {
 
 ### Aircraft ###
 
-aircraft_factory = {
-	template = modern_factory_template
-	input_goods = {
-		steel = 20.00					# 2,000 tonnes of steel		# 120
-		engines = 2.00					# 200 small car engines 	# 150
-		polymers_and_plastics = 100.00	# 100 tonnes of polymers	# 250
-		textiles = 10.00				# 10 tonnes of textiles		# 20
-	}
-	output_goods = aircraft		# Total cost of inputs	# 540
-	value = 5				# Total value of goods	# 600
-	bonus = {
-		trigger = { trade_goods_in_state = iron }
-		value = 0.15
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = coal }
-		value = 0.10
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = other_metals }
-		value = 0.05
-	}
-}
-
 ### Ships ###
-
-ships_factory = {
-	template = modern_factory_template
-	input_goods = {
-		steel = 20.00					# 2,000 tonnes of steel		# 120
-		engines = 2.00					# 200 small car engines 	# 150
-		polymers_and_plastics = 100.00	# 100 tonnes of polymers	# 250
-		textiles = 10.00				# 10 tonnes of textiles		# 20
-	}
-	output_goods = ships		# Total cost of inputs	# 540
-	value = 5				# Total value of goods	# 600
-	bonus = {
-		trigger = { trade_goods_in_state = iron }
-		value = 0.15
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = coal }
-		value = 0.10
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = other_metals }
-		value = 0.05
-	}
-}
 
 ### Spacecraft ###
 
-spacecraft_factory = {
-	template = modern_factory_template
-	input_goods = {
-		steel = 20.00			# 2,000 tonnes of steel		# 120
-		engines = 2.00			# 200 small car engines 	# 150
-		polymers_and_plastics = 100.00	# 100 tonnes of polymers	# 250
-		textiles = 10.00		# 10 tonnes of textiles		# 20
-	}
-	output_goods = spacecraft	# Total cost of inputs	# 540
-	value = 5				# Total value of goods	# 600
-	bonus = {
-		trigger = { trade_goods_in_state = iron }
-		value = 0.15
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = coal }
-		value = 0.10
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = other_metals }
-		value = 0.05
-	}
-}
-
-### ### ### RGO TEMPLATES ### ### ###
+### ### ### RGOs ### ### ###
 
 RGO_template_farmers = {
-	owner = {
+	owner =
+	{
 		poptype = aristocrats 
 		effect = output
 	}
 		
 	employees = {
-	{ 
-		poptype = farmers 
-		effect = throughput
-		amount = 1
-	}
-	{ 
-		poptype = slaves 
-		effect = throughput
-		amount = 1
-		effect_multiplier = 1.4
+		{ 
+			poptype = farmers 
+			effect = throughput
+			amount = 1
+		}
+		{ 
+			poptype = slaves 
+			effect = output
+			amount = 1
 		}
 	}
 	
 	type = rgo
-	workforce = 40000 # 5x vanilla, to keep in line with general pops calculations
+	workforce = 200000 # 5x vanilla, to keep in line with general pops calculations
 }
 
 RGO_template_labourers = {
-	owner = {
-		poptype = capitalists 
+	owner =
+	{
+		poptype = aristocrats 
 		effect = output
 	}
 		
 	employees = {
-	{ 
-		poptype = farmers 
-		effect = throughput
-		amount = 1
-	}
-	{
-		poptype = slaves 
-		effect = throughput
-		amount = 1
-		effect_multiplier = 1.4
+		{ 
+			poptype = labourers 
+			effect = throughput
+			amount = 1
+		}
+		{ 
+			poptype = slaves 
+			effect = output
+			amount = 1
 		}
 	}
 	
 	type = rgo
-	workforce = 40000 # 5x vanilla, to keep in line with general pops calculations
+	workforce = 200000 # 5x vanilla, to keep in line with general pops calculations
 }
 
 RGO_template_white_collar = {
-	owner = {
+	owner =
+	{
 		poptype = capitalists
 		effect = output
 	}
-	
+		
 	employees = {
-        {
-            poptype = clerks
-            effect = throughput
-            amount = 10
-        }
+		{ 
+			poptype = clerks
+			effect = throughput
+			amount = 1
+		}
+		{ 
+			poptype = craftsmen 
+			effect = output
+			amount = 1
+		}
 	}
 	
 	type = rgo
-	workforce = 75000
+	workforce = 200000 # 5x vanilla, to keep in line with general pops calculations
 }
-
-### ### ### RGOs ### ### ###
 
 bauxite_mine = {
 	template = RGO_template_labourers
 	output_goods = bauxite
-	value = 2.5
+	value = 0.22
 	mine = yes
 }
 
 cattle_ranch = {
 	template = RGO_template_farmers
 	output_goods = cattle 
-	value = 2.5 # 1 worker (1980) outputs 0.2 heads per year. Times 200,000, rounded down.
+	value = 100 # 1 worker (1980) outputs 0.2 heads per year. Times 200,000, rounded down.
 	farm = yes
 }
 
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
-	value = 2.5
+	value = 2.4
 	mine = yes
 }
 
 coffee_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea_n_coffee 
-	value = 2.5
+	value = 1.5
 	farm = yes
 }
 
 fibre_crops_plantation = {
 	template = RGO_template_farmers
 	output_goods = fibre_crops 
-	value = 2.5
+	value = 2.2
 	farm = yes
 }
 
 fishing_wharf = {
 	template = RGO_template_farmers
 	output_goods = fish 
-	value = 2.0 # 1 fisherman (1980) outputs 1 kg per day. Times 200,000.
+	value = 200 # 1 fisherman (1980) outputs 1 kg per day. Times 200,000.
 	farm = yes
 }
 
 grain_farm = {
 	template = RGO_template_farmers
 	output_goods = grain 
-	value = 3.0
+	value = 1.8
 	farm = yes
 }
 
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = 5.0 # 1 worker (1980) outputs 0.001 ton per day. Times 200,000.
+	value = 200 # 1 worker (1980) outputs 0.001 ton per day. Times 200,000.
 	mine = yes
 }
 
 oil_rig = {
 	template = RGO_template_labourers
 	output_goods = oil 
-	value = 1 # 1 worker (1980) outputs 0.1 barrel per day. Times 200,000.
+	value = 20000 # 1 worker (1980) outputs 0.1 barrel per day. Times 200,000.
 	mine = yes
 }
 
 oilseed_plantation = {
 	template = RGO_template_farmers
 	output_goods = oilseed_crops 
-	value = 1.0
+	value = 0.7
 	farm = yes
 }
 
 orchard = {
 	template = RGO_template_farmers
 	output_goods = fruit 
-	value = 2.0
+	value = 2.8
 	farm = yes
 }
 
@@ -1256,56 +788,56 @@ phosphate_mine = {
 credit_money_financial_district = {
 	template = RGO_template_white_collar
 	output_goods = credit_money 
-	value = 3 # Kinda guesstimating it here
-	farm = yes
+	value = 10 # Kinda guesstimating it here
+	mine = yes
 }
 
 copper_mine = {
 	template = RGO_template_labourers
 	output_goods = copper
-	value = 2.0
+	value = 7.50
 	mine = yes
 }
 
 sheep_ranch = {
 	template = RGO_template_farmers
 	output_goods = sheeps 
-	value = 2
+	value = 5
 	farm = yes
 }
 
 rare_earths_mine = {
 	template = RGO_template_labourers
 	output_goods = rare_earths 
-	value = 2.0
+	value = 0.25
 	mine = yes
 }
 
 tea_n_coffee_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea_n_coffee
-	value = 2.5
+	value = 1.75
 	farm = yes
 }
 
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber 
-	value = 2.0 # 1 worker (1980) outputs 5 kgs per day. Times 200,000.
+	value = 500 # 1 worker (1980) outputs 5 kgs per day. Times 200,000.
 	farm = yes
 }
 
 sugar_crops_farm = {
 	template = RGO_template_farmers
 	output_goods = sugar_crops
-	value = 2.5 # 1 worker, guesstimating given Canada's output, times 200,000.
+	value = 10.00 # 1 worker, guesstimating given Canada's output, times 200,000.
 	farm = yes
 }
 
 other_metals_mine = {
 	template = RGO_template_labourers
 	output_goods = other_metals
-	value = 2.0 # I don't know what to put here right mow
+	value = 1 # I don't know what to put here right mow
 	mine = yes
 }
 
@@ -1315,34 +847,51 @@ other_metals_mine = {
 
 artisan_conv_ammunition_armorer = {		# Each unit is 100,000 rounds, or roughly 20 tons
 	input_goods = { 
-		copper = 1.00 			# 10 tonnes			# 20
+		copper = 10.00 			# 10 tonnes			# 20
 		other_metals = 1.00 		# 10 tonnes			# 10
 		polymers_and_plastics = 1.00 	# 1 tonne			# 2.50
 	}
 	output_goods = conv_ammunition			# Total cost of inputs	# 32.50
-	value = 8.00					# Total value of goods	# 35.00
+	value = 1.00					# Total value of goods	# 35.00
 	owner = {					# Profit		# 2.50
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
+}
+
+artisan_adv_ammo_developer = {			# Each unit is approx. one Stinger missile
+	input_goods = { 
+		aluminum = 2.00 		# 2 tonnes of aluminum		# 4
+		electronic_components = 2.00 	# About 20 computers		# 2
+		polymers_and_plastics = 1.00 	# 1 tonne of plastics		# 2.50
+		conv_ammunition = 0.10		# About 10,000 bullets		# 3.50
+	}
+	output_goods = adv_ammunition			# Total cost of inputs	# 12
+	value = 1.00					# Total value of goods	# 16
+	owner = {					# Profit		# 4
+		poptype = artisans
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
 }
 
 artisan_small_arms_gunsmith = {		# Each unit is approx. 6,000 small arms
 	input_goods = { 
-		steel = 1.00 			# 300 tonnes of steel		# 18
-		polymers_and_plastics = 1.00 	# 4 tonnes			# 10
+		steel = 3.00 			# 300 tonnes of steel		# 18
+		polymers_and_plastics = 4.00 	# 4 tonnes			# 10
 		other_metals = 0.10 		# 1 tonne			# 1
 	}
 	output_goods = small_arms			# Total cost of inputs	# 29
-	value = 8.00					# Total value of goods	# 32
+	value = 1.00					# Total value of goods	# 32
 	owner = {					# Profit		# 3
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
 }
 
 ### ### Basic Construction ### ###
@@ -1361,21 +910,7 @@ artisan_construction_materials = {		# Each unit is 1000 sqft (average house)
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
-}
-
-artisan_polymers_and_plastics = {		# Each unit is 1000 sqft (average house)
-	input_goods = { 			# Rock, sand and gravel are assumed to be extracted locally, no coal needed
-		oil = 1.00			# 400 tonnes of timber		# 20
-	}
-	output_goods = polymers_and_plastics		# Total cost of inputs	# 74
-	value = 8.00					# Total value of goods	# 75
-	owner = {					# Profit		# 1
-		poptype = artisans
-		effect = output
-	}
-	type = artisan
-	workforce = 5000
+	workforce = 10000
 }
 
 artisan_machine_parts = {			# Each unit is 100 metric tons of machinery (100 truck engines or 1 excavators)
@@ -1387,29 +922,43 @@ artisan_machine_parts = {			# Each unit is 100 metric tons of machinery (100 tru
 		
 	}
 	output_goods = machine_parts			# Total cost of inputs	# 19
-	value = 8.00					# Total value of goods	# 20
+	value = 1.00					# Total value of goods	# 20
 	owner = {					# Profit		# 1
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
 }
 
 ### ### Power Generation and Fuel ### ###
 
 artisan_energy_coal = {					# Each energy unit is 1 MWh
 	input_goods = { 
-		coal = 1.00 				# 1000 tonnes		# 30.00
+		coal = 10.00 				# 1000 tonnes		# 30.00
 	}
 	output_goods = energy				# Total cost of inputs	# 30.00
-	value = 4.00					# Total value of goods	# 40.00
+	value = 50.00					# Total value of goods	# 40.00
 	owner = {					# Profit		# 10.00
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
+}
+
+artisan_energy_oil = {					# Each energy unit is 1 MWh
+	input_goods = { 
+		oil = 1.00 				# 10,000 barrels	# 30.00
+	}
+	output_goods = energy				# Total cost of inputs	# 30.00
+	value = 50.00					# Total value of goods	# 40.00
+	owner = {					# Profit		# 10.00
+		poptype = artisans
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
 }
 
 artisan_fuel_oil = {
@@ -1418,100 +967,104 @@ artisan_fuel_oil = {
 		other_metals = 0.10		# 10 tonnes		#  1
 	}
 	output_goods = fuel			# Total cost of inputs	# 31
-	value = 12.00				# Total value of goods	# 36
+	value = 3.00				# Total value of goods	# 36
 	owner = {				# Profit		# 5
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
 }
 
 ### ### Meats ### ###
 
 artisan_meats_cattle_butcher = {	# Each unit is 100 kg of meat (total 50 kgs)
 	input_goods = { 
-		cattle = 1.00 		# 10 cows			# 40
+		cattle = 10.00 		# 10 cows			# 40
 	}
 	output_goods = meats			# Total cost of inputs	# 40
-	value = 8.00				# Total value of goods	# 50
+	value = 0.50				# Total value of goods	# 50
 	owner = {				# Profit		# 10
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
 }
 
 artisan_meats_sheep_butcher = {		# Each unit is 100 kg of meat (total 40 kgs)
 	input_goods = { 
-		sheeps = 1.00 		# 10 sheep			# 30
+		sheeps = 10.00 		# 10 sheep			# 30
 	}
 	output_goods = meats			# Total cost of inputs	# 30
-	value = 4.00				# Total value of goods	# 40
+	value = 0.40				# Total value of goods	# 40
 	owner = {				# Profit		# 10
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
 }
 
 artisan_meats_fishmonger = {		# Each unit is 1 tonne of tuna
 	input_goods = { 
-		fish = 1.00 			# 100 tons of tuna	# 80
+		fish = 100.00 			# 100 tons of tuna	# 80
 	}
 	output_goods = meats			# Total cost of inputs	# 80
-	value = 8.00				# Total value of goods	# 85
+	value = 85.00				# Total value of goods	# 85
 	owner = {				# Profit		# 5
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
 }
 
 ### ### Basic Industries ### ###
 
-artisan_cotton_textiles = {		# Each unit is 1 tonne.
+artisan_polymers_and_plastics = {	# Each unit is 1 tonne, or 10 barrels.
 	input_goods = { 
-		fibre_crops = 1.00	# 90 tons of cotton
+		oil = 7.00		# 7,000 barrels of oil (or gas)	# 210
+		steel = 1.00		# 100 tonnes of steel		# 6
+		other_metals = 0.10	# 10 tonnes of other metals	# 1
+		rare_earths = 2.00	# 200 kgs of rare earths	# 20
 	}
-	output_goods = textiles		# Total cost of inputs		# 90
-	value = 8			# Total value of goods		# 100
-	owner = {			# Profit			# 10
+	output_goods = polymers_and_plastics	# Total cost of inputs	# 234
+	value = 100				# Total value of goods	# 250
+	owner = {				# Profit		# 16
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
 }
 
-artisan_tailor = {		# Each unit is 1 tonne.
+artisan_cotton_textiles = {		# Each unit is 1 tonne.
 	input_goods = { 
-		textiles = 1.00	# 90 tons of cotton
+		fibre_crops = 90.00	# 90 tons of cotton
 	}
-	output_goods = clothing		# Total cost of inputs		# 90
-	value = 4			# Total value of goods		# 100
+	output_goods = textiles		# Total cost of inputs		# 90
+	value = 50			# Total value of goods		# 100
 	owner = {			# Profit			# 10
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
 }
 
 artisan_steel = {			# Each unit is 100 tonnes of steel
 	input_goods = { 		# Limestone is locally-sourced
-		iron = 1.00		# 10,000 dry tonnes of iron ore	# 300
-		coal = 1.00		# 8,000 tonnes of coal		# 240
+		iron = 100.00		# 10,000 dry tonnes of iron ore	# 300
+		coal = 80.00		# 8,000 tonnes of coal		# 240
+		other_metals = 1.00	# 100 tonnes of other metals	# 10
 	}
 	output_goods = steel			# Total cost of inputs	# 550
-	value = 8				# Total value of goods	# 600
+	value = 100				# Total value of goods	# 600
 	owner = {				# Profit		# 50
 		poptype = artisans
 		effect = output
 	}
 	type = artisan
-	workforce = 5000
+	workforce = 10000
 }

@@ -6,7 +6,6 @@ third_gen_warfare = { # Third Generation Warfare
 	cost = 3600
 	unciv_military = yes
 
-	activate_building = adv_ammo_factory	# Conventional Ammo Factory
 	army_base = { supply_consumption = 0.10 }
 
 	ai_chance = {
@@ -69,7 +68,6 @@ fourth_gen_warfare = { # Fourth Generation Warfare
 	cost = 7200
 	unciv_military = yes
 
-	activate_building = adv_ammo_factory	# Advanced Ammo Factory
 	army_base = { supply_consumption = 0.20 }
 
 	ai_chance = {
@@ -370,7 +368,6 @@ mass_produced_armament = { # Mass Produced Armament
 	cost = 3600
 	unciv_military = yes
 
-	activate_building = armored_vehicles
 	irregular = { supply_consumption = 0.10 }
 	infantry = { supply_consumption = 0.10 }
 	motinfantry = { supply_consumption = 0.10 }
@@ -799,7 +796,6 @@ arms_industry = { # Arms Industry
 	cost = 3600
 	unciv_military = yes
 
-	activate_building = heavy_weapons_factory
 	fieldartillery = { supply_consumption = 0.10 }
 	spartillery = { supply_consumption = 0.10 }
 
@@ -1260,7 +1256,6 @@ infantry_fighting_vehicles = { # Infantry Fighting Vehicle
 	cost = 3600
 	unciv_military = yes
 
-	activate_building = armored_vehicles_factory
 	lightarmor = { supply_consumption = 0.10 }
 	heavyarmor = { supply_consumption = 0.10 }
 

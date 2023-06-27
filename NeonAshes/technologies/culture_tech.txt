@@ -149,7 +149,6 @@ microprocessors = { #Microprocessors
 	year = 1980
 	cost = 3600
 
-	activate_building = electronic_components_factory
 	increase_research = 0.50
 	
 	ai_chance = {

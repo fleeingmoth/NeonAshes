@@ -1,9 +1,3 @@
-rocket_launch_site_location;Rocket Launch Site;;;;;;;;;;;;;x;;;;
-rocket_launch_site_location_desc;There is a rocket launch site with orbital launch capabilities located here.;;;;;;;;;;;;;x;;;;
-space_center_location;Space Center;;;;;;;;;;;;;x;;;;
-space_center_location_desc;There is a large space center with dedicated military and civilian launch capabilities located here.;;;;;;;;;;;;;x;;;;
-spaceport_location;Spaceport;;;;;;;;;;;;;x;;;;
-spaceport_location_desc;There is a large spaceport with military and civilian launch and recovery capabilities located here.;;;;;;;;;;;;;x;;;;
 space_agency_reorganization;Reorganization of our Space Agency;;;;;;;;;;;;;x;;;;
 space_agency_reorganization_desc;We have recently reorganized the national space agency. There will be some period of adjustment to the new conditions before we return to nominal efficiency.;;;;;;;;;;;;;x;;;;
 recently_built_launch_site;Recently Built Rocket Launch Site;;;;;;;;;;;;;x;;;;

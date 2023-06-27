@@ -1,30 +1,5 @@
 political_decisions = {
 
-### Toggle Rocket Sites ###
-
-	toggle_hide_rocket_sites = {					# Hide the Rocket Sites Decisions
-		news = no
-		picture = hide_rocket_sites_smallpic
-		potential = {
-			suborbital_flight = 1				# Suborbital Flight to see
-			NOT = { has_country_flag = hide_rocket_sites }	# We're not hiding them
-		}
-		allow = { orbital_flight = 1 }				# Orbital Flight to take
-		effect = { set_country_flag = hide_rocket_sites }	# Hide them rocket sites
-		ai_will_do = { factor = 0 }
-	}
-	toggle_show_rocket_sites = {					# Show the Rocket Sites Decisions
-		news = no
-		picture = show_rocket_sites_smallpic
-		potential = {
-			suborbital_flight = 1				# Suborbital Flight to see
-			has_country_flag = hide_rocket_sites		# We are hiding them
-		}
-		allow = { orbital_flight = 1 }				# Orbital Flight to take
-		effect = { clr_country_flag = hide_rocket_sites }	# Show them rocket sites
-		ai_will_do = { factor = 0 }
-	}
-
 ### Toggle Propaganda Campaigns ###
 
 	toggle_hide_propaganda = {					# Hide the Propaganda Decisions

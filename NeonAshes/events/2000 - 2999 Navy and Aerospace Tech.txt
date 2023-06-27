@@ -25,7 +25,7 @@ country_event = {
 		}
 	} 
 
-	mean_time_to_happen = { months = 1 } #ASAP
+	mean_time_to_happen = { months = 1 } # ASAP
 
 	option = {
 		name = "EVT_2310_OPTA" # Private Space Agency
@@ -71,11 +71,6 @@ country_event = {
 	trigger = {
 		invention = sounding_rockets			# We have a big enough rocket to launch stuff
 		NOT = { invention = artificial_satellites }	# We already went through this
-		OR = {
-			any_core = { has_province_modifier = rocket_launch_site_location }
-			any_core = { has_province_modifier = space_center_location }
-			any_core = { has_province_modifier = spaceport_location }	# Launch sites
-		}
 	} 
 
 	mean_time_to_happen = {
@@ -107,17 +102,6 @@ country_event = {
 		modifier = {
 			factor = 2.0	# War makes it harder
 			war = yes
-		}
-		modifier = {
-			factor = 0.75	# Space center bonus - also triggers with spaceports
-			OR = {
-				any_core = { has_province_modifier = space_center_location }
-				any_core = { has_province_modifier = spaceport_location }
-			}
-		}
-		modifier = {
-			factor = 0.75	# Spaceport bonus
-			any_core = { has_province_modifier = spaceport_location }
 		}
 	}
 
@@ -174,11 +158,6 @@ country_event = {
 	trigger = {
 		invention = artificial_satellites			# We've put something small in orbit
 		NOT = { invention = suborbital_animal_spaceflight }	# We already went through this
-		OR = {
-			any_core = { has_province_modifier = rocket_launch_site_location }
-			any_core = { has_province_modifier = space_center_location }
-			any_core = { has_province_modifier = spaceport_location }	# Launch sites
-		}
 	}	
 
 	mean_time_to_happen = {
@@ -210,17 +189,6 @@ country_event = {
 		modifier = {
 			factor = 2.0	# War makes it harder
 			war = yes
-		}
-		modifier = {
-			factor = 0.75	# Space center bonus - also triggers with spaceports
-			OR = {
-				any_core = { has_province_modifier = space_center_location }
-				any_core = { has_province_modifier = spaceport_location }
-			}
-		}
-		modifier = {
-			factor = 0.75	# Spaceport bonus
-			any_core = { has_province_modifier = spaceport_location }
 		}
 	}
 
@@ -277,11 +245,6 @@ country_event = {
 	trigger = {
 		invention = suborbital_animal_spaceflight		# We tried with animal first
 		NOT = { invention = suborbital_human_spaceflight }	# We already went through this
-		OR = {
-			any_core = { has_province_modifier = rocket_launch_site_location }
-			any_core = { has_province_modifier = space_center_location }
-			any_core = { has_province_modifier = spaceport_location }	# Launch sites
-		}
 	}
 
 	mean_time_to_happen = {
@@ -313,17 +276,6 @@ country_event = {
 		modifier = {
 			factor = 2.0	# War makes it harder
 			war = yes
-		}
-		modifier = {
-			factor = 0.75	# Space center bonus - also triggers with spaceports
-			OR = {
-				any_core = { has_province_modifier = space_center_location }
-				any_core = { has_province_modifier = spaceport_location }
-			}
-		}
-		modifier = {
-			factor = 0.75	# Spaceport bonus
-			any_core = { has_province_modifier = spaceport_location }
 		}
 	}
 
@@ -424,11 +376,6 @@ country_event = {
 	trigger = {
 		invention = sounding_rockets			# We have a big enough rocket to launch stuff
 		NOT = { invention = artificial_satellites }	# We already succeeded
-		OR = {
-			any_core = { has_province_modifier = rocket_launch_site_location }
-			any_core = { has_province_modifier = space_center_location }
-			any_core = { has_province_modifier = spaceport_location }	# Launch sites
-		}
 	} 
 
 	mean_time_to_happen = {
@@ -457,11 +404,6 @@ country_event = {
 	trigger = {
 		invention = sounding_rockets			# We have a big enough rocket to launch stuff
 		invention = artificial_satellites		# Sometimes they explode
-		OR = {
-			any_core = { has_province_modifier = rocket_launch_site_location }
-			any_core = { has_province_modifier = space_center_location }
-			any_core = { has_province_modifier = spaceport_location }	# Launch sites
-		}
 	} 
 
 	mean_time_to_happen = {
@@ -493,11 +435,6 @@ country_event = {
 		invention = suborbital_human_spaceflight	# We've sent people up
 		invention = small_and_med_launch_vehicles	# We have good rockets
 		NOT = { invention = orbital_human_spaceflight }	# We already went through this
-		OR = {
-			any_core = { has_province_modifier = rocket_launch_site_location }
-			any_core = { has_province_modifier = space_center_location }
-			any_core = { has_province_modifier = spaceport_location }	# Launch sites
-		}
 	}
 
 	mean_time_to_happen = {
@@ -525,17 +462,6 @@ country_event = {
 		modifier = {
 			factor = 2.0	# War makes it harder
 			war = yes
-		}
-		modifier = {
-			factor = 0.75	# Space center bonus - also triggers with spaceports
-			OR = {
-				any_core = { has_province_modifier = space_center_location }
-				any_core = { has_province_modifier = spaceport_location }
-			}
-		}
-		modifier = {
-			factor = 0.75	# Spaceport bonus
-			any_core = { has_province_modifier = spaceport_location }
 		}
 	}
 
@@ -593,11 +519,6 @@ country_event = {
 		invention = orbital_human_spaceflight		# We've sent people up
 		invention = small_and_med_launch_vehicles	# We have good rockets
 		NOT = { invention = space_docking }		# We already went through this
-		OR = {
-			any_core = { has_province_modifier = rocket_launch_site_location }
-			any_core = { has_province_modifier = space_center_location }
-			any_core = { has_province_modifier = spaceport_location }	# Launch sites
-		}
 	}
 
 	mean_time_to_happen = {
@@ -625,17 +546,6 @@ country_event = {
 		modifier = {
 			factor = 2.0	# War makes it harder
 			war = yes
-		}
-		modifier = {
-			factor = 0.75	# Space center bonus - also triggers with spaceports
-			OR = {
-				any_core = { has_province_modifier = space_center_location }
-				any_core = { has_province_modifier = spaceport_location }
-			}
-		}
-		modifier = {
-			factor = 0.75	# Spaceport bonus
-			any_core = { has_province_modifier = spaceport_location }
 		}
 	}
 
@@ -693,11 +603,6 @@ country_event = {
 		invention = artificial_satellites		# We got sats
 		invention = small_and_med_launch_vehicles	# We have good rockets
 		NOT = { invention = lunar_space_probe }		# We already went through this
-		OR = {
-			any_core = { has_province_modifier = rocket_launch_site_location }
-			any_core = { has_province_modifier = space_center_location }
-			any_core = { has_province_modifier = spaceport_location }	# Launch sites
-		}
 	}
 
 	mean_time_to_happen = {
@@ -725,17 +630,6 @@ country_event = {
 		modifier = {
 			factor = 2.0	# War makes it harder
 			war = yes
-		}
-		modifier = {
-			factor = 0.75	# Space center bonus - also triggers with spaceports
-			OR = {
-				any_core = { has_province_modifier = space_center_location }
-				any_core = { has_province_modifier = spaceport_location }
-			}
-		}
-		modifier = {
-			factor = 0.75	# Spaceport bonus
-			any_core = { has_province_modifier = spaceport_location }
 		}
 	}
 
@@ -797,11 +691,6 @@ country_event = {
 		invention = lunar_space_probe			# Surveyed the Moon
 		invention = heavy_and_sh_launch_vehicles	# Big rockets for big mission
 		NOT = { invention = lunar_orbital_spaceflight }	# We already went through this
-		OR = {
-			any_core = { has_province_modifier = rocket_launch_site_location }
-			any_core = { has_province_modifier = space_center_location }
-			any_core = { has_province_modifier = spaceport_location }	# Launch sites
-		}
 	}
 
 	mean_time_to_happen = {
@@ -829,17 +718,6 @@ country_event = {
 		modifier = {
 			factor = 2.0	# War makes it harder
 			war = yes
-		}
-		modifier = {
-			factor = 0.75	# Space center bonus - also triggers with spaceports
-			OR = {
-				any_core = { has_province_modifier = space_center_location }
-				any_core = { has_province_modifier = spaceport_location }
-			}
-		}
-		modifier = {
-			factor = 0.75	# Spaceport bonus
-			any_core = { has_province_modifier = spaceport_location }
 		}
 	}
 
@@ -896,11 +774,6 @@ country_event = {
 	trigger = {
 		invention = lunar_orbital_spaceflight		# We've already orbited
 		NOT = { invention = lunar_landing }		# We already went through this
-		OR = {
-			any_core = { has_province_modifier = rocket_launch_site_location }
-			any_core = { has_province_modifier = space_center_location }
-			any_core = { has_province_modifier = spaceport_location }	# Launch sites
-		}
 	}
 
 	mean_time_to_happen = {
@@ -928,17 +801,6 @@ country_event = {
 		modifier = {
 			factor = 2.0	# War makes it harder
 			war = yes
-		}
-		modifier = {
-			factor = 0.75	# Space center bonus - also triggers with spaceports
-			OR = {
-				any_core = { has_province_modifier = space_center_location }
-				any_core = { has_province_modifier = spaceport_location }
-			}
-		}
-		modifier = {
-			factor = 0.75	# Spaceport bonus
-			any_core = { has_province_modifier = spaceport_location }
 		}
 	}
 

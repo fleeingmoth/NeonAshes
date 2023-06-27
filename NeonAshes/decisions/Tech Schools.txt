@@ -277,4 +277,537 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 0.01 }
 	}
+	specialize_military_school = { # Specialize our Military School
+		news = yes
+		news_desc_long = "specialize_military_school_NEWS_LONG"
+		news_desc_medium = "specialize_military_school_NEWS_MEDIUM"
+		news_desc_short = "specialize_military_school_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = military_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 4 Army Tech
+				sixth_gen_warfare = 1
+				smart_weapons = 1
+				electromagnetic_weapons = 1
+				electronic_battlespace_integration = 1
+				command_ai = 1
+			}
+			OR = {	# Lvl 4 Naval Aerospace Tech
+				global_power_projection = 1
+				modern_ship_propulsion = 1
+				reusable_launch_systems = 1
+				hypersonic_aircraft = 1
+				space_command = 1
+			}
+		}
+		effect = {
+			country_event = { # Military School Supremacy
+				id = 7030
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	specialize_mercenary_school = { # Specialize our Mercenary School
+		news = yes
+		news_desc_long = "specialize_mercenary_school_NEWS_LONG"
+		news_desc_medium = "specialize_mercenary_school_NEWS_MEDIUM"
+		news_desc_short = "specialize_mercenary_school_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = mercenary_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 4 Army Tech
+				sixth_gen_warfare = 1
+				smart_weapons = 1
+				electromagnetic_weapons = 1
+				electronic_battlespace_integration = 1
+				command_ai = 1
+			}
+			OR = {	# Lvl 4 Commerce Tech
+				supranational_banking = 1
+				monetary_hegemony = 1
+				polarization_theory = 1
+				modern_distortion_analysis = 1
+				decentralized_management = 1
+			}
+		}
+		effect = {
+			country_event = { # Mercenary School Supremacy
+				id = 7031
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	specialize_regimented_society_school = { # Specialize our Regimented Society School
+		news = yes
+		news_desc_long = "specialize_regimented_society_school_NEWS_LONG"
+		news_desc_medium = "specialize_regimented_society_school_NEWS_MEDIUM"
+		news_desc_short = "specialize_regimented_society_school_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = regimented_society_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 4 Army Tech
+				sixth_gen_warfare = 1
+				smart_weapons = 1
+				electromagnetic_weapons = 1
+				electronic_battlespace_integration = 1
+				command_ai = 1
+			}
+			OR = {	# Lvl 4 Culture Tech
+				web_20 = 1
+				quantum_computing = 1
+				neostructuralism = 1
+				neo_nationalism = 1
+				neuropsychology = 1
+			}
+		}
+		effect = {
+			country_event = { # Regimented Society School Supremacy
+				id = 7032
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	specialize_military_industrial_school = { # Specialize our Military-Industrial School
+		news = yes
+		news_desc_long = "specialize_military_industrial_school_NEWS_LONG"
+		news_desc_medium = "specialize_military_industrial_school_NEWS_MEDIUM"
+		news_desc_short = "specialize_military_industrial_school_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = military_industrial_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 4 Army Tech
+				sixth_gen_warfare = 1
+				smart_weapons = 1
+				electromagnetic_weapons = 1
+				electronic_battlespace_integration = 1
+				command_ai = 1
+			}
+			OR = {	# Lvl 4 Industry Tech
+				smart_grid = 1
+				manufacturing_ai = 1
+				superconductors = 1
+				transport_revolution = 1
+				genetic_engineering = 1
+			}
+		}
+		effect = {
+			country_event = { # Military-Industrial School Supremacy
+				id = 7033
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	specialize_trade_school = { # Specialize our Trade School
+		news = yes
+		news_desc_long = "specialize_trade_school_NEWS_LONG"
+		news_desc_medium = "specialize_trade_school_NEWS_MEDIUM"
+		news_desc_short = "specialize_trade_school_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = trade_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 4 Naval Aerospace Tech
+				global_power_projection = 1
+				modern_ship_propulsion = 1
+				reusable_launch_systems = 1
+				hypersonic_aircraft = 1
+				space_command = 1
+			}
+			OR = {	# Lvl 4 Commerce Tech
+				supranational_banking = 1
+				monetary_hegemony = 1
+				polarization_theory = 1
+				modern_distortion_analysis = 1
+				decentralized_management = 1
+			}
+		}
+		effect = {
+			country_event = { # Trade School Supremacy
+				id = 7034
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	specialize_exploration_school = { # Specialize our Exploration School
+		news = yes
+		news_desc_long = "specialize_exploration_school_NEWS_LONG"
+		news_desc_medium = "specialize_exploration_school_NEWS_MEDIUM"
+		news_desc_short = "specialize_exploration_school_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = exploration_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 4 Naval Aerospace Tech
+				global_power_projection = 1
+				modern_ship_propulsion = 1
+				reusable_launch_systems = 1
+				hypersonic_aircraft = 1
+				space_command = 1
+			}
+			OR = {	# Lvl 4 Culture Tech
+				web_20 = 1
+				quantum_computing = 1
+				neostructuralism = 1
+				neo_nationalism = 1
+				neuropsychology = 1
+			}
+		}
+		effect = {
+			country_event = { # Exploration School Supremacy
+				id = 7035
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	specialize_export_school = { # Specialize our Export School
+		news = yes
+		news_desc_long = "specialize_export_school_NEWS_LONG"
+		news_desc_medium = "specialize_export_school_NEWS_MEDIUM"
+		news_desc_short = "specialize_export_school_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = export_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 4 Naval Aerospace Tech
+				global_power_projection = 1
+				modern_ship_propulsion = 1
+				reusable_launch_systems = 1
+				hypersonic_aircraft = 1
+				space_command = 1
+			}
+			OR = {	# Lvl 4 Industry Tech
+				smart_grid = 1
+				manufacturing_ai = 1
+				superconductors = 1
+				transport_revolution = 1
+				genetic_engineering = 1
+			}
+		}
+		effect = {
+			country_event = { # Export School Supremacy
+				id = 7036
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	specialize_services_school = { # Specialize our Services School
+		news = yes
+		news_desc_long = "specialize_services_school_NEWS_LONG"
+		news_desc_medium = "specialize_services_school_NEWS_MEDIUM"
+		news_desc_short = "specialize_services_school_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = services_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 4 Commerce Tech
+				supranational_banking = 1
+				monetary_hegemony = 1
+				polarization_theory = 1
+				modern_distortion_analysis = 1
+				decentralized_management = 1
+			}
+			OR = {	# Lvl 4 Culture Tech
+				web_20 = 1
+				quantum_computing = 1
+				neostructuralism = 1
+				neo_nationalism = 1
+				neuropsychology = 1
+			}
+		}
+		effect = {
+			country_event = { # Services School Supremacy
+				id = 7037
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	specialize_manufacturing_school = { # Specialize our Manufacturing School
+		news = yes
+		news_desc_long = "specialize_manufacturing_school_NEWS_LONG"
+		news_desc_medium = "specialize_manufacturing_school_NEWS_MEDIUM"
+		news_desc_short = "specialize_manufacturing_school_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = manufacturing_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 4 Commerce Tech
+				supranational_banking = 1
+				monetary_hegemony = 1
+				polarization_theory = 1
+				modern_distortion_analysis = 1
+				decentralized_management = 1
+			}
+			OR = {	# Lvl 4 Industry Tech
+				smart_grid = 1
+				manufacturing_ai = 1
+				superconductors = 1
+				transport_revolution = 1
+				genetic_engineering = 1
+			}
+		}
+		effect = {
+			country_event = { # Manufacturing School Supremacy
+				id = 7038
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	specialize_production_school = { # Specialize our Production School
+		news = yes
+		news_desc_long = "specialize_production_school_NEWS_LONG"
+		news_desc_medium = "specialize_production_school_NEWS_MEDIUM"
+		news_desc_short = "specialize_production_school_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = production_academic }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 4 Culture Tech
+				web_20 = 1
+				quantum_computing = 1
+				neostructuralism = 1
+				neo_nationalism = 1
+				neuropsychology = 1
+			}
+			OR = {	# Lvl 4 Industry Tech
+				smart_grid = 1
+				manufacturing_ai = 1
+				superconductors = 1
+				transport_revolution = 1
+				genetic_engineering = 1
+			}
+		}
+		effect = {
+			country_event = { # Production School Supremacy
+				id = 7039
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	extend_land_supremacy = { # Extend our Land Supremacy
+		news = yes
+		news_desc_long = "extend_land_supremacy_NEWS_LONG"
+		news_desc_medium = "extend_land_supremacy_NEWS_MEDIUM"
+		news_desc_short = "extend_land_supremacy_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = land_supremacy }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 5 Land Tech
+				seventh_gen_warfare = 1
+				nano_weapons = 1
+				autonomous_weapons = 1
+				autonomous_armored_vehicles = 1
+				global_decision_making = 1
+			}
+		}
+		effect = {
+			country_event = { # Extend our Land Supremacy
+				id = 7040
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	extend_naval_aerospace_supremacy = { # Extend our Naval and Aerospace Supremacy
+		news = yes
+		news_desc_long = "extend_naval_aerospace_supremacy_NEWS_LONG"
+		news_desc_medium = "extend_naval_aerospace_supremacy_NEWS_MEDIUM"
+		news_desc_short = "extend_naval_aerospace_supremacy_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = naval_aerospace_supremacy }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 5 Navy & Air Tech
+				modern_AA_AD = 1
+				large_scale_naval_construction = 1
+				non_rocket_spacelaunch_systems = 1
+				modern_airframe_and_propulsion = 1
+				swarm_warfare = 1
+			}
+		}
+		effect = {
+			country_event = { # Extend our Naval and Aerospace Supremacy
+				id = 7041
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	extend_financial_supremacy = { # Extend our Financial Supremacy
+		news = yes
+		news_desc_long = "extend_financial_supremacy_NEWS_LONG"
+		news_desc_medium = "extend_financial_supremacy_NEWS_MEDIUM"
+		news_desc_short = "extend_financial_supremacy_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = financial_supremacy }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 5 Commerce Tech
+				decentralized_banking = 1
+				universal_currency = 1
+				globality_theory = 1
+				modern_market_ai = 1
+				modern_flexible_management = 1
+			}
+		}
+		effect = {
+			country_event = { # Extend our Financial Supremacy
+				id = 7042
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	extend_cultural_supremacy = { # Extend our Cultural Supremacy
+		news = yes
+		news_desc_long = "extend_cultural_supremacy_NEWS_LONG"
+		news_desc_medium = "extend_cultural_supremacy_NEWS_MEDIUM"
+		news_desc_short = "extend_cultural_supremacy_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = cultural_supremacy }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 5 Culture Tech
+				augmented_reality = 1
+				artificial_intelligence = 1
+				hephaestism = 1
+				modern_technocracy = 1
+				artificial_psychology = 1
+			}
+		}
+		effect = {
+			country_event = { # Extend our Cultural Supremacy
+				id = 7043
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	extend_industrial_supremacy = { # Extend our Industrial Supremacy
+		news = yes
+		news_desc_long = "extend_industrial_supremacy_NEWS_LONG"
+		news_desc_medium = "extend_industrial_supremacy_NEWS_MEDIUM"
+		news_desc_short = "extend_industrial_supremacy_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = industrial_supremacy }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 5 Culture Tech
+				energy_renaissance = 1
+				nanoscale_manufacturing = 1
+				nanomaterials = 1
+				hyper_projects = 1
+				nanomedicine = 1
+			}
+		}
+		effect = {
+			country_event = { # Extend our Industrial Supremacy
+				id = 7044
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	achieve_military_interdisciplinarity = { # Achieve Military Interdisciplinarity
+		news = yes
+		news_desc_long = "achieve_military_interdisciplinarity_NEWS_LONG"
+		news_desc_medium = "achieve_military_interdisciplinarity_NEWS_MEDIUM"
+		news_desc_short = "achieve_military_interdisciplinarity_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = military_domination }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 6 Land Tech
+				redefinition_of_warfare = 1
+				exotic_weapons = 1
+				directed_energy_weapons = 1
+				heavy_armored_robotic_platforms = 1
+				command_decentralization = 1
+			}
+			OR = {	# Lvl 6 Naval Aerospace Tech
+				naval_battlespace_integration = 1
+				aerodynamic_megaships = 1
+				interstellar_travel = 1
+				blurring_karman_line = 1
+				exospace_control = 1
+			}
+		}
+		effect = {
+			country_event = { # Achieve Military Interdisciplinarity
+				id = 7050
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
+	achieve_economic_interdisciplinarity = { # Achieve Economic Interdisciplinarity
+		news = yes
+		news_desc_long = "achieve_economic_interdisciplinarity_NEWS_LONG"
+		news_desc_medium = "achieve_economic_interdisciplinarity_NEWS_MEDIUM"
+		news_desc_short = "achieve_economic_interdisciplinarity_NEWS_SHORT"
+		picture = academia_smallpic
+		potential = { tech_school = economic_domination }
+		allow = {
+			war = no
+			NOT = { has_country_modifier = tech_school_reform }
+			OR = {	# Lvl 6 Commerce Tech
+				trans_finance = 1
+				post_monetary_economy = 1
+				post_scarity_economics = 1
+				pervasive_market_theory = 1
+				democratic_decision_making = 1
+			}
+			OR = {	# Lvl 6 Culture Tech
+				virtual_reality = 1
+				exo_cortex = 1
+				super_sociology = 1
+				the_end_of_history = 1
+				superintelligence = 1
+			}
+			OR = {	# Lvl 6 Industry Tech
+				nuclear_fusion = 1
+				full_automation = 1
+				applied_exotics = 1
+				space_transportation = 1
+				trans_human = 1
+			}
+		}
+		effect = {
+			country_event = { # Achieve Economic Interdisciplinarity
+				id = 7051
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.01 }
+	}
 }

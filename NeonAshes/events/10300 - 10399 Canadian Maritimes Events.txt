@@ -1,0 +1,10 @@
+# 10300 - Intro Event Pt. 2
+country_event = {
+	id = 10300
+	title = "EVT_10300_NAME" # Forced Independence and Union
+	desc = "EVT_10300_DESC"
+	picture = "nb_low_tide_pic"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { name = "EVT_10300_OPTA" } # "And sing God save the land, we love so well!"
+}

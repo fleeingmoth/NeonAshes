@@ -1227,31 +1227,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -3148,31 +3140,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -5069,31 +5053,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -6990,31 +6966,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -8911,31 +8879,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -10832,31 +10792,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -12753,31 +12705,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -13628,13 +13572,13 @@ country_event = { # Successful Propaganda Campaign
 	}
 }
 country_event = { # Target Social Strata
-	id = 7272
-	title = "EVT_7272_NAME"
-	desc = "EVT_7272_DESC"
+	id = 7271
+	title = "EVT_7271_NAME"
+	desc = "EVT_7271_DESC"
 	picture = "propaganda_anti_traditionalist_social_strata_pic"
 	allow_multiple_instances = yes
 	trigger = {
-		has_country_modifier = propaganda_anti_traditionalist			# Anti-traditionalist Propaganda
+		has_country_modifier = propaganda_anti_traditionalist		# Anti-traditionalist Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
 		ideology = traditionalist					# Sanity check - do not fire if not traditionalist
 	}
@@ -13747,7 +13691,7 @@ country_event = { # Target Social Strata
 		}
 	}
 	option = {
-		name = "EVT_7272_OPTA"					# Upper Class
+		name = "EVT_7271_OPTA"					# Upper Class
 		set_country_flag = propaganda_social_strata_target	# Set flag to stop from repeating
 		rich_strata = {
 			ideology = {
@@ -13758,7 +13702,7 @@ country_event = { # Target Social Strata
 		ai_chance = { factor = 1 }				# Elites are low priority
 	}
 	option = {
-		name = "EVT_7272_OPTB"					# Middle Class
+		name = "EVT_7271_OPTB"					# Middle Class
 		set_country_flag = propaganda_social_strata_target	# Set flag to stop from repeating
 		middle_strata = {
 			ideology = {
@@ -13769,7 +13713,7 @@ country_event = { # Target Social Strata
 		ai_chance = { factor = 3 }				# Middle class is avg priority
 	}
 	option = {
-		name = "EVT_7272_OPTC"					# Lower Class
+		name = "EVT_7271_OPTC"					# Lower Class
 		set_country_flag = propaganda_social_strata_target	# Set flag to stop from repeating
 		poor_strata = {
 			ideology = {
@@ -13780,7 +13724,7 @@ country_event = { # Target Social Strata
 		ai_chance = { factor = 5 }				# Lower classes are high priority
 	}
 	option = {
-		name = "EVT_7272_OPTD"					# No preference
+		name = "EVT_7271_OPTD"					# No preference
 		set_country_flag = propaganda_social_strata_target	# Set flag to stop from repeating
 		random_list = {
 			50 = {
@@ -13825,7 +13769,7 @@ country_event = { # Target Govt Employees
 	picture = "propaganda_anti_traditionalist_govt_employees_pic"
 	allow_multiple_instances = yes
 	trigger = {
-		has_country_modifier = propaganda_anti_traditionalist			# Anti-traditionalist Propaganda
+		has_country_modifier = propaganda_anti_traditionalist		# Anti-traditionalist Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
 		ideology = traditionalist					# Sanity check - do not fire if not traditionalist
 	}
@@ -14674,31 +14618,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -16595,31 +16531,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -18516,31 +18444,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}

@@ -1,0 +1,26 @@
+# 18300 - 18399 - Nuclear Winter
+country_event = {
+	id = 100000
+	title = "Nuclear Winter"
+	desc = "The Nukes have subsided, now we have to survive the winter..."
+	picture = "events_default"
+
+	major = yes                    #major event has no picture example: great wars enabled
+	fire_only_once = yes           #can only be fired once through triggers
+
+	trigger = { #what triggers the event
+		year = 1980
+	}
+
+	mean_time_to_happen = {
+		months = 0
+	}
+
+	option = {
+		name = "Living in a Nuclear Winter Wonderland!"
+		add_country_modifier = {
+			name = nuclear_winter
+			duration = 3650
+		}
+	}
+}

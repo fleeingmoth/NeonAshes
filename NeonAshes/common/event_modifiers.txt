@@ -1066,20 +1066,3 @@ resource_retooling = {				# Retooling for New Resource
 }
 
 ### ### Research, Labs, and Rocket Sites ### ###
-
-rocket_launch_site_location = {			# Rocket Launch Site (Tier 1)
-	local_RGO_throughput = -0.01		# It bothers the local wildlife
-	pop_consciousness_modifier = 0.01	# HOA noise complaints
-	icon = 7
-}
-space_center_location = {			# Space Center (Tier 2)
-	local_RGO_throughput = -0.02		# It bothers the local farmers
-	pop_consciousness_modifier = 0.02	# NIMBYs gather to protest
-	icon = 7
-}
-spaceport_location = {				# Spaceport (Tier 3)
-	local_RGO_throughput = -0.05		# It bothers the local townsfolk
-	pop_consciousness_modifier = 0.03	# It ruins the neighborhood character
-	icon = 7
-}
-

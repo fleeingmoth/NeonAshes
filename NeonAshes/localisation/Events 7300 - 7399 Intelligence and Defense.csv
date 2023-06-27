@@ -1,0 +1,7 @@
+EVT_7300_NAME;Rethinking our Intelligence and Defense Priorities;;;;;;;;;;;;;x;;;;
+EVT_7300_DESC;The national defense and security apparatus of $COUNTRY$ needs to constantly adapt to tackle emerging threats, both foreign and domestic. As such, it is worthwhile to review our priorities every so often.\n\nWe can focus on internal security and domestic issues, or focus our efforts in international espionage and diplomacy. We could focus on our military and national defense, or focus on party politics in $CAPITAL$, much to the chargrin of our political opponents. Lastly, we could limit the scope of our intelligence and security agencies, lest they grow too powerful within the state or represent a danger to $COUNTRY_ADJ$ interests.;;;;;;;;;;;;;x;;;;
+EVT_7300_OPTA;Focus on domestic issues and internal security.;;;;;;;;;;;;;x;;;;
+EVT_7300_OPTB;Focus on foreign affairs and diplomacy.;;;;;;;;;;;;;x;;;;
+EVT_7300_OPTC;Focus on military affairs and national defense.;;;;;;;;;;;;;x;;;;
+EVT_7300_OPTD;Focus on political matters.;;;;;;;;;;;;;x;;;;
+EVT_7300_OPTE;Limit the power and scope of our intelligence and defense apparatus.;;;;;;;;;;;;;x;;;;

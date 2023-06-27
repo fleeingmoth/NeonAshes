@@ -1,0 +1,38 @@
+political_decisions = {
+	intel_agency_restructuring = {
+		news = yes
+		news_desc_long = "intel_agency_restructuring_NEWS_LONG"
+		news_desc_medium = "intel_agency_restructuring_NEWS_MEDIUM"
+		news_desc_short = "intel_agency_restructuring_NEWS_SHORT"
+		picture = intelligence_defense_agency_smallpic
+		potential = {
+			OR = {
+				has_country_modifier = defense_intel_domestic
+				has_country_modifier = defense_intel_foreign
+				has_country_modifier = defense_intel_military
+				has_country_modifier = defense_intel_political
+				has_country_modifier = defense_intel_limited
+			}
+		}
+		allow = {
+			NOT = { has_country_modifier = defense_intel_reorganization }
+		}
+		effect = {
+			remove_country_modifier = defense_intel_domestic
+			remove_country_modifier = defense_intel_foreign
+			remove_country_modifier = defense_intel_military
+			remove_country_modifier = defense_intel_political
+			remove_country_modifier = defense_intel_limited
+			add_country_modifier = {
+				name = defense_intel_reorganization
+				duration = 365
+			}
+			country_event = {
+				id = 7300
+				days = 0
+			}
+			prestige = -1	# Turns out we were wrong
+		}
+		ai_will_do = { factor = 0 } # AI only changes it via events
+	}
+}

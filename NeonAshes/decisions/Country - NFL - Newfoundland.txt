@@ -1,178 +1,21 @@
 political_decisions = {
-	st_johns_rocket_launch_site = {
-		news = yes
-		news_desc_long = "st_johns_rocket_launch_site_NEWS_LONG"
-		news_desc_medium = "st_johns_rocket_launch_site_NEWS_MEDIUM"
-		news_desc_short = "st_johns_rocket_launch_site_NEWS_SHORT"
-		picture = spaceport_st_johns_smallpic
+	nfl_intro = {
+		news = no
+		picture = walter_cronkite_smallpic
 		potential = {
-			owns = 74		# Newfoundland - St. Johns
-			is_core = 74		# Only build in core territory
-			suborbital_flight = 1	# Rocket science
-			74 = {
-				NOT = {		# Already built
-					OR = {
-						has_province_modifier = rocket_launch_site_location
-						has_province_modifier = space_center_location
-						has_province_modifier = spaceport_location
-					}
-				}
-			}
-			NOT = { has_country_flag = hide_rocket_sites } 	# Decluttering
+			tag = NFL							# We are Newfoundland
+			NOT = { has_country_modifier = nfl_national_spirit }		# We don't have the national modifier
 		}
-		allow = {
-			owns = 74		# We have St. Johns
-			is_core = 74		# Only build in core territory
-			aerospace_industry = 1	# We can build rockets
-			war = no		# War makes things harder
-			money = 100000		# Must be able to afford it
-			NOT = {			# We just built one
-				OR = {
-					has_country_modifier = recently_built_launch_site
-					has_country_modifier = recently_built_space_center
-					has_country_modifier = recently_built_spaceport
-				}
-			}
+		allow = {								# Redundant, but it tells you what you need to know.
+			tag = NFL							# We are Newfoundland
+			NOT = { has_country_modifier = nfl_national_spirit }		# We don't have the national modifier
 		}
 		effect = {
-			74 = {
-				add_province_modifier = {
-					name = rocket_launch_site_location
-					duration = -1
-				}
-			}
-			add_country_modifier = {
-				name = recently_built_launch_site
-				duration = 180
-			}
-			prestige = 5	# It makes the news
-			money = -100000	# It costs a lot
-		}
-		ai_will_do = {
-			factor = 0.01
-			modifier = {
-				factor = 0	# We already have one somewhere else
-				OR = {
-					any_core = { has_province_modifier = rocket_launch_site_location }
-					any_core = { has_province_modifier = space_center_location }
-					any_core = { has_province_modifier = spaceport_location }
-				}
-			}
-			modifier = {
-				factor = 10	# NFL prefers to build here
-				tag = NFL
+			country_event = {
+				id = 104
+				days = 0
 			}
 		}
-	}
-	st_johns_space_center = {
-		news = yes
-		news_desc_long = "st_johns_space_center_NEWS_LONG"
-		news_desc_medium = "st_johns_space_center_NEWS_MEDIUM"
-		news_desc_short = "st_johns_space_center_NEWS_SHORT"
-		picture = spaceport_st_johns_smallpic
-		potential = {
-			owns = 74							# Newfoundland - St. Johns
-			is_core = 74							# Only build in core territory
-			74 = { has_province_modifier = rocket_launch_site_location }	# We have a rocket launch site
-			NOT = { has_country_flag = hide_rocket_sites } 			# Decluttering
-		}
-		allow = {
-			owns = 74			# We have St. Johns
-			is_core = 74			# Only build in core territory
-			orbital_flight = 1		# We have the technology
-			modern_transportation = 1	# We can move rockets
-			war = no			# War makes things harder
-			money = 200000			# Must be able to afford it
-			NOT = {				# We just built one
-				OR = {
-					has_country_modifier = recently_built_launch_site
-					has_country_modifier = recently_built_space_center
-					has_country_modifier = recently_built_spaceport
-				}
-			}
-		}
-		effect = {
-			74 = {
-				remove_province_modifier = rocket_launch_site_location
-				add_province_modifier = {
-					name = space_center_location	# Upgrades
-					duration = -1
-				}
-			}
-			add_country_modifier = {
-				name = recently_built_space_center
-				duration = 365
-			}
-			prestige = 10	# It is renowned across the world
-			money = -200000	# It costs a lot
-		}
-		ai_will_do = {
-			factor = 0.01
-			modifier = {
-				factor = 0	# We already have one somewhere else
-				OR = {
-					any_core = { has_province_modifier = space_center_location }
-					any_core = { has_province_modifier = spaceport_location }
-				}
-			}
-			modifier = {
-				factor = 10	# NFL prefers to build here
-				tag = NFL
-			}
-		}
-	}
-	st_johns_spaceport = {
-		news = yes
-		news_desc_long = "st_johns_spaceport_NEWS_LONG"
-		news_desc_medium = "st_johns_spaceport_NEWS_MEDIUM"
-		news_desc_short = "st_johns_spaceport_NEWS_SHORT"
-		picture = spaceport_st_johns_smallpic
-		potential = {
-			owns = 74						# Newfoundland - St. Johns
-			is_core = 74						# Only build in core territory
-			74 = { has_province_modifier = space_center_location }	# We have a space center
-			NOT = { has_country_flag = hide_rocket_sites } 		# Decluttering
-		}
-		allow = {
-			owns = 74			# We have St. Johns
-			is_core = 74			# Only build in core territory
-			interplanetary_flight = 1	# We have the technology
-			fly_by_wire = 1			# We have good avionics
-			war = no			# War makes things harder
-			money = 500000			# Must be able to afford it
-			NOT = {				# We just built one
-				OR = {
-					has_country_modifier = recently_built_launch_site
-					has_country_modifier = recently_built_space_center
-					has_country_modifier = recently_built_spaceport
-				}
-			}
-		}
-		effect = {
-			74 = {
-				remove_province_modifier = space_center_location
-				add_province_modifier = {
-					name = spaceport_location	# Upgrades
-					duration = -1
-				}
-			}
-			add_country_modifier = {
-				name = recently_built_spaceport
-				duration = 730
-			}
-			prestige = 15	# It is renowned across the world
-			money = -500000	# It costs a lot
-		}
-		ai_will_do = {
-			factor = 0.01
-			modifier = {
-				factor = 0	# We already have one somewhere else
-				any_core = { has_province_modifier = spaceport_location }
-			}
-			modifier = {
-				factor = 10	# NFL prefers to build here
-				tag = NFL
-			}
-		}
+		ai_will_do = { factor = 1 }
 	}
 }

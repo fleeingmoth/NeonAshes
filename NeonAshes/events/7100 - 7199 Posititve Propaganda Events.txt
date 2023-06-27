@@ -1227,31 +1227,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -3148,31 +3140,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -5069,31 +5053,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -6990,31 +6966,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -8911,31 +8879,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -10832,31 +10792,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -12753,31 +12705,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -14674,31 +14618,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -16595,31 +16531,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}
@@ -18516,31 +18444,23 @@ country_event = { # Target Consciousness or Militancy
 			factor = 1
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 2
-					average_militancy = 2
-				}
+				average_consciousness = 2
+				average_militancy = 2
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 4
-					average_militancy = 4
-				}
+				average_consciousness = 4
+				average_militancy = 4
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 6
-					average_militancy = 6
-				}
+				average_consciousness = 6
+				average_militancy = 6
 			}
 			modifier = {					# Increase odds if high CON and MIL
 				factor = 3
-				AND = {
-					average_consciousness = 8
-					average_militancy = 8
-				}
+				average_consciousness = 8
+				average_militancy = 8
 			}
 		}
 	}

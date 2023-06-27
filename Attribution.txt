@@ -8,6 +8,8 @@ TBA:
 
 -The appearance of U.S. Department of Defense (DoD) visual information does not imply or constitute DoD endorsement.
 -All images used were subject to edits to better suit the aesthetics of the mod.
+-Unless stated otherwise, all elements of this mod are under Creative Commons BY-NC-SA 4.0.
+-Updates at https://www.moddb.com/mods/victopia
 
 ##################################
 # Attribution of Text and Quotes #
@@ -476,91 +478,6 @@ Decisions Images
  Space
   Space Agency Reorganization
    "1970 Mission Control Apollo 13.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:1970_Mission_Control_Apollo_13.jpg
-  Rocket Sites
-   Show/Hide Rocket Sites
-    "M-V with ASTRO-E2 on launch pad.jpeg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:M-V_with_ASTRO-E2_on_launch_pad.jpeg
-   British Columbia - Estevan Point
-    "Talos Terrier Oriole Nihka (Oriole-4) ASSP launch.jpg" by Lee Wingfield, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Talos_Terrier_Oriole_Nihka_(Oriole-4)_ASSP_launch.jpg
-   Canadian Prairies - Churchill
-    "Rocket launch Churchill Manitoba circa 1965 07.jpg" by Clyde L. Nickerson (Warrenthornickerson). CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Rocket_launch_Churchill_Manitoba_circa_1965_07.jpg
-   Canadian Maritimes - Canso
-    "First NASA ISINGLASS rocket launch.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:First_NASA_ISINGLASS_rocket_launch.jpg
-   Newfoundland - St. Johns
-    "Antares liftoff from Pad 0A at the Wallops Flight Facility.jpg" by Bill Ingalls, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Antares_liftoff_from_Pad_0A_at_the_Wallops_Flight_Facility.jpg
-   NWT - Resolute
-    "GREECE Mission Launching Into Aurora (12934096334).jpg" by Christopher Perry, NASA. Public domain. https://commons.wikimedia.org/wiki/File:GREECE_Mission_Launching_Into_Aurora_(12934096334).jpg
-   Ontario - Cochrane
-    "Launch of Terrier Orion rocket carrying RockOn! and RockSat-C payloads (WFF-2017-010-004).jpg" by Kyle Hoppes, Wallops Flight Facility, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Launch_of_Terrier_Orion_rocket_carrying_RockOn!_and_RockSat-C_payloads_(WFF-2017-010-004).jpg
-   Quebec - Gaspe
-    "Rocket 3.1 Orbital Launch Attempt Luscious grass (50617516186).jpg" by Astra. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Rocket_3.1_Orbital_Launch_Attempt_Luscious_grass_(50617516186).jpg
-   Alaska - Kodiak
-    "Rocket 3.1 Orbital Launch Attempt Liftoff from Kodiak Island, Alaska (50625064307).jpg" by Astra. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Rocket_3.1_Orbital_Launch_Attempt_Liftoff_from_Kodiak_Island,_Alaska_(50625064307).jpg
-   ASW - White Sands
-    "Delta Clipper DC-X first test launch.png" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Delta_Clipper_DC-X_first_test_launch.png
-   North California - Humboldt
-    "Launch of Falcon 9 carrying CASSIOPE (130929-F-ET475-012).jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Launch_of_Falcon_9_carrying_CASSIOPE_(130929-F-ET475-012).jpg
-   South California - Vandenberg
-    "Landsat 8 launch 2013-02-11 (1).jpg" by DLR/Thilo Kranz. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Landsat_8_launch_2013-02-11_(1).jpg
-   Great Plains - Cavalier
-    "Cavalierairforcestationparcs.jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Cavalierairforcestationparcs.jpg
-   Hawaii - Barking Sands
-    "Missile launch from Pacific Missile Range.jpg" by the U.S. Navy. Public domain. https://commons.wikimedia.org/wiki/File:Missile_launch_from_Pacific_Missile_Range.jpg
-   Intermountain - Green River
-    "Athena - Green River launch.jpg" by the U.S. Army. Public domain. https://commons.wikimedia.org/wiki/File:Athena_-_Green_River_launch.jpg
-   Navajo - Window Rock (exclusive)
-    "Orion Pad Abort 1 launch (JSC2010-E-125337).jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Orion_Pad_Abort_1_launch_(JSC2010-E-125337).jpg
-   Ozark - Oklahoma
-    "Daytime Dynamo Rocket Launch (9218456164).jpg" by NASA/Wallops/Thom Rogers and Terry Zaperach. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Daytime_Dynamo_Rocket_Launch_(9218456164).jpg
-   PNW - Olympic
-    "Delta II 7320-10C con SAC-C.jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Delta_II_7320-10C_con_SAC-C.jpg
-   North Texas - Houston
-    "FM-5 TARGET ROCKET 008.jpg" by the U.S. Department of Energy. Public domain. https://commons.wikimedia.org/wiki/File:FM-5_TARGET_ROCKET_008.jpg
-   South Texas - Brownsville
-    "Starship sidebar image.jpg" by Alexander Hatley from Spring, Texas, USA. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Starship_sidebar_image.jpg
-   Carolina - Kitty Hawk
-    "TacSat3 launch 090518-F-9999B-001.jpg" by U.S. Air Force, ID 090520-F-5147E-001. Public domain. https://commons.wikimedia.org/wiki/File:TacSat3_launch_090518-F-9999B-001.jpg
-   Dixie - Camden
-    "Super Strypi with HiakaSat at KTF.jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Super_Strypi_with_HiakaSat_at_KTF.jpg
-   Florida - Cape Canaveral
-    "Saturn SA3 with rain cover on launch pad.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Saturn_SA3_with_rain_cover_on_launch_pad.jpg
-   Illinois - Scott
-    "Gemini 5 on the pad - GPN-2006-000039.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Gemini_5_on_the_pad_-_GPN-2006-000039.jpg
-   Mid-Atlantic - Wallops
-    "Antares A-ONE launch.1..jpg" by Bill Ingalls, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Antares_A-ONE_launch.1..jpg
-   North Appalachia - Yeager Memorial (Charleston)
-    "Minotaur IV Flight 3 (101119-F-0000F-373).jpg" by Col. Marty France, U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Minotaur_IV_Flight_3_(101119-F-0000F-373).jpg
-   New England - Goddard Memorial (North Truro)
-    "S68-48666.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:S68-48666.jpg
-   New Orleans - Michoud (exclusive)
-    "Four NASA Barges at Michoud Assembly Facility (9464619499).jpg" by NASA, NASA on the Commons. No known copyright restrictions. https://commons.wikimedia.org/wiki/File:Four_NASA_Barges_at_Michoud_Assembly_Facility_(9464619499).jpg
-   New York - Montauk
-    "Minotaur I Rocket Launch at NASA Wallops.jpg" by Ed Campion, NASA Goddard Space Center. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Minotaur_I_Rocket_Launch_at_NASA_Wallops.jpg
-   South Appalachia - Science Hill
-    "Minotaur IV Flight 3 (101119-F-0000X-201).jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Minotaur_IV_Flight_3_(101119-F-0000X-201).jpg
-   UGL - Keweenaw
-    "Super Strypi Hiakasat 3.jpg" by the U.S. Air Force. Public domain. https://commons.wikimedia.org/wiki/File:Super_Strypi_Hiakasat_3.jpg
-   UMW - Milwaukee
-    "First Commercial Flight, Conestoga I.jpg" by Eric Grabow, Space Vector Corporation. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:First_Commercial_Flight,_Conestoga_I.jpg
-   Sonora - 
-    ""
-   Chihuahua - 
-    ""
-   Rio Grande - 
-    ""
-   Bajio - 
-    ""
-   West Mexico -
-    ""
-   East Mexico -
-    ""
-   Chiapas - 
-    ""
-   Yucatan - 
-    ""
-   Greenland - Kangerlussuaq
-    ""
-   Iceland - Vik
-    ""
 
  Economy
   Money Printing
@@ -642,8 +559,42 @@ Events Images
    Industrial School
     "https://commons.wikimedia.org/wiki/File:Godorf_Cologne_Rhineland-Refinery-Cooling-Towers-during-demolition-02.jpg". Photo by CEphoto, Uwe Aranas. © CEphoto, Uwe Aranas. https://commons.wikimedia.org/wiki/File:Godorf_Cologne_Rhineland-Refinery-Cooling-Towers-during-demolition-02.jpg
   Level 3
+   Military School
+    "Amphibious Assault" by Sgt. Brandon Ames, Michigan National Guard. Public domain. https://www.dvidshub.net/image/2787596/amphibious-assault
+   Mercenary School
+    "Ilham Aliyev viewed 3rd Azerbaijan International Defense Exhibition ADEX 2018 08.jpg" by the Presidential Press and Information Office's of Azerbaijan. CC BY-4.0. https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_viewed_3rd_Azerbaijan_International_Defense_Exhibition_ADEX_2018_08.jpg
+   Regimented Society School
+    "Vietnamese honor guards display marching skills in a military parade on September 29.jpg" by the Phillipines. Public domain. https://commons.wikimedia.org/wiki/File:Vietnamese_honor_guards_display_marching_skills_in_a_military_parade_on_September_29.jpg
+   Military-Industrial School
+    "Panzer 68 K+W Thun Com LC0929-004.jpg" by Comet Photo AG (Zürich). Bildcode: Com_LC0929-004. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Panzer_68_K%2BW_Thun_Com_LC0929-004.jpg
+   Trade School
+    "Maersk Huacho container ship at Pasir Panjang Container Terminal.jpg" by Wzhkevin. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Maersk_Huacho_container_ship_at_Pasir_Panjang_Container_Terminal.jpg
+   Exploration School
+    "North Pole, Arctic Ocean, sea ice 06.jpg" by Matti&Keti / Lorenz.King@geogr.uni-giessen.de. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:North_Pole,_Arctic_Ocean,_sea_ice_06.jpg
+   Export School
+    "Line3174 - Shipping Containers at the terminal at Port Elizabeth, New Jersey - NOAA.jpg" by Captain Albert E. Theberge, NOAA Corps (ret.). Public domain. https://commons.wikimedia.org/wiki/File:Line3174_-_Shipping_Containers_at_the_terminal_at_Port_Elizabeth,_New_Jersey_-_NOAA.jpg
+   Services School
+    "Keyholders International Office .jpg" by Keyholders International Property group. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Keyholders_International_Office_.jpg
+   Manufacturing School
+    "Factory Automation Robotics Palettizing Bread.jpg" by KUKA Roboter GmbH, Bachmann. Public domain. https://commons.wikimedia.org/wiki/File:Factory_Automation_Robotics_Palettizing_Bread.jpg
+   Production School
+    "Redcar Steelworks at Night.jpg" by Stuart "FiveTimes5" Kerr. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Redcar_Steelworks_at_Night.jpg
   Level 4
+   Land Supremacy
+    "1st ABCT brings boom to Bulgaria 151117-A-HO673-617.jpg" by Staff Sgt. Steven Colvin, US Army. Public domain. https://commons.wikimedia.org/wiki/File:1st_ABCT_brings_boom_to_Bulgaria_151117-A-HO673-617.jpg
+   Naval Aerospace Supremacy
+    "US Navy 081007-N-9150R-001 An MH-53 Sea Dragon helicopter conducts night flight operations aboard the amphibious assault ship USS Boxer (LHD 4).jpg" by U.S. Navy photo by Mass Communication Specialist 2nd Class Jon Rasmussen. Public domain. https://commons.wikimedia.org/wiki/File:US_Navy_081007-N-9150R-001_An_MH-53_Sea_Dragon_helicopter_conducts_night_flight_operations_aboard_the_amphibious_assault_ship_USS_Boxer_(LHD_4).jpg
+   Financial Supremacy
+    "Jan Senderek 2016 (Unsplash).jpg" by Jan Senderek. CC0. https://commons.wikimedia.org/wiki/File:Jan_Senderek_2016_(Unsplash).jpg
+   Cultural Supremacy
+    "1 times square night 2013.jpg" by chensiyuan. CC BY-SA 4.0. Some parts of this file (Almost all of the lighted posters, billboards, and logos) are not fully free but believed to be de minimis for this work. Derivatives of this file which focus more on the non-free element(s) may not qualify as de minimis and may be copyright violations. As a direct consequence, it might be needed to review the copyright status if you crop the picture. https://commons.wikimedia.org/wiki/File:1_times_square_night_2013.jpg
+   Industrial Supremacy
+    "Factory buildings in Yokkaichi at night; 2016.jpg" by ot0rip 604. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Factory_buildings_in_Yokkaichi_at_night;_2016.jpg
   Level 5
+   Military Supremacy
+    "U.S. and Bulgarian Tank Exercise [Image 5 of 7]" by Sgt. Marcel Pugh, 382nd Public Affairs Detachment. Public domain. https://www.dvidshub.net/image/4746505/us-and-bulgarian-tank-exercise
+   Economic Supremacy
+    "Hong Kong City, view from Kowloon.jpg" by Wilfredor. CC-0. https://commons.wikimedia.org/wiki/File:Hong_Kong_City,_view_from_Kowloon.jpg
 
  Economy
   Economics Meeting
@@ -688,21 +639,27 @@ Events Images
   British Columbia
    Geography Overview
     "Vancouver night.jpg" by Thom Quine. CC BY 2.0. https://commons.wikimedia.org/wiki/File:Vancouver_night.jpg
+    "Snow covered mountains in Mount Robson (Unsplash).jpg" by Tim Gouw. CC-0 Public Domain. https://commons.wikimedia.org/wiki/File:Snow_covered_mountains_in_Mount_Robson_(Unsplash).jpg
   Canadian Prairies
    Geography Overview
     "Farm Hwy 37 Alberta Canada 02A.jpg" by WinterE229 - WinterforceMedia. Public domain. https://commons.wikimedia.org/wiki/File:Farm_Hwy_37_Alberta_Canada_02A.jpg
+    "Draytonvalley.jpg" by Nathan Schneider (Schnits at English Wikipedia). CC BY-2.5. https://commons.wikimedia.org/wiki/File:Draytonvalley.jpg
   Canadian Maritimes
    Geography Overview
     "Halifax from the Citadel (3109984581).jpg" by elPadawan. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Halifax_from_the_Citadel_(3109984581).jpg
+    "Bay of Fundy at Low Tide.jpg" by Eric Van Lochem. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Bay_of_Fundy_at_Low_Tide.jpg
   Newfoundland
    Geography Overview
     "St. John's, Newfoundland 2019-08-08 (01).jpg" by Ryan Hodnett. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:St._John%27s,_Newfoundland_2019-08-08_(01).jpg
+    "Anchor Point NL.jpg" by Bodano. Public domain. https://commons.wikimedia.org/wiki/File:Anchor_Point_NL.jpg
   Northwest Territories
    Geography Overview
     "Iqlauit waterfront.JPG" by Sebastian Kasten. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Iqlauit_waterfront.JPG
+    "Yellowknife, NWT (2739792978).jpg" by Electronker from Vancouver, Canada. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Yellowknife,_NWT_(2739792978).jpg
   Ontario
    Geography Overview
     "Toronto - Septembre 2009.jpg" by Martin St-Amant (S23678). CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:122_-_Toronto_-_Septembre_2009.jpg
+    "LaPresse Lockout 1971 2.jpg", unknown author. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:LaPresse_Lockout_1971_2.jpg
   Quebec
    Geography Overview
     "Granby-Rue Principale-1.jpg" by Pierre Bona. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Granby-Rue_Principale-1.jpg

@@ -1,4 +1,8 @@
-#  STRING NAME (do not change!);English;;;;;;;;;;X
+army_tech;Military;;;;;;;;;;;;;x;;;;
+commerce_tech;Finance & Economics;;;;;;;;;;;;;x;;;;
+culture_tech;Comms & Sociology;;;;;;;;;;;;;x;;;;
+industry_tech;Industry;;;;;;;;;;;;;x;;;;
+navy_tech;Naval & Aerospace;;;;;;;;;;;;;x;;;;
 military_doctrine;Military Doctrine;;;;;;;;;;X
 military_doctrine_desc;The compendium of military doctrinal knowledge of the nation.;;;;;;;;;;X
 third_gen_warfare;Third Generation Warfare;;;;;;;;;;X

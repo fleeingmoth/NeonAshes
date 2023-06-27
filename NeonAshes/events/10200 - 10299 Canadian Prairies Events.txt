@@ -1,0 +1,10 @@
+# 10200 - Intro Event Pt. 2
+country_event = {
+	id = 10200
+	title = "EVT_10200_NAME" # Rebel Plains
+	desc = "EVT_10200_DESC"
+	picture = "alberta_pump_jack_pic"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { name = "EVT_10200_OPTA" } # "Home sweet home, it's where I'm proud to be!"
+}

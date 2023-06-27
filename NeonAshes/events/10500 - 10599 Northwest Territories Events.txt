@@ -1,0 +1,10 @@
+# 10500 - Intro Event Pt. 2
+country_event = {
+	id = 10500
+	title = "EVT_10500_NAME" # Charting our Own Destiny
+	desc = "EVT_10500_DESC"
+	picture = "yellowknife_pic"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { name = "EVT_10500_OPTA" } # "Blue lake and rocky shore, I will return once more!"
+}

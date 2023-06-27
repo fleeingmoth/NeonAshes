@@ -23,12 +23,14 @@ country_event = { # Economic Depression to Recession
 		months = 12
 		modifier = {						# More moderate inflation means faster recovery
 			factor = 0.5
-			has_country_modifier = deflation
-			has_country_modifier = very_low_inflation
-			has_country_modifier = low_inflation
-			has_country_modifier = moderate_inflation
-			has_country_modifier = high_inflation
-			has_country_modifier = very_high_inflation
+			OR = {
+				has_country_modifier = deflation
+				has_country_modifier = very_low_inflation
+				has_country_modifier = low_inflation
+				has_country_modifier = moderate_inflation
+				has_country_modifier = high_inflation
+				has_country_modifier = very_high_inflation
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -104,9 +106,11 @@ country_event = { # Economic Recession to Stagnation
 		months = 18
 		modifier = {						# More moderate inflation means faster recovery
 			factor = 0.5
-			has_country_modifier = low_inflation
-			has_country_modifier = moderate_inflation
-			has_country_modifier = high_inflation
+			OR = {
+				has_country_modifier = low_inflation
+				has_country_modifier = moderate_inflation
+				has_country_modifier = high_inflation
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -220,10 +224,12 @@ country_event = { # Economic Expansion to Stagnation
 		months = 18
 		modifier = {						# More extreme inflation means faster slowdown
 			factor = 0.5
-			has_country_modifier = hyperdeflation
-			has_country_modifier = rapid_deflation
-			has_country_modifier = extremely_high_inflation
-			has_country_modifier = hyperinflation
+			OR = {
+				has_country_modifier = hyperdeflation
+				has_country_modifier = rapid_deflation
+				has_country_modifier = extremely_high_inflation
+				has_country_modifier = hyperinflation
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -299,13 +305,15 @@ country_event = { # Economic Boom to Expansion
 		months = 12
 		modifier = {						# More extreme inflation means faster slowdown
 			factor = 0.5
-			has_country_modifier = hyperdeflation
-			has_country_modifier = rapid_deflation
-			has_country_modifier = deflation
-			has_country_modifier = very_low_inflation
-			has_country_modifier = very_high_inflation
-			has_country_modifier = extremely_high_inflation
-			has_country_modifier = hyperinflation
+			OR = {
+				has_country_modifier = hyperdeflation
+				has_country_modifier = rapid_deflation
+				has_country_modifier = deflation
+				has_country_modifier = very_low_inflation
+				has_country_modifier = very_high_inflation
+				has_country_modifier = extremely_high_inflation
+				has_country_modifier = hyperinflation
+			}
 		}
 		modifier = {
 			factor = 0.5

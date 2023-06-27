@@ -1,0 +1,7 @@
+nwt_intro_title;Introduction - The Northwest Territories;;;;;;;;;;;;;x;;;;
+nwt_intro_desc;This will trigger the introduction event (and country modifiers) for the Canadian Northwest Territories, as well as provide a bit of backstory to the country. If not selected, the event will fire automatically within the first few months of the game.;;;;;;;;;;;;;x;;;;
+norman_wells_oil_title;The Norman Wells Oilfields;;;;;;;;;;;;;x;;;;
+norman_wells_oil_NEWS_LONG;There are reports of renewed oil exploration and activity in Canada, by the northern town of Norman Wells. The town, formerly an important source of light oil for the Second World War, is seeing new life with recent investments, and the taps are wide open for the black gold.;;;;;;;;;;;;;x;;;;
+norman_wells_oil_NEWS_MEDIUM;Northern Canada sees another oil boom, as the town of Norman Wells begins drilling operations once more. Analysts call for a decreased oil price in North America.;;;;;;;;;;;;;x;;;;
+norman_wells_oil_NEWS_SHORT;Northern Canada sees another oil boom, as the town of Norman Wells begins drilling operations once more.;;;;;;;;;;;;;x;;;;
+norman_wells_oil_desc;During the Second World War, Norman Wells was an important source of light oil for Northern Canada and Alaska. After the war, however, the remoteness of the oilfields and decreased demands led to a shutdown of most oil production. Now, with a growing economy and greater technical capacity, we are ready to reactivate the drills at Norman Wells.;;;;;;;;;;;;;x;;;;

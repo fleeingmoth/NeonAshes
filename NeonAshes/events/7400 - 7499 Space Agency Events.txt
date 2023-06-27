@@ -1,0 +1,337 @@
+country_event = {
+	id = 7400
+	title = "EVT_7400_NAME" # Defunding our Space Agency (Level 4 to Level 3)
+	desc = "EVT_7400_DESC"
+	picture = "space_program_review_pic"
+	allow_multiple_instances = yes
+	trigger = {
+		has_country_modifier = space_program_lvl_4	# Generously-funded space program
+		NOT = { has_country_modifier = economic_boom }	# Economy isn't booming (or no econ tech)
+		NOT = {						# Recent space milestones
+			OR = {
+				has_country_modifier = satellite_in_space
+				has_country_modifier = animal_in_space
+				has_country_modifier = man_in_space
+				has_country_modifier = man_in_orbit
+				has_country_modifier = docking_in_space
+				has_country_modifier = lunar_probe_launched
+				has_country_modifier = manned_lunar_orbit
+				has_country_modifier = manned_lunar_landing
+			}
+		}
+		NOT = { has_country_modifier = rebuffed_space_budget_reform }	# We recently said no
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {		# Having an otherwise growing economy delays this a bit
+			factor = 2.0
+			has_country_modifier = economic_expansion
+		}
+		modifier = {		# Recessions accelerate this
+			factor = 0.8
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# Depressions greatly accelerate this
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# Budgetary awareness
+			factor = 0.8
+			average_consciousness = 2
+		}
+		modifier = {		# We have problems down here
+			factor = 0.8
+			average_consciousness = 5
+		}
+		modifier = {		# Solve those first
+			factor = 0.8
+			average_consciousness = 8
+		}
+	}
+	option = {
+		name = "EVT_7400_OPTA" # The budget will remain as-is.
+		add_country_modifier = {
+			name = rebuffed_space_budget_reform
+			duration = 365
+		}
+		any_pop = {
+			consciousness = 0.50	# Paying attention
+			militancy = 0.20	# Dissent against govt
+		}
+	}
+	option = {
+		name = "EVT_7400_OPTB" # Reduce the budget to the requested level.
+		remove_country_modifier = space_program_lvl_4
+		add_country_modifier = {
+			name = space_program_lvl_3
+			duration = -1
+		}
+		add_country_modifier = {
+			name = space_agency_reorganization
+			duration = 365
+		}
+		prestige = -1
+		clergymen = { consciousness = 0.25 }	# Scientists get upset
+	}
+	option = {
+		name = "EVT_7400_OPTC" # These cuts don't go far enough.
+		remove_country_modifier = space_program_lvl_4
+		add_country_modifier = {
+			name = space_program_lvl_2
+			duration = -1
+		}
+		add_country_modifier = {
+			name = space_agency_reorganization
+			duration = 365
+		}
+		prestige = -2
+		clergymen = { consciousness = 1.00 }	# Scientists get upset
+	}
+}
+country_event = {
+	id = 7401
+	title = "EVT_7401_NAME" # Defunding our Space Agency (Level 3 to Level 2)
+	desc = "EVT_7401_DESC"
+	picture = "space_program_review_pic"
+	allow_multiple_instances = yes
+	trigger = {
+		has_country_modifier = space_program_lvl_3	# Well-funded space program
+		NOT = {						# Economy isn't growing (or no econ tech)
+			OR = {
+				has_country_modifier = economic_boom
+				has_country_modifier = economic_expansion
+			}
+		}
+		NOT = {						# Recent space milestones
+			OR = {
+				has_country_modifier = satellite_in_space
+				has_country_modifier = animal_in_space
+				has_country_modifier = man_in_space
+				has_country_modifier = man_in_orbit
+				has_country_modifier = docking_in_space
+				has_country_modifier = lunar_probe_launched
+				has_country_modifier = manned_lunar_orbit
+				has_country_modifier = manned_lunar_landing
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {		# Having an otherwise okay economy delays this a bit
+			factor = 2.0
+			has_country_modifier = economic_stagnation
+		}
+		modifier = {		# Depressions accelerate this
+			factor = 0.8
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# Budgetary awareness
+			factor = 0.8
+			average_consciousness = 2
+		}
+		modifier = {		# We have problems down here
+			factor = 0.8
+			average_consciousness = 5
+		}
+		modifier = {		# Solve those first
+			factor = 0.8
+			average_consciousness = 8
+		}
+	}
+	option = {
+		name = "EVT_7401_OPTA" # The budget will remain as-is.
+		add_country_modifier = {
+			name = rebuffed_space_budget_reform
+			duration = 365
+		}
+		any_pop = {
+			consciousness = 0.50	# Paying attention
+			militancy = 0.20	# Dissent against govt
+		}
+	}
+	option = {
+		name = "EVT_7401_OPTB" # Reduce the budget to the requested level.
+		remove_country_modifier = space_program_lvl_3
+		add_country_modifier = {
+			name = space_program_lvl_2
+			duration = -1
+		}
+		add_country_modifier = {
+			name = space_agency_reorganization
+			duration = 365
+		}
+		prestige = -1
+		clergymen = { consciousness = 0.25 }	# Scientists get upset
+	}
+	option = {
+		name = "EVT_7401_OPTC" # Suspend the space program altogether.
+		remove_country_modifier = space_program_lvl_3
+		add_country_modifier = {
+			name = space_program_lvl_1
+			duration = -1
+		}
+		add_country_modifier = {
+			name = space_agency_reorganization
+			duration = 365
+		}
+		prestige = -2
+		clergymen = { consciousness = 1.00 }	# Scientists get upset
+	}
+}
+country_event = {
+	id = 7402
+	title = "EVT_7402_NAME" # Defunding our Space Agency (Level 2 to Level 1)
+	desc = "EVT_7402_DESC"
+	picture = "space_program_review_pic"
+	allow_multiple_instances = yes
+	trigger = {
+		has_country_modifier = space_program_lvl_2	# Lightly-funded space program
+		NOT = {						# Economy is declining (or no econ tech)
+			OR = {
+				has_country_modifier = economic_boom
+				has_country_modifier = economic_expansion
+				has_country_modifier = economic_stagnation
+			}
+		}
+		NOT = {						# Recent space milestones
+			OR = {
+				has_country_modifier = satellite_in_space
+				has_country_modifier = animal_in_space
+				has_country_modifier = man_in_space
+				has_country_modifier = man_in_orbit
+				has_country_modifier = docking_in_space
+				has_country_modifier = lunar_probe_launched
+				has_country_modifier = manned_lunar_orbit
+				has_country_modifier = manned_lunar_landing
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {		# The economy is bad, but not catastrophic
+			factor = 2.0
+			has_country_modifier = economic_recession
+		}
+		modifier = {		# Budgetary awareness
+			factor = 0.8
+			average_consciousness = 2
+		}
+		modifier = {		# We have problems down here
+			factor = 0.8
+			average_consciousness = 5
+		}
+		modifier = {		# Solve those first
+			factor = 0.8
+			average_consciousness = 8
+		}
+	}
+	option = {
+		name = "EVT_7402_OPTA" # The budget will remain as-is.
+		add_country_modifier = {
+			name = rebuffed_space_budget_reform
+			duration = 365
+		}
+		any_pop = {
+			consciousness = 0.50	# Paying attention
+			militancy = 0.20	# Dissent against govt
+		}
+	}
+	option = {
+		name = "EVT_7402_OPTB" # Suspend the space program.
+		remove_country_modifier = space_program_lvl_2
+		add_country_modifier = {
+			name = space_program_lvl_1
+			duration = -1
+		}
+		add_country_modifier = {
+			name = space_agency_reorganization
+			duration = 365
+		}
+		prestige = -1
+		clergymen = { consciousness = 0.25 }	# Scientists get upset
+	}
+	option = {
+		name = "EVT_7402_OPTC" # Pause public funding of our space agency
+		remove_country_modifier = space_program_lvl_2
+		add_country_modifier = {
+			name = space_program_lvl_0
+			duration = -1
+		}
+		add_country_modifier = {
+			name = space_agency_reorganization
+			duration = 365
+		}
+		prestige = -2
+		clergymen = { consciousness = 1.00 }	# Scientists get upset
+	}
+}
+country_event = {
+	id = 7403
+	title = "EVT_7403_NAME" # Defunding our Space Agency (Level 1 to Level 0)
+	desc = "EVT_7403_DESC"
+	picture = "space_program_review_pic"
+	allow_multiple_instances = yes
+	trigger = {
+		has_country_modifier = space_program_lvl_1	# Public space agency
+		NOT = {						# Economy is in a depression (or no econ tech)
+			OR = {
+				has_country_modifier = economic_boom
+				has_country_modifier = economic_expansion
+				has_country_modifier = economic_stagnation
+				has_country_modifier = economic_recession
+			}
+		}
+		NOT = {						# Recent space milestones
+			OR = {
+				has_country_modifier = satellite_in_space
+				has_country_modifier = animal_in_space
+				has_country_modifier = man_in_space
+				has_country_modifier = man_in_orbit
+				has_country_modifier = docking_in_space
+				has_country_modifier = lunar_probe_launched
+				has_country_modifier = manned_lunar_orbit
+				has_country_modifier = manned_lunar_landing
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {		# Budgetary awareness
+			factor = 0.8
+			average_consciousness = 2
+		}
+		modifier = {		# We have problems down here
+			factor = 0.8
+			average_consciousness = 5
+		}
+		modifier = {		# Solve those first
+			factor = 0.8
+			average_consciousness = 8
+		}
+	}
+	option = {
+		name = "EVT_7403_OPTA" # The budget will remain as-is.
+		add_country_modifier = {
+			name = rebuffed_space_budget_reform
+			duration = 365
+		}
+		any_pop = {
+			consciousness = 0.50	# Paying attention
+			militancy = 0.20	# Dissent against govt
+		}
+	}
+	option = {
+		name = "EVT_7403_OPTB" # Pause public funding of our space agency
+		remove_country_modifier = space_program_lvl_1
+		add_country_modifier = {
+			name = space_program_lvl_0
+			duration = -1
+		}
+		add_country_modifier = {
+			name = space_agency_reorganization
+			duration = 365
+		}
+		prestige = -1
+		clergymen = { consciousness = 0.25 }	# Scientists get upset
+	}
+}

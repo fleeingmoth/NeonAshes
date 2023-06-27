@@ -1,4 +1,16 @@
 CAN;Canada;;;;;;;;;;;;;x;;;;
+CAN_democracy;Canada;;;;;;;;;;;;;x;;;;
+CAN_defensive_democracy;Canada;;;;;;;;;;;;;x;;;;
+CAN_limited_democracy;Canada;;;;;;;;;;;;;x;;;;
+CAN_socialist_democracy;Socialist Republic of Canada;;;;;;;;;;;;;x;;;;
+CAN_socialist_dictatorship;Socialist Republic of Canada;;;;;;;;;;;;;x;;;;
+CAN_communist_state;People's Republic of Canada;;;;;;;;;;;;;x;;;;
+CAN_minarchist_state;Canadian Confederation;;;;;;;;;;;;;x;;;;
+CAN_eco_state;Canada;;;;;;;;;;;;;x;;;;
+CAN_auth_democracy;Canada;;;;;;;;;;;;;x;;;;
+CAN_nat_dictatorship;Canada;;;;;;;;;;;;;x;;;;
+CAN_theo_dictatorship;Canada;;;;;;;;;;;;;x;;;;
+CAN_ultranat_dictatorship;Canada;;;;;;;;;;;;;x;;;;
 CAN_ADJ;Canandian;;;;;;;;;;;;;x;;;;
 CAN_social_democrat;New Democratic Party;;;;;;;;;;;;;x;;;;
 CAN_socialist;Workers Party;;;;;;;;;;;;;x;;;;

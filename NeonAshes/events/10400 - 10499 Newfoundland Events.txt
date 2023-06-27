@@ -1,0 +1,10 @@
+# 10400 - Intro Event Pt. 2
+country_event = {
+	id = 10400
+	title = "EVT_10400_NAME" # Patriation and the Future
+	desc = "EVT_10400_DESC"
+	picture = "labrador_boats_pic"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { name = "EVT_10400_OPTA" } # "God guard thee, Newfoundland!"
+}

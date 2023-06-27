@@ -1,0 +1,44 @@
+country_event = {
+	id = 7300
+	title = "EVT_7300_NAME" # Intelligence Community Shakeup
+	desc = "EVT_7300_DESC"
+	picture = "intelligence_defense_agency_pic"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	option = {
+		name = "EVT_7300_OPTA" # ISA - Domestic Focus
+		add_country_modifier = {
+			name = defense_intel_domestic
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_7300_OPTB" # ISA - Foreign Focus
+		add_country_modifier = {
+			name = defense_intel_foreign
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_7300_OPTC" # ISA - Military Focus
+		add_country_modifier = {
+			name = defense_intel_military
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_7300_OPTD" # ISA - Political Focus
+		add_country_modifier = {
+			name = defense_intel_political
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_7300_OPTE" # ISA - Limited Focus
+		add_country_modifier = {
+			name = defense_intel_limited
+			duration = -1
+		}
+	}
+}

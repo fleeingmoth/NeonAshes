@@ -1,0 +1,10 @@
+# 10600 - Intro Event Pt. 2
+country_event = {
+	id = 10600
+	title = "EVT_10600_NAME" # The Three Crises
+	desc = "EVT_10600_DESC"
+	picture = "canadian_protests"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { name = "EVT_10600_OPTA" } # "A Place to Stand, a Place to Grow!"
+}

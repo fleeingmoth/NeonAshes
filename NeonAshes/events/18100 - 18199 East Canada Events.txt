@@ -74,15 +74,25 @@ country_event = {
 	}
 }
 
-# 18101 - 18109 - Unification (and reactions)
+# 18101 - 18109 - Reactions to Unification
 
 country_event = { # Unification of East Canada (Canadian Compact)
 	id = 18101
 	title = "EVT_18101_NAME"
 	desc = "EVT_18101_DESC"
 	picture = "canadian_provinces_pic"
-	is_triggered_only = yes
+	fire_only_once = yes
 	allow_multiple_instances = yes
+	trigger = {
+		OR = {	# Any Canadian country not Ontario or Quebec
+			tag = BCB
+			tag = CPR
+			tag = MAR
+			tag = NFL
+			tag = NWT
+		}
+		exists = ECA	# New kids on the block
+	}
 	option = {
 		name = "EVT_18101_OPTA" # Positive
 		prestige = -3
@@ -167,8 +177,18 @@ country_event = { # Formation of East Canada (Not Canadian Compact)
 	title = "EVT_18102_NAME"
 	desc = "EVT_18102_DESC"
 	picture = "canadian_provinces_pic"
-	is_triggered_only = yes
+	fire_only_once = yes
 	allow_multiple_instances = yes
+	trigger = {
+		OR = {	# Any Canadian country not Ontario or Quebec
+			tag = BCB
+			tag = CPR
+			tag = MAR
+			tag = NFL
+			tag = NWT
+		}
+		exists = ECA	# New kids on the block
+	}
 	option = {
 		name = "EVT_18102_OPTA" # Positive
 		prestige = -5

@@ -26,7 +26,7 @@ country_event = { # Establishment of our Intelligence and Security Apparatus
 			}
 		}
 	} 
-	mean_time_to_happen = { months = 3 } 	# Takes a few months
+	mean_time_to_happen = { months = 1 } 	# ASAP
 	option = {
 		name = "EVT_4410_OPTA"
 		add_country_modifier = {

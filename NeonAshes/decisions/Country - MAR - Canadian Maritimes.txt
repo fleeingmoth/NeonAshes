@@ -3,12 +3,12 @@ political_decisions = {
 		news = no
 		picture = walter_cronkite_smallpic
 		potential = {
-			tag = MAR							# We are the Canadian Maritimes
-			NOT = { has_country_modifier = maritimes_national_spirit }	# We don't have the national modifier
+			tag = MAR						# We are the Canadian Maritimes
+			NOT = { has_country_modifier = mar_national_spirit }	# We don't have the national modifier
 		}
-		allow = {								# Redundant, but it tells you what you need to know.
-			tag = MAR							# We are the Canadian Maritimes
-			NOT = { has_country_modifier = maritimes_national_spirit }	# We don't have the national modifier
+		allow = {							# Redundant, but it tells you what you need to know.
+			tag = MAR						# We are the Canadian Maritimes
+			NOT = { has_country_modifier = mar_national_spirit }	# We don't have the national modifier
 		}
 		effect = {
 			country_event = {

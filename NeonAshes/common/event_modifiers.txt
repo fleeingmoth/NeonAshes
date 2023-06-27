@@ -16,12 +16,22 @@ nuclear_winter = {
 
 bcb_national_spirit = {
 	global_pop_militancy_modifier = -0.02	# Pluralistic society
-	global_immigrant_attract = 0.10		# People like moving to BCB
+	global_immigrant_attract = 0.10		# People like moving to British Columbia
 	icon = 1
 }
 cpr_national_spirit = {
-	social_reform_desire = 0.05		# Rebel Prairies
-	rgo_throughput = 0.10			# Mineral Might
+	social_reform_desire = 0.05	# Rebel Prairies
+	rgo_throughput = 0.10		# Mineral Might
+	icon = 1
+}
+mar_national_spirit = {
+	import_cost = -0.05		# Good trade hub
+	rgo_throughput = 0.10		# Good resources
+	icon = 1
+}
+nfl_national_spirit = {
+	naval_organisation = 0.10		# Better ships
+	naval_unit_start_experience = 0.10	# Better crews
 	icon = 1
 }
 nwt_national_spirit = {
@@ -29,14 +39,33 @@ nwt_national_spirit = {
 	global_pop_consciousness_modifier = -0.02	# No Parties Allowed
 	icon = 1
 }
+ont_national_spirit = {
+	factory_output = 0.05		# Industrial powerhouse
+	factory_throughput = 0.05	# Really efficient
+	icon = 1
+}
 qbc_national_spirit = {
-	research_points_modifier = 0.05			# Research Hub
-	education_efficiency_modifier = 0.05		# Commitment to Education
+	research_points_modifier = 0.05		# Research Hub
+	education_efficiency_modifier = 0.05	# Commitment to Education
 	icon = 1
 }
 ask_national_spirit = {
-	rgo_throughput = 0.15			# Alaskan folks are rugged...
+	rgo_throughput = 0.15	# Alaskan folks are rugged...
 	icon = 1
+}
+wca_national_spirit = {
+	rgo_throughput = 0.10	# The Breadbasket of Canada
+	factory_input = -0.02	# Resource focus
+	icon = 1
+}
+eca_national_spirit = {
+	research_points_modifier = 0.05	# Research hub
+	factory_output = 0.02		# Production focus
+}
+can_national_spirit = {
+	prestige = 0.05			# We did it!
+	global_immigrant_attract = 0.15	# People want to move here
+	global_assimilation_rate = 0.10	# The Canadian Melting Pot
 }
 
 #### ### Tech and Research effects ### ###

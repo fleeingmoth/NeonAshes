@@ -1,11 +1,5 @@
 space_agency_reorganization;Reorganization of our Space Agency;;;;;;;;;;;;;x;;;;
 space_agency_reorganization_desc;We have recently reorganized the national space agency. There will be some period of adjustment to the new conditions before we return to nominal efficiency.;;;;;;;;;;;;;x;;;;
-recently_built_launch_site;Recently Built Rocket Launch Site;;;;;;;;;;;;;x;;;;
-recently_built_launch_site;We have started construction of a rocket launch site, and it will take about six months until it becomes fully operational.;;;;;;;;;;;;;x;;;;
-recently_built_space_center;Recently Built Space Center;;;;;;;;;;;;;x;;;;
-recently_built_space_center;We are upgrading one of our launch sites to a proper space center. With proper funding, we estimate the process will take about a year.;;;;;;;;;;;;;x;;;;
-recently_built_spaceport;Recently Built Spaceport;;;;;;;;;;;;;x;;;;
-recently_built_spaceport;We are upgrading one of our space centers to a spaceport. This is a significant endeavor, and will take approximately two years to complete.;;;;;;;;;;;;;x;;;;
 space_program_lvl_0;Private Space Agency;;;;;;;;;;;;;x;;;;
 space_program_lvl_0_desc;We do not have a government-supported space agency in our nation. Instead, research, development, and coordinating of space-related matters takes place by individual private entities.;;;;;;;;;;;;;x;;;;
 space_program_lvl_1;Public Space Agency;;;;;;;;;;;;;x;;;;
@@ -34,3 +28,5 @@ manned_lunar_landing;Manned Lunar Landing;;;;;;;;;;;;;x;;;;
 manned_lunar_landing_desc;We have landed on the moon! People are ecstatic, politicians are pleased, and scientists are eager to review the data.;;;;;;;;;;;;;x;;;;
 space_political_boost;The Stellar Performance of the Party;;;;;;;;;;;;;x;;;;
 space_political_boost_desc;Space, the final frontier, is being slowly conquered thanks to our wise leadership, and the people approve.;;;;;;;;;;;;;x;;;;
+rebuffed_space_budget_reform;Rebuffed Space Agency Budget Reduction;;;;;;;;;;;;;x;;;;
+rebuffed_space_budget_reform_desc;The people do not understand why we're spending so much on rockets when there's so many issues here on Earth...;;;;;;;;;;;;;x;;;;

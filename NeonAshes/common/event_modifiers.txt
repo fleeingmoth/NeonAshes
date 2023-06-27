@@ -875,21 +875,6 @@ space_agency_reorganization = {
 	research_points_modifier = -0.05
 	icon = 9
 }
-recently_built_launch_site = {
-	tax_efficiency = -0.01
-	global_pop_consciousness_modifier = 0.01
-	icon = 9
-}
-recently_built_space_center = {
-	tax_efficiency = -0.02
-	global_pop_consciousness_modifier = 0.01
-	icon = 9
-}
-recently_built_spaceport = {
-	tax_efficiency = -0.03
-	global_pop_consciousness_modifier = 0.01
-	icon = 9
-}
 space_program_lvl_0 = {
 	research_points_modifier = 0.03		# Tiny research boost
 	research_points = 0.05			# Tiny extra research
@@ -1036,6 +1021,12 @@ space_political_boost = {
 	ruling_party_support = 0.25			# For the Party
 	suppression_points_modifier = 0.25		# By any means
 	tax_efficiency = -0.02				# Propaganda costs money
+	icon = 5
+}
+rebuffed_space_budget_reform = {
+	ruling_party_support = -0.10			# That was unpopular
+	global_pop_consciousness_modifier = 0.02	# People start talking about it
+	global_pop_militancy_modifier = 0.01		# Some are protesting about it
 	icon = 5
 }
 

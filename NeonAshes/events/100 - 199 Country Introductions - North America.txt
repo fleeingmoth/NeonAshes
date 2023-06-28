@@ -53,7 +53,7 @@ country_event = { # Canadian Maritimes
 	option = {
 		name = "EVT_103_OPTA" # "Go on..."
 		add_country_modifier = {
-			name = maritimes_national_spirit 
+			name = mar_national_spirit 
 			duration = -1
 		}
 		country_event = { # "And sing God save the land, we love so well!"

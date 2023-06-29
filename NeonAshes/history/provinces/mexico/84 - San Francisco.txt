@@ -1,6 +1,7 @@
 owner = NCA
 controller = NCA
 add_core = NCA
+add_core = CAL
 trade_goods = credit_money
 life_rating = 35
 state_building = {

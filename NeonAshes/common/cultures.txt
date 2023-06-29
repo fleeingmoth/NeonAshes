@@ -231,7 +231,7 @@ scandinavian = {
 			Hætta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell
 		}
 	}
-	union = SCA
+	#union = SCA
 }
 
 british = {

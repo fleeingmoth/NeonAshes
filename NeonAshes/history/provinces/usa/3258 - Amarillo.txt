@@ -1,5 +1,6 @@
 owner = NTX
 controller = NTX
 add_core = NTX
+add_core = TEX
 trade_goods = grain
 life_rating = 30

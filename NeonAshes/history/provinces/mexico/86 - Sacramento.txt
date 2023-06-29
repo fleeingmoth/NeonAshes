@@ -1,5 +1,6 @@
 owner = NCA
 controller = NCA
 add_core = NCA
+add_core = CAL
 trade_goods = fruit
 life_rating = 30

@@ -231,14 +231,28 @@ scandinavian = {
 			H�tta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell
 		}
 	}
-	union = SCA
+	#union = SCA
 }
 
 british = {
 	leader = european
 	unit = BritishGC
-	british = {
+	english = {
 		color = { 220 100 220}
+		first_names = { Albert Alexander Alfred Archibald Arthur Augustus Benjamin Bernard Charles Colbert
+		Colin Cyril David Donald Douglas Edmund Edwar Fairfax Ferdinand Francis
+		Frederick Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+		James Jeremy John Joseph Leopold Lester Louis Martin Nigel Oswald
+		Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary }
+		
+		last_names = { Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn "de Robeck" Dundas Fisher French Gough Grant Grenfell Haig
+		Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Odoni "of Hannover" "of Saxe-Coburg-Gotha" Plummer Ragland Roberts Seaton Seymour
+		Smith Smith-Dorrien Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood }
+	}
+	scotish = {
+		color = { 224 207 100}
 		first_names = { Albert Alexander Alfred Archibald Arthur Augustus Benjamin Bernard Charles Colbert
 		Colin Cyril David Donald Douglas Edmund Edwar Fairfax Ferdinand Francis
 		Frederick Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
@@ -1836,6 +1850,36 @@ neo_european_cultures = {
 		}
 		radicalism = 10
 	}
+	bahaman = {
+		color = {31 156 175}
+		first_names = { Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
+		}
+		last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
+		}
+	}
+	dutch_antillian = {
+		color = {247 186 42}
+		first_names = { Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
+		}
+		last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
+		}
+	}
+	anglo_antillian = {
+		color = {226 31 56}
+		first_names = { Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
+		}
+		last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
+		}
+	}
+	french_antillian = {
+		color = {63 147 234}
+		first_names = { Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
+		}
+		last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
+		}
+	}
+
+
 }
 
 latin_american_cultures = {
@@ -1888,6 +1932,36 @@ latin_american_cultures = {
 		Gil G�mez Gonz�les Gonz�lez Grau Guillermo Henr�quez Herrera Hevia Laredo
 		Luper�n Maceo Machado M�rquez Mella M�ndez Mendieta Moncada Morales Mota
 		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde V�squez V�zquez Zayas
+		}
+	}
+	cuban = {
+		color = {160 97 160}
+		first_names = { Alberto Alejandro Alfredo Ambrosio Anselmo Antonio Arturo Benigno Buenaventura Calixto
+		Carlos Ceferino CesᲥo Demetrio Desiderio Dionisio Domingo Eugenio Federico Felipe
+		Fernando Fidel Fulgencio Gerardo Gregorio Guillermo Horacio Ignacio Jacinto Jacobo
+		Jesús Joaqu󸁊os頢Jos頍iguel" Juan "Juan Bautista" Manuel Mariano Mario Mḩmo
+		Osvaldo Pablo Pedro Rafael Ram󮠒aúl Salvador Rom᳠Ulises Wenceslao
+		}
+
+		last_names = { Acosta Alfau B᥺ Batista Bayo Cabral Carmona Castillo Castro Cisneros
+		"de C鳰edes" "de la Rosa" "de Meri񯢠"de Rojas" Espaillat Estrada Estrella Fernᮤez Figuereo Garc𣐊		Gil G󭥺 Gonzᬥs Gonzᬥz Grau Guillermo Henr𭑥z Herrera Hevia Laredo
+		Luper󮠍aceo Machado MᲱuez Mella M鮤ez Mendieta Moncada Morales Mota
+		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vᳱuez Vằuez Zayas
+		}
+	}
+	dominican = {
+		color = {204 202 104}
+		first_names = { Alberto Alejandro Alfredo Ambrosio Anselmo Antonio Arturo Benigno Buenaventura Calixto
+		Carlos Ceferino CesᲥo Demetrio Desiderio Dionisio Domingo Eugenio Federico Felipe
+		Fernando Fidel Fulgencio Gerardo Gregorio Guillermo Horacio Ignacio Jacinto Jacobo
+		Jesús Joaqu󸁊os頢Jos頍iguel" Juan "Juan Bautista" Manuel Mariano Mario Mḩmo
+		Osvaldo Pablo Pedro Rafael Ram󮠒aúl Salvador Rom᳠Ulises Wenceslao
+		}
+
+		last_names = { Acosta Alfau B᥺ Batista Bayo Cabral Carmona Castillo Castro Cisneros
+		"de C鳰edes" "de la Rosa" "de Meri񯢠"de Rojas" Espaillat Estrada Estrella Fernᮤez Figuereo Garc𣐊		Gil G󭥺 Gonzᬥs Gonzᬥz Grau Guillermo Henr𭑥z Herrera Hevia Laredo
+		Luper󮠍aceo Machado MᲱuez Mella M鮤ez Mendieta Moncada Morales Mota
+		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vᳱuez Vằuez Zayas
 		}
 	}
 	north_andean = {
@@ -1954,6 +2028,22 @@ latin_american_cultures = {
 		Pena Pessoa Pinto Rondon "Saldanha da Gama" Santos Soares Tavares Vargas Wandenkolk
 		}
 	}
+	ecuadorian = {
+		color = {255 220 107}
+		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco Jos颠"Francisco de Paula" FroilᮠGabriel
+		Gregorio Guillermo Gustavo GuzmᮠHilario Ignacio Jer󮩭o Joaqu󸁊orge "Jos頁ntonio"
+		"Jos頍anuel" "Jos頍ar𨠠Juan "Juan Jos颠JuliᮠJulio Le󮠍anuel Pedro Plᣩdo
+		Rafael Raimundo Ram󮠒icardo Rodolfo Santiago Santos Tadeo Tom᳠Vicente
+		}
+
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caama񯠃arre񯠃arri󮠃astro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obald𨠠"de Olmedo" "de Veintemilla" "de Villamil"
+		Falc󮠆lores Garc𨁇󭥺 Gonzᬥz Gual Guti鲲ez HerrᮠHurtado L󰥺
+		Mallarino Manjarr鳠Mari񯠍elo Monagas Moreno Nú񥺠Obando P᥺ Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
+		}
+	}
 }
 
 african_diaspora_cultures = {
@@ -2015,7 +2105,17 @@ african_diaspora_cultures = {
 		Roy Saget Salnave Salomon Sam Simon Soulouque Th�odore Vincent Zamor }
 	}
 
+	haitian = {
+		color = {32 57 32}
+		first_names = { Anderson Anselm Arthur Ben Colville Cyril Earl Edwin Ellis Eric
+		Geoffrey George Graham Henry Herbert Hubert Jeffrey John Josiah Lennox
+		Lloyd Malcolm Mervyn Nicholas Rainford Reginald Robert Stokely William Winston }
 	
+		last_names = { Abbott Best Blaize Brathwaite Carmichael Chambers Clark Douglas Dymally Findley
+		Goddard Hall Henson Holder James Jones Julian Kilgour Lassalle Lovelace
+		McIntosh Nurse Perry Roberts Robinson Shadd Stollmeyer Sylvester Williams Young }
+	}
+
 }
 
 west_african = {
@@ -2595,5 +2695,5 @@ bears = {
 		
 		last_names = { Beliy Medved Bjorn Rawrrorr Rrrrr Grrr Gyp Qoi Styrbjorn Blomstfjellet }
 	}
-	union = SCA
+	#union = SCA
 }

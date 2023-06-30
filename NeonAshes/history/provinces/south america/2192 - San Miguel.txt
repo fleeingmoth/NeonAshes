@@ -1,2 +1,5 @@
-trade_goods = timber
-life_rating = 35
+owner = ELS
+controller = ELS
+add_core = ELS
+trade_goods = tea_n_coffee
+life_rating = 32

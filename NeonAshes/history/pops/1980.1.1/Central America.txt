@@ -261,8 +261,116 @@
 }
 
 
-#El Salvador
-#San Salvador 
+#El Salvador (4,321,564 real, 1,078,141 pops)
+#San Salvador
+#739,452 pops 739,450
+2191 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 10000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 10000
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 122425
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 20000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 22183
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 10000
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 1100
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 30000
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 480642
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 44200
+	}
+}
+
+#San Miguel
+#338,689 pops 338690
+2192 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 76293
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 10000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 6358
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 2000
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 600
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 6011
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 206628
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 20800
+	}
+}
 
 #SM
 
@@ -273,3 +381,46 @@
 #Costa Rica
 
 #Panama
+
+1723 = {#canal Zone (closest census is 1960 at 42122 aproximating growth to 11780 pops)
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 17
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 48
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 1714
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 240
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 164
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 9643
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 78
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 1740
+	}
+}

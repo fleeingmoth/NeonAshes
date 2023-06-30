@@ -1,5 +1,6 @@
 owner = STX
 controller = STX
 add_core = STX
+add_core = TEX
 trade_goods = oil
 life_rating = 30

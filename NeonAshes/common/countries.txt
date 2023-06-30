@@ -76,29 +76,34 @@ YUC = "countries/Yucatan.txt"
 
 # Latin and South America - Central America
 
-#GUA = "countries/Guatemala.txt"
+GUA = "countries/Guatemala.txt"
 #BLZ = "countries/Belize.txt" #Note. should be able to discover oil here
-#ELS = "countries/El Salvador.txt"
+ELS = "countries/El Salvador.txt"
 #HON = "countries/Honduras.txt"
 #NIC = "countries/Nicaragua.txt"
 #COS = "countries/Costa Rica.txt"
 #PNM = "countries/Panama.txt"
-#PCZ = "countries/Panama Canal Zone.txt"
+PCZ = "countries/Panama Canal Zone.txt"
 
 # Latin and South America - Caribbean
 
-#BHS = "countries/Bahamas.txt"
+BHS = "countries/Bahamas.txt"
 #BRM = "countries/Bermuda.txt"
-#CUB = "countries/Cuba.txt" #Split in half, add provinces?
-#HAI = "countries/Haiti.txt" #fragment?
-#DOM = "countries/Dominican Republic.txt"
+CUB = "countries/Cuba.txt"
+HAI = "countries/Haiti.txt" #
+DOM = "countries/Dominican Republic.txt"
+ANT = "countries/Antilles Federation.txt"
+JAM = "countries/Jamaica.txt"
+PEU = "countries/Puero Rico.txt"
+TRT = "countries/Trinidad and Tobago.txt"
 #... add all the small islands
+
 
 # Latin and South America - Andes
 
 #Colombia fragments
 #Venezuela fragments
-#ECU = "countries/Ecuador.txt"
+ECU = "countries/Ecuador.txt"
 #Peru fragments
 #Bolivia fragments
 
@@ -148,6 +153,7 @@ ICE = "countries/Iceland.txt" #Race to form Denmark
 #DUB = "countries/Dublin.txt"
 #EDB = "countries/Edinburgh.txt"
 #IVN = "countries/Inverness.txt"
+GBN = "countries/British Navy.txt"#reminants of GB, will turn into inverness if unsuccessful
 #GLS = "countries/Glasgow.txt" #3-way division of scotland
 #LVP = "countries/Liverpool.txt"
 #MDL = "countries/Midlands.txt"

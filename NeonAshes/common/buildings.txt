@@ -18,12 +18,12 @@ machine_parts_factory = {
 	max_level = 99
 	goods_cost = {
 		construction_materials = 100	# 100,000 sqft
+		machine_parts = 50		# 5,000 metric tons of equipment
 		steel = 50			# 50 tonnes of steel
 	}
 	time = 180
 	visibility = yes
 	onmap = no
-	default_enabled = yes	
 	production_type = machine_parts_factory
 	pop_build_factory = yes
 }
@@ -40,7 +40,6 @@ construction_factory = {
 	time = 180
 	visibility = yes
 	onmap = no
-	default_enabled = yes	
 	production_type = construction_factory
 	pop_build_factory = yes
 }
@@ -57,7 +56,6 @@ conv_ammo_factory = {
 	time = 180
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = conv_ammo_factory
 	pop_build_factory = yes
 }
@@ -74,42 +72,7 @@ small_arms_factory = {
 	time = 180
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = small_arms_factory
-	pop_build_factory = yes
-}
-hfcs_factory = { 
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100
-		machine_parts = 100
-		steel = 50
-}	
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes
-	production_type = hfcs_factory
-	pop_build_factory = yes
-}
-fish_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		machine_parts = 100		# 10,000 metric tons of equipment
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes
-	production_type = fish_factory
 	pop_build_factory = yes
 }
 coal_power_plant = {
@@ -126,7 +89,6 @@ coal_power_plant = {
 	time = 720
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = coal_power_plant
 	pop_build_factory = yes
 }
@@ -144,7 +106,6 @@ oil_power_plant = {
 	time = 720
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = oil_power_plant
 	pop_build_factory = yes
 }
@@ -162,7 +123,6 @@ oil_refinery = {
 	time = 720
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = oil_refinery
 	pop_build_factory = yes
 }
@@ -179,7 +139,6 @@ steel_mill = {
 	time = 365
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = steel_mill
 	pop_build_factory = yes
 }
@@ -196,7 +155,6 @@ aluminum_refinery = {
 	time = 365
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = aluminum_refinery
 	pop_build_factory = yes
 }
@@ -213,7 +171,6 @@ chemical_plant = {
 	time = 180
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = chemical_plant
 	pop_build_factory = yes
 }
@@ -226,45 +183,12 @@ electronic_components_factory = {
 		construction_materials = 100	# 100,000 sqft
 		machine_parts = 100		# 10,000 metric tons of equipment
 		steel = 50			# 50 tonnes of steel
+		electronic_components = 100	# 1,000 computer systems roughly
 	}
 	time = 720
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = electronic_components_factory
-	pop_build_factory = yes
-}
-adv_ammo_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		machine_parts = 100		# 10,000 metric tons of equipment
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	production_type = adv_ammo_factory
-	pop_build_factory = yes
-}
-clothing_manufacturer = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		machine_parts = 100		# 10,000 metric tons of equipment
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes
-	production_type = clothing_manufacturer
 	pop_build_factory = yes
 }
 textile_mill = {
@@ -280,439 +204,33 @@ textile_mill = {
 	time = 180
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = textile_mill
-	pop_build_factory = yes
-}
-engine_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = engine_factory
-	pop_build_factory = yes
-}
-fertilizer_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = fertilizer_factory
-	pop_build_factory = yes
-}
-liquor_distillery = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = liquor_distillery
-	pop_build_factory = yes
-}
-batteries_manufactory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = batteries_manufactory
-	pop_build_factory = yes
-}
-furniture_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = furniture_factory
-	pop_build_factory = yes
-}
-pharma_n_equipment_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = pharma_n_equipment_factory
-	pop_build_factory = yes
-}
-office_supplies_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = office_supplies_factory
-	pop_build_factory = yes
-}
-consumer_electronics_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = consumer_electronics_factory
-	pop_build_factory = yes
-}
-traditional_vehicle_assembly = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = traditional_vehicle_assembly
-	pop_build_factory = yes
-}
-aircraft_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = aircraft_factory
-	pop_build_factory = yes
-	strategic_factory = yes
-}
-ships_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = ships_factory
-	pop_build_factory = yes
-	strategic_factory = yes
-}
-spacecraft_factory = { 
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = spacecraft_factory
-	pop_build_factory = yes
-	strategic_factory = yes
-}
-sheeps_textile_mill = { 
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = sheeps_textile_mill
-	pop_build_factory = yes
-}
-heavy_weapons_factory = { 
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	default_enabled = yes	
-	production_type = heavy_weapons_factory
-	pop_build_factory = yes
-	strategic_factory = yes
-}
-electric_weapons_factory = { 
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no	
-	production_type = electric_weapons_factory
-	pop_build_factory = yes
-	strategic_factory = yes
-}
-armored_vehicles_factory = { 
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = no
-	production_type = armored_vehicles_factory
-	pop_build_factory = yes
-	strategic_factory = yes
-}
-credit_money_bank = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	cost = 0
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = yes
-	default_enabled = yes	
-	production_type = credit_money_bank
-	pop_build_factory = yes
-	advanced_factory = yes
-}
-nuclear_energy_plant = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		machine_parts = 100		# 10,000 metric tons of equipment
-		steel = 100			# 100 tonnes of steel
-		copper = 50			# 50 tonnes of copper
-	}
-	time = 720
-	visibility = yes
-	onmap = no
-	production_type = nuclear_energy_plant
-	pop_build_factory = yes
-}
-bio_fuel_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		machine_parts = 100		# 10,000 metric tons of equipment
-		steel = 100			# 100 tonnes of steel
-		copper = 50			# 50 tonnes of copper
-	}
-	time = 720
-	visibility = yes
-	onmap = no
-	production_type = bio_fuel_factory
-	pop_build_factory = yes
-}
-fish_canned_food_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	cost = 0
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = yes
-	default_enabled = yes	
-	production_type = fish_canned_food_factory
-	pop_build_factory = yes
-}
-meats_canned_food_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	cost = 0
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = yes
-	default_enabled = yes	
-	production_type = meats_canned_food_factory
-	pop_build_factory = yes
-}
-fruit_canned_food_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	cost = 0
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = yes
-	default_enabled = yes	
-	production_type = fruit_canned_food_factory
-	pop_build_factory = yes
-}
-grain_canned_food_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	cost = 0
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = yes
-	default_enabled = yes	
-	production_type = grain_canned_food_factory
-	pop_build_factory = yes
-}
-oilseeds_canned_food_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	cost = 0
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		steel = 50			# 50 tonnes of steel
-	}
-	time = 180
-	visibility = yes
-	onmap = yes
-	default_enabled = yes	
-	production_type = oilseeds_canned_food_factory
 	pop_build_factory = yes
 }
 
 fort = {      
 	type = fort
 	goods_cost = {
-		construction_materials = 400
-		steel = 200
-		heavy_arms = 50
-		small_arms = 50
-		aircraft = 50
-		machine_parts = 50
-		engines		= 50
-		armored_vehicles = 25
+		construction_materials = 500	# 500,000 sqft
+		machine_parts = 100		# 10,000 metric tons of equipment
+		steel = 100			# 100 tonnes of steel
 	}
-	time = 1080 
+	time = 365
 	visibility = yes
 	onmap = yes
 	max_level = 6
 	province = yes
 	fort_level = 1
 }
+
 # Infrastructure
 
 naval_base = {    
 	type = naval_base
 	goods_cost = {
-		construction_materials = 400
-		steel = 200
-		heavy_arms = 50
-		small_arms = 50
-		machine_parts = 50
-		engines = 50
-		ships = 25
+		construction_materials = 100	# 100,000 sqft
+		machine_parts = 100		# 10,000 metric tons of equipment
+		steel = 100			# 100 tonnes of steel
 	}
 	time = 1080
 	naval_capacity = 1
@@ -731,19 +249,19 @@ naval_base = {
 railroad = {   
 	type = infrastructure
 	goods_cost = {
-		construction_materials = 200
+		timber = 100
+		construction_materials = 100
 		steel = 100
-		machine_parts = 50
 	}
 	time = 720
 	visibility = yes
-	onmap = yes
+	onmap = no
 	max_level = 6
 	province = yes
 	
-	infrastructure = 0.20
+	infrastructure = 0.16
 	movement_cost = -0.05
 	
 	pop_build_factory = yes
-	spawn_railway_track = yes
+	spawn_railway_track = no
 }

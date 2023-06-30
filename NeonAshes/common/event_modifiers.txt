@@ -322,6 +322,101 @@ expansionary_fiscal_policy = {			# Expansionary Fiscal Policy (targets business 
 	icon = 8
 }
 
+### Resource Scavenging ###
+
+industrial_scavenging = {
+	factory_output = -0.05				# Taking away potential resources for factories
+	administrative_efficiency_modifier = -0.01	# Bit of bureaucracy involved
+	icon = 11
+}
+building_scavenging = {
+	goods_demand = 0.03				# Rebuilding, rehousing, etc.
+	administrative_efficiency_modifier = -0.01	# Bit of bureaucracy involved
+	icon = 11
+}
+
+### Interconnectedness ###
+
+survivalist_communities = {
+	administrative_efficiency_modifier = -0.5	# There's barely a country around
+	goods_demand = -0.75				# Most people are in survival mode
+	core_pop_militancy_modifier = -0.15		# We have better things to do than fight
+	core_pop_consciousness_modifier = -0.15		# There are more pressing needs to attend than politics
+	political_reform_desire = -0.2			# We don't really feel the govt
+	social_reform_desire = -0.2			# We don't really feel its programs
+	diplomatic_points_modifier = -0.5		# We don't really control our territory
+	influence_modifier = -0.5			# Hard to project power
+	education_efficiency_modifier = -0.5		# No one's really taking classes
+	research_points_modifier = -0.8			# Labs are probably closed
+	factory_throughput = -0.5			# Factories aren't the most efficient
+	RGO_throughput = -0.5				# Farms and mines aren't the most efficient
+	global_immigrant_attract = -1			# Who the heck wants to come here
+	global_population_growth = -0.2			# People ain't having kids right now
+	land_organisation = -0.2			# Troops need some food you know
+	mobilization_economy_impact = -0.75		# Not much of an impact
+	mobilisation_size = -0.5			# People won't really rise up to arms
+	icon = 12
+}
+autarkic_communities = {
+	administrative_efficiency_modifier = -0.4	# Why should they listen to a government far away?
+	goods_demand = -0.50				# Most people get a lot of the stuff locally
+	core_pop_militancy_modifier = -0.10		# Not much need to revolt
+	core_pop_consciousness_modifier = -0.10		# Small communities tend to be like-minded
+	political_reform_desire = -0.1			# We mostly keep to ourselves
+	social_reform_desire = -0.1			# Our problems are local
+	diplomatic_points_modifier = -0.2		# Still trying to control our territory
+	influence_modifier = -0.2			# Hard to project power
+	education_efficiency_modifier = -0.2		# People are going to the School of LIFE
+	research_points_modifier = -0.5			# Research ain't easy
+	factory_throughput = -0.4			# Factories aren't the most efficient
+	RGO_throughput = -0.4				# Farms and mines aren't the most efficient
+	global_immigrant_attract = -0.5			# At least people aren't leaving en masse
+	global_population_growth = -0.1			# Less kids or higher child mortality
+	land_organisation = -0.1			# Troops need some food you know
+	mobilization_economy_impact = -0.50		# Less of an impact
+	mobilisation_size = -0.3			# Harder to get people to levy
+	icon = 12
+}
+frontier_communities = {
+	administrative_efficiency_modifier = -0.3	# The capital's too far away
+	goods_demand = -0.30				# Lots of autonomy out there
+	core_pop_militancy_modifier = -0.06		# Frontier problems require...
+	core_pop_consciousness_modifier = -0.06		# ...frontier solutions
+	diplomatic_points_modifier = -0.1		# Bit harder to deal with others
+	influence_modifier = -0.1			# Bit harder to project power
+	education_efficiency_modifier = -0.1		# Not everybody goes to college
+	research_points_modifier = -0.3			# Harder to do research
+	factory_throughput = -0.3			# Factories aren't the most efficient
+	RGO_throughput = -0.3				# Farms and mines aren't the most efficient
+	global_immigrant_attract = -0.2			# Not a popular destination to migrate to
+	mobilization_economy_impact = -0.30		# Less of an impact
+	mobilisation_size = -0.1			# Can't recruit them all y'know
+	icon = 12
+}
+decentralized_communities = {
+	administrative_efficiency_modifier = -0.2	# Communities are difficult to reach
+	goods_demand = -0.15				# Some autonomy out there
+	core_pop_militancy_modifier = -0.03		# Most problems are local
+	core_pop_consciousness_modifier = -0.03		# Most solutions are local
+	research_points_modifier = -0.2			# Harder to do research
+	factory_throughput = -0.2			# Factories aren't the most efficient
+	RGO_throughput = -0.2				# Farms and mines aren't the most efficient
+	global_immigrant_attract = -0.1			# Not a popular destination to migrate to
+	mobilization_economy_impact = -0.20		# Less of an impact
+	icon = 12
+}
+semi_centralized_communities = {
+	administrative_efficiency_modifier = -0.1	# Some communities are difficult to reach
+	goods_demand = -0.05				# People get some stuff locally
+	core_pop_militancy_modifier = -0.01		# Easier to deal with stuff
+	core_pop_consciousness_modifier = -0.01		# Easier to reach agreements with
+	research_points_modifier = -0.1			# Harder to do research
+	factory_throughput = -0.1			# Factories aren't the most efficient
+	RGO_throughput = -0.1				# Farms and mines aren't the most efficient
+	mobilization_economy_impact = -0.10		# Less of an impact
+	icon = 12
+}
+
 ### ### Arctic Events ### ###
 
 ### Arctic Exploration ###

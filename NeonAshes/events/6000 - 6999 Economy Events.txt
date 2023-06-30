@@ -1,4 +1,5 @@
 ### 6000-6009 - Economic Expansion and Contraction ###
+
 country_event = { # Economic Depression to Recession
 	id = 6000
 	title = "EVT_6000_NAME"
@@ -1337,5 +1338,645 @@ country_event = { # Adopt Contractionary Monetary Policy (event)
 	}
 	option = {
 		name = "EVT_6029_OPTE"
+	}
+}
+
+### 6030-6033 - Scavenging - Industrial Equipment ###
+
+country_event = { # Requisition Industrial Equipment and Machinery (Tiny country)
+	id = 6030
+	title = "EVT_6030_NAME"
+	desc = "EVT_6030_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6030_OPTA"		# Reclaim clearly abandoned property through escheatment.
+		copper = 50			# 50 tonnes of copper		cost    100
+		steel = 50			# 5,000 tonnes of steel		cost    300
+		machine_parts = 100		# 10k metric tons of equipment	cost  2,000
+		polymers_and_plastics = 50	# 50 tonnes of materials	cost    250
+		electronic_components = 50	# 500 computer systems		cost     50
+		aluminum = 50			# 50 tonnes of aluminum		cost    100
+		engines = 10			# 1000 car engines or so	cost    750
+		rich_strata = { consciousness = 0.5 }	# What the govt doin	sum   3,550
+	}
+	option = {
+		name = "EVT_6030_OPTB"		# Seize abandoned and underutilized property without compensation.
+		copper = 100			# 100 tonnes of copper		cost    200
+		steel = 100			# 10k tonnes of steel		cost    600
+		machine_parts = 200		# 20k metric tons of equipment	cost  4,000
+		polymers_and_plastics = 100	# 100 tonnes of materials	cost    500
+		electronic_components = 100	# 1000 computer systems		cost    100
+		aluminum = 100			# 100 tonnes of aluminum	cost    200
+		engines = 20			# 2000 car engines or so	cost  1,500
+		rich_strata = {
+			consciousness = 3.0	# They didn't like that at all
+			militancy = 2.0		# They're really upset
+			money = -5000		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.20
+				value = anarcho_liberal
+			}
+		}
+		artisans = { consciousness = 1 } # This is a bit worrisome
+	}
+	option = {
+		name = "EVT_6030_OPTC"		# Seize abandoned and underutilized property with compensation.
+		copper = 100			# 100 tonnes of copper		cost    200
+		steel = 100			# 10k tonnes of steel		cost    600
+		machine_parts = 200		# 20k metric tons of equipment	cost  4,000
+		polymers_and_plastics = 100	# 100 tonnes of materials	cost    500
+		electronic_components = 100	# 1000 computer systems		cost    100
+		aluminum = 100			# 100 tonnes of aluminum	cost    200
+		engines = 20			# 2000 car engines or so	cost  1,500
+		treasury = -10000		# Rounded up			sum   7,100
+		rich_strata = {
+			consciousness = 1.0	# Gets them to pay attention
+			money = 5000		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+	}
+	option = {
+		name = "EVT_6030_OPTD"	# Never mind.
+		remove_country_modifier = industrial_scavenging
+	}
+}
+country_event = { # Requisition Industrial Equipment and Machinery (Small country)
+	id = 6031
+	title = "EVT_6031_NAME"
+	desc = "EVT_6031_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6031_OPTA"		# Reclaim clearly abandoned property through escheatment.
+		copper = 100			# 100 tonnes of copper		cost    200
+		steel = 100			# 10k tonnes of steel		cost    600
+		machine_parts = 200		# 20k metric tons of equipment	cost  4,000
+		polymers_and_plastics = 100	# 100 tonnes of materials	cost    500
+		electronic_components = 100	# 1000 computer systems		cost    100
+		aluminum = 100			# 100 tonnes of aluminum	cost    200
+		engines = 20			# 2000 car engines or so	cost  1,500
+		rich_strata = { consciousness = 0.5 }	# What the govt doin	sum   7,100
+	}
+	option = {
+		name = "EVT_6031_OPTB"		# Seize abandoned and underutilized property without compensation.
+		copper = 200			# 200 tonnes of copper		cost    400
+		steel = 200			# 20k tonnes of steel		cost  1,200
+		machine_parts = 400		# 40k metric tons of equipment	cost  8,000
+		polymers_and_plastics = 200	# 200 tonnes of materials	cost  1,000
+		electronic_components = 200	# 2000 computer systems		cost    200
+		aluminum = 200			# 200 tonnes of aluminum	cost    400
+		engines = 40			# 4000 car engines or so	cost  3,000
+		rich_strata = {
+			consciousness = 3.0	# They didn't like that at all
+			militancy = 2.0		# They're really upset
+			money = -5000		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.20
+				value = anarcho_liberal
+			}
+		}
+		artisans = { consciousness = 1 } # This is a bit worrisome
+		badboy = 0.04	# Bit rude innit
+		prestige = -1	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6031_OPTC"		# Seize abandoned and underutilized property with compensation.
+		copper = 200			# 200 tonnes of copper		cost    400
+		steel = 200			# 20k tonnes of steel		cost  1,200
+		machine_parts = 400		# 40k metric tons of equipment	cost  8,000
+		polymers_and_plastics = 200	# 200 tonnes of materials	cost  1,000
+		electronic_components = 200	# 2000 computer systems		cost    200
+		aluminum = 200			# 200 tonnes of aluminum	cost    400
+		engines = 40			# 4000 car engines or so	cost  3,000
+		treasury = -20000		# Rounded up			sum  14,200
+		rich_strata = {
+			consciousness = 1.0	# Gets them to pay attention
+			money = 5000		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+	}
+	option = {
+		name = "EVT_6031_OPTD"	# Never mind.
+		remove_country_modifier = industrial_scavenging
+	}
+}
+country_event = { # Requisition Industrial Equipment and Machinery (Medium country)
+	id = 6032
+	title = "EVT_6032_NAME"
+	desc = "EVT_6032_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6032_OPTA"		# Reclaim clearly abandoned property through escheatment.
+		copper = 200			# 200 tonnes of copper		cost    400
+		steel = 200			# 20k tonnes of steel		cost  1,200
+		machine_parts = 400		# 40k metric tons of equipment	cost  8,000
+		polymers_and_plastics = 200	# 200 tonnes of materials	cost  1,000
+		electronic_components = 200	# 2000 computer systems		cost    200
+		aluminum = 200			# 200 tonnes of aluminum	cost    400
+		engines = 40			# 4000 car engines or so	cost  3,000
+		rich_strata = { consciousness = 0.5 }	# What the govt doin	sum  14,200
+	}
+	option = {
+		name = "EVT_6032_OPTB"		# Seize abandoned and underutilized property without compensation.
+		copper = 400			# 400 tonnes of copper		cost    800
+		steel = 400			# 40k tonnes of steel		cost  2,400
+		machine_parts = 800		# 80k metric tons of equipment	cost 16,000
+		polymers_and_plastics = 400	# 400 tonnes of materials	cost  2,000
+		electronic_components = 400	# 4000 computer systems		cost    400
+		aluminum = 400			# 400 tonnes of aluminum	cost    800
+		engines = 80			# 8000 car engines or so	cost  6,000
+		rich_strata = {
+			consciousness = 3.0	# They didn't like that at all
+			militancy = 2.0		# They're really upset
+			money = -5000		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.20
+				value = anarcho_liberal
+			}
+		}
+		artisans = { consciousness = 1 } # This is a bit worrisome
+		badboy = 0.08	# Bit rude innit
+		prestige = -3	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6032_OPTC"		# Seize abandoned and underutilized property with compensation.
+		copper = 400			# 400 tonnes of copper		cost    800
+		steel = 400			# 40k tonnes of steel		cost  2,400
+		machine_parts = 800		# 80k metric tons of equipment	cost 16,000
+		polymers_and_plastics = 400	# 400 tonnes of materials	cost  2,000
+		electronic_components = 400	# 4000 computer systems		cost    400
+		aluminum = 400			# 400 tonnes of aluminum	cost    800
+		engines = 80			# 8000 car engines or so	cost  6,000
+		treasury = -40000		# Rounded up			sum  28,400
+		rich_strata = {
+			consciousness = 1.0	# Gets them to pay attention
+			money = 5000		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		prestige = -1	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6032_OPTD"	# Never mind.
+		remove_country_modifier = industrial_scavenging
+	}
+}
+country_event = { # Requisition Industrial Equipment and Machinery (Large country)
+	id = 6033
+	title = "EVT_6033_NAME"
+	desc = "EVT_6033_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6033_OPTA"		# Reclaim clearly abandoned property through escheatment.
+		copper = 400			# 400 tonnes of copper		cost    800
+		steel = 400			# 40k tonnes of steel		cost  2,400
+		machine_parts = 800		# 80k metric tons of equipment	cost 16,000
+		polymers_and_plastics = 400	# 400 tonnes of materials	cost  2,000
+		electronic_components = 400	# 4000 computer systems		cost    400
+		aluminum = 400			# 400 tonnes of aluminum	cost    800
+		engines = 80			# 8000 car engines or so	cost  6,000
+		rich_strata = { consciousness = 0.5 }	# What the govt doin	sum  28,400
+		prestige = -1	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6033_OPTB"		# Seize abandoned and underutilized property without compensation.
+		copper = 800			# 800 tonnes of copper		cost  1,600
+		steel = 800			# 80k tonnes of steel		cost  4,800
+		machine_parts = 1600		# 160k metric tons of equipment	cost 32,000
+		polymers_and_plastics = 800	# 800 tonnes of materials	cost  4,000
+		electronic_components = 800	# 8000 computer systems		cost    800
+		aluminum = 800			# 800 tonnes of aluminum	cost  1,600
+		engines = 160			# 16k car engines or so		cost 12,000
+		rich_strata = {
+			consciousness = 3.0	# They didn't like that at all
+			militancy = 2.0		# They're really upset
+			money = -5000		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.20
+				value = anarcho_liberal
+			}
+		}
+		artisans = { consciousness = 1 } # This is a bit worrisome
+		badboy = 0.12	# Bit rude innit
+		prestige = -5	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6033_OPTC"		# Seize abandoned and underutilized property with compensation.
+		copper = 800			# 800 tonnes of copper		cost  1,600
+		steel = 800			# 80k tonnes of steel		cost  4,800
+		machine_parts = 1600		# 160k metric tons of equipment	cost 32,000
+		polymers_and_plastics = 800	# 800 tonnes of materials	cost  4,000
+		electronic_components = 800	# 8000 computer systems		cost    800
+		aluminum = 800			# 800 tonnes of aluminum	cost  1,600
+		engines = 160			# 16k car engines or so		cost 12,000
+		treasury = -80000		# Rounded up			sum  28,400
+		rich_strata = {
+			consciousness = 1.0	# Gets them to pay attention
+			money = 5000		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		prestige = -3	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6033_OPTD"	# Never mind.
+		remove_country_modifier = industrial_scavenging
+	}
+}
+
+### 6034-6037 - Scavenging - Buildings ###
+
+country_event = { # Reclaim and Reutilize Abandoned Buildings (Tiny country)
+	id = 6034
+	title = "EVT_6034_NAME"
+	desc = "EVT_6034_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6034_OPTA"		# Reclaim clearly abandoned property through eminent domain.
+		timber = 50			# 5,000 tonnes of timber	cost    250
+		copper = 50			# 50 tonnes of copper		cost    100
+		steel = 50			# 5,000 tonnes of steel		cost    300
+		polymers_and_plastics = 50	# 50 tonnes of materials	cost    250
+		construction_materials = 100	# 100k sqft of space		cost    750
+#		furniture = 25			# 2,500 pieces of furniture	cost    250 # NOT IMPLEMENTED YET
+		any_pop = { consciousness = 0.25 }	# What the govt doin	sum   1,900
+	}
+	option = {
+		name = "EVT_6034_OPTB"		# Expropriate abandoned and underutilized property without compensation.
+		timber = 100			# 10k tonnes of timber		cost    500
+		copper = 100			# 100 tonnes of copper		cost    200
+		steel = 100			# 10k tonnes of steel		cost    600
+		polymers_and_plastics = 100	# 100 tonnes of materials	cost    500
+		construction_materials = 200	# 200k sqft of space		cost  1,500
+#		furniture = 50			# 5,000 pieces of furniture	cost    500 # NOT IMPLEMENTED YET
+		rich_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -50		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		middle_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -25		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		poor_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -10		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+	}
+	option = {
+		name = "EVT_6034_OPTC"		# Expropriate abandoned and underutilized property with compensation.
+		timber = 100			# 10k tonnes of timber		cost    500
+		copper = 100			# 100 tonnes of copper		cost    200
+		steel = 100			# 10k tonnes of steel		cost    600
+		polymers_and_plastics = 100	# 100 tonnes of materials	cost    500
+		construction_materials = 200	# 200k sqft of space		cost  1,500
+#		furniture = 50			# 5,000 pieces of furniture	cost    500 # NOT IMPLEMENTED YET
+		treasury = -4000		# Rounded up			sum   3,800
+		rich_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 50		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		middle_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 25		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		poor_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 10		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+	}
+	option = {
+		name = "EVT_6034_OPTD"	# Never mind.
+		remove_country_modifier = building_scavenging
+	}
+}
+country_event = { # Reclaim and Reutilize Abandoned Buildings (Small country)
+	id = 6035
+	title = "EVT_6035_NAME"
+	desc = "EVT_6035_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6035_OPTA"		# Reclaim clearly abandoned property through eminent domain.
+		timber = 100			# 10k tonnes of timber		cost    500
+		copper = 100			# 100 tonnes of copper		cost    200
+		steel = 100			# 10k tonnes of steel		cost    600
+		polymers_and_plastics = 100	# 100 tonnes of materials	cost    500
+		construction_materials = 200	# 200k sqft of space		cost  1,500
+#		furniture = 50			# 5,000 pieces of furniture	cost    500 # NOT IMPLEMENTED YET
+		any_pop = { consciousness = 0.25 }	# What the govt doin	sum   3,800
+	}
+	option = {
+		name = "EVT_6035_OPTB"		# Expropriate abandoned and underutilized property without compensation.
+		timber = 200			# 20k tonnes of timber		cost  1,000
+		copper = 200			# 200 tonnes of copper		cost    400
+		steel = 200			# 20k tonnes of steel		cost  1,200
+		polymers_and_plastics = 200	# 200 tonnes of materials	cost  1,000
+		construction_materials = 400	# 400k sqft of space		cost  3,000
+#		furniture = 100			# 10k pieces of furniture	cost  1,000 # NOT IMPLEMENTED YET
+		rich_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -50		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		middle_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -25		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		poor_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -10		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		badboy = 0.04	# Bit rude innit
+		prestige = -1	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6035_OPTC"		# Expropriate abandoned and underutilized property with compensation.
+		timber = 200			# 20k tonnes of timber		cost  1,000
+		copper = 200			# 200 tonnes of copper		cost    400
+		steel = 200			# 20k tonnes of steel		cost  1,200
+		polymers_and_plastics = 200	# 200 tonnes of materials	cost  1,000
+		construction_materials = 400	# 400k sqft of space		cost  3,000
+#		furniture = 100			# 10k pieces of furniture	cost  1,000 # NOT IMPLEMENTED YET
+		treasury = -8000		# Rounded up			sum   7,600
+		rich_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 50		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		middle_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 25		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		poor_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 10		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+	}
+	option = {
+		name = "EVT_6035_OPTD"	# Never mind.
+		remove_country_modifier = building_scavenging
+	}
+}
+country_event = { # Reclaim and Reutilize Abandoned Buildings (Medium country)
+	id = 6036
+	title = "EVT_6036_NAME"
+	desc = "EVT_6036_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6036_OPTA"		# Reclaim clearly abandoned property through eminent domain.
+		timber = 200			# 20k tonnes of timber		cost  1,000
+		copper = 200			# 200 tonnes of copper		cost    400
+		steel = 200			# 20k tonnes of steel		cost  1,200
+		polymers_and_plastics = 200	# 200 tonnes of materials	cost  1,000
+		construction_materials = 400	# 400k sqft of space		cost  3,000
+#		furniture = 100			# 10k pieces of furniture	cost  1,000 # NOT IMPLEMENTED YET
+		any_pop = { consciousness = 0.25 }	# What the govt doin	sum   7,600
+	}
+	option = {
+		name = "EVT_6036_OPTB"		# Expropriate abandoned and underutilized property without compensation.
+		timber = 400			# 40k tonnes of timber		cost  2,000
+		copper = 400			# 400 tonnes of copper		cost    800
+		steel = 400			# 40k tonnes of steel		cost  2,400
+		polymers_and_plastics = 400	# 400 tonnes of materials	cost  2,000
+		construction_materials = 800	# 800k sqft of space		cost  6,000
+#		furniture = 200			# 20k pieces of furniture	cost  2,000 # NOT IMPLEMENTED YET
+		rich_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -50		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		middle_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -25		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		poor_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -10		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		badboy = 0.08	# Bit rude innit
+		prestige = -3	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6036_OPTC"		# Expropriate abandoned and underutilized property with compensation.
+		timber = 400			# 40k tonnes of timber		cost  2,000
+		copper = 400			# 400 tonnes of copper		cost    800
+		steel = 400			# 40k tonnes of steel		cost  2,400
+		polymers_and_plastics = 400	# 400 tonnes of materials	cost  2,000
+		construction_materials = 800	# 800k sqft of space		cost  6,000
+#		furniture = 200			# 20k pieces of furniture	cost  2,000 # NOT IMPLEMENTED YET
+		treasury = -16000		# Rounded up			sum  15,200
+		rich_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 50		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		middle_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 25		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		poor_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 10		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		prestige = -1	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6036_OPTD"	# Never mind.
+		remove_country_modifier = building_scavenging
+	}
+}
+country_event = { # Reclaim and Reutilize Abandoned Buildings (Large country)
+	id = 6037
+	title = "EVT_6037_NAME"
+	desc = "EVT_6037_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_6037_OPTA"		# Reclaim clearly abandoned property through eminent domain.
+		timber = 400			# 40k tonnes of timber		cost  2,000
+		copper = 400			# 400 tonnes of copper		cost    800
+		steel = 400			# 40k tonnes of steel		cost  2,400
+		polymers_and_plastics = 400	# 400 tonnes of materials	cost  2,000
+		construction_materials = 800	# 800k sqft of space		cost  6,000
+#		furniture = 200			# 20k pieces of furniture	cost  2,000 # NOT IMPLEMENTED YET
+		any_pop = { consciousness = 0.25 }	# What the govt doin	sum  15,200
+		prestige = -1	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6037_OPTB"		# Expropriate abandoned and underutilized property without compensation.
+		timber = 800			# 80k tonnes of timber		cost  4,000
+		copper = 800			# 800 tonnes of copper		cost  1,600
+		steel = 800			# 80k tonnes of steel		cost  4,800
+		polymers_and_plastics = 800	# 800 tonnes of materials	cost  4,000
+		construction_materials = 1600	# 1,6m sqft of space		cost 12,000
+#		furniture = 400			# 40k pieces of furniture	cost  4,000 # NOT IMPLEMENTED YET
+		rich_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -50		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		middle_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -25		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		poor_strata = {
+			consciousness = 1.0	# They are quite concerned
+			militancy = 0.5		# They're upset
+			money = -10		# Asset seizure (PER POP)
+			ideology = {		# They're joining shooting clubs
+				factor = 0.10
+				value = anarcho_liberal
+			}
+		}
+		badboy = 0.12	# Bit rude innit
+		prestige = -5	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6037_OPTC"		# Expropriate abandoned and underutilized property with compensation.
+		timber = 800			# 80k tonnes of timber		cost  4,000
+		copper = 800			# 800 tonnes of copper		cost  1,600
+		steel = 800			# 80k tonnes of steel		cost  4,800
+		polymers_and_plastics = 800	# 800 tonnes of materials	cost  4,000
+		construction_materials = 1600	# 1,6m sqft of space		cost 12,000
+#		furniture = 400			# 40k pieces of furniture	cost  4,000 # NOT IMPLEMENTED YET
+		treasury = -32000		# Rounded up			sum  30,400
+		rich_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 50		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		middle_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 25		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		poor_strata = {
+			consciousness = 0.5	# Gets them to pay attention
+			money = 10		# Proper repayment of assets (PER POP)
+			ideology = {		# They're joining regular clubs
+				factor = 0.05
+				value = anarcho_liberal
+			}
+		}
+		prestige = -3	# Resorting to this reflects weakness
+	}
+	option = {
+		name = "EVT_6037_OPTD"	# Never mind.
+		remove_country_modifier = building_scavenging
 	}
 }

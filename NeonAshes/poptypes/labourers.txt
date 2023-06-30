@@ -8,33 +8,42 @@ rebel = {
 	irregular = 1
 }
 life_needs = {
-	grain = 1.5			# 200 gr of grains per day per family per 200,000 families
+	timber = 5.00			# 1/4 kg of wood per day per family per 200,000 families
+	construction_materials = 0.25	# 250 sqft of construction per 30 years per family per 200,000 families (bare min)
+	energy = 2.00			# 10 kWh per household per day per 200,000 families
+	fuel = 5.00			# 0.25 gallons per household per day per 200,000 families (farming)
+	textiles = 1.00			# 1 ton of textiles per day per 200,000 families
+	meats = 2.00			# 100 gr of meats per day per family per 200,000 families
+	fruit = 1.00			# 50 gr of fruits and nuts per day per family per 200,000 families
+	grain = 4.00			# 200 gr of grains per day per family per 200,000 families
+	clothing = 5.00			# 5 tons of clothing per day per family per 200,000 families
 }
 everyday_needs = {
-	fish = 0.5
-	meats = 0.5
-	fruit = 0.5
-	clothing = 0.5
-	tea_n_coffee = 0.4
-	sugar_crops = 0.3
-	canned_food = 0.5
-	furniture = 0.5
-	oilseed_crops = 0.5
-	pharma_n_equipment = 0.25
-	energy = 0.5
-	construction_materials = 0.5
-	fuel = 0.2
-	office_supplies = 0.1
-	consumer_electronics = 0.25
-	batteries = 0.25
-	small_arms = 0.2
-	oil = 0.1
+	small_arms = 3.00		# 18,000 firearms (about 1 firearm per household per decade) per 200,000 families
+	conv_ammunition = 0.50		# A bullet every four households per day per 200,000 families.
+	timber = 5.00			# 1/4 kg of wood per day per family per 200,000 families
+	construction_materials = 0.50	# 500 sqft of construction per 30 years per family per 200,000 families (small house)
+	machine_parts = 0.50		# 50 tons of heavy machinery per 200,000 consumers ~ 1 ton a year per household.
+	polymers_and_plastics = 10.00	# 50 grams of plastic per day per household times 200,000 families
+	energy = 10.00			# 50 kWh per household per day per 200,000 families
+	fuel = 10.00			# 0.5 gallons per household per day per 200,000 families
+	textiles = 2.00			# 4 tonnes of textiles per day per 200,000 families
+	meats = 2.00			# 100 gr of meats per day per family per 200,000 families
+	fruit = 1.00			# 50 gr of fruits and nuts per day per family per 200,000 families
+	grain = 4.00			# 200 gr of grains per day per family per 200,000 families
+	sugar_crops = 5.00		# 25 grams per household per day per 200,000 families
+	clothing = 5.00			# 5 tons of clothing per day per family per 200,000 families
 }
 luxury_needs = {
-	alcohol_beverages = 0.25	
-	motor_vehicles = .5
-	aircraft = 0.25
-	credit_money = .25
+	small_arms = 3.00		# 18,000 firearms (about 1 firearm per household per decade) per 200,000 families
+	conv_ammunition = 0.50		# A bullet every four households per day per 200,000 families.
+	construction_materials = 1.00	# 1,000 sqft of construction per 30 years per family per 200,000 families (avg house)
+	machine_parts = 1.00		# 100 tons of heavy machinery per 200,000 consumers ~ 2 ton a year per household.
+	polymers_and_plastics = 50.00	# 250 grams of plastic per day per household times 200,000 families
+	energy = 20.00			# 100 kWh per household per day per 200,000 families
+	fuel = 10.00			# 1 gallon per household per day per 200,000 families
+	sugar_crops = 15.00		# 75 grams per household per day per 200,000 families
+	clothing = 5.00			# 5 tons of clothing per day per family per 200,000 families
 }
 
 country_migration_target =
@@ -1864,7 +1873,7 @@ ideologies = {
 		}
 		modifier = {
 			factor = 2
-			government = communist_state
+			government = communist_dictatorship
 		}
 
 # Radicalism makes them drift away

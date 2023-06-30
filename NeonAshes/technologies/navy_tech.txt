@@ -880,7 +880,6 @@ suborbital_flight = { #Sub-Orbital Flight
 	cost = 3600
 	unciv_military = yes
 
-	activate_building = spacecraft_factory
 	permanent_prestige = 3
 
 	ai_chance = {

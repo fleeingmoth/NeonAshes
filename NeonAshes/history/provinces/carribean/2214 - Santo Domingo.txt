@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = DOM
+controller = DOM
+add_core = DOM
+trade_goods = sugar_crops
 life_rating = 35

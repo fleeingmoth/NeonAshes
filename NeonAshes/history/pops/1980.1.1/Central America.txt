@@ -273,3 +273,46 @@
 #Costa Rica
 
 #Panama
+
+1723 = {#canal Zone (closest census is 1960 at 42122 aproximating growth to 11780 pops)
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 17
+	}
+	capitalists = {
+		culture = yankee
+		religion = protestant
+		size = 48
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 1714
+	}
+	bureaucrats = {
+		culture = yankee
+		religion = protestant
+		size = 240
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 164
+	}
+	clerks = {
+		culture = yankee
+		religion = protestant
+		size = 9643
+	}
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 78
+	}
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 1740
+	}
+}

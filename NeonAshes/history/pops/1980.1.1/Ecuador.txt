@@ -1,0 +1,116 @@
+#ecuador (8,136,000 - 2,034,000 pops)
+2279 = {#Quito
+	farmers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 275860
+	}
+}
+2280 = {#Guayaquil
+	aristocrats = {
+		culture = ecuadorian
+		religion = catholic
+		size = 2184
+	}
+	capitalists = {
+		culture = ecuadorian
+		religion = catholic
+		size = 1471
+	}
+	artisans = {
+		culture = ecuadorian
+		religion = catholic
+		size = 287440
+	}
+	bureaucrats = {
+		culture = ecuadorian
+		religion = catholic
+		size = 5620
+	}
+	clergymen = {
+		culture = ecuadorian
+		religion = catholic
+		size = 3134
+	}
+	clerks = {
+		culture = ecuadorian
+		religion = catholic
+		size = 3701
+	}
+	officers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 700
+	}
+	craftsmen = {
+		culture = ecuadorian
+		religion = catholic
+		size = 29000
+	}
+	soldiers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 15798
+	}
+	farmers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 628933
+	}
+	
+}
+2281 = {#Esmereldas
+	farmers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 368310
+	}
+	soldiers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 9704
+	}
+}
+2282 = {#Loja
+	farmers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 230823
+	}
+	soldiers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 11704
+	}
+}
+2283 = {#Zamora
+	farmers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 181580
+	}
+	soldiers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 6170
+	}
+}
+2284 = {#Tena
+	farmers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 130995
+	}
+	soldiers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 9788
+	}
+}
+2285 = {#galapagos (15000 / 3750 pops)
+	farmers = {
+		culture = ecuadorian
+		religion = catholic
+		size = 3750
+	}
+}

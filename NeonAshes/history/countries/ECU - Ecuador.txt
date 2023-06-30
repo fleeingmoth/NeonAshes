@@ -1,7 +1,7 @@
-capital = 1723 #
-primary_culture = yankee
-religion = protestant
-government = auth_democracy
+capital = 2280 #
+primary_culture = ecuadorian
+religion = catholic
+government = democracy
 plurality = 25.0
 nationalvalue = nv_liberty
 literacy = 0.50
@@ -27,12 +27,19 @@ unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 school_reforms = low_schools
 
-ruling_party = PCZ_traditionalist
+ruling_party = ECU_liberal
 last_election = 1980.1.1
 upper_house = {
+	social_democrat = 10
+	socialist = 10
+	communist = 10
 	liberal = 10
-	nationalist = 32
-	traditionalist = 58
+	anarcho_liberal = 10
+	green = 10
+	conservative = 10
+	nationalist = 10
+	traditionalist = 10
+	ultranationalist = 10
 }
 
 # Technologies

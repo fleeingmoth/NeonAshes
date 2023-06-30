@@ -237,8 +237,22 @@ scandinavian = {
 british = {
 	leader = european
 	unit = BritishGC
-	british = {
+	english = {
 		color = { 220 100 220}
+		first_names = { Albert Alexander Alfred Archibald Arthur Augustus Benjamin Bernard Charles Colbert
+		Colin Cyril David Donald Douglas Edmund Edwar Fairfax Ferdinand Francis
+		Frederick Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+		James Jeremy John Joseph Leopold Lester Louis Martin Nigel Oswald
+		Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary }
+		
+		last_names = { Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn "de Robeck" Dundas Fisher French Gough Grant Grenfell Haig
+		Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Odoni "of Hannover" "of Saxe-Coburg-Gotha" Plummer Ragland Roberts Seaton Seymour
+		Smith Smith-Dorrien Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood }
+	}
+	scotish = {
+		color = { 224 207 100}
 		first_names = { Albert Alexander Alfred Archibald Arthur Augustus Benjamin Bernard Charles Colbert
 		Colin Cyril David Donald Douglas Edmund Edwar Fairfax Ferdinand Francis
 		Frederick Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
@@ -2012,6 +2026,22 @@ latin_american_cultures = {
 		"de Noronha" "de Oliveira" "de Orleans" "de Souza Neto" "de Suruf" Dutra Fragoso Frontin Galv�o Jord�o
 		Labatut Lopes Maciel Mallet Marques "Marques de Sousa" Maurity Moreira Os�rio Peixoto
 		Pena Pessoa Pinto Rondon "Saldanha da Gama" Santos Soares Tavares Vargas Wandenkolk
+		}
+	}
+	ecuadorian = {
+		color = {255 220 107}
+		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco Jos颠"Francisco de Paula" FroilᮠGabriel
+		Gregorio Guillermo Gustavo GuzmᮠHilario Ignacio Jer󮩭o Joaqu󸁊orge "Jos頁ntonio"
+		"Jos頍anuel" "Jos頍ar𨠠Juan "Juan Jos颠JuliᮠJulio Le󮠍anuel Pedro Plᣩdo
+		Rafael Raimundo Ram󮠒icardo Rodolfo Santiago Santos Tadeo Tom᳠Vicente
+		}
+
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caama񯠃arre񯠃arri󮠃astro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obald𨠠"de Olmedo" "de Veintemilla" "de Villamil"
+		Falc󮠆lores Garc𨁇󭥺 Gonzᬥz Gual Guti鲲ez HerrᮠHurtado L󰥺
+		Mallarino Manjarr鳠Mari񯠍elo Monagas Moreno Nú񥺠Obando P᥺ Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 	}
 }

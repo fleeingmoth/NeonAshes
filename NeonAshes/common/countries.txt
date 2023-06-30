@@ -103,7 +103,7 @@ TRT = "countries/Trinidad and Tobago.txt"
 
 #Colombia fragments
 #Venezuela fragments
-#ECU = "countries/Ecuador.txt"
+ECU = "countries/Ecuador.txt"
 #Peru fragments
 #Bolivia fragments
 
@@ -153,6 +153,7 @@ ICE = "countries/Iceland.txt" #Race to form Denmark
 #DUB = "countries/Dublin.txt"
 #EDB = "countries/Edinburgh.txt"
 #IVN = "countries/Inverness.txt"
+GBN = "countries/British Navy.txt"#reminants of GB, will turn into inverness if unsuccessful
 #GLS = "countries/Glasgow.txt" #3-way division of scotland
 #LVP = "countries/Liverpool.txt"
 #MDL = "countries/Midlands.txt"

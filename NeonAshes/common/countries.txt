@@ -78,7 +78,7 @@ YUC = "countries/Yucatan.txt"
 
 #GUA = "countries/Guatemala.txt"
 #BLZ = "countries/Belize.txt" #Note. should be able to discover oil here
-#ELS = "countries/El Salvador.txt"
+ELS = "countries/El Salvador.txt"
 #HON = "countries/Honduras.txt"
 #NIC = "countries/Nicaragua.txt"
 #COS = "countries/Costa Rica.txt"

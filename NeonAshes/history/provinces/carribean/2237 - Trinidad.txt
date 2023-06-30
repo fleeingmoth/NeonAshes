@@ -1,2 +1,5 @@
+owner = TRT
+controller = TRT
+add_core = TRT
 trade_goods = timber
 life_rating = 35

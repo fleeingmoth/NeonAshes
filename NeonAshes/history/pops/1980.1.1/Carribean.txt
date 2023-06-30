@@ -1,0 +1,571 @@
+### Cuba ### - 2458750
+# Santiago de Cuba (~500,000 POPS)
+2212 = {
+	aristocrats = {
+		culture = cuban
+		religion = catholic
+		size = 3000
+	}
+	capitalists = {
+		culture = cuban
+		religion = catholic
+		size = 400
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 40000
+	}
+	bureaucrats = {
+		culture = cuban
+		religion = catholic
+		size = 3000
+	}
+	clergymen = {
+		culture = cuban
+		religion = catholic
+		size = 1000
+	}
+	clerks = {
+		culture = cuban
+		religion = catholic
+		size = 6000
+	}
+	officers = {
+		culture = cuban
+		religion = catholic
+		size = 400
+	}
+	craftsmen = {
+		culture = cuban
+		religion = catholic
+		size = 34000
+	}
+	farmers = {
+		culture = cuban
+		religion = catholic
+		size = 298000
+	}
+	soldiers = {
+		culture = cuban
+		religion = catholic
+		size = 11000
+	}
+}
+# Camaguey (~500,000 POPS)
+2211 = {
+	aristocrats = {
+		culture = cuban
+		religion = catholic
+		size = 3000
+	}
+	capitalists = {
+		culture = cuban
+		religion = catholic
+		size = 400
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 60000
+	}
+	bureaucrats = {
+		culture = cuban
+		religion = catholic
+		size = 3000
+	}
+	clergymen = {
+		culture = cuban
+		religion = catholic
+		size = 1000
+	}
+	clerks = {
+		culture = cuban
+		religion = catholic
+		size = 6000
+	}
+	officers = {
+		culture = cuban
+		religion = catholic
+		size = 400
+	}
+	craftsmen = {
+		culture = cuban
+		religion = catholic
+		size = 24000
+	}
+	farmers = {
+		culture = cuban
+		religion = catholic
+		size = 290000
+	}
+	soldiers = {
+		culture = cuban
+		religion = catholic
+		size = 15000
+	}
+}
+# Jagua (~500,000 POPS)
+2210 = {
+	aristocrats = {
+		culture = cuban
+		religion = catholic
+		size = 1500
+	}
+	capitalists = {
+		culture = cuban
+		religion = catholic
+		size = 1200
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 64000
+	}
+	bureaucrats = {
+		culture = cuban
+		religion = catholic
+		size = 1500
+	}
+	clergymen = {
+		culture = cuban
+		religion = catholic
+		size = 500
+	}
+	clerks = {
+		culture = cuban
+		religion = catholic
+		size = 3000
+	}
+	officers = {
+		culture = cuban
+		religion = catholic
+		size = 200
+	}
+	craftsmen = {
+		culture = cuban
+		religion = catholic
+		size = 17000
+	}
+	farmers = {
+		culture = cuban
+		religion = catholic
+		size = 270000
+	}
+	soldiers = {
+		culture = cuban
+		religion = catholic
+		size = 17000
+	}
+}
+#Havana (1,913,000 in havana, aprox double for province / 956,500 pops)
+2209 = {
+	aristocrats = {
+		culture = cuban
+		religion = catholic
+		size = 1400
+	}
+	capitalists = {
+		culture = cuban
+		religion = catholic
+		size = 1400
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 240000
+	}
+	bureaucrats = {
+		culture = cuban
+		religion = catholic
+		size = 4000
+	}
+	clergymen = {
+		culture = cuban
+		religion = catholic
+		size = 14000
+	}
+	clerks = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	officers = {
+		culture = cuban
+		religion = catholic
+		size = 1600
+	}
+	craftsmen = {
+		culture = cuban
+		religion = catholic
+		size = 44000
+	}
+	farmers = {
+		culture = cuban
+		religion = catholic
+		size = 600500
+	}
+	soldiers = {
+		culture = cuban
+		religion = catholic
+		size = 16000
+	}
+}
+#bahamas (55938 pops)
+2219 = { 
+	aristocrats = {
+		culture = bahaman
+		religion = catholic
+		size = 700
+	}
+	capitalists = {
+		culture = bahaman
+		religion = catholic
+		size = 1400
+	}
+	artisans = {
+		culture = bahaman
+		religion = catholic
+		size = 2950
+	}
+	bureaucrats = {
+		culture = bahaman
+		religion = catholic
+		size = 2000
+	}
+	farmers = {
+		culture = bahaman
+		religion = catholic
+		size = 28580
+	}
+	soldiers = {
+		culture = bahaman
+		religion = catholic
+		size = 1940
+	}
+}
+2220 = { 
+	farmers = {
+		culture = bahaman
+		religion = catholic
+		size = 1513
+	}
+	artisans = {
+		culture = bahaman
+		religion = catholic
+		size = 74
+	}
+}
+3282 = { 
+	farmers = {
+		culture = bahaman
+		religion = catholic
+		size = 2400
+	}
+}
+3283 = { 
+	farmers = {
+		culture = bahaman
+		religion = catholic
+		size = 14381
+	}
+}
+#Haiti (1,411,750 pops)
+2213 = { 
+	farmers = {
+		culture = haitian
+		religion = catholic
+		size = 789170
+	}
+}
+2215 = { 
+	farmers = {
+		culture = haitian
+		religion = catholic
+		size = 622580
+	}
+}
+#Antillies Federation
+2224 = { #Antigua
+	farmers = {
+		culture = french_antillian
+		religion = catholic
+		size = 16222
+	}
+}
+2225 = { #Montserrat
+	farmers = {
+		culture = french_antillian
+		religion = catholic
+		size = 2761
+	}
+	artisans = {
+		culture = french_antillian
+		religion = catholic
+		size = 140
+	}
+}
+2227 = { #st kitts
+	farmers = {
+		culture = anglo_antillian
+		religion = protestant
+		size = 10774
+	}
+}
+2228 = { #Martinique
+	farmers = {
+		culture = french_antillian
+		religion = catholic
+		size = 57806
+	}
+	soldiers = {
+		culture = french_antillian
+		religion = catholic
+		size = 3970
+	}
+	craftsmen = {
+		culture = french_antillian
+		religion = catholic
+		size = 17890
+	}
+	clergymen = {
+		culture = french_antillian
+		religion = catholic
+		size = 2780
+	}
+}
+2229 = { #Barbados
+	farmers = {
+		culture = anglo_antillian
+		religion = protestant
+		size = 40796
+	}
+	soldiers = {
+		culture = anglo_antillian
+		religion = protestant
+		size = 3480
+	}
+	capitalists = {
+		culture = anglo_antillian
+		religion = protestant
+		size = 278
+	}
+	artisans = {
+		culture = anglo_antillian
+		religion = protestant
+		size = 17041
+	}
+	bureaucrats = {
+		culture = anglo_antillian
+		religion = protestant
+		size = 1798
+	}
+}
+2230 = { #Martinique
+	farmers = {
+		culture = french_antillian
+		religion = catholic
+		size = 69426
+	}
+	soldiers = {
+		culture = french_antillian
+		religion = catholic
+		size = 2747
+	}
+	artisans = {
+		culture = french_antillian
+		religion = catholic
+		size = 3647
+	}
+	craftsmen = {
+		culture = french_antillian
+		religion = catholic
+		size = 5790
+	}
+	clergymen = {
+		culture = french_antillian
+		religion = catholic
+		size = 1784
+	}
+	capitalists = {
+		culture = french_antillian
+		religion = catholic
+		size = 164
+	}
+}
+2231 = { #st Lucia
+	farmers = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 30408
+	}
+}
+2232 = { #dominica
+	farmers = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 18244
+	}
+}
+2233 = { #grenada
+	farmers = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 23709
+	}
+}
+2234 = { #Curacao
+	farmers = {
+		culture = dutch_antillian
+		religion = catholic
+		size = 28923
+	}
+	craftsmen = {
+		culture = dutch_antillian
+		religion = catholic
+		size = 3714
+	}
+	artisans = {
+		culture = dutch_antillian
+		religion = catholic
+		size = 1407
+	}
+	soldiers = {
+		culture = dutch_antillian
+		religion = catholic
+		size = 2966
+	}
+}
+2235 = { #Aruba
+	farmers = {
+		culture = dutch_antillian
+		religion = catholic
+		size = 15040
+	}
+	capitalists = {
+		culture = dutch_antillian
+		religion = catholic
+		size = 178
+	}
+	clergymen = {
+		culture = dutch_antillian
+		religion = catholic
+		size = 348
+	}
+}
+2236 = { #st martin
+	farmers = {
+		culture = dutch_antillian
+		religion = catholic
+		size = 3060
+	}
+}
+2409 = { #st vincent
+	farmers = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 25122
+	}
+	soldiers = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 1748
+	}
+}
+#jamaica
+2217 = { #jamaica
+	farmers = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 386819
+	}
+	clerks = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 28041
+	}
+	craftsmen = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 74871
+	}
+	artisans = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 36748
+	}
+	clergymen = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 3647
+	}
+	capitalists = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 3874
+	}
+}
+2218 = { #Caymans
+	capitalists = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 2788
+	}
+	clerks = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 1487
+	}
+}
+#dominican Republic (1439000 pops)
+2216 = { #La Vega
+	farmers = {
+		culture = dominican
+		religion = catholic
+		size = 568855
+	}
+}
+2214 = { #Santo Domingo
+	farmers = {
+		culture = dominican
+		religion = catholic
+		size = 870145
+	}
+}
+#Puerto Rico (801500 pops)
+2222 = { #San Juan
+	farmers = {
+		culture = yankee
+		religion = catholic
+		size = 777357
+	}
+}
+2226 = { #Tortola
+	farmers = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 2777
+	}
+}
+2223 = { #Saint Thomas
+	farmers = {
+		culture = yankee
+		religion = catholic
+		size = 24142
+	}
+}
+#Trinidad & Tobago (269947 pops)
+2237 = { #Trinidad
+	farmers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 266263
+	}
+}
+2238 = { #Tobago
+	farmers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 3684
+	}
+}

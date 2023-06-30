@@ -1836,6 +1836,36 @@ neo_european_cultures = {
 		}
 		radicalism = 10
 	}
+	bahaman = {
+		color = {31 156 175}
+		first_names = { Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
+		}
+		last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
+		}
+	}
+	dutch_antillian = {
+		color = {247 186 42}
+		first_names = { Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
+		}
+		last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
+		}
+	}
+	anglo_antillian = {
+		color = {226 31 56}
+		first_names = { Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
+		}
+		last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
+		}
+	}
+	french_antillian = {
+		color = {63 147 234}
+		first_names = { Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
+		}
+		last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
+		}
+	}
+
+
 }
 
 latin_american_cultures = {
@@ -1888,6 +1918,36 @@ latin_american_cultures = {
 		Gil G�mez Gonz�les Gonz�lez Grau Guillermo Henr�quez Herrera Hevia Laredo
 		Luper�n Maceo Machado M�rquez Mella M�ndez Mendieta Moncada Morales Mota
 		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde V�squez V�zquez Zayas
+		}
+	}
+	cuban = {
+		color = {160 97 160}
+		first_names = { Alberto Alejandro Alfredo Ambrosio Anselmo Antonio Arturo Benigno Buenaventura Calixto
+		Carlos Ceferino CesᲥo Demetrio Desiderio Dionisio Domingo Eugenio Federico Felipe
+		Fernando Fidel Fulgencio Gerardo Gregorio Guillermo Horacio Ignacio Jacinto Jacobo
+		Jesús Joaqu󸁊os頢Jos頍iguel" Juan "Juan Bautista" Manuel Mariano Mario Mḩmo
+		Osvaldo Pablo Pedro Rafael Ram󮠒aúl Salvador Rom᳠Ulises Wenceslao
+		}
+
+		last_names = { Acosta Alfau B᥺ Batista Bayo Cabral Carmona Castillo Castro Cisneros
+		"de C鳰edes" "de la Rosa" "de Meri񯢠"de Rojas" Espaillat Estrada Estrella Fernᮤez Figuereo Garc𣐊		Gil G󭥺 Gonzᬥs Gonzᬥz Grau Guillermo Henr𭑥z Herrera Hevia Laredo
+		Luper󮠍aceo Machado MᲱuez Mella M鮤ez Mendieta Moncada Morales Mota
+		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vᳱuez Vằuez Zayas
+		}
+	}
+	dominican = {
+		color = {204 202 104}
+		first_names = { Alberto Alejandro Alfredo Ambrosio Anselmo Antonio Arturo Benigno Buenaventura Calixto
+		Carlos Ceferino CesᲥo Demetrio Desiderio Dionisio Domingo Eugenio Federico Felipe
+		Fernando Fidel Fulgencio Gerardo Gregorio Guillermo Horacio Ignacio Jacinto Jacobo
+		Jesús Joaqu󸁊os頢Jos頍iguel" Juan "Juan Bautista" Manuel Mariano Mario Mḩmo
+		Osvaldo Pablo Pedro Rafael Ram󮠒aúl Salvador Rom᳠Ulises Wenceslao
+		}
+
+		last_names = { Acosta Alfau B᥺ Batista Bayo Cabral Carmona Castillo Castro Cisneros
+		"de C鳰edes" "de la Rosa" "de Meri񯢠"de Rojas" Espaillat Estrada Estrella Fernᮤez Figuereo Garc𣐊		Gil G󭥺 Gonzᬥs Gonzᬥz Grau Guillermo Henr𭑥z Herrera Hevia Laredo
+		Luper󮠍aceo Machado MᲱuez Mella M鮤ez Mendieta Moncada Morales Mota
+		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vᳱuez Vằuez Zayas
 		}
 	}
 	north_andean = {
@@ -2015,7 +2075,17 @@ african_diaspora_cultures = {
 		Roy Saget Salnave Salomon Sam Simon Soulouque Th�odore Vincent Zamor }
 	}
 
+	haitian = {
+		color = {32 57 32}
+		first_names = { Anderson Anselm Arthur Ben Colville Cyril Earl Edwin Ellis Eric
+		Geoffrey George Graham Henry Herbert Hubert Jeffrey John Josiah Lennox
+		Lloyd Malcolm Mervyn Nicholas Rainford Reginald Robert Stokely William Winston }
 	
+		last_names = { Abbott Best Blaize Brathwaite Carmichael Chambers Clark Douglas Dymally Findley
+		Goddard Hall Henson Holder James Jones Julian Kilgour Lassalle Lovelace
+		McIntosh Nurse Perry Roberts Robinson Shadd Stollmeyer Sylvester Williams Young }
+	}
+
 }
 
 west_african = {
@@ -2595,5 +2665,5 @@ bears = {
 		
 		last_names = { Beliy Medved Bjorn Rawrrorr Rrrrr Grrr Gyp Qoi Styrbjorn Blomstfjellet }
 	}
-	union = SCA
+	#union = SCA
 }

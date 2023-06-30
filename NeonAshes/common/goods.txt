@@ -174,7 +174,7 @@ consumer_goods = {
 		color = { 61 67 64 }
 	}
 	furniture = { 
-		cost = 16.00
+		cost = 10.00 # 1980 Kilodollars per 1,000 pieces of furniture, 50kgs each
 		color = { 123 112 54 }
 	}
 	pharma_n_equipment = { 

@@ -97,3 +97,66 @@ country_event = { # Mitosis and Meiosis (pop growth and decay cheat)
 		any_pop = { reduce_pop = 0.5 } #Pop cut in half
 	}
 }
+country_event = { # The New Dark Age
+	id = 76
+	title = "EVT_76_NAME"
+	desc = "EVT_76_DESC"
+	picture = "events_default"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "EVT_76_OPTA" # Survivalist Communities
+		remove_country_modifier = autarkic_communities
+		remove_country_modifier = frontier_communities
+		remove_country_modifier = decentralized_communities
+		remove_country_modifier = semi_centralized_communities
+		add_country_modifier = {
+			name = survivalist_communities
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_76_OPTB" # Autarkic Communities
+		remove_country_modifier = survivalist_communities
+		remove_country_modifier = frontier_communities
+		remove_country_modifier = decentralized_communities
+		remove_country_modifier = semi_centralized_communities
+		add_country_modifier = {
+			name = autarkic_communities
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_76_OPTC" # Frontier Communities
+		remove_country_modifier = survivalist_communities
+		remove_country_modifier = autarkic_communities
+		remove_country_modifier = decentralized_communities
+		remove_country_modifier = semi_centralized_communities
+		add_country_modifier = {
+			name = frontier_communities
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_76_OPTD" # Decentralized Communities
+		remove_country_modifier = survivalist_communities
+		remove_country_modifier = autarkic_communities
+		remove_country_modifier = frontier_communities
+		remove_country_modifier = semi_centralized_communities
+		add_country_modifier = {
+			name = decentralized_communities
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVT_76_OPTE" # Semi-Centralized Communities
+		remove_country_modifier = survivalist_communities
+		remove_country_modifier = autarkic_communities
+		remove_country_modifier = frontier_communities
+		remove_country_modifier = decentralized_communities
+		add_country_modifier = {
+			name = semi_centralized_communities
+			duration = -1
+		}
+	}
+}

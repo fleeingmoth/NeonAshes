@@ -1,0 +1,218 @@
+political_decisions = {
+	scavenging_industrial_lvl_1 = {
+		news = no	# Tiny country needs industrial equipment. News at 11.
+		picture = decisions_default
+		potential = {
+			NOT = { industrial_score = 10 }	# We have very little indusutry
+		}
+		allow = {
+			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
+		}
+		effect = {
+			add_country_modifier = {	# Manufacturing maluses for one year
+				name = industrial_scavenging
+				duration = 365
+			}
+			country_event = {
+				id = 6030
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.03 }	# So countries don't do it all at once
+	}
+	scavenging_industrial_lvl_2 = {
+		news = no # Small country is industrializing. News at 11.
+		picture = decisions_default
+		potential = {
+			industrial_score = 10	# We have little indusutry
+			NOT = { industrial_score = 100 }
+		}
+		allow = {
+			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
+			OR = {	# This is unexcusable statism
+				ruling_party_ideology = anarcho_liberal
+				economic_policy = laissez_faire
+			}
+		}
+		effect = {
+			add_country_modifier = {	# Manufacturing maluses for two years
+				name = industrial_scavenging
+				duration = 730
+			}
+			country_event = {
+				id = 6031
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.02 } # So countries don't do it all at once
+	}
+	scavenging_industrial_lvl_3 = {
+		news = no # Medium country is recycling. News at 11.
+		picture = decisions_default
+		potential = {
+			industrial_score = 100	# We have a decent industrial base
+			NOT = { industrial_score = 1000 }
+		}
+		allow = {
+			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
+			OR = {	# This is unexcusable statism
+				ruling_party_ideology = anarcho_liberal
+				economic_policy = laissez_faire
+			}
+		}
+		effect = {
+			add_country_modifier = {	# Manufacturing maluses for three years
+				name = industrial_scavenging
+				duration = 1095
+			}
+			country_event = {
+				id = 6032
+				days = 0
+			}
+		}
+		ai_will_do = {
+			factor = 0.01		# So countries don't do it all at once
+			modifier = {
+				factor = 0	# Interventionist countries will only do it in times of crisis
+				economic_policy = interventionism
+				war = no
+			}
+		}
+	}
+	scavenging_industrial_lvl_4 = {
+		news = yes # This is unusual.
+		news_desc_long = "scavenging_industrial_lvl_4_NEWS_LONG"
+		news_desc_medium = "scavenging_industrial_lvl_4_NEWS_MEDIUM"
+		news_desc_short = "scavenging_industrial_lvl_4_NEWS_SHORT"
+		picture = decisions_default
+		potential = {
+			industrial_score = 1000	# We are a large country
+		}
+		allow = {
+			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
+			OR = {	# This is unexcusable statism
+				ruling_party_ideology = anarcho_liberal
+				economic_policy = laissez_faire
+			}
+		}
+		effect = {
+			add_country_modifier = {	# Manufacturing maluses lasting four years
+				name = industrial_scavenging
+				duration = 1460
+			}
+			country_event = {
+				id = 6033
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0 } # More harmful than good for the AI at this point.
+	}
+	scavenging_buildings_lvl_1 = {
+		news = no	# Tiny country needs office and residential spae. News at 11.
+		picture = decisions_default
+		potential = {
+			NOT = { industrial_score = 10 }	# We have very little indusutry
+		}
+		allow = {
+			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging
+		}
+		effect = {
+			add_country_modifier = {	# Goods demand increase for one year
+				name = building_scavenging
+				duration = 365
+			}
+			country_event = {
+				id = 6034
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.03 }	# So countries don't do it all at once
+	}
+	scavenging_buildings_lvl_2 = {
+		news = no # Small country is expanding. News at 11.
+		picture = decisions_default
+		potential = {
+			industrial_score = 10	# We have little indusutry
+			NOT = { industrial_score = 100 }
+		}
+		allow = {
+			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging
+			OR = {	# This is unexcusable statism
+				ruling_party_ideology = anarcho_liberal
+				economic_policy = laissez_faire
+			}
+		}
+		effect = {
+			add_country_modifier = {	# Goods demand increase for two years
+				name = building_scavenging
+				duration = 730
+			}
+			country_event = {
+				id = 6035
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.02 } # So countries don't do it all at once
+	}
+	scavenging_buildings_lvl_3 = {
+		news = no # Medium country is reusing abandoned buildings. News at 11.
+		picture = decisions_default
+		potential = {
+			industrial_score = 100	# We have a decent industrial base
+			NOT = { industrial_score = 1000 }
+		}
+		allow = {
+			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging
+			OR = {	# This is unexcusable statism
+				ruling_party_ideology = anarcho_liberal
+				economic_policy = laissez_faire
+			}
+		}
+		effect = {
+			add_country_modifier = {	# Goods demand increase for three years
+				name = building_scavenging
+				duration = 1095
+			}
+			country_event = {
+				id = 6036
+				days = 0
+			}
+		}
+		ai_will_do = {
+			factor = 0.01		# So countries don't do it all at once
+			modifier = {
+				factor = 0	# Interventionist countries will only do it in times of crisis
+				economic_policy = interventionism
+				war = no
+			}
+		}
+	}
+	scavenging_buildings_lvl_4 = {
+		news = yes # This is unusual.
+		news_desc_long = "scavenging_buildings_lvl_4_NEWS_LONG"
+		news_desc_medium = "scavenging_buildings_lvl_4_NEWS_MEDIUM"
+		news_desc_short = "scavenging_buildings_lvl_4_NEWS_SHORT"
+		picture = decisions_default
+		potential = {
+			industrial_score = 1000	# We are a large country
+		}
+		allow = {
+			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging
+			OR = {	# This is unexcusable statism
+				ruling_party_ideology = anarcho_liberal
+				economic_policy = laissez_faire
+			}
+		}
+		effect = {
+			add_country_modifier = {	# Goods demand increase lasting four years
+				name = building_scavenging
+				duration = 1460
+			}
+			country_event = {
+				id = 6037
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0 } # More harmful than good for the AI at this point.
+	}
+}

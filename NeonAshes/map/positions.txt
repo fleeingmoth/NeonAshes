@@ -96731,26 +96731,31 @@
 
 # El Encanto
 2263 = {
-    unit = {
-        x = 1678.000000
-        y = 937.000000
-    }
-
     text_position = {
-        x = 1680.000000
-        y = 928.000000
+        x = 1642.933333
+        y = 951.141667
     }
 
-    text_rotation = 6.195919
+    text_rotation = 5.693794
     text_scale = 4.299998
-    building_construction = {
-        x = 1700.000000
-        y = 929.000000
+    unit = {
+        x = 1659.983333
+        y = 941.516667
+    }
+
+    city = {
+        x = 1642.108333
+        y = 952.791667
     }
 
     factory = {
         x = 1665.000000
         y = 939.000000
+    }
+
+    building_construction = {
+        x = 1625.700000
+        y = 962.966667
     }
 
 }
@@ -97802,25 +97807,30 @@
 
 # Puca Urco
 2289 = {
+    text_position = {
+        x = 1689.841667
+        y = 911.685000
+    }
+
+    text_scale = 3.399999
     unit = {
         x = 1683.000000
         y = 911.000000
     }
 
-    text_position = {
-        x = 1675.099976
-        y = 909.500000
-    }
-
-    text_scale = 3.399999
-    building_construction = {
-        x = 1660.199951
-        y = 923.200012
+    city = {
+        x = 1688.656667
+        y = 909.841667
     }
 
     factory = {
         x = 1695.000000
         y = 905.000000
+    }
+
+    building_construction = {
+        x = 1687.735000
+        y = 918.795000
     }
 
 }
@@ -102203,11 +102213,16 @@
 # Manaus
 2402 = {
     text_position = {
-        x = 1879.000000
-        y = 920.000000
+        x = 1880.093333
+        y = 930.495000
     }
 
     text_scale = 5.399997
+    factory = {
+        x = 1878.000000
+        y = 949.000000
+    }
+
     building_construction = {
         x = 1867.000000
         y = 936.000000
@@ -102216,11 +102231,6 @@
     military_construction = {
         x = 1880.000000
         y = 916.000000
-    }
-
-    factory = {
-        x = 1878.000000
-        y = 949.000000
     }
 
     building_position = {
@@ -102789,25 +102799,20 @@
 
 # Vila Bela
 2417 = {
-    unit = {
-        x = 1905.000000
-        y = 749.000000
-    }
-
     text_position = {
-        x = 1903.000000
-        y = 736.099976
+        x = 1900.685000
+        y = 714.655000
     }
 
     text_scale = 5.399997
-    building_construction = {
-        x = 1889.000000
-        y = 758.000000
+    unit = {
+        x = 1904.645000
+        y = 710.200000
     }
 
-    military_construction = {
-        x = 1904.000000
-        y = 725.000000
+    city = {
+        x = 1901.015000
+        y = 713.335000
     }
 
     factory = {
@@ -102815,10 +102820,20 @@
         y = 773.000000
     }
 
+    building_construction = {
+        x = 1907.615000
+        y = 701.620000
+    }
+
+    military_construction = {
+        x = 1904.000000
+        y = 725.000000
+    }
+
     building_position = {
         fort = {
-            x = 1925.000000
-            y = 750.000000
+            x = 1886.660000
+            y = 719.605000
         }
 
     }
@@ -102833,14 +102848,24 @@
     }
 
     text_scale = 5.899997
-    building_construction = {
-        x = 1962.000000
-        y = 705.000000
+    unit = {
+        x = 1979.515000
+        y = 728.800000
+    }
+
+    city = {
+        x = 1972.230000
+        y = 718.695000
     }
 
     factory = {
         x = 1962.000000
         y = 745.000000
+    }
+
+    building_construction = {
+        x = 1962.000000
+        y = 705.000000
     }
 
 }
@@ -108749,25 +108774,25 @@
 
 # Forte do Príncipe
 2550 = {
+    text_position = {
+        x = 1864.403333
+        y = 781.066667
+    }
+
+    text_scale = 5.899998
     unit = {
         x = 1825.000000
         y = 777.000000
     }
 
-    text_position = {
-        x = 1828.699951
-        y = 768.099976
-    }
-
-    text_scale = 3.899998
-    building_construction = {
-        x = 1834.000000
-        y = 759.000000
-    }
-
     factory = {
         x = 1817.000000
         y = 792.000000
+    }
+
+    building_construction = {
+        x = 1834.000000
+        y = 759.000000
     }
 
 }

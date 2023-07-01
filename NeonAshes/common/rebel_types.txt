@@ -898,6 +898,33 @@ nationalist_rebels = {
 			war_exhaustion = 8
 			factor = 0.95
 		}
+		
+		modifier = {
+			factor = 0
+			location = {
+				is_core = CAL
+			}
+			country = {
+				OR={
+					tag = NCA
+					tag = SCA
+				}
+			}
+			
+		}
+		
+		modifier = {
+			factor = 0
+			location = {
+				is_core = TEX
+			}
+			country = {
+				OR={
+					tag = NTX
+					tag = STX
+				}
+			}
+		}
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
@@ -984,6 +1011,30 @@ nationalist_rebels = {
 			factor = 1.2
 			location = {
 				is_colonial = yes
+			}
+		}
+		modifier = {
+			factor = 0
+			country = {
+				OR={
+					tag = NTX
+					tag = STX
+				}
+			}
+			location = {
+				is_core = CAL
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				is_core = TEX
+			}
+			country = {
+				OR={
+					tag = NTX
+					tag = STX
+				}
 			}
 		}
 	

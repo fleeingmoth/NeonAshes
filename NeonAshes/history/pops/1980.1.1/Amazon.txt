@@ -1,0 +1,33 @@
+#amazonia and guniea
+3284 = {#Manaus
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 106022
+	}
+	soldiers = {
+		culture = brazilian
+		religion = catholic
+		size = 3640
+	}
+	capitalists = {
+		culture = brazilian
+		religion = catholic
+		size = 1387
+	}
+	artisans = {
+		culture = brazilian
+		religion = catholic
+		size = 38870
+	}
+	craftsmen = {
+		culture = brazilian
+		religion = catholic
+		size = 1778
+	}
+	clergymen = {
+		culture = brazilian
+		religion = catholic
+		size = 3986
+	}
+}

@@ -102,8 +102,10 @@ TRT = "countries/Trinidad and Tobago.txt"
 # Latin and South America - Andes
 
 #Colombia fragments
-CLM		="countries/Colombia.txt"
+CLM	="countries/Colombia.txt"
+FRC ="countries/FARC.txt"
 #Venezuela fragments
+VEN	="countries/Venezuela.txt"
 ECU = "countries/Ecuador.txt"
 #Peru fragments
 #Bolivia fragments
@@ -132,6 +134,7 @@ ECU = "countries/Ecuador.txt"
 
 # Latin and South America - Brazil
 #So many fragments
+MNU = "countries/Manaus.txt"
 
 # Latin and South America - Southern Formables
 #BRA = "countries/Brazil.txt"

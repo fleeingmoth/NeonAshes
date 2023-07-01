@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = CLM
+controller = CLM
+add_core = CLM
+trade_goods = iron
 life_rating = 35

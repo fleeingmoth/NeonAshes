@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = VEN
+controller = VEN
+add_core = VEN
+trade_goods = oil
 life_rating = 35

@@ -1964,7 +1964,7 @@ latin_american_cultures = {
 		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vᳱuez Vằuez Zayas
 		}
 	}
-	north_andean = {
+	colombian = {
 		color = {146 156 116}
 		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
 		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco Jos�" "Francisco de Paula" Froil�n Gabriel
@@ -1978,6 +1978,22 @@ latin_american_cultures = {
 		Falc�n Flores Garc�a G�mez Gonz�lez Gual Guti�rrez Herr�n Hurtado L�pez
 		Mallarino Manjarr�s Mari�o Melo Monagas Moreno N��ez Obando P�ez Porras
 		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zald�a
+		}
+	}
+	venezuelan = {
+		color = {219 204 74}
+		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco Jos颠"Francisco de Paula" FroilᮠGabriel
+		Gregorio Guillermo Gustavo GuzmᮠHilario Ignacio Jer󮩭o Joaqu󸁊orge "Jos頁ntonio"
+		"Jos頍anuel" "Jos頍ar𨠠Juan "Juan Jos颠JuliᮠJulio Le󮠍anuel Pedro Plᣩdo
+		Rafael Raimundo Ram󮠒icardo Rodolfo Santiago Santos Tadeo Tom᳠Vicente
+		}
+
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caama񯠃arre񯠃arri󮠃astro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obald𨠠"de Olmedo" "de Veintemilla" "de Villamil"
+		Falc󮠆lores Garc𨁇󭥺 Gonzᬥz Gual Guti鲲ez HerrᮠHurtado L󰥺
+		Mallarino Manjarr鳠Mari񯠍elo Monagas Moreno Nú񥺠Obando P᥺ Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 	}
 	south_andean = {

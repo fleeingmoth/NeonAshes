@@ -1,0 +1,146 @@
+#colombia (27,639,000 - 6,909,750 pops)
+2255 = {#Barranquilla; la guajira, cesar, magdalena, atlantico
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 852663
+	}
+}
+2254 = {#Cartagena de indias; bolivar, sucre, cordoba
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 681992
+	}
+	
+}
+2251 = {#Cucuta; n. de dantander, santander, 
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 526522
+	}
+}
+2252 = {#Medellin; antioquia
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 916923
+	}
+}
+2249 = {#Tunja; boyaca
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 174125
+	}
+}
+2250 = {#Manizales
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 973750
+	}
+}
+2253 = {#Quibdo; Choco
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 680892
+	}
+	soldiers = {
+		culture = colombian
+		religion = catholic
+		size = 9780
+	}
+	artisans = {
+		culture = colombian
+		religion = catholic
+		size = 24780
+	}
+	clergymen = {
+		culture = colombian
+		religion = catholic
+		size = 1779
+	}
+}
+2258 = {#Buenaventura
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 609365
+	}
+}
+2259 = {#Pasto
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 516150
+	}
+}
+2257 = {#Popayan
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 506117
+	}
+}
+2256 = {#Cali 
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 506250
+	}
+}
+2263 = {#El Encanto
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 156350
+	}
+}
+2260 = {#San Jose del Guaviare; meta, guaviare, caqueta
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 189856
+	}
+	soldiers = {
+		culture = colombian
+		religion = catholic
+		size = 27801
+	}
+}
+2261 = {#Obando
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 12437
+	}
+}
+2262 = {#Casanare; arauca, casanare, vichada
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 100878
+	}
+	soldiers = {
+		culture = colombian
+		religion = catholic
+		size = 11750
+	}
+}
+2248 = {#Ibague
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 256350
+	}
+}
+2247 = {#Bogota
+	farmers = {
+		culture = colombian
+		religion = catholic
+		size = 156350
+	}
+}

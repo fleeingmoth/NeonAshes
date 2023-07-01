@@ -17,6 +17,16 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			change_tag = TEX #The one and only Texas
+			STX={
+				all_core={
+					remove_core = STX
+				}
+			}
+			NTX={
+				all_core={		
+					remove_core = NTX
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -38,6 +48,16 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			change_tag = TEX #The one and only Texas
+			STX={
+				all_core={
+					remove_core = STX
+				}
+			}
+			NTX={
+				all_core={		
+					remove_core = NTX
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -59,6 +79,16 @@ political_decisions = {
 		effect = {
 			prestige = 2
 			change_tag = TEX #Rump Texas
+			STX={
+				all_core={
+					remove_core = STX
+				}
+			}
+			NTX={
+				all_core={		
+					remove_core = NTX
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -80,6 +110,16 @@ political_decisions = {
 		effect = {
 			prestige = 2
 			change_tag = TEX #Rump Texas
+			STX={
+				all_core={
+					remove_core = STX
+				}
+			}
+			NTX={
+				all_core={		
+					remove_core = NTX
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}

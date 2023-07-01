@@ -1,0 +1,138 @@
+#Venezulea (15,210,000 - 3,802,500 pops)
+#south of the river is 5%
+2278 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 3565
+	}
+}
+2277 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 89460
+	}
+}
+2275 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 97100
+	}
+}
+#the rest is 95%
+2274 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 61372
+	}
+}
+2271 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 542669
+	}
+}
+2270 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 291931
+	}
+}
+2272 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 120712
+	}
+}
+2273 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 609302
+	}
+}
+2268 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 80335
+	}
+}
+2265 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 226326
+	}
+}
+2266 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 417543
+	}
+}
+2264 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 244470
+	}
+	soldiers = {
+		culture = venezuelan
+		religion = catholic
+		size = 9120
+	}
+	artisans = {
+		culture = venezuelan
+		religion = catholic
+		size = 82446
+	}
+	clergymen = {
+		culture = venezuelan
+		religion = catholic
+		size = 2487
+	}
+	capitalists = {
+		culture = venezuelan
+		religion = catholic
+		size = 671
+	}
+	craftsmen = {
+		culture = venezuelan
+		religion = catholic
+		size = 17196
+	}
+	farmers = {
+		culture = bureaucrats
+		religion = catholic
+		size = 1286
+	}
+}
+2267 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 762255
+	}
+}
+2269 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 119836
+	}
+}
+2276 = {#
+	farmers = {
+		culture = venezuelan
+		religion = catholic
+		size = 22418
+	}
+}

@@ -365,7 +365,7 @@ chemical_plant = {
 		oil = 7.00		# 7,000 barrels of oil (or gas)	# 210
 		steel = 1.00		# 100 tonnes of steel		# 6
 		other_metals = 0.10	# 10 tonnes of other metals	# 1
-		rare_earths = 2.00	# 200 kgs of rare earths	# 20
+		#rare_earths = 2.00	# 200 kgs of rare earths	# 20
 	}
 	output_goods = polymers_and_plastics	# Total cost of inputs	# 234
 	value = 100				# Total value of goods	# 250
@@ -760,7 +760,7 @@ iron_mine = {
 oil_rig = {
 	template = RGO_template_labourers
 	output_goods = oil 
-	value = 20000 # 1 worker (1980) outputs 0.1 barrel per day. Times 200,000.
+	value = 200 # 1 worker (1980) outputs 0.1 barrel per day. Times 200,000.
 	mine = yes
 }
 

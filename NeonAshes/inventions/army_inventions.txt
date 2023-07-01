@@ -985,6 +985,32 @@ kevlar_body_armor = { # Aramid Body Armor
 	}
 	effect = { soldier_to_pop_loss = 0.01 } # Less casualties
 }
+armament_production = { # Modern Service Rifle
+	limit = { mass_produced_armament = 1 }
+	chance = {
+		base = 3 # Average chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		activate_building = small_arms_factory
+	}
+}
+ammunition_production = { # Modern Service Rifle
+	limit = { mass_produced_armament = 1 }
+	chance = {
+		base = 3 # Average chance by itself
+		modifier = {
+			factor = 2
+			war = yes # Learning by combat
+		}
+	}
+	effect = {
+		activate_building = conv_ammo_factory
+	}
+}
 
 modern_service_rifle = { # Modern Service Rifle
 	limit = { mass_produced_armament = 1 }

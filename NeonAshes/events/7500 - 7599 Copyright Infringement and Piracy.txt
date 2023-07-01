@@ -1,0 +1,623 @@
+### 7500-7510 - Copyright Infringement Throughout the Ages ###
+
+country_event = {
+	id = 7500
+	title = "EVT_7500_NAME" # "Home Taping is killing music!"
+	desc = "EVT_7500_DESC"
+	picture = "events_default"
+	trigger = {
+		NOT = { broadcasting = 1 }	# We have not researched any techs on Comms and Media
+		NOT = {				# Hasn't fired recently
+			OR = {
+				has_country_modifier = copyright_very_lax_enforcement
+				has_country_modifier = copyright_lax_enforcement 
+				has_country_modifier = copyright_strict_enforcement
+				has_country_modifier = copyright_very_strict_enforcement
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.90	# 18 years
+			has_country_modifier = semi_centralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.80	# 16 years
+			has_country_modifier = decentralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.70	# 14 years
+			has_country_modifier = frontier_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.60	# 12 years
+			has_country_modifier = autarkic_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.50	# 10 years
+			has_country_modifier = survivalist_communities		# Looser communities
+		}
+	} 
+
+	option = {
+		name = "EVT_7500_OPTA"		# They are within their rights. Information wants to be free.
+		add_tax_relative_income = -0.5	# Tax loss
+		any_pop = { literacy = 0.01 }	# Spread of knowledge
+		rich_strata = {
+			consciousness = 1.0	# Are they really going to get away with it?
+			militancy = 0.5		# This is our stuff!
+		}
+		plurality = 1			# Permissive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7500_OPTB"			# This is just a minor infringement on copyright laws.
+		add_tax_relative_income = -0.3		# Tax loss
+		rich_strata = { consciousness = 0.5 }	# Would have appreciated a stronger response
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7500_OPTC" 			# Crack down on them. This is killing the music industry.
+		add_tax_relative_income = -0.1		# Tax and enforcement cost
+		any_pop = { literacy = -0.01 }		# Curtailment of knowledge
+		rich_strata = { consciousness = -0.5 }	# Government's doing a good job
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_strict_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7500_OPTD"		# Piracy is theft, and we cannot tolerate lawbreakers.
+		any_pop = { literacy = -0.02 }	# Heavy curtailment of knowledge
+		rich_strata = {
+			consciousness = -1.0	# They are getting what they deserve
+			militancy = -0.5	# We are safe and secure
+		}
+		plurality = -1			# Restrictive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_strict_enforcement
+			duration = 1825
+		}
+	}
+}
+country_event = {
+	id = 7501
+	title = "EVT_7501_NAME" # "Beware of bootleg video casettes!"
+	desc = "EVT_7501_DESC"
+	picture = "events_default"
+	trigger = {
+		broadcasting = 1		# We have Broadcasting...
+		NOT = { digital_media = 1 }	# ...but not Digital Media yet
+		NOT = {				# Hasn't fired recently
+			OR = {
+				has_country_modifier = copyright_very_lax_enforcement
+				has_country_modifier = copyright_lax_enforcement 
+				has_country_modifier = copyright_strict_enforcement
+				has_country_modifier = copyright_very_strict_enforcement
+			}
+		}
+	} 
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.90	# 18 years
+			has_country_modifier = semi_centralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.80	# 16 years
+			has_country_modifier = decentralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.70	# 14 years
+			has_country_modifier = frontier_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.60	# 12 years
+			has_country_modifier = autarkic_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.50	# 10 years
+			has_country_modifier = survivalist_communities		# Looser communities
+		}
+	}
+
+	option = {
+		name = "EVT_7501_OPTA"		# They are within their rights. Information wants to be free.
+		add_tax_relative_income = -0.5	# Tax loss
+		any_pop = { literacy = 0.01 }	# Spread of knowledge
+		rich_strata = {
+			consciousness = 1.0	# Are they really going to get away with it?
+			militancy = 0.5		# This is our stuff!
+		}
+		plurality = 1			# Permissive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7501_OPTB"			# This is just a minor infringement on copyright laws.
+		add_tax_relative_income = -0.3		# Tax loss
+		rich_strata = { consciousness = 0.5 }	# Would have appreciated a stronger response
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7501_OPTC" 			# Crack down on them. This is killing the casette industry.
+		add_tax_relative_income = -0.1		# Tax and enforcement cost
+		any_pop = { literacy = -0.01 }		# Curtailment of knowledge
+		rich_strata = { consciousness = -0.5 }	# Government's doing a good job
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_strict_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7501_OPTD"		# Piracy is theft, and we cannot tolerate lawbreakers.
+		any_pop = { literacy = -0.02 }	# Heavy curtailment of knowledge
+		rich_strata = {
+			consciousness = -1.0	# They are getting what they deserve
+			militancy = -0.5	# We are safe and secure
+		}
+		plurality = -1			# Restrictive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_strict_enforcement
+			duration = 1825
+		}
+	}
+}
+country_event = {
+	id = 7502
+	title = "EVT_7502_NAME" # "Don't Copy that Floppy!"
+	desc = "EVT_7502_DESC"
+	picture = "events_default"
+	trigger = {
+		digital_media = 1		# We have Digital Media...
+		NOT = { the_internet = 1 }	# ...but not The Internet yet
+		NOT = {				# Hasn't fired recently
+			OR = {
+				has_country_modifier = copyright_very_lax_enforcement
+				has_country_modifier = copyright_lax_enforcement 
+				has_country_modifier = copyright_strict_enforcement
+				has_country_modifier = copyright_very_strict_enforcement
+			}
+		}
+	} 
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.90	# 18 years
+			has_country_modifier = semi_centralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.80	# 16 years
+			has_country_modifier = decentralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.70	# 14 years
+			has_country_modifier = frontier_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.60	# 12 years
+			has_country_modifier = autarkic_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.50	# 10 years
+			has_country_modifier = survivalist_communities		# Looser communities
+		}
+	}
+
+	option = {
+		name = "EVT_7502_OPTA"		# They are within their rights. Information wants to be free.
+		add_tax_relative_income = -0.5	# Tax loss
+		any_pop = { literacy = 0.01 }	# Spread of knowledge
+		rich_strata = {
+			consciousness = 1.0	# Are they really going to get away with it?
+			militancy = 0.5		# This is our stuff!
+		}
+		plurality = 1			# Permissive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7502_OPTB"			# This is just a minor infringement on copyright laws.
+		add_tax_relative_income = -0.3		# Tax loss
+		rich_strata = { consciousness = 0.5 }	# Would have appreciated a stronger response
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7502_OPTC" 			# Crack down on them. This is killing the software industry.
+		add_tax_relative_income = -0.1		# Tax and enforcement cost
+		any_pop = { literacy = -0.01 }		# Curtailment of knowledge
+		rich_strata = { consciousness = -0.5 }	# Government's doing a good job
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_strict_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7502_OPTD"		# Piracy is theft, and we cannot tolerate lawbreakers.
+		any_pop = { literacy = -0.02 }	# Heavy curtailment of knowledge
+		rich_strata = {
+			consciousness = -1.0	# They are getting what they deserve
+			militancy = -0.5	# We are safe and secure
+		}
+		plurality = -1			# Restrictive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_strict_enforcement
+			duration = 1825
+		}
+	}
+}
+country_event = {
+	id = 7503
+	title = "EVT_7503_NAME" # "You wouldn't download a car!"
+	desc = "EVT_7503_DESC"
+	picture = "events_default"
+	trigger = {
+		the_internet = 1	# We have the Internet...
+		NOT = { web_20 = 1 }	# ...but not the Web 2.0 yet
+		NOT = {				# Hasn't fired recently
+			OR = {
+				has_country_modifier = copyright_very_lax_enforcement
+				has_country_modifier = copyright_lax_enforcement 
+				has_country_modifier = copyright_strict_enforcement
+				has_country_modifier = copyright_very_strict_enforcement
+			}
+		}
+	} 
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.90	# 18 years
+			has_country_modifier = semi_centralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.80	# 16 years
+			has_country_modifier = decentralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.70	# 14 years
+			has_country_modifier = frontier_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.60	# 12 years
+			has_country_modifier = autarkic_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.50	# 10 years
+			has_country_modifier = survivalist_communities		# Looser communities
+		}
+	}
+
+	option = {
+		name = "EVT_7503_OPTA"		# They are within their rights. Information wants to be free.
+		add_tax_relative_income = -0.5	# Tax loss
+		any_pop = { literacy = 0.01 }	# Spread of knowledge
+		rich_strata = {
+			consciousness = 1.0	# Are they really going to get away with it?
+			militancy = 0.5		# This is our stuff!
+		}
+		plurality = 1			# Permissive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7503_OPTB"			# This is just a minor infringement on copyright laws.
+		add_tax_relative_income = -0.3		# Tax loss
+		rich_strata = { consciousness = 0.5 }	# Would have appreciated a stronger response
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7503_OPTC" 			# Crack down on them. This is killing the online industry.
+		add_tax_relative_income = -0.1		# Tax and enforcement cost
+		any_pop = { literacy = -0.01 }		# Curtailment of knowledge
+		rich_strata = { consciousness = -0.5 }	# Government's doing a good job
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_strict_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7503_OPTD"		# Piracy is theft, and we cannot tolerate lawbreakers.
+		any_pop = { literacy = -0.02 }	# Heavy curtailment of knowledge
+		rich_strata = {
+			consciousness = -1.0	# They are getting what they deserve
+			militancy = -0.5	# We are safe and secure
+		}
+		plurality = -1			# Restrictive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_strict_enforcement
+			duration = 1825
+		}
+	}
+}
+country_event = {
+	id = 7504
+	title = "EVT_7504_NAME" # "You can click, but you can't hide!"
+	desc = "EVT_7504_DESC"
+	picture = "events_default"
+	trigger = {
+		web_20 = 1			# We have the Web 2.0...
+		NOT = { augmented_reality = 1 }	# ...but not augmented reality yet
+		NOT = {				# Hasn't fired recently
+			OR = {
+				has_country_modifier = copyright_very_lax_enforcement
+				has_country_modifier = copyright_lax_enforcement 
+				has_country_modifier = copyright_strict_enforcement
+				has_country_modifier = copyright_very_strict_enforcement
+			}
+		}
+	} 
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.90	# 18 years
+			has_country_modifier = semi_centralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.80	# 16 years
+			has_country_modifier = decentralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.70	# 14 years
+			has_country_modifier = frontier_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.60	# 12 years
+			has_country_modifier = autarkic_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.50	# 10 years
+			has_country_modifier = survivalist_communities		# Looser communities
+		}
+	}
+
+	option = {
+		name = "EVT_7504_OPTA"		# They are within their rights. Information wants to be free.
+		add_tax_relative_income = -0.5	# Tax loss
+		any_pop = { literacy = 0.01 }	# Spread of knowledge
+		rich_strata = {
+			consciousness = 1.0	# Are they really going to get away with it?
+			militancy = 0.5		# This is our stuff!
+		}
+		plurality = 1			# Permissive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7504_OPTB"			# This is just a minor infringement on copyright laws.
+		add_tax_relative_income = -0.3		# Tax loss
+		rich_strata = { consciousness = 0.5 }	# Would have appreciated a stronger response
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7504_OPTC" 			# Crack down on them. This is killing the digital industry.
+		add_tax_relative_income = -0.1		# Tax and enforcement cost
+		any_pop = { literacy = -0.01 }		# Curtailment of knowledge
+		rich_strata = { consciousness = -0.5 }	# Government's doing a good job
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_strict_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7504_OPTD"		# Piracy is theft, and we cannot tolerate lawbreakers.
+		any_pop = { literacy = -0.02 }	# Heavy curtailment of knowledge
+		rich_strata = {
+			consciousness = -1.0	# They are getting what they deserve
+			militancy = -0.5	# We are safe and secure
+		}
+		plurality = -1			# Restrictive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_strict_enforcement
+			duration = 1825
+		}
+	}
+}
+country_event = {
+	id = 7505
+	title = "EVT_7505_NAME" # "Virtual world crimes. Real life consequences!"
+	desc = "EVT_7505_DESC"
+	picture = "events_default"
+	trigger = {
+		augmented_reality = 1		# We have augmented reality...
+		NOT = { virtual_reality = 1 }	# ...but not virtual reality yet
+		NOT = {				# Hasn't fired recently
+			OR = {
+				has_country_modifier = copyright_very_lax_enforcement
+				has_country_modifier = copyright_lax_enforcement 
+				has_country_modifier = copyright_strict_enforcement
+				has_country_modifier = copyright_very_strict_enforcement
+			}
+		}
+	} 
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.90	# 18 years
+			has_country_modifier = semi_centralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.80	# 16 years
+			has_country_modifier = decentralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.70	# 14 years
+			has_country_modifier = frontier_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.60	# 12 years
+			has_country_modifier = autarkic_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.50	# 10 years
+			has_country_modifier = survivalist_communities		# Looser communities
+		}
+	}
+
+	option = {
+		name = "EVT_7505_OPTA"		# They are within their rights. Information wants to be free.
+		add_tax_relative_income = -0.5	# Tax loss
+		any_pop = { literacy = 0.01 }	# Spread of knowledge
+		rich_strata = {
+			consciousness = 1.0	# Are they really going to get away with it?
+			militancy = 0.5		# This is our stuff!
+		}
+		plurality = 1			# Permissive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7505_OPTB"			# This is just a minor infringement on copyright laws.
+		add_tax_relative_income = -0.3		# Tax loss
+		rich_strata = { consciousness = 0.5 }	# Would have appreciated a stronger response
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7505_OPTC" 			# Crack down on them. This is killing the virtual industry.
+		add_tax_relative_income = -0.1		# Tax and enforcement cost
+		any_pop = { literacy = -0.01 }		# Curtailment of knowledge
+		rich_strata = { consciousness = -0.5 }	# Government's doing a good job
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_strict_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7505_OPTD"		# Piracy is theft, and we cannot tolerate lawbreakers.
+		any_pop = { literacy = -0.02 }	# Heavy curtailment of knowledge
+		rich_strata = {
+			consciousness = -1.0	# They are getting what they deserve
+			militancy = -0.5	# We are safe and secure
+		}
+		plurality = -1			# Restrictive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_strict_enforcement
+			duration = 1825
+		}
+	}
+}
+country_event = {
+	id = 7506
+	title = "EVT_7506_NAME" # "Be an integral person. Have your own personality!"
+	desc = "EVT_7506_DESC"
+	picture = "events_default"
+	trigger = {
+		virtual_reality = 1		# We have virtual reality
+		NOT = {				# Hasn't fired recently
+			OR = {
+				has_country_modifier = copyright_very_lax_enforcement
+				has_country_modifier = copyright_lax_enforcement 
+				has_country_modifier = copyright_strict_enforcement
+				has_country_modifier = copyright_very_strict_enforcement
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240		# 20 years
+		modifier = {
+			factor = 0.90	# 18 years
+			has_country_modifier = semi_centralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.80	# 16 years
+			has_country_modifier = decentralized_communities	# Looser communities
+		}
+		modifier = {
+			factor = 0.70	# 14 years
+			has_country_modifier = frontier_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.60	# 12 years
+			has_country_modifier = autarkic_communities		# Looser communities
+		}
+		modifier = {
+			factor = 0.50	# 10 years
+			has_country_modifier = survivalist_communities		# Looser communities
+		}
+	}
+
+	option = {
+		name = "EVT_7506_OPTA"		# They are within their rights. Information wants to be free.
+		add_tax_relative_income = -0.5	# Tax loss
+		any_pop = { literacy = 0.01 }	# Spread of knowledge
+		rich_strata = {
+			consciousness = 1.0	# Are they really going to get away with it?
+			militancy = 0.5		# This is our stuff!
+		}
+		plurality = 1			# Permissive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7506_OPTB"			# This is just a minor infringement on copyright laws.
+		add_tax_relative_income = -0.3		# Tax loss
+		rich_strata = { consciousness = 0.5 }	# Would have appreciated a stronger response
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_lax_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7506_OPTC" 			# Crack down on them. This is killing the hypercognitive industry.
+		add_tax_relative_income = -0.1		# Tax and enforcement cost
+		any_pop = { literacy = -0.01 }		# Curtailment of knowledge
+		rich_strata = { consciousness = -0.5 }	# Government's doing a good job
+		add_country_modifier = {		# Lingering cooldown
+			name = copyright_strict_enforcement
+			duration = 1825
+		}
+	}
+	option = {
+		name = "EVT_7506_OPTD"		# Piracy is theft, and we cannot tolerate lawbreakers.
+		any_pop = { literacy = -0.02 }	# Heavy curtailment of knowledge
+		rich_strata = {
+			consciousness = -1.0	# They are getting what they deserve
+			militancy = -0.5	# We are safe and secure
+		}
+		plurality = -1			# Restrictive society
+		add_country_modifier = {	# Lingering cooldown
+			name = copyright_very_strict_enforcement
+			duration = 1825
+		}
+	}
+}

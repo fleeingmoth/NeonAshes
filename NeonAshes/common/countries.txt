@@ -102,6 +102,7 @@ TRT = "countries/Trinidad and Tobago.txt"
 # Latin and South America - Andes
 
 #Colombia fragments
+CLM		="countries/Colombia.txt"
 #Venezuela fragments
 ECU = "countries/Ecuador.txt"
 #Peru fragments

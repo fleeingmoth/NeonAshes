@@ -2,15 +2,13 @@
 # If adding new technology, make sure they are uniquely named.
 
 folders = {
-	army_tech = 
-	{
+	army_tech = {
 		military_doctrine	#Military Doctrine
 		light_armament		#Small Arms & Light Weapons
 		heavy_armament		#Artillery & Weapons Systems
 		armored_vehicles	#Armored Vehicles
 		military_organization	#Military Organization
 	}
-
 	navy_tech = {
 		naval_doctrine			#Naval Doctrine & Tactics
 		naval_engineering		#Naval Engineering
@@ -18,7 +16,6 @@ folders = {
 		aeronautical_engineering	#Aeronautical Engineering
 		aerospace_doctrine		#Aerospace Doctrine
 	}
-	
 	commerce_tech = {
 		banking_and_finance	#Banking and Finance
 		monetary_system		#Monetary System
@@ -26,7 +23,6 @@ folders = {
 		microeconomics		#Microeconomics
 		management		#Management
 	}
-	
 	culture_tech = {
 		comms_and_media		#Communications and Media
 		computer_science	#Computer Science
@@ -34,7 +30,6 @@ folders = {
 		political_science	#Political Science
 		psychology		#Psychology
 	}
-	
 	industry_tech = {
 		energy_generation		#Energy Generation
 		industrial_engineering		#Industrial Engineering
@@ -225,5 +220,13 @@ schools = {
 		commerce_tech_research_bonus = 0.20
 		culture_tech_research_bonus = 0.20
 		industry_tech_research_bonus = 0.20
+	}
+# Tier 6
+	advanced_interdisciplinarity = {
+		army_tech_research_bonus = 0.05
+		navy_tech_research_bonus = 0.05
+		commerce_tech_research_bonus = 0.05
+		culture_tech_research_bonus = 0.05
+		industry_tech_research_bonus = 0.05
 	}
 }

@@ -12,6 +12,10 @@ country_event = { # British Columbia
 			name = bcb_national_spirit 
 			duration = -1
 		}
+		add_country_modifier = {	# Interconnectedness
+			name = decentralized_communities
+			duration = -1
+		}
 		country_event = { # "Splendor sine occasu!"
 			id = 10100
 			days = 0
@@ -37,6 +41,10 @@ country_event = { # Canadian Prairies
 			name = cpr_national_spirit
 			duration = -1
 		}
+		add_country_modifier = {	# Interconnectedness
+			name = frontier_communities
+			duration = -1
+		}
 		country_event = { # "Home sweet home, it's where I'm proud to be!"
 			id = 10200
 			days = 0
@@ -54,6 +62,10 @@ country_event = { # Canadian Maritimes
 		name = "EVT_103_OPTA" # "Go on..."
 		add_country_modifier = {
 			name = mar_national_spirit 
+			duration = -1
+		}
+		add_country_modifier = {	# Interconnectedness
+			name = decentralized_communities
 			duration = -1
 		}
 		country_event = { # "And sing God save the land, we love so well!"
@@ -75,6 +87,10 @@ country_event = { # Newfoundland
 			name = nfl_national_spirit 
 			duration = -1
 		}
+		add_country_modifier = {	# Interconnectedness
+			name = frontier_communities
+			duration = -1
+		}
 		country_event = { # "God guard thee, Newfoundland!"
 			id = 10400
 			days = 0
@@ -92,6 +108,10 @@ country_event = { # Northwest Territories
 		name = "EVT_105_OPTA" # "Go on..."
 		add_country_modifier = {
 			name = nwt_national_spirit 
+			duration = -1
+		}
+		add_country_modifier = {	# Interconnectedness
+			name = autarkic_communities
 			duration = -1
 		}
 		country_event = { # "Blue lake and rocky shore, I will return once more!"
@@ -113,6 +133,10 @@ country_event = { # Ontario
 			name = ont_national_spirit
 			duration = -1
 		}
+		add_country_modifier = {	# Interconnectedness
+			name = decentralized_communities
+			duration = -1
+		}
 		country_event = { # "A Place to Stand, a Place to Grow!"
 			id = 10600
 			days = 0
@@ -130,6 +154,10 @@ country_event = { # Quebec
 		name = "EVT_107_OPTA" # "Go on..."
 		add_country_modifier = {
 			name = qbc_national_spirit
+			duration = -1
+		}
+		add_country_modifier = {	# Interconnectedness
+			name = decentralized_communities
 			duration = -1
 		}
 		country_event = { # "Gens du pays, c'est votre tour!"
@@ -150,6 +178,10 @@ country_event = { # Alaska
 		name = "EVT_108_OPTA" # "Go on..."
 		add_country_modifier = {
 			name = ask_national_spirit
+			duration = -1
+		}
+		add_country_modifier = {	# Interconnectedness
+			name = frontier_communities
 			duration = -1
 		}
 		country_event = { # "North to the Future!"

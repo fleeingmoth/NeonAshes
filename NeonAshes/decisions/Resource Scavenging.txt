@@ -1,7 +1,7 @@
 political_decisions = {
 	scavenging_industrial_lvl_1 = {
 		news = no	# Tiny country needs industrial equipment. News at 11.
-		picture = decisions_default
+		picture = scavenge_industry_smallpic
 		potential = {
 			NOT = { industrial_score = 10 }	# We have very little indusutry
 		}
@@ -22,7 +22,7 @@ political_decisions = {
 	}
 	scavenging_industrial_lvl_2 = {
 		news = no # Small country is industrializing. News at 11.
-		picture = decisions_default
+		picture = scavenge_industry_smallpic
 		potential = {
 			industrial_score = 10	# We have little indusutry
 			NOT = { industrial_score = 100 }
@@ -48,7 +48,7 @@ political_decisions = {
 	}
 	scavenging_industrial_lvl_3 = {
 		news = no # Medium country is recycling. News at 11.
-		picture = decisions_default
+		picture = scavenge_industry_smallpic
 		potential = {
 			industrial_score = 100	# We have a decent industrial base
 			NOT = { industrial_score = 1000 }
@@ -84,7 +84,7 @@ political_decisions = {
 		news_desc_long = "scavenging_industrial_lvl_4_NEWS_LONG"
 		news_desc_medium = "scavenging_industrial_lvl_4_NEWS_MEDIUM"
 		news_desc_short = "scavenging_industrial_lvl_4_NEWS_SHORT"
-		picture = decisions_default
+		picture = scavenge_industry_smallpic
 		potential = {
 			industrial_score = 1000	# We are a large country
 		}
@@ -109,7 +109,7 @@ political_decisions = {
 	}
 	scavenging_buildings_lvl_1 = {
 		news = no	# Tiny country needs office and residential spae. News at 11.
-		picture = decisions_default
+		picture = scavenge_buildings_smallpic
 		potential = {
 			NOT = { industrial_score = 10 }	# We have very little indusutry
 		}
@@ -130,7 +130,7 @@ political_decisions = {
 	}
 	scavenging_buildings_lvl_2 = {
 		news = no # Small country is expanding. News at 11.
-		picture = decisions_default
+		picture = scavenge_buildings_smallpic
 		potential = {
 			industrial_score = 10	# We have little indusutry
 			NOT = { industrial_score = 100 }
@@ -156,7 +156,7 @@ political_decisions = {
 	}
 	scavenging_buildings_lvl_3 = {
 		news = no # Medium country is reusing abandoned buildings. News at 11.
-		picture = decisions_default
+		picture = scavenge_buildings_smallpic
 		potential = {
 			industrial_score = 100	# We have a decent industrial base
 			NOT = { industrial_score = 1000 }
@@ -192,7 +192,7 @@ political_decisions = {
 		news_desc_long = "scavenging_buildings_lvl_4_NEWS_LONG"
 		news_desc_medium = "scavenging_buildings_lvl_4_NEWS_MEDIUM"
 		news_desc_short = "scavenging_buildings_lvl_4_NEWS_SHORT"
-		picture = decisions_default
+		picture = scavenge_buildings_smallpic
 		potential = {
 			industrial_score = 1000	# We are a large country
 		}

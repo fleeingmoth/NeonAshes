@@ -28,7 +28,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 5 # We are in financial turmoil
-				in_default = yes
+				in_default = THIS
 			}
 			modifier = {
 				factor = 3 # If they are a great power, defect.

@@ -1,3 +1,10 @@
-EVT_18000_NAME;xxx;;;;;;;;;;;;;x;;;;
-EVT_18000_DESC;...;;;;;;;;;;;;;x;;;;
-EVT_18000_OPTA;xxx;;;;;;;;;;;;;x;;;;
+EVT_18201_NAME;Formation of Canada;;;;;;;;;;;;;x;;;;
+EVT_18201_DESC;xxx;;;;;;;;;;;;;x;;;;
+EVT_18201_OPTA;Positive;;;;;;;;;;;;;x;;;;
+EVT_18201_OPTB;Neutral;;;;;;;;;;;;;x;;;;
+EVT_18201_OPTC;Negative;;;;;;;;;;;;;x;;;;
+EVT_18202_NAME;Formation of Canada;;;;;;;;;;;;;x;;;;
+EVT_18202_DESC;xxx;;;;;;;;;;;;;x;;;;
+EVT_18202_OPTA;Positive;;;;;;;;;;;;;x;;;;
+EVT_18202_OPTB;Neutral;;;;;;;;;;;;;x;;;;
+EVT_18202_OPTC;Negative;;;;;;;;;;;;;x;;;;

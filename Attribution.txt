@@ -486,17 +486,26 @@ Decisions Images
    "L1018082 (10480830434).jpg" by the Federal Reserve of the United States. Public domain. https://commons.wikimedia.org/wiki/File:L1018082_(10480830434).jpg
   Fiscal Policy
    "Aerial view of the U.S. Capitol in the foreground toward National Mall 15993v.jpg" by Carol M. Highsmith, United States Library of Congress. Public domain. https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_U.S._Capitol_in_the_foreground_toward_National_Mall_15993v.jpg
+  Factory (Machine Parts) Scavenging
+   "Abandoned Chertal steel factory in Oupeye, Belgium (DSCF3315).jpg" by Trougnouf. CC BY-4.0. https://commons.wikimedia.org/wiki/File:Abandoned_Chertal_steel_factory_in_Oupeye,_Belgium_(DSCF3315).jpg
+  Building (Construction Materials) Scavenging
+   "Здание Верховного совета Абхазской АССР в Сухуме 2007-09-09 02.jpg", by Vasilyev Serge. CC BY-2.0. https://commons.wikimedia.org/wiki/File:%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%92%D0%B5%D1%80%D1%85%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D0%B0_%D0%90%D0%B1%D1%85%D0%B0%D0%B7%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D0%A1%D0%A1%D0%A0_%D0%B2_%D0%A1%D1%83%D1%85%D1%83%D0%BC%D0%B5_2007-09-09_02.jpg
+
  Articles of Dissolution and Unification
   "President Ronald Reagan gives the State of the Union Address to Congress.jpg" by the White House Photographic Collection, 1/20/1981 - 1/20/1989. Public domain. https://commons.wikimedia.org/wiki/File:President_Ronald_Reagan_gives_the_State_of_the_Union_Address_to_Congress.jpg
+
  Canadian Compacts and Unification
   "West Block Test 1-2019.jpg" by Leafsfan67. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:West_Block_Test_1-2019.jpg
   "Drapeaux des jeux du Canada a Sherbrooke - panoramio.jpg" by Mario Hains. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Drapeaux_des_jeux_du_Canada_a_Sherbrooke_-_panoramio.jpg
+
  Cali/Texas Civil Wars
   "Wikimania 2016 - By Dyolf77 - DSC 2521.jpg" by Habib M’henni. CC BY 4.0. https://commons.wikimedia.org/wiki/File:Wikimania_2016_-_By_Dyolf77_-_DSC_2521.jpg
   "Flag-of-Texas.jpg" by Makaristos. Public domain. https://commons.wikimedia.org/wiki/File:Flag-of-Texas.jpg
   "M110 howitzer hidden by smoke.JPEG" by Anthony Edgeworth, U.S. Department of Defense. Public domain. https://commons.wikimedia.org/wiki/File:M110_howitzer_hidden_by_smoke.JPEG
+
  Arctic Circle
   "Arctic circle.svg" by the CIA World Factbook. Public domain. https://commons.wikimedia.org/wiki/File:Arctic_circle.svg
+
  Norman Wells
   "Norman Wells, NWT.JPG" by Sharingknowledge. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Norman_Wells,_NWT.JPG
 
@@ -605,6 +614,13 @@ Events Images
    "Qtstalker candlestick chart.png" by Yagnesh N Desai (Yndesai). CC-0. https://commons.wikimedia.org/wiki/File:Qtstalker_candlestick_chart.png
   Economic Policy
    "Board Members meet on June 3 to discuss advance notes of proposed rulemaking.jpg" by the Federal Reserve of the United States. Public domain. https://commons.wikimedia.org/wiki/File:Board_Members_meet_on_June_3_to_discuss_advance_notes_of_proposed_rulemaking.jpg
+
+ Scavenging Decisions
+  Factory (Machine Parts) Scavenging
+   "Abandoned Chertal steel factory in Oupeye, Belgium (DSCF3315).jpg" by Trougnouf. CC BY-4.0. https://commons.wikimedia.org/wiki/File:Abandoned_Chertal_steel_factory_in_Oupeye,_Belgium_(DSCF3315).jpg
+  Building (Construction Materials) Scavenging
+   "Здание Верховного совета Абхазской АССР в Сухуме 2007-09-09 02.jpg", by Vasilyev Serge. CC BY-2.0. https://commons.wikimedia.org/wiki/File:%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%92%D0%B5%D1%80%D1%85%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D0%B0_%D0%90%D0%B1%D1%85%D0%B0%D0%B7%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D0%A1%D0%A1%D0%A0_%D0%B2_%D0%A1%D1%83%D1%85%D1%83%D0%BC%D0%B5_2007-09-09_02.jpg
+
  Army Reorganization
   "National Centre for management of defence (2015-09-07) 03.jpg" by the Ministry of Defense of the Russian Federation (mil.ru). CC BY 4.0. https://commons.wikimedia.org/wiki/File:National_Centre_for_management_of_defence_(2015-09-07)_03.jpg
  Service Rifle Reconsideration

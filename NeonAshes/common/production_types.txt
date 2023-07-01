@@ -117,7 +117,7 @@ labor_heavy_factory_template = {
 energy_heavy_factory_template = {
 	efficiency = {
 		construction_materials = 0.15	# About 1.125
-		polymers_and_plastics = 0.4	# About 1.00
+		energy = 5.0			# About 4.00
 		machine_parts = 0.10		# About 2.00
 	}
 	owner = {
@@ -725,7 +725,7 @@ coal_mine = {
 coffee_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea_n_coffee 
-	value = 1.5
+	value = 100 # 200,000 people (1980) can produce about 100 tons of coffee a day.
 	farm = yes
 }
 
@@ -760,7 +760,7 @@ iron_mine = {
 oil_rig = {
 	template = RGO_template_labourers
 	output_goods = oil 
-	value = 200 # 1 worker (1980) outputs 0.1 barrel per day. Times 200,000.
+	value = 200 # 1 worker (1980) outputs 0.001 barrel per day. Times 200,000.
 	mine = yes
 }
 

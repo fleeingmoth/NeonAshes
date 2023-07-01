@@ -1,18 +1,5 @@
 ### ### Energy Generation ### ###
 ### Fossil Fuel Power ###
-oil_fired_power_plants = { # Aramids
-	limit = { fossil_fuel_power = 1 }
-	chance = {
-		base = 4 # 
-		modifier = {
-			factor = 2
-			modern_manufacturing = 1 # We have increased materials knowledge
-		}
-	}
-	effect = {
-		activate_building = oil_power_plant
-	}
-}
 seismic_imaging = { # Seismic Imaging
 	limit = { fossil_fuel_power = 1 }
 	chance = {
@@ -180,32 +167,6 @@ ultra_supercritical_steam_generator = { # Supercritical Steam Generator
 
 ### ### Industrial Engineering ### ###
 ### Modern Manufacturing ###
-steel_milling = { # unlock steel
-	limit = { modern_manufacturing = 1 }
-	chance = {
-		base = 4 # 
-		modifier = {
-			factor = 2
-			modern_composites = 1 # We have increased materials knowledge
-		}
-	}
-	effect = {
-		activate_building = steel_mill
-	}
-}
-blueprints = { # unlock contruction
-	limit = { modern_manufacturing = 1 }
-	chance = {
-		base = 4 # 
-		modifier = {
-			factor = 2
-			modern_composites = 1 # We have increased materials knowledge
-		}
-	}
-	effect = {
-		activate_building = construction_factory
-	}
-}
 
 ### Digital Automation ###
 
@@ -239,23 +200,6 @@ aramids = { # Aramids
 		factory_goods_output = { construction_materials = 0.05 }# Better construction
 		factory_goods_output = { motor_vehicles = 0.05 }	# Lighter cars
 		factory_goods_output = { ships = 0.05 }			# Lighter ships
-	}
-}
-polymer_fabrics= { #
-	limit = { polymers = 1 }
-	chance = {
-		base = 3 # 
-		modifier = {
-			factor = 1
-			modern_manufacturing = 1 # Better industrial base
-		}
-		modifier = {
-			factor = 2
-			modern_composites = 1 # We have increased materials knowledge
-		}
-	}
-	effect = {
-		activate_building =textile_mill
 	}
 }
 high_modulus_polyethylene = { # High-Modulus Polyethylene

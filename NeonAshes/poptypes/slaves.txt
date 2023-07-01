@@ -33,6 +33,7 @@ everyday_needs = {
 	grain = 4.00			# 200 gr of grains per day per family per 200,000 families
 	sugar_crops = 5.00		# 25 grams per household per day per 200,000 families
 	clothing = 5.00			# 5 tons of clothing per day per family per 200,000 families
+	tea_n_coffee = 0.50		# About 1 kg per year per family per 200,000 families
 }
 luxury_needs = {
 	construction_materials = 1.00	# 1,000 sqft of construction per 30 years per family per 200,000 families (avg house)
@@ -42,6 +43,7 @@ luxury_needs = {
 	fuel = 10.00			# 1 gallon per household per day per 200,000 families
 	sugar_crops = 15.00		# 75 grams per household per day per 200,000 families
 	clothing = 5.00			# 5 tons of clothing per day per family per 200,000 families
+	tea_n_coffee = 0.50		# About 1 kg per year per family per 200,000 families
 }
 
 ideologies = {

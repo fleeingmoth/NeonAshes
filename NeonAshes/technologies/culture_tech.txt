@@ -150,6 +150,7 @@ microprocessors = { #Microprocessors
 	cost = 3600
 
 	increase_research = 0.50
+	activate_building = electronic_components_factory
 	
 	ai_chance = {
 		factor = 51

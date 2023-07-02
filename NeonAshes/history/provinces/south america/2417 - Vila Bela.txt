@@ -1,2 +1,5 @@
+owner = MGS
+controller = MGS
+add_core = MGS
 trade_goods = timber
 life_rating = 35

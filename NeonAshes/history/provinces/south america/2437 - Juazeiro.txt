@@ -1,2 +1,5 @@
+owner = BAI
+controller = BAI
+add_core = BAI
 trade_goods = timber
 life_rating = 35

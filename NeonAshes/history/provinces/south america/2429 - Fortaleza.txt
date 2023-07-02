@@ -1,2 +1,5 @@
+owner = BNU
+controller = BNU
+add_core = BNU
 trade_goods = timber
 life_rating = 35

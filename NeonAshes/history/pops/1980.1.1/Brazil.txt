@@ -246,3 +246,153 @@
 		size = 363936
 	}
 }
+#NU
+2435 = {#Aracaju
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 313293
+	}
+}
+2434 = {#Maceio
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 527961
+	}
+}
+2432 = {#Recife
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 974122
+	}
+}
+2433 = {#Cabrobo
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 522727
+	}
+}
+2428 = {#Paraiba
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 672233
+	}
+}
+2430 = {#Crato
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 578381
+	}
+}
+2431 = {#Natal
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 507269
+	}
+}
+2429 = {#Fortaleza
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 758614
+	}
+}
+#Bahia (2,492,278 pops)
+2439 = {#Porto Seguro
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 871745
+	}
+}
+2436 = {#Salvador de Bahia
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 912450
+	}
+}
+2440 = {#Vitoria da Conquista
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 248153
+	}
+}
+2437 = {#Juazeiro
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 178368
+	}
+}
+2438 = {#Vila do Barra
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 281562
+	}
+}
+#mato Grosso
+2420 = {#Iguatemi
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 97814
+	}
+}
+2416 = {#Dourados
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 145807
+	}
+}
+2419 = {#Corumba
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 130257
+	}
+}
+2421 = {#Vila Boa
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 398714
+	}
+}
+2418 = {#Cuiaba
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 228595
+	}
+}
+2417 = {#Vila Bela
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 197123
+	}
+}
+2422 = {#Aganja
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 445255
+	}
+}
+2423 = {#Palmas
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 193171
+	}
+}

@@ -127,6 +127,23 @@ political_decisions = {
 			prestige = 10			# Rising up in the world
 			all_core = { add_core = WCA }	# All our cores become West Canada
 			change_tag = WCA		# We become West Canada
+			any_country = {
+				limit = {
+					OR = {
+						tag = BCB
+						tag = CPR
+						tag = MAR
+						tag = NFL
+						tag = NWT
+						tag = ONT
+						tag = QBC
+					}
+				}
+				country_event = {
+					id = 18002
+					days = 0
+				}
+			}
 			country_event = {
 				id = 180
 				days = 0

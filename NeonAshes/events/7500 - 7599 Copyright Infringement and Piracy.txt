@@ -4,7 +4,7 @@ country_event = {
 	id = 7500
 	title = "EVT_7500_NAME" # "Home Taping is killing music!"
 	desc = "EVT_7500_DESC"
-	picture = "events_default"
+	picture = "copyright_piracy_0_pic"
 	trigger = {
 		NOT = { broadcasting = 1 }	# We have not researched any techs on Comms and Media
 		NOT = {				# Hasn't fired recently
@@ -92,7 +92,7 @@ country_event = {
 	id = 7501
 	title = "EVT_7501_NAME" # "Beware of bootleg video casettes!"
 	desc = "EVT_7501_DESC"
-	picture = "events_default"
+	picture = "copyright_piracy_1_pic"
 	trigger = {
 		broadcasting = 1		# We have Broadcasting...
 		NOT = { digital_media = 1 }	# ...but not Digital Media yet
@@ -181,7 +181,7 @@ country_event = {
 	id = 7502
 	title = "EVT_7502_NAME" # "Don't Copy that Floppy!"
 	desc = "EVT_7502_DESC"
-	picture = "events_default"
+	picture = "copyright_piracy_2_pic"
 	trigger = {
 		digital_media = 1		# We have Digital Media...
 		NOT = { the_internet = 1 }	# ...but not The Internet yet
@@ -270,7 +270,7 @@ country_event = {
 	id = 7503
 	title = "EVT_7503_NAME" # "You wouldn't download a car!"
 	desc = "EVT_7503_DESC"
-	picture = "events_default"
+	picture = "copyright_piracy_3_pic"
 	trigger = {
 		the_internet = 1	# We have the Internet...
 		NOT = { web_20 = 1 }	# ...but not the Web 2.0 yet
@@ -359,7 +359,7 @@ country_event = {
 	id = 7504
 	title = "EVT_7504_NAME" # "You can click, but you can't hide!"
 	desc = "EVT_7504_DESC"
-	picture = "events_default"
+	picture = "copyright_piracy_4_pic"
 	trigger = {
 		web_20 = 1			# We have the Web 2.0...
 		NOT = { augmented_reality = 1 }	# ...but not augmented reality yet
@@ -448,7 +448,7 @@ country_event = {
 	id = 7505
 	title = "EVT_7505_NAME" # "Virtual world crimes. Real life consequences!"
 	desc = "EVT_7505_DESC"
-	picture = "events_default"
+	picture = "copyright_piracy_5_pic"
 	trigger = {
 		augmented_reality = 1		# We have augmented reality...
 		NOT = { virtual_reality = 1 }	# ...but not virtual reality yet
@@ -537,7 +537,7 @@ country_event = {
 	id = 7506
 	title = "EVT_7506_NAME" # "Be an integral person. Have your own personality!"
 	desc = "EVT_7506_DESC"
-	picture = "events_default"
+	picture = "copyright_piracy_6_pic"
 	trigger = {
 		virtual_reality = 1		# We have virtual reality
 		NOT = {				# Hasn't fired recently

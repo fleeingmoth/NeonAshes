@@ -122,6 +122,7 @@ Military screen background:
 Tech images:
  No Image
   "Farben-Testbild" by Furfur. CC BY-SA https://commons.wikimedia.org/wiki/File:Farben-Testbild.svg
+
  Army Tech:
   Military Doctrine
    Third Generation Warfare:
@@ -188,7 +189,8 @@ Tech images:
     "Global Airmen [Image 1 of 4]" by Staff Sgt. Alex Montes, 9th Reconnaissance Wing Public Affairs, U.S. Air Force. Public domain. https://www.dvidshub.net/image/5561656/global-airmen
    Command Decentralization
     "1959 NORAD sectors.png" by NORAD. Public domain. https://commons.wikimedia.org/wiki/File:1959_NORAD_sectors.png
- Navy Tech:
+
+ Navy and Aerospace Tech:
   Naval Doctrine & Tactics
    Green Water Navy
     "Destroyers train for deployment [Image 1 of 2]" by U.S. Navy Seaman Jared M. King. Public domain. https://www.dvidshub.net/image/316277/destroyers-train-deployment
@@ -254,6 +256,7 @@ Tech images:
     "Drone Incoming [Image 2 of 5]" by U.S. Army Pv2 James Newsome. Public domain. https://www.dvidshub.net/image/5356100/drone-incoming
    Exospace Control
     "Space lasers.jpg" by the U.S. Department of Defense. Public domain. https://commons.wikimedia.org/wiki/File:Space_lasers.jpg
+
  Commerce Tech:
   Banking and Finance
    Modern Banking
@@ -320,6 +323,7 @@ Tech images:
     "Coworking Audiovisual NOLICH.jpg" by Espacio Nolich. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Coworking_Audiovisual_NOLICH.jpg
    Democratic Decision-Making
     "Campus Party.jpg" by Aythami Melian Perdomo. CC BY-SA-2.5-ES. https://commons.wikimedia.org/wiki/File:Campus_Party.jpg
+
  Culture Tech:
   Communications and Media
    Broadcasting
@@ -386,6 +390,7 @@ Tech images:
     "Musical brainwave performance at deconism gallery.jpg" by Deconism Gallery. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Musical_brainwave_performance_at_deconism_gallery.jpg
    Superintelligence
     "Artificial Intelligence & AI & Machine Learning - 30212411048.jpg" by Mike MacKenzie. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_%26_AI_%26_Machine_Learning_-_30212411048.jpg and https://www.vpnsrus.com/
+
  Industry Tech:
   Energy Generation
    Fossil Fuel Power
@@ -544,9 +549,11 @@ Decisions Images
 Events Images
  Default/No Image
    "FARIB COLOR BAR 100.png" by the Association of Radio Industries and Businesses. Public domain. https://commons.wikimedia.org/wiki/File:ARIB_COLOR_BAR_100.png
+
  Misc Events Pictures
   Event 42
    "The Hitchhiker's Guide to the Galaxy.svg" by nclm. CC0 Public Domain. https://commons.wikimedia.org/wiki/File:The_Hitchhiker%27s_Guide_to_the_Galaxy.svg
+
  Tech Schools
   Level 0
    Traditional Academia
@@ -620,6 +627,22 @@ Events Images
    "Abandoned Chertal steel factory in Oupeye, Belgium (DSCF3315).jpg" by Trougnouf. CC BY-4.0. https://commons.wikimedia.org/wiki/File:Abandoned_Chertal_steel_factory_in_Oupeye,_Belgium_(DSCF3315).jpg
   Building (Construction Materials) Scavenging
    "Здание Верховного совета Абхазской АССР в Сухуме 2007-09-09 02.jpg", by Vasilyev Serge. CC BY-2.0. https://commons.wikimedia.org/wiki/File:%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%92%D0%B5%D1%80%D1%85%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D0%B0_%D0%90%D0%B1%D1%85%D0%B0%D0%B7%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D0%A1%D0%A1%D0%A0_%D0%B2_%D0%A1%D1%83%D1%85%D1%83%D0%BC%D0%B5_2007-09-09_02.jpg
+
+ Copyright Infringement and Piracy
+  Level 0 - "Home Taping is killing music!"
+   "Grid (6291828076).jpg" by casssettte. CC BY 2.0. https://commons.wikimedia.org/wiki/File:Grid_(6291828076).jpg
+  Level 1 - "Beware of bootleg video casettes!"
+   "Flea market in Gemona 05.jpg" by Lessormore. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Flea_market_in_Gemona_05.jpg
+  Level 2 - "Don't Copy that Floppy!"
+   "MF-2HD Disketten 3½-inch floppy disks 3½-inch floppy disk storage.JPG" by Iswoar. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:MF-2HD_Disketten_3%C2%BD-inch_floppy_disks_3%C2%BD-inch_floppy_disk_storage.JPG
+  Level 3 - "You wouldn't download a car!"
+   "Paradox spyro 3.jpg" by Skonafid. Original by PARADOX warez group. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Paradox_spyro_3.jpg
+  Level 4 - "You can click, but you can't hide!"
+   "Mps-youtube (with avideo backend) - An error message for some partial DRM-encrypted videos from YouTube.png" by Jayvee Enaguas (HarvettFox96). The entire work is released under a free license: AVideo and mps-youtube presence is licensed under GNU General Public License, and Joe's Window Manager under the MIT "Expat" License. https://commons.wikimedia.org/wiki/File:Mps-youtube_(with_avideo_backend)_-_An_error_message_for_some_partial_DRM-encrypted_videos_from_YouTube.png
+  Level 5 - "Virtual world crimes. Real life consequences!"
+   "Fingertrack backview.gif" by Glogger. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Fingertrack_backview.gif
+  Level 6 - "Be an integral person. Have your own personality!"
+   "Thinker with fmri nick byrd.png" by Nick Byrd (byrdnick.com). CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Thinker_with_fmri_nick_byrd.png
 
  Army Reorganization
   "National Centre for management of defence (2015-09-07) 03.jpg" by the Ministry of Defense of the Russian Federation (mil.ru). CC BY 4.0. https://commons.wikimedia.org/wiki/File:National_Centre_for_management_of_defence_(2015-09-07)_03.jpg

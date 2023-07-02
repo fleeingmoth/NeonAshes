@@ -1,10 +1,10 @@
-# 18300 - 18399 - French Events
+# 30000 - 30099 - French Events
 
-country_event = { # collapse of FRR
-	id = 18300
-	title = "EVT_18300_NAME"
-	desc = "EVT_18300_DESC"
-	picture = "canadian_provinces_pic"
+country_event = { # Collapse of FRR
+	id = 30001
+	title = "EVT_30001_NAME"
+	desc = "EVT_30001_DESC"
+	picture = "events_default"
 	trigger={
 		tag = FRR
 		NOT={
@@ -19,7 +19,7 @@ country_event = { # collapse of FRR
 		}
 	}
 	option = {
-		name = "EVT_18300_OPTA" # Positive
+		name = "EVT_30001_OPTA" # Positive
 		all_core={
 			remove_core = FRR
 		}

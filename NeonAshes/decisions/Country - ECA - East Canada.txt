@@ -52,6 +52,23 @@ political_decisions = {
 			prestige = 10			# Rising up in the world
 			all_core = { add_core = ECA }	# All our cores become East Canada
 			change_tag = ECA		# We become East Canada
+			any_country = {
+				limit = {
+					OR = {
+						tag = BCB
+						tag = CPR
+						tag = MAR
+						tag = NFL
+						tag = NWT
+						tag = ONT
+						tag = QBC
+					}
+				}
+				country_event = {
+					id = 18101
+					days = 0
+				}
+			}
 			country_event = {
 				id = 181
 				days = 0
@@ -112,6 +129,23 @@ political_decisions = {
 			prestige = 10			# Rising up in the world
 			all_core = { add_core = ECA }	# All our cores become East Canada
 			change_tag = ECA		# We become East Canada
+			any_country = {
+				limit = {
+					OR = {
+						tag = BCB
+						tag = CPR
+						tag = MAR
+						tag = NFL
+						tag = NWT
+						tag = ONT
+						tag = QBC
+					}
+				}
+				country_event = {
+					id = 18102
+					days = 0
+				}
+			}
 			country_event = {
 				id = 181
 				days = 0

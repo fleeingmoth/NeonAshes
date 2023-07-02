@@ -67,6 +67,25 @@ political_decisions = {
 			prestige = 10			# Rising up in the world
 			all_core = { add_core = CAN }	# All our cores become Canada
 			change_tag = CAN		# We become Canada
+			any_country = {
+				limit = {
+					OR = {
+						tag = BCB
+						tag = CPR
+						tag = MAR
+						tag = NFL
+						tag = NWT
+						tag = ONT
+						tag = QBC
+						tag = WCA
+						tag = ECA
+					}
+				}
+				country_event = {
+					id = 18201
+					days = 0
+				}
+			}
 			country_event = {
 				id = 182
 				days = 0
@@ -142,6 +161,25 @@ political_decisions = {
 			prestige = 10			# Rising up in the world
 			all_core = { add_core = CAN }	# All our cores become Canada
 			change_tag = CAN		# We become Canada
+			any_country = {
+				limit = {
+					OR = {
+						tag = BCB
+						tag = CPR
+						tag = MAR
+						tag = NFL
+						tag = NWT
+						tag = ONT
+						tag = QBC
+						tag = WCA
+						tag = ECA
+					}
+				}
+				country_event = {
+					id = 18202
+					days = 0
+				}
+			}
 			country_event = {
 				id = 182
 				days = 0

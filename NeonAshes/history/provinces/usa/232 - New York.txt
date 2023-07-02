@@ -3,17 +3,22 @@ controller = NYC
 add_core = NYC
 trade_goods = credit_money
 life_rating = 40state_building = {
-	level = 1
+	level = 2
+	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
 	building = construction_factory
 	upgrade = yes
 }
 state_building = {
-	level = 1
+	level = 2
 	building = coal_power_plant
 	upgrade = yes
 }
 state_building = {
-	level = 1
+	level = 2
 	building = chemical_plant
 	upgrade = yes
 }

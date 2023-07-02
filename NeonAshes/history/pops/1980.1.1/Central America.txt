@@ -372,9 +372,228 @@
 	}
 }
 
-#SM
+#SM ¿?
 
-#Honduras
+#Honduras (pops approximated)
+#Tegucigualpa
+#324,192 pops 324190
+2193 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 353
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 93755
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 4862
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 185720
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 25000
+	}
+}
+
+#San Pedro Sula
+#182,136 pops 182136
+2194 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 52
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 45000
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 2732
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 118388
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 5464
+	}
+}
+
+#La Ceiba
+#201,711 pops 201710
+2195 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 638
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 70598
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 4034
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 200
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 110940
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 5300
+	}
+}
+
+#Puerto Lempira
+#10063 pops 10060
+2196 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 400
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 2500
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 400
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 201
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 5888
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 671
+	}
+}
 
 #Nicaragua
 

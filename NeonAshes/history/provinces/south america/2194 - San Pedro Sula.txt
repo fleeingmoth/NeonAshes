@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = HON
+controller = HON
+add_core = HON
+trade_goods = tea_n_coffee
 life_rating = 35

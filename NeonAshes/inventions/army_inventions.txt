@@ -1004,7 +1004,6 @@ modern_service_rifle = { # Modern Service Rifle
 		lightarmor = { attack = 0.5 }
 		heavyarmor = { attack = 0.5 }
 		armyaviation = { attack = 0.5 }
-		activate_building = small_arms_factory
 	}
 }
 standarized_equipment = { # Standarized Equipment

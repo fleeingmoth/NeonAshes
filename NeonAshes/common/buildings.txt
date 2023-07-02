@@ -11,7 +11,7 @@
 
 ############# BASIC FACTORIES
 
-machine_parts_factory = {	# Activated by Industry - Modern Manufacturing
+machine_parts_factory = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -24,10 +24,11 @@ machine_parts_factory = {	# Activated by Industry - Modern Manufacturing
 	time = 180
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = machine_parts_factory
 	pop_build_factory = yes
 }
-construction_factory = {	# Activated by Industry - Modern Transportation - Modern Modular Construction
+construction_factory = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -40,10 +41,11 @@ construction_factory = {	# Activated by Industry - Modern Transportation - Moder
 	time = 180
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = construction_factory
 	pop_build_factory = yes
 }
-conv_ammo_factory = {		# Activated by Army - Mass-Produced Armament
+conv_ammo_factory = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -56,10 +58,11 @@ conv_ammo_factory = {		# Activated by Army - Mass-Produced Armament
 	time = 180
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = conv_ammo_factory
 	pop_build_factory = yes
 }
-small_arms_factory = {		# Activated by Army - Mass-Produced Armament - Modern Service Rifle
+small_arms_factory = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -72,10 +75,11 @@ small_arms_factory = {		# Activated by Army - Mass-Produced Armament - Modern Se
 	time = 180
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = small_arms_factory
 	pop_build_factory = yes
 }
-coal_power_plant = {		# Activated by Industry - Fossil Fuel Power
+coal_power_plant = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -89,10 +93,11 @@ coal_power_plant = {		# Activated by Industry - Fossil Fuel Power
 	time = 720
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = coal_power_plant
 	pop_build_factory = yes
 }
-oil_power_plant = {		# Activated by Industry - Fossil Fuel Power - Oil Power Generation
+oil_power_plant = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -106,10 +111,11 @@ oil_power_plant = {		# Activated by Industry - Fossil Fuel Power - Oil Power Gen
 	time = 720
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = oil_power_plant
 	pop_build_factory = yes
 }
-oil_refinery = {		# Activated by Industry - Fossil Fuel Power - Hydrocracking
+oil_refinery = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -123,10 +129,11 @@ oil_refinery = {		# Activated by Industry - Fossil Fuel Power - Hydrocracking
 	time = 720
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = oil_refinery
 	pop_build_factory = yes
 }
-steel_mill = {			# Activated by Industry - Modern Manufacturing - Integrated Steel Mills
+steel_mill = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -139,10 +146,11 @@ steel_mill = {			# Activated by Industry - Modern Manufacturing - Integrated Ste
 	time = 365
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = steel_mill
 	pop_build_factory = yes
 }
-aluminum_refinery = {		# Activated by Industry - Modern Manufacturing - Modern Aluminum Alloys
+aluminum_refinery = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -155,10 +163,11 @@ aluminum_refinery = {		# Activated by Industry - Modern Manufacturing - Modern A
 	time = 365
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = aluminum_refinery	# Smelting and Refining are integrated
 	pop_build_factory = yes
 }
-chemical_plant = {			# Activated by Industry - Polymers
+chemical_plant = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -171,6 +180,7 @@ chemical_plant = {			# Activated by Industry - Polymers
 	time = 180
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = chemical_plant
 	pop_build_factory = yes
 }
@@ -191,7 +201,7 @@ electronic_components_factory = {	# Activated by Culture - Microprocessors
 	production_type = electronic_components_factory
 	pop_build_factory = yes
 }
-textile_mill = {		# Activated by Industry - Modern Manufacturing - Modern Textile Spinning
+textile_mill = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -204,6 +214,7 @@ textile_mill = {		# Activated by Industry - Modern Manufacturing - Modern Textil
 	time = 180
 	visibility = yes
 	onmap = no
+	default_enabled = yes
 	production_type = textile_mill
 	pop_build_factory = yes
 }

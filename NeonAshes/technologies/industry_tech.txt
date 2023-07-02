@@ -8,7 +8,6 @@ fossil_fuel_power = { # Fossil Fuel Power
 	mine_rgo_eff = 0.05
 	farm_rgo_eff = 0.05
 	factory_throughput = 0.02
-	activate_building = coal_power_plant
 
 	ai_chance = {
 		factor = 2
@@ -181,7 +180,6 @@ modern_manufacturing = { # Modern Manufacturing
 
 	factory_throughput = 0.05
 	factory_owner_cost = -0.01
-	activate_building = machine_parts_factory
 
 	ai_chance = {
 		factor = 2
@@ -361,7 +359,6 @@ polymers = { # Polymers
 	cost = 3600
 
 	factory_output = 0.02
-	activate_building = chemical_plant
 
 	ai_chance = {
 		factor = 1.1

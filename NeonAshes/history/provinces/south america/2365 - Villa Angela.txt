@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = STF
+controller = STF
+add_core = STF
+trade_goods = cattle
 life_rating = 35

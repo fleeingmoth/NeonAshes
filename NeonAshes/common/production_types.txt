@@ -555,10 +555,10 @@ engine_factory = {
 fish_factory = {       
 	template = labor_heavy_factory_template
 	input_goods = { 
-		fish = 100.00 			# 100 tons of tuna	# 80
+		fish = 10.00 			# 100 tons of tuna	# 80
 	}
 	output_goods = meats			# Total cost of inputs	# 80
-	value = 85.00				# Total value of goods	# 85
+	value = 8.5			# Total value of goods	# 85
 	bonus = {
 		trigger = { trade_goods_in_state = fish }
 		value = 0.20
@@ -983,7 +983,7 @@ artisan_meats_cattle_butcher = {	# Each unit is 100 kg of meat (total 50 kgs)
 		cattle = 10.00 		# 10 cows			# 40
 	}
 	output_goods = meats			# Total cost of inputs	# 40
-	value = 0.50				# Total value of goods	# 50
+	value = 40.0				# Total value of goods	# 50
 	owner = {				# Profit		# 10
 		poptype = artisans
 		effect = output
@@ -997,7 +997,7 @@ artisan_meats_sheep_butcher = {		# Each unit is 100 kg of meat (total 40 kgs)
 		sheeps = 10.00 		# 10 sheep			# 30
 	}
 	output_goods = meats			# Total cost of inputs	# 30
-	value = 0.40				# Total value of goods	# 40
+	value = 28.00				# Total value of goods	# 40
 	owner = {				# Profit		# 10
 		poptype = artisans
 		effect = output
@@ -1006,12 +1006,12 @@ artisan_meats_sheep_butcher = {		# Each unit is 100 kg of meat (total 40 kgs)
 	workforce = 10000
 }
 
-artisan_meats_fishmonger = {		# Each unit is 1 tonne of tuna
+artisan_meats_fishmonger = {		# Each unit is 0.1 tonne of tuna
 	input_goods = { 
-		fish = 100.00 			# 100 tons of tuna	# 80
+		fish = 10.00 			# 100 tons of tuna	# 80
 	}
 	output_goods = meats			# Total cost of inputs	# 80
-	value = 85.00				# Total value of goods	# 85
+	value = 8.5			# Total value of goods	# 85
 	owner = {				# Profit		# 5
 		poptype = artisans
 		effect = output

@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = SCL
+controller = SCL
+add_core = SCL
+trade_goods = oil
 life_rating = 35

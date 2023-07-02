@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = GUY
+controller = GUY
+add_core = GUY
+trade_goods = bauxite
 life_rating = 35

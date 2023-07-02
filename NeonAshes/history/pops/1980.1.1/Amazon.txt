@@ -31,3 +31,104 @@
 		size = 3986
 	}
 }
+#Guyana (189391 pops)
+2243 = {#Essequibo
+	farmers = {
+		culture = guyanan
+		religion = catholic
+		size = 15167
+	}
+}
+2239 = {#Georgetown
+	farmers = {
+		culture = guyanan
+		religion = catholic
+		size = 128191
+	}
+}
+2242 = {#Mahdia
+	farmers = {
+		culture = guyanan
+		religion = catholic
+		size = 7937
+	}
+}
+1979 = {#Biloka
+	farmers = {
+		culture = guyanan
+		religion = catholic
+		size = 38096
+	}
+}
+#Suriname (88715 pops)
+2240 = {#Essequibo
+	farmers = {
+		culture = surinamean
+		religion = catholic
+		size = 81253
+	}
+}
+2245 = {#Georgetown
+	farmers = {
+		culture = surinamean
+		religion = catholic
+		size = 7462
+	}
+}
+#French Guiana (18255 pops)
+2241 = {#Cayenne
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 11923
+	}
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 1786
+	}
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 2747
+	}
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 387
+	}
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 134
+	}
+}
+2246 = {#Maripasoula
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 1278
+	}
+}
+2414 = {#Amapa
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 12961
+	}
+}
+2415 = {#Macapa
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 47812
+	}
+}
+2410 = {#Belem
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 178329
+	}
+}
+

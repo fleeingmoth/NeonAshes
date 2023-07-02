@@ -106,9 +106,18 @@ CLM	="countries/Colombia.txt"
 FRC ="countries/FARC.txt"
 #Venezuela fragments
 VEN	="countries/Venezuela.txt"
+TRO	="countries/Transorinoco.txt"
 ECU = "countries/Ecuador.txt"
 #Peru fragments
+PRU	="countries/Peru.txt"
+PRS = "countries/Shining Path.txt"
 #Bolivia fragments
+BOL = "countries/Bolivia.txt"
+
+#guianas
+GUY = "countries/Guyana.txt"
+SUR = "countries/Suriname.txt"
+FGU = "countries/French Guiana.txt"
 
 # North Latin America - Unification
 #Norteno tag for North Mexico
@@ -128,20 +137,36 @@ ECU = "countries/Ecuador.txt"
 # Latin and South America - Southern Cone
 
 #Argentina fragments
-#PAR = "countries/Paraguay.txt"
-#URU = "countries/Uruguay.txt"
+PAR = "countries/Paraguay.txt"
+URU = "countries/Uruguay.txt"
+BUE = "countries/Buenos Aires.txt"
+MDA = "countries/Mendosa.txt"
+ERP = "countries/ERP.txt"
+STF = "countries/Santa Fe.txt"
+ETR = "countries/Entre Rios.txt"
+SLT = "countries/Salta.txt"
 #Chile fragments #not generic Patagonia vs north split plz
+SCL = "countries/South Chile.txt"
+NCL = "countries/North Chile.txt"
 
 # Latin and South America - Brazil
 #So many fragments
 MNU = "countries/Manaus.txt"
+RGS = "countries/Rio Grande so Sul.txt"
+SPL = "countries/Sao Paulo.txt"
+MGE = "countries/Minas Gerais.txt"
+RIO = "countries/Rio de Janeiro.txt"
+BPR = "countries/Para Federation.txt"
+MGS = "countries/Mato Grosso.txt"
+BAI = "countries/Bahia.txt"
+BNU = "countries/Nordeste Union.txt"
 
 # Latin and South America - Southern Formables
 #BRA = "countries/Brazil.txt"
 #SBZ = "countries/South Brazil.txt"
 #NBZ = "countries/North Brazil.txt"
 #PLN = "countries/Platinea.txt" #formable for North Argentina
-#PAT = "countries/Patagonia.txt" 
+PAT = "countries/Patagonia.txt" 
 #LPL = "countries/La Plata.txt"
 #GRR = "countries/Guaraninea.txt" #Paraguy, Bolivia, Mata Grosso formable
 #CHL = "countries/Chile.txt"
@@ -169,6 +194,9 @@ GBN = "countries/British Navy.txt"#reminants of GB, will turn into inverness if 
 #GBR = "countries/United Kingdom.txt"
 #IRE = "countries/Ireland.txt"
 #SCO = "countries/Scotland.txt"
+
+FRR = "countries/French Reminant.txt"
+CRS = "countries/Corsica.txt"
 
 #Europe, Colony flavour
 #LON = "countries/London.txt"

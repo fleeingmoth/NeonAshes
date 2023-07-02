@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = SLT
+controller = SLT
+add_core = SLT
+trade_goods = sugar_crops
 life_rating = 35

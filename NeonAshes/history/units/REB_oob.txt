@@ -1,0 +1,29 @@
+army = {
+	name = "1st Popular Uprising"
+	location = 2311
+	regiment = {
+		name = "1. Regiment"
+		type = irregular
+		home = 2311
+	}
+	regiment = {
+		name = "2. Regiment"
+		type = irregular
+		home = 2311
+	}
+	regiment = {
+		name = "3. Regiment"
+		type = irregular
+		home = 2311
+	}
+	regiment = {
+		name = "4. Regiment"
+		type = irregular
+		home = 2317
+	}
+	regiment = {
+		name = "5. Regiment"
+		type = irregular
+		home = 2317
+	}
+}

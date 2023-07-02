@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = MDA
+controller = MDA
+add_core = MDA
+trade_goods = fruit
 life_rating = 35

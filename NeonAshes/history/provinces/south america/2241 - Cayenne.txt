@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = FRR
+controller = FRR
+add_core = FRR
+trade_goods = fish
 life_rating = 35

@@ -1,0 +1,145 @@
+#Bolivia (1,245,641 pops)
+2321 = {#Cobija
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 9313
+	}
+}
+2310 = {#La Paz
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 244532
+	}
+	artisans = {
+		culture = bolivian
+		religion = catholic
+		size = 87412
+	}
+	bureaucrats = {
+		culture = bolivian
+		religion = catholic
+		size = 7411
+	}
+	craftsmen = {
+		culture = bolivian
+		religion = catholic
+		size = 24501
+	}
+	capitalists = {
+		culture = bolivian
+		religion = catholic
+		size = 174
+	}
+	soldiers = {
+		culture = bolivian
+		religion = catholic
+		size = 31541
+	}
+}
+2311 = {#Cochabamba
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 172953
+	}
+	soldiers = {
+		culture = bolivian
+		religion = catholic
+		size = 21704
+	}
+}
+2319 = {#Santa Ana
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 34241
+	}
+}
+2320 = {#Riberalta
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 11218
+	}
+}
+2312 = {#Oruro
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 83810
+	}
+}
+2314 = {#Potosi
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 111850
+	}
+	artisans = {
+		culture = bolivian
+		religion = catholic
+		size = 45371
+	}
+	bureaucrats = {
+		culture = bolivian
+		religion = catholic
+		size = 2451
+	}
+	craftsmen = {
+		culture = bolivian
+		religion = catholic
+		size = 1421
+	}
+	capitalists = {
+		culture = bolivian
+		religion = catholic
+		size = 154
+	}
+	soldiers = {
+		culture = bolivian
+		religion = catholic
+		size = 18794
+	}
+}
+2313 = {#Chuquisaca
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 96799
+	}
+}
+2315 = {#Tarija
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 50545
+	}
+}
+2316 = {#Santa Cruz
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 90574
+	}
+	soldiers = {
+		culture = bolivian
+		religion = catholic
+		size = 1740
+	}
+}
+2318 = {#Robore
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 24801
+	}
+}
+2317 = {#San Ignacio
+	farmers = {
+		culture = bolivian
+		religion = catholic
+		size = 74780
+	}
+}

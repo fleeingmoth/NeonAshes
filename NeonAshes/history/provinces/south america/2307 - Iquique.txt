@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = NCL
+controller = NCL
+add_core = NCL
+trade_goods = rare_earths
 life_rating = 35

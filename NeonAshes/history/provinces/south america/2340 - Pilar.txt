@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = PAR
+controller = PAR
+add_core = PAR
+trade_goods = oilseed_crops
 life_rating = 35

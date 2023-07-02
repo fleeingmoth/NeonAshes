@@ -1,2 +1,5 @@
+owner = NCL
+controller = NCL
+add_core = NCL
 trade_goods = timber
 life_rating = 35

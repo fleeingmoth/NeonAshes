@@ -1,2 +1,5 @@
+owner = SPL
+controller = SPL
+add_core = SPL
 trade_goods = timber
 life_rating = 35

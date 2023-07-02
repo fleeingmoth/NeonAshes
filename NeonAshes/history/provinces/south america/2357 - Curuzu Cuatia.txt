@@ -1,2 +1,5 @@
+owner = ETR
+controller = ETR
+add_core = ETR
 trade_goods = timber
 life_rating = 35

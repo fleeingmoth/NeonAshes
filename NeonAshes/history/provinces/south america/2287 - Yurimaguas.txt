@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = PRS
+controller = PRS
+add_core = PRS
+trade_goods = other_metals
 life_rating = 35

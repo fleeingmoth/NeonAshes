@@ -1,0 +1,134 @@
+#Peru (4251302 pops)
+2291 = {#Piura
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 281466
+	}
+}
+2292 = {#Trujilo
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 414129
+	}
+}
+2287 = {#Yurimaguas
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 63640
+	}
+}
+2294 = {#Moyobamba
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 79937
+	}
+}
+2300 = {#Pucallpa
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 40802
+	}
+}
+2290 = {#Cajamarca
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 256611
+	}
+}
+2293 = {#Huanuco
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 119412
+	}
+}
+2298 = {#Huaraz
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 206599
+	}
+}
+2295 = {#Lima
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 1186469
+	}
+}
+2296 = {#Huancavelica
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 352795
+	}
+}
+2297 = {#Ica
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 108474
+	}
+}
+2299 = {#Ayacucho
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 206684
+	}
+}
+2302 = {#Cusco
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 208126
+	}
+}
+2301 = {#Puerto Maldonado
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 8251
+	}
+}
+2304 = {#Arequipa
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 176645
+	}
+}
+2303 = {#Puno
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 222564
+	}
+}
+2578 = {#Tacna
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 35771
+	}
+}
+2288 = {#Yuncos
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 120707
+	}
+}
+2286 = {#Iquitos
+	farmers = {
+		culture = peruvian
+		religion = catholic
+		size = 82282
+	}
+}

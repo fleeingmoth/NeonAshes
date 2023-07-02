@@ -1,0 +1,248 @@
+###Brazil ###
+#rio grande do Sul (2,827,235 pops)
+2464 = {#Pelotas
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 384520
+	}
+}
+2467 = {#Alegrete
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 119740
+	}
+}
+2466 = {#Santa Maria
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 241231
+	}
+}
+2465 = {#Passo Fundo
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 265955
+	}
+}
+2463 = {#Porto Alegre
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 861981
+	}
+}
+2462 = {#Sao Miguel
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 220317
+	}
+}
+2459 = {#Lajes
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 229100
+	}
+}
+2461 = {#Desterro
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 504391
+	}
+}
+#sao paulo (15,082,387 pops)
+2458 = {#Guarapuava
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 319417
+	}
+}
+2460 = {#Castro
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 458701
+	}
+}
+2457 = {#Curitiba
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 783641
+	}
+}
+2455 = {#Iguape
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 2547801
+	}
+}
+2450 = {#Sao Paulo
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 1977196
+	}
+	artisans = {
+		culture = brazilian
+		religion = catholic
+		size = 1766748
+	}
+	craftsmen = {
+		culture = brazilian
+		religion = catholic
+		size = 178324
+	}
+	soldiers = {
+		culture = brazilian
+		religion = catholic
+		size = 34112
+	}
+	capitalists = {
+		culture = brazilian
+		religion = catholic
+		size = 2874
+	}
+	clergymen = {
+		culture = brazilian
+		religion = catholic
+		size = 17453
+	}
+}
+2306 = {#Sorocaba
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 2518741
+	}
+}
+2452 = {#Campinas
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 2145827
+	}
+}
+2456 = {#Araraquara
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 173234
+	}
+}
+2453 = {#Assis
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 158318
+	}
+}
+
+2451 = {#Santos
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 1786978
+	}
+}
+#rio (2,689,618 pops)
+2447 = {#Rio de Janeiro
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 1676838
+	}
+}
+2448 = {#Campos
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 1012779
+	}
+}
+#Minas Gerais (3,306,061)
+2449 = {#Vitoria
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 546129
+	}
+}
+2445 = {#Uberaba
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 471213
+	}
+}
+2446 = {#Sao Joao del Rey
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 645314
+	}
+}
+2441 = {#Ouro Preto
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 578421
+	}
+}
+2442 = {#Sabara
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 1364712
+	}
+}
+2444 = {#Paracatu
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 135481
+	}
+}
+2443 = {#Januaria
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 110920
+	}
+}
+2424 = {#Sao luis
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 782125
+	}
+}
+2425 = {#Chapada
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 253228
+	}
+}
+2426 = {#Teresina
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 178312
+	}
+}
+2427 = {#Oeiras
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 363936
+	}
+}

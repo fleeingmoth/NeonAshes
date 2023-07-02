@@ -1,0 +1,590 @@
+#Paraguay (1,245,641 pops)
+2340 = {#Pilar
+	farmers = {
+		culture = paraguayian
+		religion = catholic
+		size = 17584
+	}
+}
+2341 = {#Encamacion
+	farmers = {
+		culture = paraguayian
+		religion = catholic
+		size = 1092198
+	}
+}
+2339 = {#Asuncion
+	farmers = {
+		culture = paraguayian
+		religion = catholic
+		size = 223949
+	}
+}
+2342 = {#San Pedro
+	farmers = {
+		culture = paraguayian
+		religion = catholic
+		size = 64352
+	}
+}
+2343 = {#Concepcion
+	farmers = {
+		culture = paraguayian
+		religion = catholic
+		size = 50593
+	}
+}
+2337 = {#Fortin Falcon
+	farmers = {
+		culture = paraguayian
+		religion = catholic
+		size = 36718
+	}
+}
+2338 = {#Puerto Guarani
+	farmers = {
+		culture = paraguayian
+		religion = catholic
+		size = 2255
+	}
+}
+#reclaimed territories from ARG
+2366 = {#Formosa
+	farmers = {
+		culture = paraguayian
+		religion = catholic
+		size = 54378
+	}
+}
+2367 = {#Xolotas
+	farmers = {
+		culture = paraguayian
+		religion = catholic
+		size = 19593
+	}
+}
+2554 = {#Posadas
+	farmers = {
+		culture = paraguayian
+		religion = catholic
+		size = 147244
+	}
+}
+###argentinia###
+#patagonia
+2400 = {#Rio Grande
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 3839
+	}
+}
+2399 = {#Rio Gallegos
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 7787
+	}
+}
+2398 = {#Puerto Deseado
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 20948
+	}
+}
+2397 = {#Esquel
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 22998
+	}
+}
+2396 = {#Rawson
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 42781
+	}
+}
+
+2394 = {#Bariloche
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 52378
+	}
+}
+2392 = {#Viedma
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 43460
+	}
+}
+
+2391 = {#Neuquen
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 60962
+	}
+}
+2395 = {#Curaco
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 12225
+	}
+}
+2393 = {#Telen
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 39840
+	}
+}
+2348 = {#Buenos Aires
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 730707
+	}
+}
+2351 = {#La Plata
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 986411
+	}
+}
+2352 = {#Mar del Plata
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 343142
+	}
+}
+2354 = {#Bahia Blanca
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 167841
+	}
+}
+2355 = {#Carmen
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 173948
+	}
+}
+2353 = {#Trenque Lauquen
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 162784
+	}
+}
+2350 = {#Azul
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 351571
+	}
+}
+2349 = {#Junin
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 162789
+	}
+}
+2360 = {#Parana
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 107645
+	}
+}
+2359 = {#Colon
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 119433
+	}
+}
+
+2357 = {#Curuzu Cuatia
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 23748
+	}
+}
+2358 = {#Santo Tomas
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 72481
+	}
+}
+2356 = {#Corrientes
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 69134
+	}
+}
+2384 = {#Mercedes
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 21814
+	}
+}
+2383 = {#San Luis
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 31790
+	}
+}
+2390 = {#San Rafael
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 132781
+	}
+}
+2389 = {#Mendoza
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 166276
+	}
+}
+2363 = {#Rosario
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 120781
+	}
+}
+2361 = {#Sancti Spiritu
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 241811
+	}
+}
+2362 = {#Reconquista
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 253794
+	}
+}
+2382 = {#Renanco
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 137411
+	}
+}
+2381 = {#Rio Cuarto
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 127841
+	}
+}
+2380 = {#Villa Nueva
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 178611
+	}
+}
+2379 = {#Cordoba de Argentina
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 158075
+	}
+}
+2373 = {#Tucuman
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 243163
+	}
+}
+2364 = {#Resistencia
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 84512
+	}
+}
+2365 = {#Villa Angela
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 90836
+	}
+}
+2378 = {#Mailin
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 34861
+	}
+}
+2377 = {#Anatuya
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 72112
+	}
+}
+2376 = {#Santiago del Estero
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 41757
+	}
+}
+2388 = {#Calingasta
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 45378
+	}
+}
+2387 = {#San Juan
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 71116
+	}
+}
+2386 = {#Santa Rita
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 17431
+	}
+}
+2385 = {#La Rioja
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 23623
+	}
+}
+2374 = {#Catamarca
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 24811
+	}
+}
+2375 = {#Vinchina
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 24811
+	}
+}
+2369 = {#Jujuy
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 64253
+	}
+}
+2370 = {#Cochinoca
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 38249
+	}
+}
+2371 = {#Equia
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 36711
+	}
+}
+2372 = {#Rivadavia
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 31784
+	}
+}
+2368 = {#Salta
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 97222
+	}
+}
+
+2335 = {#Porvenir
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 18411
+	}
+}
+2334 = {#Punta Arenas
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 14313
+	}
+}
+2333 = {#Puerto Aisen
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 16573
+	}
+}
+2332 = {#Osomo
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 135495
+	}
+}
+2328 = {#Valdivia
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 76763
+	}
+}
+2329 = {#Temuco
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 174676
+	}
+}
+2331 = {#Chillan
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 178614
+	}
+}
+2330 = {#Cauquenes
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 123210
+	}
+}
+2327 = {#Talca
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 174676
+	}
+}
+2324 = {#Santiago
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 1079028
+	}
+}
+2325 = {#Valparaiso
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 178411
+	}
+}
+2326 = {#Vina del Mar
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 124071
+	}
+}
+2323 = {#La Serena
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 105028
+	}
+}
+2322 = {#Copiapo
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 46032
+	}
+}
+2305 = {#Antofagasta
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 53948
+	}
+}
+2309 = {#Calama
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 31411
+	}
+}
+2307 = {#Iquique
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 30682
+	}
+}
+2308 = {#Arica
+	farmers = {
+		culture = chilean
+		religion = catholic
+		size = 38101
+	}
+}
+#uruguay
+2344 = {#Montevideo
+	farmers = {
+		culture = uruguayan
+		religion = catholic
+		size = 473320
+	}
+}
+2347 = {#Melo
+	farmers = {
+		culture = uruguayan
+		religion = catholic
+		size = 78069
+	}
+}
+2345 = {#Paysandu
+	farmers = {
+		culture = uruguayan
+		religion = catholic
+		size = 152331
+	}
+}
+2346 = {#Tacuarembo
+	farmers = {
+		culture = uruguayan
+		religion = catholic
+		size = 34997
+	}
+}

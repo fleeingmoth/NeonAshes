@@ -1,0 +1,19 @@
+### France ###
+# Corsica (235733 / 58933 POPS)
+473 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 45145
+	}
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 12148
+	}
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 1640
+	}
+}

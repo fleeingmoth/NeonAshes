@@ -1996,8 +1996,8 @@ latin_american_cultures = {
 		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 	}
-	south_andean = {
-		color = {116 156 146}
+	peruvian = {
+		color = {140 145 94}
 		first_names = { Adolfo Agust�n Alejandro Andr�s An�bal Antonio Bartolom� Bernardo David Diego
 		Domingo Eduardo Emiliano Emilio Enrique Esteban Eusebio Federico Felipe Francisco
 		Germ�n Hernando Hilari�n Ignacio Isidoro Ismael Jorge Jos� "Jos� Miguel" Juan
@@ -2012,8 +2012,24 @@ latin_american_cultures = {
 		Pezet Rebolledo Ru�z-Tagle Salaverry "Santa Mar�a" Siles Sotomayor Toro Valencia Za�artu Zapata
 		}
 	}
-	platinean = {
-		color = {199 232 151}
+	bolivian = {
+		color = {116 156 146}
+		first_names = { Adolfo Agust󸁁lejandro Andr鳠An𸑬 Antonio Bartolom頂ernardo David Diego
+		Domingo Eduardo Emiliano Emilio Enrique Esteban Eusebio Federico Felipe Francisco
+		GermᮠHernando Hilari󮠉gnacio Isidoro Ismael Jorge Jos頢Jos頍iguel Juan
+		"Juan Antonio" "Juan Francisco" Justo Ladislao Luis Manuel Mariano Miguel Narciso
+		Nicol᳠Pablo Patricio Pedro Ram󮠒ufino Ruperto Santiago SebastiᮠSeverino Tom᳍
+		}
+
+		last_names = { Abaroa Ágreda Altamirano Arteaga BalliviᮠBaquedano Belzú Blanche Blanco Bulnes
+		Cabrera Calvo Campero Castilla Corrico Daza "de la Cruz" "de Santa Cruz" "de Velasco" "de Vidal"
+		Echenique Errẵriz Fernᮤez Figueroa Franco Freire Gamarra Gorostiaga Grau
+		Guilarte "La Mar" Latorre Lynch Melgarejo Monje Montero Montes Montt Orbegoso
+		Pezet Rebolledo Ru򻑔agle Salaverry Santa Mar𨠠Siles Sotomayor Toro Valencia Za񡲴u Zapata
+		}
+	}
+	paraguayian = {
+		color = {56 66 255}
 		first_names = { Agust�n Antonio Atanasio Baltasar Bartolom� Bernardino Bernardo C�ndido Carlos Cecilio
 		Cirilo Claudio Domingo Emiliano Esteban Eugenio Evaristo Facundo Faustino Feliciano
 		F�lix Francisco Fructuoso Gabriel Gaspar Guillermo Hip�lito Ignacio Jos� "Juan Jos�"
@@ -2025,6 +2041,54 @@ latin_american_cultures = {
 		"de la Plaza" "de Rosas" "de Urquiza" Derqui D�az Ellauri Escobar Flores Gonz�lez Jovellanos
 		Ju�rez Justo Latorre L�pez Macha�n Maza Meza Mitre Paz Pedernera
 		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodr�guez de Francia" Rojas Rondeau S�enz
+		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
+		}
+	}
+	patagonian = {
+		color = {206 221 255}
+		first_names = { Agust󸁁ntonio Atanasio Baltasar Bartolom頂ernardino Bernardo Cᮤido Carlos Cecilio
+		Cirilo Claudio Domingo Emiliano Esteban Eugenio Evaristo Facundo Faustino Feliciano
+		F鬩x Francisco Fructuoso Gabriel Gaspar Guillermo Hip󬩴o Ignacio Jos頢Juan Jos颍
+		"Juan Manuel" "Juan Ram󮢠Julio" Justo Lorenzo Luis Manuel Marcial Mḩmo Miguel
+		Nicol᳠Patricio Pedro Ram󮠒oberto Roque Salvador Santiago Torcuato Venancio
+		}
+
+		last_names = { Aguirre Avellaneda B᥺ Balcarce Bareiro Berro Brown Caballero Cruz "de Alvear"
+		"de la Plaza" "de Rosas" "de Urquiza" Derqui D𮠠Ellauri Escobar Flores Gonzᬥz Jovellanos
+		JuᲥz Justo Latorre L󰥺 Macha󸁍aza Meza Mitre Paz Pedernera
+		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodr򍑥z de Francia" Rojas Rondeau S᥮z
+		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
+		}
+	}
+	argentinian = {
+		color = {199 232 151}
+		first_names = { Agust󸁁ntonio Atanasio Baltasar Bartolom頂ernardino Bernardo Cᮤido Carlos Cecilio
+		Cirilo Claudio Domingo Emiliano Esteban Eugenio Evaristo Facundo Faustino Feliciano
+		F鬩x Francisco Fructuoso Gabriel Gaspar Guillermo Hip󬩴o Ignacio Jos頢Juan Jos颍
+		"Juan Manuel" Juan Ram󮢠Julio Justo Lorenzo Luis Manuel Marcial Mḩmo Miguel
+		Nicol᳠Patricio Pedro Ram󮠒oberto Roque Salvador Santiago Torcuato Venancio
+		}
+
+		last_names = { Aguirre Avellaneda B᥺ Balcarce Bareiro Berro Brown Caballero Cruz "de Alvear"
+		"de la Plaza" "de Rosas" "de Urquiza" Derqui D𮠠Ellauri Escobar Flores Gonzᬥz Jovellanos
+		JuᲥz Justo Latorre L󰥺 Macha󸁍aza Meza Mitre Paz Pedernera
+		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodr򍑥z de Francia" Rojas Rondeau S᥮z
+		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
+		}
+	}
+	chilean = {
+		color = {255 146 91}
+		first_names = { Agust󸁁ntonio Atanasio Baltasar Bartolom頂ernardino Bernardo Cᮤido Carlos Cecilio
+		Cirilo Claudio Domingo Emiliano Esteban Eugenio Evaristo Facundo Faustino Feliciano
+		F鬩x Francisco Fructuoso Gabriel Gaspar Guillermo Hip󬩴o Ignacio Jos頢Juan Jos颍
+		"Juan Manuel" Juan Ram󮢠Julio Justo Lorenzo Luis Manuel Marcial Mḩmo Miguel
+		Nicol᳠Patricio Pedro Ram󮠒oberto Roque Salvador Santiago Torcuato Venancio
+		}
+
+		last_names = { Aguirre Avellaneda B᥺ Balcarce Bareiro Berro Brown Caballero Cruz "de Alvear"
+		"de la Plaza" "de Rosas" "de Urquiza" Derqui D𮠠Ellauri Escobar Flores Gonzᬥz Jovellanos
+		JuᲥz Justo Latorre L󰥺 Macha󸁍aza Meza Mitre Paz Pedernera
+		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodr򍑥z de Francia" Rojas Rondeau S᥮z
 		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
 		}
 	}
@@ -2060,8 +2124,60 @@ latin_american_cultures = {
 		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 	}
-}
+	uruguayan = {
+		color = {109 206 156}
+		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco Jos颠"Francisco de Paula" FroilᮠGabriel
+		Gregorio Guillermo Gustavo GuzmᮠHilario Ignacio Jer󮩭o Joaqu󸁊orge "Jos頁ntonio"
+		"Jos頍anuel" "Jos頍ar𨠠Juan "Juan Jos颠JuliᮠJulio Le󮠍anuel Pedro Plᣩdo
+		Rafael Raimundo Ram󮠒icardo Rodolfo Santiago Santos Tadeo Tom᳠Vicente
+		}
 
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caama񯠃arre񯠃arri󮠃astro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obald𨠠"de Olmedo" "de Veintemilla" "de Villamil"
+		Falc󮠆lores Garc𨁇󭥺 Gonzᬥz Gual Guti鲲ez HerrᮠHurtado L󰥺
+		Mallarino Manjarr鳠Mari񯠍elo Monagas Moreno Nú񥺠Obando P᥺ Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
+		}
+	}
+}
+guiana_cultures = {
+	leader = southamerican
+	is_overseas = no
+	guyanan = {
+		color = {42 147 106}
+		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco Jos颠"Francisco de Paula" FroilᮠGabriel
+		Gregorio Guillermo Gustavo GuzmᮠHilario Ignacio Jer󮩭o Joaqu󸁊orge "Jos頁ntonio"
+		"Jos頍anuel" "Jos頍ar𨠠Juan "Juan Jos颠JuliᮠJulio Le󮠍anuel Pedro Plᣩdo
+		Rafael Raimundo Ram󮠒icardo Rodolfo Santiago Santos Tadeo Tom᳠Vicente
+		}
+
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caama񯠃arre񯠃arri󮠃astro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obald𨠠"de Olmedo" "de Veintemilla" "de Villamil"
+		Falc󮠆lores Garc𨁇󭥺 Gonzᬥz Gual Guti鲲ez HerrᮠHurtado L󰥺
+		Mallarino Manjarr鳠Mari񯠍elo Monagas Moreno Nú񥺠Obando P᥺ Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
+		}
+	}
+	surinamean = {
+		color = {42 147 106}
+		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco Jos颠"Francisco de Paula" FroilᮠGabriel
+		Gregorio Guillermo Gustavo GuzmᮠHilario Ignacio Jer󮩭o Joaqu󸁊orge "Jos頁ntonio"
+		"Jos頍anuel" "Jos頍ar𨠠Juan "Juan Jos颠JuliᮠJulio Le󮠍anuel Pedro Plᣩdo
+		Rafael Raimundo Ram󮠒icardo Rodolfo Santiago Santos Tadeo Tom᳠Vicente
+		}
+
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caama񯠃arre񯠃arri󮠃astro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obald𨠠"de Olmedo" "de Veintemilla" "de Villamil"
+		Falc󮠆lores Garc𨁇󭥺 Gonzᬥz Gual Guti鲲ez HerrᮠHurtado L󰥺
+		Mallarino Manjarr鳠Mari񯠍elo Monagas Moreno Nú񥺠Obando P᥺ Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
+		}
+	}
+	
+}
 african_diaspora_cultures = {
 	leader = african
 	is_overseas = no

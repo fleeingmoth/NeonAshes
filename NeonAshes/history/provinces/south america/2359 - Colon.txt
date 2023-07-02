@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = ETR
+controller = ETR
+add_core = ETR
+trade_goods = oilseed_crops
 life_rating = 35

@@ -1,0 +1,34 @@
+# 18300 - 18399 - French Events
+
+country_event = { # collapse of FRR
+	id = 18300
+	title = "EVT_18300_NAME"
+	desc = "EVT_18300_DESC"
+	picture = "canadian_provinces_pic"
+	trigger={
+		tag = FRR
+		NOT={
+			any_owned_province={
+				NOT={
+					province_id = 2246
+				}
+				NOT={
+					province_id = 2241
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVT_18300_OPTA" # Positive
+		all_core={
+			remove_core = FRR
+		}
+		change_tag = FGU
+		add_core = 2246
+		add_core = 2241
+		capital = 2241
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

@@ -1,2 +1,5 @@
+owner = BPR
+controller = BPR
+add_core = BPR
 trade_goods = timber
 life_rating = 35

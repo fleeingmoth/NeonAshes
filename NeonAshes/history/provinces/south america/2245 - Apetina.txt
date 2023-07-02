@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = SUR
+controller = SUR
+add_core = SUR
+trade_goods = fruit
 life_rating = 35

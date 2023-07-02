@@ -1,2 +1,5 @@
+owner = SCL
+controller = SCL
+add_core = SCL
 trade_goods = timber
 life_rating = 35

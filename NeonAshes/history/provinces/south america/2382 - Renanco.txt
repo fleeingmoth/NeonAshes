@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = ERP
+controller = ERP
+add_core = ERP
+trade_goods = cattle
 life_rating = 35

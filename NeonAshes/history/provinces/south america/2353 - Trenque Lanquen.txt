@@ -1,1 +1,1 @@
-trade_goods = timberlife_rating = 35
+owner = BUEcontroller = BUEadd_core = BUEtrade_goods = cattlelife_rating = 35

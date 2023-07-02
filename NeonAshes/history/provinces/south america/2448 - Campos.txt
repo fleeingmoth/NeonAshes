@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = RIO
+controller = RIO
+add_core = RIO
+trade_goods = fruit
 life_rating = 35

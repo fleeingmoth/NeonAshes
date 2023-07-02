@@ -1,5 +1,5 @@
 #Naval Doctrine & Tactics
-green_water_navy = { #Green Water Navy
+green_water_navy = { # Green Water Navy
 	area = naval_doctrine
 	year = 1980
 	cost = 3600
@@ -434,7 +434,7 @@ naval_battlespace_integration = { #Naval Battlespace Integration
 
 #Naval Engineering
 
-shipbuilding_industry = { #Shipbuilding Industry
+shipbuilding_industry = { # Shipbuilding Industry
 	area = naval_engineering
 	year = 1980
 	cost = 3600

@@ -372,6 +372,7 @@ mass_produced_armament = { # Mass Produced Armament
 	infantry = { supply_consumption = 0.10 }
 	motinfantry = { supply_consumption = 0.10 }
 	mechinfantry = { supply_consumption = 0.10 }
+	activate_building = conv_ammo_factory
 
 	ai_chance = {
 		factor = 1.5		# Kind of important

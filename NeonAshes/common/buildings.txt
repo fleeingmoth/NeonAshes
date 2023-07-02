@@ -11,7 +11,7 @@
 
 ############# BASIC FACTORIES
 
-machine_parts_factory = {
+machine_parts_factory = {	# Activated by Industry - Modern Manufacturing
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -27,7 +27,7 @@ machine_parts_factory = {
 	production_type = machine_parts_factory
 	pop_build_factory = yes
 }
-construction_factory = {
+construction_factory = {	# Activated by Industry - Modern Transportation - Modern Modular Construction
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -43,7 +43,7 @@ construction_factory = {
 	production_type = construction_factory
 	pop_build_factory = yes
 }
-conv_ammo_factory = {
+conv_ammo_factory = {		# Activated by Army - Mass-Produced Armament
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -59,7 +59,7 @@ conv_ammo_factory = {
 	production_type = conv_ammo_factory
 	pop_build_factory = yes
 }
-small_arms_factory = {
+small_arms_factory = {		# Activated by Army - Mass-Produced Armament - Modern Service Rifle
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -75,7 +75,7 @@ small_arms_factory = {
 	production_type = small_arms_factory
 	pop_build_factory = yes
 }
-coal_power_plant = {
+coal_power_plant = {		# Activated by Industry - Fossil Fuel Power
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -92,7 +92,7 @@ coal_power_plant = {
 	production_type = coal_power_plant
 	pop_build_factory = yes
 }
-oil_power_plant = {
+oil_power_plant = {		# Activated by Industry - Fossil Fuel Power - Oil Power Generation
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -109,7 +109,7 @@ oil_power_plant = {
 	production_type = oil_power_plant
 	pop_build_factory = yes
 }
-oil_refinery = {
+oil_refinery = {		# Activated by Industry - Fossil Fuel Power - Hydrocracking
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -126,7 +126,7 @@ oil_refinery = {
 	production_type = oil_refinery
 	pop_build_factory = yes
 }
-steel_mill = {
+steel_mill = {			# Activated by Industry - Modern Manufacturing - Integrated Steel Mills
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -142,7 +142,7 @@ steel_mill = {
 	production_type = steel_mill
 	pop_build_factory = yes
 }
-aluminum_refinery = {
+aluminum_refinery = {		# Activated by Industry - Modern Manufacturing - Modern Aluminum Alloys
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -155,10 +155,10 @@ aluminum_refinery = {
 	time = 365
 	visibility = yes
 	onmap = no
-	production_type = aluminum_refinery
+	production_type = aluminum_refinery	# Smelting and Refining are integrated
 	pop_build_factory = yes
 }
-chemical_plant = {
+chemical_plant = {			# Activated by Industry - Polymers
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -174,7 +174,7 @@ chemical_plant = {
 	production_type = chemical_plant
 	pop_build_factory = yes
 }
-electronic_components_factory = {
+electronic_components_factory = {	# Activated by Culture - Microprocessors
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -191,7 +191,7 @@ electronic_components_factory = {
 	production_type = electronic_components_factory
 	pop_build_factory = yes
 }
-textile_mill = {
+textile_mill = {		# Activated by Industry - Modern Manufacturing - Modern Textile Spinning
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
@@ -208,7 +208,7 @@ textile_mill = {
 	pop_build_factory = yes
 }
 
-fort = {      
+fort = {			# Activated by Army - Third Generation Warfare - Military Engineering
 	type = fort
 	goods_cost = {
 		construction_materials = 500	# 500,000 sqft
@@ -225,7 +225,7 @@ fort = {
 
 # Infrastructure
 
-naval_base = {    
+naval_base = {		# Activated by Naval and Aerospace - Green Water Navy
 	type = naval_base
 	goods_cost = {
 		construction_materials = 100	# 100,000 sqft
@@ -246,11 +246,10 @@ naval_base = {
 	local_ship_build = -0.10
 }
        
-railroad = {   
+railroad = {   		# Activated by Industry - Modern Transportation
 	type = infrastructure
 	goods_cost = {
-		timber = 100
-		construction_materials = 100
+		construction_materials = 200
 		steel = 100
 	}
 	time = 720

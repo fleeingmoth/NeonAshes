@@ -1,5 +1,47 @@
 ### ### Energy Generation ### ###
 ### Fossil Fuel Power ###
+oil_power_generation = { # Oil Power Generation
+	limit = { fossil_fuel_power = 1 }
+	chance = {
+		base = 5 # Very high chance by itself
+		modifier = {
+			factor = 5
+			any_owned_province = { produces = oil }
+		}
+		modifier = {
+			factor = 5
+			any_owned_province = { has_building = oil_power_plant } # Hey look, we already have them!
+		}
+	}
+	effect = {
+		activate_building = oil_power_plant
+	}
+}
+hydrocracking = { # Hydrocracking
+	limit = { fossil_fuel_power = 1 }
+	chance = {
+		base = 3 # high chance by itself
+		modifier = {
+			factor = 2
+			any_owned_province = { produces = oil }
+		}
+		modifier = {
+			factor = 2
+			polymers = 1
+		}
+		modifier = {
+			factor = 2
+			modern_transportation = 1
+		}
+		modifier = {
+			factor = 5
+			any_owned_province = { has_building = oil_refinery } # Hey look, we already have them!
+		}
+	}
+	effect = {
+		activate_building = oil_refinery
+	}
+}
 seismic_imaging = { # Seismic Imaging
 	limit = { fossil_fuel_power = 1 }
 	chance = {
@@ -167,6 +209,62 @@ ultra_supercritical_steam_generator = { # Supercritical Steam Generator
 
 ### ### Industrial Engineering ### ###
 ### Modern Manufacturing ###
+
+integrated_steel_mills = { # Integrated Steel Mills
+	limit = { modern_manufacturing = 1 }
+	chance = {
+		base = 4 # High chance by itself
+		modifier = {
+			factor = 3
+			any_owned_province = { produces = coal } # We have steel for them
+		}
+		modifier = {
+			factor = 3
+			any_owned_province = { produces = coal } # We have coal for them
+		}
+		modifier = {
+			factor = 5
+			any_owned_province = { has_building = steel_mill } # Hey look, we already have them!
+		}
+	}
+	effect = {
+		activate_building = steel_mill
+	}
+}
+modern_aluminum_alloys = { # Modern Aluminum Alloys
+	limit = { modern_manufacturing = 1 }
+	chance = {
+		base = 3 # Medium chance by itself
+		modifier = {
+			factor = 2
+			any_owned_province = { produces = bauxite } # We have steel for them
+		}
+		modifier = {
+			factor = 5
+			any_owned_province = { has_building = aluminum_refinery } # Hey look, we already have them!
+		}
+	}
+	effect = {
+		activate_building = aluminum_refinery	# a.k.a. Aluminum Smelter
+	}
+}
+modern_textile_spinning = { # Modern Textile Spinning
+	limit = { modern_manufacturing = 1 }
+	chance = {
+		base = 5 # Very high chance by itself
+		modifier = {
+			factor = 5
+			any_owned_province = { produces = fibre_crops } # We have the fibres
+		}
+		modifier = {
+			factor = 5
+			any_owned_province = { has_building = textile_mill } # Hey look, we already have them!
+		}
+	}
+	effect = {
+		activate_building = textile_mill
+	}
+}
 
 ### Digital Automation ###
 
@@ -469,6 +567,20 @@ synthetic_diamonds = { # Synthetic Diamonds
 
 ### ### Infrastructure and Transport ###
 ### Modern Transportation ###
+
+modern_modular_construction = { # Modern Modular Construction
+	limit = { modern_transportation = 1 }
+	chance = {
+		base = 5 # Very high chance by itself
+		modifier = {
+			factor = 5
+			any_owned_province = { has_building = construction_factory } # Hey look, we already have them!
+		}
+	}
+	effect = {
+		activate_building = construction_factory
+	}
+}
 
 ### Communications Infrastructure ###
 

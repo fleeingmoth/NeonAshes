@@ -29,9 +29,11 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
-			OR = {	# This is unexcusable statism
-				ruling_party_ideology = anarcho_liberal
-				economic_policy = laissez_faire
+			NOT = {
+				AND = {	# This is barely excusable statism
+					ruling_party_ideology = anarcho_liberal
+					economic_policy = laissez_faire
+				}
 			}
 		}
 		effect = {
@@ -55,9 +57,11 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
-			OR = {	# This is unexcusable statism
-				ruling_party_ideology = anarcho_liberal
-				economic_policy = laissez_faire
+			NOT = {
+				OR = {	# This is unexcusable statism
+					ruling_party_ideology = anarcho_liberal
+					economic_policy = laissez_faire
+				}
 			}
 		}
 		effect = {
@@ -90,9 +94,11 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
-			OR = {	# This is unexcusable statism
-				ruling_party_ideology = anarcho_liberal
-				economic_policy = laissez_faire
+			NOT = {
+				OR = {	# This is unexcusable statism
+					ruling_party_ideology = anarcho_liberal
+					economic_policy = laissez_faire
+				}
 			}
 		}
 		effect = {
@@ -137,9 +143,11 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging
-			OR = {	# This is unexcusable statism
-				ruling_party_ideology = anarcho_liberal
-				economic_policy = laissez_faire
+			NOT = {
+				AND = {	# This is barely excusable statism
+					ruling_party_ideology = anarcho_liberal
+					economic_policy = laissez_faire
+				}
 			}
 		}
 		effect = {
@@ -163,9 +171,11 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging
-			OR = {	# This is unexcusable statism
-				ruling_party_ideology = anarcho_liberal
-				economic_policy = laissez_faire
+			NOT = {
+				OR = {	# This is unexcusable statism
+					ruling_party_ideology = anarcho_liberal
+					economic_policy = laissez_faire
+				}
 			}
 		}
 		effect = {
@@ -198,9 +208,11 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging
-			OR = {	# This is unexcusable statism
-				ruling_party_ideology = anarcho_liberal
-				economic_policy = laissez_faire
+			NOT = {
+				OR = {	# This is unexcusable statism
+					ruling_party_ideology = anarcho_liberal
+					economic_policy = laissez_faire
+				}
 			}
 		}
 		effect = {

@@ -8,9 +8,10 @@ fossil_fuel_power = { # Fossil Fuel Power
 	mine_rgo_eff = 0.05
 	farm_rgo_eff = 0.05
 	factory_throughput = 0.02
+	activate_building = coal_power_plant
 
 	ai_chance = {
-		factor = 1.1
+		factor = 2
 		modifier = {
 			factor = 1.2
 			is_greater_power = yes
@@ -183,7 +184,7 @@ modern_manufacturing = { # Modern Manufacturing
 	activate_building = machine_parts_factory
 
 	ai_chance = {
-		factor = 1.5
+		factor = 2
 		modifier = {
 			factor = 1.2
 			is_greater_power = yes
@@ -431,7 +432,7 @@ modern_transportation = { # Modern Transportation
 	activate_building = railroad
 
 	ai_chance = {
-		factor = 1.5
+		factor = 2
 		modifier = {
 			factor = 1.5
 			is_greater_power = yes

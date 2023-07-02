@@ -596,6 +596,221 @@
 }
 
 #Nicaragua
+#Managua
+2197 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 5000
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 75994
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 7000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 15200
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 3800
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 400
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 20594
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 171000
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 19000
+	}
+}
+
+#Rivas
+2198 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 1000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 1000
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 28560
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 2700
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 1936
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 58088
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 3530
+	}
+}
+
+#Leon
+2199 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 2000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 2000
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 103262
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 2000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 11215
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 785
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 130375
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 15113
+	}
+}
+
+#Bluefields (???)
+2200 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 1000
+	}
+	capitalists = {
+		culture = central_american
+		religion = protestant
+		size = 1000
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 66398
+	}
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 1000
+	}
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 3646
+	}
+	clerks = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = central_american
+		religion = protestant
+		size = 0
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 100276
+	}
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 8000
+	}
+}
 
 #Costa Rica
 

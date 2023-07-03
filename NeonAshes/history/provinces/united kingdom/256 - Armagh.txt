@@ -1,2 +1,5 @@
+owner = NIR
+controller = NIR
+add_core = NIR
 trade_goods = timber
 life_rating = 35

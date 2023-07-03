@@ -1,0 +1,295 @@
+###British Isles ###
+#Inverness
+267 = {#Inverness
+	#local pops
+	farmers = {
+		culture = scotish
+		religion = catholic
+		size = 67995
+	}
+	#dispossesed royal forces
+	officers = {
+		culture = english
+		religion = catholic
+		size = 1455
+	}
+	soldiers = {
+		culture = english
+		religion = catholic
+		size = 41024
+	}
+}
+517 = {#Gibraltar
+	#local pops
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 7183
+	}
+}
+2929 = {#Faroes
+	#local pops
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 10763
+	}
+}
+2131 = {#Falklands
+	#local pops
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 463
+	}
+}
+2133 = {#South Georgia
+	#local pops
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 4
+	}
+}
+304 = {#Isle of Man
+	#local pops
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 16005
+	}
+}
+203 = {#Bermuda
+	#local pops
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 13667
+	}
+}
+2129 = {#Saint Helena
+	#local pops
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 793
+	}
+}
+2130 = {#Ascension
+	#local pops
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 200
+	}
+}
+2132 = {#Tristan da cunha
+	#local pops
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 174
+	}
+}
+##Scotland
+266 = {#Aberdeen
+	farmers = {
+		culture = scotish
+		religion = catholic
+		size = 121224
+	}
+}
+268 = {#Dundee
+	farmers = {
+		culture = scotish
+		religion = catholic
+		size = 196715
+	}
+}
+269 = {#Edinburgh
+	farmers = {
+		culture = scotish
+		religion = catholic
+		size = 223656
+	}
+}
+270 = {#Stirling
+	farmers = {
+		culture = scotish
+		religion = catholic
+		size = 42802
+	}
+}
+271 = {#Glasgow
+	farmers = {
+		culture = scotish
+		religion = catholic
+		size = 554516
+	}
+}
+272 = {#Dumfries
+	farmers = {
+		culture = scotish
+		religion = catholic
+		size = 61689
+	}
+}
+##Eire
+#northern (385,750 pops)
+254 = {#Belfast
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 226202
+	}
+}
+256 = {#Armagh
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 102553
+	}
+}
+255 = {#Londonderry
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 56995
+	}
+}
+#republic
+257 = {#Donegal
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 31278
+	}
+}
+259 = {#Silgo
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 34406
+	}
+}
+258 = {#Galway
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 73329
+	}
+}
+264 = {#Kildare
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 260970
+	}
+}
+263 = {#Dublin
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 177438
+	}
+}
+265 = {#Wexford
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 46632
+	}
+}
+262 = {#Waterford
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 55963
+	}
+}
+261 = {#Limerick
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 92999
+	}
+}
+260 = {#Cork
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 100616
+	}
+}
+##wales
+276 = {#Holyhead
+	farmers = {
+		culture = welsh
+		religion = catholic
+		size = 138850
+	}
+}
+275 = {#Llandrindod
+	farmers = {
+		culture = welsh
+		religion = catholic
+		size = 28050
+	}
+}
+274 = {#Cardigan
+	farmers = {
+		culture = welsh
+		religion = catholic
+		size = 83425
+	}
+}
+273 = {#Cardiff
+	farmers = {
+		culture = welsh
+		religion = catholic
+		size = 417125
+	}
+}
+##NORF FC
+285 = {#Chester
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 417125
+	}
+}
+278 = {#Manchester
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 654550
+	}
+}
+277 = {#Liverpool
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 683850
+	}
+}
+279 = {#Carlisle
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 318425
+	}
+}
+280 = {#Newcastle
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 1150875
+	}
+}
+282 = {#Leeds
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 539475
+	}
+}

@@ -1,2 +1,5 @@
+owner = GLS
+controller = GLS
+add_core = GLS
 trade_goods = timber
 life_rating = 35

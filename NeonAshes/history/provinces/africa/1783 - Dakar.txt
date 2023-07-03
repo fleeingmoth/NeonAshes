@@ -1,2 +1,6 @@
+owner = OAS
+controller = OAS
+add_core = OAS
+add_core = SNG
 trade_goods = timber
 life_rating = 35

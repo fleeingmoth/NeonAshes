@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = WLS
+controller = WLS
+add_core = WLS
+trade_goods = sheeps
 life_rating = 35

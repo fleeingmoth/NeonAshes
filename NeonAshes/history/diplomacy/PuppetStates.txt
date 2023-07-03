@@ -5,3 +5,65 @@ vassal = {
 	start_date = 1979.12.31
 	end_date = 2099.12.31
 }
+# Northern Ireland is still loyal to the UK remiant
+vassal = {
+	first = GBN
+	second = NIR
+	start_date = 1979.12.31
+	end_date = 2099.12.31
+}
+#guinea and Ghana where orginal members of the OAS
+substate = {#guinea and Ghana where orginal members
+	first = OAS
+	second = GUI
+	start_date = 1958.12.31
+	end_date = 2099.12.31
+}
+substate = {#
+	first = OAS
+	second = GHA
+	start_date = 1958.12.31
+	end_date = 2099.12.31
+}
+substate = {#senegal was a part of the mali federation on independance and so joined when mali took over the OAS
+	first = OAS
+	second = SNG
+	start_date = 1959.12.31
+	end_date = 2099.12.31
+}
+substate = {#
+	first = OAS
+	second = IVO
+	start_date = 1960.12.31
+	end_date = 2099.12.31
+}
+substate = {#
+	first = OAS
+	second = UPV
+	start_date = 1960.12.31
+	end_date = 2099.12.31
+}
+substate = {#
+	first = OAS
+	second = LIB
+	start_date = 1960.12.31
+	end_date = 2099.12.31
+}
+substate = {#
+	first = OAS
+	second = NGE
+	start_date = 1960.12.31
+	end_date = 2099.12.31
+}
+substate = {#
+	first = OAS
+	second = TOG
+	start_date = 1960.12.31
+	end_date = 2099.12.31
+}
+substate = {#
+	first = OAS
+	second = BEN
+	start_date = 1960.12.31
+	end_date = 2099.12.31
+}

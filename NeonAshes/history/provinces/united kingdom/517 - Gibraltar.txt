@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = GBN
+controller = GBN
+add_core = GBN
+trade_goods = fish
 life_rating = 35
+

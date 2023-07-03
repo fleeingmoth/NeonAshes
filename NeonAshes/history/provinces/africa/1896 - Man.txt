@@ -1,2 +1,5 @@
+owner = IVO
+controller = IVO
+add_core = IVO
 trade_goods = timber
 life_rating = 35

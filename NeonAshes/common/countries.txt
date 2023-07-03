@@ -175,25 +175,25 @@ PAT = "countries/Patagonia.txt"
 
 GRN = "countries/Greenland.txt"
 ICE = "countries/Iceland.txt" #Race to form Denmark
-#WAL = "countries/Wales.txt"
-#NIR = "countries/Northern Ireland.txt"
+WLS = "countries/Wales.txt"
+NIR = "countries/Northern Ireland.txt"
 #NRR = "countries/Norrmark.txt"
 #COK = "countries/Cork.txt"
 #DUB = "countries/Dublin.txt"
-#EDB = "countries/Edinburgh.txt"
+EDB = "countries/Edinburgh.txt"
 #IVN = "countries/Inverness.txt"
 GBN = "countries/British Navy.txt"#reminants of GB, will turn into inverness if unsuccessful
-#GLS = "countries/Glasgow.txt" #3-way division of scotland
+GLS = "countries/Glasgow.txt" #3-way division of scotland
 #LVP = "countries/Liverpool.txt"
 #MDL = "countries/Midlands.txt"
 #YOR = "countries/York.txt"
 
 #GIUK Formables
 #ENG = "countries/England.txt"
-#NNG = "countries/North England.txt"
+NNG = "countries/North England.txt"
 #GBR = "countries/United Kingdom.txt"
-#IRE = "countries/Ireland.txt"
-#SCO = "countries/Scotland.txt"
+IRE = "countries/Ireland.txt"
+SCO = "countries/Scotland.txt"
 
 FRR = "countries/French Reminant.txt"
 CRS = "countries/Corsica.txt"
@@ -204,7 +204,7 @@ CRS = "countries/Corsica.txt"
 #NMN = "countries/Normandy.txt"
 #FRA = "countries/France.txt"
 #BRT = "countries/Brittany.txt"
-#SPA = "countries/Spain.txt"
+SPA = "countries/Spain.txt"
 #POR = "countries/Portugal.txt"
 #ADL = "countries/Andalusia.txt"
 #ITA = "countries/Italy.txt"
@@ -224,28 +224,41 @@ CRS = "countries/Corsica.txt"
 
 #West Africa
 
+MOR = "countries/Morocco.txt"
+ALG = "countries/Algeria.txt"
+
 #Countries of the OAU
 #OAU = "countries/Organization of African Unity.txt" #Organization of African Unity, Monrovia-Casablanca Group. Ghana, Guinea, Mali. Social Democratic dictatorship, but vassals are limited democracies, govtype African Union Member
+OAS = "countries/Organization of African States.txt" #west african GP
+#MLF = "countries/Mali Federation.txt"#What the OAS evolved from, and what it will devolve into after 1st breakdown
 #MAL = "countries/Mali.txt" #Capital of OAU at game start, released
-#SEN = "countries/Senegal.txt" #Next capital location, 1985
-#GAM = "countries/Gambia.txt" #Annexed into Senegal?
-#LIB = "countries/Liberia.txt" #Second-next capital location, 1990
-#IVO = "countries/Ivory Coast.txt" #Third-next, 1995
-#UPV = "countries/Upper Volta.txt" #Should have Sankara, "Boxer"-style rebellion in 1980s
-#BEN = "countries/Benin.txt"
-#GHA = "countries/Ghana.txt"
-#TOG = "countries/Togo.txt"
-#NGE = "countries/Niger.txt" #4th-next capital, 2000. Liberian, Guinea-Bissau, Sierra Leone revolt 
+SOU = "countries/Sudanese Republic.txt"
+SNG = "countries/Senegambia.txt" #Next capital location, 1985
+#SEN = "countries/Senegal.txt" #
+#GAM = "countries/Gambia.txt" #
+LIB = "countries/Liberia.txt" #Second-next capital location, 1990
+IVO = "countries/Ivory Coast.txt" #Third-next, 1995
+UPV = "countries/Upper Volta.txt" #Should have Sankara, "Boxer"-style rebellion in 1980s
+BEN = "countries/Benin.txt"
+GHA = "countries/Ghana.txt"
+TOG = "countries/Togo.txt"
+NGE = "countries/Niger.txt" #4th-next capital, 2000. Liberian, Guinea-Bissau, Sierra Leone revolt 
 #SIE = "countries/Sierra Leone.txt"
 #GIB = "countries/Guinea-Bissau.txt"
-#GUI = "countries/Guinea"
+GUI = "countries/Guinea.txt"
+TUA = "countries/Tuareg Confederation.txt"
 
-#MAU = "countries/Mauretania.txt" #Stomping ground for OAU. sad but true
+#Greater Mauretania, Stomping ground for OAU. sad but true
+#MAU = "countries/Mauretania.txt" 
+#Azawad, north Mali, etc...
+AZA = "countries/Azawad.txt"
+TRZ = "countries/Trarza.txt"
+SAR = "countries/Sahrawi.txt"
+
 #NIG = "countries/Nigeria.txt" #at start, Oyo + some of west Sokotoland, next to Benin.
 #BIA = "countries/Biafra.txt"
 #HAU = "countries/Hausaland.txt" #puppet under Biafra
 #CMR = "countries/Cameroon.txt" #Ambazonia is under Biafra
-#Azawad, north Mali, etc...
 #Tags for OAU military cliques?
 
 ## HoD Dominions

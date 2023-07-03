@@ -1,0 +1,658 @@
+###Greater Mauritania ###
+#western sahara
+1696 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 8915
+	}
+}
+1773 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 12711
+	}
+}
+1774 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 15874
+	}
+}
+#Trarza
+1776 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 7470
+	}
+}
+1777 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 37838
+	}
+}
+1778 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 58165
+	}
+}
+1775 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 64286
+	}
+}
+1779 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 31833
+	}
+}
+1780 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 63339
+	}
+}
+#Azawad
+1782 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 5638
+	}
+}
+1781 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 39180
+	}
+}
+1806 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 21531
+	}
+}
+2609 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 35114
+	}
+}
+1803 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 32310
+	}
+}
+1805 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 35197
+	}
+}
+1807 = {#
+	farmers = {
+		culture = mauritanian
+		religion = catholic
+		size = 37857
+	}
+}
+##Mali federation
+1794 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 120311
+	}
+}
+1795 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 57831
+	}
+}
+1796 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 83641
+	}
+}
+1797 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 76715
+	}
+}
+1800 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 270556
+	}
+}
+1798 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 124721
+	}
+}
+1799 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 149796
+	}
+}
+1801 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 112748
+	}
+}
+1802 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 197341
+	}
+}
+1804 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 84919
+	}
+}
+1785 = {#Gambia
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 171954
+	}
+}
+1783 = {#Dakar
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 379454
+	}
+}
+2573 = {#Mboul
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 278364
+	}
+}
+1784 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 112417
+	}
+}
+1789 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 97812
+	}
+}
+1786 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 76841
+	}
+}
+1787 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 183415
+	}
+}
+1783 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 68761
+	}
+}
+1790 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 97814
+	}
+}
+1788 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 174241
+	}
+}
+1791 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 64361
+	}
+}
+1793 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 97481
+	}
+}
+1792 = {#
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 94273
+	}
+}
+1878 = {#Gabu
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 88865
+	}
+}
+1877 = {#Bissau
+	farmers = {
+		culture = malian
+		religion = catholic
+		size = 103002
+	}
+}
+#guinea
+1879 = {#
+	farmers = {
+		culture = guinean
+		religion = catholic
+		size = 266165
+	}
+}
+1880 = {#
+	farmers = {
+		culture = guinean
+		religion = catholic
+		size = 269957
+	}
+}
+1881 = {#
+	farmers = {
+		culture = guinean
+		religion = catholic
+		size = 106290
+	}
+}
+1882 = {#
+	farmers = {
+		culture = guinean
+		religion = catholic
+		size = 160108
+	}
+}
+1883 = {#
+	farmers = {
+		culture = guinean
+		religion = catholic
+		size = 185032
+	}
+}
+#ivory coast (approx 2012880 pops)
+1893 = {#
+	farmers = {
+		culture = ivorian
+		religion = catholic
+		size = 446412
+	}
+}
+1896 = {#
+	farmers = {
+		culture = ivorian
+		religion = catholic
+		size = 645312
+	}
+}
+1900 = {#
+	farmers = {
+		culture = ivorian
+		religion = catholic
+		size = 124831
+	}
+}
+1898 = {#
+	farmers = {
+		culture = ivorian
+		religion = catholic
+		size = 245124
+	}
+}
+1899 = {#
+	farmers = {
+		culture = ivorian
+		religion = catholic
+		size = 64512
+	}
+}
+1892 = {#
+	farmers = {
+		culture = ivorian
+		religion = catholic
+		size = 124834
+	}
+}
+1895 = {#
+	farmers = {
+		culture = ivorian
+		religion = catholic
+		size = 97851
+	}
+}
+1894 = {#
+	farmers = {
+		culture = ivorian
+		religion = catholic
+		size = 115438
+	}
+}
+1897 = {#
+	farmers = {
+		culture = ivorian
+		religion = catholic
+		size = 148566
+	}
+}
+#ghana (2,967,500 pops)
+1909 = {#
+	farmers = {
+		culture = ghanan
+		religion = catholic
+		size = 254311
+	}
+}
+1908 = {#
+	farmers = {
+		culture = ghanan
+		religion = catholic
+		size = 315834
+	}
+}
+1907 = {#
+	farmers = {
+		culture = ghanan
+		religion = catholic
+		size = 274814
+	}
+}
+1910 = {#
+	farmers = {
+		culture = ghanan
+		religion = catholic
+		size = 786411
+	}
+}
+1911 = {#
+	farmers = {
+		culture = ghanan
+		religion = catholic
+		size = 453153
+	}
+}
+1912 = {#
+	farmers = {
+		culture = ghanan
+		religion = catholic
+		size = 278142
+	}
+}
+1913 = {#
+	farmers = {
+		culture = ghanan
+		religion = catholic
+		size = 345121
+	}
+}
+1916 = {#
+	farmers = {
+		culture = ghanan
+		religion = catholic
+		size = 127841
+	}
+}
+1915 = {#
+	farmers = {
+		culture = ghanan
+		religion = catholic
+		size = 131873
+	}
+}
+#upper volta
+1906 = {#
+	farmers = {
+		culture = voltan
+		religion = catholic
+		size = 63340
+	}
+}
+1905 = {#
+	farmers = {
+		culture = voltan
+		religion = catholic
+		size = 296340
+	}
+}
+1902 = {#
+	farmers = {
+		culture = voltan
+		religion = catholic
+		size = 601067
+	}
+}
+1901 = {#
+	farmers = {
+		culture = voltan
+		religion = catholic
+		size = 743407
+	}
+}
+1904 = {#
+	farmers = {
+		culture = voltan
+		religion = catholic
+		size = 156543
+	}
+}
+1903 = {#
+	farmers = {
+		culture = voltan
+		religion = catholic
+		size = 130477
+	}
+}
+#liberia
+1888 = {#
+	farmers = {
+		culture = liberian
+		religion = catholic
+		size = 58513
+	}
+}
+1889 = {#
+	farmers = {
+		culture = liberian
+		religion = catholic
+		size = 61910
+	}
+}
+1887 = {#
+	farmers = {
+		culture = liberian
+		religion = catholic
+		size = 237065
+	}
+}
+1890 = {#
+	farmers = {
+		culture = liberian
+		religion = catholic
+		size = 142215
+	}
+}
+1891 = {#
+	farmers = {
+		culture = liberian
+		religion = catholic
+		size = 25702
+	}
+}
+#niger
+1809 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 60743
+	}
+}
+1808 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 232212
+	}
+}
+1810 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 42705
+	}
+}
+1811 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 237436
+	}
+}
+1815 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 250555
+	}
+}
+1816 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 41845
+	}
+}
+#tureg (31246 pops)
+1813 = {#
+	farmers = {
+		culture = tuareg
+		religion = catholic
+		size = 7583
+	}
+}
+1812 = {#
+	farmers = {
+		culture = tuareg
+		religion = catholic
+		size = 15421
+	}
+}
+1817 = {#
+	farmers = {
+		culture = tuareg
+		religion = catholic
+		size = 3458
+	}
+}
+1814 = {#
+	farmers = {
+		culture = tuareg
+		religion = catholic
+		size = 4784
+	}
+}
+#togo
+1914 = {#
+	farmers = {
+		culture = togoan
+		religion = catholic
+		size = 260060
+	}
+}
+1917 = {#
+	farmers = {
+		culture = togoan
+		religion = catholic
+		size = 230882
+	}
+}
+1918 = {#
+	farmers = {
+		culture = togoan
+		religion = catholic
+		size = 188948
+	}
+}
+#benin
+1919 = {#
+	farmers = {
+		culture = benin
+		religion = catholic
+		size = 299155
+	}
+}
+1920 = {#
+	farmers = {
+		culture = benin
+		religion = catholic
+		size = 210992
+	}
+}
+1921 = {#
+	farmers = {
+		culture = benin
+		religion = catholic
+		size = 119901
+	}
+}
+1922 = {#
+	farmers = {
+		culture = benin
+		religion = catholic
+		size = 122669
+	}
+}

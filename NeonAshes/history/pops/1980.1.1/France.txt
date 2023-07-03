@@ -2,14 +2,24 @@
 # Corsica (235733 / 58933 POPS)
 473 = {
 	farmers = {
+		culture = corsican
+		religion = catholic
+		size = 33561
+	}
+	farmers = {
 		culture = french
 		religion = catholic
-		size = 45145
+		size = 11584
 	}
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 12148
+		size = 4532
+	}
+	artisans = {
+		culture = corsican
+		religion = catholic
+		size = 7616
 	}
 	soldiers = {
 		culture = french

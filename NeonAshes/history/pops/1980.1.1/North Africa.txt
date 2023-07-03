@@ -1,0 +1,309 @@
+###Morroco ###
+1697 = {#Figuig
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 24572
+	}
+}
+1684 = {#Wujda
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 203230
+	}
+}
+1688 = {#Ajdir
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 203914
+	}
+}
+1683 = {#Taza
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 182625
+	}
+}
+1698 = {#Rashidia
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 233795
+	}
+}
+1699 = {#Warzazat
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 220465
+	}
+}
+1680 = {#Fez
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 243778
+	}
+}
+1682 = {#Meknes
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 847725
+	}
+}
+1692 = {#Huribka
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 402962
+	}
+}
+1690 = {#Marrakesh
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 623559
+	}
+}
+1694 = {#Agadir
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 304894
+	}
+}
+1693 = {#Sawira
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 91073
+	}
+}
+2563 = {#Safi
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 329596
+	}
+}
+1691 = {#Casablanca
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 715352
+	}
+}
+1685 = {#Rabat
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 498855
+	}
+}
+1681 = {#Wazzan
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 286813
+	}
+}
+1686 = {#Tangier
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 214900
+	}
+}
+##algeria
+1705 = {#Tlemcen
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 133951
+	}
+}
+1704 = {#Oran
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 227730
+	}
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 82451
+	}
+}
+1706 = {#Mustaghanim
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 197681
+	}
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 108742
+	}
+}
+1700 = {#Algiers
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 744781
+	}
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 248861
+	}
+}
+1701 = {#Bougie
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 505760
+	}
+}
+1709 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 135882
+	}
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 54341
+	}
+}
+1708 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 416344
+	}
+}
+1702 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 248960
+	}
+}
+1703 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 352955
+	}
+}
+1710 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 334813
+	}
+}
+1713 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 326251
+	}
+}
+1707 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 218334
+	}
+}
+1715 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 49337
+	}
+}
+1712 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 114319
+	}
+}
+1711 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 30441
+	}
+}
+1719 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 3019
+	}
+}
+1724 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 1482
+	}
+}
+1720 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 40621
+	}
+}
+1714 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 31625
+	}
+}
+1716 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 1854
+	}
+}
+1717 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 34372
+	}
+}
+1722 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 1244
+	}
+}
+1718 = {#
+	farmers = {
+		culture = algerian
+		religion = catholic
+		size = 5453
+	}
+}
+1721 = {#
+	farmers = {
+		culture = tuareg
+		religion = catholic
+		size = 2345
+	}
+}

@@ -1,2 +1,6 @@
+owner = IRE
+controller = IRE
+add_core = IRE
 trade_goods = timber
 life_rating = 35
+

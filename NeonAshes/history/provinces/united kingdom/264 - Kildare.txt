@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = IRE
+controller = IRE
+add_core = IRE
+trade_goods = cattle
 life_rating = 35
+

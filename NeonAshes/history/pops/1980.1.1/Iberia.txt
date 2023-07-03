@@ -1,0 +1,97 @@
+###Spain ###
+#still under Government control
+512 = {#Cadiz
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 247097
+	}
+}
+509 = {#Seville
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 369577
+	}
+}
+511 = {#Huelva
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 104646
+	}
+}
+510 = {#Cordoba
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 180205
+	}
+}
+514 = {#malaga
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 256402
+	}
+}
+502 = {#Balearics
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 163977
+	}
+}
+506 = {#Cartagena
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 125241
+	}
+}
+1689 = {#Melilla
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 13398
+	}
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 93261
+	}
+}
+1687 = {#Tetouan
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 16316
+	}
+}
+1695 = {#Ifni
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 14541
+	}
+	farmers = {
+		culture = moroccan
+		religion = catholic
+		size = 78431
+	}
+}
+2136 = {#Canaries
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 341911
+	}
+}
+#spanish chaos
+507 = {#Murica
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 87142
+	}
+}

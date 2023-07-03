@@ -1,5 +1,5 @@
 capital = 473 #
-primary_culture = french
+primary_culture = corsican
 religion = catholic
 government = democracy
 plurality = 25.0

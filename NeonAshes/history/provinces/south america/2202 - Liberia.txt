@@ -1,2 +1,5 @@
-trade_goods = timber
-life_rating = 35
+owner = COS
+controller = COS
+add_core = COS
+trade_goods = sugar_crops
+life_rating = 32

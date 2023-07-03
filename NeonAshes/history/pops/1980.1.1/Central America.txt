@@ -403,20 +403,10 @@
 		religion = protestant
 		size = 4862
 	}
-	clerks = {
-		culture = central_american
-		religion = protestant
-		size = 0
-	}
 	officers = {
 		culture = central_american
 		religion = protestant
 		size = 500
-	}
-	craftsmen = {
-		culture = central_american
-		religion = protestant
-		size = 0
 	}
 	farmers = {
 		culture = central_american
@@ -458,20 +448,10 @@
 		religion = protestant
 		size = 2732
 	}
-	clerks = {
-		culture = central_american
-		religion = protestant
-		size = 0
-	}
 	officers = {
 		culture = central_american
 		religion = protestant
 		size = 500
-	}
-	craftsmen = {
-		culture = central_american
-		religion = protestant
-		size = 0
 	}
 	farmers = {
 		culture = central_american
@@ -513,20 +493,10 @@
 		religion = protestant
 		size = 4034
 	}
-	clerks = {
-		culture = central_american
-		religion = protestant
-		size = 0
-	}
 	officers = {
 		culture = central_american
 		religion = protestant
 		size = 200
-	}
-	craftsmen = {
-		culture = central_american
-		religion = protestant
-		size = 0
 	}
 	farmers = {
 		culture = central_american
@@ -548,11 +518,6 @@
 		religion = protestant
 		size = 400
 	}
-	capitalists = {
-		culture = central_american
-		religion = protestant
-		size = 0
-	}
 	artisans = {
 		culture = central_american
 		religion = protestant
@@ -568,20 +533,10 @@
 		religion = protestant
 		size = 201
 	}
-	clerks = {
-		culture = central_american
-		religion = protestant
-		size = 0
-	}
 	officers = {
 		culture = central_american
 		religion = protestant
 		size = 500
-	}
-	craftsmen = {
-		culture = central_american
-		religion = protestant
-		size = 0
 	}
 	farmers = {
 		culture = central_american
@@ -677,21 +632,6 @@
 		religion = protestant
 		size = 1936
 	}
-	clerks = {
-		culture = central_american
-		religion = protestant
-		size = 0
-	}
-	officers = {
-		culture = central_american
-		religion = protestant
-		size = 0
-	}
-	craftsmen = {
-		culture = central_american
-		religion = protestant
-		size = 0
-	}
 	farmers = {
 		culture = central_american
 		religion = protestant
@@ -731,20 +671,10 @@
 		religion = protestant
 		size = 11215
 	}
-	clerks = {
-		culture = central_american
-		religion = protestant
-		size = 0
-	}
 	officers = {
 		culture = central_american
 		religion = protestant
 		size = 785
-	}
-	craftsmen = {
-		culture = central_american
-		religion = protestant
-		size = 0
 	}
 	farmers = {
 		culture = central_american
@@ -785,20 +715,10 @@
 		religion = protestant
 		size = 3646
 	}
-	clerks = {
-		culture = central_american
-		religion = protestant
-		size = 0
-	}
 	officers = {
 		culture = central_american
 		religion = protestant
 		size = 500
-	}
-	craftsmen = {
-		culture = central_american
-		religion = protestant
-		size = 0
 	}
 	farmers = {
 		culture = central_american
@@ -813,6 +733,114 @@
 }
 
 #Costa Rica
+#San Jose
+2201 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 9252
+	}
+
+	bureaucrats = {
+		culture = central_american
+		religion = protestant
+		size = 1542
+	}
+
+	officers = {
+		culture = central_american
+		religion = protestant
+		size = 771
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 3855
+	}
+
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 20046
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 3855
+	}
+
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 361599
+	}
+}
+#Liberia
+2202 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 4626
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 1542
+	}
+
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 7710
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 1542
+	}
+
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 138780
+	}
+}
+#Limon
+2203 = {
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 2313
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = protestant
+		size = 1542
+	}
+
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 4626
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = protestant
+		size = 771
+	}
+
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 83268
+	}
+}
 
 #Panama
 

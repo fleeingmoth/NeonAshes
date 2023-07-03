@@ -81,7 +81,7 @@ GUA = "countries/Guatemala.txt"
 ELS = "countries/El Salvador.txt"
 HON = "countries/Honduras.txt"
 NIC = "countries/Nicaragua.txt"
-#COS = "countries/Costa Rica.txt"
+COS = "countries/Costa Rica.txt"
 #PNM = "countries/Panama.txt"
 PCZ = "countries/Panama Canal Zone.txt"
 

@@ -1,5 +1,5 @@
 owner = GUI
 controller = GUI
 add_core = GUI
-trade_goods = timber
+trade_goods = other_metals
 life_rating = 35

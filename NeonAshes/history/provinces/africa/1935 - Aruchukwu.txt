@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = BIA
+controller = BIA
+add_core = BIA
+add_core = NIG
+trade_goods = grain
 life_rating = 35

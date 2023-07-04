@@ -1,5 +1,5 @@
 capital = 1808 #
-primary_culture = nigerian
+primary_culture = niger
 religion = catholic
 government = democracy
 plurality = 25.0

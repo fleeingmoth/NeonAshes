@@ -1,5 +1,5 @@
 owner = TOG
 controller = TOG
 add_core = TOG
-trade_goods = timber
+trade_goods = phosphate
 life_rating = 35

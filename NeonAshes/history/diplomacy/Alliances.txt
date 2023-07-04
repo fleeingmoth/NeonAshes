@@ -144,3 +144,18 @@ alliance = {
 	start_date = 1980.1.1
 	end_date = 1999.1.1
 }
+#biafra-hausaland
+alliance = {
+	first = BIA
+	second = HAU
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+
+alliance = {
+	first = ETR
+	second = URU
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+

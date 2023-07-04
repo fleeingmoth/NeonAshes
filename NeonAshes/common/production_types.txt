@@ -338,7 +338,7 @@ machine_parts_factory = {
 		other_metals = 0.10		# 10 tonnes of other metals	# 1
 	} 
 	output_goods = machine_parts			# Total cost of inputs	# 19
-	value = 1.00					# Total value of goods	# 20
+	value = 3.00					# Total value of goods	# 20
 	bonus = {
 		trigger = { has_building = steel_mill }
 		value = 0.10
@@ -711,7 +711,7 @@ bauxite_mine = {
 cattle_ranch = {
 	template = RGO_template_farmers
 	output_goods = cattle 
-	value = 100 # 1 worker (1980) outputs 0.2 heads per year. Times 200,000, rounded down.
+	value = 10 # 1 worker (1980) outputs 0.2 heads per year. Times 200,000, rounded down.
 	farm = yes
 }
 
@@ -739,7 +739,7 @@ fibre_crops_plantation = {
 fishing_wharf = {
 	template = RGO_template_farmers
 	output_goods = fish 
-	value = 200 # 1 fisherman (1980) outputs 1 kg per day. Times 200,000.
+	value = 20 # 1 fisherman (1980) outputs 1 kg per day. Times 200.0
 	farm = yes
 }
 
@@ -837,6 +837,13 @@ sugar_crops_farm = {
 other_metals_mine = {
 	template = RGO_template_labourers
 	output_goods = other_metals
+	value = 1 # I don't know what to put here right mow
+	mine = yes
+}
+
+hydro_electric_mine = {#energy production from dams/solar
+	template = RGO_template_labourers
+	output_goods = energy
 	value = 1 # I don't know what to put here right mow
 	mine = yes
 }

@@ -2,5 +2,5 @@ owner = OAS
 controller = OAS
 add_core = OAS
 add_core = SOU
-trade_goods = timber
+trade_goods = fruit
 life_rating = 35

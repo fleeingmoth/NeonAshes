@@ -196,7 +196,37 @@
 	farmers = {
 		culture = malian
 		religion = catholic
-		size = 379454
+		size = 261818
+	}
+	clergymen = {
+		culture = malian
+		religion = catholic
+		size = 2714
+	}
+	bureaucrats = {
+		culture = malian
+		religion = catholic
+		size = 11587
+	}
+	artisans = {
+		culture = malian
+		religion = catholic
+		size = 87812
+	}
+	soldiers = {
+		culture = malian
+		religion = catholic
+		size = 15371
+	}
+	aristocrats = {
+		culture = malian
+		religion = catholic
+		size = 152
+	}
+	capitalists = {
+		culture = malian
+		religion = catholic
+		size = 35
 	}
 }
 2573 = {#Mboul
@@ -536,42 +566,42 @@
 #niger
 1809 = {#
 	farmers = {
-		culture = nigerian
+		culture = niger
 		religion = catholic
 		size = 60743
 	}
 }
 1808 = {#
 	farmers = {
-		culture = nigerian
+		culture = niger
 		religion = catholic
 		size = 232212
 	}
 }
 1810 = {#
 	farmers = {
-		culture = nigerian
+		culture = niger
 		religion = catholic
 		size = 42705
 	}
 }
 1811 = {#
 	farmers = {
-		culture = nigerian
+		culture = niger
 		religion = catholic
 		size = 237436
 	}
 }
 1815 = {#
 	farmers = {
-		culture = nigerian
+		culture = niger
 		religion = catholic
 		size = 250555
 	}
 }
 1816 = {#
 	farmers = {
-		culture = nigerian
+		culture = niger
 		religion = catholic
 		size = 41845
 	}
@@ -654,5 +684,245 @@
 		culture = benin
 		religion = catholic
 		size = 122669
+	}
+}
+#sierra Leone
+1884 = {#
+	farmers = {
+		culture = sierra_leonean
+		religion = catholic
+		size = 167872
+	}
+}
+1886 = {#
+	farmers = {
+		culture = sierra_leonean
+		religion = catholic
+		size = 248410
+	}
+}
+1885 = {#
+	farmers = {
+		culture = sierra_leonean
+		religion = catholic
+		size = 300374
+	}
+}
+#nigeria
+1923 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 1202274
+	}
+}
+1924 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 490082
+	}
+}
+1925 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 725071
+	}
+}
+1926 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 453210
+	}
+}
+1927 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 826479
+	}
+}
+1928 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 456121
+	}
+}
+1929 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 794920
+	}
+}
+1930 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 451028
+	}
+}
+1931 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 779558
+	}
+}
+1932 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 669447
+	}
+}
+1933 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 1109243
+	}
+}
+1934 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 1398473
+	}
+}
+1935 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 662419
+	}
+}
+1936 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 688269
+	}
+}
+1937 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 317554
+	}
+}
+1938 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 124814
+	}
+}
+1939 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 826479
+	}
+}
+1940 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 383718
+	}
+}
+1941 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 331705
+	}
+}
+1942 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 600996
+	}
+}
+1943 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 441952
+	}
+}
+1944 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 312715
+	}
+}
+1945 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 1220198
+	}
+}
+1946 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 434382
+	}
+}
+1947 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 788157
+	}
+}
+1948 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 938736
+	}
+}
+1949 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 603860
+	}
+}
+1950 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 441431
+	}
+}
+1951 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 348246
+	}
+}
+1952 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 293934
+	}
+}
+1953 = {#
+	farmers = {
+		culture = nigerian
+		religion = catholic
+		size = 184314
 	}
 }

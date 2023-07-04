@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = HAU
+controller = HAU
+add_core = HAU
+add_core = NIG
+trade_goods = oilseed_crops
 life_rating = 35

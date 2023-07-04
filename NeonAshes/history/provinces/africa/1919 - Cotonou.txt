@@ -1,5 +1,5 @@
 owner = BEN
 controller = BEN
 add_core = BEN
-trade_goods = timber
+trade_goods = oilseed_crops
 life_rating = 35

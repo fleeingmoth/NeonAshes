@@ -127,9 +127,6 @@ FGU = "countries/French Guiana.txt"
 #CBB = "countries/Caribbean.txt"
 #NSP = "countries/New Spain.txt" #For Mexico+Cent.Am+Caribbean tag, loc key will be different
 #GCO = "countries/Gran Colombia.txt"
-#VEN = "countries/Venezuela.txt"
-#CLM = "countries/Colombia.txt" #Formable for Ecuador too
-#PEU = "countries/Peru.txt" #also Ecuador-formable
 #BOL = "countries/Bolivia.txt"
 #PBC = "countries/Peru-Bolivia.txt"
 #ANN = "countries/Andinea.txt" #Andes formable, can annex Chile by invasion decision (no cores)
@@ -243,7 +240,7 @@ BEN = "countries/Benin.txt"
 GHA = "countries/Ghana.txt"
 TOG = "countries/Togo.txt"
 NGE = "countries/Niger.txt" #4th-next capital, 2000. Liberian, Guinea-Bissau, Sierra Leone revolt 
-#SIE = "countries/Sierra Leone.txt"
+SIE = "countries/Sierra Leone.txt"
 #GIB = "countries/Guinea-Bissau.txt"
 GUI = "countries/Guinea.txt"
 TUA = "countries/Tuareg Confederation.txt"
@@ -255,9 +252,9 @@ AZA = "countries/Azawad.txt"
 TRZ = "countries/Trarza.txt"
 SAR = "countries/Sahrawi.txt"
 
-#NIG = "countries/Nigeria.txt" #at start, Oyo + some of west Sokotoland, next to Benin.
-#BIA = "countries/Biafra.txt"
-#HAU = "countries/Hausaland.txt" #puppet under Biafra
+NIG = "countries/Nigeria.txt" #at start, Oyo + some of west Sokotoland, next to Benin.
+BIA = "countries/Biafra.txt"
+HAU = "countries/Hausaland.txt" #puppet under Biafra
 #CMR = "countries/Cameroon.txt" #Ambazonia is under Biafra
 #Tags for OAU military cliques?
 

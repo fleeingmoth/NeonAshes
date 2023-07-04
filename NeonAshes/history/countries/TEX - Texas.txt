@@ -1,5 +1,5 @@
 capital = 133 #Austin
-primary_culture = yankee
+#primary_culture = yankee
 religion = protestant
 government = democracy
 plurality = 25.0

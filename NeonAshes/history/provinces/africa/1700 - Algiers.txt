@@ -2,5 +2,5 @@ owner = FRR
 controller = FRR
 add_core = FRR
 add_core = ALG
-trade_goods = timber
+trade_goods = fruit
 life_rating = 35

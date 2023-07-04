@@ -1,2 +1,6 @@
+owner = HAU
+controller = HAU
+add_core = HAU
+add_core = NIG
 trade_goods = timber
 life_rating = 35

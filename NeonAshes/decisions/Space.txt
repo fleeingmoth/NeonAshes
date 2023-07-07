@@ -35,4 +35,172 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	rocket_site_churchill = { # Reclaim the Churchill Rocket Research Range
+		news = yes
+		news_desc_long = "rocket_site_churchill_NEWS_LONG"
+		news_desc_medium = "rocket_site_churchill_NEWS_MEDIUM"
+		news_desc_short = "rocket_site_churchill_NEWS_SHORT"
+		picture = spaceport_churchill_smallpic
+
+		potential = {
+			owns = 37		# Churchill, Manitoba
+			37 = { has_province_modifier = abandoned_rocket_launch_site }
+		}
+		allow = {
+			controls = 37		# No rebels or occupations
+			suborbital_flight = 1	# We know how to use its resources
+		}
+		effect = {			# Remove modifier and trigger event
+			37 = { remove_province_modifier = abandoned_rocket_launch_site }
+			country_event = {
+				id = 7450
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.1 }
+	}
+	rocket_site_white_sands = { # Reclaim the White Sands Missile Range
+		news = yes
+		news_desc_long = "rocket_site_white_sands_NEWS_LONG"
+		news_desc_medium = "rocket_site_white_sands_NEWS_MEDIUM"
+		news_desc_short = "rocket_site_white_sands_NEWS_SHORT"
+		picture = spaceport_white_sands_smallpic
+
+		potential = {
+			owns = 105		# Las Cruces, NM
+			105 = { has_province_modifier = abandoned_rocket_launch_site }
+		}
+		allow = {
+			controls = 105		# No rebels or occupations
+			suborbital_flight = 1	# We know how to use its resources
+		}
+		effect = {			# Remove modifier and trigger event
+			105 = { remove_province_modifier = abandoned_rocket_launch_site }
+			country_event = {
+				id = 7451
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.1 }
+	}
+	rocket_site_barking_sands = { # Reclaim the Barking Sands Missile Range
+		news = yes
+		news_desc_long = "rocket_site_barking_sands_NEWS_LONG"
+		news_desc_medium = "rocket_site_barking_sands_NEWS_MEDIUM"
+		news_desc_short = "rocket_site_barking_sands_NEWS_SHORT"
+		picture = spaceport_barking_sands_smallpic
+
+		potential = {
+			owns = 3267		# Kawai, HI
+			3267 = { has_province_modifier = abandoned_rocket_launch_site }
+		}
+		allow = {
+			controls = 3267		# No rebels or occupations
+			suborbital_flight = 1	# We know how to use its resources
+		}
+		effect = {			# Remove modifier and trigger event
+			3267 = { remove_province_modifier = abandoned_rocket_launch_site }
+			country_event = {
+				id = 7452
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.1 }
+	}
+	rocket_site_vandenberg = { # Reclaim the Vandenberg Air Force Base
+		news = yes
+		news_desc_long = "rocket_site_vandenberg_NEWS_LONG"
+		news_desc_medium = "rocket_site_vandenberg_NEWS_MEDIUM"
+		news_desc_short = "rocket_site_vandenberg_NEWS_SHORT"
+		picture = spaceport_vandenberg_smallpic
+
+		potential = {
+			owns = 89		# Los Angeles, CA
+			89 = { has_province_modifier = abandoned_rocket_launch_site }
+		}
+		allow = {
+			controls = 89		# No rebels or occupations
+			suborbital_flight = 1	# We know how to use its resources
+		}
+		effect = {			# Remove modifier and trigger event
+			89 = { remove_province_modifier = abandoned_rocket_launch_site }
+			country_event = {
+				id = 7453
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.1 }
+	}
+	rocket_site_green_river = { # Reclaim the Green River Launch Complex
+		news = yes
+		news_desc_long = "rocket_site_green_river_NEWS_LONG"
+		news_desc_medium = "rocket_site_green_river_NEWS_MEDIUM"
+		news_desc_short = "rocket_site_green_river_NEWS_SHORT"
+		picture = spaceport_green_river_smallpic
+
+		potential = {
+			owns = 99		# Moab, UT
+			99 = { has_province_modifier = abandoned_rocket_launch_site }
+		}
+		allow = {
+			controls = 99		# No rebels or occupations
+			suborbital_flight = 1	# We know how to use its resources
+		}
+		effect = {			# Remove modifier and trigger event
+			99 = { remove_province_modifier = abandoned_rocket_launch_site }
+			country_event = {
+				id = 7454
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.1 }
+	}
+	rocket_site_cape_canaveral = { # Reclaim the Cape Canaveral Air Force Station
+		news = yes
+		news_desc_long = "rocket_site_cape_canaveral_NEWS_LONG"
+		news_desc_medium = "rocket_site_cape_canaveral_NEWS_MEDIUM"
+		news_desc_short = "rocket_site_cape_canaveral_NEWS_SHORT"
+		picture = spaceport_cape_canaveral_smallpic
+
+		potential = {
+			owns = 3249		# Orlando, FL
+			3249 = { has_province_modifier = abandoned_rocket_launch_site }
+		}
+		allow = {
+			controls = 3249		# No rebels or occupations
+			suborbital_flight = 1	# We know how to use its resources
+		}
+		effect = {			# Remove modifier and trigger event
+			3249 = { remove_province_modifier = abandoned_rocket_launch_site }
+			country_event = {
+				id = 7455
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.1 }
+	}
+	rocket_site_wallops = { # Reclaim the Wallops Flight Facility
+		news = yes
+		news_desc_long = "rocket_site_wallops_NEWS_LONG"
+		news_desc_medium = "rocket_site_wallops_NEWS_MEDIUM"
+		news_desc_short = "rocket_site_wallops_NEWS_SHORT"
+		picture = spaceport_wallops_smallpic
+
+		potential = {
+			owns = 219		# Baltimore, MD
+			219 = { has_province_modifier = abandoned_rocket_launch_site }
+		}
+		allow = {
+			controls = 219		# No rebels or occupations
+			suborbital_flight = 1	# We know how to use its resources
+		}
+		effect = {			# Remove modifier and trigger event
+			219 = { remove_province_modifier = abandoned_rocket_launch_site }
+			country_event = {
+				id = 7456
+				days = 0
+			}
+		}
+		ai_will_do = { factor = 0.1 }
+	}
 }

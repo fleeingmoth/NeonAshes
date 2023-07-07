@@ -335,3 +335,454 @@ country_event = {
 		clergymen = { consciousness = 0.25 }	# Scientists get upset
 	}
 }
+
+### Missile Ranges/Launch Sites Reclamation ###
+
+country_event = {
+	id = 7450
+	title = "EVT_7450_NAME" # Reclamation of the Churchill Rocket Research Range
+	desc = "EVT_7450_DESC"
+	picture = "rocket_launch_site_churchill_pic"
+	fire_only_once = yes
+	is_triggered_only = yes	# Through decision
+
+	option = {
+		name = "EVT_7450_OPTA"	# Integrate it as a R&D center for our space agency.
+		37 = {			# Churchill, Manitoba
+			add_province_modifier = {
+				name = research_park
+				duration = -1
+			}
+		}
+		years_of_research = 0.05
+	}
+	option = {
+		name = "EVT_7450_OPTB"	# Repurpose its facilities into a regional manufacturing hub.
+		37 = {			# Churchill, Manitoba
+			add_province_modifier = {
+				name = industrial_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7450_OPTC"	# Transform the area into a national park.
+		37 = {			# Churchill, Manitoba
+			add_province_modifier = {
+				name = national_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7450_OPTD"	# Hand over to local state authorities to use as they see fit.
+		37 = {			# Churchill, Manitoba
+			any_pop = {
+				militancy = -3
+				consciousness = -3
+			}
+		}
+		ENG_36 = {		# Manitoba
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7450_OPTE"	# Scrap it, sell the land and equipment to the highest bidder.
+		treasury = 50000
+		rare_earths = 20
+		other_metals = 20
+		copper = 30
+		steel = 30
+		construction_materials = 50
+		polymers_and_plastics = 50
+		electronic_components = 10
+		aluminum = 50
+	}
+}
+country_event = {
+	id = 7451
+	title = "EVT_7451_NAME" # Reclamation of the White Sands Missile Range
+	desc = "EVT_7451_DESC"
+	picture = "events_default"
+	fire_only_once = yes
+	is_triggered_only = yes	# Through decision
+
+	option = {
+		name = "EVT_7451_OPTA"	# Integrate it as a R&D center for our space agency.
+		105 = {			# Las Cruces, NM
+			add_province_modifier = {
+				name = research_park
+				duration = -1
+			}
+		}
+		years_of_research = 0.05
+	}
+	option = {
+		name = "EVT_7451_OPTB"	# Repurpose its facilities into a regional manufacturing hub.
+		105 = {			# Las Cruces, NM
+			add_province_modifier = {
+				name = industrial_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7451_OPTC"	# Transform the area into a national park.
+		105 = {			# Las Cruces, NM
+			add_province_modifier = {
+				name = national_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7451_OPTD"	# Hand over to local state authorities to use as they see fit.
+		105 = {			# Las Cruces, NM
+			any_pop = {
+				militancy = -3
+				consciousness = -3
+			}
+		}
+		MEX_103 = {		# New Mexico
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7451_OPTE"	# Scrap it, sell the land and equipment to the highest bidder.
+		treasury = 50000
+		rare_earths = 20
+		other_metals = 20
+		copper = 30
+		steel = 30
+		construction_materials = 50
+		polymers_and_plastics = 50
+		electronic_components = 10
+		aluminum = 50
+	}
+}
+country_event = {
+	id = 7452
+	title = "EVT_7452_NAME" # Reclamation of the Barking Sands Missile Range
+	desc = "EVT_7452_DESC"
+	picture = "events_default"
+	fire_only_once = yes
+	is_triggered_only = yes	# Through decision
+
+	option = {
+		name = "EVT_7452_OPTA"	# Integrate it as a R&D center for our space agency.
+		3267 = {			# Kawai, HI
+			add_province_modifier = {
+				name = research_park
+				duration = -1
+			}
+		}
+		years_of_research = 0.05
+	}
+	option = {
+		name = "EVT_7452_OPTB"	# Repurpose its facilities into a regional manufacturing hub.
+		3267 = {			# Kawai, HI
+			add_province_modifier = {
+				name = industrial_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7452_OPTC"	# Transform the area into a national park.
+		3267 = {			# Kawai, HI
+			add_province_modifier = {
+				name = national_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7452_OPTD"	# Hand over to local state authorities to use as they see fit.
+		3267 = {			# Kawai, HI
+			any_pop = {
+				militancy = -3
+				consciousness = -3
+			}
+		}
+		MEX_103 = {		# New Mexico
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7452_OPTE"	# Scrap it, sell the land and equipment to the highest bidder.
+		treasury = 50000
+		rare_earths = 20
+		other_metals = 20
+		copper = 30
+		steel = 30
+		construction_materials = 50
+		polymers_and_plastics = 50
+		electronic_components = 10
+		aluminum = 50
+	}
+}
+country_event = {
+	id = 7453
+	title = "EVT_7453_NAME" # Reclamation of the Vandenberg Air Force Base
+	desc = "EVT_7453_DESC"
+	picture = "events_default"
+	fire_only_once = yes
+	is_triggered_only = yes	# Through decision
+
+	option = {
+		name = "EVT_7453_OPTA"	# Integrate it as a R&D center for our space agency.
+		89 = {			# Los Angeles, CA
+			add_province_modifier = {
+				name = research_park
+				duration = -1
+			}
+		}
+		years_of_research = 0.05
+	}
+	option = {
+		name = "EVT_7453_OPTB"	# Repurpose its facilities into a regional manufacturing hub.
+		89 = {			# Los Angeles, CA
+			add_province_modifier = {
+				name = industrial_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7453_OPTC"	# Transform the area into a national park.
+		89 = {			# Los Angeles, CA
+			add_province_modifier = {
+				name = national_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7453_OPTD"	# Hand over to local state authorities to use as they see fit.
+		89 = {			# Los Angeles, CA
+			any_pop = {
+				militancy = -3
+				consciousness = -3
+			}
+		}
+		MEX_103 = {		# New Mexico
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7453_OPTE"	# Scrap it, sell the land and equipment to the highest bidder.
+		treasury = 50000
+		rare_earths = 20
+		other_metals = 20
+		copper = 30
+		steel = 30
+		construction_materials = 50
+		polymers_and_plastics = 50
+		electronic_components = 10
+		aluminum = 50
+	}
+}
+country_event = {
+	id = 7454
+	title = "EVT_7454_NAME" # Reclamation of the Green River Launch Complex
+	desc = "EVT_7454_DESC"
+	picture = "events_default"
+	fire_only_once = yes
+	is_triggered_only = yes	# Through decision
+
+	option = {
+		name = "EVT_7454_OPTA"	# Integrate it as a R&D center for our space agency.
+		99 = {			# Moab, UT
+			add_province_modifier = {
+				name = research_park
+				duration = -1
+			}
+		}
+		years_of_research = 0.05
+	}
+	option = {
+		name = "EVT_7454_OPTB"	# Repurpose its facilities into a regional manufacturing hub.
+		99 = {			# Moab, UT
+			add_province_modifier = {
+				name = industrial_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7454_OPTC"	# Transform the area into a national park.
+		99 = {			# Moab, UT
+			add_province_modifier = {
+				name = national_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7454_OPTD"	# Hand over to local state authorities to use as they see fit.
+		99 = {			# Moab, UT
+			any_pop = {
+				militancy = -3
+				consciousness = -3
+			}
+		}
+		MEX_103 = {		# New Mexico
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7454_OPTE"	# Scrap it, sell the land and equipment to the highest bidder.
+		treasury = 50000
+		rare_earths = 20
+		other_metals = 20
+		copper = 30
+		steel = 30
+		construction_materials = 50
+		polymers_and_plastics = 50
+		electronic_components = 10
+		aluminum = 50
+	}
+}
+country_event = {
+	id = 7455
+	title = "EVT_7455_NAME" # Reclamation of the Cape Canaveral Air Force Station
+	desc = "EVT_7455_DESC"
+	picture = "events_default"
+	fire_only_once = yes
+	is_triggered_only = yes	# Through decision
+
+	option = {
+		name = "EVT_7455_OPTA"	# Integrate it as a R&D center for our space agency.
+		3249 = {			# Orlando, FL
+			add_province_modifier = {
+				name = research_park
+				duration = -1
+			}
+		}
+		years_of_research = 0.05
+	}
+	option = {
+		name = "EVT_7455_OPTB"	# Repurpose its facilities into a regional manufacturing hub.
+		3249 = {			# Orlando, FL
+			add_province_modifier = {
+				name = industrial_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7455_OPTC"	# Transform the area into a national park.
+		3249 = {			# Orlando, FL
+			add_province_modifier = {
+				name = national_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7455_OPTD"	# Hand over to local state authorities to use as they see fit.
+		3249 = {			# Orlando, FL
+			any_pop = {
+				militancy = -3
+				consciousness = -3
+			}
+		}
+		MEX_103 = {		# New Mexico
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7455_OPTE"	# Scrap it, sell the land and equipment to the highest bidder.
+		treasury = 50000
+		rare_earths = 20
+		other_metals = 20
+		copper = 30
+		steel = 30
+		construction_materials = 50
+		polymers_and_plastics = 50
+		electronic_components = 10
+		aluminum = 50
+	}
+}
+country_event = {
+	id = 7456
+	title = "EVT_7456_NAME" # Reclamation of the Wallops Flight Facility
+	desc = "EVT_7456_DESC"
+	picture = "events_default"
+	fire_only_once = yes
+	is_triggered_only = yes	# Through decision
+
+	option = {
+		name = "EVT_7456_OPTA"	# Integrate it as a R&D center for our space agency.
+		219 = {			# Baltimore, MD
+			add_province_modifier = {
+				name = research_park
+				duration = -1
+			}
+		}
+		years_of_research = 0.05
+	}
+	option = {
+		name = "EVT_7456_OPTB"	# Repurpose its facilities into a regional manufacturing hub.
+		219 = {			# Baltimore, MD
+			add_province_modifier = {
+				name = industrial_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7456_OPTC"	# Transform the area into a national park.
+		219 = {			# Baltimore, MD
+			add_province_modifier = {
+				name = national_park
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7456_OPTD"	# Hand over to local state authorities to use as they see fit.
+		219 = {			# Baltimore, MD
+			any_pop = {
+				militancy = -3
+				consciousness = -3
+			}
+		}
+		MEX_103 = {		# New Mexico
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+	}
+	option = {
+		name = "EVT_7456_OPTE"	# Scrap it, sell the land and equipment to the highest bidder.
+		treasury = 50000
+		rare_earths = 20
+		other_metals = 20
+		copper = 30
+		steel = 30
+		construction_materials = 50
+		polymers_and_plastics = 50
+		electronic_components = 10
+		aluminum = 50
+	}
+}

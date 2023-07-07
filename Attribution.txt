@@ -31,7 +31,7 @@ Sound Effects
  Misc_revolt (sfx for revolts): "Startup Sound FX #1 (Roland MT-32)" by Beetlemuse. CC0. https://freesound.org/people/Beetlemuse/sounds/554482
  turning_page (sfx of news): "Radio_beep.wav", by AlienXXX. CC BY 3.0. https://freesound.org/people/AlienXXX/sounds/259710/
  UI_CavalrySelect (sfx when selecting cavalry (armored) land units): "GASP_Lock and Load.wav" by Rob Marion. CC0. https://freesound.org/people/Rob_Marion/sounds/542003/
- UI_LandUnitFinished (sfx for landn unit construction): "GASP_Lock Interact_4.wav" by Rob Marion. CC0. https://freesound.org/people/Rob_Marion/sounds/542006/
+ UI_LandUnitFinished (sfx for land unit construction): "GASP_Lock Interact_4.wav" by Rob Marion. CC0. https://freesound.org/people/Rob_Marion/sounds/542006/
  UI_TechnologyFinished (sfx of completed techs): "Simple Computer Beep 1" by Erokia. CC BY 3.0. https://freesound.org/people/Erokia/sounds/417141
 
 Music by Timecrawler 82 - https://timecrawler82.com
@@ -484,6 +484,22 @@ Decisions Images
   Space Agency Reorganization
    "1970 Mission Control Apollo 13.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:1970_Mission_Control_Apollo_13.jpg
 
+  Rocket Test Sites
+   Canadian Prairies - Churchill
+    "Rocket launch Churchill Manitoba circa 1965 07.jpg" by Clyde L. Nickerson (Warrenthornickerson). CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Rocket_launch_Churchill_Manitoba_circa_1965_07.jpg
+   ASW - White Sands
+    "Delta Clipper DC-X first test launch.png" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Delta_Clipper_DC-X_first_test_launch.png
+   South California - Vandenberg
+    "Landsat 8 launch 2013-02-11 (1).jpg" by DLR/Thilo Kranz. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Landsat_8_launch_2013-02-11_(1).jpg
+   Hawaii - Barking Sands
+    "Missile launch from Pacific Missile Range.jpg" by the U.S. Navy. Public domain. https://commons.wikimedia.org/wiki/File:Missile_launch_from_Pacific_Missile_Range.jpg
+   Intermountain - Green River
+    "Athena - Green River launch.jpg" by the U.S. Army. Public domain. https://commons.wikimedia.org/wiki/File:Athena_-_Green_River_launch.jpg
+   Florida - Cape Canaveral
+    "Saturn SA3 with rain cover on launch pad.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Saturn_SA3_with_rain_cover_on_launch_pad.jpg
+   Mid-Atlantic - Wallops
+    "Antares A-ONE launch.1..jpg" by Bill Ingalls, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Antares_A-ONE_launch.1..jpg
+
  Economy
   Money Printing
    "RIAN archive 978876 Printing banknotes at Goznak factory in Perm.jpg" RIA Novosti archive, image #978876, by Alexey Kudenko / Алексей Куденко. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:RIAN_archive_978876_Printing_banknotes_at_Goznak_factory_in_Perm.jpg
@@ -491,6 +507,8 @@ Decisions Images
    "L1018082 (10480830434).jpg" by the Federal Reserve of the United States. Public domain. https://commons.wikimedia.org/wiki/File:L1018082_(10480830434).jpg
   Fiscal Policy
    "Aerial view of the U.S. Capitol in the foreground toward National Mall 15993v.jpg" by Carol M. Highsmith, United States Library of Congress. Public domain. https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_U.S._Capitol_in_the_foreground_toward_National_Mall_15993v.jpg
+  Increase Economic Interconnectedness
+   "https://commons.wikimedia.org/wiki/File:Construction,_Kim_Seng,_Singapore_(3410346147).jpg" by yeowatzup. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Construction,_Kim_Seng,_Singapore_(3410346147).jpg
   Factory (Machine Parts) Scavenging
    "Abandoned Chertal steel factory in Oupeye, Belgium (DSCF3315).jpg" by Trougnouf. CC BY-4.0. https://commons.wikimedia.org/wiki/File:Abandoned_Chertal_steel_factory_in_Oupeye,_Belgium_(DSCF3315).jpg
   Building (Construction Materials) Scavenging
@@ -673,6 +691,23 @@ Events Images
    "Apollo 15 CSM Endeavour during rendezvous.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Apollo_15_CSM_Endeavour_during_rendezvous.jpg
   Lunar Landing
    "Aldrin Apollo 11.jpg" by Neil A. Armstrong, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11.jpg
+
+  Rocket Test Sites
+   Canadian Prairies - Churchill
+    "Rocket launch Churchill Manitoba circa 1965 07.jpg" by Clyde L. Nickerson (Warrenthornickerson). CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Rocket_launch_Churchill_Manitoba_circa_1965_07.jpg
+   ASW - White Sands
+    "Delta Clipper DC-X first test launch.png" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Delta_Clipper_DC-X_first_test_launch.png
+   South California - Vandenberg
+    "Landsat 8 launch 2013-02-11 (1).jpg" by DLR/Thilo Kranz. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Landsat_8_launch_2013-02-11_(1).jpg
+   Hawaii - Barking Sands
+    "Missile launch from Pacific Missile Range.jpg" by the U.S. Navy. Public domain. https://commons.wikimedia.org/wiki/File:Missile_launch_from_Pacific_Missile_Range.jpg
+   Intermountain - Green River
+    "Athena - Green River launch.jpg" by the U.S. Army. Public domain. https://commons.wikimedia.org/wiki/File:Athena_-_Green_River_launch.jpg
+   Florida - Cape Canaveral
+    "Saturn SA3 with rain cover on launch pad.jpg" by NASA. Public domain. https://commons.wikimedia.org/wiki/File:Saturn_SA3_with_rain_cover_on_launch_pad.jpg
+   Mid-Atlantic - Wallops
+    "Antares A-ONE launch.1..jpg" by Bill Ingalls, NASA. Public domain. https://commons.wikimedia.org/wiki/File:Antares_A-ONE_launch.1..jpg
+
 
  Country Pictures
   British Columbia

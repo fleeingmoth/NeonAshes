@@ -1,0 +1,180 @@
+political_decisions = {
+	increase_interconnectedness_lvl_0 = {
+		news = yes
+		news_desc_long = "increase_interconnectedness_lvl_0_NEWS_LONG"
+		news_desc_medium = "increase_interconnectedness_lvl_0_NEWS_MEDIUM"
+		news_desc_short = "increase_interconnectedness_lvl_0_NEWS_SHORT"
+		picture = increase_interconnectedness_smallpic
+		potential = { has_country_modifier = survivalist_communities }
+		allow = {
+			NOT = { num_of_revolts = 1 }			# Rebels control no land
+			NOT = { national_provinces_occupied = 0.15 }	# Minimal foreign occupation
+			NOT = { has_country_modifier = increasing_interconnectedness }
+			NOT = { has_country_modifier = decreasing_interconnectedness }
+		}
+		effect = {
+			remove_country_modifier = survivalist_communities
+			add_country_modifier = {			# Go up one level
+				name = autarkic_communities
+				duration = -1
+			}
+			add_country_modifier = {			# Three months cooldown
+				name = increasing_interconnectedness
+				duration = 90
+			}
+		}
+		ai_will_do = { factor = 0.1 } # Yes, with a bit of variability
+	}
+	increase_interconnectedness_lvl_1 = {
+		news = yes
+		news_desc_long = "increase_interconnectedness_lvl_1_NEWS_LONG"
+		news_desc_medium = "increase_interconnectedness_lvl_1_NEWS_MEDIUM"
+		news_desc_short = "increase_interconnectedness_lvl_1_NEWS_SHORT"
+		picture = increase_interconnectedness_smallpic
+		potential = { has_country_modifier = autarkic_communities }
+		allow = {
+			NOT = { num_of_revolts = 1 }			# Rebels control no land
+			NOT = { national_provinces_occupied = 0.15 }	# Minimal foreign occupation
+			NOT = { has_country_modifier = increasing_interconnectedness }
+			NOT = { has_country_modifier = decreasing_interconnectedness }
+			OR = {	# Industrial Requirements
+				fossil_fuel_power = 1
+				modern_manufacturing = 1
+				polymers = 1
+				modern_transportation = 1
+				modern_medicine = 1
+			}
+		}
+		effect = {
+			remove_country_modifier = autarkic_communities
+			add_country_modifier = {			# Go up one level
+				name = frontier_communities
+				duration = -1
+			}
+			add_country_modifier = {			# Six months cooldown
+				name = increasing_interconnectedness
+				duration = 180
+			}
+		}
+		ai_will_do = { factor = 0.1 } # Yes, with a bit of variability
+	}
+	increase_interconnectedness_lvl_2 = {
+		news = yes
+		news_desc_long = "increase_interconnectedness_lvl_2_NEWS_LONG"
+		news_desc_medium = "increase_interconnectedness_lvl_2_NEWS_MEDIUM"
+		news_desc_short = "increase_interconnectedness_lvl_2_NEWS_SHORT"
+		picture = increase_interconnectedness_smallpic
+		potential = { has_country_modifier = frontier_communities }
+		allow = {
+			NOT = { num_of_revolts = 1 }			# Rebels control no land
+			NOT = { national_provinces_occupied = 0.15 }	# Minimal foreign occupation
+			NOT = { has_country_modifier = increasing_interconnectedness }
+			NOT = { has_country_modifier = decreasing_interconnectedness }
+			OR = {	# Economic Requirements
+				modern_banking = 1
+				fiat_currency = 1
+				new_classical_economics = 1
+				modern_corporate_structure = 1
+			}
+			OR = {	# Cultural Requirements
+				broadcasting = 1
+				realism = 1
+			}
+			OR = {	# Industrial Requirements
+				fossil_fuel_power = 1
+				modern_manufacturing = 1
+				polymers = 1
+				modern_transportation = 1
+				modern_medicine = 1
+			}
+		}
+		effect = {
+			remove_country_modifier = frontier_communities
+			add_country_modifier = {			# Go up one level
+				name = decentralized_communities
+				duration = -1
+			}
+			add_country_modifier = {			# One year cooldown
+				name = increasing_interconnectedness
+				duration = 365
+			}
+		}
+		ai_will_do = { factor = 0.1 } # Yes, with a bit of variability
+	}
+	increase_interconnectedness_lvl_3 = {
+		news = yes
+		news_desc_long = "increase_interconnectedness_lvl_3_NEWS_LONG"
+		news_desc_medium = "increase_interconnectedness_lvl_3_NEWS_MEDIUM"
+		news_desc_short = "increase_interconnectedness_lvl_3_NEWS_SHORT"
+		picture = increase_interconnectedness_smallpic
+		potential = { has_country_modifier = decentralized_communities }
+		allow = {
+			NOT = { num_of_revolts = 1 }			# Rebels control no land
+			NOT = { national_provinces_occupied = 0.15 }	# Minimal foreign occupation
+			NOT = { has_country_modifier = increasing_interconnectedness }
+			NOT = { has_country_modifier = decreasing_interconnectedness }
+			modern_banking = 1		# Economic Requirements
+			fiat_currency = 1
+			OR = {
+				new_classical_economics = 1
+				modern_corporate_structure = 1
+			}
+			OR = {				# Cultural Requirements
+				broadcasting = 1
+				realism = 1
+			}
+			modern_transportation = 1	# Industrial Requirements
+			OR = {
+				fossil_fuel_power = 1
+				modern_manufacturing = 1
+				polymers = 1
+				modern_medicine = 1
+			}
+		}
+		effect = {
+			remove_country_modifier = decentralized_communities
+			add_country_modifier = {			# Go up one level
+				name = semi_centralized_communities
+				duration = -1
+			}
+			add_country_modifier = {			# Two year cooldown
+				name = increasing_interconnectedness
+				duration = 730
+			}
+		}
+		ai_will_do = { factor = 0.1 } # Yes, with a bit of variability
+	}
+	increase_interconnectedness_lvl_4 = {
+		news = yes
+		news_desc_long = "increase_interconnectedness_lvl_4_NEWS_LONG"
+		news_desc_medium = "increase_interconnectedness_lvl_4_NEWS_MEDIUM"
+		news_desc_short = "increase_interconnectedness_lvl_4_NEWS_SHORT"
+		picture = increase_interconnectedness_smallpic
+		potential = { has_country_modifier = semi_centralized_communities }
+		allow = {
+			NOT = { num_of_revolts = 1 }			# Rebels control no land
+			NOT = { national_provinces_occupied = 0.15 }	# Minimal foreign occupation
+			NOT = { has_country_modifier = increasing_interconnectedness }
+			NOT = { has_country_modifier = decreasing_interconnectedness }
+			modern_banking = 1		# Economic Requirements
+			fiat_currency = 1
+			new_classical_economics = 1
+			modern_corporate_structure = 1
+			broadcasting = 1		# Cultural Requirements
+			realism = 1
+			fossil_fuel_power = 1		# Industrial Requirements
+			modern_manufacturing = 1
+			polymers = 1
+			modern_transportation = 1
+			modern_medicine = 1
+		}
+		effect = {
+			remove_country_modifier = semi_centralized_communities	# That's it!
+			add_country_modifier = {				# Four year cooldown
+				name = increasing_interconnectedness
+				duration = 1460
+			}
+		}
+		ai_will_do = { factor = 0.1 } # Yes, with a bit of variability
+	}
+}

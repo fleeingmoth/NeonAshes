@@ -434,6 +434,15 @@ semi_centralized_communities = {
 	mobilization_economy_impact = -0.10		# Less of an impact
 	icon = 12
 }
+increasing_interconnectedness = {
+	prestige = 0.01					# We're improving!
+	administrative_efficiency_modifier = -0.05	# Growing pains
+	icon = 8
+}
+decreasing_interconnectedness = {
+	prestige = -0.01				# We're decaying!
+	icon = 9
+}
 
 ### ### Arctic Events ### ###
 
@@ -1198,4 +1207,44 @@ resource_retooling = {				# Retooling for New Resource
 	icon = 13
 }
 
-### ### Research, Labs, and Rocket Sites ### ###
+### Megasites ###
+
+abandoned_rocket_launch_site = { # Abandoned Rocket Launch Site
+	icon = 7
+	local_RGO_output = -0.01		# It annoyingly occupies some prime real estate
+}
+research_park = { # Science and Technology Park
+	goods_demand = 0.01			# Bit higher consumption
+	immigrant_attract = 0.10		# Attracting people
+	local_factory_throughput = 0.05		# Big biz boost
+	local_artisan_output = 0.05		# Small biz boost
+	pop_consciousness_modifier = 0.02	# Scientists think a lot
+	icon = 5
+}
+industrial_park = { # Major Industrial Park
+	local_RGO_output = 0.10			# Work it harder
+	local_factory_throughput = 0.10		# Make it better
+	local_artisan_output = 0.10		# Do it faster
+	immigrant_attract = 0.05		# Makes us stronger
+	pop_consciousness_modifier = 0.01	# People talk a bit
+	icon = 13
+}
+national_park = { # National Park
+	local_RGO_throughput = -0.05		# Smaller facilities
+	local_factory_throughput = -0.05	# Smaller factories
+	pop_militancy_modifier = -0.02		# Touching grass
+	icon = 3
+}
+amusement_park = { # Amusement Park
+	local_RGO_throughput = -0.05		# Smaller facilities
+	local_factory_throughput = -0.05	# Smaller factories
+	pop_consciousness_modifier = -0.02	# Distracting from life's problems
+	pop_militancy_modifier = -0.02		# Touching grass
+	icon = 17
+}
+tourist_attraction = { # Major Tourist Attraction
+	immigrant_attract = 0.10		# It's pretty over here
+	pop_consciousness_modifier = 0.01	# Makes you think about what it all means
+	pop_militancy_modifier = -0.01		# It's too nice to fight over
+	icon = 9
+}

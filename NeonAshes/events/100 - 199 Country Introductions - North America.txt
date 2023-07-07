@@ -49,6 +49,12 @@ country_event = { # Canadian Prairies
 			id = 10200
 			days = 0
 		}
+		37 = {
+			add_province_modifier = {
+				name = abandoned_rocket_launch_site
+				duration = -1
+			}
+		}
 	}
 }
 country_event = { # Canadian Maritimes

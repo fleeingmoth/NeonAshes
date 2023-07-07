@@ -1,0 +1,19 @@
+name = "Restoration of Order to Uganda"
+1979.12.31 = {
+	add_attacker = EAF
+	add_defender = UGA
+	war_goal = {
+		casus_belli = annex_core_country
+		actor = EAF
+		receiver = UGA
+	}
+	war_goal = {
+		casus_belli = status_quo
+		actor = UGA
+		receiver = EAF
+	}
+}
+1982.5.14 = {
+	rem_attacker = EAF
+	rem_defender = UGA
+}

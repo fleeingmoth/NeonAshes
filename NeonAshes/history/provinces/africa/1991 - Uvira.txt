@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = ZAS
+controller = ZAS
+add_core = ZAS
+add_core = ZAI
+trade_goods = iron
 life_rating = 35

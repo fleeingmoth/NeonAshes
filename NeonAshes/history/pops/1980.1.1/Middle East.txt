@@ -1,0 +1,469 @@
+###Egypt ###
+1745 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 1253746
+	}
+	artisans = {
+		culture = egyptian
+		religion = catholic
+		size = 231514
+	}
+	craftsmen = {
+		culture = egyptian
+		religion = catholic
+		size = 16871
+	}
+	soldiers = {
+		culture = egyptian
+		religion = catholic
+		size = 11078
+	}
+}
+1749 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 81705
+	}
+}
+1750 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 1086223
+	}
+}
+1747 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 717740
+	}
+}
+1751 = {#Alexandria
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 674820
+	}
+	craftsmen = {
+		culture = egyptian
+		religion = catholic
+		size = 54511
+	}
+}
+1746 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 635348
+	}
+}
+1748 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 875117
+	}
+}
+1755 = {#Suez
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 236055
+	}
+}
+1756 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 42876
+	}
+}
+1757 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 7247
+	}
+}
+1765 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 386011
+	}
+}
+1763 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 360745
+	}
+}
+1764 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 662010
+	}
+}
+1762 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 555758
+	}
+}
+2559 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 613783
+	}
+}
+1769 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 494560
+	}
+}
+1767 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 68518
+	}
+}
+1768 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 91536
+	}
+}
+1766 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 71501
+	}
+}
+1758 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 2434
+	}
+}
+1760 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 12441
+	}
+}
+1761 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 13584
+	}
+}
+1770 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 9143
+	}
+}
+1771 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 8481
+	}
+}
+1772 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 4998
+	}
+}
+1753 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 14211
+	}
+}
+1752 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 10871
+	}
+}
+1754 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 3543
+	}
+}
+1759 = {#
+	farmers = {
+		culture = egyptian
+		religion = catholic
+		size = 11516
+	}
+}
+#palestine
+920 = {#
+	farmers = {
+		culture = palestinian
+		religion = catholic
+		size = 42147
+	}
+}
+921 = {#
+	farmers = {
+		culture = israeli
+		religion = catholic
+		size = 119675
+	}
+}
+917 = {#
+	farmers = {
+		culture = israeli
+		religion = catholic
+		size = 118225
+	}
+	farmers = {
+		culture = palestinian
+		religion = catholic
+		size = 183025
+	}
+}
+919 = {#
+	farmers = {
+		culture = israeli
+		religion = catholic
+		size = 270975
+	}
+}
+918 = {#
+	farmers = {
+		culture = palestinian
+		religion = catholic
+		size = 382921
+	}
+}
+916 = {#
+	farmers = {
+		culture = israeli
+		religion = catholic
+		size = 307825
+	}
+}
+915 = {#
+	farmers = {
+		culture = lebanese
+		religion = catholic
+		size = 68734
+	}
+}
+913 = {#
+	farmers = {
+		culture = lebanese
+		religion = catholic
+		size = 229090
+	}
+}
+914 = {#
+	farmers = {
+		culture = lebanese
+		religion = catholic
+		size = 100357
+	}
+}
+912 = {#
+	farmers = {
+		culture = lebanese
+		religion = catholic
+		size = 55968
+	}
+}
+#syria
+905 = {#
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 249418
+	}
+}
+900 = {#
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 1
+	}
+}
+897 = {#
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 614552
+	}
+}
+904 = {#
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 184113
+	}
+}
+901 = {#
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 167439
+	}
+}
+907 = {#
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 102282
+	}
+}
+903 = {#
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 190944
+	}
+	craftsmen = {
+		culture = syrian
+		religion = catholic
+		size = 12831
+	}
+}
+902 = {#
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 320083
+	}
+}
+906 = {#
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 49778
+	}
+}
+#iraq
+924 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 198025
+	}
+}
+923 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 276425
+	}
+}
+928 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 146950
+	}
+}
+927 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 90950
+	}
+}
+926 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 562976
+	}
+	artisans = {
+		culture = iraqi
+		religion = catholic
+		size = 178364
+	}
+	soldiers = {
+		culture = iraqi
+		religion = catholic
+		size = 24521
+	}
+	craftsmen = {
+		culture = iraqi
+		religion = catholic
+		size = 31564
+	}
+}
+929 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 215450
+	}
+}
+925 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 296500
+	}
+}
+931 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 116525
+	}
+}
+934 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 257075
+	}
+}
+930 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 196925
+	}
+}
+933 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 155750
+	}
+}
+932 = {#
+	farmers = {
+		culture = iraqi
+		religion = catholic
+		size = 252150
+	}
+}

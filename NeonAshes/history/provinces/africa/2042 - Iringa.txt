@@ -1,2 +1,5 @@
-trade_goods = timber # Potential for rare_earths
+owner = EAF
+controller = EAF
+add_core = EAF
+trade_goods = tea_n_coffee # Potential for rare_earths
 life_rating = 35

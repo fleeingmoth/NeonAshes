@@ -1,2 +1,5 @@
+owner = NAM
+controller = NAM
+add_core = NAM
 trade_goods = timber
 life_rating = 35

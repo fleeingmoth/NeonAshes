@@ -1,0 +1,427 @@
+###Angola ###
+2001 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 128122
+	}
+}
+1999 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 170733
+	}
+}
+2002 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 230259
+	}
+}
+2009 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 163780
+	}
+}
+2010 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 90683
+	}
+}
+2011 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 56965
+	}
+}
+2003 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 139827
+	}
+}
+2004 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 15653
+	}
+}
+2005 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 456564
+	}
+}
+2008 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 210214
+	}
+}
+2006 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 182810
+	}
+}
+2007 = {#
+	farmers = {
+		culture = angolan
+		religion = catholic
+		size = 34068
+	}
+}
+##Zambia##
+2013 = {#
+	farmers = {
+		culture = zambian
+		religion = catholic
+		size = 134138
+	}
+}
+2014 = {#
+	farmers = {
+		culture = zambian
+		religion = catholic
+		size = 92025
+	}
+}
+2015 = {#
+	farmers = {
+		culture = zambian
+		religion = catholic
+		size = 202774
+	}
+}
+2012 = {#
+	farmers = {
+		culture = zambian
+		religion = catholic
+		size = 370239
+	}
+}
+790 = {#
+	farmers = {
+		culture = zambian
+		religion = catholic
+		size = 306276
+	}
+}
+2018 = {#
+	farmers = {
+		culture = zambian
+		religion = catholic
+		size = 210985
+	}
+}
+2016 = {#
+	farmers = {
+		culture = zambian
+		religion = catholic
+		size = 191060
+	}
+}
+2017 = {#
+	farmers = {
+		culture = zambian
+		religion = catholic
+		size = 169974
+	}
+}
+##Nambian## (296083 pops)
+2081 = {#
+	farmers = {
+		culture = nambian
+		religion = catholic
+		size = 24511
+	}
+}
+2082 = {#
+	farmers = {
+		culture = nambian
+		religion = catholic
+		size = 14511
+	}
+}
+2080 = {#
+	farmers = {
+		culture = nambian
+		religion = catholic
+		size = 77412
+	}
+}
+2079 = {#
+	farmers = {
+		culture = nambian
+		religion = catholic
+		size = 53178
+	}
+}
+2078 = {#
+	farmers = {
+		culture = nambian
+		religion = catholic
+		size = 15411
+	}
+}
+2083 = {#
+	farmers = {
+		culture = nambian
+		religion = catholic
+		size = 17481
+	}
+}
+2084 = {#
+	farmers = {
+		culture = nambian
+		religion = catholic
+		size = 61441
+	}
+}
+2085 = {#
+	farmers = {
+		culture = nambian
+		religion = catholic
+		size = 25451
+	}
+}
+2086 = {#
+	farmers = {
+		culture = nambian
+		religion = catholic
+		size = 6687
+	}
+}
+##Botswana## (235256 pops)
+2074 = {#
+	farmers = {
+		culture = botswanan
+		religion = catholic
+		size = 31305
+	}
+}
+2075 = {#
+	farmers = {
+		culture = botswanan
+		religion = catholic
+		size = 106431
+	}
+}
+2076 = {#
+	farmers = {
+		culture = botswanan
+		religion = catholic
+		size = 18999
+	}
+}
+2077 = {#
+	farmers = {
+		culture = botswanan
+		religion = catholic
+		size = 10788
+	}
+}
+2574 = {#
+	farmers = {
+		culture = botswanan
+		religion = catholic
+		size = 67733
+	}
+}
+#mozambique
+2581 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 128525
+	}
+}
+2063 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 235000
+	}
+}
+2060 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 142541
+	}
+}
+2061 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 287121
+	}
+}
+2064 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 171013
+	}
+}
+2065 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 230629
+	}
+}
+2059 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 394421
+	}
+}
+2053 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 91719
+	}
+}
+2054 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 78364
+	}
+}
+2056 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 68791
+	}
+}
+2055 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 60595
+	}
+}
+2058 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 88847
+	}
+}
+2057 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 174581
+	}
+}
+2052 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 71453
+	}
+}
+2051 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 249400
+	}
+}
+2050 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 247725
+	}
+}
+2049 = {#
+	farmers = {
+		culture = mozambiquan
+		religion = catholic
+		size = 122950
+	}
+}
+#rhodesia
+2068 = {#
+	farmers = {
+		culture = zimbabwean
+		religion = catholic
+		size = 374125
+	}
+}
+2069 = {#
+	farmers = {
+		culture = zimbabwean
+		religion = catholic
+		size = 271571
+	}
+}
+2070 = {#
+	farmers = {
+		culture = zimbabwean
+		religion = catholic
+		size = 275959
+	}
+}
+2071 = {#
+	farmers = {
+		culture = zimbabwean
+		religion = catholic
+		size = 128824
+	}
+}
+2072 = {#
+	farmers = {
+		culture = zimbabwean
+		religion = catholic
+		size = 137062
+	}
+}
+2073 = {#
+	farmers = {
+		culture = zimbabwean
+		religion = catholic
+		size = 257376
+	}
+}
+2635 = {#
+	farmers = {
+		culture = zimbabwean
+		religion = catholic
+		size = 353736
+	}
+}
+#malawi
+2066 = {#
+	farmers = {
+		culture = malawi
+		religion = catholic
+		size = 879411
+	}
+}
+2067 = {#
+	farmers = {
+		culture = malawi
+		religion = catholic
+		size = 687339
+	}
+}

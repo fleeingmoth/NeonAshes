@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = EAF
+controller = EAF
+add_core = EAF
+trade_goods = fruit
 life_rating = 35

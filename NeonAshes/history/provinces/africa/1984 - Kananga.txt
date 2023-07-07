@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = KSI
+controller = KSI
+add_core = KSI
+add_core = ZAI
+trade_goods = rare_earths
 life_rating = 35

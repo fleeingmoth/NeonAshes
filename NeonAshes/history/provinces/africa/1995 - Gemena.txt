@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = UBA
+controller = UBA
+add_core = UBA
+add_core = ZAI
+trade_goods = grain
 life_rating = 35

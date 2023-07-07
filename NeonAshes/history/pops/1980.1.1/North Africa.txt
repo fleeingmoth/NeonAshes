@@ -307,3 +307,152 @@
 		size = 2345
 	}
 }
+#tunis
+1726 = {#
+	farmers = {
+		culture = tunisian
+		religion = catholic
+		size = 257201
+	}
+}
+1725 = {#
+	farmers = {
+		culture = tunisian
+		religion = catholic
+		size = 493724
+	}
+}
+1728 = {#
+	farmers = {
+		culture = tunisian
+		religion = catholic
+		size = 362349
+	}
+}
+1727 = {#
+	farmers = {
+		culture = tunisian
+		religion = catholic
+		size = 428384
+	}
+}
+1729 = {#
+	farmers = {
+		culture = tunisian
+		religion = catholic
+		size = 65910
+	}
+}
+1730 = {#
+	farmers = {
+		culture = tunisian
+		religion = catholic
+		size = 133976
+	}
+}
+#libya
+1731 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 306044
+	}
+}
+1732 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 63568
+	}
+}
+1744 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 19718
+	}
+}
+1742 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 18951
+	}
+}
+1743 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 4871
+	}
+}
+1741 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 74824
+	}
+}
+2585 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 45277
+	}
+}
+1739 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 45781
+	}
+}
+1738 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 22789
+	}
+}
+1733 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 51057
+	}
+}
+1734 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 29713
+	}
+}
+1735 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 141739
+	}
+}
+1736 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 116249
+	}
+}
+1737 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 33126
+	}
+}
+1740 = {#
+	farmers = {
+		culture = libyan
+		religion = sunni
+		size = 34759
+	}
+}

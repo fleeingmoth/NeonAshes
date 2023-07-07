@@ -1,0 +1,269 @@
+###Tanzania ###(4,381,891)
+2048 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 112186
+	}
+	craftsmen = {
+		culture = eastern_african
+		religion = catholic
+		size = 6841
+	}
+}
+2039 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 192954
+	}
+}
+2038 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 131906
+	}
+}
+2041 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 64940
+	}
+}
+2040 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 75453
+	}
+}
+2042 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 578154
+	}
+}
+2046 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 654121
+	}
+}
+2045 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 234816
+	}
+}
+2036 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 339918
+	}
+}
+2037 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 259441
+	}
+}
+2047 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 98944
+	}
+	artisans = {
+		culture = eastern_african
+		religion = catholic
+		size = 35841
+	}
+	craftsmen = {
+		culture = eastern_african
+		religion = catholic
+		size = 9721
+	}
+	soldiers = {
+		culture = eastern_african
+		religion = catholic
+		size = 11254
+	}
+	bureaucrats = {
+		culture = eastern_african
+		religion = catholic
+		size = 216
+	}
+	capitalists = {
+		culture = eastern_african
+		religion = catholic
+		size = 364
+	}
+}
+2043 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 204476
+	}
+}
+2044 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 180956
+	}
+}
+#buruni & rwanada
+2034 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 1312000
+	}
+}
+2035 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 1078250
+	}
+}
+###Kenya ###(3,831,765)
+2030 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 215141
+	}
+}
+2032 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 120557
+	}
+}
+2027 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 397124
+	}
+}
+2024 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 586458
+	}
+}
+2025 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 679962
+	}
+}
+2031 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 93446
+	}
+}
+2028 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 1073922
+	}
+	artisans = {
+		culture = eastern_african
+		religion = catholic
+		size = 36451
+	}
+	craftsmen = {
+		culture = eastern_african
+		religion = catholic
+		size = 8781
+	}
+}
+2026 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 412976
+	}
+}
+2033 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 77369
+	}
+	craftsmen = {
+		culture = eastern_african
+		religion = catholic
+		size = 15412
+	}
+}
+2029 = {#
+	farmers = {
+		culture = eastern_african
+		religion = catholic
+		size = 98644
+	}
+	craftsmen = {
+		culture = eastern_african
+		religion = catholic
+		size = 8742
+	}
+	soldiers = {
+		culture = eastern_african
+		religion = catholic
+		size = 6452
+	}
+}
+###Uganda ###
+2022 = {#
+	farmers = {
+		culture = ugandan
+		religion = catholic
+		size = 278452
+	}
+}
+2021 = {#
+	farmers = {
+		culture = ugandan
+		religion = catholic
+		size = 327608
+	}
+}
+2023 = {#
+	farmers = {
+		culture = ugandan
+		religion = catholic
+		size = 809359
+	}
+}
+2019 = {#
+	farmers = {
+		culture = ugandan
+		religion = catholic
+		size = 895608
+	}
+}
+2020 = {#
+	farmers = {
+		culture = ugandan
+		religion = catholic
+		size = 848016
+	}
+}

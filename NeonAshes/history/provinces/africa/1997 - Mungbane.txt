@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = ALU
+controller = ALU
+add_core = ALU
+add_core = ZAI
+trade_goods = rare_earths
 life_rating = 35

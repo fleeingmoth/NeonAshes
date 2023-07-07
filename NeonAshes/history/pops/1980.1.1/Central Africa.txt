@@ -1,0 +1,425 @@
+###Cameroon ###
+1956 = {#
+	farmers = {
+		culture = cameroon
+		religion = catholic
+		size = 233791
+	}
+}
+1958 = {#
+	farmers = {
+		culture = cameroon
+		religion = catholic
+		size = 78800
+	}
+}
+1960 = {#
+	farmers = {
+		culture = cameroon
+		religion = catholic
+		size = 258899
+	}
+}
+1959 = {#
+	farmers = {
+		culture = cameroon
+		religion = catholic
+		size = 294185
+	}
+}
+1962 = {#
+	farmers = {
+		culture = cameroon
+		religion = catholic
+		size = 91558
+	}
+}
+1963 = {#
+	farmers = {
+		culture = cameroon
+		religion = catholic
+		size = 89833
+	}
+}
+1964 = {#
+	farmers = {
+		culture = cameroon
+		religion = catholic
+		size = 468480
+	}
+}
+###Chad ###
+1819 = {#
+	farmers = {
+		culture = chaddian
+		religion = catholic
+		size = 456868
+	}
+}
+1820 = {#
+	farmers = {
+		culture = chaddian
+		religion = catholic
+		size = 222948
+	}
+}
+1818 = {#
+	farmers = {
+		culture = chaddian
+		religion = catholic
+		size = 76789
+	}
+}
+1822 = {#
+	farmers = {
+		culture = chaddian
+		religion = catholic
+		size = 38724
+	}
+}
+1823 = {#
+	farmers = {
+		culture = chaddian
+		religion = catholic
+		size = 104658
+	}
+}
+1824 = {#
+	farmers = {
+		culture = chaddian
+		religion = catholic
+		size = 96884
+	}
+}
+1821 = {#
+	farmers = {
+		culture = chaddian
+		religion = catholic
+		size = 188144
+	}
+}
+1825 = {#
+	farmers = {
+		culture = chaddian
+		religion = catholic
+		size = 9549
+	}
+}
+1826 = {#
+	farmers = {
+		culture = chaddian
+		religion = catholic
+		size = 5819
+	}
+}
+##gabon and "congo"
+1972 = {#
+	farmers = {
+		culture = gabonian
+		religion = catholic
+		size = 97269
+	}
+}
+1973 = {#
+	farmers = {
+		culture = equatorial
+		religion = catholic
+		size = 0
+	}
+}
+1974 = {#
+	farmers = {
+		culture = gabonian
+		religion = catholic
+		size = 28842
+	}
+}
+1975 = {#
+	farmers = {
+		culture = gabonian
+		religion = catholic
+		size = 56345
+	}
+}
+1976 = {#
+	farmers = {
+		culture = gabonian
+		religion = catholic
+		size = 30687
+	}
+}
+#
+2000 = {#
+	farmers = {
+		culture = congolese
+		religion = catholic
+		size = 22347
+	}
+}
+2624 = {#
+	farmers = {
+		culture = congolese
+		religion = catholic
+		size = 18717
+	}
+}
+1983 = {#
+	farmers = {
+		culture = congolese
+		religion = catholic
+		size = 46785
+	}
+}
+1978 = {#
+	farmers = {
+		culture = congolese
+		religion = catholic
+		size = 60473
+	}
+}
+1977 = {#
+	farmers = {
+		culture = congolese
+		religion = catholic
+		size = 192518
+	}
+}
+1980 = {#
+	farmers = {
+		culture = congolese
+		religion = catholic
+		size = 61351
+	}
+}
+1981 = {#
+	farmers = {
+		culture = congolese
+		religion = catholic
+		size = 23914
+	}
+}
+###Central africa and DRC###
+1965 = {#
+	farmers = {
+		culture = central_african
+		religion = catholic
+		size = 116795
+	}
+}
+1966 = {#
+	farmers = {
+		culture = central_african
+		religion = catholic
+		size = 136506
+	}
+}
+1967 = {#
+	farmers = {
+		culture = central_african
+		religion = catholic
+		size = 48284
+	}
+}
+1968 = {#
+	farmers = {
+		culture = central_african
+		religion = catholic
+		size = 72224
+	}
+}
+1969 = {#
+	farmers = {
+		culture = azande
+		religion = catholic
+		size = 46859
+	}
+}
+1970 = {#
+	farmers = {
+		culture = azande
+		religion = catholic
+		size = 81274
+	}
+}
+1971 = {#
+	farmers = {
+		culture = central_african
+		religion = catholic
+		size = 11683
+	}
+}
+1983 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 498643
+	}
+}
+1982 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 666077
+	}
+}
+1985 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 213581
+	}
+}
+3292 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 545005
+	}
+}
+1984 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 594768
+	}
+}
+1987 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 347904
+	}
+}
+1988 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 193555
+	}
+}
+3286 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 222755
+	}
+}
+3285 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 230623
+	}
+}
+1989 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 526997
+	}
+}
+1990 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 212418
+	}
+}
+3287 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 181297
+	}
+}
+1994 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 196352
+	}
+}
+3288 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 183848
+	}
+}
+1993 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 158824
+	}
+}
+1991 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 1045882
+	}
+}
+3290 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 281711
+	}
+}
+1997 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 173277
+	}
+}
+1998 = {#
+	farmers = {
+		culture = azande
+		religion = catholic
+		size = 132748
+	}
+}
+1996 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 86364
+	}
+}
+1995 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 387529
+	}
+}
+3291 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 180874
+	}
+}
+1992 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 166367
+	}
+}
+1986 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 166367
+	}
+}
+3289 = {#
+	farmers = {
+		culture = zairian
+		religion = catholic
+		size = 245527
+	}
+}

@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = UAR
+controller = UAR
+add_core = UAR
+add_core = SYR
+trade_goods = sheeps
 life_rating = 35

@@ -84384,25 +84384,15 @@
 
 # Kumbana
 1985 = {
-    unit = {
-        x = 3092.000000
-        y = 676.000000
-    }
-
     text_position = {
-        x = 3091.899902
-        y = 670.400024
+        x = 3081.128333
+        y = 662.488333
     }
 
     text_scale = 3.999998
-    building_construction = {
-        x = 3083.000000
-        y = 687.000000
-    }
-
-    military_construction = {
-        x = 3092.000000
-        y = 664.000000
+    unit = {
+        x = 3081.010000
+        y = 667.458333
     }
 
     factory = {
@@ -84410,10 +84400,20 @@
         y = 702.000000
     }
 
+    building_construction = {
+        x = 3075.803333
+        y = 676.570000
+    }
+
+    military_construction = {
+        x = 3087.518333
+        y = 648.051667
+    }
+
     building_position = {
         fort = {
-            x = 3114.000000
-            y = 677.000000
+            x = 3090.713333
+            y = 672.073333
         }
 
     }
@@ -84422,30 +84422,30 @@
 
 # Lusambo
 1986 = {
-    unit = {
-        x = 3188.000000
-        y = 681.000000
-    }
-
     text_position = {
         x = 3190.800049
         y = 671.299988
     }
 
     text_scale = 3.199999
-    building_construction = {
-        x = 3182.000000
-        y = 689.000000
-    }
-
-    military_construction = {
-        x = 3189.000000
-        y = 666.000000
+    unit = {
+        x = 3194.445000
+        y = 673.620000
     }
 
     factory = {
         x = 3176.000000
         y = 696.000000
+    }
+
+    building_construction = {
+        x = 3182.460000
+        y = 661.125000
+    }
+
+    military_construction = {
+        x = 3189.000000
+        y = 666.000000
     }
 
     building_position = {
@@ -84498,17 +84498,22 @@
 
 # Mussumba
 1988 = {
-    unit = {
-        x = 3179.000000
-        y = 614.000000
-    }
-
     text_position = {
         x = 3178.899902
         y = 604.500000
     }
 
     text_scale = 3.999998
+    unit = {
+        x = 3179.000000
+        y = 614.000000
+    }
+
+    factory = {
+        x = 3167.436667
+        y = 608.296667
+    }
+
     building_construction = {
         x = 3164.000000
         y = 621.000000
@@ -84519,15 +84524,10 @@
         y = 597.000000
     }
 
-    factory = {
-        x = 3187.000000
-        y = 638.000000
-    }
-
     building_position = {
         fort = {
-            x = 3211.000000
-            y = 629.000000
+            x = 3176.035000
+            y = 608.681667
         }
 
     }
@@ -84536,30 +84536,30 @@
 
 # Munza
 1989 = {
-    unit = {
-        x = 3239.000000
-        y = 662.000000
-    }
-
     text_position = {
-        x = 3239.300049
-        y = 654.900024
+        x = 3239.740000
+        y = 681.585000
     }
 
     text_scale = 4.399998
-    building_construction = {
-        x = 3216.000000
-        y = 650.000000
-    }
-
-    military_construction = {
-        x = 3259.000000
-        y = 649.000000
+    unit = {
+        x = 3243.790000
+        y = 686.445000
     }
 
     factory = {
         x = 3219.000000
         y = 674.000000
+    }
+
+    building_construction = {
+        x = 3237.715000
+        y = 671.460000
+    }
+
+    military_construction = {
+        x = 3251.485000
+        y = 670.245000
     }
 
     building_position = {
@@ -84618,30 +84618,30 @@
 # Uvira
 1991 = {
     text_position = {
-        x = 3245.000000
-        y = 715.000000
+        x = 3248.513333
+        y = 734.600000
     }
 
     text_scale = 4.499998
+    factory = {
+        x = 3252.000000
+        y = 752.000000
+    }
+
     building_construction = {
         x = 3248.000000
         y = 740.000000
     }
 
     military_construction = {
-        x = 3247.000000
-        y = 706.000000
-    }
-
-    factory = {
-        x = 3252.000000
-        y = 752.000000
+        x = 3247.730000
+        y = 725.826667
     }
 
     building_position = {
         fort = {
-            x = 3253.899902
-            y = 695.200012
+            x = 3256.660000
+            y = 742.903333
         }
 
     }
@@ -84759,17 +84759,22 @@
 
 # Gemena
 1995 = {
+    text_position = {
+        x = 3129.138333
+        y = 822.376667
+    }
+
+    text_scale = 4.599998
     unit = {
         x = 3129.000000
         y = 812.000000
     }
 
-    text_position = {
-        x = 3129.000000
-        y = 802.099976
+    factory = {
+        x = 3113.000000
+        y = 832.000000
     }
 
-    text_scale = 4.599998
     building_construction = {
         x = 3114.000000
         y = 818.000000
@@ -84780,15 +84785,10 @@
         y = 800.000000
     }
 
-    factory = {
-        x = 3113.000000
-        y = 832.000000
-    }
-
     building_position = {
         fort = {
-            x = 3159.000000
-            y = 800.299988
+            x = 3145.145000
+            y = 819.600000
         }
 
     }
@@ -84797,30 +84797,30 @@
 
 # Kisangani
 1996 = {
-    unit = {
-        x = 3208.000000
-        y = 782.000000
-    }
-
     text_position = {
-        x = 3210.600098
-        y = 774.000000
+        x = 3198.600000
+        y = 803.900000
     }
 
     text_scale = 4.699998
-    building_construction = {
-        x = 3191.000000
-        y = 802.000000
-    }
-
-    military_construction = {
-        x = 3223.000000
-        y = 766.000000
+    unit = {
+        x = 3200.700000
+        y = 798.100000
     }
 
     factory = {
         x = 3204.000000
         y = 809.799988
+    }
+
+    building_construction = {
+        x = 3185.000000
+        y = 809.900000
+    }
+
+    military_construction = {
+        x = 3217.300000
+        y = 803.100000
     }
 
     building_position = {

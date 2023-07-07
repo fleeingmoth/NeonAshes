@@ -926,3 +926,18 @@
 		size = 184314
 	}
 }
+1957 = {#
+	farmers = {
+		culture = ambazonian
+		religion = catholic
+		size = 155128
+	}
+}
+1961 = {#
+	farmers = {
+		culture = ambazonian
+		religion = catholic
+		size = 245132
+	}
+}
+

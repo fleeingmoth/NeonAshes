@@ -1,0 +1,19 @@
+name = "Rhodesian Bush War"
+1979.12.31 = {
+	add_attacker = ZIM
+	add_defender = ZRH
+	war_goal = {
+		casus_belli = civil_war
+		actor = ZIM
+		receiver = ZRH
+	}
+	war_goal = {
+		casus_belli = civil_war
+		actor = ZRH
+		receiver = ZIM
+	}
+}
+2199.12.31 = {
+	rem_attacker = ZIM
+	rem_defender = ZRH
+}

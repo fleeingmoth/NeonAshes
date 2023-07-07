@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = KAT
+controller = KAT
+add_core = KAT
+add_core = ZAI
+trade_goods = copper
 life_rating = 35

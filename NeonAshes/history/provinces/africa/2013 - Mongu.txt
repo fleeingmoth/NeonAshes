@@ -1,2 +1,5 @@
+owner = ZAM
+controller = ZAM
+add_core = ZAM
 trade_goods = timber
 life_rating = 35

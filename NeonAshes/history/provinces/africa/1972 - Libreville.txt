@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = GAB
+controller = GAB
+add_core = GAB
+trade_goods = fish
 life_rating = 35

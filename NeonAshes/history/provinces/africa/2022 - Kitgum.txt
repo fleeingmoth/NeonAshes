@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = UGA
+controller = UGA
+add_core = UGA
+add_core = EAF
+trade_goods = grain #oil can be found
 life_rating = 35

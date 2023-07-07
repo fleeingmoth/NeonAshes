@@ -223,6 +223,8 @@ SPA = "countries/Spain.txt"
 
 MOR = "countries/Morocco.txt"
 ALG = "countries/Algeria.txt"
+TUS = "countries/Tunisia.txt"
+LYB = "countries/Libya.txt"
 
 #Countries of the OAU
 #OAU = "countries/Organization of African Unity.txt" #Organization of African Unity, Monrovia-Casablanca Group. Ghana, Guinea, Mali. Social Democratic dictatorship, but vassals are limited democracies, govtype African Union Member
@@ -255,8 +257,53 @@ SAR = "countries/Sahrawi.txt"
 NIG = "countries/Nigeria.txt" #at start, Oyo + some of west Sokotoland, next to Benin.
 BIA = "countries/Biafra.txt"
 HAU = "countries/Hausaland.txt" #puppet under Biafra
+AMB = "countries/Ambazonia.txt"
 #CMR = "countries/Cameroon.txt" #Ambazonia is under Biafra
 #Tags for OAU military cliques?
+
+CAM = "countries/Cameroon.txt"
+CHD = "countries/Chad.txt"
+GAB = "countries/Gabon.txt"
+COG = "countries/Congo.txt"
+#central Africa
+CAE = "countries/Empire of Central Africa.txt"
+AZD = "countries/Azande.txt"
+KAT = "countries/Katanga.txt"
+KSI = "countries/Kasai.txt"
+KWI = "countries/Kwilu.txt"
+KVU = "countries/Kivu.txt"
+ALU = "countries/Alur.txt"
+UBA = "countries/Ubangi.txt"
+ZAS = "countries/Congo-Stanleyville.txt"
+ZAK = "countries/Congo-Kinshasa.txt"
+ZAI = "countries/Zaire.txt"
+
+#Eastern Africa
+EAF = "countries/East African Federation.txt"
+UGA = "countries/Uganadan.txt"
+
+#Southern Africa
+ANG = "countries/Angola.txt"
+NAM = "countries/Nambia.txt"
+ZAM = "countries/Zambia.txt"
+BOT = "countries/Botswana.txt"
+MOZ = "countries/Mozambique.txt"
+MLW = "countries/Malawi.txt"
+
+ZRH = "countries/Zimbabwe-Rhodesia.txt"
+ZIM = "countries/Zimbabwe.txt"
+#South Africa
+
+#Middle East
+#UAR possible members
+UAR = "countries/United Arab Republics.txt" #the 72 proposal
+EGY = "countries/Egypt.txt"
+SYR = "countries/Syria.txt"
+IRQ = "countries/Iraq.txt"
+PAL = "countries/Palestine.txt"
+
+ISR = "countries/Israel.txt"
+LEB = "countries/Lebanon.txt"
 
 ## HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

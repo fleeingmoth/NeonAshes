@@ -1,0 +1,148 @@
+political_decisions = {
+	kinshasa_victory = { #
+		#news = yes
+		#news_desc_long = "north_cali_victory_NEWS_LONG"
+		#news_desc_medium = "north_cali_victory_NEWS_MEDIUM"
+		#news_desc_short = "north_cali_victory_NEWS_SHORT"
+		picture = flag_zaire_smallpic
+		potential = { 
+			tag = ZAK
+			NOT = { exists = ZAI } #
+		}
+		allow = {
+			NOT = { exists = ZAS } #
+			war = no
+			owns = 3289 #We have Stanleyville
+		}
+		effect = {
+			prestige = 5
+			change_tag = ZAI #
+			ZAK={
+				all_core={
+					remove_core = ZAK
+				}
+			}
+			ZAS={
+				all_core={		
+					remove_core = ZAS
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	stanleyville_victory = { #
+		#news = yes
+		#news_desc_long = "south_cali_victory_NEWS_LONG"
+		#news_desc_medium = "south_cali_victory_NEWS_MEDIUM"
+		#news_desc_short = "south_cali_victory_NEWS_SHORT"
+		picture = flag_zaire_smallpic
+		potential = { 
+			tag = ZAS
+			NOT = { exists = ZAI } #
+		}
+		allow = {
+			NOT = { exists = ZAK } #
+			war = no
+			owns = 1982 #Kinshasa
+		}
+		effect = {
+			prestige = 5
+			change_tag = ZAI #
+			ZAK={
+				all_core={
+					remove_core = ZAK
+				}
+			}
+			ZAS={
+				all_core={		
+					remove_core = ZAS
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	stanleyville_resume_ZAI_civil_war = { #
+		#news = yes
+		#news_desc_long = "north_resume_cali_civil_war_NEWS_LONG"
+		#news_desc_medium = "north_resume_cali_civil_war_NEWS_MEDIUM"
+		#news_desc_short = "north_resume_cali_civil_war_NEWS_SHORT"
+		picture = flag_zaire_smallpic
+		potential = {
+			tag = ZAS
+			exists = ZAK #
+		}
+		allow = { 
+			war = no 
+			realism = 1
+		} 
+		effect = {
+			war = {
+				target = ZAK
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { ZAK = { brigades_compare = 1 } } #Needs to have at least numerical superiority for AI to take
+			}
+			modifier = {
+				factor = 0.01
+				NOT = { ZAK = { brigades_compare = 2 } } #Between one and two times the strength, one percent daily chance
+			}
+			modifier = {
+				factor = 0.02
+				NOT = { ZAK = { brigades_compare = 3 } } #Between two and three times the strength, two percent daily chance
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.8 #Don't attack if it will put you at the badboy limit
+			}
+		}
+	}
+	kinshasa_resume_ZAI_civil_war = { #
+		#news = yes
+		#news_desc_long = "south_resume_cali_civil_war_NEWS_LONG"
+		#news_desc_medium = "south_resume_cali_civil_war_NEWS_MEDIUM"
+		#news_desc_short = "south_resume_cali_civil_war_NEWS_SHORT"
+		picture = flag_zaire_smallpic
+		potential = {
+			tag = ZAK
+			exists = ZAS #
+		}
+		allow = { 
+			war = no 
+			realism = 1
+		}
+		effect = {
+			war = {
+				target = ZAS
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { ZAS = { brigades_compare = 1 } } #Needs to have at least numerical superiority for AI to take
+			}
+			modifier = {
+				factor = 0.01
+				NOT = { ZAS = { brigades_compare = 2 } } #Between one and two times the strength, one percent daily chance
+			}
+			modifier = {
+				factor = 0.02
+				NOT = { ZAS = { brigades_compare = 3 } } #Between two and three times the strength, two percent daily chance
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.8 #Don't attack if it will put you at the badboy limit
+			}
+		}
+	}
+}

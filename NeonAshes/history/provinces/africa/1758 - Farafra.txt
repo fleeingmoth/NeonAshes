@@ -1,2 +1,6 @@
+owner = UAR
+controller = UAR
+add_core = UAR
+add_core = EGY
 trade_goods = timber
 life_rating = 35

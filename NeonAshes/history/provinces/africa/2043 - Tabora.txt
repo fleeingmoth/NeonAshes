@@ -1,2 +1,5 @@
+owner = EAF
+controller = EAF
+add_core = EAF
 trade_goods = timber
 life_rating = 35

@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = CAM
+controller = CAM
+add_core = CAM
+trade_goods = oil
 life_rating = 35

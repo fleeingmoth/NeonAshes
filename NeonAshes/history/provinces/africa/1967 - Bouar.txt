@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = CAE
+controller = CAE
+add_core = CAE
+trade_goods = rare_earths
 life_rating = 35

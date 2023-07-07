@@ -1,0 +1,6 @@
+owner = KWI
+controller = KWI
+add_core = KWI
+add_core = ZAI
+trade_goods = grain
+life_rating = 20

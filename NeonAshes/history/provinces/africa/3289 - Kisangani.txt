@@ -1,0 +1,6 @@
+owner = ZAS
+controller = ZAS
+add_core = ZAS
+add_core = ZAI
+trade_goods = grain
+life_rating = 20

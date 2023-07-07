@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = KVU
+controller = KVU
+add_core = KVU
+add_core = ZAI
+trade_goods = copper
 life_rating = 35

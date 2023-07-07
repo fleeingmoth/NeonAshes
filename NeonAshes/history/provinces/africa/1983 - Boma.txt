@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = ZAK
+controller = ZAK
+add_core = ZAK
+add_core = ZAI
+trade_goods = oil
 life_rating = 35

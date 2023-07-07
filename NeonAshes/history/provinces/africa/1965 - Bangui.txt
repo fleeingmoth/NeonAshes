@@ -1,2 +1,5 @@
+owner = CAE
+controller = CAE
+add_core = CAE
 trade_goods = timber
 life_rating = 35

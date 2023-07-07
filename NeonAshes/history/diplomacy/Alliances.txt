@@ -151,10 +151,17 @@ alliance = {
 	start_date = 1980.1.1
 	end_date = 1999.1.1
 }
-
+#alliance between Entre-rios and uruguay based on historical attempt at a union in the 1800s
 alliance = {
 	first = ETR
 	second = URU
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+#Kwilu was alligned with C-S
+alliance = {
+	first = ZAS
+	second = KWI
 	start_date = 1980.1.1
 	end_date = 1999.1.1
 }

@@ -1,6 +1,6 @@
 owner = BIA
 controller = BIA
 add_core = BIA
-add_core = NIG
-trade_goods = timber
+add_core = AMB
+trade_goods = bauxite
 life_rating = 35

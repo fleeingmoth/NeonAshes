@@ -1231,6 +1231,10 @@ pan_nationalist_rebels = {
 				culture = south_italian
 			}
 		}
+		modifier = {
+			factor = 0
+			culture = zairian
+		}
 
 		modifier = {
 			factor = 1.3

@@ -1875,7 +1875,7 @@ ideologies = {
 		}
 		modifier = {
 			factor = 2
-			government = communist_dictatorship
+			government = communist_state
 		}
 
 # Radicalism makes them drift away

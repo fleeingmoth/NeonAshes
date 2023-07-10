@@ -1,7 +1,7 @@
 capital = 1745 #
 primary_culture = egyptian
-accepted_culture = syrian
-accepted_culture = iraqi
+culture = syrian
+culture = iraqi
 religion = catholic
 government = auth_democracy
 plurality = 25.0

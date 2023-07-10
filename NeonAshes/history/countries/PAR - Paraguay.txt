@@ -1,5 +1,5 @@
 capital = 2339 #
-primary_culture = paraguay
+primary_culture = paraguayian
 religion = catholic
 government = auth_democracy
 plurality = 25.0

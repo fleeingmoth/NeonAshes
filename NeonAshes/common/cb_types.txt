@@ -1029,12 +1029,11 @@ liberate_country = {
 				exists = yes
 				NOT = {
 						OR = {
-							tag = GER
-							tag = SCA
-							tag = ITA
-							tag = YUG
-							#tag = ROM # TODO: shoudl we let the rest be liberated too?
-							tag = CZH
+							tag = UAR
+							tag = EAF
+							tag = OAS
+							tag = ZAI
+							tag = ETH
 						}
 					}
 				}

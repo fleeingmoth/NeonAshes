@@ -1,5 +1,5 @@
 capital = 2023 #
-primary_culture = uganadan
+primary_culture = ugandan
 religion = catholic
 government = auth_democracy
 plurality = 25.0

@@ -55,8 +55,8 @@ on_surrender =
 
 on_new_great_nation = 
 {
-	10 = 19310
-	10 = 19320
+	#10 = 19310#old CHI
+	#10 = 19320#old JAP
 }
 
 on_lost_great_nation = 
@@ -65,31 +65,31 @@ on_lost_great_nation =
 
 on_election_tick = {
 	
-	#Main big ones.. most common.
-	100 = 14000
-	100 = 14010
-	100 = 14020
-	100 = 14030
-	100 = 14040
+	# #Main big ones.. most common.
+	# 100 = 14000
+	# 100 = 14010
+	# 100 = 14020
+	# 100 = 14030
+	# 100 = 14040
 	
-	#One for each issue.
-	10 = 14050
-	10 = 14060
-	10 = 14070
-	10 = 14080
-	10 = 14090
-	10 = 14100
-	10 = 14110
-	10 = 14120
-	10 = 14130
-	10 = 14140
-	10 = 14150
-	10 = 14160
-	10 = 14170
-	10 = 14180
-	10 = 14190
-	10 = 14200
-	10 = 14210
+	# #One for each issue.
+	# 10 = 14050
+	# 10 = 14060
+	# 10 = 14070
+	# 10 = 14080
+	# 10 = 14090
+	# 10 = 14100
+	# 10 = 14110
+	# 10 = 14120
+	# 10 = 14130
+	# 10 = 14140
+	# 10 = 14150
+	# 10 = 14160
+	# 10 = 14170
+	# 10 = 14180
+	# 10 = 14190
+	# 10 = 14200
+	# 10 = 14210
 }
 
 # Note: remember to use tag (allow_multiple_instances = yes)
@@ -125,9 +125,9 @@ on_debtor_default_second =
 
 on_civilize =
 {
-	100 = 90900 # CHI
-	100 = 90903 # CHI substates
-	100 = 90910 # RotW
+	#100 = 90900 # CHI
+	#100 = 90903 # CHI substates
+	#100 = 90910 # RotW
 }
 
 on_my_factories_nationalized = 
@@ -137,5 +137,5 @@ on_my_factories_nationalized =
 
 on_crisis_declare_interest =
 {
-	100 = 20000
+	100 = 70005
 }

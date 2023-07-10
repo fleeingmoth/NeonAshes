@@ -27,7 +27,7 @@
 		size = 7183
 	}
 }
-2929 = {#Faroes
+253 = {#Faroes
 	#local pops
 	farmers = {
 		culture = danish

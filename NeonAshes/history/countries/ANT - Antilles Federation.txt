@@ -1,7 +1,7 @@
 capital = 2229 #
 primary_culture = anglo_antillian
-accepted_culture = dutch_antillian
-accepted_culture = french_antillian
+culture = dutch_antillian
+culture = french_antillian
 religion = protestant
 government = democracy
 plurality = 25.0

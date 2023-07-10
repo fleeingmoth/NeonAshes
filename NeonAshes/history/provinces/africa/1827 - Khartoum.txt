@@ -1,2 +1,5 @@
+owner = SUD
+controller = SUD
+add_core = SUD
 trade_goods = timber
 life_rating = 35

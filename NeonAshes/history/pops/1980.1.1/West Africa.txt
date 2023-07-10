@@ -261,14 +261,7 @@
 	farmers = {
 		culture = malian
 		religion = catholic
-		size = 183415
-	}
-}
-1783 = {#
-	farmers = {
-		culture = malian
-		religion = catholic
-		size = 68761
+		size = 252176
 	}
 }
 1790 = {#

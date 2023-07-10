@@ -1,6 +1,6 @@
 owner = WLS
 controller = WLS
 add_core = WLS
-trade_goods = timber
+trade_goods = coal
 life_rating = 35
 

@@ -912,6 +912,14 @@ nationalist_rebels = {
 			}
 			
 		}
+		modifier = {
+			factor = 0
+			culture = egyptian
+			country = {
+				tag = UAR
+			}
+			
+		}
 		
 		modifier = {
 			factor = 0
@@ -1234,6 +1242,15 @@ pan_nationalist_rebels = {
 		modifier = {
 			factor = 0
 			culture = zairian
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = ethiopian
+				culture = eritrean
+				culture = oromo
+				culture = afar
+			}
 		}
 
 		modifier = {

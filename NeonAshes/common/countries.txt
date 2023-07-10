@@ -267,6 +267,7 @@ GAB = "countries/Gabon.txt"
 COG = "countries/Congo.txt"
 #central Africa
 CAE = "countries/Empire of Central Africa.txt"
+BAO = "countries/Birao.txt"
 AZD = "countries/Azande.txt"
 KAT = "countries/Katanga.txt"
 KSI = "countries/Kasai.txt"
@@ -281,6 +282,23 @@ ZAI = "countries/Zaire.txt"
 #Eastern Africa
 EAF = "countries/East African Federation.txt"
 UGA = "countries/Uganadan.txt"
+SUD = "countries/Sudan.txt"
+SSD = "countries/South Sudan.txt"
+DAF = "countries/Darfur.txt"
+
+#Ethiopia
+TNF = "countries/EPRDF.txt"
+IHA = "countries/Ihapa.txt"
+DRG = "countries/Derg.txt"
+AFR = "countries/Afar.txt"
+ORO = "countries/Oromo.txt"
+ETH = "countries/Ethiopia.txt"
+ERI = "countries/Eritrea.txt"
+DJI = "countries/Djibouti.txt"
+#somalia
+SOM = "countries/Somalia.txt"
+SML = "countries/Somaliland.txt"
+WSL = "countries/West Somalia.txt"
 
 #Southern Africa
 ANG = "countries/Angola.txt"

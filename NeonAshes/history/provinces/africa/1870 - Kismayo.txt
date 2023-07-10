@@ -1,2 +1,5 @@
+owner = SOM
+controller = SOM
+add_core = SOM
 trade_goods = timber
 life_rating = 35

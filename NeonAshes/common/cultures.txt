@@ -1,4 +1,4 @@
-ï»¿# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
 # If adding new groups or cultures, make sure they are unique.
 
 germanic = {
@@ -630,7 +630,7 @@ polish_culture_group = {
 		}
 	}
 	
-	union = PLC
+	#union = PLC
 }
 
 czecho_slovak_culture_group = {
@@ -666,7 +666,7 @@ czecho_slovak_culture_group = {
 		Masaryk Móry Moyses Rázus Rohácek Rudnay Selepcéni Sidor Skultéty-Gábris Smik
 		Sokol Stefánik Suchon Sverma Tiso Trcka Tuka Turanec Viest Zoch }
 	}
-	union = CZH
+	#union = CZH
 }
 
 east_slavic = {
@@ -750,7 +750,7 @@ baltic = {
 		}
 	}
 	
-	union = UBD
+	#union = UBD
 
 }
 
@@ -2044,31 +2044,33 @@ latin_american_cultures = {
 	cuban = {
 		color = {160 97 160}
 		first_names = { Alberto Alejandro Alfredo Ambrosio Anselmo Antonio Arturo Benigno Buenaventura Calixto
-		Carlos Ceferino Cesá²¥o Demetrio Desiderio Dionisio Domingo Eugenio Federico Felipe
-		Fernando Fidel Fulgencio Gerardo Gregorio Guillermo Horacio Ignacio Jacinto Jacobo
-		JesÃºs Joaquó¸Šosé ¢José iguel" Juan "Juan Bautista" Manuel Mariano Mario Má¸©mo
-		Osvaldo Pablo Pedro Rafael Ramó® ’aÃºl Salvador Romá³ Ulises Wenceslao
+			Carlos Ceferino Cesáreo Demetrio Desiderio Dionisio Domingo Eugenio Federico Felipe
+			Fernando Fidel Fulgencio Gerardo Gregorio Guillermo Horacio Ignacio Jacinto Jacobo
+			Jesús Joaquín José "José Miguel" Juan "Juan Bautista" Manuel Mariano Mario Máximo
+			Osvaldo Pablo Pedro Rafael Ramón Raúl Salvador Romás Ulises Wenceslao
 		}
 
-		last_names = { Acosta Alfau Bá¥º Batista Bayo Cabral Carmona Castillo Castro Cisneros
-		"de Cé³°edes" "de la Rosa" "de Meriñ¯¢ "de Rojas" Espaillat Estrada Estrella Ferná®¤ez Figuereo Garcğ£Š		Gil Gó­¥º Gonzá¬¥s Gonzá¬¥z Grau Guillermo Henrğ­‘¥z Herrera Hevia Laredo
-		Luperó® aceo Machado Má²±uez Mella Mé®¤ez Mendieta Moncada Morales Mota
-		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vá³±uez Váº±uez Zayas
+		last_names = { Acosta Alfau Báez Batista Bayo Cabral Carmona Castillo Castro Cisneros
+		"de Céspedes" "de la Rosa" "de Meriño" "de Rojas" Espaillat Estrada Estrella Fernández Figuereo García
+		Gil Gómez Gonzáles González Grau Guillermo Henríquez Herrera Hevia Laredo
+		Luperón Maceo Machado Márquez Mella Méndez Mendieta Moncada Morales Mota
+		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vásquez Vázquez Zayas
 		}
 	}
 	dominican = {
 		color = {204 202 104}
 		first_names = { Alberto Alejandro Alfredo Ambrosio Anselmo Antonio Arturo Benigno Buenaventura Calixto
-		Carlos Ceferino Cesá²¥o Demetrio Desiderio Dionisio Domingo Eugenio Federico Felipe
-		Fernando Fidel Fulgencio Gerardo Gregorio Guillermo Horacio Ignacio Jacinto Jacobo
-		JesÃºs Joaquó¸Šosé ¢José iguel" Juan "Juan Bautista" Manuel Mariano Mario Má¸©mo
-		Osvaldo Pablo Pedro Rafael Ramó® ’aÃºl Salvador Romá³ Ulises Wenceslao
+			Carlos Ceferino Cesáreo Demetrio Desiderio Dionisio Domingo Eugenio Federico Felipe
+			Fernando Fidel Fulgencio Gerardo Gregorio Guillermo Horacio Ignacio Jacinto Jacobo
+			Jesús Joaquín José "José Miguel" Juan "Juan Bautista" Manuel Mariano Mario Máximo
+			Osvaldo Pablo Pedro Rafael Ramón Raúl Salvador Romás Ulises Wenceslao
 		}
 
-		last_names = { Acosta Alfau Bá¥º Batista Bayo Cabral Carmona Castillo Castro Cisneros
-		"de Cé³°edes" "de la Rosa" "de Meriñ¯¢ "de Rojas" Espaillat Estrada Estrella Ferná®¤ez Figuereo Garcğ£Š		Gil Gó­¥º Gonzá¬¥s Gonzá¬¥z Grau Guillermo Henrğ­‘¥z Herrera Hevia Laredo
-		Luperó® aceo Machado Má²±uez Mella Mé®¤ez Mendieta Moncada Morales Mota
-		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vá³±uez Váº±uez Zayas
+		last_names = { Acosta Alfau Báez Batista Bayo Cabral Carmona Castillo Castro Cisneros
+		"de Céspedes" "de la Rosa" "de Meriño" "de Rojas" Espaillat Estrada Estrella Fernández Figuereo García
+		Gil Gómez Gonzáles González Grau Guillermo Henríquez Herrera Hevia Laredo
+		Luperón Maceo Machado Márquez Mella Méndez Mendieta Moncada Morales Mota
+		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vásquez Vázquez Zayas
 		}
 	}
 	colombian = {
@@ -2090,17 +2092,17 @@ latin_american_cultures = {
 	venezuelan = {
 		color = {219 204 74}
 		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
-		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José¢ "Francisco de Paula" Froilá® Gabriel
-		Gregorio Guillermo Gustavo Guzmá® Hilario Ignacio Jeró®©­o Joaquó¸Šorge "José ntonio"
-		"José anuel" "José arğ¨  Juan "Juan José¢ Juliá® Julio Leó® anuel Pedro Plá£©do
-		Rafael Raimundo Ramó® ’icardo Rodolfo Santiago Santos Tadeo Tomá³ Vicente
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José" "Francisco de Paula" Froilán Gabriel
+		Gregorio Guillermo Gustavo Guzmán Hilario Ignacio Jerónimo Joaquín Jorge "José Antonio"
+		"José Manuel" "José María" Juan "Juan José" Julián Julio León Manuel Pedro Plácido
+		Rafael Raimundo Ramón Ricardo Rodolfo Santiago Santos Tadeo Tomás Vicente
 		}
 
-		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamañ¯ ƒarreñ¯ ƒarrió® ƒastro
-		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldğ¨  "de Olmedo" "de Veintemilla" "de Villamil"
-		Falcó® †lores Garcğ¨‡ó­¥º Gonzá¬¥z Gual Gutié²²ez Herrá® Hurtado Ló°¥º
-		Mallarino Manjarré³ Mariñ¯ elo Monagas Moreno NÃºñ¥º Obando Pá¥º Porras
-		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas ZaldÃºa
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamaño Carreño Carrión Castro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldía" "de Olmedo" "de Veintemilla" "de Villamil"
+		Falcón Flores García Gómez González Gual Gutiérrez Herrán Hurtado López
+		Mallarino Manjarrés Mariño Melo Monagas Moreno Núñez Obando Páez Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 	}
 	peruvian = {
@@ -2121,18 +2123,18 @@ latin_american_cultures = {
 	}
 	bolivian = {
 		color = {116 156 146}
-		first_names = { Adolfo Agustó¸lejandro André³ Anğ¸‘¬ Antonio Bartolomé ‚ernardo David Diego
+		first_names = { Adolfo Agustín Alejandro Andrés Aníbal Antonio Bartolomé Bernardo David Diego
 		Domingo Eduardo Emiliano Emilio Enrique Esteban Eusebio Federico Felipe Francisco
-		Germá® Hernando Hilarió® ‰gnacio Isidoro Ismael Jorge José ¢José iguel Juan
+		Germán Hernando Hilarión Ignacio Isidoro Ismael Jorge José "José Miguel" Juan
 		"Juan Antonio" "Juan Francisco" Justo Ladislao Luis Manuel Mariano Miguel Narciso
-		Nicolá³ Pablo Patricio Pedro Ramó® ’ufino Ruperto Santiago Sebastiá® Severino Tomá³
+		Nicolás Pablo Patricio Pedro Ramón Rufino Ruperto Santiago Sebastián Severino Tomás
 		}
 
-		last_names = { Abaroa Ãgreda Altamirano Arteaga Balliviá® Baquedano BelzÃº Blanche Blanco Bulnes
+		last_names = { Abaroa Ágreda Altamirano Arteaga Ballivián Baquedano Belzú Blanche Blanco Bulnes
 		Cabrera Calvo Campero Castilla Corrico Daza "de la Cruz" "de Santa Cruz" "de Velasco" "de Vidal"
-		Echenique Erráºµriz Ferná®¤ez Figueroa Franco Freire Gamarra Gorostiaga Grau
+		Echenique Errázuriz Fernández Figueroa Franco Freire Gamarra Gorostiaga Grau
 		Guilarte "La Mar" Latorre Lynch Melgarejo Monje Montero Montes Montt Orbegoso
-		Pezet Rebolledo Ruò»‘”agle Salaverry Santa Marğ¨  Siles Sotomayor Toro Valencia Zañ¡²´u Zapata
+		Pezet Rebolledo Ruíz-Tagle Salaverry "Santa María" Siles Sotomayor Toro Valencia Zañartu Zapata
 		}
 	}
 	paraguayian = {
@@ -2151,51 +2153,35 @@ latin_american_cultures = {
 		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
 		}
 	}
-	patagonian = {
-		color = {206 221 255}
-		first_names = { Agustó¸ntonio Atanasio Baltasar Bartolomé ‚ernardino Bernardo Cá®¤ido Carlos Cecilio
-		Cirilo Claudio Domingo Emiliano Esteban Eugenio Evaristo Facundo Faustino Feliciano
-		Fé¬©x Francisco Fructuoso Gabriel Gaspar Guillermo Hipó¬©´o Ignacio José ¢Juan José¢
-		"Juan Manuel" "Juan Ramó®¢ Julio" Justo Lorenzo Luis Manuel Marcial Má¸©mo Miguel
-		Nicolá³ Patricio Pedro Ramó® ’oberto Roque Salvador Santiago Torcuato Venancio
-		}
-
-		last_names = { Aguirre Avellaneda Bá¥º Balcarce Bareiro Berro Brown Caballero Cruz "de Alvear"
-		"de la Plaza" "de Rosas" "de Urquiza" Derqui Dğ®  Ellauri Escobar Flores Gonzá¬¥z Jovellanos
-		Juá²¥z Justo Latorre Ló°¥º Machaó¸aza Meza Mitre Paz Pedernera
-		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodrò‘¥z de Francia" Rojas Rondeau Sá¥®z
-		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
-		}
-	}
 	argentinian = {
 		color = {199 232 151}
-		first_names = { Agustó¸ntonio Atanasio Baltasar Bartolomé ‚ernardino Bernardo Cá®¤ido Carlos Cecilio
+		first_names = { Agustín Antonio Atanasio Baltasar Bartolomé Bernardino Bernardo Cándido Carlos Cecilio
 		Cirilo Claudio Domingo Emiliano Esteban Eugenio Evaristo Facundo Faustino Feliciano
-		Fé¬©x Francisco Fructuoso Gabriel Gaspar Guillermo Hipó¬©´o Ignacio José ¢Juan José¢
-		"Juan Manuel" Juan Ramó®¢ Julio Justo Lorenzo Luis Manuel Marcial Má¸©mo Miguel
-		Nicolá³ Patricio Pedro Ramó® ’oberto Roque Salvador Santiago Torcuato Venancio
+		Félix Francisco Fructuoso Gabriel Gaspar Guillermo Hipólito Ignacio José "Juan José"
+		"Juan Manuel" "Juan Ramón" Julio Justo Lorenzo Luis Manuel Marcial Máximo Miguel
+		Nicolás Patricio Pedro Ramón Roberto Roque Salvador Santiago Torcuato Venancio
 		}
 
-		last_names = { Aguirre Avellaneda Bá¥º Balcarce Bareiro Berro Brown Caballero Cruz "de Alvear"
-		"de la Plaza" "de Rosas" "de Urquiza" Derqui Dğ®  Ellauri Escobar Flores Gonzá¬¥z Jovellanos
-		Juá²¥z Justo Latorre Ló°¥º Machaó¸aza Meza Mitre Paz Pedernera
-		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodrò‘¥z de Francia" Rojas Rondeau Sá¥®z
+		last_names = { Aguirre Avellaneda Báez Balcarce Bareiro Berro Brown Caballero Cruz "de Alvear"
+		"de la Plaza" "de Rosas" "de Urquiza" Derqui Díaz Ellauri Escobar Flores González Jovellanos
+		Juárez Justo Latorre López Machaín Maza Meza Mitre Paz Pedernera
+		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodríguez de Francia" Rojas Rondeau Sáenz
 		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
 		}
 	}
 	chilean = {
 		color = {255 146 91}
-		first_names = { Agustó¸ntonio Atanasio Baltasar Bartolomé ‚ernardino Bernardo Cá®¤ido Carlos Cecilio
+		first_names = { Agustín Antonio Atanasio Baltasar Bartolomé Bernardino Bernardo Cándido Carlos Cecilio
 		Cirilo Claudio Domingo Emiliano Esteban Eugenio Evaristo Facundo Faustino Feliciano
-		Fé¬©x Francisco Fructuoso Gabriel Gaspar Guillermo Hipó¬©´o Ignacio José ¢Juan José¢
-		"Juan Manuel" Juan Ramó®¢ Julio Justo Lorenzo Luis Manuel Marcial Má¸©mo Miguel
-		Nicolá³ Patricio Pedro Ramó® ’oberto Roque Salvador Santiago Torcuato Venancio
+		Félix Francisco Fructuoso Gabriel Gaspar Guillermo Hipólito Ignacio José "Juan José"
+		"Juan Manuel" "Juan Ramón" Julio Justo Lorenzo Luis Manuel Marcial Máximo Miguel
+		Nicolás Patricio Pedro Ramón Roberto Roque Salvador Santiago Torcuato Venancio
 		}
 
-		last_names = { Aguirre Avellaneda Bá¥º Balcarce Bareiro Berro Brown Caballero Cruz "de Alvear"
-		"de la Plaza" "de Rosas" "de Urquiza" Derqui Dğ®  Ellauri Escobar Flores Gonzá¬¥z Jovellanos
-		Juá²¥z Justo Latorre Ló°¥º Machaó¸aza Meza Mitre Paz Pedernera
-		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodrò‘¥z de Francia" Rojas Rondeau Sá¥®z
+		last_names = { Aguirre Avellaneda Báez Balcarce Bareiro Berro Brown Caballero Cruz "de Alvear"
+		"de la Plaza" "de Rosas" "de Urquiza" Derqui Díaz Ellauri Escobar Flores González Jovellanos
+		Juárez Justo Latorre López Machaín Maza Meza Mitre Paz Pedernera
+		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodríguez de Francia" Rojas Rondeau Sáenz
 		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
 		}
 	}
@@ -2218,33 +2204,33 @@ latin_american_cultures = {
 	ecuadorian = {
 		color = {255 220 107}
 		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
-		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José¢ "Francisco de Paula" Froilá® Gabriel
-		Gregorio Guillermo Gustavo Guzmá® Hilario Ignacio Jeró®©­o Joaquó¸Šorge "José ntonio"
-		"José anuel" "José arğ¨  Juan "Juan José¢ Juliá® Julio Leó® anuel Pedro Plá£©do
-		Rafael Raimundo Ramó® ’icardo Rodolfo Santiago Santos Tadeo Tomá³ Vicente
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José" "Francisco de Paula" Froilán Gabriel
+		Gregorio Guillermo Gustavo Guzmán Hilario Ignacio Jerónimo Joaquín Jorge "José Antonio"
+		"José Manuel" "José María" Juan "Juan José" Julián Julio León Manuel Pedro Plácido
+		Rafael Raimundo Ramón Ricardo Rodolfo Santiago Santos Tadeo Tomás Vicente
 		}
 
-		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamañ¯ ƒarreñ¯ ƒarrió® ƒastro
-		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldğ¨  "de Olmedo" "de Veintemilla" "de Villamil"
-		Falcó® †lores Garcğ¨‡ó­¥º Gonzá¬¥z Gual Gutié²²ez Herrá® Hurtado Ló°¥º
-		Mallarino Manjarré³ Mariñ¯ elo Monagas Moreno NÃºñ¥º Obando Pá¥º Porras
-		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas ZaldÃºa
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamaño Carreño Carrión Castro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldía" "de Olmedo" "de Veintemilla" "de Villamil"
+		Falcón Flores García Gómez González Gual Gutiérrez Herrán Hurtado López
+		Mallarino Manjarrés Mariño Melo Monagas Moreno Núñez Obando Páez Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 	}
 	uruguayan = {
 		color = {109 206 156}
 		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
-		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José¢ "Francisco de Paula" Froilá® Gabriel
-		Gregorio Guillermo Gustavo Guzmá® Hilario Ignacio Jeró®©­o Joaquó¸Šorge "José ntonio"
-		"José anuel" "José arğ¨  Juan "Juan José¢ Juliá® Julio Leó® anuel Pedro Plá£©do
-		Rafael Raimundo Ramó® ’icardo Rodolfo Santiago Santos Tadeo Tomá³ Vicente
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José" "Francisco de Paula" Froilán Gabriel
+		Gregorio Guillermo Gustavo Guzmán Hilario Ignacio Jerónimo Joaquín Jorge "José Antonio"
+		"José Manuel" "José María" Juan "Juan José" Julián Julio León Manuel Pedro Plácido
+		Rafael Raimundo Ramón Ricardo Rodolfo Santiago Santos Tadeo Tomás Vicente
 		}
 
-		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamañ¯ ƒarreñ¯ ƒarrió® ƒastro
-		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldğ¨  "de Olmedo" "de Veintemilla" "de Villamil"
-		Falcó® †lores Garcğ¨‡ó­¥º Gonzá¬¥z Gual Gutié²²ez Herrá® Hurtado Ló°¥º
-		Mallarino Manjarré³ Mariñ¯ elo Monagas Moreno NÃºñ¥º Obando Pá¥º Porras
-		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas ZaldÃºa
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamaño Carreño Carrión Castro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldía" "de Olmedo" "de Veintemilla" "de Villamil"
+		Falcón Flores García Gómez González Gual Gutiérrez Herrán Hurtado López
+		Mallarino Manjarrés Mariño Melo Monagas Moreno Núñez Obando Páez Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 	}
 }
@@ -2254,33 +2240,33 @@ guiana_cultures = {
 	guyanan = {
 		color = {42 147 106}
 		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
-		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José¢ "Francisco de Paula" Froilá® Gabriel
-		Gregorio Guillermo Gustavo Guzmá® Hilario Ignacio Jeró®©­o Joaquó¸Šorge "José ntonio"
-		"José anuel" "José arğ¨  Juan "Juan José¢ Juliá® Julio Leó® anuel Pedro Plá£©do
-		Rafael Raimundo Ramó® ’icardo Rodolfo Santiago Santos Tadeo Tomá³ Vicente
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José" "Francisco de Paula" Froilán Gabriel
+		Gregorio Guillermo Gustavo Guzmán Hilario Ignacio Jerónimo Joaquín Jorge "José Antonio"
+		"José Manuel" "José María" Juan "Juan José" Julián Julio León Manuel Pedro Plácido
+		Rafael Raimundo Ramón Ricardo Rodolfo Santiago Santos Tadeo Tomás Vicente
 		}
 
-		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamañ¯ ƒarreñ¯ ƒarrió® ƒastro
-		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldğ¨  "de Olmedo" "de Veintemilla" "de Villamil"
-		Falcó® †lores Garcğ¨‡ó­¥º Gonzá¬¥z Gual Gutié²²ez Herrá® Hurtado Ló°¥º
-		Mallarino Manjarré³ Mariñ¯ elo Monagas Moreno NÃºñ¥º Obando Pá¥º Porras
-		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas ZaldÃºa
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamaño Carreño Carrión Castro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldía" "de Olmedo" "de Veintemilla" "de Villamil"
+		Falcón Flores García Gómez González Gual Gutiérrez Herrán Hurtado López
+		Mallarino Manjarrés Mariño Melo Monagas Moreno Núñez Obando Páez Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 	}
 	surinamean = {
 		color = {42 147 106}
 		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
-		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José¢ "Francisco de Paula" Froilá® Gabriel
-		Gregorio Guillermo Gustavo Guzmá® Hilario Ignacio Jeró®©­o Joaquó¸Šorge "José ntonio"
-		"José anuel" "José arğ¨  Juan "Juan José¢ Juliá® Julio Leó® anuel Pedro Plá£©do
-		Rafael Raimundo Ramó® ’icardo Rodolfo Santiago Santos Tadeo Tomá³ Vicente
+		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José" "Francisco de Paula" Froilán Gabriel
+		Gregorio Guillermo Gustavo Guzmán Hilario Ignacio Jerónimo Joaquín Jorge "José Antonio"
+		"José Manuel" "José María" Juan "Juan José" Julián Julio León Manuel Pedro Plácido
+		Rafael Raimundo Ramón Ricardo Rodolfo Santiago Santos Tadeo Tomás Vicente
 		}
 
-		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamañ¯ ƒarreñ¯ ƒarrió® ƒastro
-		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldğ¨  "de Olmedo" "de Veintemilla" "de Villamil"
-		Falcó® †lores Garcğ¨‡ó­¥º Gonzá¬¥z Gual Gutié²²ez Herrá® Hurtado Ló°¥º
-		Mallarino Manjarré³ Mariñ¯ elo Monagas Moreno NÃºñ¥º Obando Pá¥º Porras
-		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas ZaldÃºa
+		last_names = { Alfaro Andueza Arboleda Blanco Bonnet Boyd Caamaño Carreño Carrión Castro
+		Chiari Cordero Crespo Daza "de Herrera" "de Mosquera" "de Obaldía" "de Olmedo" "de Veintemilla" "de Villamil"
+		Falcón Flores García Gómez González Gual Gutiérrez Herrán Hurtado López
+		Mallarino Manjarrés Mariño Melo Monagas Moreno Núñez Obando Páez Porras
+		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 	}
 	
@@ -2802,11 +2788,34 @@ zaire_group = {
 	}
 	union = ZAI
 }
-
-north_east_african = {
+amharic = {
 	leader = african
 	is_overseas = no
 	unit = AfricanGC
+	ethiopian = {
+		color = {160 211 187}
+		first_names = { Muhammad Abdullah Abbas said Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
+		}
+
+		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi
+		}
+	}
+	eritrean = {
+		color = {79 77 181}
+		first_names = { Muhammad Abdullah Abbas said Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
+		}
+
+		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi
+		}
+	}
+	oromo = {
+		color = {162 23 199}
+		first_names = { Ras Debela Alemayehu Dirribi Heile Gobana Tsegaye Tilahun Waqo Ahmad Galasa Hailu Yilma Abadula Abdus
+		}
+
+		last_names = { Makonnen Dacche Mideksa Dinsa Turnsaa Gemeda Eabisa Demissie Gessesse
+		}
+	}
 	afar = {
 		color = {198 46 99}
 		first_names = { Mahammad Umar Kedafu Alimirah Amda Baeda Kadhafo 
@@ -2815,6 +2824,12 @@ north_east_african = {
 		last_names = { Hanfadhe Yayyo Seyon Maryam Aydahis 
 		}
 	}
+	union = ETH
+}
+north_east_african = {
+	leader = african
+	is_overseas = no
+	unit = AfricanGC
 	azande = {
 		color = {31 89 150}
 		first_names = { Souau Mwerve Ngabwe Birhenjira Rutanganda Rugema Kabare Rugemaninzi Makome Bigomokero
@@ -2839,20 +2854,20 @@ north_east_african = {
 		last_names = { "wad Nyakwac" "wad Kudit" "wad Akwot" "wad Nyidok" "wad Ajang" "wad Kwadker" "wad Akoc" "wad Yor" "wad Kur"
 		}
 	}
-	oromo = {
-		color = {162 23 199}
-		first_names = { Ras Debela Alemayehu Dirribi Heile Gobana Tsegaye Tilahun Waqo Ahmad Galasa Hailu Yilma Abadula Abdus
-		}
-
-		last_names = { Makonnen Dacche Mideksa Dinsa Turnsaa Gemeda Eabisa Demissie Gessesse
-		}
-	}
 	somali = {
 		color = {226 22 48}
 		first_names = { Yusuf Mahamud Ahmed Osman Ali Aul Shire Mohamud Naleye Abdikarim Dalmar Ghdi Labaan Roble Taban Erasto Abdi
 		}
 
 		last_names = { Ibrahim Adeer Hassan Gurey Hirsi Doreh Dekiye Afrah Mujahid Kenadid
+		}
+	}
+	south_sudanese = {
+		color = {164 153 181}
+		first_names = { Muhammad Abdullah Abbas said Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
+		}
+
+		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi
 		}
 	}
 	sudanese = {
@@ -2863,6 +2878,15 @@ north_east_african = {
 		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi
 		}
 	}
+	dafurian = {
+		color = {181 147 95}
+		first_names = { Muhammad Abdullah Abbas said Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
+		}
+
+		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi
+		}
+	}
+	
 }
 east_african_group = {
 	leader = african

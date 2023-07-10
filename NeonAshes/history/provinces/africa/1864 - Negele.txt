@@ -1,2 +1,5 @@
+owner = ORO
+controller = ORO
+add_core = ORO
 trade_goods = timber
 life_rating = 35

@@ -1,1 +1,1 @@
-owner = ERPcontroller = ERPadd_core = ERPtrade_goods = sheeplife_rating = 35
+owner = ERPcontroller = ERPadd_core = ERPtrade_goods = sheepslife_rating = 35

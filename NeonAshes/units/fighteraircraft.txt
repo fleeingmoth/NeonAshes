@@ -27,8 +27,7 @@ fighteraircraft = {
 	supply_cost = {
 		adv_ammunition = 0.1
 		fuel = 0.25		# 300,000 gal/day
-		canned_food = 0.02
-		fuel = 0.25
+		#canned_food = 0.02
 		machine_parts = 0.15
 		engines = 0.1
 	}

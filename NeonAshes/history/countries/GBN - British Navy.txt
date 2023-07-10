@@ -1,6 +1,6 @@
 capital = 267 #
 primary_culture = english
-accepted_culture = scotish
+culture = scotish
 religion = catholic
 government = auth_democracy
 plurality = 25.0

@@ -1893,14 +1893,22 @@ land_based_pesa = { # Land-Based PESA
 		}
 	}
 	effect = {
-		fieldartillery = { attack = 1 }
-		fieldartillery = { defence = 2 }
-		spartillery = { attack = 1 }
-		spartillery = { defence = 2 }
-		lightarmor = { attack = 0.5 }
-		lightarmor = { defence = 0.5 }
-		heavyarmor = { attack = 0.5 }
-		heavyarmor = { defence = 0.5 }
+		fieldartillery = { 
+			attack = 1 
+			defence = 2 
+		}
+		spartillery = { 
+			attack = 1 
+			defence = 2 
+		}
+		lightarmor = { 
+			attack = 0.5 
+			defence = 0.5 
+		}
+		heavyarmor = { 
+			attack = 0.5 
+			defence = 0.5 
+		}
 	}
 }
 base_bleed_projectiles = { # Base Bleed Projectiles
@@ -2020,14 +2028,22 @@ land_based_aesa = { # Land-Based AESA
 		}
 	}
 	effect = {
-		fieldartillery = { attack = 1 }
-		fieldartillery = { defence = 2 }
-		spartillery = { attack = 1 }
-		spartillery = { defence = 2 }
-		lightarmor = { attack = 0.5 }
-		lightarmor = { defence = 0.5 }
-		heavyarmor = { attack = 0.5 }
-		heavyarmor = { defence = 0.5 }
+		fieldartillery = { 
+			attack = 1 
+			defence = 2 
+		}
+		spartillery = { 
+			attack = 1 
+			defence = 2 
+		}
+		lightarmor = { 
+			attack = 0.5 
+			defence = 0.5 
+		}
+		heavyarmor = { 
+			attack = 0.5
+			defence = 0.5 
+		}
 	}
 }
 supersonic_cruise_missiles = { # Supersonic Cruise Missiles
@@ -2099,18 +2115,30 @@ modern_battlefield_radar = { # Modern Battlefield Radar
 		}
 	}
 	effect = {
-		motinfantry = { attack = 0.5 }
-		motinfantry = { defence = 0.5 }
-		mechinfantry = { attack = 0.5 }
-		mechinfantry = { defence = 0.5 }
-		fieldartillery = { attack = 2 }
-		fieldartillery = { defence = 4 }
-		spartillery = { attack = 2 }
-		spartillery = { defence = 4 }
-		lightarmor = { attack = 1 }
-		lightarmor = { defence = 1 }
-		heavyarmor = { attack = 1 }
-		heavyarmor = { defence = 1 }
+		motinfantry = { 
+			attack = 0.5 
+			defence = 0.5 
+		}
+		mechinfantry = { 
+			attack = 0.5 
+			defence = 0.5 
+		}
+		fieldartillery = {
+			attack = 2 
+			defence = 4 
+		}
+		spartillery = { 
+			attack = 2 
+			defence = 4 
+		}
+		lightarmor = { 
+			attack = 1 
+			defence = 1 
+		}
+		heavyarmor = { 
+			attack = 1 
+			defence = 1 
+		}
 	}
 }
 hypersonic_cruise_missiles = { # Hypersonic Cruise Missiles
@@ -2185,18 +2213,30 @@ integrated_chassis_sensors = { # Integrated Chassis Sensors
 		}
 	}
 	effect = {
-		motinfantry = { attack = 0.5 }
-		motinfantry = { defence = 0.5 }
-		mechinfantry = { attack = 0.5 }
-		mechinfantry = { defence = 0.5 }
-		fieldartillery = { attack = 2 }
-		fieldartillery = { defence = 4 }
-		spartillery = { attack = 2 }
-		spartillery = { defence = 4 }
-		lightarmor = { attack = 1 }
-		lightarmor = { defence = 1 }
-		heavyarmor = { attack = 1 }
-		heavyarmor = { defence = 1 }
+		motinfantry = { 
+			attack = 0.5 
+			defence = 0.5 
+		}
+		mechinfantry = { 
+			attack = 0.5
+			defence = 0.5 
+		}
+		fieldartillery = {
+			attack = 2 
+			defence = 4 
+		}
+		spartillery = { 
+			attack = 2 
+			defence = 4 
+		}
+		lightarmor = { 
+			attack = 1 
+			defence = 1 
+		}
+		heavyarmor = { 
+			attack = 1 
+			defence = 1 
+		}
 	}
 }
 hunter_killer_cruise_missiles = { # Hunter-Killer Cruise Missiles

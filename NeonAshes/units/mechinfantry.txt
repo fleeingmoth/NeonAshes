@@ -27,7 +27,7 @@ mechinfantry = {
 		conv_ammunition = 0.15
 		fuel = 0.15		# 150,000 gal/day
 		clothing = 0.05
-		canned_food = 0.07
+		#canned_food = 0.07
 		armored_vehicles = 0.2
 	}
 

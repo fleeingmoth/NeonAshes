@@ -1,5 +1,5 @@
 capital = 2264 #
-primary_culture = venezuela
+primary_culture = venezuelan
 religion = catholic
 government = auth_democracy
 plurality = 25.0

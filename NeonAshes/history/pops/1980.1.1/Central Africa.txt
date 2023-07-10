@@ -124,7 +124,7 @@
 	farmers = {
 		culture = equatorial
 		religion = catholic
-		size = 0
+		size = 70627
 	}
 }
 1974 = {#
@@ -163,18 +163,11 @@
 		size = 18717
 	}
 }
-1983 = {#
-	farmers = {
-		culture = congolese
-		religion = catholic
-		size = 46785
-	}
-}
 1978 = {#
 	farmers = {
 		culture = congolese
 		religion = catholic
-		size = 60473
+		size = 107258
 	}
 }
 1977 = {#

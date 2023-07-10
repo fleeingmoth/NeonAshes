@@ -212,6 +212,7 @@ ideologies = {
 			factor = 0.1
 			ruling_party_ideology = socialist
 		}
+	}
 
 ### Communism ###
 

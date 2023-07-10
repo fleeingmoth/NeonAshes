@@ -241,7 +241,27 @@
 	farmers = {
 		culture = israeli
 		religion = catholic
-		size = 118225
+		size = 63750
+	}
+	soldiers = {
+		culture = israeli
+		religion = catholic
+		size = 17141
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 35412
+	}
+	bureaucrats = {
+		culture = israeli
+		religion = catholic
+		size = 1581
+	}
+	capitalists = {
+		culture = israeli
+		religion = catholic
+		size = 341
 	}
 	farmers = {
 		culture = palestinian
@@ -253,7 +273,12 @@
 	farmers = {
 		culture = israeli
 		religion = catholic
-		size = 270975
+		size = 246817
+	}
+	soldiers = {
+		culture = israeli
+		religion = catholic
+		size = 24158
 	}
 }
 918 = {#

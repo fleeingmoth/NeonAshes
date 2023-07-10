@@ -267,3 +267,358 @@
 		size = 848016
 	}
 }
+#sudan
+1834 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 15
+	}
+}
+1833 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 104965
+	}
+}
+1836 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 38731
+	}
+}
+1835 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 107455
+	}
+}
+1837 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 164132
+	}
+}
+1829 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 500393
+	}
+}
+1828 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 570277
+	}
+}
+1830 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 313003
+	}
+}
+1831 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 257675
+	}
+}
+1827 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 737550
+	}
+}
+1840 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 210747
+	}
+}
+1838 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 278683
+	}
+}
+1839 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 208356
+	}
+}
+1841 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 452024
+	}
+}
+1842 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 521997
+	}
+}
+2564 = {#
+	farmers = {
+		culture = sudanese
+		religion = catholic
+		size = 1341
+	}
+}
+1832 = {#
+	farmers = {
+		culture = south_sudanese
+		religion = catholic
+		size = 137230
+	}
+}
+1847 = {#
+	farmers = {
+		culture = south_sudanese
+		religion = catholic
+		size = 319733
+	}
+}
+1844 = {#
+	farmers = {
+		culture = south_sudanese
+		religion = catholic
+		size = 402435
+	}
+}
+1846 = {#
+	farmers = {
+		culture = south_sudanese
+		religion = catholic
+		size = 141360
+	}
+}
+1845 = {#
+	farmers = {
+		culture = south_sudanese
+		religion = catholic
+		size = 89764
+	}
+}
+1843 = {#
+	farmers = {
+		culture = south_sudanese
+		religion = catholic
+		size = 440260
+	}
+}
+#Ethiopia (8,737,500)
+1864 = {#
+	farmers = {
+		culture = oromo
+		religion = catholic
+		size = 854311
+	}
+}
+1861 = {#
+	farmers = {
+		culture = oromo
+		religion = catholic
+		size = 954012
+	}
+}
+1862 = {#
+	farmers = {
+		culture = ethiopian
+		religion = catholic
+		size = 753678
+	}
+}
+1863 = {#
+	farmers = {
+		culture = ethiopian
+		religion = catholic
+		size = 475845
+	}
+}
+1860 = {#
+	farmers = {
+		culture = ethiopian
+		religion = catholic
+		size = 554364
+	}
+}
+1859 = {#
+	farmers = {
+		culture = ethiopian
+		religion = catholic
+		size = 1074583
+	}
+}
+1855 = {#
+	farmers = {
+		culture = ethiopian
+		religion = catholic
+		size = 410786
+	}
+}
+1853 = {#
+	farmers = {
+		culture = ethiopian
+		religion = catholic
+		size = 787112
+	}
+}
+1858 = {#
+	farmers = {
+		culture = afar
+		religion = catholic
+		size = 654857
+	}
+}
+1857 = {#
+	farmers = {
+		culture = ethiopian
+		religion = catholic
+		size = 578541
+	}
+}
+1856 = {#
+	farmers = {
+		culture = ethiopian
+		religion = catholic
+		size = 878541
+	}
+}
+1852 = {#
+	farmers = {
+		culture = ethiopian
+		religion = catholic
+		size = 674891
+	}
+}
+1854 = {#
+	farmers = {
+		culture = ethiopian
+		religion = catholic
+		size = 698121
+	}
+}
+##somalia (1,689,677 pops)
+1870 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 190620
+	}
+}
+1868 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 273120
+	}
+}
+1869 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 195552
+	}
+}
+1871 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 202000
+	}
+}
+1872 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 102580
+	}
+}
+1874 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 61100
+	}
+}
+1873 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 304660
+	}
+}
+#west somalia
+1865 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 366512
+	}
+}
+1866 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 451432
+	}
+}
+1867 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 540005
+	}
+}
+1875 = {#
+	farmers = {
+		culture = somali
+		religion = catholic
+		size = 81030
+	}
+}
+#eritrea (687,076)
+1850 = {#
+	farmers = {
+		culture = eritrean
+		religion = catholic
+		size = 261894
+	}
+}
+1849 = {#
+	farmers = {
+		culture = eritrean
+		religion = catholic
+		size = 161502
+	}
+}
+1848 = {#
+	farmers = {
+		culture = eritrean
+		religion = catholic
+		size = 208940
+	}
+}
+1851 = {#
+	farmers = {
+		culture = eritrean
+		religion = catholic
+		size = 54740
+	}
+}

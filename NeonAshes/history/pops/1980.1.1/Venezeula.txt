@@ -109,8 +109,8 @@
 		religion = catholic
 		size = 17196
 	}
-	farmers = {
-		culture = bureaucrats
+	bureaucrats = {
+		culture = venezuelan
 		religion = catholic
 		size = 1286
 	}

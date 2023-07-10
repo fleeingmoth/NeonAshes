@@ -1,0 +1,101 @@
+political_decisions = {
+	end_ethiopian_civil_war = { #
+		#news = yes
+		#news_desc_long = "north_cali_victory_NEWS_LONG"
+		#news_desc_medium = "north_cali_victory_NEWS_MEDIUM"
+		#news_desc_short = "north_cali_victory_NEWS_SHORT"
+		picture = flag_ethiopia_smallpic
+		potential = { 
+			OR={
+				tag = IHA
+				tag = DRG
+				tag = TNF
+			}
+			NOT = { exists = ETH } #
+		}
+		allow = {
+			war = no
+			ETH={
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 5
+			change_tag = ETH #
+			IHA={
+				all_core={
+					remove_core = IHA
+				}
+			}
+			DRG={
+				all_core={		
+					remove_core = DRG
+				}
+			}
+			TNF={
+				all_core={		
+					remove_core = TNF
+				}
+			}
+			1858={
+				add_core = ETH
+			}
+			1865={
+				add_core = ETH
+			}
+			1861={
+				add_core = ETH
+			}
+			1864={
+				add_core = ETH
+			}
+			1867={
+				add_core = ETH
+			}
+			1866={
+				add_core = ETH
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	reform_ethiopia = { #
+		#news = yes
+		#news_desc_long = "north_cali_victory_NEWS_LONG"
+		#news_desc_medium = "north_cali_victory_NEWS_MEDIUM"
+		#news_desc_short = "north_cali_victory_NEWS_SHORT"
+		picture = flag_ethiopia_smallpic
+		potential = { 
+			tag = ETH
+		}
+		allow = {
+			war = no
+			ETH={
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 5
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

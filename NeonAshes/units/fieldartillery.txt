@@ -24,7 +24,7 @@ fieldartillery = {
 	supply_cost = {
 		adv_ammunition = 0.2
 		fuel = 0.02
-		canned_food = 0.03			# 50,000 gal/day
+		#canned_food = 0.03			# 50,000 gal/day
 		clothing = 0.02
 		motor_vehicles = 0.1
 	}

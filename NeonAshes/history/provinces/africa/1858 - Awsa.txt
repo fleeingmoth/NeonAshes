@@ -1,2 +1,5 @@
+owner = AFR
+controller = AFR
+add_core = AFR
 trade_goods = timber
 life_rating = 35

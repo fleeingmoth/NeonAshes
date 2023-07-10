@@ -1,0 +1,34 @@
+# 30100 - 30199 - Arab Events
+
+country_event = { # Collapse of UAR
+	id = 30101
+	title = "EVT_30101_NAME"
+	desc = "EVT_30101_DESC"
+	picture = "events_default"
+	trigger={
+		tag = UAR
+		NOT={
+			any_owned_province={
+				OR={
+					province_id = 902
+					province_id = 1751
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVT_30101_OPTA" # we have collapsed
+		UAR={
+			inherit = EGY
+		}
+		all_core={
+			remove_core = UAR
+		}
+		change_tag = EGY
+		release = SYR
+		release = IRQ
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

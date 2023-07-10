@@ -1121,12 +1121,18 @@ air_pesa = { # Aircraft PESA
 		}
 	}
 	effect = {
-		armyaviation = { attack = 2 }
-		armyaviation = { defence = 2 }
-		fighteraircraft = { attack = 2 }
-		fighteraircraft = { defence = 2 }
-		groundattackaircraft = { attack = 2 }
-		groundattackaircraft = { defence = 2 }
+		armyaviation = { 
+			attack = 2 
+			defence = 2 
+		}
+		fighteraircraft = { 
+			attack = 2 
+			defence = 2 
+		}
+		groundattackaircraft = { 
+			attack = 2 
+			defence = 2 
+		}
 	}
 }
 

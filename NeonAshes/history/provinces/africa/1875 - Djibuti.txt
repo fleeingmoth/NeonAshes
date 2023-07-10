@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = DJI
+controller = DJI
+add_core = DJI
+trade_goods = oilseed_crops
 life_rating = 35

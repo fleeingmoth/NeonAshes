@@ -1,2 +1,5 @@
+owner = ERI
+controller = ERI
+add_core = ERI
 trade_goods = timber
 life_rating = 35

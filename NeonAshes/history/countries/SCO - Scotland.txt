@@ -1,5 +1,5 @@
 capital = 269 #
-primary_culture = scotland
+primary_culture = scotish
 religion = catholic
 government = democracy
 plurality = 25.0

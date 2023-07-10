@@ -36,7 +36,7 @@ lightarmor = {
 		conv_ammunition = 0.15
 		fuel = 0.40		# 200,000 gal/day
 		machine_parts = 0.1
-		canned_food = 0.1
+		#canned_food = 0.1
 		heavy_weapons = 0.1
 		armored_vehicles = 0.1
 	}

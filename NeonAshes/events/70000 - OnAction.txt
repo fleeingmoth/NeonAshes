@@ -1,0 +1,658 @@
+#$STATE$ Joins $COUNTRY$
+country_event = {
+	id = 70000
+	title = "EVTNAME70000"
+	desc = "EVTDESC70000"
+	picture = "Slaves"
+	trigger = {
+		country = {
+			slavery = yes_slavery
+			capital_scope = {
+				NOT = { continent = europe }
+			}
+		}
+	}
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	option = {
+		name = "EVTOPTA70000"
+		is_slave = yes
+		country = {
+			any_state = {
+				limit = {
+					is_slave = no
+				}
+				any_pop = { consciousness = 1 }
+			}
+			any_state = {
+				limit = {
+					is_slave = yes
+				}
+				any_pop = { consciousness = -0.5 }
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB70000"
+		is_slave = no
+		country = {
+			any_state = {
+				limit = {
+					is_slave = yes
+				}
+				any_pop = { consciousness = 1 }
+			}
+			any_state = {
+				limit = {
+					is_slave = no
+				}
+				any_pop = { consciousness = -0.5 }
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}		
+	}
+}
+
+#$STATE$ Joins $COUNTRY$!
+country_event = {
+	id = 70001
+	title = "EVTNAME70001"
+	desc = "EVTDESC70001"
+	picture = "Western"
+	trigger = {
+		country = {
+			slavery = no_slavery
+			capital_scope = {
+				NOT = { continent = europe }
+			}
+		}
+	}
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	option = {
+		name = "EVTOPTA70001"
+		is_slave = no
+	}
+}
+
+# Nation that owns your debt goes bankrupt
+country_event = {
+	id = 70002
+	title = "EVTNAME70002"
+	desc = "EVTDESC70002"
+	picture = "Bankruptcy"
+	trigger = {
+		NOT = { tag = FROM }
+	}
+
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA70002"
+		casus_belli = {
+			type = gunboat
+			target = FROM
+		}
+	}
+}
+
+# Nation that owns your debt goes bankrupt in definace of our gunboats
+country_event = {
+	id = 70003
+	title = "EVTNAME70002"
+	desc = "EVTDESC70002"
+	picture = "Bankruptcy"
+	trigger = {
+		NOT = { tag = FROM }
+	}
+
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA70002"
+		casus_belli = {
+			type = cut_down_to_size
+			target = FROM
+		}
+	}
+}
+
+
+# Nation that owns your debt goes bankrupt, but the amount is small
+country_event = {
+	id = 70004
+	title = "EVTNAME70002"
+	desc = "EVTDESC70002"
+	picture = "Bankruptcy"
+	trigger = {
+
+	}
+
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA70002"
+		casus_belli = {
+			type = gunboat
+			target = FROM
+		}
+	}
+}
+
+# prompts you to declare interest for a starting crisis
+country_event = {
+	id = 70005
+	title = "EVTNAME20000"
+	desc = "EVTDESC20000"
+	picture = "crisis"
+	trigger = {
+	}
+
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA20000" # declare interest
+		ai_chance = {
+			factor = 100
+		}
+
+		add_crisis_interest = yes
+	}
+	option = {
+		name = "EVTOPTB20000" # decline
+
+		prestige_factor = -0.2
+	}
+}
+
+province_event = {
+	id = 70006
+	title = "EVTNAME20100" #Flashpoint event for GPs
+	desc = "EVTDESC20100"
+	picture = "crisis"
+	trigger = {
+		owner = { is_greater_power = yes }
+		state_scope = {
+			has_flashpoint = yes
+			flashpoint_tension = 5
+			NOT = { flashpoint_tension = 90 }
+			}
+	}
+	
+	mean_time_to_happen =  {
+		months = 250
+
+		modifier = {
+			factor = 0.5
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.75
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 1.25
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 1.5
+			war_policy = pacifism
+		}
+	}
+
+	option = {
+		name = "EVTOPTA20100" # 
+		ai_chance = {
+			factor = 95
+		}
+		state_scope = {
+			flashpoint_tension = 10
+		}
+	}
+	option = {
+		name = "EVTOPTB20100" # 
+		ai_chance = {
+			factor = 5
+		}
+
+		owner = { prestige_factor = -0.15 }
+	}
+}
+
+province_event = {
+	id = 70007
+	title = "EVTNAME20101" #Flashpoint event for others
+	desc = "EVTDESC20101"
+	picture = "crisis"
+	trigger = {
+		owner = { is_greater_power = no }
+		state_scope = {
+			has_flashpoint = yes
+				flashpoint_tension = 5
+				NOT = { flashpoint_tension = 90 }
+			}
+	}
+	
+	mean_time_to_happen =  {
+		months = 250
+
+		modifier = {
+			factor = 0.5
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.75
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 1.25
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 1.5
+			war_policy = pacifism
+		}
+	}
+
+	option = {
+		name = "EVTOPTA20101" # 
+		ai_chance = {
+			factor = 70
+		}
+		state_scope = {
+			flashpoint_tension = 10
+		}
+	}
+	option = {
+		name = "EVTOPTB20101" # decline
+		ai_chance = {
+			factor = 30
+		}
+
+		owner = { prestige_factor = -0.1 }
+	}
+}
+
+country_event = {
+	id = 70008
+	title = "EVTNAME20102" #Claim Crisis GP
+	desc = "EVTDESC20102"
+	picture = "crisis"
+	trigger = {
+		crisis_exist = yes
+		involved_in_crisis = yes
+		is_greater_power = yes
+		is_claim_crisis = yes
+	}
+	
+	mean_time_to_happen =  {
+		months = 24
+
+		modifier = {
+			factor = 0.5
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.75
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 1.25
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 1.5
+			war_policy = pacifism
+		}
+	}
+
+	option = {
+		name = "EVTOPTA20102" # 
+		ai_chance = {
+			factor = 95
+		}
+			add_crisis_temperature = 10
+	}
+	option = {
+		name = "EVTOPTB20102" # 
+		ai_chance = {
+			factor = 5
+		}
+
+		prestige_factor = -0.15
+	}
+}
+
+country_event = {
+	id = 70009
+	title = "EVTNAME20103" #Liberation Crisis GP
+	desc = "EVTDESC20103"
+	picture = "crisis"
+	trigger = {
+		crisis_exist = yes
+		involved_in_crisis = yes
+		is_greater_power = yes
+		is_liberation_crisis = yes
+	}
+	
+	mean_time_to_happen =  {
+		months = 24
+
+		modifier = {
+			factor = 0.5
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.75
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 1.25
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 1.5
+			war_policy = pacifism
+		}
+	}
+
+	option = {
+		name = "EVTOPTA20103" # 
+		ai_chance = {
+			factor = 95
+		}
+			add_crisis_temperature = 10
+	}
+	option = {
+		name = "EVTOPTB20103" # 
+		ai_chance = {
+			factor = 5
+		}
+
+		prestige_factor = -0.15
+	}
+}
+
+country_event = {
+	id = 70010
+	title = "EVTNAME20104" #Claim Crisis non GP, e.g target
+	desc = "EVTDESC20104" 
+	picture = "crisis"
+	trigger = {
+		crisis_exist = yes
+		involved_in_crisis = yes
+		is_greater_power = no
+		is_claim_crisis = yes
+	}
+	
+	mean_time_to_happen =  {
+		months = 24
+
+		modifier = {
+			factor = 0.5
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.75
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 1.25
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 1.5
+			war_policy = pacifism
+		}
+	}
+
+	option = {
+		name = "EVTOPTA20104" # 
+		ai_chance = {
+			factor = 70
+		}
+			add_crisis_temperature = 5
+	}
+	option = {
+		name = "EVTOPTB20104" # decline
+		ai_chance = {
+			factor = 30
+		}
+
+		#
+	}
+}
+
+country_event = {
+	id = 70011
+	title = "EVTNAME20105" #Liberation Crisis non GP
+	desc = "EVTDESC20105"
+	picture = "crisis"
+	trigger = {
+		crisis_exist = yes
+		involved_in_crisis = yes
+		is_greater_power = no
+		is_liberation_crisis = yes
+	}
+	
+	mean_time_to_happen =  {
+		months = 24
+
+		modifier = {
+			factor = 0.5
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.75
+			war_policy = pro_military
+		}
+		modifier = {
+			factor = 1.25
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 1.5
+			war_policy = pacifism
+		}
+	}
+
+	option = {
+		name = "EVTOPTA20105" # 
+		ai_chance = {
+			factor = 70
+		}
+			add_crisis_temperature = 5
+	}
+	option = {
+		name = "EVTOPTB20105" # decline
+		ai_chance = {
+			factor = 30
+		}
+
+		#
+	}
+}
+
+# Pan-Nationalist
+country_event = {
+	title = "EVTNAME11100"
+	desc = "EVTDESC11100"
+	picture = "Celebration"
+
+	id = 70012
+
+	is_triggered_only = yes
+
+	option = {				# Accept inheritance
+		name = "EVTOPTA11100"
+		change_tag = culture
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				is_culture_group = THIS
+				is_greater_power = no
+				OR = {
+					in_sphere = THIS
+					AND = {
+						part_of_sphere = no
+						NOT = {
+							OR = {
+								tag = AUS
+								tag = KUK
+								}
+							}
+						}
+					tag = WAL
+					tag = MOL
+					tag = MON
+					tag = BOS
+					tag = SER
+					tag = SLO
+					AND = {
+						OR = {
+							tag = AUS
+							tag = KUK
+						}
+						exists = HUN
+						part_of_sphere = no
+					}
+				}
+				num_of_cities = 1
+			}
+			country_event = { id=70013 days=0 }
+		}
+		political_reform = wealth_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = secret_ballots
+		government = hms_government
+		add_accepted_culture = union
+		prestige = -15
+		badboy = 10
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 200
+				OR = {
+					tag = MOL
+					tag = WAL
+				}
+			}
+			modifier = {
+				factor = 5
+				government = hms_government
+			}
+			modifier = {
+				factor = 10
+				government = democracy
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = liberal
+			}
+			modifier = {
+				factor = 3
+				upper_house = {
+					ideology = liberal
+					value = 0.5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB11100"
+		prestige = 2
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 1.5
+				government = absolute_monarchy
+			}
+		}
+		any_pop = {
+			militancy = 1
+		}
+	}
+}
+
+# Event to Inherit
+country_event = {
+	id = 70013
+	title = "EVTNAME11101"
+	desc = "EVTDESC11101"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA11101"
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	option = {
+		name = "EVTOPTB11101"
+		prestige = 1
+		relation = {
+			who = FROM
+			value = -100
+		}
+		any_pop = {
+			militancy = 3
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+	title = "EVTNAME90950"
+	desc = "EVTDESC90950"
+	picture = "Prosper"
+
+	id = 90950
+
+	is_triggered_only = yes
+	
+	trigger = {
+		#
+		}
+
+	option = {				
+		name = "EVTOPTA90950"
+		casus_belli = {
+			target = FROM
+			type = make_puppet
+			months = 12
+		}
+		
+		relation = {
+			who = FROM
+			value = -100
+		}
+		
+	}
+	
+	option = {				
+		name = "EVTOPTB90950"
+
+		relation = {
+			who = FROM
+			value = 100
+		}
+		
+	}
+
+}

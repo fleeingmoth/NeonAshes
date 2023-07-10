@@ -322,6 +322,12 @@ PAL = "countries/Palestine.txt"
 
 ISR = "countries/Israel.txt"
 LEB = "countries/Lebanon.txt"
+JOR = "countries/Jordan.txt"
+SAU = "countries/Saudi Arabia.txt"
+UAE = "countries/UAE.txt"
+QAT = "countries/Qatar.txt"
+BHR = "countries/Bahrain.txt"
+KUW = "countries/Kuwait.txt"
 
 ## HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

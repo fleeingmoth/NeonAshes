@@ -1261,12 +1261,18 @@ modern_aircraft_optics = { # Modern Aircraft Optics
 		}
 	}
 	effect = {
-		armyaviation = { attack = 4 }
-		armyaviation = { defence = 4 }
-		fighteraircraft = { attack = 4 }
-		fighteraircraft = { defence = 4 }
-		groundattackaircraft = { attack = 4 }
-		groundattackaircraft = { defence = 4 }
+		armyaviation = { 
+			attack = 4 
+			defence = 4 
+		}
+		fighteraircraft = { 
+			attack = 4 
+			defence = 4 
+		}
+		groundattackaircraft = { 
+			attack = 4 
+			defence = 4 
+		}
 	}
 }
 
@@ -1330,12 +1336,18 @@ integrated_skin_sensors = { # Integrated Skin Sensors
 		}
 	}
 	effect = {
-		armyaviation = { attack = 4 }
-		armyaviation = { defence = 4 }
-		fighteraircraft = { attack = 4 }
-		fighteraircraft = { defence = 4 }
-		groundattackaircraft = { attack = 4 }
-		groundattackaircraft = { defence = 4 }
+		armyaviation = { 
+			attack = 4 
+			defence = 4 
+		}
+		fighteraircraft = { 
+			attack = 4 
+			defence = 4 
+		}
+		groundattackaircraft = { 
+			attack = 4 
+			defence = 4 
+		}
 	}
 }
 

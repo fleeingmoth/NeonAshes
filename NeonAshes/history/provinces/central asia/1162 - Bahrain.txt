@@ -1,2 +1,5 @@
+owner = BHR
+controller = BHR
+add_core = BHR
 trade_goods = oil
 life_rating = 35

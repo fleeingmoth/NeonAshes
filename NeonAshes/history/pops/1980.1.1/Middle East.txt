@@ -492,3 +492,174 @@
 		size = 252150
 	}
 }
+#jordan (869,286 pops)
+922 = {#
+	farmers = {
+		culture = jordanian
+		religion = catholic
+		size = 15967
+	}
+}
+908 = {#
+	farmers = {
+		culture = jordanian
+		religion = catholic
+		size = 402383
+	}
+}
+909 = {#
+	farmers = {
+		culture = jordanian
+		religion = catholic
+		size = 262346
+	}
+}
+911 = {#
+	farmers = {
+		culture = jordanian
+		religion = catholic
+		size = 16730
+	}
+}
+910 = {#
+	farmers = {
+		culture = jordanian
+		religion = catholic
+		size = 171860
+	}
+}
+#saudis
+1154 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 102088
+	}
+}
+1153 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 127838
+	}
+}
+1152 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 445347
+	}
+}
+1151 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 592863
+	}
+}
+1155 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 351188
+	}
+}
+1161 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 63208
+	}
+}
+1159 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 222366
+	}
+}
+1157 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 582980
+	}
+}
+1160 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 244075
+	}
+}
+1156 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 56327
+	}
+}
+1158 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 48102
+	}
+}
+1163 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 201636
+	}
+}
+1164 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 317801
+	}
+}
+2586 = {#
+	farmers = {
+		culture = saudi
+		religion = catholic
+		size = 21485
+	}
+}
+#red sea opms
+935 = {#
+	farmers = {
+		culture = kuwaiti
+		religion = catholic
+		size = 373500
+	}
+}
+1162 = {#
+	farmers = {
+		culture = bahraian
+		religion = catholic
+		size = 90648
+	}
+}
+1165 = {#
+	farmers = {
+		culture = qatar
+		religion = catholic
+		size = 69362
+	}
+}
+1167 = {#
+	farmers = {
+		culture = emirates
+		religion = catholic
+		size = 155699
+	}
+}
+1168 = {#
+	farmers = {
+		culture = emirates
+		religion = catholic
+		size = 97801
+	}
+}

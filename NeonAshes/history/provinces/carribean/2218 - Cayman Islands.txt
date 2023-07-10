@@ -1,5 +1,5 @@
-owner = JAM
-controller = JAM
-add_core = JAM
+owner = GBN
+controller = GBN
+add_core = GBN
 trade_goods = credit_money
 life_rating = 35

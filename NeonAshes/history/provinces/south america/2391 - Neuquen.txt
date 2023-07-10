@@ -1,5 +1,5 @@
 owner = SCL
 controller = SCL
-add_core = SCL
+add_core = PAT
 trade_goods = oil
 life_rating = 35

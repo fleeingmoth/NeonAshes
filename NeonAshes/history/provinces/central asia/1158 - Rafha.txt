@@ -1,2 +1,5 @@
+owner = SAU
+controller = SAU
+add_core = SAU
 trade_goods = timber
 life_rating = 35

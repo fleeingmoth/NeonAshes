@@ -1,2 +1,5 @@
+owner = UAE
+controller = UAE
+add_core = UAE
 trade_goods = timber
 life_rating = 35

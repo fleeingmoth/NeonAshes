@@ -7,12 +7,12 @@ country_event = { # Collapse of UAR
 	picture = "events_default"
 	trigger={
 		tag = UAR
-		NOT={
-			any_owned_province={
-				OR={
-					province_id = 902
-					province_id = 1751
-				}
+		OR={
+			NOT={
+				owns= 902
+			}
+			NOT={
+				owns = 1751
 			}
 		}
 	}

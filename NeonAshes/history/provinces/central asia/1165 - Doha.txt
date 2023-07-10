@@ -1,2 +1,5 @@
+owner = QAT
+controller = QAT
+add_core = QAT
 trade_goods = oil
 life_rating = 35

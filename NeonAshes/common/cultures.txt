@@ -1015,7 +1015,78 @@ arab = {
 			}
 			radicalism = 10
 	}
-	
+	jordanian = {
+		color = {82 150 158}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+		}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+		}
+		radicalism = 10
+	}
+	saudi = {
+		color = {99 255 169}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+		}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+		}
+	}
+	kuwaiti = {
+		color = {178 167 41}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+		}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+		}
+	}
+	qatar = {
+		color = {178 133 99}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+		}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+		}
+	}
+	bahraian = {
+		color = {175 141 178}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+		}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+		}
+	}
+	omani = {
+		color = {145 44 39}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+		}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+		}
+	}
+	emirates = {
+		color = {133 173 178}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+		}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+		}
+	}
+
 	union = ARA
 }
 

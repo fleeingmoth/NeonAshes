@@ -546,10 +546,10 @@ country_event = {
 					tag = WAL
 				}
 			}
-			modifier = {
-				factor = 5
-				government = hms_government
-			}
+			# modifier = {
+				# factor = 5
+				# government = hms_government
+			# }
 			modifier = {
 				factor = 10
 				government = democracy
@@ -573,10 +573,10 @@ country_event = {
 		prestige = 2
 		ai_chance = {
 			factor = 95
-			modifier = {
-				factor = 1.5
-				government = absolute_monarchy
-			}
+			# modifier = {
+				# factor = 1.5
+				# government = absolute_monarchy
+			# }
 		}
 		any_pop = {
 			militancy = 1

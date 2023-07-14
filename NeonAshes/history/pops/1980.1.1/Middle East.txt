@@ -663,3 +663,105 @@
 		size = 97801
 	}
 }
+#oman
+1166 = {#
+	farmers = {
+		culture = omani
+		religion = catholic
+		size = 115347
+	}
+}
+1169 = {#
+	farmers = {
+		culture = omani
+		religion = catholic
+		size = 87170
+	}
+}
+1171 = {#
+	farmers = {
+		culture = omani
+		religion = catholic
+		size = 54319
+	}
+}
+1170 = {#
+	farmers = {
+		culture = omani
+		religion = catholic
+		size = 74423
+	}
+}
+1172 = {#
+	farmers = {
+		culture = omani
+		religion = catholic
+		size = 3490
+	}
+}
+1174 = {#
+	farmers = {
+		culture = omani
+		religion = catholic
+		size = 39709
+	}
+}
+#yemen
+1175 = {#
+	farmers = {
+		culture = yemeni
+		religion = catholic
+		size = 11849
+	}
+}
+1173 = {#
+	farmers = {
+		culture = yemeni
+		religion = catholic
+		size = 158682
+	}
+}
+1176 = {#
+	farmers = {
+		culture = yemeni
+		religion = catholic
+		size = 148587
+	}
+}
+1412 = {#
+	farmers = {
+		culture = yemeni
+		religion = catholic
+		size = 201599
+	}
+}
+1177 = {#
+	farmers = {
+		culture = yemeni
+		religion = catholic
+		size = 13564
+	}
+}
+
+1180 = {#
+	farmers = {
+		culture = yemeni
+		religion = catholic
+		size = 907154
+	}
+}
+1179 = {#
+	farmers = {
+		culture = yemeni
+		religion = catholic
+		size = 556563
+	}
+}
+1178 = {#
+	farmers = {
+		culture = yemeni
+		religion = catholic
+		size = 925309
+	}
+}
+###iran###(9,630,000)

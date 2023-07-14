@@ -328,6 +328,9 @@ UAE = "countries/UAE.txt"
 QAT = "countries/Qatar.txt"
 BHR = "countries/Bahrain.txt"
 KUW = "countries/Kuwait.txt"
+OMN = "countries/Oman.txt"
+SYM = "countries/South Yemen.txt"
+YEM = "countries/Yemen.txt"
 
 ## HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

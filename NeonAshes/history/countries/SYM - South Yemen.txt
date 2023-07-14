@@ -1,15 +1,11 @@
-capital = 1745 #
-primary_culture = egyptian
-culture = syrian
-religion = catholic
-government = socialist_dictatorship
+capital = 1412 #
+primary_culture = yemeni
+government = communist_state
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.50
 civilized = yes
-prestige = 5
-
-oob = "UAR_oob.txt"
+prestige = 0
 
 # Political reforms
 slavery = no_slavery
@@ -30,11 +26,10 @@ unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 school_reforms = low_schools
 
-ruling_party = UAR_socialist
+ruling_party = SYM_communist
 last_election = 1980.1.1
 upper_house = {
-	socialist = 75
-	traditionalist = 25
+	communist = 100
 }
 
 

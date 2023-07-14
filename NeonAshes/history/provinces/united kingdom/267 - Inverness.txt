@@ -1,5 +1,5 @@
 owner = GBN
 controller = GBN
 add_core = GBN
-trade_goods = timber
+trade_goods = oil
 life_rating = 35

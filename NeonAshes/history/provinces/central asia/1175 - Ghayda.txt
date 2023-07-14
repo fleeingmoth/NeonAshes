@@ -1,2 +1,5 @@
+owner = SYM
+controller = SYM
+add_core = SYM
 trade_goods = timber
 life_rating = 35

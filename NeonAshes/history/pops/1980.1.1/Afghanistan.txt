@@ -1,0 +1,64 @@
+###Afghanistan ###(3,271,657)
+1214 = {#
+	farmers = {
+		culture = pashtun
+		religion = catholic
+		size = 264667
+	}
+}
+1215 = {#
+	farmers = {
+		culture = pashtun
+		religion = catholic
+		size = 143738
+	}
+}
+1217 = {#
+	farmers = {
+		culture = pashtun
+		religion = catholic
+		size = 391713
+	}
+}
+1213 = {#
+	farmers = {
+		culture = pashtun
+		religion = catholic
+		size = 252513
+	}
+}
+1212 = {#
+	farmers = {
+		culture = pashtun
+		religion = catholic
+		size = 250681
+	}
+}
+1211 = {#
+	farmers = {
+		culture = pashtun
+		religion = catholic
+		size = 783671
+	}
+}
+1209 = {#
+	farmers = {
+		culture = pashtun
+		religion = catholic
+		size = 603608
+	}
+}
+1216 = {#
+	farmers = {
+		culture = pashtun
+		religion = catholic
+		size = 326689
+	}
+}
+1210 = {#
+	farmers = {
+		culture = pashtun
+		religion = catholic
+		size = 254377
+	}
+}

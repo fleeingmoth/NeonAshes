@@ -155,6 +155,13 @@ traditionalist_rebels = {
 			factor = 1.015
 			country = { plurality = 10 }
 		}
+		modifier = {
+			factor = 0
+			country = {
+				tag = SRN
+				war_with = IRN
+			}
+		}
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -573,6 +580,13 @@ communist_rebels = {
 			factor = 1.05
 			country = {
 				average_consciousness = 6
+			}
+		}
+		modifier = {
+			factor = 0
+			country = {
+				tag = IRN
+				war_with = SRN
 			}
 		}
 	}
@@ -1242,6 +1256,10 @@ pan_nationalist_rebels = {
 		modifier = {
 			factor = 0
 			culture = zairian
+		}
+		modifier = {
+			factor = 0
+			culture = pashtun
 		}
 		modifier = {
 			factor = 0

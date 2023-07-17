@@ -1,0 +1,66 @@
+political_decisions = {
+	end_afghan_civil_war = { #
+		#news = yes
+		#news_desc_long = "north_cali_victory_NEWS_LONG"
+		#news_desc_medium = "north_cali_victory_NEWS_MEDIUM"
+		#news_desc_short = "north_cali_victory_NEWS_SHORT"
+		picture = flag_afghanistan_smallpic
+		potential = { 
+			OR={
+				tag = DRA
+				tag = TLI
+				tag = NAA
+			}
+			NOT = { exists = AFG } #
+		}
+		allow = {
+			war = no
+			AFG={
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 5
+			change_tag = AFG #
+			any_country = {
+				limit = {
+					primary_culture = pashtun
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			NAA={
+				all_core={
+					remove_core = NAA
+				}
+			}
+			DRA={
+				all_core={		
+					remove_core = DRA
+				}
+			}
+			TLI={
+				all_core={		
+					remove_core = TLI
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

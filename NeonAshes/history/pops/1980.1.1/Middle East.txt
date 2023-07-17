@@ -241,7 +241,7 @@
 	farmers = {
 		culture = israeli
 		religion = catholic
-		size = 63750
+		size = 53436
 	}
 	soldiers = {
 		culture = israeli
@@ -251,7 +251,12 @@
 	artisans = {
 		culture = israeli
 		religion = catholic
-		size = 35412
+		size = 31412
+	}
+	craftsmen = {
+		culture = israeli
+		religion = catholic
+		size = 14314
 	}
 	bureaucrats = {
 		culture = israeli

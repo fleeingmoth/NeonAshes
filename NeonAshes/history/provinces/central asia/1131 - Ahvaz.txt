@@ -1,2 +1,7 @@
-trade_goods = timber
+owner = KUZ
+controller = KUZ
+add_core = KUZ
+add_core = SRN
+add_core = IRN
+trade_goods = oil
 life_rating = 35

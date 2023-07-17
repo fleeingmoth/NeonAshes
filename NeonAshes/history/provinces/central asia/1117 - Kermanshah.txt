@@ -1,2 +1,7 @@
-trade_goods = timber
+owner = EKD
+controller = EKD
+add_core = EKD
+add_core = SRN
+add_core = IRN
+trade_goods = fruit
 life_rating = 35

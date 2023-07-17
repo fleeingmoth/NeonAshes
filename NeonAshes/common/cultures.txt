@@ -297,7 +297,7 @@ british = {
 italian = {
 	leader = european
 	unit = ItalianGC
-	north_italian = { 
+	italian = { 
 		color = { 90 210 130}
 		first_names = { Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
 		Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
@@ -310,17 +310,6 @@ italian = {
 		"di Savoia-Aosta" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti 
 		Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux Perruchetti Pianelli Porro
 		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari "Thaon di Revel" Vaccari Zupelli }
-	}
-	south_italian = {
-		color = { 40 150 90}
-		first_names = { Alessandro Armando Augusto Carlo Cesare Corrado Domenico Enrico Fabio Fabrizio
-		Ferdinando Francesco Gaetano Giacomo Giovanni Giulio Giuseppe Guglielmo Leopoldo Lorenzo
-		Ludovico Marcantonio Marino Mario Matteo Nicola Orazio Sigismondo Tommasso Vincenzo }
-		
-		last_names = { Anfora Barberini-Colonna Bonaccorsi Caraga Cattaneo Chigi Clary Colonna "de Liguori" "de Riseis"
-		"della Rovere" "di Borbone della Due Sicilia" Diaz Ferrari Filangieri Gironda Gravina Grifeo Lanza Lombardo
-		Lunardi Molinelli Orsini Ottaviani Pironti Scammacca Torlonia Turrisi Vernazza Zunica }
-		radicalism = 10
 	}
 	maltese = { 
 		color = {100 150 120}
@@ -802,7 +791,7 @@ levantine = {
 		Dombalagian Egoyan Erznvian Ghakarian Ghorghanian Guediguian Ghehanian Hannessoghlian Hasratian Hovsepian
 		Kaloian Kamalian Khachaturian Khatchaturiants Konstandyan Konstanian Mamikonian Mardvian Matinian Melik-Aghamalian
 		Mkhitarian Mussiniants Pahlevanian Peleshyan Safrazpekian Sahakiam Sarksyan Sekoyan Shadunts Shahsuvarian
-		Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Tigranov Toshian Varapetian Vartanian
+		Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Tigranov Toshiiten Varapetian Vartanian
 		}
 	}
 	sephardic = {
@@ -854,6 +843,36 @@ turko_semitic = {
 	}
 	north_caucasian = {
 		color = {252 255 161}
+		first_names = {
+			Aslan Hamza "Jamal al-Din" Mansur Mohammad Murad Shamil 
+			}
+		
+		last_names = { 
+			Mollah Bek 
+			}
+	}
+	ossetian = {
+		color = {255 222 104}
+		first_names = {
+			Aslan Hamza "Jamal al-Din" Mansur Mohammad Murad Shamil 
+			}
+		
+		last_names = { 
+			Mollah Bek 
+			}
+	}
+	dagestani = {
+		color = {252 255 161}
+		first_names = {
+			Aslan Hamza "Jamal al-Din" Mansur Mohammad Murad Shamil 
+			}
+		
+		last_names = { 
+			Mollah Bek 
+			}
+	}
+	chechnyan = {
+		color = {39 75 165}
 		first_names = {
 			Aslan Hamza "Jamal al-Din" Mansur Mohammad Murad Shamil 
 			}
@@ -1086,6 +1105,26 @@ arab = {
 			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
 		}
 	}
+	khuzestani = {
+		color = {75 168 101}
+		first_names = { 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+			}
+		
+		last_names = { 
+			"al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani"
+			"al-Jaza'iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" "al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi"
+			"al-Silawi" "al-Sirti" "al-Susawi" "al-Tilimsani" "al-Tanjawi" "al-Tatwani" "al-Trablusi" "al-Tunusi" 
+			"al-Wahrani" "al-Warqali" "al-Wujdi"
+			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
+			}
+	}
 
 	union = ARA
 }
@@ -1094,7 +1133,7 @@ iranian_turanian = {
 	leader = arab
 	is_overseas = no
 	unit = MiddleEasternGC
-	persian = {
+	iranian = {
 		color = {144 88 81}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
@@ -1163,20 +1202,6 @@ iranian_turanian = {
 			Beg Khan
 			}
 	}
-	pashtun = {
-		color = {199 151 230}
-		first_names = {
-			Abdallah "Abd al-Rahman" "Abd al-Quddus" Afzal Ahmad Akbar Akram   Ayyub
-			Fath "Firuz al-Din" "Habib Alllah" Haydar Humayun "Inayat Allah" Ishaq Jamal Kamran Kohandil
-			Mahmud Mahsud Mihrdil Muhammad Murad Nadir "Nasr Allah" Omar
-			Qaysar Shahpur "Sher Ali" Shuja Suleyman Timur Yaqub Zaman
-		}
-		last_names = {
-			Khan
-		}
-		radicalism = 10
-
-	}
 	baluchi = {
 		color = {132 70 171}
 		first_names = {
@@ -1227,6 +1252,26 @@ iranian_turanian = {
 			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
 		}
 	}
+}
+pashtun_group = {
+	leader = arab
+	is_overseas = no
+	unit = MiddleEasternGC
+	pashtun = {
+		color = {199 151 230}
+		first_names = {
+			Abdallah "Abd al-Rahman" "Abd al-Quddus" Afzal Ahmad Akbar Akram   Ayyub
+			Fath "Firuz al-Din" "Habib Alllah" Haydar Humayun "Inayat Allah" Ishaq Jamal Kamran Kohandil
+			Mahmud Mahsud Mihrdil Muhammad Murad Nadir "Nasr Allah" Omar
+			Qaysar Shahpur "Sher Ali" Shuja Suleyman Timur Yaqub Zaman
+		}
+		last_names = {
+			Khan
+		}
+		radicalism = 10
+
+	}
+	union = AFG
 }
 
 central_asian = {
@@ -1409,7 +1454,7 @@ south_asian = {
                
 		}
 	}
-	sindi = {
+	pakistani = {
 		color = {190 65 230}
 		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
 			

@@ -1,0 +1,123 @@
+###Pakistan ###(21,063,411)
+1288 = {#
+	farmers = {
+		culture = pakistani
+		religion = catholic
+		size = 1773044
+	}
+	artisans = {
+		culture = pakistani
+		religion = catholic
+		size = 367481
+	}
+	craftsmen = {
+		culture = pakistani
+		religion = catholic
+		size = 44312
+	}
+	capitalists = {
+		culture = pakistani
+		religion = catholic
+		size = 1504
+	}
+}
+1289 = {#
+	farmers = {
+		culture = pakistani
+		religion = catholic
+		size = 1579641
+	}
+}
+1290 = {#
+	farmers = {
+		culture = pakistani
+		religion = catholic
+		size = 991184
+	}
+}
+
+1222 = {#
+	farmers = {
+		culture = pakistani
+		religion = catholic
+		size = 238712
+	}
+}
+1221 = {#
+	farmers = {
+		culture = pakistani
+		religion = catholic
+		size = 278141
+	}
+}
+1220 = {#
+	farmers = {
+		culture = pakistani
+		religion = catholic
+		size = 187896
+	}
+}
+1219 = {#
+	farmers = {
+		culture = pakistani
+		religion = catholic
+		size = 378345
+	}
+}
+1218 = {#
+	farmers = {
+		culture = pakistani
+		religion = catholic
+		size = 1549636
+	}
+}
+1223 = {#
+	farmers = {
+		culture = pakistani
+		religion = catholic
+		size = 1765332
+	}
+}
+
+1228 = {#
+	farmers = {
+		culture = panjabi
+		religion = sikh
+		size = 2278763
+	}
+}
+1231 = {#
+	farmers = {
+		culture = panjabi
+		religion = sikh
+		size = 1786142
+	}
+}
+1227 = {#
+	farmers = {
+		culture = panjabi
+		religion = sikh
+		size = 2526107
+	}
+}
+1229 = {#
+	farmers = {
+		culture = panjabi
+		religion = sikh
+		size = 1432141
+	}
+}
+1232 = {#
+	farmers = {
+		culture = panjabi
+		religion = sikh
+		size = 2438472
+	}
+}
+1230 = {#
+	farmers = {
+		culture = panjabi
+		religion = sikh
+		size = 1361485
+	}
+}

@@ -1,0 +1,330 @@
+###Turkey ###(4,381,891)
+873 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 487075
+	}
+}
+895 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 330280
+	}
+}
+894 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 369895
+	}
+}
+896 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 292233
+	}
+}
+898 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 279994
+	}
+}
+878 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 212086
+	}
+}
+877 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 329043
+	}
+}
+876 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 878273
+	}
+}
+879 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 316623
+	}
+}
+888 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 119475
+	}
+}
+889 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 284653
+	}
+}
+882 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 268215
+	}
+}
+875 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 343950
+	}
+}
+874 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 154096
+	}
+}
+
+899 = {#
+	farmers = {
+		culture = kurdish
+		religion = catholic
+		size = 413446
+	}
+}
+893 = {#
+	farmers = {
+		culture = kurdish
+		religion = catholic
+		size = 413561
+	}
+}
+891 = {#
+	farmers = {
+		culture = kurdish
+		religion = catholic
+		size = 219214
+	}
+}
+892 = {#
+	farmers = {
+		culture = kurdish
+		religion = catholic
+		size = 117955
+	}
+}
+890 = {#
+	farmers = {
+		culture = kurdish
+		religion = catholic
+		size = 281253
+	}
+}
+
+887 = {#
+	farmers = {
+		culture = armenian
+		religion = catholic
+		size = 187477
+	}
+}
+886 = {#
+	farmers = {
+		culture = armenian
+		religion = catholic
+		size = 65138
+	}
+}
+885 = {#
+	farmers = {
+		culture = armenian
+		religion = catholic
+		size = 65003
+	}
+}
+1099 = {#
+	farmers = {
+		culture = armenian
+		religion = catholic
+		size = 140834
+	}
+}
+1100 = {#
+	farmers = {
+		culture = armenian
+		religion = catholic
+		size = 41736
+	}
+}
+1098 = {#
+	farmers = {
+		culture = armenian
+		religion = catholic
+		size = 239333
+	}
+}
+#azerbaijan
+1101 = {#
+	farmers = {
+		culture = azerbaijani
+		religion = catholic
+		size = 60125
+	}
+}
+1106 = {#
+	farmers = {
+		culture = azerbaijani
+		religion = catholic
+		size = 64724
+	}
+	farmers = {
+		culture = armenian
+		religion = catholic
+		size = 40225
+	}
+}
+1105 = {#
+	farmers = {
+		culture = azerbaijani
+		religion = catholic
+		size = 210500
+	}
+}
+1104 = {#
+	farmers = {
+		culture = azerbaijani
+		religion = catholic
+		size = 146275
+	}
+}
+1103 = {#
+	farmers = {
+		culture = azerbaijani
+		religion = catholic
+		size = 84900
+	}
+}
+1102 = {#
+	farmers = {
+		culture = azerbaijani
+		religion = catholic
+		size = 731950
+	}
+}
+1107 = {#
+	farmers = {
+		culture = azerbaijani
+		religion = catholic
+		size = 127550
+	}
+}
+#cacusus republic (georgia,dagestan and breakoffs)
+#georgia 1269197
+1096 = {#
+	farmers = {
+		culture = georgian
+		religion = catholic
+		size = 92221
+	}
+}
+1095 = {#
+	farmers = {
+		culture = georgian
+		religion = catholic
+		size = 123389
+	}
+}
+1094 = {#
+	farmers = {
+		culture = georgian
+		religion = catholic
+		size = 37142
+	}
+}
+1092 = {#
+	farmers = {
+		culture = georgian
+		religion = catholic
+		size = 294077
+	}
+}
+1093 = {#
+	farmers = {
+		culture = georgian
+		religion = catholic
+		size = 55345
+	}
+}
+1091 = {#
+	farmers = {
+		culture = georgian
+		religion = catholic
+		size = 234330
+	}
+}
+1090 = {#
+	farmers = {
+		culture = georgian
+		religion = catholic
+		size = 412378
+	}
+}
+#N. & S. Ossetia
+1054 = {#
+	farmers = {
+		culture = ossetian
+		religion = catholic
+		size =149500
+	}
+}
+3293 = {#
+	farmers = {
+		culture = ossetian
+		religion = catholic
+		size = 20316
+	}
+}
+#Chechnya
+1055 = {#
+	farmers = {
+		culture = chechnyan
+		religion = catholic
+		size = 223400
+	}
+}
+#dagestan
+1057 = {#
+	farmers = {
+		culture = dagestani
+		religion = catholic
+		size = 134411
+	}
+}
+1053 = {#
+	farmers = {
+		culture = dagestani
+		religion = catholic
+		size = 213771
+	}
+}
+1052 = {#
+	farmers = {
+		culture = dagestani
+		religion = catholic
+		size = 65568
+	}
+}
+

@@ -1,2 +1,6 @@
+owner = NAA
+controller = NAA
+add_core = NAA
+add_core = AFG
 trade_goods = timber
 life_rating = 35

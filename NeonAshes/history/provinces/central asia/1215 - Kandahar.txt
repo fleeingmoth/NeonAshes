@@ -1,2 +1,6 @@
+owner = TLI
+controller = TLI
+add_core = TLI
+add_core = AFG
 trade_goods = timber
 life_rating = 35

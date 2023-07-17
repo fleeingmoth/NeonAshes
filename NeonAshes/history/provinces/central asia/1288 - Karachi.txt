@@ -1,2 +1,30 @@
-trade_goods = timber
+owner = PAK
+controller = PAK
+add_core = PAK
+trade_goods = fish
 life_rating = 35
+state_building = {#Karachi is a very large industrial city
+	level = 1
+	building = textile_mill
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = construction_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_mill
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}

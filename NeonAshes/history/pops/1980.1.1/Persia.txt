@@ -1,0 +1,317 @@
+###Iran ###(12,611,652 pops)
+1118 = {#
+	farmers = {
+		culture = kurdish
+		religion = shiite
+		size = 282740
+	}
+}
+1120 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 332731
+	}
+}
+1122 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 352370
+	}
+}
+1128 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 258050
+	}
+}
+1130 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 157661
+	}
+}
+1148 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 124973
+	}
+}
+1116 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 259879
+	}
+	soldiers = {
+		culture = iranian
+		religion = shiite
+		size = 39641
+	}
+}
+1125 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 179139
+	}
+}
+1121 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 1197040
+	}
+	artisans = {
+		culture = iranian
+		religion = shiite
+		size = 946431
+	}
+	soldiers = {
+		culture = iranian
+		religion = shiite
+		size = 28761
+	}
+}
+1132 = {#
+	farmers = {
+		culture = khuzestani
+		religion = shiite
+		size = 315837
+	}
+}
+1131 = {#
+	farmers = {
+		culture = khuzestani
+		religion = shiite
+		size = 287121
+	}
+}
+1133 = {#
+	farmers = {
+		culture = khuzestani
+		religion = shiite
+		size = 183864
+	}
+}
+1119 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 54312
+	}
+}
+1117 = {#
+	farmers = {
+		culture = kurdish
+		religion = shiite
+		size = 48144
+	}
+}
+1127 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 398781
+	}
+}
+1129 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 425102
+	}
+}
+1113 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 470798
+	}
+}
+1114 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 215874
+	}
+}
+1115 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 330547
+	}
+}
+1150 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 153855
+	}
+}
+1126 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 65125
+	}
+}
+1149 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 40178
+	}
+}
+1147 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 991179
+	}
+}
+1144 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 167427
+	}
+}
+1146 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 194314 
+	}
+}
+1145 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 54311
+	}
+}
+1142 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 51213
+	}
+}
+1141 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 64420
+	}
+}
+1136 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 84312
+	}
+}
+1138 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 71859
+	}
+}
+1139 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 138541
+	}
+}
+1140 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 187325
+	}
+}
+1143 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 95042
+	}
+}
+1134 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 348570
+	}
+}
+1137 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 294214
+	}
+}
+1135 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 158793
+	}
+}
+1109 = {#
+	farmers = {
+		culture = kurdish
+		religion = shiite
+		size = 136414
+	}
+}
+1110 = {#
+	farmers = {
+		culture = kurdish
+		religion = shiite
+		size = 209002
+	}
+}
+1111 = {#
+	farmers = {
+		culture = kurdish
+		religion = shiite
+		size = 178811
+	}
+}
+1108 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 698363
+	}
+}
+1112 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 74564
+	}
+}
+1123 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 114622
+	}
+}
+1124 = {#
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 1448922
+	}
+}

@@ -1,0 +1,36 @@
+#Italy ( pops)
+762 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 432761
+	}
+}
+763 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 439107
+	}
+}
+764 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 354851
+	}
+}
+765 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 193451
+	}
+}
+766 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 205092
+	}
+}

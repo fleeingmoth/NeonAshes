@@ -1,0 +1,57 @@
+political_decisions = {
+	islamic_victory = { #
+		#news = yes
+		#news_desc_long = "north_cali_victory_NEWS_LONG"
+		#news_desc_medium = "north_cali_victory_NEWS_MEDIUM"
+		#news_desc_short = "north_cali_victory_NEWS_SHORT"
+		picture = flag_iran_smallpic
+		potential = { 
+			tag = IRN
+			SRN={
+				is_core = 1121
+			}
+		}
+		allow = {
+			NOT = { exists = SRN } #
+			#war = no
+			owns = 1121 #We have Tehran
+		}
+		effect = {
+			prestige = 5
+			SRN={
+				all_core={
+					remove_core = SRN
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	fadaiyan_victory = { #
+		#news = yes
+		#news_desc_long = "south_cali_victory_NEWS_LONG"
+		#news_desc_medium = "south_cali_victory_NEWS_MEDIUM"
+		#news_desc_short = "south_cali_victory_NEWS_SHORT"
+		picture = flag_iran_smallpic
+		potential = { 
+			tag = SRN
+			IRN={
+				have_core_in = SRN
+			}
+		}
+		allow = {
+			NOT = { exists = IRN } #
+			war = no
+			owns = 1121 #Kinshasa
+		}
+		effect = {
+			prestige = 5
+			change_tag = IRN #
+			SRN={
+				all_core={
+					remove_core = SRN
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

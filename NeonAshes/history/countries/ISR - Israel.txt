@@ -35,6 +35,9 @@ upper_house = {
 
 
 # Technologies
+third_gen_warfare = 1
+mass_produced_armament = 1
+professional_army = 1
 
 # Starting Consciousness
 consciousness = 3

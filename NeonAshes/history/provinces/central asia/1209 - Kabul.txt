@@ -1,2 +1,6 @@
+owner = DRA
+controller = DRA
+add_core = DRA
+add_core = AFG
 trade_goods = timber
 life_rating = 35

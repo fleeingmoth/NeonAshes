@@ -1,0 +1,5 @@
+owner = SOS
+controller = SOS
+add_core = SOS
+trade_goods = timber
+life_rating = 35

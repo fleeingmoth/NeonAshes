@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = IRN
+controller = IRN
+add_core = SRN
+add_core = IRN
+trade_goods = fibre_crops
 life_rating = 35

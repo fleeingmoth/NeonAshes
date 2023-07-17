@@ -1,2 +1,5 @@
+owner = DAG
+controller = DAG
+add_core = DAG
 trade_goods = timber
 life_rating = 35

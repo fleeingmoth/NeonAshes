@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = PAK
+controller = PAK
+add_core = PAK
+trade_goods = coal
 life_rating = 35

@@ -1,2 +1,5 @@
+owner = CHC
+controller = CHC
+add_core = CHC
 trade_goods = timber
 life_rating = 35

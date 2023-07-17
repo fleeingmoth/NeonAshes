@@ -1,2 +1,5 @@
+owner = NOS
+controller = NOS
+add_core = NOS
 trade_goods = timber
 life_rating = 35

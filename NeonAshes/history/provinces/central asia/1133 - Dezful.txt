@@ -1,2 +1,7 @@
+owner = KUZ
+controller = IRN
+add_core = KUZ
+add_core = SRN
+add_core = IRN
 trade_goods = timber
 life_rating = 35

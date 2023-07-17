@@ -1,2 +1,5 @@
+owner = KRD
+controller = KRD
+add_core = KRD
 trade_goods = timber
 life_rating = 35

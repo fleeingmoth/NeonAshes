@@ -1,2 +1,6 @@
+owner = ABK
+controller = ABK
+add_core = ABK
+add_core = GEO
 trade_goods = timber
 life_rating = 35

@@ -1,0 +1,19 @@
+name = "Kurdistan Indepedance War"
+1979.12.31 = {
+	add_attacker = IRN
+	add_defender = EKD
+	war_goal = {
+		casus_belli = civil_war
+		actor = IRN
+		receiver = EKD
+	}
+	war_goal = {
+		casus_belli = status_quo
+		actor = EKD
+		receiver = IRN
+	}
+}
+2199.12.31 = {
+	rem_attacker = IRN
+	rem_defender = EKD
+}

@@ -1,1 +1,5 @@
-trade_goods = timberlife_rating = 35
+owner = AZB
+controller = AZB
+add_core = AZB
+trade_goods = timber
+life_rating = 35

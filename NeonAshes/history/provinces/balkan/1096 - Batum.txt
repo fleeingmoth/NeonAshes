@@ -1,2 +1,6 @@
+owner = ADJ
+controller = ADJ
+add_core = ADJ
+add_core = GEO
 trade_goods = timber
 life_rating = 35

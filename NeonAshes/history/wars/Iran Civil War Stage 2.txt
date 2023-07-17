@@ -1,0 +1,19 @@
+name = "Iranian Civil War"
+1979.12.31 = {
+	add_attacker = SRN
+	add_defender = IRN
+	war_goal = {
+		casus_belli = civil_war
+		actor = SRN
+		receiver = IRN
+	}
+	war_goal = {
+		casus_belli = civil_war
+		actor = IRN
+		receiver = SRN
+	}
+}
+2199.12.31 = {
+	rem_attacker = SRN
+	rem_defender = IRN
+}

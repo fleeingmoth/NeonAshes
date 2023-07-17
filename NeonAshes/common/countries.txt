@@ -204,7 +204,7 @@ CRS = "countries/Corsica.txt"
 SPA = "countries/Spain.txt"
 #POR = "countries/Portugal.txt"
 #ADL = "countries/Andalusia.txt"
-#ITA = "countries/Italy.txt"
+ITA = "countries/Italy.txt"
 #SIC = "countries/Sicily.txt"
 #NET = "countries/Netherlands.txt"
 #DEN = "countries/Denmark.txt"
@@ -331,6 +331,37 @@ KUW = "countries/Kuwait.txt"
 OMN = "countries/Oman.txt"
 SYM = "countries/South Yemen.txt"
 YEM = "countries/Yemen.txt"
+
+#Anatolia-Caucasus
+TUR = "countries/Turkey.txt"
+ARM = "countries/Armenia.txt"
+KRD = "countries/Kurdistan.txt"
+AZB = "countries/Azerbaijan.txt"
+
+GEO = "countries/Georgia.txt"
+ABK = "countries/Abkhazia.txt"
+ADJ = "countries/Adjara.txt"
+SOS = "countries/South Ossetia.txt"
+NOS = "countries/North Ossetia.txt"
+#OSS = "countries/Ossetia.txt"
+CHC = "countries/Chechnya.txt"
+DAG = "countries/Dagestan.txt"
+
+#Persia
+EKD = "countries/East Kurdistan.txt"
+KUZ = "countries/Khuzestan.txt"
+IRN = "countries/Iran.txt"
+SRN = "countries/Fadaiyan-e-Khalq.txt"
+
+#Afghanistan
+AFG = "countries/Afghanistan.txt"
+DRA = "countries/Soviet Afghanistan.txt"
+TLI = "countries/Taliban.txt"
+NAA = "countries/Northern Afghanistan.txt"
+
+# Indian Subcontinent
+
+PAK = "countries/Pakistan.txt"
 
 ## HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

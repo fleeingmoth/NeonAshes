@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = BHI
+controller = BHI
+add_core = BHI
+trade_goods = other_metals
 life_rating = 35

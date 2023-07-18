@@ -1,5 +1,5 @@
 owner = BOT
 controller = BOT
 add_core = BOT
-trade_goods = timber
+trade_goods = phosphate
 life_rating = 35

@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = GRK
+controller = GRK
+add_core = GRK
+trade_goods = tea_n_coffee
 life_rating = 35

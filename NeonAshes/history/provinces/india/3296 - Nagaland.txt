@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = NAG
+controller = NAG
+add_core = NAG
+trade_goods = other_metals
 life_rating = 35

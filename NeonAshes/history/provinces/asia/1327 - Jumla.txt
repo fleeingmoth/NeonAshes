@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = NEP
+controller = NEP
+add_core = NEP
+trade_goods = sheeps
 life_rating = 35

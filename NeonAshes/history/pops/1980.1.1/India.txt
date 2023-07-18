@@ -121,3 +121,566 @@
 		size = 1361485
 	}
 }
+1233 = {#
+	farmers = {
+		culture = panjabi
+		religion = sikh
+		size = 2156741
+	}
+}
+1234 = {#
+	farmers = {
+		culture = panjabi
+		religion = sikh
+		size = 2040487
+	}
+}
+1237 = {#
+	farmers = {
+		culture = panjabi
+		religion = sikh
+		size = 3230529
+	}
+}
+
+1225 = {#
+	farmers = {
+		culture = kashmiri
+		religion = sikh
+		size = 196717
+	}
+}
+1224 = {#
+	farmers = {
+		culture = kashmiri
+		religion = sikh
+		size = 1722600
+	}
+}
+1226 = {#
+	farmers = {
+		culture = kashmiri
+		religion = sikh
+		size = 40365
+	}
+}
+
+
+1235 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1070204
+	}
+}
+1236 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 298330
+	}
+}
+1238 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1431500
+	}
+}
+#uttar pradesh (26,284,135 pops)
+1239 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 4306507
+	}
+}
+1240 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 4384714
+	}
+}
+1240 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 2412288
+	}
+}
+1241 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 675229
+	}
+}
+1242 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 3070326
+	}
+}
+1243 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 2474747
+	}
+}
+1244 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 2873683
+	}
+}
+1245 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 3532252
+	}
+}
+1246 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 2554389
+	}
+}
+#rajasthan 8,565,465
+1264 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 359517
+	}
+}
+1265 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 60770
+	}
+}
+1266 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1366796
+	}
+}
+1267 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1014545
+	}
+}
+1268 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 3572122
+	}
+}
+1269 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 2191715
+	}
+}
+
+1247 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 5736151
+	}
+}
+1248 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 4145311
+	}
+}
+1249 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 4158423
+	}
+}
+1250 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 3438882
+	}
+}
+#Madhya Pradesh (9,542,250)
+1274 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1386545
+	}
+}
+1273 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1434531
+	}
+}
+1275 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1573218
+	}
+}
+1276 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1378121
+	}
+}
+1272 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1472147
+	}
+}
+1271 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1178341
+	}
+}
+1270 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1119347
+	}
+}
+#hyderabad
+1284 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1283412
+	}
+}
+1286 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1278541
+	}
+}
+1285 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1178612
+	}
+}
+1283 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1319419
+	}
+}
+1287 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1013815
+	}
+}
+#naxilites
+1261 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1282803
+	}
+}
+1262 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1834231
+	}
+}
+1305 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 4013535
+	}
+}
+1263 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1269820
+	}
+}
+1279 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 891266
+	}
+}
+1280 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 953861
+	}
+}
+
+1281 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 786142
+	}
+}
+1282 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 871231
+	}
+}
+1277 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 2133187
+	}
+}
+1278 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 541583
+	}
+}
+1298 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 2593199
+	}
+}
+#gujarat (8,521,500 pops)
+1295 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1478442
+	}
+}
+1296 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1307481
+	}
+}
+1291 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1845312
+	}
+}
+1294 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1142171
+	}
+}
+1293 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1297681
+	}
+}
+1292 = {#
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 1450413
+	}
+}
+#bengal
+1251 = {#
+	farmers = {
+		culture = bengali
+		religion = hindu
+		size = 5918364
+	}
+}
+1253 = {#
+	farmers = {
+		culture = bengali
+		religion = hindu
+		size = 3394825
+	}
+}
+3294 = {#
+	farmers = {
+		culture = bengali
+		religion = hindu
+		size = 3079366
+	}
+}
+1252 = {#
+	farmers = {
+		culture = ghorkha
+		religion = hindu
+		size = 1252695
+	}
+}
+1328 = {#
+	farmers = {
+		culture = sikkim
+		religion = hindu
+		size = 79096
+	}
+}
+1256 = {#
+	farmers = {
+		culture = bengali
+		religion = hindu
+		size = 5754346
+	}
+}
+1255 = {#
+	farmers = {
+		culture = bengali
+		religion = hindu
+		size = 4284077
+	}
+}
+1254 = {#
+	farmers = {
+		culture = bengali
+		religion = hindu
+		size = 7651610
+	}
+}
+3298 = {#
+	farmers = {
+		culture = bengali
+		religion = hindu
+		size = 2674255
+	}
+}
+
+1257 = {#
+	farmers = {
+		culture = chitta
+		religion = hindu
+		size = 1560755
+	}
+}
+
+
+1593 = {#
+	farmers = {
+		culture = assamese
+		religion = hindu
+		size = 632000
+	}
+}
+1260 = {#
+	farmers = {
+		culture = assamese
+		religion = hindu
+		size = 2153481
+	}
+}
+3295 = {#
+	farmers = {
+		culture = bodo
+		religion = hindu
+		size = 2356831
+	}
+}
+1258 = {#
+	farmers = {
+		culture = assamese
+		religion = hindu
+		size = 334000
+	}
+}
+2566 = {#
+	farmers = {
+		culture = tripuri
+		religion = hindu
+		size = 513250
+	}
+}
+3296 = {#
+	farmers = {
+		culture = naga
+		religion = hindu
+		size = 193750
+	}
+}
+1259 = {#
+	farmers = {
+		culture = manipuri
+		religion = hindu
+		size = 355250
+	}
+}
+3297 = {#
+	farmers = {
+		culture = mizoram
+		religion = hindu
+		size = 123439
+	}
+}
+1329 = {#Bhutan
+	farmers = {
+		culture = bhutanese
+		religion = hindu
+		size = 103814
+	}
+}
+#nepal
+1327 = {#
+	farmers = {
+		culture = nepali
+		religion = hindu
+		size = 1874611
+	}
+}
+1326 = {#
+	farmers = {
+		culture = nepali
+		religion = hindu
+		size = 2025389
+	}
+}
+

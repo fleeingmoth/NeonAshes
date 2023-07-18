@@ -1,5 +1,5 @@
 owner = RIO
 controller = RIO
 add_core = RIO
-trade_goods = oil
+trade_goods = fruit #oil discoverable
 life_rating = 35

@@ -2,5 +2,5 @@ owner = TLI
 controller = TLI
 add_core = TLI
 add_core = AFG
-trade_goods = timber
+trade_goods = fruit
 life_rating = 35

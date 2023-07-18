@@ -2,5 +2,5 @@ owner = IRN
 controller = IRN
 add_core = SRN
 add_core = IRN
-trade_goods = timber
+trade_goods = other_metals
 life_rating = 35

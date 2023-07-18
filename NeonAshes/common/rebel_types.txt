@@ -1263,6 +1263,11 @@ pan_nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
+			is_culture_group = indian_group
+			NOT={has_global_flag = indian_pan_nationalism}
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				culture = ethiopian
 				culture = eritrean

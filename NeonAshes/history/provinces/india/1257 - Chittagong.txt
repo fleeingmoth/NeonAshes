@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = JUM
+controller = JUM
+add_core = JUM
+trade_goods = fish
 life_rating = 35

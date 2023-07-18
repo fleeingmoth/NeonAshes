@@ -1,4 +1,10 @@
-PRS;Shining Path Rebels;;;;;;;;;;;;;x;;;;
+PRS;North Peru;;;;;;;;;;;;;x;;;;
+PRS_socialist_dictatorship;Shining Path;;;;;;;;;;;;;x;;;;
+PRS_socialist_dictatorship_ADJ;Shining Path Rebel;;;;;;;;;;;;;x;;;;
+PRS_socialist_democracy;Shining Path;;;;;;;;;;;;;x;;;;
+PRS_socialist_democracy_ADJ;Shining Path Rebel;;;;;;;;;;;;;x;;;;
+PRS_communist_state;Shining Path;;;;;;;;;;;;;x;;;;
+PRS_communist_state_ADJ;Shining Path Rebel;;;;;;;;;;;;;x;;;;
 PRS_ADJ;Peruvian;;;;;;;;;;;;;x;;;;
 PRS_social_democrat;Democratic Socialists of Peru;;;;;;;;;;;;;x;;;;
 PRS_socialist;Shining Path - Moderates;;;;;;;;;;;;;x;;;;

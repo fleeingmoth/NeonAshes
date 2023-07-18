@@ -41,7 +41,7 @@ political_decisions = {
 		allow = {
 			NOT = { exists = IRN } #
 			war = no
-			owns = 1121 #Kinshasa
+			owns = 1121 #We have Tehran
 		}
 		effect = {
 			prestige = 5

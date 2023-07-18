@@ -363,7 +363,7 @@ chemical_plant = {
 	template = modern_factory_template
 	input_goods = { 
 		oil = 7.00		# 7,000 barrels of oil (or gas)	# 210
-		steel = 1.00		# 100 tonnes of steel		# 6
+		#steel = 1.00		# 100 tonnes of steel		# 6 #why do chemicals like plastics need steel excatly? disabling it as an input for now to help factories
 		other_metals = 0.10	# 10 tonnes of other metals	# 1
 		#rare_earths = 2.00	# 200 kgs of rare earths	# 20
 	}
@@ -718,7 +718,7 @@ cattle_ranch = {
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
-	value = 2.4
+	value = 4.8 #temp 2x from base for output reasons
 	mine = yes
 }
 
@@ -732,7 +732,7 @@ coffee_plantation = {
 fibre_crops_plantation = {
 	template = RGO_template_farmers
 	output_goods = fibre_crops 
-	value = 2.2
+	value = 22.0 #temp increase 10x
 	farm = yes
 }
 
@@ -753,14 +753,14 @@ grain_farm = {
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = 200 # 1 worker (1980) outputs 0.001 ton per day. Times 200,000.
+	value = 20 # 1 worker (1980) outputs 0.001 ton per day. Times 20,000.
 	mine = yes
 }
 
 oil_rig = {
 	template = RGO_template_labourers
 	output_goods = oil 
-	value = 200 # 1 worker (1980) outputs 0.001 barrel per day. Times 200,000.
+	value = 20 # 1 worker (1980) outputs 0.001 barrel per day. Times 20,000.
 	mine = yes
 }
 
@@ -774,7 +774,7 @@ oilseed_plantation = {
 orchard = {
 	template = RGO_template_farmers
 	output_goods = fruit 
-	value = 2.8
+	value = 28.0 #temp increase by 10x
 	farm = yes
 }
 
@@ -823,7 +823,7 @@ tea_n_coffee_plantation = {
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber 
-	value = 500 # 1 worker (1980) outputs 5 kgs per day. Times 200,000.
+	value = 50.0 # 1 worker (1980) outputs 5 kgs per day. Times 200,00.
 	farm = yes
 }
 

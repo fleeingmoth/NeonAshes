@@ -1,5 +1,11 @@
-FRC;FARC;;;;;;;;;;;;;x;;;;
-FRC_ADJ;FARC;;;;;;;;;;;;;x;;;;
+FRC;Guaviare;;;;;;;;;;;;;x;;;;
+FRC_ADJ;Guaviaran;;;;;;;;;;;;;x;;;;
+FRC_socialist_dictatorship;FARC;;;;;;;;;;;;;x;;;;
+FRC_socialist_dictatorship_ADJ;FARC;;;;;;;;;;;;;x;;;;
+FRC_socialist_democracy;FARC;;;;;;;;;;;;;x;;;;
+FRC_socialist_democracy_ADJ;FARC;;;;;;;;;;;;;x;;;;
+FRC_communist_state;FARC;;;;;;;;;;;;;x;;;;
+FRC_communist_state_ADJ;FARC;;;;;;;;;;;;;x;;;;
 FRC_social_democrat;Democratic Socialists of Colombia;;;;;;;;;;;;;x;;;;
 FRC_socialist;Socialist Party of Colombia;;;;;;;;;;;;;x;;;;
 FRC_communist;Revolutionary Armed Forces of Colombia;;;;;;;;;;;;;x;;;;

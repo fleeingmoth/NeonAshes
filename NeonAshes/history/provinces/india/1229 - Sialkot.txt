@@ -1,2 +1,5 @@
+owner = SKH
+controller = SKH
+add_core = SKH
 trade_goods = sugar_crops
 life_rating = 35

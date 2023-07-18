@@ -362,6 +362,28 @@ NAA = "countries/Northern Afghanistan.txt"
 # Indian Subcontinent
 
 PAK = "countries/Pakistan.txt"
+SKH = "countries/Khalistan.txt"
+KSJ = "countries/Kashmir.txt"
+HND = "countries/India.txt"
+RAJ = "countries/Rajastan.txt"
+BAN = "countries/Bengal.txt"
+SIK = "countries/Sikkim.txt"
+GRK = "countries/Gorkhaland.txt"
+BOD = "countries/Bodo.txt"
+ASS = "countries/Assam.txt"
+NAG = "countries/Nagalim.txt"
+MNP = "countries/Manipur.txt"
+TIP = "countries/Tipura.txt"
+MIZ = "countries/Mizoram.txt"
+JUM = "countries/Jummaland.txt"
+BHI = "countries/Bhilistan.txt"
+GDW = "countries/Gondwana.txt"
+HYD = "countries/Hyderabad.txt"
+NAX = "countries/Naxilites.txt"#indian communist rebels, when not communist becomes Orissa 
+GUJ = "countries/Gujarat.txt"
+
+BHU = "countries/Bhutan.txt"
+NEP = "countries/Nepal.txt"
 
 ## HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

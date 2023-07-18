@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = HND
+controller = HND
+add_core = HND
+trade_goods = fruit
 life_rating = 35

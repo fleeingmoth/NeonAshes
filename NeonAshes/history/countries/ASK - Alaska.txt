@@ -1,8 +1,8 @@
-capital = 2 #Juneau, originally Yakutat
+capital = 2 # Juneau, originally Yakutat
 primary_culture = yankee
 religion = protestant
 government = auth_democracy
-plurality = 80.0
+plurality = 40.0
 nationalvalue = nv_liberty
 literacy = 0.05
 civilized = yes
@@ -30,16 +30,16 @@ school_reforms = low_schools
 ruling_party = ASK_nationalist
 last_election = 1980.1.1
 upper_house = {
-	social_democrat = 5
+	social_democrat = 3
 	socialist = 2
-	communist = 1
-	liberal = 22
-	anarcho_liberal = 15
+	communist = 2
+	liberal = 4
+	anarcho_liberal = 2
 	green = 3
-	conservative = 18
-	nationalist = 28
-	traditionalist = 5
-	ultranationalist = 1
+	conservative = 27
+	nationalist = 40
+	traditionalist = 13
+	ultranationalist = 4
 }
 
 # Technologies

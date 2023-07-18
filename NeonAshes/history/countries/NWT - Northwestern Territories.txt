@@ -1,8 +1,8 @@
-capital = 11 #Yellowknife
+capital = 11 # Yellowknife
 primary_culture = anglo_canadian
 religion = protestant
 government = democracy
-plurality = 25.0
+plurality = 20.0
 nationalvalue = nv_liberty
 literacy = 0.05
 civilized = yes
@@ -30,22 +30,22 @@ school_reforms = low_schools
 ruling_party = NWT_green
 last_election = 1980.1.1
 upper_house = {
-	social_democrat = 15
-	socialist = 7
-	communist = 4
-	liberal = 7
-	anarcho_liberal = 7
-	green = 24
-	conservative = 15
-	nationalist = 15
-	traditionalist = 5
+	social_democrat = 10
+	socialist = 3
+	communist = 2
+	liberal = 12
+	anarcho_liberal = 2
+	green = 7
+	conservative = 43
+	nationalist = 8
+	traditionalist = 12
 	ultranationalist = 1
 }
 
 # Technologies
 
 # Starting Consciousness
-consciousness = 3
+consciousness = 1
 
 # Decisions
 decision = join_canada_compact

@@ -953,40 +953,93 @@ redefined_warfare_military_reorganization = {
 
 ### Mass-Produced Armament ###
 
+service_rifle_change = {
+	org_regain = -0.10		# New training
+	supply_consumption = 0.15	# New equipment
+	icon = 9
+}
 1980_battle_rifle = {
-	supply_consumption = 0.15
-	land_organisation = 0.07
+	supply_consumption = 0.15	# Larger calibers
+	land_organisation = 0.07	# Longer ranges
 	icon = 14
 }
 1980_assault_rifle = {
-	land_organisation = 0.03
-	org_regain = 0.03
+	land_organisation = 0.03	# Middle calibers
+	org_regain = 0.03		# More versatile
 	icon = 14
-}
-service_rifle_change = {
-	org_regain = -0.10
-	supply_consumption = 0.15
-	icon = 9
 }
 
 ### Composite Armament ###
 
 1990_battle_rifle = {
-	supply_consumption = 0.20
-	land_organisation = 0.10
+	supply_consumption = 0.20	# Larger calibers
+	land_organisation = 0.10	# Longer ranges
 	icon = 14
 }
 1990_assault_rifle = {
-	land_organisation = 0.05
-	org_regain = 0.05
+	land_organisation = 0.05	# Middle calibers
+	org_regain = 0.05		# More versatile
 	icon = 14
 }
 1990_carbine = {
-	supply_consumption = -0.10
-	org_regain = 0.10
+	supply_consumption = -0.10	# Smaller calibers
+	org_regain = 0.10		# Easier to wield
 	icon = 14
 }
 
+### Electronic Weapons ###
+
+2010_battle_rifle = {
+	supply_consumption = 0.25	# Larger calibers
+	land_organisation = 0.15	# Longer ranges
+	icon = 14
+}
+2010_assault_rifle = {
+	land_organisation = 0.07	# Middle calibers
+	org_regain = 0.07		# More versatile
+	icon = 14
+}
+2010_carbine = {
+	supply_consumption = -0.10	# Smaller calibers
+	org_regain = 0.15		# Easier to wield
+	icon = 14
+}
+2010_personal_defense_weapon = {
+	supply_consumption = -0.20	# Much smaller calibers
+	badboy = -0.03			# Less of a threat to others
+	mobilisation_size = 0.10	# Easier to take up arms
+	icon = 14
+}
+
+### Smart Weapons ###
+
+2030_battle_rifle = {
+	supply_consumption = 0.30	# Larger calibers
+	land_organisation = 0.20	# Longer ranges
+	icon = 14
+}
+2030_assault_rifle = {
+	land_organisation = 0.10	# Middle calibers
+	org_regain = 0.10		# More versatile
+	icon = 14
+}
+2030_carbine = {
+	supply_consumption = -0.10	# Smaller calibers
+	org_regain = 0.20		# Easier to wield
+	icon = 14
+}
+2030_personal_defense_weapon = {
+	supply_consumption = -0.20	# Much smaller calibers
+	badboy = -0.03			# Less of a threat to others
+	mobilisation_size = 0.10	# Easier to take up arms
+	icon = 14
+}
+2030_electronic_weapon = {
+	supply_consumption = -0.30	# Just recharge them bro
+	land_organisation = 0.05	# Like an assault rifle but worse
+	org_regain = 0.05		# Very flexible in all situations
+	icon = 14
+}
 
 ### ### Space Tech ### ###
 
@@ -1209,7 +1262,7 @@ resource_retooling = {				# Retooling for New Resource
 
 ### Megasites ###
 
-abandoned_rocket_launch_site = { # Abandoned Rocket Launch Site
+abandoned_rocket_launch_site = { 		# Abandoned Rocket Launch Site
 	icon = 7
 	local_RGO_output = -0.01		# It annoyingly occupies some prime real estate
 }

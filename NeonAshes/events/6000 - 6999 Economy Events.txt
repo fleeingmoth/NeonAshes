@@ -37,6 +37,26 @@ country_event = { # Economic Depression to Recession
 			factor = 0.5
 			has_country_modifier = expansionary_fiscal_policy	# Expansionary fiscal policy pushes up
 		}
+		modifier = {
+			factor = 1.2
+			has_country_modifier = semi_centralized_communities	# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.4
+			has_country_modifier = decentralized_communities	# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.6
+			has_country_modifier = frontier_communities		# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.8
+			has_country_modifier = autarkic_communities		# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 2
+			has_country_modifier = survivalist_communities		# Hard to grow with low interconnectedness
+		}
 	}
 	option = {
 		name = "EVT_6000_OPTA"
@@ -117,6 +137,26 @@ country_event = { # Economic Recession to Stagnation
 			factor = 0.5
 			has_country_modifier = expansionary_fiscal_policy	# Expansionary fiscal policy pushes up
 		}
+		modifier = {
+			factor = 1.2
+			has_country_modifier = semi_centralized_communities	# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.4
+			has_country_modifier = decentralized_communities	# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.6
+			has_country_modifier = frontier_communities		# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.8
+			has_country_modifier = autarkic_communities		# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 2
+			has_country_modifier = survivalist_communities		# Hard to grow with low interconnectedness
+		}
 	}
 	option = {
 		name = "EVT_6002_OPTA"
@@ -187,6 +227,26 @@ country_event = { # Economic Stagnation to Expansion
 		modifier = {
 			factor = 0.5
 			has_country_modifier = expansionary_fiscal_policy	# Expansionary fiscal policy pushes up
+		}
+		modifier = {
+			factor = 1.2
+			has_country_modifier = semi_centralized_communities	# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.4
+			has_country_modifier = decentralized_communities	# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.6
+			has_country_modifier = frontier_communities		# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.8
+			has_country_modifier = autarkic_communities		# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 2
+			has_country_modifier = survivalist_communities		# Hard to grow with low interconnectedness
 		}
 	}
 	option = {
@@ -266,6 +326,26 @@ country_event = { # Economic Expansion to Boom
 		modifier = {
 			factor = 0.5
 			has_country_modifier = expansionary_fiscal_policy	# Expansionary fiscal policy pushes up
+		}
+		modifier = {
+			factor = 1.2
+			has_country_modifier = semi_centralized_communities	# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.4
+			has_country_modifier = decentralized_communities	# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.6
+			has_country_modifier = frontier_communities		# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 1.8
+			has_country_modifier = autarkic_communities		# Hard to grow with low interconnectedness
+		}
+		modifier = {
+			factor = 2
+			has_country_modifier = survivalist_communities		# Hard to grow with low interconnectedness
 		}
 	}
 	option = {
@@ -1978,5 +2058,282 @@ country_event = { # Reclaim and Reutilize Abandoned Buildings (Large country)
 	option = {
 		name = "EVT_6037_OPTD"	# Never mind.
 		remove_country_modifier = building_scavenging
+	}
+}
+
+### 6040-6049 - Decreasing Interconnectedness ###
+
+country_event = { # Decreasing Interconnectedness (to Semi-Centralized Communities)
+	id = 6040
+	title = "EVT_6040_NAME"
+	desc = "EVT_6040_DESC"
+	picture = "interconnectedness_semi_centralized_pic"
+	allow_multiple_instances = yes
+	trigger = {
+		NOT = {						# Currently fully centralized country
+			OR = {
+				has_country_modifier = semi_centralized_communities
+				has_country_modifier = decentralized_communities
+				has_country_modifier = frontier_communities
+				has_country_modifier = autarkic_communities
+				has_country_modifier = survivalist_communities
+			}
+		}
+		OR = {						# It can be triggered by either...
+			national_provinces_occupied = 0.15	# Enemy occupation of at least 15 percent or more of the country
+			AND = {					# Or...
+				num_of_revolts = 1		# At least one province is occupied by rebels
+				average_militancy = 5		# Moderate militancy
+			}
+		}
+		NOT = { has_country_modifier = decreasing_interconnectedness }	# Brief cooldown period
+	}
+	mean_time_to_happen = {
+		months = 3
+		modifier = {		# A depression hastens it a lot
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# A stagnant economy buys a bit of time
+			factor = 2
+			has_country_modifier = economic_stagnation
+		}
+		modifier = {		# A growing economy buys some time
+			factor = 3
+			has_country_modifier = economic_expansion
+		}
+		modifier = {		# A booming economy buys a lot of time
+			factor = 4
+			has_country_modifier = economic_boom
+		}
+	}
+	option = {
+		name = "EVT_6040_OPTA"
+		add_country_modifier = {				# Semi-Centralized Communities
+			name = semi_centralized_communities
+			duration = -1
+		}
+		add_country_modifier = {				# Brief cooldown period
+			name = decreasing_interconnectedness
+			duration = 30
+		}
+		remove_country_modifier = increasing_interconnectedness	# Reset interconnectedness growth
+		prestige = -2						# Ouch
+	}
+}
+country_event = { # Decreasing Interconnectedness (to Decentralized Communities)
+	id = 6041
+	title = "EVT_6041_NAME"
+	desc = "EVT_6041_DESC"
+	picture = "interconnectedness_decentralized_pic"
+	allow_multiple_instances = yes
+	trigger = {
+		has_country_modifier = semi_centralized_communities	# Slight decentralization
+		OR = {							# It can be triggered by either...
+			national_provinces_occupied = 0.30		# Enemy occupation of at least 30 percent or more of the country
+			AND = {						# Or...
+				num_of_revolts = 1			# At least one province is occupied by rebels
+				average_militancy = 6			# Moderately high militancy
+			}
+		}
+		NOT = { has_country_modifier = decreasing_interconnectedness }	# Brief cooldown period
+	}
+	mean_time_to_happen = {
+		months = 3
+		modifier = {		# A depression hastens it a lot
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# A stagnant economy buys a bit of time
+			factor = 2
+			has_country_modifier = economic_stagnation
+		}
+		modifier = {		# A growing economy buys some time
+			factor = 3
+			has_country_modifier = economic_expansion
+		}
+		modifier = {		# A booming economy buys a lot of time
+			factor = 4
+			has_country_modifier = economic_boom
+		}
+	}
+	option = {
+		name = "EVT_6041_OPTA"
+		add_country_modifier = {				# Decentralized communities
+			name = decentralized_communities
+			duration = -1
+		}
+		add_country_modifier = {				# Brief cooldown period
+			name = decreasing_interconnectedness
+			duration = 30
+		}
+		remove_country_modifier = semi_centralized_communities	# Go down one level
+		remove_country_modifier = frontier_communities		# Sanity check
+		remove_country_modifier = autarkic_communities		# Sanity check
+		remove_country_modifier = survivalist_communities	# Sanity check
+		remove_country_modifier = increasing_interconnectedness	# Reset interconnectedness growth
+		prestige = -4						# Ouch
+	}
+}
+country_event = { # Decreasing Interconnectedness (to Frontier Communities)
+	id = 6042
+	title = "EVT_6042_NAME"
+	desc = "EVT_6042_DESC"
+	picture = "interconnectedness_frontier_pic"
+	allow_multiple_instances = yes
+	trigger = {
+		has_country_modifier = decentralized_communities	# Low centralization
+		OR = {							# It can be triggered by either...
+			national_provinces_occupied = 0.45		# Enemy occupation of at least 45 percent or more of the country
+			AND = {						# Or...
+				num_of_revolts = 1			# At least one province is occupied by rebels
+				average_militancy = 7			# High militancy
+			}
+		}
+		NOT = { has_country_modifier = decreasing_interconnectedness }	# Brief cooldown period
+	}
+	mean_time_to_happen = {
+		months = 3
+		modifier = {		# A depression hastens it a lot
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# A stagnant economy buys a bit of time
+			factor = 2
+			has_country_modifier = economic_stagnation
+		}
+		modifier = {		# A growing economy buys some time
+			factor = 3
+			has_country_modifier = economic_expansion
+		}
+		modifier = {		# A booming economy buys a lot of time
+			factor = 4
+			has_country_modifier = economic_boom
+		}
+	}
+	option = {
+		name = "EVT_6042_OPTA"
+		add_country_modifier = {				# Frontier communities
+			name = frontier_communities
+			duration = -1
+		}
+		add_country_modifier = {				# Brief cooldown period
+			name = decreasing_interconnectedness
+			duration = 30
+		}
+		remove_country_modifier = semi_centralized_communities	# Sanity check
+		remove_country_modifier = decentralized_communities	# Go down one level
+		remove_country_modifier = autarkic_communities		# Sanity check
+		remove_country_modifier = survivalist_communities	# Sanity check
+		remove_country_modifier = increasing_interconnectedness	# Reset interconnectedness growth
+		prestige = -6						# Ouch
+	}
+}
+country_event = { # Decreasing Interconnectedness (to Autarkic Communities)
+	id = 6043
+	title = "EVT_6043_NAME"
+	desc = "EVT_6043_DESC"
+	picture = "interconnectedness_autarkic_pic"
+	allow_multiple_instances = yes
+	trigger = {
+		has_country_modifier = frontier_communities		# Low centralization
+		OR = {							# It can be triggered by either...
+			national_provinces_occupied = 0.60		# Enemy occupation of at least 60 percent or more of the country
+			AND = {						# Or...
+				num_of_revolts = 1			# At least one province is occupied by rebels
+				average_militancy = 8			# Very high militancy
+			}
+		}
+		NOT = { has_country_modifier = decreasing_interconnectedness }	# Brief cooldown period
+	}
+	mean_time_to_happen = {
+		months = 3
+		modifier = {		# A depression hastens it a lot
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# A stagnant economy buys a bit of time
+			factor = 2
+			has_country_modifier = economic_stagnation
+		}
+		modifier = {		# A growing economy buys some time
+			factor = 3
+			has_country_modifier = economic_expansion
+		}
+		modifier = {		# A booming economy buys a lot of time
+			factor = 4
+			has_country_modifier = economic_boom
+		}
+	}
+	option = {
+		name = "EVT_6043_OPTA"
+		add_country_modifier = {				# Autarkic communities
+			name = autarkic_communities
+			duration = -1
+		}
+		add_country_modifier = {				# Brief cooldown period
+			name = decreasing_interconnectedness
+			duration = 30
+		}
+		remove_country_modifier = semi_centralized_communities	# Sanity check
+		remove_country_modifier = decentralized_communities	# Sanity check
+		remove_country_modifier = frontier_communities		# Go down one level
+		remove_country_modifier = survivalist_communities	# Sanity check
+		remove_country_modifier = increasing_interconnectedness	# Reset interconnectedness growth
+		prestige = -8						# Ouch
+	}
+}
+country_event = { # Decreasing Interconnectedness (to Survivalist Communities)
+	id = 6044
+	title = "EVT_6044_NAME"
+	desc = "EVT_6044_DESC"
+	picture = "interconnectedness_survivalist_pic"
+	allow_multiple_instances = yes
+	trigger = {
+		has_country_modifier = autarkic_communities		# Low centralization
+		OR = {							# It can be triggered by either...
+			national_provinces_occupied = 0.75		# Enemy occupation of at least 75 percent or more of the country
+			AND = {						# Or...
+				num_of_revolts = 1			# At least one province is occupied by rebels
+				average_militancy = 9			# Catastrophic militancy
+			}
+		}
+		NOT = { has_country_modifier = decreasing_interconnectedness }	# Brief cooldown period
+	}
+	mean_time_to_happen = {
+		months = 3
+		modifier = {		# A depression hastens it a lot
+			factor = 0.5
+			has_country_modifier = economic_depression
+		}
+		modifier = {		# A stagnant economy buys a bit of time
+			factor = 2
+			has_country_modifier = economic_stagnation
+		}
+		modifier = {		# A growing economy buys some time
+			factor = 3
+			has_country_modifier = economic_expansion
+		}
+		modifier = {		# A booming economy buys a lot of time
+			factor = 4
+			has_country_modifier = economic_boom
+		}
+	}
+	option = {
+		name = "EVT_6044_OPTA"
+		add_country_modifier = {				# Survivalist communities
+			name = survivalist_communities
+			duration = -1
+		}
+		add_country_modifier = {				# Brief cooldown period
+			name = decreasing_interconnectedness
+			duration = 30
+		}
+		remove_country_modifier = semi_centralized_communities	# Sanity check
+		remove_country_modifier = decentralized_communities	# Sanity check
+		remove_country_modifier = frontier_communities		# Sanity check
+		remove_country_modifier = autarkic_communities		# Go down one level
+		remove_country_modifier = increasing_interconnectedness	# Reset interconnectedness growth
+		prestige = -10						# Ouch
 	}
 }

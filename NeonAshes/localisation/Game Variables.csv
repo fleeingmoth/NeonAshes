@@ -1,2 +1,13 @@
 SOLDIER_TO_POP_LOSS_TECH;Casualty Trickleback;;;;;;;;;;;;;x;;;;
 HAVE_LESS_PROVINCES_OCCUPIED_THAN;Max Amount of Provinces Occupied;;;;;;;;;;;;;x;;;;
+COUNTRY_LITERACY;Proportion of Tertiary Education;;;;;;;;;;;;;x;;;;
+BE_LITERACY;Proportion of Tertiary Education;;;;;;;;;;;;;x;;;;
+LITERACY_EFFECT;$DIRECTION$ $VALUE$ proportion on tertiary education\n;;;;;;;;;;;;;x;;;;
+POPV_SORT_BY_LIT;Proportion of Tertiary Education;;;;;;;;;;;;;x;;;;
+MODIFIER_LITERACY_CON_IMPACT;Tertiary Education Impact on Consciousness;;;;;;;;;;;;;x;;;;
+POP_CON_LITERACY;Proportion of Tertiary Education;;;;;;;;;;;;;x;;;;
+PV_POP_LITERACY;Proportion of Tertiary Education;;;;;;;;;;;;;x;;;;
+LITERACY;Proportion of Tertiary Education;;;;;;;;;;;;;x;;;;
+TB_TECH_LITERACY;Proportion of Tertiary Education;;;;;;;;;;;;;x;;;;
+LITERACY_HIGHER_THAN;Proportion of Tertiary Education above §Y$VAL$§W%\n;;;;;;;;;;;;;x;;;;
+NOT_LITERACY_HIGHER_THAN;Proportion of Tertiary Education below §Y$VAL$§W%\n;;;;;;;;;;;;;x;;;;

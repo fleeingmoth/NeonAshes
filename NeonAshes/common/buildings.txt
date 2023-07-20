@@ -9,7 +9,9 @@
 # time = x #==> number of days to build.
 #
 
-############# BASIC FACTORIES
+### Factories ###
+
+# Basic Factories
 
 machine_parts_factory = {
 	type = factory
@@ -45,6 +47,9 @@ construction_factory = {
 	production_type = construction_factory
 	pop_build_factory = yes
 }
+
+# Military Factories
+
 conv_ammo_factory = {
 	type = factory
 	on_completion = factory
@@ -79,6 +84,9 @@ small_arms_factory = {
 	production_type = small_arms_factory
 	pop_build_factory = yes
 }
+
+# Power plants
+
 coal_power_plant = {
 	type = factory
 	on_completion = factory
@@ -115,6 +123,9 @@ oil_power_plant = {
 	production_type = oil_power_plant
 	pop_build_factory = yes
 }
+
+# Heavy Industry
+
 oil_refinery = {
 	type = factory
 	on_completion = factory
@@ -184,6 +195,46 @@ chemical_plant = {
 	production_type = chemical_plant
 	pop_build_factory = yes
 }
+engine_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost = {
+		construction_materials = 100	# 100,000 sqft
+		machine_parts = 100		# 10,000 metric tons of equipment
+		steel = 50			# 50 tonnes of steel
+	}
+	time = 180
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = engine_factory
+	pop_build_factory = yes
+}
+
+# Vehicle Manufacturing
+
+traditional_vehicle_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost = {
+		construction_materials = 100	# 100,000 sqft
+		machine_parts = 100		# 10,000 metric tons of equipment
+		steel = 50			# 50 tonnes of steel
+	}
+	time = 180
+	visibility = yes
+	onmap = no
+	default_enabled = yes
+	production_type = traditional_vehicle_assembly
+	pop_build_factory = yes
+}
+
+# Electronics
+
 electronic_components_factory = {	# Activated by Culture - Microprocessors
 	type = factory
 	on_completion = factory
@@ -201,6 +252,9 @@ electronic_components_factory = {	# Activated by Culture - Microprocessors
 	production_type = electronic_components_factory
 	pop_build_factory = yes
 }
+
+# Textiles
+
 textile_mill = {
 	type = factory
 	on_completion = factory
@@ -236,6 +290,8 @@ clothing_manufacturer = {
 	pop_build_factory = yes
 }
 
+### Military Buildings and Infrastructure ###
+
 fort = {			# Activated by Army - Third Generation Warfare - Military Engineering
 	type = fort
 	goods_cost = {
@@ -251,9 +307,7 @@ fort = {			# Activated by Army - Third Generation Warfare - Military Engineering
 	fort_level = 1
 }
 
-# Infrastructure
-
-naval_base = {		# Activated by Naval and Aerospace - Green Water Navy
+naval_base = {			# Activated by Naval and Aerospace - Green Water Navy
 	type = naval_base
 	goods_cost = {
 		construction_materials = 100	# 100,000 sqft
@@ -274,7 +328,7 @@ naval_base = {		# Activated by Naval and Aerospace - Green Water Navy
 	local_ship_build = -0.10
 }
        
-railroad = {   		# Activated by Industry - Modern Transportation
+railroad = {   			# Activated by Industry - Modern Transportation
 	type = infrastructure
 	goods_cost = {
 		construction_materials = 200

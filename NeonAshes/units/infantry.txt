@@ -6,35 +6,37 @@ infantry = {
 	unit_type = infantry
 	floating_flag = no
 	
-	#Core Abilities
+	# Core Abilities
+
 	priority = 10
 	max_strength = 3
 	default_organisation = 50
 	maximum_speed = 4.00
 	weighted_value = 2.0
 
-	#Building Costs
+	# Building Costs
+
 	build_time = 90
 	build_cost = {
-		small_arms = 10.0
-		motor_vehicles = 1
+		small_arms = 2		# Guns - 12,000 small arms
+		motor_vehicles = 1	# Supp - 100 vehicles
 	}
-	
+
+	# Supply Costs
+
 	supply_consumption = 1.0
 	supply_cost = {
-		conv_ammunition = 0.08
-		#canned_food = 0.07
-		fuel = 0.012
-		clothing = 0.05
-		aircraft = 0.025
+		small_arms = 0.01	# Guns - 60 small arms per day
+		conv_ammunition = 0.08	# Ammo - 8,000 rounds per day
+		fuel = 0.012		# Supp - 120 gallons of fuel per day
 	}
-	
 
-	#Land Abilties
+	# Land Abilties
+
 	reconnaissance = 0
 	attack = 3
 	defence = 3
-	discipline = 1.0
-	support = 0.0
+	discipline = 1
+	support = 0
 	maneuver = 2
 }

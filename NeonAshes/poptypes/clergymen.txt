@@ -44,6 +44,7 @@ everyday_needs = {
 	sugar_crops = 5.00		# 25 grams per household per day per 200,000 families
 	clothing = 10.00		# 10 tons of clothing per day per family per 200,000 families
 	tea_n_coffee = 0.50		# About 1 kg per year per family per 200,000 families
+	motor_vehicles = 0.20		# 1 car per family per 30 years per 200,000 families
 }
 luxury_needs = {
 	small_arms = 3.00		# 18,000 firearms (about 1 firearm per household per decade) per 200,000 families
@@ -56,6 +57,7 @@ luxury_needs = {
 	sugar_crops = 15.00		# 75 grams per household per day per 200,000 families
 	clothing = 10.00		# 10 tons of clothing per day per family per 200,000 families
 	tea_n_coffee = 1.00		# About 2 kg per year per family per 200,000 families
+	motor_vehicles = 0.20		# 1 car per family per 30 years per 200,000 families
 }
 
 country_migration_target =

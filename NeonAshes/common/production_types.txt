@@ -1076,6 +1076,25 @@ artisan_steel = {			# Each unit is 100 tonnes of steel
 	workforce = 10000
 }
 
+### Engines ###
+
+artisan_engines = {				# Each unit is 100 car engines
+	input_goods = {
+		steel = 1.00			# 100 tonnes of steel		# 6.00
+		aluminum = 10.00		# 10 tonnes of aluminum		# 20.00
+		machine_parts = 1.00		# 100 tonnes of machine parts	# 20.00
+		polymers_and_plastics = 10.00	# 10 tonnes of plastics		# 25.00
+	}
+	output_goods = engines			# Total cost of inputs	# 71
+	value = 1				# Total value of goods	# 75
+	owner = {				# Profit		#  4
+		poptype = artisans
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
 ### ### Consumer Goods ### ###
 
 #artisan_timber_furniture = {		# Each unit is 1,000 pieces (roughly a single bed, 50kg), 50 tons total.
@@ -1084,10 +1103,29 @@ artisan_steel = {			# Each unit is 100 tonnes of steel
 #	}
 #	output_goods = furniture	# Total cost of inputs		# 15
 #	value = 2			# Total value of goods		# 20
-#	owner = {			# Profit			# 5
+#	owner = {			# Profit			#  5
 #		poptype = artisans
 #		effect = output
 #	}
 #	type = artisan
 #	workforce = 10000
 #}
+
+### Motor Vehicles ###
+
+artisan_traditional_vehicles = {		# Each unit is 100 (small) cars
+	input_goods = {
+		steel = 20.00			# 2,000 tonnes of steel		# 120
+		engines = 2.00			# 200 small car engines 	# 150
+		polymers_and_plastics = 100.00	# 100 tonnes of polymers	# 250
+		textiles = 10.00		# 10 tonnes of textiles		# 20
+	}
+	output_goods = motor_vehicles		# Total cost of inputs	# 540
+	value = 5				# Total value of goods	# 600
+	owner = {				# Profit		#  60
+		poptype = artisans
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}

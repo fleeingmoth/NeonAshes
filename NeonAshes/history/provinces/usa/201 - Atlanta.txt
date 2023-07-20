@@ -28,3 +28,13 @@ state_building = {
 	building = clothing_manufacturer
 	upgrade = yes
 }
+state_building = {
+	level = 1
+	building = engine_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = traditional_vehicle_factory
+	upgrade = yes
+}

@@ -5,6 +5,16 @@ trade_goods = cattle
 life_rating = 30
 state_building = {
 	level = 1
+	building = conv_ammo_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
 	building = coal_power_plant
 	upgrade = yes
 }

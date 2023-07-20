@@ -5,6 +5,16 @@ trade_goods = oilseed_crops
 life_rating = 30
 state_building = {
 	level = 1
+	building = conv_ammo_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
 	building = coal_power_plant
 	upgrade = yes
 }
@@ -16,5 +26,15 @@ state_building = {
 state_building = {
 	level = 1
 	building = chemical_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = engine_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = traditional_vehicle_factory
 	upgrade = yes
 }

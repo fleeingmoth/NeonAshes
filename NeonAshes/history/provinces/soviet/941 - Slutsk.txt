@@ -1,2 +1,7 @@
+owner = WRA
+controller = WRA
+add_core = WRA
+add_core = BYE
+add_core = BLR
 trade_goods = timber
 life_rating = 35

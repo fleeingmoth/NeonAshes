@@ -1,0 +1,99 @@
+# Belarus (2,390,135 pops)
+940 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 145867
+	}
+}
+941 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 234412
+	}
+}
+942 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 123412
+	}
+}
+939 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 91143
+	}
+}
+938 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 245486
+	}
+}
+947 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 122430
+	}
+}
+946 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 109761
+	}
+}
+945 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 113974
+	}
+}
+944 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 153453
+	}
+}
+948 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 258874
+	}
+}
+718 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 408117
+	}
+}
+949 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 141922
+	}
+}
+936 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 137411
+	}
+}
+937 = {#
+	farmers = {
+		culture = byelorussian
+		religion = catholic
+		size = 103871
+	}
+}

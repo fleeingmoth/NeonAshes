@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = NCK
+controller = NCK
+add_core = NCK
+add_core = RUS
+trade_goods = coal
 life_rating = 35

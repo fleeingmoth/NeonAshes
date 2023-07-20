@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = NRM
+controller = NRM
+add_core = NRM
+trade_goods = oil
 life_rating = 35

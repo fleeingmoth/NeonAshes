@@ -1,2 +1,6 @@
+owner = VOL
+controller = VOL
+add_core = VOL
+add_core = RUS
 trade_goods = timber
 life_rating = 35

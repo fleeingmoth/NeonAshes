@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = PRM
+controller = PRM
+add_core = PRM
+trade_goods = oil
 life_rating = 35

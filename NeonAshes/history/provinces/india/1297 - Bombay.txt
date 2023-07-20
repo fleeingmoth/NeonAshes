@@ -1,2 +1,20 @@
-trade_goods = timber
+owner = DEC
+controller = DEC
+add_core = DEC
+trade_goods = credit_money
 life_rating = 35
+state_building = {
+	level = 3
+	building = chemical_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = oil_refinery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = textile_mill
+	upgrade = yes
+}

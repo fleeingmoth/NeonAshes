@@ -222,6 +222,19 @@ scandinavian = {
 		
 		radicalism = 5
 	}
+	karelian = { 
+		color = { 190 198 117}
+		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
+		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
+		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
+		
+		last_names = { Airo Alopaeus Aspara Cajander Ehrnrooth Heinrichs Heiskanen Holsti Ignatius Järnefält
+		Linder Mannerheim Multamäki Nenonen Oesch Öquist Österman Paasikivi Raappana Ramsay
+		Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
+		
+		radicalism = 5
+	}
+
 	sami = {
 		color = { 60 180 110}
 		first_names = {
@@ -685,6 +698,126 @@ east_slavic = {
                                        Nebogatov Nikolaevich Pavlov Putyatin Rozhestvensky Skobelev Sukhoi 
                                        Tukhachevsky Yegorov Vorontsov Zhauryd }
         }
+	ugrian = {  
+		color = {60 160 160}
+                  first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+
+                  last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+	crimean = {  
+		color = {79 108 255}
+                  first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+
+                  last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+	permian = {  
+		color = {159 120 204}
+        first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+
+        last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+	siberian_russian = {  
+		color = {159 120 204}
+        first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+
+        last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+
+	union = RUS
+}
+minor_russian_group = {
+	leader = russian
+	unit = RussianGC
+	komi = {
+		color = {114 196 70}
+        first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
+			Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
+			Viktor Volodimir Vladislav Yuriy 
+		}
+
+		last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
+			Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
+			Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky 
+		}
+	}
+	udmurt = {
+		color = {193 189 167}
+        first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
+			Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
+			Viktor Volodimir Vladislav Yuriy 
+		}
+
+		last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
+			Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
+			Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky 
+		}
+	}
+	mari = {
+		color = {216 173 255}
+        first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
+			Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
+			Viktor Volodimir Vladislav Yuriy 
+		}
+
+		last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
+			Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
+			Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky 
+		}
+	}
+	chuvashian = {
+		color = {255 229 135}
+        first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
+			Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
+			Viktor Volodimir Vladislav Yuriy 
+		}
+
+		last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
+			Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
+			Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky 
+		}
+	}
+	mordovian = {
+		color = {255 145 156}
+        first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
+			Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
+			Viktor Volodimir Vladislav Yuriy 
+		}
+
+		last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
+			Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
+			Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky 
+		}
+	}
+	tatar = {
+		color = {255 202 96}
+        first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
+			Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
+			Viktor Volodimir Vladislav Yuriy 
+		}
+
+		last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
+			Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
+			Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky 
+		}
+	}
+	bashkir = {
+		color = {159 204 146}
+        first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
+			Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
+			Viktor Volodimir Vladislav Yuriy 
+		}
+
+		last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
+			Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
+			Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky 
+		}
+	}
+
+}
+
+ukrainian_group = {
+	leader = russian
+	unit = RussianGC
 	ukrainian = {
 		color = {160 160 60}
                      first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
@@ -696,12 +829,8 @@ east_slavic = {
                                     Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
 									radicalism = 10
         }
-	ugrian = {  
-		color = {60 160 160}
-                  first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
-
-                  last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	}
+	
+	union = UKR
 }
 
 baltic = {
@@ -741,6 +870,21 @@ baltic = {
 	
 	#union = UBD
 
+}
+kalmykian_group = {
+	leader = asian
+	is_overseas = no
+	unit = MiddleEasternGC
+	kalmykian = {
+		color = {255 255 66}
+		first_names = { 
+               Peljidiin Balingiin Sodnomyn Kubilai Baterdene Dogsomyn Damdin Khorloogiin Dambyan 
+               Gonchigjalzangiin Badamdorj Chingis Otgonbayar Batbayar }
+
+		last_names = { 
+               Genden Amar Tserendorj Tomorbaatar Damdinbazar Bodoo Sukhbaatar Jamyan Choibalsan Chagdarjav
+		}
+	}
 }
 
 levantine = {
@@ -1495,7 +1639,7 @@ indian_group = {
                
 		}
 	}
-	tamil = {
+	deccan = {
 		color = {180 23 75}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
@@ -1759,6 +1903,16 @@ southeast_asian = {
 		}
 		
 		last_names = { Che Baw U Lawi Lasa Pyatin "Law Paw" Kyi Pun Nge Bye Kye
+               
+		}
+	}
+	sri_lankan = {
+		color = {159 91 165}
+		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
+			
+		}
+		
+		last_names = { Jafar Muhammad Sarfaraz Ali "Qasim Ali" Najabut Bahadur Mirza
                
 		}
 	}

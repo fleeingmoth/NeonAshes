@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = UZB
+controller = UZB
+add_core = UZB
+trade_goods = oil
 life_rating = 35

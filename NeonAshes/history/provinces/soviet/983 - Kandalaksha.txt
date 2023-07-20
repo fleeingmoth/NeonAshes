@@ -1,2 +1,5 @@
+owner = MUR
+controller = MUR
+add_core = MUR
 trade_goods = rare_earths
 life_rating = 35

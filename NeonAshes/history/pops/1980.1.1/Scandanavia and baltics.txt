@@ -1,0 +1,229 @@
+# Norway
+306 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 59666
+	}
+}
+307 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 56078
+	}
+}
+# Finland
+338 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 48722
+	}
+}
+337 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 23600
+	}
+}
+336 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 81433
+	}
+}
+342 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 110646
+	}
+}
+346 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 168623
+	}
+}
+341 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 76988
+	}
+}
+340 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 47805
+	}
+}
+344 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 50088
+	}
+}
+347 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 142463
+	}
+}
+343 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 278326
+	}
+}
+345 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 162549
+	}
+}
+348 = {#
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 5695
+	}
+}
+#estonia
+353 = {#
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 9741
+	}
+}
+349 = {#
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 131061
+	}
+}
+351 = {#
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 39569
+	}
+}
+350 = {#
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 59536
+	}
+}
+352 = {#
+	farmers = {
+		culture = estonian
+		religion = catholic
+		size = 47709
+	}
+}
+#latvia
+355 = {#
+	farmers = {
+		culture = latvian
+		religion = catholic
+		size = 82563
+	}
+}
+356 = {#
+	farmers = {
+		culture = latvian
+		religion = catholic
+		size = 94895
+	}
+}
+354 = {#
+	farmers = {
+		culture = latvian
+		religion = catholic
+		size = 204850
+	}
+}
+357 = {#
+	farmers = {
+		culture = latvian
+		religion = catholic
+		size = 114196
+	}
+}
+358 = {#
+	farmers = {
+		culture = latvian
+		religion = catholic
+		size = 45316
+	}
+}
+359 = {#
+	farmers = {
+		culture = latvian
+		religion = catholic
+		size = 36951
+	}
+}
+#lithuania
+365 = {#
+	farmers = {
+		culture = lithuanian
+		religion = catholic
+		size = 109501
+	}
+}
+364 = {#
+	farmers = {
+		culture = lithuanian
+		religion = catholic
+		size = 117089
+	}
+}
+363 = {#
+	farmers = {
+		culture = lithuanian
+		religion = catholic
+		size = 117135
+	}
+}
+360 = {#
+	farmers = {
+		culture = lithuanian
+		religion = catholic
+		size = 203781
+	}
+}
+361 = {#
+	farmers = {
+		culture = lithuanian
+		religion = catholic
+		size = 169976
+	}
+}
+362 = {#
+	farmers = {
+		culture = lithuanian
+		religion = catholic
+		size = 87961
+	}
+}
+698 = {#
+	farmers = {
+		culture = lithuanian
+		religion = catholic
+		size = 21384
+	}
+}

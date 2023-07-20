@@ -1,2 +1,5 @@
+owner = CRI
+controller = CRI
+add_core = CRI
 trade_goods = timber
 life_rating = 35

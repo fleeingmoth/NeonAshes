@@ -1,2 +1,5 @@
+owner = MUR
+controller = MUR
+add_core = MUR
 trade_goods = fish
 life_rating = 35

@@ -1,2 +1,6 @@
+owner = DEC
+controller = DEC
+add_core = DEC
+add_core = SRL
 trade_goods = timber
 life_rating = 35

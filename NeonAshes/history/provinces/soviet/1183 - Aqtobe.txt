@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = SOV
+controller = SOV
+add_core = SOV
+add_core = KAZ
+trade_goods = grain
 life_rating = 35

@@ -1,0 +1,227 @@
+# Crimea
+967 = {#
+	farmers = {
+		culture = crimean
+		religion = catholic
+		size = 83271
+	}
+}
+966 = {#
+	farmers = {
+		culture = crimean
+		religion = catholic
+		size = 212782
+	}
+}
+964 = {#
+	farmers = {
+		culture = crimean
+		religion = catholic
+		size = 249678
+	}
+}
+#Odessa
+678 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 201534
+	}
+}
+968 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 221234
+	}
+}
+969 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 213219
+	}
+}
+973 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 486588
+	}
+}
+965 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 290858
+	}
+}
+972 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 498740
+	}
+}
+971 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 411115
+	}
+}
+980 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 696674
+	}
+}
+978 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 405482
+	}
+}
+974 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 358431
+	}
+}
+963 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 800980
+	}
+}
+975 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 646871
+	}
+}
+976 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 643289
+	}
+}
+962 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 375475
+	}
+}
+958 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 480976
+	}
+}
+960 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 312722
+	}
+}
+961 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 386799
+	}
+}
+959 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 399231
+	}
+}
+955 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 389610
+	}
+}
+662 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 222482
+	}
+}
+952 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 290785
+	}
+}
+956 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 280203
+	}
+}
+957 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 253896
+	}
+}
+702 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 278312
+	}
+}
+951 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 367651
+	}
+}
+953 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 332973
+	}
+}
+950 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 288604
+	}
+}
+954 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 511563
+	}
+}
+970 = {#
+	farmers = {
+		culture = ukrainian
+		religion = catholic
+		size = 310659
+	}
+}
+

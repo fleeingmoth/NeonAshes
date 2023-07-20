@@ -3,3 +3,13 @@ controller = SPL
 add_core = SPL
 trade_goods = fruit
 life_rating = 35
+state_building = {
+	level = 1
+	building = engine_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = traditional_vehicle_factory
+	upgrade = yes
+}

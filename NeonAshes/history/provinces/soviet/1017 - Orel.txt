@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = MSK
+controller = MSK
+add_core = MSK
+add_core = RUS
+trade_goods = grain
 life_rating = 35

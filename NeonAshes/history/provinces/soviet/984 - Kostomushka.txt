@@ -1,2 +1,5 @@
+owner = KAR
+controller = KAR
+add_core = KAR
 trade_goods = iron
 life_rating = 35

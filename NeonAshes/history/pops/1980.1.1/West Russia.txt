@@ -1,0 +1,635 @@
+# North Caucasus Krai (stavropol+krasnodar+rostov; 2,780,562 pops)
+979 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 341500
+	}
+}
+1045 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 228745
+	}
+}
+1046 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 214867
+	}
+}
+1047 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 387041
+	}
+}
+1048 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 253487
+	}
+}
+1049 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 231847
+	}
+}
+1050 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 572879
+	}
+}
+1051 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 239447
+	}
+}
+1056 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 310749
+	}
+}
+
+1041 = {#
+	farmers = {
+		culture = kalmykian
+		religion = orthodox
+		size = 73631
+	}
+}
+1040 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 102878
+	}
+}
+1036 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 121697
+	}
+}
+
+1039 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 105732
+	}
+}
+1037 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 147804
+	}
+}
+1035 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 97480
+	}
+}
+1038 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 121874
+	}
+}
+1043 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 110747
+	}
+}
+
+1008 = {#Moscow
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 1957647
+	}
+}
+994 = {#St.Petersburg
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 1015263
+	}
+}
+
+339 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 131782
+	}
+}
+977 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 301368
+	}
+}
+1018 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 310662
+	}
+}
+1019 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 555697
+	}
+}
+1017 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 200393
+	}
+}
+
+1016 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 331826
+	}
+}
+1025 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 297171
+	}
+}
+1021 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 338469
+	}
+}
+1012 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 302832
+	}
+}
+1015 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 420077
+	}
+}
+943 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 260617
+	}
+}
+1010 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 119967
+	}
+}
+1014 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 120070
+	}
+}
+997 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 97807
+	}
+}
+1006 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 92644
+	}
+}
+1011 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 761816
+	}
+}
+1009 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 744249
+	}
+}
+1013 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 372136
+	}
+}
+1022 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 296351
+	}
+}
+
+998 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 112242
+	}
+}
+1000 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 87361
+	}
+}
+999 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 78642
+	}
+}
+1007 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 97531
+	}
+}
+1005 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 84361
+	}
+}
+1003 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 85076
+	}
+}
+2580 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 156912
+	}
+}
+1004 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 108390
+	}
+}
+996 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 108461
+	}
+}
+1001 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 330830
+	}
+}
+992 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 87841
+	}
+}
+993 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 84312
+	}
+}
+989 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 79143
+	}
+}
+991 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 53324
+	}
+}
+1023 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 91874
+	}
+}
+1024 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 90349
+	}
+}
+990 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 110247
+	}
+}
+981 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 109374
+	}
+}
+2588 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 133686
+	}
+}
+995 = {#
+	farmers = {
+		culture = karelian
+		religion = orthodox
+		size = 64841
+	}
+}
+988 = {#
+	farmers = {
+		culture = karelian
+		religion = orthodox
+		size = 61248
+	}
+}
+984 = {#
+	farmers = {
+		culture = karelian
+		religion = orthodox
+		size = 51957
+	}
+}
+
+982 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 73148
+	}
+}
+983 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 92874
+	}
+}
+2587 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 94998
+	}
+}
+1027 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 197812
+	}
+}
+1028 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 183035
+	}
+}
+1020 = {#
+	farmers = {
+		culture = mordovian
+		religion = orthodox
+		size = 246000
+	}
+}
+1033 = {#
+	farmers = {
+		culture = chuvashian
+		religion = orthodox
+		size = 325500
+	}
+}
+1030 = {#
+	farmers = {
+		culture = mari
+		religion = orthodox
+		size = 177500
+	}
+}
+1031 = {#
+	farmers = {
+		culture = udmurt
+		religion = orthodox
+		size = 377000
+	}
+}
+
+2689 = {#
+	farmers = {
+		culture = komi
+		religion = orthodox
+		size = 35431
+	}
+}
+2699 = {#
+	farmers = {
+		culture = komi
+		religion = orthodox
+		size = 41048
+	}
+}
+1026 = {#
+	farmers = {
+		culture = komi
+		religion = orthodox
+		size = 54121
+	}
+}
+987 = {#
+	farmers = {
+		culture = komi
+		religion = orthodox
+		size = 67861
+	}
+}
+2700 = {#
+	farmers = {
+		culture = komi
+		religion = orthodox
+		size = 79129
+	}
+}
+
+1042 = {#
+	farmers = {
+		culture = tatar
+		religion = orthodox
+		size = 530894
+	}
+}
+1032 = {#
+	farmers = {
+		culture = tatar
+		religion = orthodox
+		size = 287613
+	}
+}
+1034 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 356395
+	}
+	farmers = {
+		culture = tatar
+		religion = orthodox
+		size = 378361
+	}
+}
+1044 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 172281
+	}
+	farmers = {
+		culture = tatar
+		religion = orthodox
+		size = 68436
+	}
+}
+1060 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 176115
+	}
+	farmers = {
+		culture = tatar
+		religion = orthodox
+		size = 72421
+	}
+}
+1059 = {#
+	farmers = {
+		culture = bashkir
+		religion = orthodox
+		size = 962250
+	}
+}
+1058 = {#
+	farmers = {
+		culture = permian
+		religion = orthodox
+		size = 381431
+	}
+}
+1029 = {#
+	farmers = {
+		culture = permian
+		religion = orthodox
+		size = 316067
+	}
+}
+
+2589 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 356
+	}
+}
+985 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 2486
+	}
+}
+986 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 4601
+	}
+}
+2688 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 1431
+	}
+}
+2687 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 631
+	}
+}

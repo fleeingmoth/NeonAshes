@@ -1,2 +1,5 @@
+owner = IDU
+controller = IDU
+add_core = IDU
 trade_goods = timber
 life_rating = 35

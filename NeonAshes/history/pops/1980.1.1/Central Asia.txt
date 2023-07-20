@@ -1,0 +1,236 @@
+# Kazakhstan/Soviet Reminiant
+1194 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 62210
+	}
+}
+1182 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 93426
+	}
+}
+2610 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 146375
+	}
+}
+1183 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 64861
+	}
+}
+2702 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 92734
+	}
+}
+2611 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 271879
+	}
+}
+1184 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 221086
+	}
+}
+1181 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 590650
+	}
+}
+1187 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 201806
+	}
+}
+2606 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 364752
+	}
+}
+2612 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 64123
+	}
+}
+1193 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 147427
+	}
+}
+1197 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 212787
+	}
+}
+1185 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 219708
+	}
+}
+1188 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 577524
+	}
+}
+1186 = {#
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 212687
+	}
+}
+#Kygyzstan
+1190 = {#
+	farmers = {
+		culture = kirgiz
+		religion = sunni
+		size = 141273
+	}
+}
+1189 = {#
+	farmers = {
+		culture = kirgiz
+		religion = sunni
+		size = 496401
+	}
+}
+1203 = {#
+	farmers = {
+		culture = kirgiz
+		religion = sunni
+		size = 243033
+	}
+}
+#uzbekistan
+1192 = {#
+	farmers = {
+		culture = karakalpak
+		religion = sunni
+		size = 109876
+	}
+}
+1191 = {#
+	farmers = {
+		culture = karakalpak
+		religion = sunni
+		size = 116202
+	}
+}
+1198 = {#
+	farmers = {
+		culture = uzbek
+		religion = sunni
+		size = 315789
+	}
+}
+1199 = {#
+	farmers = {
+		culture = uzbek
+		religion = sunni
+		size = 573845
+	}
+}
+1195 = {#
+	farmers = {
+		culture = uzbek
+		religion = sunni
+		size = 1006445
+	}
+}
+1202 = {#
+	farmers = {
+		culture = uzbek
+		religion = sunni
+		size = 612257
+	}
+}
+1200 = {#
+	farmers = {
+		culture = uzbek
+		religion = sunni
+		size = 503831
+	}
+}
+
+1201 = {#
+	farmers = {
+		culture = tajik
+		religion = sunni
+		size = 298670
+	}
+}
+1207 = {#
+	farmers = {
+		culture = tajik
+		religion = sunni
+		size = 619972
+	}
+}
+1208 = {#
+	farmers = {
+		culture = tajik
+		religion = sunni
+		size = 31695
+	}
+}
+
+1205 = {#
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 77701
+	}
+}
+1196 = {#
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 132452
+	}
+}
+1204 = {#
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 176776
+	}
+}
+1206 = {#
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 302766
+	}
+}

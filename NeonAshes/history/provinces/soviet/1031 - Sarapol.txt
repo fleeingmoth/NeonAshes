@@ -1,2 +1,5 @@
+owner = UDM
+controller = UDM
+add_core = UDM
 trade_goods = timber
 life_rating = 35

@@ -1,3 +1,4 @@
+##212,878,161 pops
 ###Pakistan ###(21,063,411)
 1288 = {#
 	farmers = {
@@ -684,3 +685,202 @@
 	}
 }
 
+1303 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 251937
+	}
+}
+
+1297 = {#
+	craftsmen = {
+		culture = deccan
+		religion = hindu
+		size = 1450192
+	}
+	artisans = {
+		culture = deccan
+		religion = hindu
+		size = 1789127
+	}
+	clerks = {
+		culture = deccan
+		religion = hindu
+		size = 53245
+	}
+	capitalists = {
+		culture = deccan
+		religion = hindu
+		size = 2148
+	}
+}
+1299 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 3194712
+	}
+}
+1301 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 3098742
+	}
+}
+1300 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 3615546
+	}
+}
+#Karnataka (8,541,612)
+1302 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 1348144
+	}
+}
+1315 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 1178324
+	}
+}
+1313 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 1978041
+	}
+}
+1314 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 2649641
+	}
+}
+1316 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 1387462
+	}
+}
+1306 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 3241593
+	}
+}
+1307 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 582392
+	}
+}
+1308 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 3846313
+	}
+}
+1317 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 2206143
+	}
+}
+1318 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 2009487
+	}
+}
+1319 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 2147790
+	}
+}
+
+1312 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 151117
+	}
+}
+1304 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 3123748
+	}
+}
+1311 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 2978012
+	}
+}
+1309 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 3084864
+	}
+}
+1310 = {#
+	farmers = {
+		culture = deccan
+		religion = hindu
+		size = 2915376
+	}
+}
+#Sri Lanka
+1322 = {#
+	farmers = {
+		culture = sri_lankan
+		religion = hindu
+		size = 611289
+	}
+	farmers = {
+		culture = sri_lankan
+		religion = hindu
+		size = 274864
+	}
+}
+1324 = {#
+	farmers = {
+		culture = sri_lankan
+		religion = hindu
+		size = 758468
+	}
+}
+1323 = {#
+	farmers = {
+		culture = sri_lankan
+		religion = hindu
+		size = 812344
+	}
+}
+1321 = {#
+	farmers = {
+		culture = sri_lankan
+		religion = hindu
+		size = 1003035
+	}
+}

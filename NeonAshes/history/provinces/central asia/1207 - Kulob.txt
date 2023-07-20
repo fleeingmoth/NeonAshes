@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = TJI
+controller = TJI
+add_core = TJI
+trade_goods = bauxite
 life_rating = 35

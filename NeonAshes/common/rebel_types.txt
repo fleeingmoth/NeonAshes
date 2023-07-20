@@ -1245,7 +1245,7 @@ pan_nationalist_rebels = {
 				is_greater_power = yes
 			}
 		}
-		
+		#prevent pan-nationalists from appearing when we don't want them
 		modifier = {
 			factor = 0
 			OR = {
@@ -1268,6 +1268,11 @@ pan_nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
+			is_culture_group = east_slavic
+			NOT={has_global_flag = russian_pan_nationalism}
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				culture = ethiopian
 				culture = eritrean
@@ -1275,6 +1280,11 @@ pan_nationalist_rebels = {
 				culture = afar
 			}
 		}
+		modifier = {
+			factor = 0
+			culture = ukrainian
+		}
+		
 
 		modifier = {
 			factor = 1.3

@@ -1,2 +1,5 @@
+owner = TRK
+controller = TRK
+add_core = TRK
 trade_goods = timber
 life_rating = 35

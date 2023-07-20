@@ -1,2 +1,6 @@
+owner = EUK
+controller = EUK
+add_core = EUK
+add_core = UKR
 trade_goods = timber
 life_rating = 35

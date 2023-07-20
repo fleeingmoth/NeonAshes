@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = ARK
+controller = ARK
+add_core = ARK
+add_core = RUS
+trade_goods = fish
 life_rating = 35

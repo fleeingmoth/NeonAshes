@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = TAT
+controller = TAT
+add_core = TAT
+trade_goods = coal
 life_rating = 35

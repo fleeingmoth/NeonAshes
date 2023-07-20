@@ -215,9 +215,52 @@ ITA = "countries/Italy.txt"
 #CRO = "countries/Croatia.txt"
 #BOS = "countries/Bosnia.txt"
 #ALB = "countries/Albania.txt"
+NRM = "countries/Normark.txt"
 
 #East Europe
+FIN = "countries/Finland.txt"
+EST = "countries/Estonia.txt"
+LAT = "countries/Latvia.txt"
+LTH = "countries/Lithuania.txt"
+WRA = "countries/Western Red Army.txt"
+BYE = "countries/Byelorussia.txt"
+BLR = "countries/Belarus.txt"
 
+WUK = "countries/West Ukraine.txt"
+EUK = "countries/East Ukraine.txt"
+ODE = "countries/Odesa.txt"
+UKR = "countries/Ukraine.txt"
+CRI = "countries/Crimea.txt"
+
+NCK = "countries/North Caucasus Krai.txt"
+KMY = "countries/Kalmykia.txt"
+AKH = "countries/Astrakhan.txt"
+KOM = "countries/Komi.txt"
+MDV = "countries/Mordovia.txt"
+CHV = "countries/Chuvashia.txt"
+MRI = "countries/Mari.txt"
+UDM = "countries/Udmurt.txt"
+PRM = "countries/Perm.txt"
+TAT = "countries/Tatarstan.txt"
+
+MSK = "countries/Muscovy.txt"
+NOV = "countries/Novgorod.txt"
+VOL = "countries/Volgograd.txt"
+ARK = "countries/Arkhangelsk.txt"
+MUR = "countries/Murmansk.txt"
+PSK = "countries/Pskov.txt"
+KAR = "countries/Karelia.txt"
+IDU = "countries/Idel-Ural.txt"
+RUS = "countries/Russia.txt"
+SOV = "countries/Soviet Union.txt"
+
+#Central Asia
+KAZ = "countries/Kazakhstan.txt"
+UZB = "countries/Uzbekistan.txt"
+TRK = "countries/Turkmenistan.txt"
+KYR = "countries/Kyrgystan.txt"
+KAP = "countries/Karakalpakstan.txt"
+TJI = "countries/Tajikistan.txt"
 
 #West Africa
 
@@ -381,6 +424,8 @@ GDW = "countries/Gondwana.txt"
 HYD = "countries/Hyderabad.txt"
 NAX = "countries/Naxilites.txt"#indian communist rebels, when not communist becomes Orissa 
 GUJ = "countries/Gujarat.txt"
+DEC = "countries/Deccan Federation.txt"
+SRL = "countries/Sri Lanka.txt"
 
 BHU = "countries/Bhutan.txt"
 NEP = "countries/Nepal.txt"

@@ -2,3 +2,8 @@ owner = NEN
 controller = NEN
 trade_goods = cattle
 life_rating = 35
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

@@ -1076,6 +1076,22 @@ artisan_steel = {			# Each unit is 100 tonnes of steel
 	workforce = 10000
 }
 
+artisan_aluminum = {			# Each unit is a tonne of aluminum.
+	input_goods = {
+		bauxite = 1.00		# 100 tonnes of bauxite		# 3
+		energy = 200.00		# 200,000 MWh			# 80
+		other_metals = 1.00	# 100 tonnes of other metals	# 10
+	}
+	output_goods = aluminum			# Total cost of inputs	# 93
+	value = 50				# Total value of goods	# 100
+	owner = {				# Profit		# 50
+		poptype = artisans
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
 ### Engines ###
 
 artisan_engines = {				# Each unit is 100 car engines

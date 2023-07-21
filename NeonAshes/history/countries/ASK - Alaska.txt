@@ -52,3 +52,6 @@ consciousness = 2
 
 # Decisions
 decision = sign_articles_of_dissolution
+
+# Order of Battle
+oob = "ASK_oob.txt"

@@ -1,0 +1,42 @@
+army = {
+	name = "Alberta Regulars"
+	location = 26		# Calgary
+	regiment = {
+		name= "1st Calgary Regulars Brig."
+		type = infantry
+		home = 26	# Calgary
+	}
+	regiment = {
+		name= "2nd Calgary Regulars Brig."
+		type = infantry
+		home = 26	# Calgary
+	}
+}
+army = {
+	name = "Saskatchewan Regulars"
+	location = 34		# Saskatoon
+	regiment = {
+		name= "1st Saskatoon Regulars Brig."
+		type = infantry
+		home = 34	# Saskatoon
+	}
+	regiment = {
+		name= "2nd Saskatoon Regulars Brig."
+		type = infantry
+		home = 34	# Saskatoon
+	}
+}
+army = {
+	name = "Manitoba Regulars"
+	location = 36		# Winnipeg
+	regiment = {
+		name= "1st Manitoba Regulars Brig."
+		type = infantry
+		home = 36	# Winnipeg
+	}
+	regiment = {
+		name= "2nd Manitoba Regulars Brig."
+		type = infantry
+		home = 36	# Winnipeg
+	}
+}

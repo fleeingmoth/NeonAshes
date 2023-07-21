@@ -1,0 +1,32 @@
+army = {
+	name = "Nova Scotia Garrison"
+	location = 71		# Halifax
+	regiment = {
+		name= "1st Halifax Regulars Brig."
+		type = infantry
+		home = 71	# Halifax
+	}
+	regiment = {
+		name= "2nd Halifax Regulars Brig."
+		type = infantry
+		home = 71	# Halifax
+	}
+}
+army = {
+	name = "New Brunswick Garrison"
+	location = 68		# Fredericton
+	regiment = {
+		name= "1st Fredericton Regulars Brig."
+		type = infantry
+		home = 68	# Fredericton
+	}
+}
+army = {
+	name = "Prince Edward Island Garrison"
+	location = 70		# Prince Edward Island
+	regiment = {
+		name= "1st Charlottetown Regulars Brig."
+		type = infantry
+		home = 70	# Prince Edward Island
+	}
+}

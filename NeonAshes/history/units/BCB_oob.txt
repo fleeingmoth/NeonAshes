@@ -1,0 +1,14 @@
+army = {
+	name = "British Columbian Regulars"
+	location = 13		# Vancouver
+	regiment = {
+		name= "Vancouver Regulars Brigade"
+		type = infantry
+		home = 13	# Vancouver
+	}
+	regiment = {
+		name= "Victoria Regulars Brigade"
+		type = infantry
+		home = 14	# Victoria (Vancouver Island)
+	}
+}

@@ -1,4 +1,4 @@
-capital = 65 #Quebec City
+capital = 65 # Quebec City
 primary_culture = french_canadian
 religion = protestant
 government = democracy
@@ -6,7 +6,7 @@ plurality = 25.0
 nationalvalue = nv_liberty
 literacy = 0.50
 civilized = yes
-prestige = 0
+prestige = 2
 
 # Political reforms
 slavery = no_slavery
@@ -27,19 +27,19 @@ unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 school_reforms = low_schools
 
-ruling_party = QBC_liberal
+ruling_party = QBC_nationalist
 last_election = 1980.1.1
 upper_house = {
-	social_democrat = 10
-	socialist = 10
-	communist = 10
-	liberal = 10
-	anarcho_liberal = 10
-	green = 10
-	conservative = 10
-	nationalist = 10
-	traditionalist = 10
-	ultranationalist = 10
+	social_democrat = 11
+	socialist = 3
+	communist = 2
+	liberal = 14
+	anarcho_liberal = 2
+	green = 3
+	conservative = 46
+	nationalist = 15
+	traditionalist = 2
+	ultranationalist = 2
 }
 
 # Technologies
@@ -49,3 +49,6 @@ consciousness = 3
 
 # Decisions
 decision = join_canada_compact
+
+# Order of Battle
+oob = "QBC_oob.txt"

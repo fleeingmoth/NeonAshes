@@ -1,0 +1,38 @@
+army = {
+	name = "1st Infantry Div. 'Montreal'"
+	location = 58		# Montreal
+	regiment = {
+		name= "1st Montreal Regulars Brig."
+		type = infantry
+		home = 58	# Montreal
+	}
+	regiment = {
+		name= "2nd Montreal Regulars Brig."
+		type = infantry
+		home = 58	# Montreal
+	}
+	regiment = {
+		name= "3rd Montreal Regulars Brig."
+		type = infantry
+		home = 58	# Montreal
+	}
+}
+army = {
+	name = "2nd Infantry Div. 'Quebec'"
+	location = 65		# Quebec
+	regiment = {
+		name= "1st Quebec Regulars Brig."
+		type = infantry
+		home = 65	# Quebec
+	}
+	regiment = {
+		name= "2nd Quebec Regulars Brig."
+		type = infantry
+		home = 65	# Quebec
+	}
+	regiment = {
+		name= "3rd Quebec Regulars Brig."
+		type = infantry
+		home = 65	# Quebec
+	}
+}

@@ -1,0 +1,18 @@
+army = {
+	name = "Juneau Garrison"
+	location = 2		# Juneau
+	regiment = {
+		name= "1st National Guard Brigade"
+		type = infantry
+		home = 2	# Juneau
+	}
+}
+army = {
+	name = "Anchorage Garrison"
+	location = 3		# Anchorage
+	regiment = {
+		name= "2nd National Guard Brigade"
+		type = infantry
+		home = 3	# Anchorage
+	}
+}

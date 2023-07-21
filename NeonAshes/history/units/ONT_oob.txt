@@ -1,0 +1,38 @@
+army = {
+	name = "1st Infantry Div. 'Toronto'"
+	location = 46		# Toronto
+	regiment = {
+		name= "1st Toronto Regulars Brig."
+		type = infantry
+		home = 46	# Toronto
+	}
+	regiment = {
+		name= "2nd Toronto Regulars Brig."
+		type = infantry
+		home = 46	# Toronto
+	}
+	regiment = {
+		name= "3rd Toronto Regulars Brig."
+		type = infantry
+		home = 46	# Toronto
+	}
+}
+army = {
+	name = "2nd Infantry Div. 'Ottawa'"
+	location = 57		# Ottawa
+	regiment = {
+		name= "1st Ottawa Regulars Brig."
+		type = infantry
+		home = 57	# Ottawa
+	}
+	regiment = {
+		name= "2nd Ottawa Regulars Brig."
+		type = infantry
+		home = 57	# Ottawa
+	}
+	regiment = {
+		name= "3rd Ottawa Regulars Brig."
+		type = infantry
+		home = 57	# Ottawa
+	}
+}

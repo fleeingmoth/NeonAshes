@@ -36,9 +36,9 @@ upper_house = {
 	liberal = 11
 	anarcho_liberal = 3
 	green = 2
-	conservative = 37
+	conservative = 36
 	nationalist = 7
-	traditionalist = 29
+	traditionalist = 28
 	ultranationalist = 1
 }
 
@@ -49,3 +49,6 @@ consciousness = 2
 
 # Decisions
 decision = join_canada_compact
+
+# Order of Battle
+oob = "BCB_oob.txt"

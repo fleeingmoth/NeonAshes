@@ -1,0 +1,14 @@
+army = {
+	name = "Newfoundland Regulars"
+	location = 74		# Saint Johns
+	regiment = {
+		name= "1st St. John's Regulars Brig."
+		type = infantry
+		home = 74	# Saint Johns
+	}
+	regiment = {
+		name= "2nd St. John's Regulars Brig."
+		type = infantry
+		home = 74	# Saint Johns
+	}
+}

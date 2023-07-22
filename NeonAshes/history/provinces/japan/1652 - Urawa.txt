@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = TKY
+controller = TKY
+add_core = TKY
+add_core = JAP
+trade_goods = fruit
 life_rating = 35

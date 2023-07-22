@@ -2,5 +2,5 @@ owner = ODE
 controller = ODE
 add_core = ODE
 add_core = UKR
-trade_goods = timber
+trade_goods = phosphate
 life_rating = 35

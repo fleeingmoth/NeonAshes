@@ -234,3 +234,103 @@
 		size = 302766
 	}
 }
+#tibet
+1592 = {#
+	farmers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 76142
+	}
+}
+1591 = {#
+	farmers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 78612
+	}
+}
+1589 = {#
+	farmers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 93145
+	}
+}
+1588 = {#
+	farmers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 97524
+	}
+}
+1587 = {#
+	farmers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 105841
+	}
+}
+1590 = {#
+	farmers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 21834 
+	}
+}
+#East Turkistan (3,270,420 pops)
+1594 = {#
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 421782
+	}
+}
+1598 = {#
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 349376
+	}
+}
+2607 = {#
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 348641
+	}
+}
+1600 = {#
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 542513
+	}
+}
+1597 = {#
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 245312
+	}
+}
+1595 = {#
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 520471
+	}
+}
+1599 = {#
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 345312
+	}
+}
+1596 = {#
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 496743
+	}
+}

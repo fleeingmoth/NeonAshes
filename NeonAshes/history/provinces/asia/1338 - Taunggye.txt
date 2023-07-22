@@ -1,2 +1,5 @@
+owner = SHN
+controller = SHN
+add_core = SHN
 trade_goods = timber
 life_rating = 35

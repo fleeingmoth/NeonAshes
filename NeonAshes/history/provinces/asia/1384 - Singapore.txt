@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = SGP
+controller = SGP
+add_core = SGP
+trade_goods = credit_money
 life_rating = 35

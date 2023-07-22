@@ -1,2 +1,6 @@
+owner = KYT
+controller = KYT
+add_core = KYT
+add_core = JAP
 trade_goods = timber
 life_rating = 35

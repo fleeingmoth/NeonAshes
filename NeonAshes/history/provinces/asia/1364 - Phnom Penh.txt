@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = CMB
+controller = CMB
+add_core = CMB
+trade_goods = fibre_crops
 life_rating = 35

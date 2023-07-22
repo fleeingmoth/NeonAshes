@@ -1,2 +1,5 @@
+owner = VIT
+controller = VIT
+add_core = VIT
 trade_goods = timber
 life_rating = 35

@@ -1,2 +1,5 @@
+owner = TTP
+controller = TTP
+add_core = TTP
 trade_goods = timber
 life_rating = 35

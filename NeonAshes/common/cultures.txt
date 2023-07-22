@@ -1396,6 +1396,20 @@ iranian_turanian = {
 			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
 		}
 	}
+	karakalpak = {
+		color = {116 175 171}
+		first_names = {
+			Ablai "Abu al-Khayr" Aryn Bukei Chokan 
+			Dulat Ibirai Isatai Ishim Jangir Kenisary 
+			Mashur Murat "Nur Ali" Qayip 
+			Sadyk Sirim Sarzhan 
+			Tenek Tolshan Vali
+		}
+		last_names = {
+			Beg  Khan "Konanbai uli" "Kutebar uli" "Muhammad uli" "Qasim uli" 
+		}
+	}
+
 }
 pashtun_group = {
 	leader = arab
@@ -1916,43 +1930,32 @@ southeast_asian = {
                
 		}
 	}
+	singaporean = {
+		color = {193 92 81}
+		first_names = { Shahabuddin Riayat Abdullah Jaafar Safiuddin Muhammad Ali Al-Mukammal Ismail Muabidin Tuanku Yusuf Idris Jalil Isandar Aziz
+			
+		}
+		
+		last_names = { "Raja Inu" al-Marhum "Raja Ahmad" "Riayat Shah" al-Khairat Muadzam Bendahara Aadzam Murshidul
+               
+		}
+	}
+	mon = {
+		color = {96 223 255}
+		first_names = { Hswe Hsö Naw Hkam Hkun Hseng Hpa Pyi Nga Hmu Natsu Pe Than Shwe Hpo Lun Sun
+			
+		}
+		
+		last_names = { Cheng Kaw Möng Hkawt Pak Nan Lek Leng Hmu Letya Hung Thi Hpu Ya Min
+               
+		}
+	}
+
 }
 
 east_asian = {
 	leader = asian
 	unit = ChineseGC
-	japanese = {
-		color = {230 230 230}
-		first_names = {
-		Aritomo
-		Goro Gentaro Gonnohyoe
-		Heihachiro Hiroshi Hikonojo Hyoe Hayao
-		Iwao
-		Jiro Jinzaburo
-		Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
-		Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
-		Nariaki Nobuyoshi
-		Rokuro
-		Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
-		Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
-		Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
-		}
-		last_names = {
-		Arisugawa Arichi Akiyama Araki
-		Dewa
-		Enomoto
-		Hasegawa Honjo
-		Ito Inoue Ichinohe Itagaki
-		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
-		Makino Muto Minami Masaki Matsudaira
-		Nakamuta Nogi Nire Nozu
-		Okubo Oyama Omura Oku Okada Osumi
-		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
-		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
-		Uehara Uryu Ugaki Ueda
-		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
-		}
-	}
 	manchu = {
 		color = {245 255 160}
 		first_names = { Ma Deng zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
@@ -2031,6 +2034,44 @@ east_asian = {
 		}
 	}
 }
+japanese_group = {
+	leader = asian
+	unit = ChineseGC
+	japanese = {
+		color = {230 230 230}
+		first_names = {
+		Aritomo
+		Goro Gentaro Gonnohyoe
+		Heihachiro Hiroshi Hikonojo Hyoe Hayao
+		Iwao
+		Jiro Jinzaburo
+		Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+		Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+		Nariaki Nobuyoshi
+		Rokuro
+		Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+		Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+		Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+		last_names = {
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+		}
+	}
+	union = JAP
+}
+
 
 oceanic = {
 	leader = nativeamerican

@@ -261,6 +261,21 @@ TRK = "countries/Turkmenistan.txt"
 KYR = "countries/Kyrgystan.txt"
 KAP = "countries/Karakalpakstan.txt"
 TJI = "countries/Tajikistan.txt"
+ETK = "countries/East Turkestan.txt"
+TIB = "countries/Tibet.txt"
+
+#East Asia
+NKR = "countries/North Korea.txt"
+SKR = "countries/South Korea.txt"
+
+JAP = "countries/Japan.txt"
+USJ = "countries/Kyushu Governate.txt"
+CFR = "countries/Council Federation Republics.txt"
+KYT = "countries/Kyoto.txt"
+TKY = "countries/Tokyo.txt"
+
+TTP = "countries/American Pacific.txt"
+
 
 #West Africa
 
@@ -429,6 +444,19 @@ SRL = "countries/Sri Lanka.txt"
 
 BHU = "countries/Bhutan.txt"
 NEP = "countries/Nepal.txt"
+
+#Indochina
+BRM = "countries/Burma.txt"
+MON = "countries/Mon.txt"
+KRN = "countries/Karen.txt"
+SHN = "countries/Shan.txt"
+THI = "countries/Thailand.txt"
+LAO = "countries/Laos.txt"
+VIT = "countries/Vietnam.txt"
+CMB = "countries/Cambodia.txt"
+MLY = "countries/Malaysia.txt"
+SGP = "countries/Singapore.txt"
+
 
 ## HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

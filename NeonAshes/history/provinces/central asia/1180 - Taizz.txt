@@ -1,5 +1,5 @@
 owner = YEM
 controller = YEM
 add_core = YEM
-trade_goods = timber
+trade_goods = fibre_crops
 life_rating = 35

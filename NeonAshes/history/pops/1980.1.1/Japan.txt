@@ -1,0 +1,302 @@
+# Japan
+1088 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 0
+	}
+}
+1089 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 0
+	}
+}
+1642 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 312348
+	}
+}
+1643 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 398701
+	}
+}
+1644 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 484338
+	}
+}
+1672 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 311149
+	}
+}
+1671 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 254870
+	}
+}
+1670 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 298096
+	}
+}
+1673 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 263961
+	}
+}
+1668 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 489035
+	}
+}
+1669 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 448054
+	}
+}
+1645 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 559881
+	}
+}
+1653 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 620661
+	}
+}
+1674 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 837465
+	}
+}
+1650 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 1217534
+	}
+}
+1649 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 2472456
+	}
+}
+1652 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 1419455
+	}
+}
+1651 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 1731639
+	}
+}
+1676 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 970133
+	}
+}
+1648 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 235856
+	}
+}
+1646 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 247814
+	}
+}
+1647 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 173669
+	}
+}
+1677 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 460736
+	}
+}
+1675 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 2107632
+	}
+}
+1658 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 687166
+	}
+}
+1656 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 226891
+	}
+}
+1655 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 1847426
+	}
+}
+1657 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 822485
+	}
+}
+1659 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 1134394
+	}
+}
+1641 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 291137
+	}
+}
+1639 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 409657
+	}
+}
+1638 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 605167
+	}
+}
+1640 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 326664
+	}
+}
+1667 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 388733
+	}
+}
+1666 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 316407
+	}
+}
+1665 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 171507
+	}
+}
+1660 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 1036012
+	}
+}
+1661 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 510142
+	}
+}
+1664 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 649130
+	}
+}
+1663 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 246921
+	}
+}
+1662 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 376787
+	}
+}
+1679 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 112748
+	}
+}
+1678 = {#
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 154674
+	}
+}

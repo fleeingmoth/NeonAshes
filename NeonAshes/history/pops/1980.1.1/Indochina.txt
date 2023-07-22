@@ -1,0 +1,467 @@
+## Indochina
+#burma
+1345 = {#
+	farmers = {
+		culture = burmese
+		religion = animist
+		size = 511389
+	}
+}
+1337 = {#
+	farmers = {
+		culture = burmese
+		religion = animist
+		size = 348361
+	}
+}
+1335 = {#
+	farmers = {
+		culture = burmese
+		religion = animist
+		size = 214853
+	}
+}
+1336 = {#
+	farmers = {
+		culture = burmese
+		religion = animist
+		size = 247577
+	}
+}
+1339 = {#
+	farmers = {
+		culture = burmese
+		religion = animist
+		size = 1057780
+	}
+}
+1334 = {#
+	farmers = {
+		culture = burmese
+		religion = animist
+		size = 1144440
+	}
+}
+1342 = {#
+	farmers = {
+		culture = burmese
+		religion = animist
+		size = 124843
+	}
+}
+1341 = {#
+	farmers = {
+		culture = burmese
+		religion = animist
+		size = 101355
+	}
+}
+
+1331 = {#
+	farmers = {
+		culture = mon
+		religion = animist
+		size = 1248515
+	}
+}
+1330 = {#
+	farmers = {
+		culture = mon
+		religion = animist
+		size = 993406
+	}
+}
+1332 = {#
+	farmers = {
+		culture = mon
+		religion = animist
+		size = 949947
+	}
+}
+1343 = {#
+	farmers = {
+		culture = mon
+		religion = animist
+		size = 683879
+	}
+}
+1344 = {#
+	farmers = {
+		culture = mon
+		religion = animist
+		size = 229311
+	}
+}
+
+1333 = {#
+	farmers = {
+		culture = karen
+		religion = animist
+		size = 42107
+	}
+}
+
+1340 = {#
+	farmers = {
+		culture = shan
+		religion = animist
+		size = 516312
+	}
+}
+1338 = {#
+	farmers = {
+		culture = shan
+		religion = animist
+		size = 412898
+	}
+}
+#thailand
+1355 = {#
+	farmers = {
+		culture = shan
+		religion = animist
+		size = 687614
+	}
+}
+2572 = {#
+	farmers = {
+		culture = shan
+		religion = animist
+		size = 786142
+	}
+}
+
+1348 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 761536
+	}
+}
+1349 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 735587
+	}
+}
+1358 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 3150532
+	}
+}
+1359 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 1203482
+	}
+}
+1350 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 978013
+	}
+}
+1365 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 514531
+	}
+}
+1351 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 568931
+	}
+}
+1346 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 2446284
+	}
+}
+1347 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 735614
+	}
+}
+1353 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 907030
+	}
+}
+1354 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 731234
+	}
+}
+1352 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 703438
+	}
+}
+1392 = {#
+	farmers = {
+		culture = thai
+		religion = animist
+		size = 694543
+	}
+}
+
+1367 = {#
+	farmers = {
+		culture = khmer
+		religion = animist
+		size = 204050
+	}
+}
+1364 = {#
+	farmers = {
+		culture = khmer
+		religion = animist
+		size = 1529592
+	}
+}
+1366 = {#
+	farmers = {
+		culture = khmer
+		religion = animist
+		size = 569377
+	}
+}
+1368 = {#
+	farmers = {
+		culture = khmer
+		religion = animist
+		size = 98888
+	}
+}
+
+1356 = {#
+	farmers = {
+		culture = lao
+		religion = animist
+		size = 228130
+	}
+}
+1360 = {#
+	farmers = {
+		culture = lao
+		religion = animist
+		size = 69633
+	}
+}
+1357 = {#
+	farmers = {
+		culture = lao
+		religion = animist
+		size = 200818
+	}
+}
+1361 = {#
+	farmers = {
+		culture = lao
+		religion = animist
+		size = 219843
+	}
+}
+1362 = {#
+	farmers = {
+		culture = lao
+		religion = animist
+		size = 77013
+	}
+}
+1363 = {#
+	farmers = {
+		culture = lao
+		religion = animist
+		size = 100760
+	}
+}
+
+1373 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 904526
+	}
+}
+1371 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 353806
+	}
+}
+1372 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 548629
+	}
+}
+1369 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 2365160
+	}
+}
+1370 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 1576765
+	}
+}
+1374 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 1265211
+	}
+}
+1376 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 412769
+	}
+}
+1375 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 323559
+	}
+}
+1377 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 411706
+	}
+}
+1379 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 893909
+	}
+}
+1378 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 533833
+	}
+}
+1381 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 862586
+	}
+}
+1380 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 1564184
+	}
+}
+1382 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 1697274
+	}
+}
+1383 = {#
+	farmers = {
+		culture = vietnamese
+		religion = animist
+		size = 1379287
+	}
+}
+
+1385 = {#
+	farmers = {
+		culture = malay
+		religion = animist
+		size = 627803
+	}
+}
+1390 = {#
+	farmers = {
+		culture = malay
+		religion = animist
+		size = 262642
+	}
+}
+1386 = {#
+	farmers = {
+		culture = malay
+		religion = animist
+		size = 143694
+	}
+}
+1387 = {#
+	farmers = {
+		culture = malay
+		religion = animist
+		size = 1427619
+	}
+}
+2575 = {#
+	farmers = {
+		culture = malay
+		religion = animist
+		size = 411730
+	}
+}
+1391 = {#
+	farmers = {
+		culture = malay
+		religion = animist
+		size = 450726
+	}
+}
+1388 = {#
+	farmers = {
+		culture = malay
+		religion = animist
+		size = 273242
+	}
+}
+1389 = {#
+	farmers = {
+		culture = malay
+		religion = animist
+		size = 381358
+	}
+}
+1384 = {#
+	farmers = {
+		culture = singaporean
+		religion = animist
+		size = 843723
+	}
+}
+

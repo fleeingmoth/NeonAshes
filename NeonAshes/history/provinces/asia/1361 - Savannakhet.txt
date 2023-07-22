@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = LAO
+controller = LAO
+add_core = LAO
+trade_goods = fibre_crops
 life_rating = 35

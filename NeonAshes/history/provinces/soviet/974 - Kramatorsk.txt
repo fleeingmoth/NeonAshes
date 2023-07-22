@@ -2,5 +2,5 @@ owner = EUK
 controller = EUK
 add_core = EUK
 add_core = UKR
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

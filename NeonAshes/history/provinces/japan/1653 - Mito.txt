@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = TKY
+controller = TKY
+add_core = TKY
+add_core = JAP
+trade_goods = copper
 life_rating = 35

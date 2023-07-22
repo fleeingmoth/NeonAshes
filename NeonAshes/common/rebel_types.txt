@@ -1273,6 +1273,11 @@ pan_nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
+			culture = japanese
+			NOT={has_global_flag = japanese_pan_nationalism}
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				culture = ethiopian
 				culture = eritrean

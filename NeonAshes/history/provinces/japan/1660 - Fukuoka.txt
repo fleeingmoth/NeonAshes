@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = USJ
+controller = USJ
+add_core = USJ
+add_core = JAP
+trade_goods = coal
 life_rating = 35

@@ -1,0 +1,135 @@
+# S. Korea
+1635 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 1516856
+	}
+}
+1632 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 1411255
+	}
+}
+1633 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 904728
+	}
+}
+1634 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 543131
+	}
+}
+1631 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 378312
+	}
+}
+1630 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 294513
+	}
+}
+1624 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 514537
+	}
+}
+1628 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 518181
+	}
+}
+1636 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 1095074
+	}
+}
+1637 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 115735
+	}
+}
+#N. Korea (4,309,693)
+1626 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 422300
+	}
+}
+1627 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 387763
+	}
+}
+1625 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 112045
+	}
+}
+1629 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 161896
+	}
+}
+1619 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 1331151
+	}
+}
+1620 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 897543
+	}
+}
+1621 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 573768
+	}
+}
+1623 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 134079
+	}
+}
+1622 = {#
+	farmers = {
+		culture = korean
+		religion = animist
+		size = 432752
+	}
+}

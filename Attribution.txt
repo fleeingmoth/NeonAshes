@@ -558,7 +558,35 @@ Decisions Images
     "Joan of Arc WWI lithograph2.jpg" by the US Library of Congress. Public domain. https://commons.wikimedia.org/wiki/File:Joan_of_Arc_WWI_lithograph2.jpg
    Ultranationalist
     ""Buy War Bonds" (Uncle Sam) - NARA - 514010.jpg" by the Office for Emergency Management. Office of War Information. Domestic Operations Branch. Bureau of Special Services. (03/09/1943 - 09/15/1945). U.S. National Archives and Records Administration. Public domain. https://commons.wikimedia.org/wiki/File:%22Buy_War_Bonds%22_(Uncle_Sam)_-_NARA_-_514010.jpg
-   
+
+  Elections
+   "MASA NVRD.jpg" by Shepard Fairey. Public domain. https://commons.wikimedia.org/wiki/File:MASA_NVRD.jpg
+
+  Government Types
+   Defensive Democracy
+    "Government-Vedder-Highsmith.jpeg" by Elihu Vedder. Photographed by Carol Highsmith. Public domain. https://commons.wikimedia.org/wiki/File:Government-Vedder-Highsmith.jpeg
+   Socialist Democracy
+    "G Ramakrishnan Speech II Venmani 2019.jpg" by Balogic. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:G_Ramakrishnan_Speech_II_Venmani_2019.jpg
+   Socialist Dictatorship
+    "Горшков, Кутахов, Куликов, Огарков.jpg" by the Ministry of Defense of the Russian Federation (Mil.ru). CC BY-4.0. https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D1%80%D1%88%D0%BA%D0%BE%D0%B2,_%D0%9A%D1%83%D1%82%D0%B0%D1%85%D0%BE%D0%B2,_%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2,_%D0%9E%D0%B3%D0%B0%D1%80%D0%BA%D0%BE%D0%B2.jpg
+   Communist State
+    "RIAN archive 851899 Pioneers and schoolchildren greet delegates and guests of XVII convention of trade unions of the USSR.jpg" by Yuryi Abramochkin / Юрий Абрамочкин. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:RIAN_archive_851899_Pioneers_and_schoolchildren_greet_delegates_and_guests_of_XVII_convention_of_trade_unions_of_the_USSR.jpg
+   Democracy
+    "2009 Elections, Indonesia (10657564924).jpg" by Josh Estey/AusAID. CC BY-2.0. https://commons.wikimedia.org/wiki/File:2009_Elections,_Indonesia_(10657564924).jpg
+   Minarchist State
+    "Board Meeting Dec. 17.jpg" by the Stafford County, VA. CC 1.0. Universal Public Domain Dedication. https://commons.wikimedia.org/wiki/File:Board_Meeting_Dec._17.jpg
+   Ecological State
+    "Green Party of Canada leadership convention, 2006.jpg" by Grant Neufeld. Multi-license with GFDL and Creative commons CC-BY 2.5. https://commons.wikimedia.org/wiki/File:Green_Party_of_Canada_leadership_convention,_2006.jpg
+   Limited Democracy
+    "PRESIDENT BUSH HOMELAND SECURITY SPEECH DVIDS1071929.jpg" by Telfair Brown. Public domain. https://commons.wikimedia.org/wiki/File:PRESIDENT_BUSH_HOMELAND_SECURITY_SPEECH_DVIDS1071929.jpg
+   Authoritarian Democracy
+    "MINISTRO VALAKIVI PRESIDIÓ CEREMONIA DONDE SE RESALTÓ HEROICIDAD DE COMBATIENTES EN BATALLA DE MIRAFLORES (24374791866).jpg" by the Oficina de Prensa Ministerio de Defensa (Press Office of the Ministry of Defense). CC BY-2.0. https://commons.wikimedia.org/wiki/File:MINISTRO_VALAKIVI_PRESIDI%C3%93_CEREMONIA_DONDE_SE_RESALT%C3%93_HEROICIDAD_DE_COMBATIENTES_EN_BATALLA_DE_MIRAFLORES_(24374791866).jpg
+   Nationalist Dictatorship
+    "Junta Militar argentina 1976.png" by the Argentine government. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Junta_Militar_argentina_1976.png
+   Theocratic Dictatorship
+    "Ali Khamenei Praying for Ayatollah Hashemi Shahroudi07.jpg", unknown author (https://khamenei.ir/). CC BY-4.0. International. https://commons.wikimedia.org/wiki/File:Ali_Khamenei_Praying_for_Ayatollah_Hashemi_Shahroudi07.jpg
+   Ultranationalist Dictatorship
+    "SPANISH CIVIL WAR – Part Seven (37263829886).jpg" by Cassowary Colorizations. CC BY-2.0. https://commons.wikimedia.org/wiki/File:SPANISH_CIVIL_WAR_%E2%80%93_Part_Seven_(37263829886).jpg
 
 ###################
 # Events Pictures #
@@ -773,6 +801,7 @@ Events Images
  Politics
   Intelligence and Security Apparatus
    "National Security Agency headquarters, Fort Meade, Maryland.jpg", by the National Security Agency. Public domain. https://commons.wikimedia.org/wiki/File:National_Security_Agency_headquarters,_Fort_Meade,_Maryland.jpg
+
   Ideologies
    Social Democracy
     "1981 election poster PvdA.jpg" by Frans van der Linde, Partij van de Arbeid. CC BY-2.0. https://commons.wikimedia.org/wiki/File:1981_election_poster_PvdA.jpg
@@ -811,5 +840,34 @@ Events Images
     "Rodrigo Duterte meets with Salman of Saudi Arabia 2 (2017-04-11).jpg" by Robinson Niñal, Philippine Presidential Communications Operations Office. Public domain. https://commons.wikimedia.org/wiki/File:Rodrigo_Duterte_meets_with_Salman_of_Saudi_Arabia_2_(2017-04-11).jpg
    Coalition + Ideology
     "Tallinn Digital Summit. Welcome dinner hosted by HE Donald Tusk. Handshake (37348248012).jpg" by Arno Mikkor (EU2017EE), Estonian Presidency. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Tallinn_Digital_Summit._Welcome_dinner_hosted_by_HE_Donald_Tusk._Handshake_(37348248012).jpg
+
+  Elections
+   "MASA NVRD.jpg" by Shepard Fairey. Public domain. https://commons.wikimedia.org/wiki/File:MASA_NVRD.jpg
+
+  Government Types
+   Defensive Democracy
+    "Government-Vedder-Highsmith.jpeg" by Elihu Vedder. Photographed by Carol Highsmith. Public domain. https://commons.wikimedia.org/wiki/File:Government-Vedder-Highsmith.jpeg
+   Socialist Democracy
+    "G Ramakrishnan Speech II Venmani 2019.jpg" by Balogic. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:G_Ramakrishnan_Speech_II_Venmani_2019.jpg
+   Socialist Dictatorship
+    "Горшков, Кутахов, Куликов, Огарков.jpg" by the Ministry of Defense of the Russian Federation (Mil.ru). CC BY-4.0. https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D1%80%D1%88%D0%BA%D0%BE%D0%B2,_%D0%9A%D1%83%D1%82%D0%B0%D1%85%D0%BE%D0%B2,_%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2,_%D0%9E%D0%B3%D0%B0%D1%80%D0%BA%D0%BE%D0%B2.jpg
+   Communist State
+    "RIAN archive 851899 Pioneers and schoolchildren greet delegates and guests of XVII convention of trade unions of the USSR.jpg" by Yuryi Abramochkin / Юрий Абрамочкин. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:RIAN_archive_851899_Pioneers_and_schoolchildren_greet_delegates_and_guests_of_XVII_convention_of_trade_unions_of_the_USSR.jpg
+   Democracy
+    "2009 Elections, Indonesia (10657564924).jpg" by Josh Estey/AusAID. CC BY-2.0. https://commons.wikimedia.org/wiki/File:2009_Elections,_Indonesia_(10657564924).jpg
+   Minarchist State
+    "Board Meeting Dec. 17.jpg" by the Stafford County, VA. CC 1.0. Universal Public Domain Dedication. https://commons.wikimedia.org/wiki/File:Board_Meeting_Dec._17.jpg
+   Ecological State
+    "Green Party of Canada leadership convention, 2006.jpg" by Grant Neufeld. Multi-license with GFDL and Creative commons CC-BY 2.5. https://commons.wikimedia.org/wiki/File:Green_Party_of_Canada_leadership_convention,_2006.jpg
+   Limited Democracy
+    "PRESIDENT BUSH HOMELAND SECURITY SPEECH DVIDS1071929.jpg" by Telfair Brown. Public domain. https://commons.wikimedia.org/wiki/File:PRESIDENT_BUSH_HOMELAND_SECURITY_SPEECH_DVIDS1071929.jpg
+   Authoritarian Democracy
+    "MINISTRO VALAKIVI PRESIDIÓ CEREMONIA DONDE SE RESALTÓ HEROICIDAD DE COMBATIENTES EN BATALLA DE MIRAFLORES (24374791866).jpg" by the Oficina de Prensa Ministerio de Defensa (Press Office of the Ministry of Defense). CC BY-2.0. https://commons.wikimedia.org/wiki/File:MINISTRO_VALAKIVI_PRESIDI%C3%93_CEREMONIA_DONDE_SE_RESALT%C3%93_HEROICIDAD_DE_COMBATIENTES_EN_BATALLA_DE_MIRAFLORES_(24374791866).jpg
+   Nationalist Dictatorship
+    "Junta Militar argentina 1976.png" by the Argentine government. CC BY-2.0. https://commons.wikimedia.org/wiki/File:Junta_Militar_argentina_1976.png
+   Theocratic Dictatorship
+    "Ali Khamenei Praying for Ayatollah Hashemi Shahroudi07.jpg", unknown author (https://khamenei.ir/). CC BY-4.0. International. https://commons.wikimedia.org/wiki/File:Ali_Khamenei_Praying_for_Ayatollah_Hashemi_Shahroudi07.jpg
+   Ultranationalist Dictatorship
+    "SPANISH CIVIL WAR – Part Seven (37263829886).jpg" by Cassowary Colorizations. CC BY-2.0. https://commons.wikimedia.org/wiki/File:SPANISH_CIVIL_WAR_%E2%80%93_Part_Seven_(37263829886).jpg
 
 [END OF FILE]

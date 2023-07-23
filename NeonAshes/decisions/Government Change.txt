@@ -1,0 +1,367 @@
+political_decisions = {
+	democracy_to_defensive_democracy = {			# Establish a Defensive Democracy
+		news = yes
+		news_desc_long = "democracy_to_defensive_democracy_NEWS_LONG"
+		news_desc_medium = "democracy_to_defensive_democracy_NEWS_MEDIUM"
+		news_desc_short = "democracy_to_defensive_democracy_NEWS_SHORT"
+		picture = govt_defensive_democracy_smallpic
+		potential = {
+			government = democracy			# We are a liberal democracy
+			OR = {					# We have a centrist ideology
+				ruling_party_ideology = social_democrat
+				ruling_party_ideology = liberal
+				ruling_party_ideology = conservative
+			}
+		}
+		allow = {
+			OR = {
+				OR = {				# Commies and Ultranats are about to take power, or...
+					communist = 40
+					ultranationalist = 40
+				}
+				AND = {				# Commies and Ultranats are rising in the polls and scary, or...
+					OR = {
+						communist = 20
+						ultranationalist = 20
+					}
+					average_militancy = 3
+				}
+				AND = {				# Commies and Ultranats are popular and there's protests, or...
+					OR = {
+						communist = 10
+						ultranationalist = 10
+					}
+					average_militancy = 5
+				}
+				AND = {				# Commies and Ultranats exist, and there's potential revolts.
+					OR = {
+						communist = 5
+						ultranationalist = 5
+					}
+					average_militancy = 7
+				}
+			}
+		}
+		effect = {
+			government = defensive_democracy	# Switch to Defensive Democracy
+			prestige = -1				# Bit of instability
+			plurality = -5				# Reduces the spectrum of ideas
+			consciousness = 2			# Some are getting worried
+			any_pop = {				# Commies are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = communist
+				}
+			}
+			any_pop = {				# Ultras are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = ultranationalist
+				}
+			}
+			any_pop = {				# Libertarians are getting upset
+				scaled_militancy = {
+					factor = 0.2
+					ideology = anarcho_liberal
+				}
+			}
+		}
+		ai_will_do = { factor = 0.05 } # Will do it after a delay
+	}
+	democracy_to_limited_democracy = {			# Establish a Limited Democracy
+		news = yes
+		news_desc_long = "democracy_to_limited_democracy_NEWS_LONG"
+		news_desc_medium = "democracy_to_limited_democracy_NEWS_MEDIUM"
+		news_desc_short = "democracy_to_limited_democracy_NEWS_SHORT"
+		picture = govt_limited_democracy_smallpic
+		potential = {
+			government = democracy			# We are a liberal democracy
+			OR = {					# We have a centrist ideology
+				ruling_party_ideology = social_democrat
+				ruling_party_ideology = liberal
+				ruling_party_ideology = conservative
+			}
+		}
+		allow = {
+			OR = {
+				num_of_revolts = 1		# Rebels control some land
+				war = yes			# We are at war
+				average_militancy = 7		# Potential revolts
+			}
+		}
+		effect = {
+			government = limited_democracy		# Switch to Limited Democracy
+			prestige = -2				# Bit of instability
+			plurality = -10				# Reduces the spectrum of ideas
+			consciousness = 3			# Some are getting really worried
+			any_pop = {				# Commies are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = communist
+				}
+			}
+			any_pop = {				# Socialists are getting concerned
+				scaled_militancy = {
+					factor = 0.2
+					ideology = socialist
+				}
+			}
+			any_pop = {				# Libertarians do not approve this tyranny
+				scaled_militancy = {
+					factor = 0.4
+					ideology = anarcho_liberal
+				}
+			}
+			any_pop = {				# Greens are getting concerned
+				scaled_militancy = {
+					factor = 0.2
+					ideology = green
+				}
+			}
+			any_pop = {				# Nationalists are getting concerned
+				scaled_militancy = {
+					factor = 0.2
+					ideology = nationalist
+				}
+			}
+			any_pop = {				# Trads are getting concerned
+				scaled_militancy = {
+					factor = 0.2
+					ideology = traditionalist
+				}
+			}
+			any_pop = {				# Ultras are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = ultranationalist
+				}
+			}
+		}
+		ai_will_do = { factor = 0.05 } # Will do it after a delay
+	}
+	democracy_to_socialist_democracy = {			# Establish a Socialist Democracy
+		news = yes
+		news_desc_long = "democracy_to_socialist_democracy_NEWS_LONG"
+		news_desc_medium = "democracy_to_socialist_democracy_NEWS_MEDIUM"
+		news_desc_short = "democracy_to_socialist_democracy_NEWS_SHORT"
+		picture = govt_socialist_democracy_smallpic
+		potential = {
+			government = democracy			# We are a liberal democracy
+			OR = {					# We have a left-wing ideology
+				ruling_party_ideology = social_democrat
+				ruling_party_ideology = socialist
+				ruling_party_ideology = communist
+			}
+		}
+		allow = {
+			OR = {
+				OR = {				# Reactionaries are about to take power, or...
+					anarcho_liberal = 40
+					nationalist = 40
+					traditionalist = 40
+					ultranationalist = 40
+				}
+				AND = {				# Reactionaries are rising in the polls and scary, or...
+					OR = {
+						anarcho_liberal = 20
+						nationalist = 20
+						traditionalist = 20
+						ultranationalist = 20
+					}
+					average_militancy = 3
+				}
+				AND = {				# Reactionaries are popular and there's protests, or...
+					OR = {
+						anarcho_liberal = 10
+						nationalist = 10
+						traditionalist = 10
+						ultranationalist = 10
+					}
+					average_militancy = 5
+				}
+				AND = {				# Reactionaries exist, and there's potential revolts.
+					OR = {
+						anarcho_liberal = 5
+						nationalist = 5
+						traditionalist = 5
+						ultranationalist = 5
+					}
+					average_militancy = 7
+				}
+			}
+		}
+		effect = {
+			government = socialist_democracy	# Switch to Socialist Democracy
+			prestige = -2				# Bit of instability
+			plurality = -10				# Reduces the spectrum of ideas
+			consciousness = 3			# Some are getting really worried
+			any_pop = {				# Liberals are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = liberal
+				}
+			}
+			any_pop = {				# Libertarians do not approve this tyranny
+				scaled_militancy = {
+					factor = 0.4
+					ideology = anarcho_liberal
+				}
+			}
+			any_pop = {				# Conservatives are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = conservative
+				}
+			}
+			any_pop = {				# Nationalists are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = nationalist
+				}
+			}
+			any_pop = {				# Trads are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = traditionalist
+				}
+			}
+			any_pop = {				# Ultras are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = ultranationalist
+				}
+			}
+		}
+		ai_will_do = { factor = 0.05 } # Will do it after a delay
+	}
+	democracy_to_auth_democracy = {			# Establish an Authoritarian Democracy
+		news = yes
+		news_desc_long = "democracy_to_auth_democracy_NEWS_LONG"
+		news_desc_medium = "democracy_to_auth_democracy_NEWS_MEDIUM"
+		news_desc_short = "democracy_to_auth_democracy_NEWS_SHORT"
+		picture = govt_auth_democracy_smallpic
+		potential = {
+			government = democracy			# We are a liberal democracy
+			OR = {					# We have a right-wing ideology
+				ruling_party_ideology = conservative
+				ruling_party_ideology = nationalist
+				ruling_party_ideology = traditionalist
+				ruling_party_ideology = ultranationalist
+			}
+		}
+		allow = {
+			OR = {
+				OR = {				# Lefties are about to take power, or...
+					anarcho_liberal = 40
+					socialist = 40
+					communist = 40
+					green = 40
+				}
+				AND = {				# Lefties are rising in the polls and scary, or...
+					OR = {
+						anarcho_liberal = 20
+						socialist = 20
+						communist = 20
+						green = 20	
+					}
+					average_militancy = 3
+				}
+				AND = {				# Lefties are popular and there's protests, or...
+					OR = {
+						anarcho_liberal = 20
+						socialist = 10
+						communist = 10
+						green = 10
+					}
+					average_militancy = 5
+				}
+				AND = {				# Lefties exist, and there's potential revolts.
+					OR = {
+						anarcho_liberal = 5
+						socialist = 5
+						communist = 5
+						green = 5
+					}
+					average_militancy = 7
+				}
+			}
+		}
+		effect = {
+			government = auth_democracy		# Switch to Authoritarian Democracy
+			prestige = -2				# Bit of instability
+			plurality = -10				# Reduces the spectrum of ideas
+			consciousness = 3			# Some are getting really worried
+			any_pop = {				# Libertarians do not approve this tyranny
+				scaled_militancy = {
+					factor = 0.4
+					ideology = anarcho_liberal
+				}
+			}
+			any_pop = {				# Socialists are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = socialist
+				}
+			}
+			any_pop = {				# Communists are getting radicalized
+				scaled_militancy = {
+					factor = 0.3
+					ideology = communist
+				}
+			}
+			any_pop = {				# Greens are getting concerned
+				scaled_militancy = {
+					factor = 0.2
+					ideology = green
+				}
+			}
+		}
+		ai_will_do = { factor = 0.05 } # Will do it after a delay
+	}
+	defensive_democracy_to_democracy = {			# Establish a Liberal Democracy
+		news = yes
+		news_desc_long = "defensive_democracy_to_democracy_NEWS_LONG"
+		news_desc_medium = "defensive_democracy_to_democracy_NEWS_MEDIUM"
+		news_desc_short = "defensive_democracy_to_democracy_NEWS_SHORT"
+		picture = govt_democracy_smallpic
+		potential = {
+			government = defensive_democracy	# We are a defensive democracy
+			OR = {					# We have a liberal ideology
+				ruling_party_ideology = liberal
+				ruling_party_ideology = anarcho_liberal
+			}
+		}
+		allow = {
+			war = no				# At peace
+			NOT = { num_of_revolts = 1 }		# No rebel control of land
+			NOT = { communist = 5 }			# Low communist presence
+			NOT = { ultranationalist = 5 }		# Low ultranat presence
+		}
+		effect = {
+			government = democracy			# Switch to Liberal Democracy
+			prestige = -1				# Bit of instability
+			plurality = 5				# Increases the spectrum of ideas
+			militancy = -1				# Ballots not bullets
+			consciousness = -1			# Eases down some fears
+			any_pop = {				# Commies are getting de-radicalized
+				scaled_militancy = {
+					factor = -0.3
+					ideology = communist
+				}
+			}
+			any_pop = {				# Ultras are getting de-radicalized
+				scaled_militancy = {
+					factor = -0.3
+					ideology = ultranationalist
+				}
+			}
+			any_pop = {				# Libertarians are chilling
+				scaled_militancy = {
+					factor = -0.2
+					ideology = anarcho_liberal
+				}
+			}
+		}
+		ai_will_do = { factor = 0.05 } # Will do it after a delay
+	}
+}

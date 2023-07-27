@@ -1,0 +1,692 @@
+# 
+1068 = {#
+	farmers = {
+		culture = altai
+		religion = orthodox
+		size = 43010
+	}
+}
+2698 = {#
+	farmers = {
+		culture = altai
+		religion = orthodox
+		size = 316142
+	}
+}
+1469 = {#
+	farmers = {
+		culture = tuvan
+		religion = orthodox
+		size = 68000
+	}
+}
+
+1063 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 250403
+	}
+}
+1067 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 616966
+	}
+}
+1075 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 187432
+	}
+}
+2676 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 139642
+	}
+}
+2677 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 185587
+	}
+}
+#899065
+1076 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 173961
+	}
+}
+2656 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 158741
+	}
+}
+2694 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 143747
+	}
+}
+2701 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 85662
+	}
+}
+2655 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 24012
+	}
+}
+2675 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 14781
+	}
+}
+2653 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 10354
+	}
+}
+2674 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 18731
+	}
+}
+2654 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 20186
+	}
+}
+2658 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 16431
+	}
+}
+2680 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 20486
+	}
+}
+2657 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 26456
+	}
+}
+2693 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 31205
+	}
+}
+2692 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 54561
+	}
+}
+1070 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 99751
+	}
+}
+2685 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 24298
+	}
+}
+2684 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 31237
+	}
+}
+2614 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 645
+	}
+}
+2682 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 28748
+	}
+}
+1065 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 12348
+	}
+}
+2681 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 12941
+	}
+}
+2615 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 1567
+	}
+}
+2613 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 978
+	}
+}
+2659 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 378
+	}
+}
+1070 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 1108
+	}
+}
+1077 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 667030
+	}
+}
+2691 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 119407
+	}
+}
+
+2646 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 99314
+	}
+}
+2683 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 354312
+	}
+}
+1064 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 341189
+	}
+}
+2686 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 453421
+	}
+}
+1066 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 316734
+	}
+}
+2690 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 97450
+	}
+}
+1062 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 94976
+	}
+}
+1061 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 1179192
+	}
+}
+
+1078 = {#
+	farmers = {
+		culture = buryatian
+		religion = orthodox
+		size = 260279
+	}
+}
+
+2650 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 9870
+	}
+}
+2651 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 3453
+	}
+}
+2673 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 245
+	}
+}
+2670 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 354
+	}
+}
+2671 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 1354
+	}
+}
+1069 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 11274
+	}
+}
+2644 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 10543
+	}
+}
+2696 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 13148
+	}
+}
+1080 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 33910
+	}
+}
+2669 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 122482
+	}
+}
+2648 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 11084
+	}
+}
+2672 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 10483
+	}
+}
+2649 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 3541
+	}
+}
+2652 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 347
+	}
+}
+2667 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 135
+	}
+}
+1071 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 648
+	}
+}
+2647 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 310
+	}
+}
+2668 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 745
+	}
+}
+2642 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 4521
+	}
+}
+2643 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 3451
+	}
+}
+2619 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 104
+	}
+}
+2665 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 97
+	}
+}
+2621 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 214
+	}
+}
+2640 = {#
+	farmers = {
+		culture = yakut
+		religion = orthodox
+		size = 1697
+	}
+}
+
+2637 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 13700 
+	}
+}
+2590 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 6431
+	}
+}
+2666 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 5872
+	}
+}
+2661 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 6045
+	}
+}
+2622 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 6452
+	}
+}
+
+1074 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 20745
+	}
+}
+2633 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 19421
+	}
+}
+2616 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 19978
+	}
+}
+2634 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 20458
+	}
+}
+2663 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 17278
+	}
+}
+
+1073 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 19752
+	}
+}
+2638 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 24521
+	}
+}
+2620 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 31571
+	}
+}
+2618 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 20438
+	}
+}
+2639 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 17720
+	}
+}
+
+1083 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 106949
+	}
+}
+1084 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 97521
+	}
+}
+2641 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 84325
+	}
+}
+1072 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 94351
+	}
+}
+1082 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 474262
+	}
+}
+
+2617 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 45346
+	}
+}
+1085 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 112014
+	}
+}
+2697 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 110120
+	}
+}
+
+1079 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 87341
+	}
+}
+1081 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 93132
+	}
+}
+2645 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 108901
+	}
+}
+2695 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 93453
+	}
+}
+
+1086 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 74531
+	}
+}
+1087 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 74491
+	}
+}

@@ -1,0 +1,60 @@
+# 30200 - 30299 - Soviet Events
+
+country_event = { # End of the USSR
+	id = 30200
+	title = "EVT_30200_NAME"
+	desc = "EVT_30200_DESC"
+
+	picture = "events_default"
+	trigger={
+		tag = SOV
+		month = 10
+		NOT={
+			year = 1981
+		}
+	}
+	option = {
+		name = "EVT_30200_OPTA" # declare Kazakhstan independance
+		country_event = 30201
+		all_core={
+			remove_core = SOV
+		}
+		change_tag = KAZ
+		government = auth_democracy
+		election = yes
+		ai_chance = {
+			factor = 79
+		}
+	}
+	option = {
+		name = "EVT_30200_OPTB" # Attempt to restore the union
+		set_country_flag = SOV_reformist
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "EVT_30200_OPTC" # Soviet Hardliners
+		set_country_flag = SOV_hardliner
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+country_event = { # Independance of Kazakhstan
+	id = 30201
+	title = "EVT_30201_NAME"
+	desc = "EVT_30201_DESC"
+	news = yes
+	news_desc_long = "EVTDESC30200_NEWS_LONG"
+	news_desc_medium = "EVTDESC30200_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC30200_NEWS_SHORT"
+	picture = "events_default"
+	is_triggered_only = yes
+	option = {
+		name = "EVT_30201_OPTA" # declare Kazakhstan independance
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

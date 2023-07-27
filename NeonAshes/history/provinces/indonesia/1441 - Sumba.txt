@@ -1,2 +1,6 @@
+owner = SUM
+controller = SUM
+add_core = SUM
+add_core = INO
 trade_goods = timber
 life_rating = 35

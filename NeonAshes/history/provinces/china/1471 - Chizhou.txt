@@ -1,2 +1,6 @@
+owner = NAN
+controller = NAN
+add_core = NAN
+add_core = CHI
 trade_goods = timber
 life_rating = 35

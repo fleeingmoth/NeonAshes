@@ -265,6 +265,35 @@ ETK = "countries/East Turkestan.txt"
 TIB = "countries/Tibet.txt"
 
 #East Asia
+ALT = "countries/Altai.txt"
+TUV = "countries/Tuva.txt"
+SIB = "countries/Siberian Republic.txt"
+YAM = "countries/Yamalia.txt"
+YUG = "countries/Yugra.txt"
+SAK = "countries/Sakha.txt"
+FER = "countries/Far Eastern Republic.txt"
+BRY = "countries/Buryatia.txt"
+
+MNG = "countries/Mongolia.txt"
+IMG = "countries/Inner Mongolia.txt"
+MCH = "countries/Manchuria.txt"
+BEJ = "countries/Beijing.txt"
+SHA = "countries/Shaanxi.txt"
+QGH = "countries/Qinghai.txt"
+SCU = "countries/Sichuan.txt"
+YUN = "countries/Yunnan.txt"
+HUB = "countries/Hubei.txt"
+HNN = "countries/Hunan.txt"
+GUZ = "countries/Guizhou.txt"
+GUX = "countries/Guangxi.txt"
+JGX = "countries/Jiangxi.txt"
+NAN = "countries/Nanjing.txt"
+TAI = "countries/Taiwan.txt"
+HNK = "countries/Hong Kong.txt"
+SHG = "countries/Shanghai.txt"
+ROC = "countries/Republic of China.txt"
+CHI = "countries/China.txt"
+
 NKR = "countries/North Korea.txt"
 SKR = "countries/South Korea.txt"
 
@@ -323,6 +352,9 @@ CAM = "countries/Cameroon.txt"
 CHD = "countries/Chad.txt"
 GAB = "countries/Gabon.txt"
 COG = "countries/Congo.txt"
+EQU = "countries/Equatorial Guinea.txt"
+SAT = "countries/Sao Tome and Principe.txt"
+
 #central Africa
 CAE = "countries/Empire of Central Africa.txt"
 BAO = "countries/Birao.txt"
@@ -365,6 +397,7 @@ ZAM = "countries/Zambia.txt"
 BOT = "countries/Botswana.txt"
 MOZ = "countries/Mozambique.txt"
 MLW = "countries/Malawi.txt"
+MAD = "countries/Madagascar.txt"
 
 ZRH = "countries/Zimbabwe-Rhodesia.txt"
 ZIM = "countries/Zimbabwe.txt"
@@ -457,6 +490,48 @@ CMB = "countries/Cambodia.txt"
 MLY = "countries/Malaysia.txt"
 SGP = "countries/Singapore.txt"
 
+#Indonesia
+
+ACH = "countries/Aceh.txt"#
+TPN = "countries/Tapanuli.txt"#
+RIU = "countries/Riau.txt"#
+MNK = "countries/Minangkabau.txt"#
+SJY = "countries/Srivijaya.txt"#
+SMT = "countries/Sumatra.txt"#formable
+
+BRU = "countries/Brunei.txt"#
+SLU = "countries/Sulu.txt"#
+DAY = "countries/Dayak.txt"#
+
+INR = "countries/Indonesian Rump State.txt"#
+YOG = "countries/Yoygakarta.txt"#
+BLI = "countries/Bali.txt"#
+SUM = "countries/Sumba.txt"#
+SBW = "countries/Sumbawa.txt"#
+GTM = "countries/Greater Timor.txt"#
+FLO = "countries/Flores.txt"#
+SAS = "countries/Sasak.txt"#
+PSD = "countries/Pasundan.txt"#
+
+MNH = "countries/Minahasa.txt"#
+SUL = "countries/South Sulawesi.txt"#
+AMN = "countries/Ambona.txt"#
+SLW = "countries/Sulawesi.txt"#
+
+INO = "countries/Indonesia.txt"#final formable
+
+#australasia
+ASC = "countries/Australasian Compact.txt"
+NSW = "countries/New South Wales.txt"#
+QUE = "countries/Queensland.txt"#
+WSA = "countries/Western Australia.txt"#
+SOA = "countries/South Australia.txt"#
+VIC = "countries/Victoria.txt"#
+AUS = "countries/Australia.txt"#
+WPP = "countries/West Papua.txt"#
+PNG = "countries/Papua New Guinea.txt"#
+BOU = "countries/Bougainville.txt"#
+NZL = "countries/New Zealand.txt"#
 
 ## HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

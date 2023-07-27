@@ -1,2 +1,6 @@
+owner = ROC
+controller = ROC
+add_core = ROC
+add_core = CHI
 trade_goods = timber
 life_rating = 35

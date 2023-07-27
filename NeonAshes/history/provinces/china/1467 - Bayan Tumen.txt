@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = MNG
+controller = MNG
+add_core = MNG
+trade_goods = rare_earths
 life_rating = 35

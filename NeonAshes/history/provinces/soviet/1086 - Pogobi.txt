@@ -1,3 +1,5 @@
-add_core = JAP
-trade_goods = timber
+owner = FER
+controller = FER
+add_core = FER
+trade_goods = fish
 life_rating = 35

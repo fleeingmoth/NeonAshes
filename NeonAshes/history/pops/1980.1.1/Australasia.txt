@@ -1,0 +1,528 @@
+## Australasia 
+#Australia
+2482 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 104187
+	}
+}
+2479 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 104191
+	}
+}
+2480 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 92347
+	}
+}
+2478 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 120482
+	}
+}
+2481 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 94212
+	}
+}
+2477 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 127458
+	}
+}
+2476 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 413678
+	}
+}
+
+2472 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 236845
+	}
+}
+2468 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 448212
+	}
+}
+2469 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 187642
+	}
+}
+2470 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 246486
+	}
+}
+2474 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 10974
+	}
+}
+2471 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 97361
+	}
+}
+2475 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 16421
+	}
+}
+2473 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 11836
+	}
+}
+
+2493 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 31531
+	}
+}
+2491 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 143482
+	}
+}
+2494 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 97861
+	}
+}
+2495 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 10873
+	}
+}
+2492 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 23458
+	}
+}
+2496 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 12096
+	}
+}
+
+2507 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 2350
+	}
+}
+2603 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 2123
+	}
+}
+2506 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 10941
+	}
+}
+2505 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 12152
+	}
+}
+
+2483 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 210643
+	}
+}
+2486 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 45312
+	}
+}
+2490 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 3543
+	}
+}
+2484 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 87364
+	}
+}
+2485 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 10369
+	}
+}
+2487 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 103756
+	}
+}
+2489 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 3541
+	}
+}
+2488 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 79421
+	}
+}
+2604 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 12134
+	}
+}
+
+2504 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 35646
+	}
+}
+2498 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 97842
+	}
+}
+2497 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 100145
+	}
+}
+2499 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 37967
+	}
+}
+2500 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 8751
+	}
+}
+2503 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 1231
+	}
+}
+2502 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 21097
+	}
+}
+2605 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 1021
+	}
+}
+2602 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 1201
+	}
+}
+2601 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 1341
+	}
+}
+2501 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 6453
+	}
+}
+#papua new guinea
+2528 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 91321
+	}
+}
+2530 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 84365
+	}
+}
+2531 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 94631
+	}
+}
+2529 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 106740
+	}
+}
+2537 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 97131
+	}
+}
+1531 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 78312
+	}
+}
+2539 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 73945
+	}
+}
+2534 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 58417
+	}
+}
+2523 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 2082
+	}
+}
+
+2512 = {#
+	farmers = {
+		culture = new_zealander
+		religion = protestant
+		size = 132280
+	}
+}
+2511 = {#
+	farmers = {
+		culture = new_zealander
+		religion = protestant
+		size = 38760
+	}
+}
+2510 = {#
+	farmers = {
+		culture = new_zealander
+		religion = protestant
+		size = 21800
+	}
+}
+2571 = {#
+	farmers = {
+		culture = new_zealander
+		religion = protestant
+		size = 117880
+	}
+}
+2509 = {#
+	farmers = {
+		culture = new_zealander
+		religion = protestant
+		size = 251300
+	}
+}
+2516 = {#
+	farmers = {
+		culture = new_zealander
+		religion = protestant
+		size = 15600
+	}
+}
+2515 = {#
+	farmers = {
+		culture = new_zealander
+		religion = protestant
+		size = 96080
+	}
+}
+2514 = {#
+	farmers = {
+		culture = new_zealander
+		religion = protestant
+		size = 6640
+	}
+}
+2513 = {#
+	farmers = {
+		culture = new_zealander
+		religion = protestant
+		size = 57660
+	}
+}
+
+2519 = {#
+	farmers = {
+		culture = micronesian
+		religion = animist
+		size = 2025
+	}
+}
+2579 = {#
+	farmers = {
+		culture = micronesian
+		religion = animist
+		size = 9372
+	}
+}
+610 = {#
+	farmers = {
+		culture = micronesian
+		religion = animist
+		size = 6893
+	}
+}
+2521 = {#
+	farmers = {
+		culture = micronesian
+		religion = animist
+		size = 4195
+	}
+}
+2517 = {#
+	farmers = {
+		culture = micronesian
+		religion = animist
+		size = 26494
+	}
+}
+2518 = {#
+	farmers = {
+		culture = micronesian
+		religion = animist
+		size = 3029
+	}
+}
+2522 = {#
+	farmers = {
+		culture = micronesian
+		religion = animist
+		size = 7718
+	}
+}
+2544 = {#
+	farmers = {
+		culture = polynesian
+		religion = animist
+		size = 8074
+	}
+}
+1097 = {#
+	farmers = {
+		culture = polynesian
+		religion = animist
+		size = 36342
+	}
+}
+2524 = {#
+	farmers = {
+		culture = yankee
+		religion = animist
+		size = 75
+	}
+}
+2526 = {#
+	farmers = {
+		culture = yankee
+		religion = animist
+		size = 1
+	}
+}

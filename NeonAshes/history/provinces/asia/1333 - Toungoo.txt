@@ -1,5 +1,5 @@
 owner = KRN
 controller = KRN
 add_core = KRN
-trade_goods = timber
+trade_goods = fibre_crops
 life_rating = 35

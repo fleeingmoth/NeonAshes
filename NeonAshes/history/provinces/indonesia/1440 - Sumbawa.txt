@@ -1,2 +1,6 @@
+owner = SBW
+controller = SBW
+add_core = SBW
+add_core = INO
 trade_goods = timber
 life_rating = 35

@@ -1,5 +1,5 @@
 owner = THI
 controller = THI
 add_core = THI
-trade_goods = timber
+trade_goods = rare_earths
 life_rating = 35

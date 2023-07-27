@@ -1,2 +1,5 @@
+owner = EQU
+controller = EQU
+add_core = EQU
 trade_goods = timber
 life_rating = 35

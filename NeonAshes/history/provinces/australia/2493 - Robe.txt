@@ -1,2 +1,6 @@
+owner = SOA
+controller = SOA
+add_core = SOA
+add_core = AUS
 trade_goods = timber
 life_rating = 35

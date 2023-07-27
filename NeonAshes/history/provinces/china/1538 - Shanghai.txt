@@ -1,2 +1,6 @@
+owner = SHG
+controller = SHG
+add_core = SHG
+add_core = CHI
 trade_goods = timber
 life_rating = 35

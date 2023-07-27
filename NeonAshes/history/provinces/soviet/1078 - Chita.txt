@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = BRY
+controller = BRY
+add_core = BRY
+trade_goods = rare_earths
 life_rating = 35

@@ -1,2 +1,6 @@
+owner = PSD
+controller = PSD
+add_core = PSD
+add_core = INO
 trade_goods = timber
 life_rating = 35

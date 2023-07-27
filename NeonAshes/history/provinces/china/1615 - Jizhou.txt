@@ -1,2 +1,6 @@
+owner = BEJ
+controller = BEJ
+add_core = BEJ
+add_core = CHI
 trade_goods = timber
 life_rating = 35

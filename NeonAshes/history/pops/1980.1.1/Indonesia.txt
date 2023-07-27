@@ -1,0 +1,416 @@
+## Indonesia (37,050,000 pops)
+#java
+1413 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 3588789
+	}
+}
+1414 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 7582960
+	}
+}
+1415 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 1237482
+	}
+}
+1416 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 3145212
+	}
+}
+1417 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 1549725
+	}
+}
+1418 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 2174531
+	}
+}
+1419 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 608603
+	}
+}
+1420 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 2754312
+	}
+}
+1421 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 1676695
+	}
+}
+#island chain
+1438 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 619775
+	}
+}
+1442 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 570364
+	}
+}
+1440 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 239673
+	}
+}
+1439 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 297538
+	}
+}
+1444 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 32840
+	}
+}
+1441 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 123500
+	}
+}
+#Sumatra
+1403 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 1156196
+	}
+}
+1410 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 192016
+	}
+}
+1399 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 1117559
+	}
+}
+1398 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 361498
+	}
+}
+1408 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 850000
+	}
+}
+1404 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 163474
+	}
+}
+1411 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 0
+	}
+}
+1400 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 479283
+	}
+}
+1401 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 545314
+	}
+}
+1402 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 206456
+	}
+}
+1409 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 1047982
+	}
+}
+1406 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 1042241
+	}
+}
+1407 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 315374
+	}
+}
+1405 = {#
+	farmers = {
+		culture = sumatran
+		religion = animist
+		size = 337443
+	}
+}
+#sulawesi
+1433 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 150080
+	}
+}
+1435 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 164521
+	}
+}
+1434 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 157887
+	}
+}
+1432 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 214350
+	}
+}
+1436 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 176541
+	}
+}
+1437 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 59034
+	}
+}
+1431 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 736483
+	}
+}
+1430 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 779070
+	}
+}
+1447 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 98794
+	}
+}
+1448 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 93252
+	}
+}
+1449 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 178748
+	}
+}
+1450 = {#
+	farmers = {
+		culture = moluccan
+		religion = animist
+		size = 149878
+	}
+}
+1451 = {#
+	farmers = {
+		culture = indonesian
+		religion = animist
+		size = 135821
+	}
+}
+#borneo
+1427 = {#
+	farmers = {
+		culture = dayak
+		religion = animist
+		size = 102481
+	}
+}
+1423 = {#
+	farmers = {
+		culture = dayak
+		religion = animist
+		size = 112748
+	}
+}
+1424 = {#
+	farmers = {
+		culture = dayak
+		religion = animist
+		size = 516162
+	}
+}
+1426 = {#
+	farmers = {
+		culture = dayak
+		religion = animist
+		size = 104222
+	}
+}
+1428 = {#
+	farmers = {
+		culture = dayak
+		religion = animist
+		size = 97801
+	}
+}
+1422 = {#
+	farmers = {
+		culture = dayak
+		religion = animist
+		size = 125840
+	}
+}
+1429 = {#
+	farmers = {
+		culture = dayak
+		religion = animist
+		size = 304504
+	}
+}
+1425 = {#
+	farmers = {
+		culture = dayak
+		religion = animist
+		size = 44230
+	}
+}
+
+
+1393 = {#
+	farmers = {
+		culture = brunei
+		religion = animist
+		size = 46980
+	}
+}
+1395 = {#
+	farmers = {
+		culture = brunei
+		religion = animist
+		size = 75453
+	}
+}
+1394 = {#
+	farmers = {
+		culture = brunei
+		religion = animist
+		size = 77901
+	}
+}
+
+1396 = {#
+	farmers = {
+		culture = sulu
+		religion = animist
+		size = 297542
+	}
+}
+1397 = {#
+	farmers = {
+		culture = sulu
+		religion = animist
+		size = 295705
+	}
+}
+
+1446 = {#
+	farmers = {
+		culture = timor
+		religion = animist
+		size = 160556
+	}
+}
+1445 = {#
+	farmers = {
+		culture = timor
+		religion = animist
+		size = 123482
+	}
+}
+1443 = {#
+	farmers = {
+		culture = timor
+		religion = animist
+		size = 13489
+	}
+}

@@ -1,2 +1,5 @@
+owner = SLU
+controller = SLU
+add_core = SLU
 trade_goods = timber
 life_rating = 35

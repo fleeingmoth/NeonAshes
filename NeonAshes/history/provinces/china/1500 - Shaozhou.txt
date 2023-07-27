@@ -1,2 +1,6 @@
+owner = JGX
+controller = JGX
+add_core = JGX
+add_core = CHI
 trade_goods = timber
 life_rating = 35

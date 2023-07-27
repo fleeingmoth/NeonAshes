@@ -1,2 +1,6 @@
+owner = AMN
+controller = AMN
+add_core = AMN
+add_core = INO
 trade_goods = timber
 life_rating = 35

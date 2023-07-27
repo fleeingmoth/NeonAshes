@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = SAT
+controller = SAT
+add_core = SAT
+trade_goods = sugar_crops
 life_rating = 35

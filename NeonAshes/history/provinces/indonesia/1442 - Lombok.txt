@@ -1,2 +1,6 @@
+owner = SAS
+controller = SAS
+add_core = SAS
+add_core = INO
 trade_goods = timber
 life_rating = 35

@@ -1,0 +1,57 @@
+
+2120 = {#
+	farmers = {
+		culture = madagascarian
+		religion = catholic
+		size = 326822
+	}
+}
+2121 = {#
+	farmers = {
+		culture = madagascarian
+		religion = catholic
+		size = 224335
+	}
+}
+2122 = {#
+	farmers = {
+		culture = madagascarian
+		religion = catholic
+		size = 86410
+	}
+}
+2115 = {#
+	farmers = {
+		culture = madagascarian
+		religion = catholic
+		size = 699382
+	}
+}
+2116 = {#
+	farmers = {
+		culture = madagascarian
+		religion = catholic
+		size = 529047
+	}
+}
+2119 = {#
+	farmers = {
+		culture = madagascarian
+		religion = catholic
+		size = 163901
+	}
+}
+2118 = {#
+	farmers = {
+		culture = madagascarian
+		religion = catholic
+		size = 246798
+	}
+}
+2117 = {#
+	farmers = {
+		culture = madagascarian
+		religion = catholic
+		size = 312372
+	}
+}

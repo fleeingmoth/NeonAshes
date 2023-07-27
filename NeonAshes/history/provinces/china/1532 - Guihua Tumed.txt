@@ -1,2 +1,6 @@
+owner = IMG
+controller = IMG
+add_core = IMG
+add_core = CHI
 trade_goods = rare_earths
 life_rating = 35

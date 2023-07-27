@@ -1,2 +1,6 @@
+owner = BLI
+controller = BLI
+add_core = BLI
+add_core = INO
 trade_goods = timber
 life_rating = 35

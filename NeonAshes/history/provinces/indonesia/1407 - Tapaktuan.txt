@@ -1,2 +1,7 @@
+owner = ACH
+controller = ACH
+add_core = ACH
+add_core = SMT
+add_core = INO
 trade_goods = timber
 life_rating = 35

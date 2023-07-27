@@ -1,2 +1,7 @@
-trade_goods = timber
+owner = ASC
+controller = ASC
+add_core = ASC
+add_core = VIC
+add_core = AUS
+trade_goods = copper
 life_rating = 35

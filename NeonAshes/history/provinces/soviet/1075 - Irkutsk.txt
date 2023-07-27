@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = SIB
+controller = SIB
+add_core = SIB
+trade_goods = oil
 life_rating = 35

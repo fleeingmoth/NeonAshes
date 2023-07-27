@@ -80,3 +80,16 @@ substate = {#
 	start_date = 1960.12.31
 	end_date = 2099.12.31
 }
+#Australasian Compact
+substate = {#
+	first = ASC
+	second = PNG
+	start_date = 1960.12.31
+	end_date = 2099.12.31
+}
+substate = {#
+	first = ASC
+	second = NZL
+	start_date = 1960.12.31
+	end_date = 2099.12.31
+}

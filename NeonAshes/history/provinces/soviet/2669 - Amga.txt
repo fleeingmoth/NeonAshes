@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = SAK
+controller = SAK
+add_core = SAK
+trade_goods = other_metals
 life_rating = 35

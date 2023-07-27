@@ -1,2 +1,6 @@
+owner = DAY
+controller = DAY
+add_core = DAY
+add_core = INO
 trade_goods = timber
 life_rating = 35

@@ -1,2 +1,7 @@
+owner = GBN
+controller = GBN
+add_core = GBN
+add_core = HNK
+add_core = CHI
 trade_goods = timber
 life_rating = 35

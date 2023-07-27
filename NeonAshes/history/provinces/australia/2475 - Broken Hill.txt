@@ -1,2 +1,6 @@
+owner = NSW
+controller = NSW
+add_core = NSW
+add_core = AUS
 trade_goods = timber
 life_rating = 35

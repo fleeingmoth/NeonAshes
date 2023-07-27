@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = YUG
+controller = YUG
+add_core = YUG
+trade_goods = grain
 life_rating = 35

@@ -1,2 +1,5 @@
-trade_goods = timber
+owner = TUV
+controller = TUV
+add_core = TUV
+trade_goods = coal
 life_rating = 35

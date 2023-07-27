@@ -1248,10 +1248,7 @@ pan_nationalist_rebels = {
 		#prevent pan-nationalists from appearing when we don't want them
 		modifier = {
 			factor = 0
-			OR = {
-				culture = north_italian
-				culture = south_italian
-			}
+			culture = italian
 		}
 		modifier = {
 			factor = 0
@@ -1273,8 +1270,18 @@ pan_nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
+			is_culture_group = indonesian_asian
+			NOT={has_global_flag = indonesian_pan_nationalism}
+		}
+		modifier = {
+			factor = 0
 			culture = japanese
 			NOT={has_global_flag = japanese_pan_nationalism}
+		}
+		modifier = {
+			factor = 0
+			is_culture_group = chinese_group
+			NOT={has_global_flag = chinese_pan_nationalism}
 		}
 		modifier = {
 			factor = 0
@@ -1289,6 +1296,7 @@ pan_nationalist_rebels = {
 			factor = 0
 			culture = ukrainian
 		}
+		
 		
 
 		modifier = {

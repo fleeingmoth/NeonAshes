@@ -1,0 +1,22 @@
+## Papua 
+1453 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 70873
+	}
+}
+1454 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 296738
+	}
+}
+1560 = {#
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 107613
+	}
+}

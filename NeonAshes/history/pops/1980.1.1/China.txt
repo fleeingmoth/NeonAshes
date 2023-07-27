@@ -1,0 +1,1049 @@
+# Mongolia
+1467 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 43197
+	}
+}
+2207 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 14275
+	}
+}
+1466 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 19257
+	}
+}
+1465 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 176558
+	}
+}
+2678 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 39123
+	}
+}
+1468 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 35931
+	}
+}
+2608 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 36225
+	}
+}
+2679 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 35175
+	}
+}
+
+1535 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 978641
+	}
+}
+1532 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 939874
+	}
+}
+1534 = {#
+	farmers = {
+		culture = mongol
+		religion = catholic
+		size = 956062
+	}
+}
+1533 = {#
+	farmers = {
+		culture = manchu
+		religion = catholic
+		size = 874531
+	}
+}
+1002 = {#
+	farmers = {
+		culture = manchu
+		religion = catholic
+		size = 769461
+	}
+}
+1553 = {#
+	farmers = {
+		culture = manchu
+		religion = catholic
+		size = 1135913
+	}
+}
+1552 = {#
+	farmers = {
+		culture = manchu
+		religion = catholic
+		size = 3843212
+	}
+}
+1554 = {#
+	farmers = {
+		culture = manchu
+		religion = catholic
+		size = 3187261
+	}
+}
+1555 = {#
+	farmers = {
+		culture = manchu
+		religion = catholic
+		size = 5640013
+	}
+}
+1479 = {#
+	farmers = {
+		culture = manchu
+		religion = catholic
+		size = 2945211
+	}
+}
+1480 = {#
+	farmers = {
+		culture = manchu
+		religion = catholic
+		size = 2874122
+	}
+}
+1481 = {#
+	farmers = {
+		culture = manchu
+		religion = catholic
+		size = 1111090
+	}
+}
+1613 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2480471
+	}
+}
+
+1612 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2307671
+	}
+}
+1617 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1941035
+	}
+}
+
+1616 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 3873152
+	}
+}
+1576 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 3087621
+	}
+}
+1618 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2407141
+	}
+}
+1615 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1978211
+	}
+}
+1614 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1905343
+	}
+}
+
+1569 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1348312
+	}
+}
+1565 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2483421
+	}
+}
+1566 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1786123
+	}
+}
+1570 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1613471
+	}
+}
+1567 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 3453172
+	}
+}
+1571 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2167741
+	}
+}
+1568 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 3074861
+	}
+}
+1563 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2677662
+	}
+}
+
+1491 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 973894
+	}
+}
+1492 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1274582
+	}
+}
+1489 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1364316
+	}
+}
+1490 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1754527
+	}
+}
+1488 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 498890
+	}
+}
+
+1557 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 312489
+	}
+}
+1556 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 354674
+	}
+}
+1558 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 306763
+	}
+}
+1601 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2876142
+	}
+}
+1602 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 3014864
+	}
+}
+1603 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2247448
+	}
+}
+
+1576 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1354327
+	}
+}
+1572 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1545312
+	}
+}
+1573 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 974078
+	}
+}
+1574 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1642521
+	}
+}
+1575 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 806609
+	}
+}
+
+1561 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1534121
+	}
+}
+2062 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2242871
+	}
+}
+1559 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2064131
+	}
+}
+1562 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1384982
+	}
+}
+
+1512 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2656916
+	}
+}
+1508 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2213847
+	}
+}
+1515 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1876152
+	}
+}
+1511 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 987023
+	}
+}
+1510 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1997931
+	}
+}
+1513 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2003486
+	}
+}
+1514 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1445645
+	}
+}
+1478 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1499667
+	}
+}
+1509 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2045863
+	}
+}
+1564 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1879154
+	}
+}
+
+1472 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1314214
+	}
+}
+1476 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1424653
+	}
+}
+1477 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1546121
+	}
+}
+1474 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1678312
+	}
+}
+1470 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1345317
+	}
+}
+1471 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1745721
+	}
+}
+1473 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1214347
+	}
+}
+1475 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2147746
+	}
+}
+
+1539 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2048641
+	}
+}
+1542 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1987431
+	}
+}
+1536 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1834831
+	}
+}
+1541 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2127486
+	}
+}
+2221 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2136451
+	}
+}
+1544 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1853644
+	}
+}
+1543 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1585421
+	}
+}
+1537 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1556373
+	}
+}
+
+1538 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1883646
+	}
+}
+1540 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1081291
+	}
+}
+
+1606 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1185742
+	}
+}
+1605 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1314851
+	}
+}
+1604 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1284431
+	}
+}
+1607 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1348312
+	}
+}
+1609 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1048642
+	}
+}
+1608 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1213648
+	}
+}
+1610 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1123484
+	}
+}
+1611 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1202040
+	}
+}
+
+1549 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1147836
+	}
+}
+1551 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1348312
+	}
+}
+1546 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1048641
+	}
+}
+1548 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1384342
+	}
+}
+1545 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 978042
+	}
+}
+1547 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1687464
+	}
+}
+1550 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 701569
+	}
+}
+
+1483 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1123047
+	}
+}
+1482 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1754846 
+	}
+}
+1486 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1124852
+	}
+}
+1484 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1114148
+	}
+}
+1487 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1351421
+	}
+}
+
+1494 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2114586
+	}
+}
+1497 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2218642
+	}
+}
+1500 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1945861
+	}
+}
+1493 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2535831 
+	}
+}
+1501 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2220458 
+	}
+}
+1495 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2114583 
+	}
+}
+1499 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1674844
+	}
+}
+
+1502 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2978641
+	}
+}
+1503 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 3104582
+	}
+}
+1504 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 3022017
+	}
+}
+
+1530 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2452107
+	}
+}
+1527 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2054342
+	}
+}
+1526 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1978421
+	}
+}
+1529 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2074571
+	}
+}
+1525 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1869846
+	}
+}
+1524 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2024583
+	}
+}
+1528 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1048342
+	}
+}
+
+1506 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2158413
+	}
+}
+1505 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2231413
+	}
+}
+1507 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1748423
+	}
+}
+
+1496 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1265750
+	}
+}
+
+1518 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1653135
+	}
+}
+1522 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1448631
+	}
+}
+1516 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1621201
+	}
+}
+1517 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1415321
+	}
+}
+1519 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1320152
+	}
+}
+1520 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1315312
+	}
+}
+1523 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1445831
+	}
+}
+1521 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1731454
+	}
+}
+
+1581 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2548642
+	}
+}
+1579 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2295836
+	}
+}
+1583 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2548642
+	}
+}
+1577 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2484453
+	}
+}
+1584 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2353453
+	}
+}
+1585 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2545831
+	}
+}
+1580 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2213548
+	}
+}
+1586 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2543134
+	}
+}
+1582 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2498461
+	}
+}
+1578 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 2796527
+	}
+}
+
+2562 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1478766
+	}
+}
+1485 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 1978642
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 1012659
+	}
+	craftsmen = {
+		culture = chinese
+		religion = catholic
+		size = 78421
+	}
+}

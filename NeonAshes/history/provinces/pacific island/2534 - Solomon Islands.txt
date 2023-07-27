@@ -1,2 +1,5 @@
+owner = ASC
+controller = ASC
+add_core = ASC
 trade_goods = timber
 life_rating = 35

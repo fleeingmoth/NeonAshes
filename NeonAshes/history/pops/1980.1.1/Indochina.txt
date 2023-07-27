@@ -458,10 +458,40 @@
 	}
 }
 1384 = {#
-	farmers = {
+	craftsmen = {
 		culture = singaporean
 		religion = animist
-		size = 843723
+		size = 358542
+	}
+	soldiers = {
+		culture = singaporean
+		religion = animist
+		size = 45120
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 331212
+	}
+	clerks = {
+		culture = singaporean
+		religion = animist
+		size = 87521
+	}
+	capitalists = {
+		culture = singaporean
+		religion = animist
+		size = 1231
+	}
+	clergymen = {
+		culture = singaporean
+		religion = animist
+		size = 17348
+	}
+	bureaucrats = {
+		culture = singaporean
+		religion = animist
+		size = 2749
 	}
 }
 

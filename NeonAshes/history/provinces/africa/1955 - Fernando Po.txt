@@ -1,2 +1,5 @@
+owner = EQU
+controller = EQU
+add_core = EQU
 trade_goods = oil
 life_rating = 35

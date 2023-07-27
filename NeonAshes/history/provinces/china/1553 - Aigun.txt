@@ -1,2 +1,6 @@
-trade_goods = timber
+owner = MCH
+controller = MCH
+add_core = MCH
+add_core = CHI
+trade_goods = oilseed_crops
 life_rating = 35

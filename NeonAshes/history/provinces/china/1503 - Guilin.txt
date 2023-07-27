@@ -1,2 +1,6 @@
+owner = GUX
+controller = GUX
+add_core = GUX
+add_core = CHI
 trade_goods = timber
 life_rating = 35

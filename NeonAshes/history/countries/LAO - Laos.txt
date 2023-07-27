@@ -1,5 +1,5 @@
 capital = 1358 #
-primary_culture = laos
+primary_culture = lao
 government = auth_democracy
 plurality = 25.0
 nationalvalue = nv_order

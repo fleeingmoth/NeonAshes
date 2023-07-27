@@ -1,2 +1,6 @@
+owner = YOG
+controller = YOG
+add_core = YOG
+add_core = INO
 trade_goods = timber
 life_rating = 35

@@ -127,6 +127,20 @@
 		size = 70627
 	}
 }
+1955 = {#
+	farmers = {
+		culture = equatorial
+		religion = catholic
+		size = 54445
+	}
+}
+1954 = {#
+	farmers = {
+		culture = equatorial
+		religion = catholic
+		size = 24302
+	}
+}
 1974 = {#
 	farmers = {
 		culture = gabonian

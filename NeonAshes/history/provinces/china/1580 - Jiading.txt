@@ -1,2 +1,6 @@
+owner = SCU
+controller = SCU
+add_core = SCU
+add_core = CHI
 trade_goods = timber
 life_rating = 35

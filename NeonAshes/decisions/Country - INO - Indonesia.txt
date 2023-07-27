@@ -1,0 +1,80 @@
+political_decisions = {
+	form_sumatra = {
+		potential = {
+			primary_culture = sumatran
+			NOT = {
+				exists = SMT
+			}
+		}	
+		allow = {
+			war = no
+			SMT = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 15
+			any_country = {
+				limit = {
+					primary_culture = sumatran
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			change_tag = SMT
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	reunite_indonesia = {
+		potential = {
+			primary_culture = indonesian
+			NOT = {
+				exists = INO
+			}
+		}	
+		allow = {
+			war = no
+			INO = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 15
+			any_country = {
+				limit = {
+					primary_culture = sumatran
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			change_tag = INO
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

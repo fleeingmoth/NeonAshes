@@ -571,7 +571,21 @@
 	farmers = {
 		culture = siberian_russian
 		religion = orthodox
-		size = 31571
+		size = 20264
+	}
+}
+2662 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 3453
+	}
+}
+2660 = {#
+	farmers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 7854
 	}
 }
 2618 = {#

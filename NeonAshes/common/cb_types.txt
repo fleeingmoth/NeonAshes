@@ -69,6 +69,7 @@ unification_annex_casus_belli
 rude_boy
 annex
 great_war_penalty_cb 
+ETH_annex_core_country
 }
 
 gunboat = {
@@ -1887,6 +1888,65 @@ great_war_penalty_cb = {
 	#	NOT = { is_our_vassal = THIS }
 	#	is_disarmed = no
 	#}
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+# ethiopian unifaction war
+ETH_annex_core_country = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 0.7
+	penalty_factor = 1
+	always = yes
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	constructing_cb = no
+	# allowed_countries = {
+		# primary_culture = ethiopian
+		# OR={
+			# tag = TNF
+			# tag = IHA
+			# tag = DRG
+		# }
+	# }
+	can_use = {
+		primary_culture = ethiopian
+		OR={
+			tag = TNF
+			tag = IHA
+			tag = DRG
+		}
+		THIS={
+			OR={
+				tag = TNF
+				tag = IHA
+				tag = DRG
+			}
+		}
+	}
+
+	po_annex = yes
+	
+	war_name = WAR_RESTORE_ORDER_NAME
 	
 	on_add = {
 		move_issue_percentage = { 

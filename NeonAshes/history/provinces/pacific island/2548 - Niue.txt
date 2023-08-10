@@ -1,2 +1,5 @@
+owner = NUE
+controller = NUE
+add_core = NUE
 trade_goods = timber
 life_rating = 35

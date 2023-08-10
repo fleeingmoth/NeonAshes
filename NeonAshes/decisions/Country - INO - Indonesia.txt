@@ -8,16 +8,20 @@ political_decisions = {
 		}	
 		allow = {
 			war = no
-			SMT = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-					}
-				}
-			}
+			controls = 1398
+			controls = 1402
+			controls = 1404
+			controls = 1403
+			controls = 1408
+			controls = 1410
+			controls = 1399
+			controls = 1400
+			controls = 1401
+			controls = 1411
+			controls = 1405
+			controls = 1406
+			controls = 1407
+			controls = 1408
 		}
 		
 		effect = {
@@ -31,6 +35,12 @@ political_decisions = {
 					}
 				}
 				annex_to = THIS
+			}
+			NET_1398 = {
+				add_core = SMT
+			}
+			ATJ_1405 = {
+				add_core = SMT
 			}
 			change_tag = SMT
 		}

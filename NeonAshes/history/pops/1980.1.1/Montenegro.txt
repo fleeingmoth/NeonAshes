@@ -1,0 +1,36 @@
+###Montenegro ###(about 89,025 pops)
+2582 = {#
+	farmers = {
+		culture = montenegran
+		religion = catholic
+		size = 10791
+	}
+}
+800 = {#
+	farmers = {
+		culture = montenegran
+		religion = catholic
+		size = 31050
+	}
+}
+2583 = {#
+	farmers = {
+		culture = montenegran
+		religion = catholic
+		size = 6870
+	}
+}
+2569 = {#
+	farmers = {
+		culture = montenegran
+		religion = catholic
+		size = 13167
+	}
+}
+2577 = {#
+	farmers = {
+		culture = montenegran
+		religion = catholic
+		size = 27145
+	}
+}

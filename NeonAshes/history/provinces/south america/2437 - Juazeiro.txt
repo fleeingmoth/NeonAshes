@@ -1,5 +1,5 @@
 owner = BAI
 controller = BAI
 add_core = BAI
-trade_goods = timber
+trade_goods = fibre_crops
 life_rating = 35

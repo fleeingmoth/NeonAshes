@@ -203,6 +203,8 @@ CRS = "countries/Corsica.txt"
 #BRT = "countries/Brittany.txt"
 SPA = "countries/Spain.txt"
 #POR = "countries/Portugal.txt"
+AZO = "countries/Azores.txt"
+MDI = "countries/Maeira.txt"
 #ADL = "countries/Andalusia.txt"
 ITA = "countries/Italy.txt"
 #SIC = "countries/Sicily.txt"
@@ -216,6 +218,7 @@ ITA = "countries/Italy.txt"
 #BOS = "countries/Bosnia.txt"
 #ALB = "countries/Albania.txt"
 NRM = "countries/Normark.txt"
+LUX = "countries/Luxembourg.txt"
 
 #East Europe
 FIN = "countries/Finland.txt"
@@ -303,8 +306,6 @@ CFR = "countries/Council Federation Republics.txt"
 KYT = "countries/Kyoto.txt"
 TKY = "countries/Tokyo.txt"
 
-TTP = "countries/American Pacific.txt"
-
 
 #West Africa
 
@@ -312,13 +313,14 @@ MOR = "countries/Morocco.txt"
 ALG = "countries/Algeria.txt"
 TUS = "countries/Tunisia.txt"
 LYB = "countries/Libya.txt"
+CBV = "countries/Cabo Verde.txt"
 
 #Countries of the OAU
 #OAU = "countries/Organization of African Unity.txt" #Organization of African Unity, Monrovia-Casablanca Group. Ghana, Guinea, Mali. Social Democratic dictatorship, but vassals are limited democracies, govtype African Union Member
 OAS = "countries/Organization of African States.txt" #west african GP
 #MLF = "countries/Mali Federation.txt"#What the OAS evolved from, and what it will devolve into after 1st breakdown
-#MAL = "countries/Mali.txt" #Capital of OAU at game start, released
-SOU = "countries/Sudanese Republic.txt"
+#MAL = "countries/Mali.txt"
+SOU = "countries/Sudanese Republic.txt" #Capital of OAU at game start, released
 SNG = "countries/Senegambia.txt" #Next capital location, 1985
 #SEN = "countries/Senegal.txt" #
 #GAM = "countries/Gambia.txt" #
@@ -376,6 +378,7 @@ SUD = "countries/Sudan.txt"
 SSD = "countries/South Sudan.txt"
 DAF = "countries/Darfur.txt"
 
+
 #Ethiopia
 TNF = "countries/EPRDF.txt"
 IHA = "countries/Ihapa.txt"
@@ -398,6 +401,9 @@ BOT = "countries/Botswana.txt"
 MOZ = "countries/Mozambique.txt"
 MLW = "countries/Malawi.txt"
 MAD = "countries/Madagascar.txt"
+CMO = "countries/Comoros.txt"
+SEY = "countries/Seychelles.txt"
+MAU = "countries/Mauritius.txt"
 
 ZRH = "countries/Zimbabwe-Rhodesia.txt"
 ZIM = "countries/Zimbabwe.txt"
@@ -474,6 +480,7 @@ NAX = "countries/Naxilites.txt"#indian communist rebels, when not communist beco
 GUJ = "countries/Gujarat.txt"
 DEC = "countries/Deccan Federation.txt"
 SRL = "countries/Sri Lanka.txt"
+MAL = "countries/Maldives.txt"
 
 BHU = "countries/Bhutan.txt"
 NEP = "countries/Nepal.txt"
@@ -532,6 +539,34 @@ WPP = "countries/West Papua.txt"#
 PNG = "countries/Papua New Guinea.txt"#
 BOU = "countries/Bougainville.txt"#
 NZL = "countries/New Zealand.txt"#
+
+ILO = "countries/Ilocos.txt"#
+COR = "countries/Cordillera.txt"#
+MNL = "countries/Manila.txt"#
+BIC = "countries/Bicolano.txt"#
+VYS = "countries/Visayas.txt"#
+MND = "countries/Mindanao.txt"#
+ZMB = "countries/Zamboanga.txt"#
+MRO = "countries/Moro.txt"#
+
+PHL = "countries/Philippines.txt"#
+
+#Oceania
+TTP = "countries/American Pacific.txt"
+NWC = "countries/New Caledonia.txt"
+TVU = "countries/Tuvalu.txt"
+VAN = "countries/Vanuatu.txt"
+FJI = "countries/Fiji.txt"
+SAM = "countries/Samoa.txt"
+TNG = "countries/Tonga.txt"
+NUE = "countries/Niue.txt"
+TOK = "countries/Tokelau.txt"
+COK = "countries/Cook Islands.txt"
+TAH = "countries/Tahiti.txt"
+ESI = "countries/Easter Island.txt"
+WAF = "countries/Wallis and Futuna.txt"
+NAU = "countries/Nauru.txt"
+
 
 ## HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

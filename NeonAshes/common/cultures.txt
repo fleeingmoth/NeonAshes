@@ -106,7 +106,7 @@ beneluxian = {
 			Wolterbeek
 		}
 	}
-	flemish = { 
+	belgian = { 
 		color = { 250 180 80}
 		first_names = { Adolf Adolphe Alexander Alexandre Alfons Alphonse Adriaan Albert Andries Antoine Auguste Boudewijn Bonifaas 
 		Camille Charles Constant David Désiré Diederik Edmond Emmanuel Etienne Eugène Félix Filip Frans Ferdinand François Frederik 
@@ -129,8 +129,8 @@ beneluxian = {
 		"van Havre" "van Hoobrouck" "van Innis" "van Meenen" "van Neste" "van Snick" "van Tongerloo" "van Volden de Lombeke" "van Zeeland" 
 		Vandive Verbeke Vercruysse Verduyn Vergauwen "Verseyden de Varick" Verwilghen "Vilain XIIII" Wallaert Wannaar Werbrouck Wyvekens }
 	}
-	wallonian = { 
-		color = { 190 90 20}
+	luxembourgian = { 
+		color = { 0 161 222}
 		first_names = { Albert Alexandre Alexis Alphonse André Antoine Auguste Baudouin Blaise Camille Charles Constant 
 		Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne  Fernand Feullien Florent  Georges 
 		Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-BaptisteJean-Louis 
@@ -148,6 +148,7 @@ beneluxian = {
 		Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb 
 		Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude }
 	}
+
 }
 
 pan_swiss = {
@@ -487,6 +488,23 @@ south_slavic = {
 		}
 		radicalism = 15
 	}
+	montenegran = {
+		color = {175 86 174}
+		first_names = { Alaksandar Blagoje Bozidar Branko Danilo Dejan Djordje Dragan Dragisa Dragoljub
+		Dragutin Draza Dusan Gavrilo Goran Janko Jovan Koca Kosta Krsto
+		Ljubisa Mihailo Milan Miliutin Milivoje Milojko Milos Miodrag Mirko Miroslav
+		Momcilo Nebojsa Nikola Pavle Peko Petar Radomir Ratko Sava Slobodan
+		Stepa Stojan Veljko Vaselien Vladimir Vojislav Zivojin Zivota Zoran Zvezdan
+		}
+
+		last_names = { Adzic Arandelovic Belimarkovic Blaznacac Bojovic Bozanovic Bozinovic Brankovic Damjanic Dapcevic
+		Dragutinovic Grujic Hadzilic Horvatovic Isakovic Jankovic Jokic Jovanovic Kadijevic Karadjordjevic
+		Lesjanin Ljubicic Maric Mihailovic Miliutinovic Miloradovic Misic Nad Nedic Novak
+		Obrenovic Ojdanic Panic Paskas Pavkovic Pesic Petrovic Popovic Putnik Radulovic
+		Rasic Sijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Zivkovic
+		}
+		radicalism = 15
+	}
 	bulgarian = {
 		color = {65 150 100}
 		first_names = { Aleksandar Andrey Asen Atanas Atila Bogdan Boncho Boris Damyan Dimitar
@@ -551,6 +569,23 @@ south_slavic = {
 		Muradbegovic Muzurovic Osmanagic Peco Plakalo Pozderac Prazina Rizvanbegovic Sabanadzovic Salihovic
 		Sarajlic Selimovic Silajdzic Sokolovic Spaho Terzic Tihic Turaljic Tükcan Ugljanin 
 		}
+	}
+	north_macedonian = {
+		color = {211 201 88}
+		first_names = { Alaksandar Blagoje Bozidar Branko Danilo Dejan Djordje Dragan Dragisa Dragoljub
+		Dragutin Draza Dusan Gavrilo Goran Janko Jovan Koca Kosta Krsto
+		Ljubisa Mihailo Milan Miliutin Milivoje Milojko Milos Miodrag Mirko Miroslav
+		Momcilo Nebojsa Nikola Pavle Peko Petar Radomir Ratko Sava Slobodan
+		Stepa Stojan Veljko Vaselien Vladimir Vojislav Zivojin Zivota Zoran Zvezdan
+		}
+
+		last_names = { Adzic Arandelovic Belimarkovic Blaznacac Bojovic Bozanovic Bozinovic Brankovic Damjanic Dapcevic
+		Dragutinovic Grujic Hadzilic Horvatovic Isakovic Jankovic Jokic Jovanovic Kadijevic Karadjordjevic
+		Lesjanin Ljubicic Maric Mihailovic Miliutinovic Miloradovic Misic Nad Nedic Novak
+		Obrenovic Ojdanic Panic Paskas Pavkovic Pesic Petrovic Popovic Putnik Radulovic
+		Rasic Sijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Zivkovic
+		}
+		radicalism = 15
 	}
 	union = YUG
 }
@@ -778,18 +813,6 @@ minor_russian_group = {
 	}
 	mordovian = {
 		color = {255 145 156}
-        first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
-			Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
-			Viktor Volodimir Vladislav Yuriy 
-		}
-
-		last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
-			Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
-			Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky 
-		}
-	}
-	tatar = {
-		color = {255 202 96}
         first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
 			Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
 			Viktor Volodimir Vladislav Yuriy 
@@ -1807,6 +1830,26 @@ indian_group = {
 		}
 		
 		last_names = { Jafar Muhammad Sarfaraz Ali "Qasim Ali" Najabut Bahadur Mirza
+               
+		}
+	}
+	maldives = {
+		color = {149 170 163}
+		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
+			
+		}
+		
+		last_names = { Jawansher Khan "Ghafar Khan" Alokzai "Muhammad Khan" Bamzai
+               
+		}
+	}
+	andamans = {
+		color = {132 160 32}
+		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
+			
+		}
+		
+		last_names = { Jawansher Khan "Ghafar Khan" Alokzai "Muhammad Khan" Bamzai
                
 		}
 	}
@@ -3166,6 +3209,14 @@ west_african = {
 		last_names = { Oladigbolu Adeniran Agogoja Alowolodu Atobatele Zumaw Oyo Tofa Tonyon Bezon Hungbo Dudu
 		}
 	}
+	equatorial = {
+		color = {255 220 107}
+		first_names = { Siyanbola Lawani Adeyemi Adelu Atiba Oluewu Amodo Majotu Makua Adebo Bello Onikepe Gbadegesin Ajikin Abisi Lauru Kase Agidigbo Ademufekun
+		}
+
+		last_names = { Oladigbolu Adeniran Agogoja Alowolodu Atobatele Zumaw Oyo Tofa Tonyon Bezon Hungbo Dudu
+		}
+	}
 
 }
 
@@ -3631,6 +3682,30 @@ southern_african = {
 	}
 	madagascarian = {
 		color = {87 164 95}
+		first_names = { Radama Rainilaiarivony Rabiby Andriamanely Ndriantompoinairivo Tonanahary Ratsimivila Ramasoandro Andriantsirotso Lamboina Tsialana Tsimiharo
+		}
+
+		last_names = { Tsiranana Ramanantsoa Ratsimandrava Andriamahazo Ratsiraka
+		}
+	}
+	comorosian = {
+		color = {0 147 51}
+		first_names = { Radama Rainilaiarivony Rabiby Andriamanely Ndriantompoinairivo Tonanahary Ratsimivila Ramasoandro Andriantsirotso Lamboina Tsialana Tsimiharo
+		}
+
+		last_names = { Tsiranana Ramanantsoa Ratsimandrava Andriamahazo Ratsiraka
+		}
+	}
+	seychelles = {
+		color = {225 191 70}
+		first_names = { Radama Rainilaiarivony Rabiby Andriamanely Ndriantompoinairivo Tonanahary Ratsimivila Ramasoandro Andriantsirotso Lamboina Tsialana Tsimiharo
+		}
+
+		last_names = { Tsiranana Ramanantsoa Ratsimandrava Andriamahazo Ratsiraka
+		}
+	}
+	mauritiuan = {
+		color = {112 84 84}
 		first_names = { Radama Rainilaiarivony Rabiby Andriamanely Ndriantompoinairivo Tonanahary Ratsimivila Ramasoandro Andriantsirotso Lamboina Tsialana Tsimiharo
 		}
 

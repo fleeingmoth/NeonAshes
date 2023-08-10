@@ -95,3 +95,340 @@
 		size = 87142
 	}
 }
+487 = {#Madrid
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 984247
+	}
+}
+476 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 254312
+	}
+}
+474 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 336189
+	}
+}
+475 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 237206
+	}
+}
+478 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 107754
+	}
+}
+492 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 449779
+	}
+}
+493 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 106890
+	}
+}
+494 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 53413
+	}
+}
+496 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 84365
+	}
+}
+495 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 79845
+	}
+}
+497 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 87149
+	}
+}
+499 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 315324
+	}
+}
+500 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 304867
+	}
+}
+498 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 331874
+	}
+}
+501 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 298781
+	}
+}
+504 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 210856
+	}
+}
+503 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 309546
+	}
+}
+505 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 245421
+	}
+}
+486 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 78312
+	}
+}
+485 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 80810
+	}
+}
+484 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 64521
+	}
+}
+477 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 84654
+	}
+}
+480 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 91215
+	}
+}
+479 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 103874
+	}
+}
+481 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 71358
+	}
+}
+483 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 102608
+	}
+}
+482 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 88749
+	}
+}
+488 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 65483
+	}
+}
+490 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 49451
+	}
+}
+508 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 59432
+	}
+}
+489 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 71231
+	}
+}
+491 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 80605
+	}
+}
+516 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 80605
+	}
+}
+513 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 54347
+	}
+}
+515 = {#
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 59727
+	}
+}
+#portugese islands
+2134 = {#Azores
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 60852
+	}
+}
+2135 = {#Madeira
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 21967
+	}
+}
+1876 = {#Cape Verde
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 74500
+	}
+}
+527 = {#
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 54624
+	}
+}
+526 = {#
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 35374
+	}
+}
+524 = {#
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 30458
+	}
+}
+525 = {#
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 39340
+	}
+}
+521 = {#
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 403313
+	}
+}
+523 = {#
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 20153
+	}
+}
+522 = {#
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 178615
+	}
+}
+520 = {#
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 182787
+	}
+}
+519 = {#
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 268743
+	}
+}
+518 = {#
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 286891
+	}
+}

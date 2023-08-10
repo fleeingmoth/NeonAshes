@@ -1,5 +1,5 @@
 capital = 1252 #
-primary_culture = gorkha
+primary_culture = ghorkha
 government = auth_democracy
 plurality = 25.0
 nationalvalue = nv_order

@@ -1,2 +1,5 @@
+owner = BIC
+controller = BIC
+add_core = BIC
 trade_goods = timber
 life_rating = 35

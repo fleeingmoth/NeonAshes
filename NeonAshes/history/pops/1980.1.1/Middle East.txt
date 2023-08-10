@@ -340,7 +340,7 @@
 	farmers = {
 		culture = syrian
 		religion = catholic
-		size = 1
+		size = 233048
 	}
 }
 897 = {#

@@ -1,0 +1,5 @@
+owner = ILO
+controller = ILO
+add_core = ILO
+trade_goods = timber
+life_rating = 35

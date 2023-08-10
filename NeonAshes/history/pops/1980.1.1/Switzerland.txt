@@ -1,0 +1,64 @@
+
+607 = {#
+	farmers = {
+		culture = swiss
+		religion = catholic
+		size = 265771
+	}
+}
+608 = {#
+	farmers = {
+		culture = swiss
+		religion = catholic
+		size = 39592
+	}
+}
+605 = {#
+	farmers = {
+		culture = swiss
+		religion = catholic
+		size = 224585
+	}
+}
+609 = {#
+	farmers = {
+		culture = swiss
+		religion = catholic
+		size = 54676
+	}
+}
+604 = {#
+	farmers = {
+		culture = swiss
+		religion = catholic
+		size = 129133
+	}
+}
+606 = {#
+	farmers = {
+		culture = swiss
+		religion = catholic
+		size = 141477
+	}
+}
+2568 = {#
+	farmers = {
+		culture = swiss
+		religion = catholic
+		size = 66474
+	}
+}
+611 = {#
+	farmers = {
+		culture = swiss
+		religion = catholic
+		size = 41160
+	}
+}
+603 = {#
+	farmers = {
+		culture = swiss
+		religion = catholic
+		size = 396061
+	}
+}

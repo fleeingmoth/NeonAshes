@@ -1,0 +1,85 @@
+648 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 243371
+	}
+}
+650 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 92843
+	}
+}
+649 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 96963
+	}
+}
+646 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 297516
+	}
+}
+641 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 739219
+	}
+}
+645 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 121432
+	}
+}
+640 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 91931
+	}
+}
+644 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 133140
+	}
+}
+639 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 67425
+	}
+}
+643 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 169588
+	}
+}
+642 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 161659
+	}
+}
+623 = {#
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 60668
+	}
+}
+

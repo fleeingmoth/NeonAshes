@@ -1,5 +1,5 @@
 capital = 1082 #
-primary_culture = sibeian_russian
+primary_culture = siberian_russian
 government = auth_democracy
 plurality = 25.0
 nationalvalue = nv_order

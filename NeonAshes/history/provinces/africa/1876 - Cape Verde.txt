@@ -1,2 +1,5 @@
+owner = CBV
+controller = CBV
+add_core = CBV
 trade_goods = timber
 life_rating = 35

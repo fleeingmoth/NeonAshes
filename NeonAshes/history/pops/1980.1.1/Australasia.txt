@@ -526,3 +526,10 @@
 		size = 1
 	}
 }
+2508 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 180
+	}
+}

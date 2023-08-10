@@ -2,5 +2,5 @@ owner = GUX
 controller = GUX
 add_core = GUX
 add_core = CHI
-trade_goods = timber
+trade_goods = fish
 life_rating = 35

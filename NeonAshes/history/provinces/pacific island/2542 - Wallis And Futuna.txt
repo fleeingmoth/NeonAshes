@@ -1,2 +1,5 @@
+owner = WAF
+controller = WAF
+add_core = WAF
 trade_goods = timber
 life_rating = 35

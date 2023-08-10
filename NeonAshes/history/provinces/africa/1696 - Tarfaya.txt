@@ -1,5 +1,5 @@
 owner = SAR
 controller = SAR
 add_core = SAR
-trade_goods = timber
+trade_goods = fish
 life_rating = 35

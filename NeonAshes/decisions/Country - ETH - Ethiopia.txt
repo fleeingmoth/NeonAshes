@@ -76,6 +76,9 @@ political_decisions = {
 		picture = flag_ethiopia_smallpic
 		potential = { 
 			tag = ETH
+			NOT={
+				has_country_flag = ETH_reformed
+			}
 		}
 		allow = {
 			war = no
@@ -95,6 +98,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 5
+			set_country_flag = ETH_reformed
 		}
 		ai_will_do = { factor = 1 }
 	}

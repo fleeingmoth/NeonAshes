@@ -38,3 +38,5 @@ upper_house = {
 # Starting Consciousness
 consciousness = 3
 
+# Order of Battle
+oob = "IRN_oob.txt"

@@ -6,6 +6,7 @@ country_event = { # End of the USSR
 	desc = "EVT_30200_DESC"
 
 	picture = "events_default"
+	fire_only_once = yes
 	trigger={
 		tag = SOV
 		month = 10

@@ -1,0 +1,170 @@
+
+397 = {#
+	farmers = {
+		culture = luxembourgian
+		religion = catholic
+		size = 77476
+	}
+}
+398 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 44762
+	}
+}
+396 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 86453
+	}
+}
+395 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 94563
+	}
+}
+392 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 82050
+	}
+}
+393 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 110242
+	}
+}
+394 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 102074
+	}
+}
+387 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 387354
+	}
+}
+388 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 217314
+	}
+}
+389 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 266238
+	}
+}
+390 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 315773
+	}
+}
+391 = {#
+	farmers = {
+		culture = belgian
+		religion = catholic
+		size = 145376
+	}
+}
+
+385 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 78816
+	}
+}
+383 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 70808
+	}
+}
+386 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 59312
+	}
+}
+384 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 135757
+	}
+}
+382 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 282877
+	}
+}
+377 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 142956
+	}
+}
+380 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 145342
+	}
+}
+379 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 151532
+	}
+}
+381 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 142823
+	}
+}
+375 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 317891
+	}
+}
+376 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 423210
+	}
+}
+378 = {#
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 46864
+	}
+}

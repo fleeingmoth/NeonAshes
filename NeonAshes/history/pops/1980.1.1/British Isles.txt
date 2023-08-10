@@ -293,3 +293,10 @@
 		size = 539475
 	}
 }
+2128 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 1
+	}
+}

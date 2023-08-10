@@ -1,5 +1,5 @@
 capital = 1387 #
-primary_culture = malaysian
+primary_culture = malay
 government = auth_democracy
 plurality = 25.0
 nationalvalue = nv_order

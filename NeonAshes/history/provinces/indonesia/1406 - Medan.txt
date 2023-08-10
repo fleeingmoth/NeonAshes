@@ -1,7 +1,6 @@
 owner = TPN
 controller = TPN
 add_core = TPN
-add_core = SMT
 add_core = INO
 trade_goods = timber
 life_rating = 35

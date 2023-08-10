@@ -2,5 +2,5 @@ owner = HNN
 controller = HNN
 add_core = HNN
 add_core = CHI
-trade_goods = timber
+trade_goods = other_metals
 life_rating = 35

@@ -1047,3 +1047,10 @@
 		size = 78421
 	}
 }
+1498 = {#
+	farmers = {
+		culture = chinese
+		religion = catholic
+		size = 61333
+	}
+}

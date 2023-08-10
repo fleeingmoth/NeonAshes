@@ -1,2 +1,5 @@
+owner = NWC
+controller = NWC
+add_core = NWC
 trade_goods = timber
 life_rating = 35

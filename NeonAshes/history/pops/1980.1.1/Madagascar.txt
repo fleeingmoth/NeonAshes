@@ -55,3 +55,41 @@
 		size = 312372
 	}
 }
+#comoros
+2123 = {#
+	farmers = {
+		culture = comorosian
+		religion = catholic
+		size = 82082
+	}
+}
+2124 = {#
+	farmers = {
+		culture = comorosian
+		religion = catholic
+		size = 13058
+	}
+}
+#Seychelles
+2127 = {#
+	farmers = {
+		culture = seychelles
+		religion = catholic
+		size = 15815
+	}
+}
+#Mauritius
+2125 = {#
+	farmers = {
+		culture = mauritiuan
+		religion = catholic
+		size = 241509
+	}
+}
+2126 = {#
+	farmers = {
+		culture = mauritiuan
+		religion = catholic
+		size = 137918
+	}
+}

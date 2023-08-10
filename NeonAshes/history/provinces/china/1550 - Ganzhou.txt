@@ -2,5 +2,5 @@ owner = JGX
 controller = JGX
 add_core = JGX
 add_core = CHI
-trade_goods = timber
+trade_goods = fibre_crops
 life_rating = 35

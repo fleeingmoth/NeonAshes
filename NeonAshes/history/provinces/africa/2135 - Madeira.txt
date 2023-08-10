@@ -1,2 +1,5 @@
+owner = MDI
+controller = MDI
+add_core = MDI
 trade_goods = timber
 life_rating = 35

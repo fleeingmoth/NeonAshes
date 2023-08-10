@@ -2,5 +2,5 @@ owner = ROC
 controller = ROC
 add_core = ROC
 add_core = CHI
-trade_goods = timber
+trade_goods = fish
 life_rating = 35

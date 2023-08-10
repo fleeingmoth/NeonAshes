@@ -1,0 +1,270 @@
+799 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 105817
+	}
+}
+798 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 135149
+	}
+}
+804 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 51329
+	}
+}
+797 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 58182
+	}
+}
+796 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 93025
+	}
+}
+795 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 136210
+	}
+}
+794 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 363638
+	}
+}
+791 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 53062
+	}
+}
+2538 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 198553
+	}
+}
+792 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 93167
+	}
+}
+
+802 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 200277
+	}
+}
+803 = {#
+	farmers = {
+		culture = serb
+		religion = catholic
+		size = 116610
+	}
+}
+
+784 = {#
+	farmers = {
+		culture = bosniak
+		religion = catholic
+		size = 51497
+	}
+}
+785 = {#
+	farmers = {
+		culture = bosniak
+		religion = catholic
+		size = 102745
+	}
+}
+786 = {#
+	farmers = {
+		culture = bosniak
+		religion = catholic
+		size = 87227
+	}
+}
+783 = {#
+	farmers = {
+		culture = bosniak
+		religion = catholic
+		size = 196638
+	}
+}
+789 = {#
+	farmers = {
+		culture = bosniak
+		religion = catholic
+		size = 17352
+	}
+}
+788 = {#
+	farmers = {
+		culture = bosniak
+		religion = catholic
+		size = 53487
+	}
+}
+787 = {#
+	farmers = {
+		culture = bosniak
+		religion = catholic
+		size = 132654
+	}
+}
+
+782 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 24871
+	}
+}
+780 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 126593
+	}
+}
+781 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 41731
+	}
+}
+774 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 19529
+	}
+}
+773 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 40026
+	}
+}
+771 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 244253
+	}
+}
+775 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 94193
+	}
+}
+772 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 54887
+	}
+}
+776 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 55211
+	}
+}
+777 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 57374
+	}
+}
+779 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 76601
+	}
+}
+793 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 48182
+	}
+}
+778 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 65368
+	}
+}
+770 = {#
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 40491
+	}
+}
+
+767 = {#
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 112428
+	}
+}
+768 = {#
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 134817
+	}
+}
+769 = {#
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 7380
+	}
+}
+737 = {#
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 17696
+	}
+}
+736 = {#
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 14679
+	}
+}

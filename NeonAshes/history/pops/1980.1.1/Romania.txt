@@ -1,0 +1,15 @@
+677 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 243371
+	}
+}
+676 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 453151
+	}
+}
+

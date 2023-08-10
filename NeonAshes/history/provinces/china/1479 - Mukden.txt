@@ -2,5 +2,5 @@ owner = MCH
 controller = MCH
 add_core = MCH
 add_core = CHI
-trade_goods = timber
+trade_goods = iron
 life_rating = 35

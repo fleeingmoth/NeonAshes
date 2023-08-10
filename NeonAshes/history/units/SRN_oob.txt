@@ -1,0 +1,48 @@
+army = {
+	name = "1st Dafiyan-e-Khalq"
+	location = 1115		# Sari
+	regiment = {
+		name= "1st Islamic Guard"
+		type = infantry
+		home = 1116	# 
+	}
+	regiment = {
+		name= "2nd Islamic Guard"
+		type = infantry
+		home = 1116	#
+	}
+	regiment = {
+		name= "3rd Islamic Guard"
+		type = infantry
+		home = 1116	#
+	}
+	regiment = {
+		name= "4th Islamic Guard"
+		type = infantry
+		home = 1116	# 
+	}
+}
+army = {
+	name = "2nd Dafiyan-e-Khalq"
+	location = 1142		# Bandar Abbas
+	regiment = {
+		name= "5th Islamic Guard"
+		type = infantry
+		home = 1116	# 
+	}
+	regiment = {
+		name= "6th Islamic Guard"
+		type = infantry
+		home = 1116	# 
+	}
+	regiment = {
+		name= "7th Islamic Guard"
+		type = infantry
+		home = 1116	#
+	}
+	regiment = {
+		name= "8th Islamic Guard"
+		type = infantry
+		home = 1116	#
+	}
+}

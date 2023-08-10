@@ -1,5 +1,5 @@
 owner = ETK
 controller = ETK
 add_core = ETK
-trade_goods = timber
+trade_goods = sheeps
 life_rating = 35

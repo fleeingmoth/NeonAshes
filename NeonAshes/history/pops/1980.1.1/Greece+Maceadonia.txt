@@ -1,0 +1,234 @@
+###Macedonia ###
+807 = {#
+	farmers = {
+		culture = north_macedonian
+		religion = orthodox
+		size = 192882
+	}
+}
+806 = {#
+	farmers = {
+		culture = north_macedonian
+		religion = orthodox
+		size = 212808
+	}
+}
+###Greece ###
+830 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 25437
+	}
+}
+829 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 29843
+	}
+}
+823 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 30249
+	}
+}
+822 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 105347
+	}
+}
+805 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 92867
+	}
+}
+821 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 57736
+	}
+}
+819 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 20874
+	}
+}
+820 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 22400
+	}
+}
+824 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 25437
+	}
+}
+826 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 14863
+	}
+}
+825 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 23639
+	}
+}
+833 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 30974
+	}
+}
+831 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 38431
+	}
+}
+832 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 39985
+	}
+}
+837 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 48731
+	}
+}
+827 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 13537
+	}
+}
+836 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 27836
+	}
+}
+835 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 33893
+	}
+}
+838 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 20486
+	}
+}
+834 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 539222
+	}
+}
+840 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 28733
+	}
+}
+842 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 55525
+	}
+}
+841 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 22516
+	}
+}
+839 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 34844
+	}
+}
+847 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 38761
+	}
+}
+848 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 41703
+	}
+}
+846 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 25431
+	}
+}
+845 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 12847
+	}
+}
+
+856 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 38251
+	}
+}
+855 = {#
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 64167
+	}
+}
+857 = {#
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 0
+	}
+}

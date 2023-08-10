@@ -1,2 +1,5 @@
+owner = MNL
+controller = MNL
+add_core = MNL
 trade_goods = timber
 life_rating = 35

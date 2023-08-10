@@ -1,2 +1,5 @@
+owner = TAH
+controller = TAH
+add_core = TAH
 trade_goods = timber
 life_rating = 35

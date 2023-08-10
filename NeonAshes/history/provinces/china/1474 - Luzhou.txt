@@ -2,5 +2,5 @@ owner = HUB
 controller = HUB
 add_core = HUB
 add_core = CHI
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

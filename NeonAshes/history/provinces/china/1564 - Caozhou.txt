@@ -2,5 +2,5 @@ owner = SHA
 controller = SHA
 add_core = SHA
 add_core = CHI
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

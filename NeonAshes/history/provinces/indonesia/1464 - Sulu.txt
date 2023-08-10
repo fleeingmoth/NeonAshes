@@ -1,2 +1,5 @@
+owner = MRO
+controller = MRO
+add_core = MRO
 trade_goods = timber
 life_rating = 35

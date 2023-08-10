@@ -1,0 +1,85 @@
+#
+2535 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 29539
+	}
+}
+2536 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 1932
+	}
+}
+2454 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 145341
+	}
+}
+2520 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 15804
+	}
+}
+2543 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 41226
+	}
+}
+2540 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 24177
+	}
+}
+2548 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 851
+	}
+}
+2547 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 331
+	}
+}
+2552 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 15
+	}
+}
+2542 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 2915
+	}
+}
+2527 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 7522
+	}
+}
+2541 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 7864
+	}
+}

@@ -1,5 +1,5 @@
 owner = TUA
 controller = TUA
 add_core = TUA
-trade_goods = timber
+trade_goods = cattle
 life_rating = 35

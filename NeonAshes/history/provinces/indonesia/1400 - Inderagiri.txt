@@ -1,7 +1,6 @@
 owner = RIU
 controller = RIU
 add_core = RIU
-add_core = SMT
 add_core = INO
 trade_goods = timber
 life_rating = 35

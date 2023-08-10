@@ -1,0 +1,73 @@
+army = {
+	name = "Islamic Revolutionary Guard"
+	location = 1121		# Tehran
+	regiment = {
+		name= "1st Islamic Guard"
+		type = infantry
+		home = 1121	# 
+	}
+	regiment = {
+		name= "2nd Islamic Guard"
+		type = infantry
+		home = 1121	#
+	}
+	regiment = {
+		name= "3rd Islamic Guard"
+		type = infantry
+		home = 1121	#
+	}
+	regiment = {
+		name= "4th Islamic Guard"
+		type = infantry
+		home = 1121	# 
+	}
+	regiment = {
+		name= "5th Islamic Guard"
+		type = infantry
+		home = 1121	# 
+	}
+	regiment = {
+		name= "6th Islamic Guard"
+		type = infantry
+		home = 1121	# 
+	}
+	regiment = {
+		name= "7th Islamic Guard"
+		type = infantry
+		home = 1121	#
+	}
+}
+army = {
+	name = "Army of Iran"
+	location = 1133		# 
+	regiment = {
+		name= "1st Iran Regulars Brigade"
+		type = infantry
+		home = 1120	# 
+	}
+	regiment = {
+		name= "2nd Iran Regulars Brigade"
+		type = infantry
+		home = 1128	# 
+	}
+	regiment = {
+		name= "3rd Iran Regulars Brigade"
+		type = infantry
+		home = 1121	# 
+	}
+	regiment = {
+		name= "4th Iran Regulars Brigade"
+		type = infantry
+		home = 1122	# 
+	}
+	regiment = {
+		name= "5th Iran Regulars Brigade"
+		type = infantry
+		home = 1137	# 
+	}
+	regiment = {
+		name= "6th Iran Regulars Brigade"
+		type = infantry
+		home = 1121	# 
+	}
+}

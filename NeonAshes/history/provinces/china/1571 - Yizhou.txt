@@ -2,5 +2,5 @@ owner = BEJ
 controller = BEJ
 add_core = BEJ
 add_core = CHI
-trade_goods = timber
+trade_goods = fibre_crops
 life_rating = 35

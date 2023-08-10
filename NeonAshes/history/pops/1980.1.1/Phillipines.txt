@@ -1,0 +1,92 @@
+##Phillipines
+1459 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 110940
+	}
+}
+1462 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 479023
+	}
+}
+1464 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 627118
+	}
+}
+1463 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 1577034
+	}
+}
+2565 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 964766
+	}
+}
+1461 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 641442
+	}
+}
+1457 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 821100
+	}
+}
+1460 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 1132599
+	}
+}
+1458 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 174854
+	}
+}
+1455 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 4333651
+	}
+}
+1456 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 491514
+	}
+}
+3299 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 745634
+	}
+}
+3300 = {#
+	farmers = {
+		culture = filipino
+		religion = catholic
+		size = 240700
+	}
+}

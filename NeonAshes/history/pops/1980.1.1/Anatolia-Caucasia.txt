@@ -97,6 +97,146 @@
 		size = 154096
 	}
 }
+872 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 89416
+	}
+}
+871 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 175851
+	}
+}
+869 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 540202
+	}
+}
+870 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 157521
+	}
+}
+866 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 101552
+	}
+}
+867 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 82112
+	}
+}
+868 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 88251
+	}
+}
+864 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 134543
+	}
+}
+865 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 58121
+	}
+}
+863 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 289933
+	}
+}
+862 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 245281
+	}
+}
+884 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 176448
+	}
+}
+883 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 179338
+	}
+}
+880 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 108866
+	}
+}
+881 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 267607
+	}
+}
+861 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 409187
+	}
+}
+860 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 843154
+	}
+}
+858 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 41057
+	}
+}
+859 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 77948
+	}
+}
+828 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 50325
+	}
+}
 
 899 = {#
 	farmers = {

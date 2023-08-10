@@ -1,2 +1,5 @@
+owner = COK
+controller = COK
+add_core = COK
 trade_goods = timber
 life_rating = 35

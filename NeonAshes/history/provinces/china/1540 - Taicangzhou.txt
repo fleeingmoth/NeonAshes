@@ -2,5 +2,5 @@ owner = SHG
 controller = SHG
 add_core = SHG
 add_core = CHI
-trade_goods = timber
+trade_goods = oilseed_crops
 life_rating = 35

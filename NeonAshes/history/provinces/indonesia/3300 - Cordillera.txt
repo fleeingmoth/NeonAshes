@@ -1,0 +1,5 @@
+owner = COR
+controller = COR
+add_core = COR
+trade_goods = timber
+life_rating = 35

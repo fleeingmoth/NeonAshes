@@ -2,5 +2,5 @@ owner = ROC
 controller = ROC
 add_core = ROC
 add_core = CHI
-trade_goods = timber
+trade_goods = tea_n_coffee
 life_rating = 35

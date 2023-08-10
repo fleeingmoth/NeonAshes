@@ -1,2 +1,5 @@
+owner = TVU
+controller = TVU
+add_core = TVU
 trade_goods = timber
 life_rating = 35

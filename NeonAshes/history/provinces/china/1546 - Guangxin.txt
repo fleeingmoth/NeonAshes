@@ -3,5 +3,5 @@ controller = NAN
 add_core = NAN
 add_core = JGX
 add_core = CHI
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

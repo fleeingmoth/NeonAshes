@@ -1,0 +1,78 @@
+###Bulgaria ###
+818 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 86292
+	}
+}
+814 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 96961
+	}
+}
+817 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 89847
+	}
+}
+816 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 318691
+	}
+}
+815 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 221764
+	}
+}
+808 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 69188
+	}
+}
+809 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 373746
+	}
+}
+810 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 131499
+	}
+}
+812 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 152056
+	}
+}
+811 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 100487
+	}
+}
+813 = {#
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 153142
+	}
+}

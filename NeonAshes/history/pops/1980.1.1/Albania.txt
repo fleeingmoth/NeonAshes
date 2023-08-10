@@ -1,0 +1,36 @@
+###Albania ###(about 477,362 pops)
+849 = {#
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 179745
+	}
+}
+850 = {#
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 64700
+	}
+}
+851 = {#
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 32779
+	}
+}
+852 = {#
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 90336
+	}
+}
+853 = {#
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 109800
+	}
+}

@@ -1,0 +1,112 @@
+733 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 265603
+	}
+}
+734 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 87852
+	}
+}
+735 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 99931
+	}
+}
+721 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 24155
+	}
+}
+722 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 438741
+	}
+}
+720 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 254312
+	}
+}
+723 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 269938
+	}
+}
+725 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 173784
+	}
+}
+724 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 214912
+	}
+}
+726 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 873854
+	}
+}
+727 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 658435
+	}
+}
+728 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 379416
+	}
+}
+732 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 254361
+	}
+}
+729 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 227312
+	}
+}
+731 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 243541
+	}
+}
+730 = {#
+	farmers = {
+		culture = italian
+		religion = catholic
+		size = 208674
+	}
+}

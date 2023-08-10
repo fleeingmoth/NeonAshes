@@ -884,3 +884,17 @@
 		size = 1003035
 	}
 }
+1325 = {#
+	farmers = {
+		culture = maldives
+		religion = hindu
+		size = 41221
+	}
+}
+1320 = {#
+	farmers = {
+		culture = andamans
+		religion = hindu
+		size = 47185
+	}
+}

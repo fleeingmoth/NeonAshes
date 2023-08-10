@@ -27,3 +27,39 @@
 		size = 1640
 	}
 }
+
+420 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 127863
+	}
+}
+421 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 138761
+	}
+}
+422 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 98246
+	}
+}
+423 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 125445
+	}
+}
+424 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 135416
+	}
+}

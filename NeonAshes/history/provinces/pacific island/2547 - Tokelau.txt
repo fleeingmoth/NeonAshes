@@ -1,2 +1,5 @@
+owner = TOK
+controller = TOK
+add_core = TOK
 trade_goods = timber
 life_rating = 35

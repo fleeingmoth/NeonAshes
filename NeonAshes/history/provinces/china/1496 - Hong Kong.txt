@@ -3,5 +3,5 @@ controller = GBN
 add_core = GBN
 add_core = HNK
 add_core = CHI
-trade_goods = timber
+trade_goods = fish
 life_rating = 35

@@ -1,5 +1,5 @@
 owner = MGS
 controller = MGS
 add_core = MGS
-trade_goods = timber
+trade_goods = oilseed_crops
 life_rating = 35

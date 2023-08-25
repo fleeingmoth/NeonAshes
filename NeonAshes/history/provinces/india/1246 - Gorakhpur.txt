@@ -1,5 +1,6 @@
-owner = HND
-controller = HND
+owner = DHI
+controller = DHI
+add_core = DHI
 add_core = HND
 trade_goods = timber
 life_rating = 35

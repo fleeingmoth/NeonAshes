@@ -1,5 +1,6 @@
 owner = BHI
 controller = BHI
 add_core = BHI
+add_core = HND
 trade_goods = grain
 life_rating = 35

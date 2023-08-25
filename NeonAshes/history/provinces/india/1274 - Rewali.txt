@@ -1,5 +1,6 @@
 owner = GDW
 controller = GDW
 add_core = GDW
+add_core = HND
 trade_goods = iron
 life_rating = 35

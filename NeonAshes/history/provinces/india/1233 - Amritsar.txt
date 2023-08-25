@@ -1,5 +1,6 @@
 owner = SKH
 controller = SKH
 add_core = SKH
+add_core = HND
 trade_goods = oilseed_crops
 life_rating = 35

@@ -308,7 +308,6 @@ TKY = "countries/Tokyo.txt"
 
 
 #West Africa
-
 MOR = "countries/Morocco.txt"
 ALG = "countries/Algeria.txt"
 TUS = "countries/Tunisia.txt"
@@ -377,7 +376,6 @@ UGA = "countries/Uganadan.txt"
 SUD = "countries/Sudan.txt"
 SSD = "countries/South Sudan.txt"
 DAF = "countries/Darfur.txt"
-
 
 #Ethiopia
 TNF = "countries/EPRDF.txt"
@@ -457,11 +455,10 @@ TLI = "countries/Taliban.txt"
 NAA = "countries/Northern Afghanistan.txt"
 
 # Indian Subcontinent
-
 PAK = "countries/Pakistan.txt"
 SKH = "countries/Khalistan.txt"
 KSJ = "countries/Kashmir.txt"
-HND = "countries/India.txt"
+DHI = "countries/Delhi.txt"
 RAJ = "countries/Rajastan.txt"
 BAN = "countries/Bengal.txt"
 SIK = "countries/Sikkim.txt"
@@ -481,6 +478,7 @@ GUJ = "countries/Gujarat.txt"
 DEC = "countries/Deccan Federation.txt"
 SRL = "countries/Sri Lanka.txt"
 MAL = "countries/Maldives.txt"
+HND = "countries/India.txt"
 
 BHU = "countries/Bhutan.txt"
 NEP = "countries/Nepal.txt"
@@ -498,7 +496,6 @@ MLY = "countries/Malaysia.txt"
 SGP = "countries/Singapore.txt"
 
 #Indonesia
-
 ACH = "countries/Aceh.txt"#
 TPN = "countries/Tapanuli.txt"#
 RIU = "countries/Riau.txt"#
@@ -566,7 +563,6 @@ TAH = "countries/Tahiti.txt"
 ESI = "countries/Easter Island.txt"
 WAF = "countries/Wallis and Futuna.txt"
 NAU = "countries/Nauru.txt"
-
 
 ## HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

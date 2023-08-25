@@ -1,5 +1,6 @@
 owner = GUJ
 controller = GUJ
 add_core = GUJ
+add_core = HND
 trade_goods = fish
 life_rating = 35

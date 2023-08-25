@@ -1,5 +1,6 @@
 owner = NAX
 controller = NAX
 add_core = NAX
+add_core = HND
 trade_goods = bauxite
 life_rating = 35

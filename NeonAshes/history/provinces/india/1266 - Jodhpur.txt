@@ -1,5 +1,6 @@
 owner = RAJ
 controller = RAJ
 add_core = RAJ
+add_core = HND
 trade_goods = fibre_crops
 life_rating = 35

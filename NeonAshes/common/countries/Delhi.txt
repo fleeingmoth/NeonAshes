@@ -1,11 +1,8 @@
-color = { 178 177 135 }
-socialist_dictatorship = { 204 9 47 }
-socialist_democracy = { 204 9 47 }
-communist_state = { 204 9 47 }
+color = { 149 170 163 }
 graphical_culture = BritishGC
 
 party = {
-	name = "ANG_social_democrat"
+	name = "DHI_social_democrat"
 	start_date = 1980.1.1
 	end_date = 2200.1.1
 	ideology = social_democrat
@@ -16,7 +13,7 @@ party = {
 	war_policy = anti_military
 }
 party = {
-	name = "ANG_socialist"
+	name = "DHI_socialist"
 	start_date = 1980.1.1
 	end_date = 2200.1.1
 	ideology = socialist
@@ -27,7 +24,7 @@ party = {
 	war_policy = anti_military
 }
 party = {
-	name = "ANG_communist"
+	name = "DHI_communist"
 	start_date = 1980.1.1
 	end_date = 2200.1.1
 	ideology = communist
@@ -38,7 +35,7 @@ party = {
 	war_policy = pro_military
 }
 party = {
-	name = "ANG_liberal"
+	name = "DHI_liberal"
 	start_date = 1980.1.1
 	end_date = 2200.1.1
 	ideology = liberal
@@ -49,7 +46,7 @@ party = {
 	war_policy = anti_military
 }
 party = {
-	name = "ANG_anarcho_liberal"
+	name = "DHI_anarcho_liberal"
 	start_date = 1980.1.1
 	end_date = 2200.1.1
 	ideology = anarcho_liberal
@@ -60,7 +57,7 @@ party = {
 	war_policy = pacifism
 }
 party = {
-	name = "ANG_green"
+	name = "DHI_green"
 	start_date = 1980.1.1
 	end_date = 2200.1.1
 	ideology = green
@@ -71,7 +68,7 @@ party = {
 	war_policy = pacifism
 }
 party = {
-	name = "ANG_conservative"
+	name = "DHI_conservative"
 	start_date = 1980.1.1
 	end_date = 2200.1.1
 	ideology = conservative
@@ -82,7 +79,7 @@ party = {
 	war_policy = pro_military
 }
 party = {
-	name = "ANG_nationalist"
+	name = "DHI_nationalist"
 	start_date = 1980.1.1
 	end_date = 2200.1.1
 	ideology = nationalist
@@ -93,7 +90,7 @@ party = {
 	war_policy = pro_military
 }
 party = {
-	name = "ANG_traditionalist"
+	name = "DHI_traditionalist"
 	start_date = 1980.1.1
 	end_date = 2200.1.1
 	ideology = traditionalist
@@ -104,7 +101,7 @@ party = {
 	war_policy = pro_military
 }
 party = {
-	name = "ANG_ultranationalist"
+	name = "DHI_ultranationalist"
 	start_date = 1980.1.1
 	end_date = 2200.1.1
 	ideology = ultranationalist

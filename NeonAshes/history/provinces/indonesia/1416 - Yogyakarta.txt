@@ -2,5 +2,5 @@ owner = YOG
 controller = YOG
 add_core = YOG
 add_core = INO
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

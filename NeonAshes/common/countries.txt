@@ -188,7 +188,7 @@ GLS = "countries/Glasgow.txt" #3-way division of scotland
 #GIUK Formables
 #ENG = "countries/England.txt"
 NNG = "countries/North England.txt"
-#GBR = "countries/United Kingdom.txt"
+GBR = "countries/United Kingdom.txt"
 IRE = "countries/Ireland.txt"
 SCO = "countries/Scotland.txt"
 

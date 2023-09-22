@@ -2,5 +2,5 @@ owner = FLO
 controller = FLO
 add_core = FLO
 add_core = INO
-trade_goods = timber
+trade_goods = tea_n_coffee
 life_rating = 35

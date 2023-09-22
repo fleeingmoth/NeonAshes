@@ -2,5 +2,5 @@ owner = GTM
 controller = GTM
 add_core = GTM
 add_core = INO
-trade_goods = timber
+trade_goods = oil
 life_rating = 35

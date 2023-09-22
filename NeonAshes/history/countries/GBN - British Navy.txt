@@ -35,6 +35,9 @@ upper_house = {
 }
 
 # Technologies
+green_water_navy = 1
+blue_water_navy = 1
+regional_power_projection = 1
 
 # Starting Consciousness
 consciousness = 3

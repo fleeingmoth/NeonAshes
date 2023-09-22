@@ -1,0 +1,61 @@
+political_decisions = {
+	GBR_unification_GBN = { #
+		news = yes
+		news_desc_long = "GBR_unification_NEWS_LONG"
+		news_desc_medium = "GBR_unification_NEWS_MEDIUM"
+		news_desc_short = "GBR_unification_NEWS_SHORT"
+		picture = flags_united_kingdom_smallpic
+		potential = {
+			tag = GBN
+			#institutionalism = 1					# We have Institutionalism
+			NOT = { exists = GBR }					# UK already unified
+		}
+		allow = {
+			new_international_system = 1				# We have New International System
+			war = no
+			NOT={
+				GBR_unified = {
+					NOT={
+						OR={
+							owned_by = THIS
+							owner={
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 2			# Tiny badboy hit
+			prestige = 10			# Rising up in the world
+			GBR_unified = { add_core = GBR }	# All of the UK becomes UK cores
+			change_tag = GBR		# We become the UK
+			capital = 300
+			# any_country = {
+				# limit = {
+					# OR = {
+						# tag = BCB
+						# tag = CPR
+						# tag = MAR
+						# tag = NFL
+						# tag = NWT
+						# tag = ONT
+						# tag = QBC
+						# tag = WCA
+						# tag = ECA
+					# }
+				# }
+				# country_event = {
+					# id = 18201
+					# days = 0
+				# }
+			# }
+			# country_event = { #change to custom event
+				# id = 
+				# days = 0
+			# }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

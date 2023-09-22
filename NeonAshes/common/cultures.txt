@@ -2492,13 +2492,6 @@ neo_european_cultures = {
 		}
 		radicalism = 10
 	}
-	australian = {
-		color = {87 113 174}
-		first_names = { John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
-		}
-		last_names = { Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
-		}	
-	}
 	anglo_canadian = {
 		color = {248 165 255}
 		first_names = { Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
@@ -2542,6 +2535,11 @@ neo_european_cultures = {
 		last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
 		}
 	}
+	
+}
+anglo_australasian_cultures = {
+	leader = european
+	is_overseas = no
 	new_zealander = {
 		color = {128 128 128}
 		first_names = { John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
@@ -2549,8 +2547,13 @@ neo_european_cultures = {
 		last_names = { Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
 		}	
 	}
-
-
+	australian = {
+		color = {87 113 174}
+		first_names = { John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
+		}
+		last_names = { Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
+		}	
+	}
 }
 
 latin_american_cultures = {

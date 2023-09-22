@@ -1,0 +1,34 @@
+army = {
+	name = "OAS Peacekeepers"
+	location = 1783		# Dakar
+	regiment = {
+		name= "1st OAS Peacekeepers"
+		type = infantry
+		home = 1783	# Dakar
+	}
+	regiment = {
+		name= "2nd OAS Peacekeepers"
+		type = infantry
+		home = 1783	# Dakar
+	}
+	regiment = {
+		name= "3rd OAS Peacekeepers"
+		type = infantry
+		home = 1783	# Dakar
+	}
+	regiment = {
+		name= "4th OAS Peacekeepers"
+		type = infantry
+		home = 1783	# Dakar
+	}
+	regiment = {
+		name= "5th OAS Peacekeepers"
+		type = infantry
+		home = 1783	# Dakar
+	}
+	regiment = {
+		name= "6th OAS Peacekeepers"
+		type = infantry
+		home = 1783	# Dakar
+	}
+}

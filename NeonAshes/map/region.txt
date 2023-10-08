@@ -1204,4 +1204,23 @@ RUS_718 = { 718 941 942 } #Minsk
 
 IND_1234 = { 1234 1233 1235 1237 }
 
+#Major Regions
+
 GBR_unified = { 299 298 297 303 302 301 300 294 296 273 274 275 276 293 295 291 289 287 286 284 290 283 285 278 277 282 281 280 279 272 271 269 268 270 266 267 292 288 304 }
+
+
+#Tooltip Regions
+oas_unity_tooltip_0 = { }
+oas_unity_tooltip_1 = { }
+oas_unity_tooltip_2 = { }
+oas_unity_tooltip_3 = { }
+oas_unity_tooltip_4 = { }
+oas_unity_tooltip_5 = { }
+oas_unity_tooltip_6 = { }
+oas_unity_tooltip_7 = { }
+oas_unity_tooltip_8 = { }
+oas_unity_tooltip_9 = { }
+oas_unity_tooltip_10 = { }
+evt_31004_opta_tt = {}
+oas_unity_tooltip_gain = { }
+oas_unity_tooltip_lower = { }

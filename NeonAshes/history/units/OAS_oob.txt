@@ -32,3 +32,49 @@ army = {
 		home = 1783	# Dakar
 	}
 }
+
+SNG = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+LIB = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+IVO = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+UPV = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+BEN = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+GHA = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+TOG = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+NGE = {
+	value = 150		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+GUI = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}

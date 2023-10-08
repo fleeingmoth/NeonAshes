@@ -1,0 +1,238 @@
+# 31000 - 31199 - OAS Events
+
+country_event = { # Sankaras Uprising
+	id = 31000
+	title = "EVT_31000_NAME"
+	desc = "EVT_31000_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = UPV
+		year = 1983
+	}
+	option = {
+		name = "EVT_31000_OPTA" # Sankara Uprisisng
+		set_global_flag = sankaras_uprising_flag
+		all_core={
+			add_core = BKF
+		}
+		1901={secede_province = BKF}
+		1902={secede_province = BKF}
+		1903={secede_province = BKF}
+		random_owned = {
+			limit = {
+				UPV={
+					substate_of = OAS
+				}
+			}
+			owner = {
+				1905={secede_province = BKF}
+				OAS={
+					country_event = 31001
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					is_substate = no
+				}
+			}
+			owner={
+				war = {
+					target = BKF
+					attacker_goal = {
+						casus_belli = civil_war
+					}
+					defender_goal = {
+						casus_belli = civil_war
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 79
+		}
+	}
+	option = {
+		name = "EVT_31000_OPTB" # side with Sankara
+		set_global_flag = sankaras_uprising_flag
+		all_core={
+			add_core = BKF
+		}
+		1901={secede_province = BKF}
+		1902={secede_province = BKF}
+		1903={secede_province = BKF}
+		random_owned = {
+			limit = {
+				UPV={
+					substate_of = OAS
+				}
+			}
+			owner = {
+				1905={secede_province = BKF}
+				OAS={
+					country_event = 31001
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					is_substate = no
+				}
+			}
+			owner={
+				war = {
+					target = BKF
+					attacker_goal = {
+						casus_belli = civil_war
+					}
+					defender_goal = {
+						casus_belli = civil_war
+					}
+				}
+			}
+		}
+		change_tag_no_core_switch = BKF
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = { # Sankaras Uprising
+	id = 31001
+	title = "EVT_31001_NAME"
+	desc = "EVT_31001_DESC"
+
+	picture = "events_default"
+	is_triggered_only = yes
+	option = {
+		name = "EVT_31001_OPTA" # Sankara Uprisisng
+			war = {
+				target = BKF
+				attacker_goal = {
+					casus_belli = annex_core_country
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+			}
+		
+		
+		ai_chance = {
+			factor = 79
+		}
+	}
+}
+country_event = { # Sankaras Uprising fails
+	id = 31002
+	title = "EVT_31002_NAME"
+	desc = "EVT_31002_DESC"
+
+	picture = "events_default"
+	
+	trigger={
+		tag = UPV
+		BKF={exists = no}
+		has_global_flag = sankaras_uprising_flag
+	}
+	#is_triggered_only = yes
+	option = {
+		name = "EVT_31002_OPTA" # 
+		BKF={
+			all_core={
+				secede_province = UPV
+				remove_core = BKF
+			}
+		}
+		clr_global_flag = sankaras_uprising_flag
+		
+		ai_chance = {
+			factor = 79
+		}
+	}
+	option = {
+		name = "EVT_31002_OPTB" # keep the name change
+		BKF={
+			all_core={
+				secede_province = UPV
+				remove_core = UPV
+			}
+		}
+		change_tag = BKF
+		clr_global_flag = sankaras_uprising_flag
+		
+		ai_chance = {
+			factor = 21
+		}
+	}
+}
+
+country_event = { # Sankaras Uprising succeeds
+	id = 31003
+	title = "EVT_31003_NAME"
+	desc = "EVT_31003_DESC"
+
+	picture = "events_default"
+	
+	trigger={
+		tag = BKF
+		UPV={exists = no}
+		has_global_flag = sankaras_uprising_flag
+	}
+	#is_triggered_only = yes
+	option = {
+		name = "EVT_31003_OPTA" # 
+		UPV={
+			all_core={
+				secede_province = BKF
+				remove_core = UPV
+			}
+		}
+		clr_global_flag = sankaras_uprising_flag
+		OAS={
+			change_variable = {
+				which = oas_unity
+				value = -1
+			}
+		}
+		ai_chance = {
+			factor = 79
+		}
+	}
+}
+country_event = { #Abandon Mali Federation or not
+	id = 31004
+	title = "EVT_31004_NAME"
+	desc = "EVT_31004_DESC"
+
+	picture = "events_default"
+	
+	trigger={
+		tag = OAS
+		NOT={year = 1981}
+	}
+	fire_only_once = yes
+	option = {
+		name = "EVT_31004_OPTA" # preserve the MF Institutions
+		evt_31004_opta_tt={}
+		set_country_flag = OAS_preserve_mali
+		ai_chance = {
+			factor = 36
+		}
+	}
+	option = {
+		name = "EVT_31004_OPTB" # Fully Integrate the Institutions
+		change_variable = {
+			which = oas_unity
+			value = 1
+		}
+		oas_unity_tooltip_gain = {}
+		ai_chance = {
+			factor = 64
+		}
+	}
+}

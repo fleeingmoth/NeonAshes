@@ -196,7 +196,7 @@
 	farmers = {
 		culture = malian
 		religion = catholic
-		size = 261818
+		size = 236418
 	}
 	clergymen = {
 		culture = malian
@@ -212,6 +212,11 @@
 		culture = malian
 		religion = catholic
 		size = 87812
+	}
+	craftsmen = {
+		culture = malian
+		religion = catholic
+		size = 25400
 	}
 	soldiers = {
 		culture = malian

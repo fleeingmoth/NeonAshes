@@ -106,7 +106,7 @@ industrial_goods = {
 		color = { 145 110 89 }
 	}
 	fertilizer = { 
-		cost = 1.0 # 1980 Kilodollars per tonne.
+		cost = 2.0 # 1980 Kilodollars per 10 tonnes.
 		color = { 133 101 35 }
 	}
 	fuel = { 

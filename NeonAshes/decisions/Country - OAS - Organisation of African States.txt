@@ -1,0 +1,217 @@
+political_decisions = {
+	OAS_unity = { #information tooltip
+		picture = symbol_OAS_smallpic
+		potential = { 
+			tag = OAS
+		}
+		allow = {
+			always = no
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						NOT={
+							check_variable = {
+								which = oas_unity
+								value = 1
+							}
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_0 = {}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = oas_unity
+							value = 1
+						}
+						NOT={
+							check_variable = {
+								which = oas_unity
+								value = 2
+							}
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_1 = {}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = oas_unity
+							value = 2
+						}
+						NOT={
+							check_variable = {
+								which = oas_unity
+								value = 3
+							}
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_2 = {}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = oas_unity
+							value = 3
+						}
+						NOT={
+							check_variable = {
+								which = oas_unity
+								value = 4
+							}
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_3 = {}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = oas_unity
+							value = 4
+						}
+						NOT={
+							check_variable = {
+								which = oas_unity
+								value = 5
+							}
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_4 = {}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = oas_unity
+							value = 5
+						}
+						NOT={
+							check_variable = {
+								which = oas_unity
+								value = 6
+							}
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_5 = {}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = oas_unity
+							value = 6
+						}
+						NOT={
+							check_variable = {
+								which = oas_unity
+								value = 7
+							}
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_6 = {}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = oas_unity
+							value = 7
+						}
+						NOT={
+							check_variable = {
+								which = oas_unity
+								value = 8
+							}
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_7 = {}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = oas_unity
+							value = 8
+						}
+						NOT={
+							check_variable = {
+								which = oas_unity
+								value = 9
+							}
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_8 = {}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = oas_unity
+							value = 9
+						}
+						NOT={
+							check_variable = {
+								which = oas_unity
+								value = 10
+							}
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_9 = {}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = oas_unity
+							value = 10
+						}
+					}
+				}
+				owner = {
+					oas_unity_tooltip_10 = {}
+				}
+			}
+			change_variable = {
+				which = oas_unity
+				value = 1
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

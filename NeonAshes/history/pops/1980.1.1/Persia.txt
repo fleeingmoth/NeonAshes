@@ -81,7 +81,12 @@
 	farmers = {
 		culture = khuzestani
 		religion = shiite
-		size = 315837
+		size = 308002
+	}
+	craftsmen = {
+		culture = khuzestani
+		religion = shiite
+		size = 7835
 	}
 }
 1131 = {#
@@ -215,6 +220,11 @@
 		culture = iranian
 		religion = shiite
 		size = 84312
+	}
+	craftsmen = {
+		culture = iranian
+		religion = shiite
+		size = 5314
 	}
 }
 1138 = {#

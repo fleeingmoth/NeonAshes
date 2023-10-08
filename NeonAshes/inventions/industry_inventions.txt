@@ -157,7 +157,55 @@ ultra_supercritical_steam_generator = { # Supercritical Steam Generator
 
 ### Nuclear Energy ###
 
+simple_nuclear_reactor = { #
+	limit = { nuclear_energy = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 1
+			renewable_energy = 1
+		}
+		modifier = {
+			factor = 1
+			digital_automation = 1
+		}
+		modifier = {
+			factor = 1
+			metamaterials = 1
+		}
+		modifier = {
+			factor = -4
+			NOT = { invention = supercritical_steam_generator }
+		}
+	}
+	effect = {
+		activate_building = nuclear_reactor
+	}
+}
+
 ### Renewable Energy ###
+
+energy_storage_solutions = { #
+	limit = { renewable_energy = 1 }
+	chance = {
+		base = 5
+		modifier = {
+			factor = 1
+			renewable_energy = 1
+		}
+		modifier = {
+			factor = 1
+			digital_automation = 1
+		}
+		modifier = {
+			factor = 1
+			metamaterials = 1
+		}
+	}
+	effect = {
+		activate_building = battery_factory
+	}
+}
 
 ### Smart Grid ###
 

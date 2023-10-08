@@ -266,9 +266,56 @@ small_arms_factory = {
 
 ### Heavy Weapons ###
 
+heavy_weapons_factory = {       
+	template = modern_factory_template
+	input_goods = {           
+		steel = 3.00 			# 
+		polymers_and_plastics = 4.00 	# 
+		electronic_components = 0.20 		# 
+		machine_parts = 0.2
+	}
+	output_goods = heavy_weapons 			# Total cost of inputs	# 29.00
+	value = 1.00					# Total value of goods	# 32.00
+	bonus = {
+		trigger = { has_building = steel_mill }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { has_building = chemical_plant }
+		value = 0.05
+	}
+	bonus = {
+		trigger = { has_building = adv_ammo_factory } # Military-Industrial Synergy
+		value = 0.10
+	}
+}
+
 ### Electronic Weapons ###
 
+elec_weapons_factory = {       
+	template = modern_factory_template
+	input_goods = {           
+		batteries = 3.00 			# 
+		polymers_and_plastics = 4.00 	# 
+		electronic_components = 1.00 		# 
+	}
+	output_goods = elec_weapons 			# Total cost of inputs	# 29.00
+	value = 1.00					# Total value of goods	# 32.00
+}
+
 ### Armored Vehicles ###
+
+military_armor_factory = {       
+	template = modern_factory_template
+	input_goods = {           
+		motor_vehicles = 1.00 			# 
+		steel = 10.00 	# 
+		heavy_weapons = 1.00
+		electronic_components = 2.00 		# 
+	}
+	output_goods = armored_vehicles 			# Total cost of inputs	# 29.00
+	value = 1.00					# Total value of goods	# 32.00
+}
 
 ### ### Industrial Goods Factories ### ###
 
@@ -421,8 +468,46 @@ oil_power_plant = {
 		value = 0.15
 	}
 }
+nuclear_reactor = {       
+	template = energy_power_template
+	input_goods = { 
+		other_metals = 1.00 			# 10,000 barrels	# 30
+	}
+	output_goods = energy			# Total cost of inputs	# 30
+	value = 50.00				# Total value of goods	# 40
+	bonus = {
+		trigger = { trade_goods_in_state = other_metals }
+		value = 0.25
+	}
+}
+hydro_electric_dam = {       
+	template = energy_power_template
+	input_goods = { 
+		other_metals = 1.00 			# 10,000 barrels	# 30
+	}
+	output_goods = energy			# Total cost of inputs	# 30
+	value = 100.00				# Total value of goods	# 40
+	#bonii will be tied to state modifiers
+	#bonus = {
+	#	trigger = { trade_goods_in_state = other_metals }
+	#	value = 0.25
+	#}
+}
 
 ### Fertilizer ###
+
+fertilizer_manufactory = {       
+	template = labor_heavy_factory_template
+	input_goods = { 
+		phosphate = 6.00 			# 10,000 barrels	# 30
+	}
+	output_goods = fertilizer	# Total cost of inputs	# 31
+	value = 18.00				# Total value of goods	# 36
+	bonus = {
+		trigger = { trade_goods_in_state = phosphate }
+		value = 0.25
+	}
+}
 
 ### Fuel (aka refineries)
 
@@ -436,6 +521,21 @@ oil_refinery = {
 	value = 3.00				# Total value of goods	# 36
 	bonus = {
 		trigger = { trade_goods_in_state = oil }
+		value = 0.25
+	}
+}
+biofuel_refinery = {       
+	template = labor_heavy_factory_template
+	input_goods = { 
+		grain = 100.00 			# 
+		oilseed_crops = 50.00 	# 
+		sugar = 5.00 			# 
+		other_metals = 0.10		# 10 tonnes		#  1
+	}
+	output_goods = fuel			# Total cost of inputs	# 31
+	value = 3.00				# Total value of goods	# 36
+	bonus = {
+		trigger = { trade_goods_in_state = oilseed_crops }
 		value = 0.25
 	}
 }
@@ -548,6 +648,41 @@ engine_factory = {
 
 ### Batteries ###
 
+battery_factory = {       
+	template = labor_heavy_factory_template
+	input_goods = { 
+		copper = 10.00 			# 
+		energy = 50.00
+		other_metals = 5.00
+	}
+	output_goods = batteries			# Total cost of inputs	# 80
+	value = 15		# Total value of goods	# 85
+	bonus = {
+		trigger = { trade_goods_in_state = copper }
+		value = 0.15
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = other_metals }
+		value = 0.15
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = energy }
+		value = 0.15
+	}
+	bonus = {
+		trigger = { 
+			OR={
+				has_building = oil_power_plant 
+				has_building = nuclear_reactor_plant
+				has_building = coal_power_plant
+				has_building = hydro_electric_plant
+			}
+		}
+		value = 0.15
+	}
+}
+
+
 ### ### Consumer Goods Factories ###
 
 ### Meat Processing Factories ###
@@ -564,8 +699,48 @@ fish_factory = {
 		value = 0.20
 	}
 }
+cold_works = {       
+	template = labor_heavy_factory_template
+	input_goods = { 
+		cattle = 10.00 			# 
+		sheeps = 10.00 			#
+	}
+	output_goods = meats			# Total cost of inputs	# 80
+	value = 70			# Total value of goods	# 85
+	bonus = {
+		trigger = { trade_goods_in_state = cattle }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = sheep }
+		value = 0.10
+	}
+}
 
 ### Alcoholic Beverages (aka breweries) ###
+
+brewing_facility = {
+	template = labor_heavy_factory_template
+	input_goods = {
+		fruit = 30.00		# 
+		grains = 30.00	# 
+		sugar = 10
+	}
+	output_goods = alcohol_beverages			# Total cost of inputs	# 85
+	value = 10				# Total value of goods	# 100
+	bonus = {
+		trigger = { trade_goods_in_state = fruit }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = grains }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = sugar }
+		value = 0.10
+	}
+}
 
 ### Clothing ###
 
@@ -589,11 +764,101 @@ clothing_manufacturer = {
 
 ### Furniture ###
 
+furniture_manufacturer = {
+	template = labor_heavy_factory_template
+	input_goods = {
+		textiles = 30.00		# 
+		timber = 50.00	# 
+	}
+	output_goods = furniture			# Total cost of inputs	# 85
+	value = 20				# Total value of goods	# 100
+	bonus = {
+		trigger = { has_building = textile_mill }
+		value = 0.20
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = timber }
+		value = 0.10
+	}
+}
+
 ### Pharmaceuticals and Medical Equipment ###
+
+pharmaceuticals_manufacturer = {
+	template = labor_heavy_factory_template
+	input_goods = {
+		tea_n_coffee = 1.00		# 
+		fibre = 1.00	# 
+		oilseed_crops = 1.00
+		alcohol_beverages = 1.00
+	}
+	output_goods = pharma_n_equipment			# Total cost of inputs	# 85
+	value = 20				# Total value of goods	# 100
+	bonus = {
+		trigger = { has_building = brewing_facility }
+		value = 0.20
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = tea_n_coffee }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = fibre }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = oilseed_crops }
+		value = 0.10
+	}
+}
 
 ### Office Supplies ###
 
+stationary_manufacturer = {
+	template = labor_heavy_factory_template
+	input_goods = {
+		timber = 1.00		# 
+		oilseed_crops = 1.00
+	}
+	output_goods = office_supplies			# Total cost of inputs	# 85
+	value = 20				# Total value of goods	# 100
+	bonus = {
+		trigger = { trade_goods_in_state = timber }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = oilseed_crops }
+		value = 0.10
+	}
+}
 ### Consumer Electronics ###
+
+consumer_electronics_factory = {       
+	template = modern_factory_template
+	input_goods = { 			# Silicon is locally-sourced
+		electronic_components = 1.00			# 1 tonne of copper		# 2
+		steel = 1.00			# 1 tonne of aluminum		# 2
+		polymers_and_plastics = 1.00	# 1 tonne of plastics		# 2.50
+	}
+	output_goods = consumer_electronics	# Total cost of inputs	# 9
+	value = 10	# 100 computers-ish	# Total value of goods	# 10
+	bonus = {
+		trigger = { trade_goods_in_state = copper }
+		value = 0.05
+	}
+	bonus = {
+		trigger = { has_building = aluminum_refinery }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { has_building = chemical_plant }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = other_metals }
+		value = 0.05
+	}
+}
 
 ### Motor Vehicles ###
 
@@ -620,12 +885,90 @@ traditional_vehicle_assembly = {
 		value = 0.05
 	}
 }
+electric_vehicle_assembly = {
+	template = modern_factory_template
+	input_goods = {
+		consumer_electronics = 20.00			# 
+		aluminum = 25.00			# 
+		batteries = 2.00			# 
+		textiles = 10.00		# 
+	}
+	output_goods = motor_vehicles		# Total cost of inputs	# 540
+	value = 5				# Total value of goods	# 600
+	bonus = {
+		trigger = { has_building = aluminum_refinery }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { has_building = textile_mill }
+		value = 0.10
+	}
+}
 
 ### Aircraft ###
 
+aerospace_manufacturer = {
+	template = modern_factory_template
+	input_goods = {
+		engines = 20.00			# 
+		aluminum = 25.00			# 
+		consumer_electronics = 2.00			# 
+		textiles = 10.00		# 
+	}
+	output_goods = aircraft		# Total cost of inputs	# 540
+	value = 5				# Total value of goods	# 80
+	bonus = {
+		trigger = { has_building = aluminum_refinery }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { has_building = textile_mill }
+		value = 0.10
+	}
+}
+
 ### Ships ###
 
+shipyard = {
+	template = labor_heavy_factory_template
+	input_goods = {
+		engines = 20.00			# 
+		steel = 10.00			# 
+		electronic_components = 2.00			# 
+	}
+	output_goods = ships		# Total cost of inputs	# 540
+	value = 5				# Total value of goods	# 80
+	bonus = {
+		trigger = { has_building = engine_factory }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { has_building = electronic_components_factory }
+		value = 0.10
+	}
+}
+
 ### Spacecraft ###
+
+rocket_factory = {
+	template = labor_heavy_factory_template
+	input_goods = {
+		fuel = 20.00			# 
+		steel = 100.00			# 
+		consumer_electronics = 2.00			# 
+		other_metals = 2.00			# 
+	}
+	output_goods = spacecraft		# Total cost of inputs	# 540
+	value = 2				# Total value of goods	# 80
+	bonus = {
+		trigger = { has_building = engine_factory }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { has_building = electronic_components_factory }
+		value = 0.10
+	}
+}
 
 ### ### ### RGOs ### ### ###
 
@@ -781,7 +1124,7 @@ orchard = {
 phosphate_mine = {
 	template = RGO_template_labourers
 	output_goods = phosphate
-	value = 2
+	value = 3
 	mine = yes
 }
 
@@ -1091,6 +1434,34 @@ artisan_aluminum = {			# Each unit is a tonne of aluminum.
 	type = artisan
 	workforce = 10000
 }
+artisan_composter = {			# Each unit is a tonne of Fert.
+	input_goods = {
+		grain = 20.00		# 100 tonnes of Grain		# 3
+	}
+	output_goods = fertilizer			# Total cost of inputs	# 93
+	value = 15			# Total value of goods	# 100
+	owner = {				# Profit		# 50
+		poptype = artisans
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+artisan_aluminum = {			# Each unit is a tonne of aluminum.
+	input_goods = {
+		bauxite = 1.00		# 100 tonnes of bauxite		# 3
+		energy = 200.00		# 200,000 MWh			# 80
+		other_metals = 1.00	# 100 tonnes of other metals	# 10
+	}
+	output_goods = aluminum			# Total cost of inputs	# 93
+	value = 50				# Total value of goods	# 100
+	owner = {				# Profit		# 50
+		poptype = artisans
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
 
 ### Engines ###
 
@@ -1113,19 +1484,19 @@ artisan_engines = {				# Each unit is 100 car engines
 
 ### ### Consumer Goods ### ###
 
-#artisan_timber_furniture = {		# Each unit is 1,000 pieces (roughly a single bed, 50kg), 50 tons total.
-#	input_goods = { 
-#		timber = 3.00		# 300 tons of timber		# 15
-#	}
-#	output_goods = furniture	# Total cost of inputs		# 15
-#	value = 2			# Total value of goods		# 20
-#	owner = {			# Profit			#  5
-#		poptype = artisans
-#		effect = output
-#	}
-#	type = artisan
-#	workforce = 10000
-#}
+artisan_timber_furniture = {		# Each unit is 1,000 pieces (roughly a single bed, 50kg), 50 tons total.
+	input_goods = { 
+		timber = 3.00		# 300 tons of timber		# 15
+	}
+	output_goods = furniture	# Total cost of inputs		# 15
+	value = 2			# Total value of goods		# 20
+	owner = {			# Profit			#  5
+		poptype = artisans
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
 
 ### Motor Vehicles ###
 

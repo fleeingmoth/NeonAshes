@@ -1,5 +1,5 @@
 owner = MOZ
 controller = MOZ
 add_core = MOZ
-trade_goods = timber
+trade_goods = tea_n_coffee
 life_rating = 35

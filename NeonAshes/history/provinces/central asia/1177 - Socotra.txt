@@ -1,5 +1,5 @@
 owner = SYM
 controller = SYM
 add_core = SYM
-trade_goods = timber
+trade_goods = fish
 life_rating = 35

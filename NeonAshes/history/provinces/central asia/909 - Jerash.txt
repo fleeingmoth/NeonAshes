@@ -1,5 +1,5 @@
 owner = JOR
 controller = JOR
 add_core = JOR
-trade_goods = timber
+trade_goods = fruit
 life_rating = 35

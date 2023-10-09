@@ -1,5 +1,15 @@
 owner = ERI
 controller = ERI
 add_core = ERI
-trade_goods = timber
+trade_goods = grain
 life_rating = 35
+state_building = {
+	level = 1
+	building = traditional_vehicle_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = construction_factory
+	upgrade = yes
+}

@@ -1,5 +1,5 @@
 owner = ERI
 controller = ERI
 add_core = ERI
-trade_goods = timber
+trade_goods = sheeps
 life_rating = 35

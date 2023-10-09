@@ -120,7 +120,13 @@ country_event = { # Sankaras Uprising
 					casus_belli = status_quo
 				}
 			}
-		
+		OAS={
+			change_variable = {
+				which = oas_unity
+				value = -1
+			}
+		}
+		oas_unity_tooltip_lower = { }
 		
 		ai_chance = {
 			factor = 79
@@ -149,7 +155,7 @@ country_event = { # Sankaras Uprising fails
 			}
 		}
 		clr_global_flag = sankaras_uprising_flag
-		
+		OAS={country_event = 31010}
 		ai_chance = {
 			factor = 79
 		}
@@ -164,7 +170,7 @@ country_event = { # Sankaras Uprising fails
 		}
 		change_tag = BKF
 		clr_global_flag = sankaras_uprising_flag
-		
+		OAS={country_event = 31010}
 		ai_chance = {
 			factor = 21
 		}
@@ -193,12 +199,6 @@ country_event = { # Sankaras Uprising succeeds
 			}
 		}
 		clr_global_flag = sankaras_uprising_flag
-		OAS={
-			change_variable = {
-				which = oas_unity
-				value = -1
-			}
-		}
 		ai_chance = {
 			factor = 79
 		}
@@ -233,6 +233,332 @@ country_event = { #Abandon Mali Federation or not
 		oas_unity_tooltip_gain = {}
 		ai_chance = {
 			factor = 64
+		}
+	}
+}
+country_event = { #
+	id = 31005
+	title = "EVT_31005_NAME"
+	desc = "EVT_31005_DESC"
+
+	picture = "events_default"
+	
+	trigger={
+		tag = OAS
+		NOT={
+			check_variable = {
+				which = oas_unity
+				value = 1
+			}
+		}
+	}
+	fire_only_once = yes
+	option = {
+		name = "EVT_31005_OPTA" # 
+		prestige = -50
+		random_owned = {#kept the federation
+			limit = {
+				owner = {
+					has_country_flag = OAS_preserve_mali
+				}
+			}
+			owner={
+				SNG={
+					all_core = { add_core = MLF }
+				}
+				SOU={
+					all_core = { add_core = MLF }
+				}
+				OAS={
+					all_core = { remove_core = OAS }
+				}
+				change_tag = MLF
+				SNG = {annex_to = MLF}
+				any_country = {
+					limit = {
+						OR={
+							NOT={tag = THIS}
+							NOT={tag = SOU}
+							NOT={tag = SNG}
+						}
+						substate_of = MLF
+						num_of_cities = 1
+					}
+					country_event = { id=31006 days=0 }
+				}
+			}
+		}
+		random_owned = {#dropped the federation
+			limit = {
+				owner = {
+					NOT={has_country_flag = OAS_preserve_mali}
+				}
+			}
+			owner={
+				OAS = {release = SOU}
+				OAS={
+					all_core = { remove_core = OAS }
+				}
+				inherit = SNG
+				change_tag = SNG
+				any_country = {
+					limit = {
+						OR={
+							NOT={tag = THIS}
+							NOT={tag = SOU}
+							NOT={tag = SNG}
+						}
+						substate_of = SNG
+						num_of_cities = 1
+					}
+					country_event = { id=31007 days=0 }
+				}
+			}
+		}
+		ai_chance = {
+			factor = 36
+		}
+	}
+}
+country_event = {
+	id = 31006 #The Breakup of the OAS
+	
+	title = "EVT_31006_NAME"
+	desc = "EVT_31006_DESC"
+	picture = "events_default"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT_31006_OPTA"
+		release_vassal = THIS
+		leave_alliance = MLF
+		MLF={
+			diplomatic_influence = {
+				who = THIS
+				value = -100
+			}
+		}
+	}
+}
+country_event = {
+	id = 31007 #The Breakup of the OAS
+	
+	title = "EVT_31006_NAME"
+	desc = "EVT_31006_DESC"
+	picture = "events_default"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT_31006_OPTA"
+		release_vassal = THIS
+		leave_alliance = SNG
+		SNG={
+			diplomatic_influence = {
+				who = THIS
+				value = -100
+			}
+		}
+	}
+}
+country_event = {
+	id = 31008 #The Unifaction of the OAS
+	
+	title = "EVT_31008_NAME"
+	desc = "EVT_31008_DESC"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT_31008_OPTA"
+		all_core = { add_core = FROM }
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 10
+			 modifier = {
+				factor = 1000
+				relation = { who = FROM value = 100 }
+			} 
+		}
+	}
+
+	option = {
+		name = "EVT_31008_OPTB"
+		ai_chance = {
+			factor = 100
+		}
+		prestige = 10
+		relation = {
+			who = FROM
+			value = -200
+		}
+		release_vassal = THIS
+		leave_alliance = OAS
+	}
+}
+country_event = {
+	id = 31009 #The name of the OAS
+	
+	title = "EVT_31009_NAME"
+	desc = "EVT_31009_DESC"
+	picture = "events_default"
+
+	is_triggered_only = yes
+
+	option = {#New Songhai Republic
+		name = "EVT_31009_OPTA"
+		
+	}
+	option = {#West African Union
+		name = "EVT_31009_OPTB"
+		
+	}
+	option = {#stay the OAS
+		name = "EVT_31009_OPTC"
+		
+	}
+}
+country_event = {
+	id = 31010 #Sankara was put down
+	
+	title = "EVT_31010_NAME"
+	desc = "EVT_31010_DESC"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {#Great
+		name = "EVT_31010_OPTA"
+		change_variable = {
+			which = oas_unity
+			value = 1
+		}
+		oas_unity_tooltip_gain = {}
+	}
+}
+country_event = { # loss of Ghana
+	id = 31011
+	title = "EVT_31011_NAME"
+	desc = "EVT_31011_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = OAS
+		GHA={
+			NOT={substate_of = OAS}
+		}
+		NOT={has_country_flag = OAS_lost_ghana}
+	}
+	option = {
+		name = "EVT_31011_OPTA" # 
+		set_country_flag = OAS_lost_ghana
+		change_variable = {
+			which = oas_unity
+			value = -1
+		}
+		oas_unity_tooltip_lower = { }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { # regain Ghana
+	id = 31012
+	title = "EVT_31012_NAME"
+	desc = "EVT_31012_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = OAS
+		has_country_flag = OAS_lost_ghana
+		GHA={
+			all_core={
+				owner={
+					OR={
+						substate_of = OAS
+						tag = OAS
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVT_31012_OPTA" # 
+		clr_country_flag = OAS_lost_ghana
+		change_variable = {
+			which = oas_unity
+			value = 1
+		}
+		oas_unity_tooltip_gain = { }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { # loss of Guinea
+	id = 31013
+	title = "EVT_31013_NAME"
+	desc = "EVT_31013_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = OAS
+		GUI={
+			NOT={substate_of = OAS}
+		}
+		NOT={has_country_flag = OAS_lost_guinea}
+	}
+	option = {
+		name = "EVT_31013_OPTA" #
+		set_country_flag = OAS_lost_guinea
+		change_variable = {
+			which = oas_unity
+			value = -1
+		}
+		oas_unity_tooltip_lower = { }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { # regain Guinea
+	id = 31014
+	title = "EVT_31014_NAME"
+	desc = "EVT_31014_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = OAS
+		has_country_flag = OAS_lost_guinea
+		GUI={
+			all_core={
+				owner={
+					OR={
+						substate_of = OAS
+						tag = OAS
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVT_31014_OPTA" # 
+		clr_country_flag = OAS_lost_guinea
+		change_variable = {
+			which = oas_unity
+			value = 1
+		}
+		oas_unity_tooltip_gain = { }
+		ai_chance = {
+			factor = 100
 		}
 	}
 }

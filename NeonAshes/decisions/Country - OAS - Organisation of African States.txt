@@ -214,4 +214,42 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+	OAS_unify_the_union = { #information tooltip
+		picture = symbol_OAS_smallpic
+		potential = { 
+			tag = OAS
+		}
+		allow = {
+			check_variable = {
+				which = oas_unity
+				value = 10
+			}
+			NOT={
+				any_substate={
+					OR={
+						government = socialist_dictatorship
+						government = communist_state
+						government = minarchist_state
+						government = eco_state
+						government = nat_dictatorship
+						government = theo_dictatorship
+						government = ultranat_dictatorship
+					}
+				}
+			}
+			new_international_system = 1
+		}
+		effect = {
+			country_event = { id=31009 days=1 }
+			any_country = {
+				limit = {
+					NOT={tag = THIS}
+					substate_of = OAS
+					num_of_cities = 1
+				}
+				country_event = { id=31008 days=0 }
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
 }

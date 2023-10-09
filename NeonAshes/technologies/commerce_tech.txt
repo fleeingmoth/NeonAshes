@@ -3,7 +3,7 @@
 modern_banking = { #Modern Banking
 	area = banking_and_finance
 	year = 1980
-	cost = 3600
+	cost = 4000
 
 	tax_eff = 3
 
@@ -26,7 +26,7 @@ modern_banking = { #Modern Banking
 modern_financial_institutions = { #Modern Financial Institutions
 	area = banking_and_finance
 	year = 1980
-	cost = 7200
+	cost = 8000
 
 	tax_eff = 5
 	
@@ -49,7 +49,7 @@ modern_financial_institutions = { #Modern Financial Institutions
 international_banking = { #International Banking
 	area = banking_and_finance
 	year = 1990
-	cost = 10800
+	cost = 12000
 
 	tax_eff = 5
 	
@@ -72,7 +72,7 @@ international_banking = { #International Banking
 supranational_banking = { #Supranational Banking
 	area = banking_and_finance
 	year = 2000
-	cost = 14400
+	cost = 16000
 
 	tax_eff = 5
 
@@ -95,7 +95,7 @@ supranational_banking = { #Supranational Banking
 decentralized_banking = { #Decentralized Banking
 	area = banking_and_finance
 	year = 2020
-	cost = 18000
+	cost = 20000
 
 	tax_eff = 5
 
@@ -118,7 +118,7 @@ decentralized_banking = { #Decentralized Banking
 trans_finance = { #Trans-Finance
 	area = banking_and_finance
 	year = 2050
-	cost = 21600
+	cost = 24000
 
 	tax_eff = 5
 	ai_chance = {
@@ -135,7 +135,7 @@ trans_finance = { #Trans-Finance
 fiat_currency = { #Fiat Currency
 	area = monetary_system
 	year = 1980
-	cost = 3600
+	cost = 4000
 
 	administrative_efficiency = 0.05
 	ai_chance = {
@@ -149,7 +149,7 @@ fiat_currency = { #Fiat Currency
 digital_currency = { #Digital Currency
 	area = monetary_system
 	year = 2000
-	cost = 7200
+	cost = 8000
 	
 	administrative_efficiency = 0.05
 
@@ -172,7 +172,7 @@ digital_currency = { #Digital Currency
 cryptocurrencies = { #Cryptocurrencies
 	area = monetary_system
 	year = 2015
-	cost = 10800
+	cost = 12000
 
 	administrative_efficiency = 0.05
 
@@ -187,7 +187,7 @@ cryptocurrencies = { #Cryptocurrencies
 monetary_hegemony = { #Monetary Hegemony
 	area = monetary_system
 	year = 2030
-	cost = 14400
+	cost = 16000
 
 	administrative_efficiency = 0.05
 
@@ -202,7 +202,7 @@ monetary_hegemony = { #Monetary Hegemony
 universal_currency = { #Universal Currency
 	area = monetary_system
 	year = 2050
-	cost = 18000
+	cost = 20000
 
 	administrative_efficiency = 0.05
 	ai_chance = {
@@ -224,7 +224,7 @@ universal_currency = { #Universal Currency
 post_monetary_economy = { #Post-Monetary Economy
 	area = monetary_system
 	year = 2070
-	cost = 21600
+	cost = 24000
 
 	administrative_efficiency = 0.05
 
@@ -242,7 +242,7 @@ post_monetary_economy = { #Post-Monetary Economy
 new_classical_economics = { #New Classical Economics
 	area = macroeconomics
 	year = 1980
-	cost = 3600
+	cost = 4000
 
 	factory_input = -0.01
 	ai_chance = {
@@ -260,7 +260,7 @@ new_classical_economics = { #New Classical Economics
 new_keynesian_economics = { #New Keynesian Economics
 	area = macroeconomics
 	year = 1980
-	cost = 7200
+	cost = 8000
 
 	factory_input = -0.01
 
@@ -287,7 +287,7 @@ new_keynesian_economics = { #New Keynesian Economics
 modern_political_economy = { #Modern Political Economy
 	area = macroeconomics
 	year = 1990
-	cost = 10800
+	cost = 12000
 
 	factory_input = -0.01
 
@@ -314,7 +314,7 @@ modern_political_economy = { #Modern Political Economy
 polarization_theory = { #Polarization Theory
 	area = macroeconomics
 	year = 2010
-	cost = 14400
+	cost = 16000
 
 	factory_input = -0.01
 
@@ -341,7 +341,7 @@ polarization_theory = { #Polarization Theory
 globality_theory = { #Globality Theory
 	area = macroeconomics
 	year = 2040
-	cost = 18000
+	cost = 20000
 
 	factory_input = -0.01
 
@@ -368,7 +368,7 @@ globality_theory = { #Globality Theory
 post_scarity_economics = { #Post-Scarcity Economics
 	area = macroeconomics
 	year = 2070
-	cost = 21600
+	cost = 24000
 
 	factory_input = -0.01
 	ai_chance = {
@@ -397,7 +397,7 @@ post_scarity_economics = { #Post-Scarcity Economics
 laissez_faire_economics = { #Laissez-Faire Economics
 	area = microeconomics
 	year = 1980
-	cost = 3600 
+	cost = 4000 
 
 	influence = 0.1
 	farm_rgo_eff = 0.1
@@ -422,7 +422,7 @@ laissez_faire_economics = { #Laissez-Faire Economics
 planned_economies = { #Planned Economies
 	area = microeconomics
 	year = 1980
-	cost = 7200
+	cost = 8000
 
 	influence = 0.1
 	farm_rgo_eff = 0.1
@@ -448,7 +448,7 @@ planned_economies = { #Planned Economies
 behavioral_economics = { #Behavioral Economics
 	area = microeconomics
 	year = 1990
-	cost = 10800
+	cost = 12000
 
 	influence = 0.2
 	farm_rgo_eff = 0.1
@@ -474,7 +474,7 @@ behavioral_economics = { #Behavioral Economics
 modern_distortion_analysis = { #Modern Distortion Analysis
 	area = microeconomics
 	year = 2010
-	cost = 14400
+	cost = 16000
 
 	influence = 0.2
 	ai_chance = {
@@ -497,7 +497,7 @@ modern_distortion_analysis = { #Modern Distortion Analysis
 modern_market_ai = { #Modern Market A.I.
 	area = microeconomics
 	year = 2030
-	cost = 18000
+	cost = 20000
 
 	influence = 0.2
 
@@ -521,7 +521,7 @@ modern_market_ai = { #Modern Market A.I.
 pervasive_market_theory = { #Pervasive Market Theory
 	area = microeconomics
 	year = 2060
-	cost = 21600
+	cost = 24000
 
 	influence = 0.2
 
@@ -548,7 +548,7 @@ pervasive_market_theory = { #Pervasive Market Theory
 modern_corporate_structure = { #Modern Corporate Structure
 	area = management
 	year = 1980
-	cost = 3600
+	cost = 4000
 
 	factory_output = 0.01
 
@@ -579,7 +579,7 @@ modern_corporate_structure = { #Modern Corporate Structure
 modern_cybernetics = { #Modern Cybernetics
 	area = management
 	year = 1990
-	cost = 7200
+	cost = 8000
 
 	factory_output = 0.01
 
@@ -610,7 +610,7 @@ modern_cybernetics = { #Modern Cybernetics
 digital_management = { #Digital Management
 	area = management
 	year = 2010
-	cost = 10800
+	cost = 12000
 
 	factory_output = 0.01
 
@@ -641,7 +641,7 @@ digital_management = { #Digital Management
 decentralized_management = { #Decentralized Management
 	area = management
 	year = 2030
-	cost = 14400
+	cost = 16000
 
 	factory_output = 0.01
 
@@ -664,7 +664,7 @@ decentralized_management = { #Decentralized Management
 modern_flexible_management = { #Modern Flexible Management
 	area = management
 	year = 2050
-	cost = 18000
+	cost = 20000
 
 	factory_output = 0.01
 
@@ -687,7 +687,7 @@ modern_flexible_management = { #Modern Flexible Management
 democratic_decision_making = { #Democratic Decision-Making
 	area = management
 	year = 2070
-	cost = 21600
+	cost = 24000
 
 	factory_output = 0.01
 

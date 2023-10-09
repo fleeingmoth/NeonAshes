@@ -1,5 +1,5 @@
 owner = CMO
 controller = CMO
 add_core = CMO
-trade_goods = timber
+trade_goods = fish
 life_rating = 35

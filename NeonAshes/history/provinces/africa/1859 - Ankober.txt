@@ -2,5 +2,5 @@ owner = DRG
 controller = DRG
 add_core = DRG
 add_core = ETH
-trade_goods = timber
+trade_goods = oilseed_crops
 life_rating = 35

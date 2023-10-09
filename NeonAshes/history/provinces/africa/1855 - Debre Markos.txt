@@ -2,5 +2,5 @@ owner = IHA
 controller = IHA
 add_core = IHA
 add_core = ETH
-trade_goods = timber
+trade_goods = sheeps
 life_rating = 35

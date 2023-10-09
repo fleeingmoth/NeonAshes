@@ -1,5 +1,0 @@
-owner = SOS
-controller = SOS
-add_core = SOS
-trade_goods = grain
-life_rating = 35

@@ -1,5 +1,5 @@
 owner = TUS
 controller = TUS
 add_core = TUS
-trade_goods = timber
+trade_goods = oilseed_crops
 life_rating = 35

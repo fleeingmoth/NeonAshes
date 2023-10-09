@@ -3,7 +3,7 @@
 third_gen_warfare = { # Third Generation Warfare
 	area = military_doctrine
 	year = 1980
-	cost = 3600
+	cost = 4000
 	unciv_military = yes
 
 	army_base = { supply_consumption = 0.10 }
@@ -65,7 +65,7 @@ third_gen_warfare = { # Third Generation Warfare
 fourth_gen_warfare = { # Fourth Generation Warfare
 	area = military_doctrine
 	year = 1990
-	cost = 7200
+	cost = 8000
 	unciv_military = yes
 
 	army_base = { supply_consumption = 0.20 }
@@ -127,7 +127,7 @@ fourth_gen_warfare = { # Fourth Generation Warfare
 fifth_gen_warfare = { # Fifth Generation Warfare
 	area = military_doctrine
 	year = 2010
-	cost = 10800
+	cost = 12000
 	unciv_military = yes
 
 	army_base = { supply_consumption = 0.30 } 
@@ -189,7 +189,7 @@ fifth_gen_warfare = { # Fifth Generation Warfare
 sixth_gen_warfare = { # Sixth Generation Warfare
 	area = military_doctrine
 	year = 2030
-	cost = 14400
+	cost = 16000
 	unciv_military = yes
 
 	army_base = { supply_consumption = 0.40 } 
@@ -251,7 +251,7 @@ sixth_gen_warfare = { # Sixth Generation Warfare
 seventh_gen_warfare= { # Seventh Generation Warfare
 	area = military_doctrine
 	year = 2050
-	cost = 18000
+	cost = 20000
 	unciv_military = yes
 
 	army_base = { supply_consumption = 0.50 } 
@@ -309,7 +309,7 @@ seventh_gen_warfare= { # Seventh Generation Warfare
 redefinition_of_warfare = { # Redefinition of Conflict
 	area = military_doctrine
 	year = 2070
-	cost = 21600
+	cost = 24000
 	unciv_military = yes
 
 	army_base = { supply_consumption = 0.60 } 
@@ -365,7 +365,7 @@ redefinition_of_warfare = { # Redefinition of Conflict
 mass_produced_armament = { # Mass Produced Armament
 	area = light_armament
 	year = 1980
-	cost = 3600
+	cost = 4000
 	unciv_military = yes
 
 	irregular = { supply_consumption = 0.10 }
@@ -438,7 +438,7 @@ mass_produced_armament = { # Mass Produced Armament
 composite_armament = { # Composite Armament
 	area = light_armament
 	year = 1990
-	cost = 7200
+	cost = 8000
 	unciv_military = yes
 
 	irregular = { supply_consumption = 0.20 }
@@ -511,7 +511,7 @@ composite_armament = { # Composite Armament
 electronic_weapons = { # Electronic Weapons
 	area = light_armament
 	year = 2010
-	cost = 10800
+	cost = 12000
 	unciv_military = yes
 
 	irregular = { supply_consumption = 0.30 }
@@ -584,7 +584,7 @@ electronic_weapons = { # Electronic Weapons
 smart_weapons = { # Smart Weapons
 	area = light_armament
 	year = 2030
-	cost = 14400
+	cost = 16000
 	unciv_military = yes
 
 	irregular = { supply_consumption = 0.40 }
@@ -657,7 +657,7 @@ smart_weapons = { # Smart Weapons
 nano_weapons = { # Nano-Weapons
 	area = light_armament
 	year = 2050
-	cost = 18000
+	cost = 20000
 	unciv_military = yes
 
 	irregular = { supply_consumption = 0.50 }
@@ -726,7 +726,7 @@ nano_weapons = { # Nano-Weapons
 exotic_weapons = { # Exotic Weapons
 	area = light_armament
 	year = 2070
-	cost = 21600
+	cost = 24000
 	unciv_military = yes
 
 	irregular = { supply_consumption = 0.60 }
@@ -793,7 +793,7 @@ exotic_weapons = { # Exotic Weapons
 arms_industry = { # Arms Industry
 	area = heavy_armament
 	year = 1980
-	cost = 3600
+	cost = 4000
 	unciv_military = yes
 
 	fieldartillery = { supply_consumption = 0.10 }
@@ -864,7 +864,7 @@ arms_industry = { # Arms Industry
 rocket_artillery = { # Rocket Artillery
 	area = heavy_armament
 	year = 1980
-	cost = 7200
+	cost = 8000
 	unciv_military = yes
 
 	fieldartillery = { supply_consumption = 0.20 }
@@ -939,7 +939,7 @@ rocket_artillery = { # Rocket Artillery
 precision_guided_munitions = { # Precision-guided Munitions
 	area = heavy_armament
 	year = 1980
-	cost = 10800
+	cost = 12000
 	unciv_military = yes
 
 	fieldartillery = { supply_consumption = 0.30 }
@@ -1019,7 +1019,7 @@ precision_guided_munitions = { # Precision-guided Munitions
 electromagnetic_weapons = { # Electromagnetic Weapons
 	area = heavy_armament
 	year = 2010
-	cost = 14400
+	cost = 16000
 	unciv_military = yes
 
 	fieldartillery = { supply_consumption = 0.40 }
@@ -1099,7 +1099,7 @@ electromagnetic_weapons = { # Electromagnetic Weapons
 autonomous_weapons = { # Autonomous Weapons
 	area = heavy_armament
 	year = 2030
-	cost = 18000
+	cost = 20000
 	unciv_military = yes
 
 	fieldartillery = { supply_consumption = 0.50 }
@@ -1179,7 +1179,7 @@ autonomous_weapons = { # Autonomous Weapons
 directed_energy_weapons = { # Directed Energy Weapons
 	area = heavy_armament
 	year = 2060
-	cost = 21600
+	cost = 24000
 	unciv_military = yes
 
 	fieldartillery = { supply_consumption = 0.60 }
@@ -1253,7 +1253,7 @@ directed_energy_weapons = { # Directed Energy Weapons
 infantry_fighting_vehicles = { # Infantry Fighting Vehicle
 	area = armored_vehicles
 	year = 1980
-	cost = 3600
+	cost = 4000
 	unciv_military = yes
 
 	lightarmor = { supply_consumption = 0.10 }
@@ -1324,7 +1324,7 @@ infantry_fighting_vehicles = { # Infantry Fighting Vehicle
 light_tanks = { # Light Tanks
 	area = armored_vehicles
 	year = 1980
-	cost = 7200
+	cost = 8000
 	unciv_military = yes
 
 	lightarmor = { supply_consumption = 0.20 }
@@ -1399,7 +1399,7 @@ light_tanks = { # Light Tanks
 main_battle_tanks = { # Main Battle Tanks
 	area = armored_vehicles
 	year = 1980
-	cost = 10800
+	cost = 12000
 	unciv_military = yes
 
 	lightarmor = { supply_consumption = 0.30 }
@@ -1479,7 +1479,7 @@ main_battle_tanks = { # Main Battle Tanks
 electronic_battlespace_integration = { # Electronic Battlespace Integration
 	area = armored_vehicles
 	year = 2000
-	cost = 14400
+	cost = 16000
 	unciv_military = yes
 
 	lightarmor = { supply_consumption = 0.40 }
@@ -1559,7 +1559,7 @@ electronic_battlespace_integration = { # Electronic Battlespace Integration
 autonomous_armored_vehicles = { # Autonomous Armored Vehicles
 	area = armored_vehicles
 	year = 2030
-	cost = 18000
+	cost = 20000
 	unciv_military = yes
 
 	lightarmor = { supply_consumption = 0.50 }
@@ -1639,7 +1639,7 @@ autonomous_armored_vehicles = { # Autonomous Armored Vehicles
 heavy_armored_robotic_platforms = { # Heavy Armored Robotic Platforms
 	area = armored_vehicles
 	year = 2060
-	cost = 21600
+	cost = 24000
 	unciv_military = yes
 
 	lightarmor = { supply_consumption = 0.60 }
@@ -1713,7 +1713,7 @@ heavy_armored_robotic_platforms = { # Heavy Armored Robotic Platforms
 professional_army = { # Professional Army
 	area = military_organization
 	year = 1980
-	cost = 3600
+	cost = 4000
 	unciv_military = yes
 
 	infantry = { default_organisation = 5 }
@@ -1782,7 +1782,7 @@ professional_army = { # Professional Army
 command_and_control = { # Command and Control
 	area = military_organization
 	year = 1980
-	cost = 7200
+	cost = 8000
 	unciv_military = yes
 
 	infantry = { default_organisation = 5 }
@@ -1851,7 +1851,7 @@ command_and_control = { # Command and Control
 digital_battle_command = { # Digital Battle Command
 	area = military_organization
 	year = 2000
-	cost = 10800
+	cost = 12000
 	unciv_military = yes
 
 	infantry = { default_organisation = 5 }
@@ -1920,7 +1920,7 @@ digital_battle_command = { # Digital Battle Command
 command_ai = { # Command AI
 	area = military_organization
 	year = 2030
-	cost = 14400
+	cost = 16000
 	unciv_military = yes
 
 	infantry = { default_organisation = 5 }
@@ -1989,7 +1989,7 @@ command_ai = { # Command AI
 global_decision_making = { #Global Decision-Making
 	area = military_organization
 	year = 2050
-	cost = 18000
+	cost = 20000
 	unciv_military = yes
 
 	infantry = { default_organisation = 5 }
@@ -2054,7 +2054,7 @@ global_decision_making = { #Global Decision-Making
 command_decentralization = { #Command Decentralization
 	area = military_organization
 	year = 2070
-	cost = 21600
+	cost = 24000
 	unciv_military = yes
 
 	infantry = { default_organisation = 5 }

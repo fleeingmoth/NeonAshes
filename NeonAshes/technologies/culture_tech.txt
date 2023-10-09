@@ -3,7 +3,7 @@
 broadcasting = { #Broadcasting
 	area = comms_and_media
 	year = 1980
-	cost = 3600
+	cost = 4000
 
 	prestige = 0.05
 	ai_chance = {
@@ -22,7 +22,7 @@ broadcasting = { #Broadcasting
 digital_media = { #Digital Media
 	area = comms_and_media
 	year = 1980
-	cost = 7200
+	cost = 8000
 	
 	prestige = 0.05
 
@@ -52,7 +52,7 @@ digital_media = { #Digital Media
 the_internet = { #The Internet
 	area = comms_and_media
 	year = 1990
-	cost = 10800
+	cost = 12000
 
 	prestige = 0.05
 	ai_chance = {
@@ -75,7 +75,7 @@ the_internet = { #The Internet
 web_20 = { #Web 2.0
 	area = comms_and_media
 	year = 2010
-	cost = 14400
+	cost = 16000
 
 	prestige = 0.05
 	ai_chance = {
@@ -98,7 +98,7 @@ web_20 = { #Web 2.0
 augmented_reality = { #Augmented Reality
 	area = comms_and_media
 	year = 2030
-	cost = 18000
+	cost = 20000
 
 	prestige = 0.05
 	ai_chance = {
@@ -121,7 +121,7 @@ augmented_reality = { #Augmented Reality
 virtual_reality = { #Virtual Reality
 	area = comms_and_media
 	year = 2060
-	cost = 21600
+	cost = 24000
 
 	prestige = 0.05
 	ai_chance = {
@@ -147,7 +147,7 @@ virtual_reality = { #Virtual Reality
 microprocessors = { #Microprocessors
 	area = computer_science
 	year = 1980
-	cost = 3600
+	cost = 4000
 
 	increase_research = 0.50
 	activate_building = electronic_components_factory
@@ -179,7 +179,7 @@ microprocessors = { #Microprocessors
 mobile_computing = { #Mobile Computing
 	area = computer_science
 	year = 1990
-	cost = 7200
+	cost = 8000
 
 	increase_research = 0.50
 	ai_chance = {
@@ -210,7 +210,7 @@ mobile_computing = { #Mobile Computing
 machine_intelligence = { #Machine Intelligence
 	area = computer_science
 	year = 2010
-	cost = 10800
+	cost = 12000
 	
 	increase_research = 0.50
 	ai_chance = {
@@ -232,7 +232,7 @@ machine_intelligence = { #Machine Intelligence
 quantum_computing = { #Quantum Computing
 	area = computer_science
 	year = 2030
-	cost = 14400
+	cost = 16000
 
 	increase_research = 1.0
 	ai_chance = {
@@ -250,7 +250,7 @@ quantum_computing = { #Quantum Computing
 artificial_intelligence = { #Artificial Intelligence
 	area = computer_science
 	year = 2050
-	cost = 18000
+	cost = 20000
 
 	increase_research = 1.0
 	ai_chance = {
@@ -268,7 +268,7 @@ artificial_intelligence = { #Artificial Intelligence
 exo_cortex = { #Exo-Cortex
 	area = computer_science
 	year = 2070
-	cost = 21600
+	cost = 24000
 
 	increase_research = 1.0
 	ai_chance = {
@@ -289,7 +289,7 @@ exo_cortex = { #Exo-Cortex
 postmodernism = { #Postmodernism
 	area = sociology
 	year = 1980
-	cost = 3600
+	cost = 4000
 
 	colonial_migration = 0.05
 	education_efficiency = 0.1
@@ -309,7 +309,7 @@ postmodernism = { #Postmodernism
 reconstructivism = { #Reconstructivism
 	area = sociology
 	year = 1990
-	cost = 7200
+	cost = 8000
 	colonial_migration = 0.05
 	education_efficiency = 0.1
 	ai_chance = {
@@ -324,7 +324,7 @@ reconstructivism = { #Reconstructivism
 digital_sociology = { #Digital Sociology
 	area = sociology
 	year = 2010
-	cost = 10800
+	cost = 12000
 
 	colonial_migration = 0.05
 	education_efficiency = 0.1
@@ -340,7 +340,7 @@ digital_sociology = { #Digital Sociology
 neostructuralism = { #Neostructuralism
 	area = sociology
 	year = 2030
-	cost = 14400
+	cost = 16000
 
 	colonial_migration = 0.05
 	education_efficiency = 0.1
@@ -356,7 +356,7 @@ neostructuralism = { #Neostructuralism
 hephaestism = { #Hephaestism
 	area = sociology
 	year = 2050
-	cost = 18000
+	cost = 20000
 
 	colonial_migration = 0.05
 	education_efficiency = 0.1
@@ -372,7 +372,7 @@ hephaestism = { #Hephaestism
 super_sociology = { #Super-Sociology
 	area = sociology
 	year = 2070
-	cost = 21600
+	cost = 24000
 	
 	colonial_migration = 0.05
 	education_efficiency = 0.1
@@ -395,7 +395,7 @@ super_sociology = { #Super-Sociology
 realism = { #Realism
 	area = political_science
 	year = 1980
-	cost = 3600
+	cost = 4000
 
 	max_national_focus = 1
 
@@ -411,7 +411,7 @@ realism = { #Realism
 institutionalism = { #Institutionalism
 	area = political_science
 	year = 1980
-	cost = 7200
+	cost = 8000
 
 	max_national_focus = 1 
 		
@@ -440,7 +440,7 @@ institutionalism = { #Institutionalism
 new_international_system = { #New International System
 	area = political_science
 	year = 1990
-	cost = 10800
+	cost = 12000
 
 	max_national_focus = 1 
 	ai_chance = {
@@ -467,7 +467,7 @@ new_international_system = { #New International System
 neo_nationalism = { #Neo-Nationalism
 	area = political_science
 	year = 2010
-	cost = 14400
+	cost = 16000
 
 	max_national_focus = 1
 	#colonial_life_rating = -10 
@@ -503,7 +503,7 @@ neo_nationalism = { #Neo-Nationalism
 modern_technocracy = { #Modern Technocracy
 	area = political_science
 	year = 2030
-	cost = 18000
+	cost = 20000
 
 	max_national_focus = 1
 	diplomatic_points = 0.25
@@ -522,7 +522,7 @@ modern_technocracy = { #Modern Technocracy
 the_end_of_history = { #The End of History
 	area = political_science
 	year = 2060
-	cost = 21600
+	cost = 24000
 
 	max_national_focus = 1 
 	ai_chance = {
@@ -543,7 +543,7 @@ the_end_of_history = { #The End of History
 cognitive_psychology = { # Cognitive Psychology
 	area = psychology
 	year = 1980
-	cost = 3600
+	cost = 4000
 
 	increase_research = 0.10
 	
@@ -601,7 +601,7 @@ cognitive_psychology = { # Cognitive Psychology
 evolutionary_psychology = { # Evolutionary Psychology
 	area = psychology
 	year = 1990
-	cost = 7200
+	cost = 8000
 
 	increase_research = 0.10
 	
@@ -659,7 +659,7 @@ evolutionary_psychology = { # Evolutionary Psychology
 digital_psychology = { # Digital Psychology
 	area = psychology
 	year = 2010
-	cost = 10800
+	cost = 12000
 
 	increase_research = 0.15
 	
@@ -717,7 +717,7 @@ digital_psychology = { # Digital Psychology
 neuropsychology = { # Neuropsychology
 	area = psychology
 	year = 2030
-	cost = 14400
+	cost = 16000
 
 	increase_research = 0.15
 	
@@ -775,7 +775,7 @@ neuropsychology = { # Neuropsychology
 artificial_psychology = { # Artificial Psychology
 	area = psychology
 	year = 2050
-	cost = 18000
+	cost = 20000
 
 	increase_research = 0.20
 
@@ -833,7 +833,7 @@ artificial_psychology = { # Artificial Psychology
 superintelligence = { # Superintelligence
 	area = psychology
 	year = 2070
-	cost = 21600
+	cost = 24000
 
 	increase_research = 0.20
 	

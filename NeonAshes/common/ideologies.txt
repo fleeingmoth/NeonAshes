@@ -1,8 +1,8 @@
-#Libertarian Socialists and Social Democrats
+# Moderate Socialists and Social Democrats
 socialist_group = {
 	social_democrat = {
 		uncivilized = no
-		color = { 255 183 197 } #Cherry Blossom Pink
+		color = { 255 183 197 } # Cherry Blossom Pink
 		add_political_reform = {
 			base = 0
 			group = {
@@ -83,7 +83,7 @@ socialist_group = {
 	}
 	socialist = {
 		uncivilized = no
-		color = { 255 0 0 } #Bright Red
+		color = { 255 0 0 } # Bright Red
 		add_political_reform = {
 			base = 0
 			group = {
@@ -172,7 +172,7 @@ socialist_group = {
 		}
 	}
 }
-#Authoritarian Socialists
+# Hardline Socialists or Communists
 communist_group = {
 	communist = {
 		uncivilized = no
@@ -191,10 +191,10 @@ communist_group = {
 		}	
 	}
 }
-#Liberals and Libertarians
+# Liberals and Libertarians
 liberal_group = {
 	liberal = {
-		color = { 255 255 128 } #Light Yellow
+		color = { 255 255 128 } # Light Yellow
 		add_political_reform = {
 			base = 1
 		}
@@ -281,7 +281,7 @@ liberal_group = {
 		}
 	}
 	anarcho_liberal = {
-		color = { 255 215 0 } #Gold
+		color = { 255 215 0 } # Gold
 		add_political_reform = {
 			base = 1
 		}
@@ -304,9 +304,9 @@ liberal_group = {
 		}
 	}
 }
-#Greens
+# Greens
 green_group = {
-	green = { #Vanilla Fascism copy-paste will fix later
+	green = {
 		uncivilized = no
 		color = { 0 200 0 } #Green
 		add_political_reform = {
@@ -397,10 +397,10 @@ green_group = {
 		}
 	}
 }
-#Conservatives, Traditionalists, and Nationalists
+# Conservatives, Traditionalists, and Nationalists
 conservative_group = {
 	conservative = {
-		color = { 128 128 255 } #Light Blue
+		color = { 128 128 255 } # Light Blue
 		can_reduce_militancy = yes
 		add_political_reform = {
 			base = 0
@@ -618,7 +618,7 @@ conservative_group = {
 		}
 	}
 	nationalist = {
-		color = { 64 64 192 } #Blue
+		color = { 64 64 192 } # Blue
 		
 		add_political_reform = {
 			base = 0
@@ -640,7 +640,7 @@ conservative_group = {
 		}
 	}
 	traditionalist = {
-		color = { 0 0 128 } #Dark Blue
+		color = { 0 0 128 } # Dark Blue
 		
 		add_political_reform = {
 			base = 0
@@ -662,9 +662,9 @@ conservative_group = {
 		}
 	}
 }
-#Ultranationalists
+# Ultranationalists
 ultranationalist_group = {
-	ultranationalist = { #Vanilla Fascism
+	ultranationalist = { # Vanilla Fascism
 		uncivilized = no
 		color = { 128 0 96 } #Burgundy Purple
 		add_political_reform = {

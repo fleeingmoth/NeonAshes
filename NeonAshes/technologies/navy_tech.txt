@@ -2,7 +2,7 @@
 green_water_navy = { # Green Water Navy
 	area = naval_doctrine
 	year = 1980
-	cost = 3600
+	cost = 4000
 	unciv_military = yes
 
 	activate_building = naval_base
@@ -74,7 +74,7 @@ green_water_navy = { # Green Water Navy
 blue_water_navy = { #Blue Water Navy
 	area = naval_doctrine
 	year = 1980
-	cost = 7200
+	cost = 8000
 	unciv_military = yes
 
 	max_naval_base = 1
@@ -146,7 +146,7 @@ blue_water_navy = { #Blue Water Navy
 regional_power_projection = { #Regional Power Projection
 	area = naval_doctrine
 	year = 1980
-	cost = 10800
+	cost = 12000
 	unciv_military = yes
 
 	max_naval_base = 1
@@ -218,7 +218,7 @@ regional_power_projection = { #Regional Power Projection
 global_power_projection = { # Global Power Projection
 	area = naval_doctrine
 	year = 1990
-	cost = 14400
+	cost = 16000
 	unciv_military = yes
 
 	max_naval_base = 1
@@ -290,7 +290,7 @@ global_power_projection = { # Global Power Projection
 modern_AA_AD = { #Modern Anti-Access and Area Denial
 	area = naval_doctrine
 	year = 2020
-	cost = 18000
+	cost = 20000
 	unciv_military = yes
 
 	max_naval_base = 1
@@ -362,7 +362,7 @@ modern_AA_AD = { #Modern Anti-Access and Area Denial
 naval_battlespace_integration = { #Naval Battlespace Integration
 	area = naval_doctrine
 	year = 2050
-	cost = 21600
+	cost = 24000
 	unciv_military = yes
 
 	max_naval_base = 1
@@ -437,7 +437,7 @@ naval_battlespace_integration = { #Naval Battlespace Integration
 shipbuilding_industry = { # Shipbuilding Industry
 	area = naval_engineering
 	year = 1980
-	cost = 3600
+	cost = 4000
 	unciv_military = yes
 
 	navy_base = { build_time = -10 }
@@ -514,7 +514,7 @@ shipbuilding_industry = { # Shipbuilding Industry
 modern_naval_engineering = { #Modern Naval Engineering
 	area = naval_engineering
 	year = 1980
-	cost = 7200
+	cost = 8000
 	unciv_military = yes
 
 	navy_base = { build_time = -10 }
@@ -590,7 +590,7 @@ modern_naval_engineering = { #Modern Naval Engineering
 composite_hull_superstructure = { #Composite Hull Superstructure
 	area = naval_engineering
 	year = 2010
-	cost = 10800
+	cost = 12000
 	unciv_military = yes
 
 	navy_base = { build_time = -10 }
@@ -661,7 +661,7 @@ composite_hull_superstructure = { #Composite Hull Superstructure
 modern_ship_propulsion = { #Modern Ship Propulsion
 	area = naval_engineering
 	year = 2030
-	cost = 14400
+	cost = 16000
 	unciv_military = yes
 
 	navy_base = { build_time = -10 }
@@ -732,7 +732,7 @@ modern_ship_propulsion = { #Modern Ship Propulsion
 large_scale_naval_construction = { #Large-Scale Naval Construction
 	area = naval_engineering
 	year = 2050
-	cost = 18000
+	cost = 20000
 	unciv_military = yes
 
 	navy_base = { build_time = -10 }
@@ -803,7 +803,7 @@ large_scale_naval_construction = { #Large-Scale Naval Construction
 aerodynamic_megaships = { #Aerodynamic Megaships
 	area = naval_engineering
 	year = 2070
-	cost = 21600
+	cost = 24000
 	unciv_military = yes
 
 	navy_base = { build_time = -10 }
@@ -877,7 +877,7 @@ aerodynamic_megaships = { #Aerodynamic Megaships
 suborbital_flight = { #Sub-Orbital Flight
 	area = astronautical_engineering
 	year = 1980
-	cost = 3600
+	cost = 4000
 	unciv_military = yes
 
 	permanent_prestige = 3
@@ -899,7 +899,7 @@ suborbital_flight = { #Sub-Orbital Flight
 orbital_flight = { #Orbital Flight
 	area = astronautical_engineering
 	year = 1980
-	cost = 7200
+	cost = 8000
 	unciv_military = yes
 
 	permanent_prestige = 6
@@ -917,7 +917,7 @@ orbital_flight = { #Orbital Flight
 interplanetary_flight = { #Interplanetary Flight
 	area = astronautical_engineering
 	year = 1980
-	cost = 10800
+	cost = 12000
 	unciv_military = yes
 
 	permanent_prestige = 9
@@ -934,7 +934,7 @@ interplanetary_flight = { #Interplanetary Flight
 reusable_launch_systems = { #Reusable Launch Systems
 	area = astronautical_engineering
 	year = 1990
-	cost = 14400
+	cost = 16000
 	unciv_military = yes
 
 	permanent_prestige = 12
@@ -951,7 +951,7 @@ reusable_launch_systems = { #Reusable Launch Systems
 non_rocket_spacelaunch_systems = { #Non-Rocket Spacelaunch Systems
 	area = astronautical_engineering
 	year = 2030
-	cost = 18000
+	cost = 20000
 	unciv_military = yes
 
 	permanent_prestige = 15
@@ -968,7 +968,7 @@ non_rocket_spacelaunch_systems = { #Non-Rocket Spacelaunch Systems
 interstellar_travel = { #Interstellar Travel
 	area = astronautical_engineering
 	year = 2060
-	cost = 21600
+	cost = 24000
 	unciv_military = yes
 
 	permanent_prestige = 18
@@ -988,7 +988,7 @@ interstellar_travel = { #Interstellar Travel
 aerospace_industry = { #Aerospace Industry
 	area = aeronautical_engineering
 	year = 1980
-	cost = 3600
+	cost = 4000
 	unciv_military = yes
 
 	armyaviation = { supply_consumption = 0.10 }
@@ -1010,7 +1010,7 @@ aerospace_industry = { #Aerospace Industry
 fly_by_wire = { #Fly-By-Wire
 	area = aeronautical_engineering
 	year = 1980
-	cost = 7200
+	cost = 8000
 	unciv_military = yes
 
 	armyaviation = { supply_consumption = 0.20 }
@@ -1032,7 +1032,7 @@ fly_by_wire = { #Fly-By-Wire
 modern_avionics = { #Modern Avionics
 	area = aeronautical_engineering
 	year = 2000
-	cost = 10800
+	cost = 12000
 	unciv_military = yes
 
 	armyaviation = { supply_consumption = 0.30 }
@@ -1054,7 +1054,7 @@ modern_avionics = { #Modern Avionics
 hypersonic_aircraft = { #Hypersonic Aircraft
 	area = aeronautical_engineering
 	year = 2030
-	cost = 14400
+	cost = 16000
 	unciv_military = yes
 
 	armyaviation = { supply_consumption = 0.40 }
@@ -1076,7 +1076,7 @@ hypersonic_aircraft = { #Hypersonic Aircraft
 modern_airframe_and_propulsion = { #Modern Airframes & Propulsion
 	area = aeronautical_engineering
 	year = 2050
-	cost = 18000
+	cost = 20000
 	unciv_military = yes
 
 	armyaviation = { supply_consumption = 0.50 }
@@ -1098,7 +1098,7 @@ modern_airframe_and_propulsion = { #Modern Airframes & Propulsion
 blurring_karman_line = { #Blurring of the Karman Line
 	area = aeronautical_engineering
 	year = 2070
-	cost = 21600
+	cost = 24000
 	unciv_military = yes
 
 	armyaviation = { supply_consumption = 0.60 }
@@ -1123,7 +1123,7 @@ blurring_karman_line = { #Blurring of the Karman Line
 airspace_control = { #Airspace Control
 	area = aerospace_doctrine
 	year = 1980
-	cost = 3600
+	cost = 4000
 	unciv_military = yes
 
 	fighteraircraft = { default_organisation = 5 }
@@ -1146,7 +1146,7 @@ airspace_control = { #Airspace Control
 global_strike_command = { #Global Strike Command
 	area = aerospace_doctrine
 	year = 1980
-	cost = 7200
+	cost = 8000
 	unciv_military = yes
 
 	fighteraircraft = { default_organisation = 5 }
@@ -1169,7 +1169,7 @@ global_strike_command = { #Global Strike Command
 full_spectrum_dominance = { #Full Spectrum Dominance
 	area = aerospace_doctrine
 	year = 2000
-	cost = 10800
+	cost = 12000
 	unciv_military = yes
 
 	fighteraircraft = { default_organisation = 5 }
@@ -1192,7 +1192,7 @@ full_spectrum_dominance = { #Full Spectrum Dominance
 space_command = { #Space Command
 	area = aerospace_doctrine
 	year = 2020
-	cost = 14400
+	cost = 16000
 	unciv_military = yes
 
 	fighteraircraft = { default_organisation = 5 }
@@ -1215,7 +1215,7 @@ space_command = { #Space Command
 swarm_warfare = {
 	area = aerospace_doctrine
 	year = 2040
-	cost = 18000
+	cost = 20000
 	unciv_military = yes
 
 	fighteraircraft = { default_organisation = 5 }
@@ -1238,7 +1238,7 @@ swarm_warfare = {
 exospace_control = {
 	area = aerospace_doctrine
 	year = 2070
-	cost = 21600
+	cost = 24000
 	unciv_military = yes
 
 	fighteraircraft = { default_organisation = 5 }

@@ -147,7 +147,22 @@
 	farmers = {
 		culture = malian
 		religion = catholic
-		size = 270556
+		size = 186402
+	}
+	artisans = {
+		culture = malian
+		religion = catholic
+		size = 62474
+	}
+	craftsmen = {
+		culture = malian
+		religion = catholic
+		size = 21546
+	}
+	capitalists = {
+		culture = malian
+		religion = catholic
+		size = 134
 	}
 }
 1798 = {#

@@ -3188,14 +3188,6 @@ west_african = {
 		last_names = { Oladigbolu Adeniran Agogoja Alowolodu Atobatele Zumaw Oyo Tofa Tonyon Bezon Hungbo Dudu
 		}
 	}
-	nigerian = {
-		color = {78 183 113}
-		first_names = { Siyanbola Lawani Adeyemi Adelu Atiba Oluewu Amodo Majotu Makua Adebo Bello Onikepe Gbadegesin Ajikin Abisi Lauru Kase Agidigbo Ademufekun
-		}
-
-		last_names = { Oladigbolu Adeniran Agogoja Alowolodu Atobatele Zumaw Oyo Tofa Tonyon Bezon Hungbo Dudu
-		}
-	}
 	ambazonian = {
 		color = {0 151 254}
 		first_names = { Siyanbola Lawani Adeyemi Adelu Atiba Oluewu Amodo Majotu Makua Adebo Bello Onikepe Gbadegesin Ajikin Abisi Lauru Kase Agidigbo Ademufekun
@@ -3221,6 +3213,21 @@ west_african = {
 		}
 	}
 
+}
+
+nigerian_group = {
+	leader = african
+	is_overseas = no
+	unit = AfricanGC
+	nigerian = {
+		color = {78 183 113}
+		first_names = { Siyanbola Lawani Adeyemi Adelu Atiba Oluewu Amodo Majotu Makua Adebo Bello Onikepe Gbadegesin Ajikin Abisi Lauru Kase Agidigbo Ademufekun
+		}
+
+		last_names = { Oladigbolu Adeniran Agogoja Alowolodu Atobatele Zumaw Oyo Tofa Tonyon Bezon Hungbo Dudu
+		}
+	}
+	union = NIG
 }
 
 central_african_group = {

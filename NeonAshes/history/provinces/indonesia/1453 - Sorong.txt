@@ -2,5 +2,5 @@ owner = WPP
 controller = WPP
 add_core = WPP
 add_core = INO
-trade_goods = timber
+trade_goods = fish
 life_rating = 35

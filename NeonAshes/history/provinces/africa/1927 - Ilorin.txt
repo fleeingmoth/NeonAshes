@@ -1,5 +1,6 @@
-owner = NIG
-controller = NIG
+owner = OYO
+controller = OYO
+add_core = OYO
 add_core = NIG
 trade_goods = fibre_crops
 life_rating = 35

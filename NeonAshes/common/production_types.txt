@@ -746,7 +746,7 @@ fishing_wharf = {
 grain_farm = {
 	template = RGO_template_farmers
 	output_goods = grain 
-	value = 1.8
+	value = 18.0 #10x
 	farm = yes
 }
 

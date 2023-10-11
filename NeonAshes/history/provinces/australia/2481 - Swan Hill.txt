@@ -3,5 +3,5 @@ controller = ASC
 add_core = ASC
 add_core = VIC
 add_core = AUS
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

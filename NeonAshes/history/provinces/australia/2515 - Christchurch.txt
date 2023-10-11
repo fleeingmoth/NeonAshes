@@ -1,5 +1,5 @@
 owner = NZL
 controller = NZL
 add_core = NZL
-trade_goods = timber
+trade_goods = sheeps
 life_rating = 35

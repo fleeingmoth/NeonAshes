@@ -3,5 +3,5 @@ controller = WRA
 add_core = WRA
 add_core = BYE
 add_core = BLR
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

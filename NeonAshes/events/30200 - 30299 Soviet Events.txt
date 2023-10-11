@@ -23,6 +23,7 @@ country_event = { # End of the USSR
 		change_tag = KAZ
 		government = auth_democracy
 		election = yes
+		release_vassal = DRA
 		ai_chance = {
 			factor = 79
 		}

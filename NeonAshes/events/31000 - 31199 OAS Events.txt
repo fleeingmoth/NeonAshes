@@ -510,7 +510,7 @@ country_event = { # loss of Guinea
 	fire_only_once = yes
 	trigger={
 		tag = OAS
-		GUI={
+		GUN={
 			NOT={substate_of = OAS}
 		}
 		NOT={has_country_flag = OAS_lost_guinea}
@@ -538,7 +538,7 @@ country_event = { # regain Guinea
 	trigger={
 		tag = OAS
 		has_country_flag = OAS_lost_guinea
-		GUI={
+		GUN={
 			all_core={
 				owner={
 					OR={
@@ -559,6 +559,91 @@ country_event = { # regain Guinea
 		oas_unity_tooltip_gain = { }
 		ai_chance = {
 			factor = 100
+		}
+	}
+}
+country_event = { # Samuel Doe coups government
+	id = 31015
+	title = "EVT_31015_NAME"
+	desc = "EVT_31015_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = LIB
+		month = 4
+	}
+	immediate = {
+		set_global_flag = LIB_does_coup
+	}
+	option = {
+		name = "EVT_31015_OPTA" # remain in the OAS
+		government = auth_democracy
+		ai_chance = {
+			factor = 21
+		}
+	}
+	option = {
+		name = "EVT_31015_OPTB" # Leave the OAS
+		government = auth_democracy
+		OAS={
+			release_vassal = LIB
+			country_event = 31016
+		}
+		ai_chance = {
+			factor = 79
+		}
+	}
+}
+country_event = {
+	id = 31016 #
+	
+	title = "EVT_31016_NAME"
+	desc = "EVT_31016_DESC"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {#Intervene
+		name = "EVT_31016_OPTA"
+		FROM={
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = become_independent }
+			}
+		}
+		
+	}
+}
+
+country_event = { # Oyo-OAS war
+	id = 31017
+	title = "EVT_31017_NAME"
+	desc = "EVT_31017_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = OYO
+		year = 1985
+	}
+	option = {
+		name = "EVT_31017_OPTA" # 
+		war = {
+			target = ASN
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVT_31017_OPTB" # 
+		
+		ai_chance = {
+			factor = 0
 		}
 	}
 }

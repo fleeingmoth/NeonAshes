@@ -334,7 +334,7 @@ TOG = "countries/Togo.txt"
 NGE = "countries/Niger.txt" #4th-next capital, 2000. Liberian, Guinea-Bissau, Sierra Leone revolt 
 SIE = "countries/Sierra Leone.txt"
 #GIB = "countries/Guinea-Bissau.txt"
-GUI = "countries/Guinea.txt"
+GUN = "countries/Guinea.txt"
 TUA = "countries/Tuareg Confederation.txt"
 
 #Greater Mauretania, Stomping ground for OAU. sad but true
@@ -345,11 +345,13 @@ TRZ = "countries/Trarza.txt"
 SAR = "countries/Sahrawi.txt"
 
 NIG = "countries/Nigeria.txt" #at start, Oyo + some of west Sokotoland, next to Benin.
+OYO = "countries/Oyo.txt"
 BIA = "countries/Biafra.txt"
 HAU = "countries/Hausaland.txt" #puppet under Biafra
 AMB = "countries/Ambazonia.txt"
 #CMR = "countries/Cameroon.txt" #Ambazonia is under Biafra
-#Tags for OAU military cliques?
+#Tags for OAS military cliques?
+ASN = "countries/Mandatory Nigeria.txt"
 
 CAM = "countries/Cameroon.txt"
 CHD = "countries/Chad.txt"

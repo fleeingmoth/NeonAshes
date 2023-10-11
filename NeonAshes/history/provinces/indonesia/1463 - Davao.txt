@@ -1,5 +1,5 @@
 owner = MND
 controller = MND
 add_core = MND
-trade_goods = timber
+trade_goods = other_metals
 life_rating = 35

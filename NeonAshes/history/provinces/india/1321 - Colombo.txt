@@ -1,5 +1,5 @@
 owner = SRL
 controller = SRL
 add_core = SRL
-trade_goods = timber
+trade_goods = fibre_crops
 life_rating = 35

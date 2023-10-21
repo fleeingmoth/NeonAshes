@@ -3,5 +3,5 @@ controller = EKD
 add_core = EKD
 add_core = SRN
 add_core = IRN
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

@@ -2,5 +2,5 @@ owner = TPN
 controller = TPN
 add_core = TPN
 add_core = INO
-trade_goods = timber
+trade_goods = fish
 life_rating = 35

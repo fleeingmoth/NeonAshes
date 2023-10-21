@@ -2,5 +2,5 @@ owner = QUE
 controller = QUE
 add_core = QUE
 add_core = AUS
-trade_goods = timber
+trade_goods = sheeps
 life_rating = 35

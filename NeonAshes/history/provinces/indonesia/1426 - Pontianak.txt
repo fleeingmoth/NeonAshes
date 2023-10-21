@@ -2,5 +2,5 @@ owner = DAY
 controller = DAY
 add_core = DAY
 add_core = INO
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

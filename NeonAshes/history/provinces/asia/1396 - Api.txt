@@ -1,5 +1,5 @@
 owner = SLU
 controller = SLU
 add_core = SLU
-trade_goods = timber
+trade_goods = grain
 life_rating = 35

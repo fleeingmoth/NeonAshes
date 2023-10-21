@@ -1,5 +1,5 @@
 owner = KRD
 controller = KRD
 add_core = KRD
-trade_goods = timber
+trade_goods = copper
 life_rating = 35

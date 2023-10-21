@@ -1,5 +1,5 @@
 owner = EDB
 controller = EDB
 add_core = EDB
-trade_goods = timber
+trade_goods = fish
 life_rating = 35

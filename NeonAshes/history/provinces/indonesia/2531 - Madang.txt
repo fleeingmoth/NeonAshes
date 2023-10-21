@@ -1,5 +1,5 @@
 owner = PNG
 controller = PNG
 add_core = PNG
-trade_goods = timber
+trade_goods = copper
 life_rating = 35

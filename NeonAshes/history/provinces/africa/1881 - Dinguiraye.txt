@@ -1,5 +1,5 @@
-owner = GUI
-controller = GUI
-add_core = GUI
+owner = GUN
+controller = GUN
+add_core = GUN
 trade_goods = tea_n_coffee
 life_rating = 35

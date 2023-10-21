@@ -1,0 +1,120 @@
+political_decisions = {
+	end_nigerian_civil_war = { #
+		#news = yes
+		#news_desc_long = "north_cali_victory_NEWS_LONG"
+		#news_desc_medium = "north_cali_victory_NEWS_MEDIUM"
+		#news_desc_short = "north_cali_victory_NEWS_SHORT"
+		picture = flag_nigeria_smallpic
+		potential = { 
+			OR={
+				tag = OYO
+				tag = BIA
+				tag = HAU
+			}
+			NOT = { exists = NIG } #
+		}
+		allow = {
+			war = no
+			NIG={
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 5
+			change_tag = NIG #
+			OYO={
+				all_core={
+					remove_core = OYO
+				}
+			}
+			BIA={
+				all_core={		
+					remove_core = BIA
+				}
+			}
+			HAU={
+				all_core={		
+					remove_core = HAU
+				}
+			}
+			ASN={
+				all_core={		
+					remove_core = ASN
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	end_nigerian_mandate = { #
+		#news = yes
+		#news_desc_long = "north_cali_victory_NEWS_LONG"
+		#news_desc_medium = "north_cali_victory_NEWS_MEDIUM"
+		#news_desc_short = "north_cali_victory_NEWS_SHORT"
+		picture = flag_nigeria_smallpic
+		potential = { 
+			tag = OAS
+			is_our_vassal = ASN
+			NOT = { exists = NIG } #
+		}
+		allow = {
+			war = no
+			NIG={
+				all_core = {
+					OR = {
+						owned_by = ASN
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			ASN={
+				change_tag = NIG #
+				OYO={
+					all_core={
+						remove_core = OYO
+					}
+				}
+				BIA={
+					all_core={		
+						remove_core = BIA
+					}
+				}
+				HAU={
+					all_core={		
+						remove_core = HAU
+					}
+				}
+				ASN={
+					all_core={		
+						remove_core = ASN
+					}
+				}
+			}
+			OAS={
+				prestige = 10
+				change_variable = {
+					which = oas_unity
+					value = 1
+				}
+				oas_unity_tooltip_gain = {}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

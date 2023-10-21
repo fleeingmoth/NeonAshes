@@ -1,5 +1,5 @@
 owner = MNL
 controller = MNL
 add_core = MNL
-trade_goods = timber
+trade_goods = oilseed_crops
 life_rating = 35

@@ -1,5 +1,6 @@
-owner = NIG
-controller = NIG
+owner = ASN
+controller = ASN
+add_core = ASN
 add_core = NIG
 trade_goods = timber
 life_rating = 35

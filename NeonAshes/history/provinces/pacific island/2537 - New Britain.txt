@@ -1,5 +1,5 @@
 owner = ASC
 controller = ASC
 add_core = PNG
-trade_goods = timber
+trade_goods = oilseed_crops
 life_rating = 35

@@ -15,7 +15,7 @@ vassal = {
 #guinea and Ghana where orginal members of the OAS
 substate = {#guinea and Ghana where orginal members
 	first = OAS
-	second = GUI
+	second = GUN
 	start_date = 1958.12.31
 	end_date = 2099.12.31
 }
@@ -67,6 +67,18 @@ substate = {#
 	start_date = 1960.12.31
 	end_date = 2099.12.31
 }
+substate = {#
+	first = OAS
+	second = SIE
+	start_date = 1960.12.31
+	end_date = 2099.12.31
+}
+vassal = {#OAS attempt to peacekeep in nigeria is going badly
+	first = OAS
+	second = ASN
+	start_date = 1968.3.18
+	end_date = 1984.5.7
+}
 #somalia decentralised
 substate = {#
 	first = SOM
@@ -92,4 +104,10 @@ substate = {#
 	second = NZL
 	start_date = 1960.12.31
 	end_date = 2099.12.31
+}
+vassal = {#Soviets puppeted afghanistan just before collapse
+	first = SOV
+	second = DRA
+	start_date = 1979.8.12
+	end_date = 1980.11.21
 }

@@ -314,10 +314,11 @@ TUS = "countries/Tunisia.txt"
 LYB = "countries/Libya.txt"
 CBV = "countries/Cabo Verde.txt"
 
-#Countries of the OAU
-#OAU = "countries/Organization of African Unity.txt" #Organization of African Unity, Monrovia-Casablanca Group. Ghana, Guinea, Mali. Social Democratic dictatorship, but vassals are limited democracies, govtype African Union Member
-#NSR = "countries/New Songhai Republic.txt"#OAS unified tag?
-OAS = "countries/Organization of African States.txt" #west african GP
+##Countries of the OAU
+#OAS unified tags
+#WAU = "countries/West Africa.txt" #
+#NSR = "countries/New Songhai Republic.txt"#
+OAS = "countries/Organization of African States.txt" #Organization of African Unity, Monrovia-Casablanca Group. Ghana, Guinea, Mali. Social Democratic dictatorship, but vassals are limited democracies, govtype African Union Member
 MLF = "countries/Mali Federation.txt"#What the OAS evolved from, and what it will devolve into after 1st breakdown
 #MAL = "countries/Mali.txt"
 SOU = "countries/Sudanese Republic.txt" #Capital of OAU at game start, released
@@ -325,6 +326,7 @@ SNG = "countries/Senegambia.txt" #Next capital location, 1985
 #SEN = "countries/Senegal.txt" #
 #GAM = "countries/Gambia.txt" #
 LIB = "countries/Liberia.txt" #Second-next capital location, 1990
+KRU = "countries/Doe Liberia.txt"#liberian civil war tag
 IVO = "countries/Ivory Coast.txt" #Third-next, 1995
 UPV = "countries/Upper Volta.txt" #Should have Sankara, "Boxer"-style rebellion in 1980s
 BKF = "countries/Burkina Faso.txt" #the "Boxer"-style rebellion

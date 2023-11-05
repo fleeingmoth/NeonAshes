@@ -55,7 +55,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	end_nigerian_mandate = { #
+	complete_nigerian_mandate = { #
 		#news = yes
 		#news_desc_long = "north_cali_victory_NEWS_LONG"
 		#news_desc_medium = "north_cali_victory_NEWS_MEDIUM"

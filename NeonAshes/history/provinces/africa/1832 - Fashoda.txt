@@ -1,5 +1,5 @@
-owner = SUD
-controller = SUD
-add_core = SUD
+owner = SSD
+controller = SSD
+add_core = SSD
 trade_goods = grain
 life_rating = 35

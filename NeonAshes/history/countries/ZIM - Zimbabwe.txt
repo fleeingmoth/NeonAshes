@@ -1,7 +1,7 @@
 capital = 2068 #
 primary_culture = zimbabwean
 religion = catholic
-government = auth_democracy
+government = communist_state
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.50
@@ -27,10 +27,10 @@ unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 school_reforms = low_schools
 
-ruling_party = ZIM_conservative
+ruling_party = ZIM_communist
 last_election = 1980.1.1
 upper_house = {
-	conservative = 100
+	communist = 100
 }
 
 

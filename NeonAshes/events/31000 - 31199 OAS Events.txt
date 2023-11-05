@@ -127,6 +127,7 @@ country_event = { # Sankaras Uprising
 			}
 		}
 		oas_unity_tooltip_lower = { }
+		set_global_flag = sankaras_uprising_OAS_intervene_flag
 		
 		ai_chance = {
 			factor = 79
@@ -155,6 +156,7 @@ country_event = { # Sankaras Uprising fails
 			}
 		}
 		clr_global_flag = sankaras_uprising_flag
+		clr_global_flag = sankaras_uprising_OAS_intervene_flag
 		OAS={country_event = 31010}
 		ai_chance = {
 			factor = 79
@@ -170,6 +172,7 @@ country_event = { # Sankaras Uprising fails
 		}
 		change_tag = BKF
 		clr_global_flag = sankaras_uprising_flag
+		clr_global_flag = sankaras_uprising_OAS_intervene_flag
 		OAS={country_event = 31010}
 		ai_chance = {
 			factor = 21
@@ -186,7 +189,13 @@ country_event = { # Sankaras Uprising succeeds
 	
 	trigger={
 		tag = BKF
-		UPV={exists = no}
+		OR={
+			UPV={exists = no}
+			AND={
+				war = no
+				has_global_flag = sankaras_uprising_OAS_intervene_flag
+			}
+		}
 		has_global_flag = sankaras_uprising_flag
 	}
 	#is_triggered_only = yes
@@ -585,10 +594,40 @@ country_event = { # Samuel Doe coups government
 	}
 	option = {
 		name = "EVT_31015_OPTB" # Leave the OAS
+		all_core={
+			add_core = KRU
+		}
+		1887={secede_province = KRU}
+		1888={secede_province = KRU}
+		1889={secede_province = KRU}
+		1890={secede_province = KRU}
+		change_tag_no_core_switch = KRU
 		government = auth_democracy
 		OAS={
-			release_vassal = LIB
-			country_event = 31016
+			country_event = {
+				id = 31016
+				days = 1
+			}
+		}
+		ai_chance = {
+			factor = 79
+		}
+	}
+	option = {
+		name = "EVT_31015_OPTC" # fight Doe
+		all_core={
+			add_core = KRU
+		}
+		1887={secede_province = KRU}
+		1888={secede_province = KRU}
+		1889={secede_province = KRU}
+		1890={secede_province = KRU}
+		KRU={government = auth_democracy}
+		OAS={
+			country_event = {
+				id = 31016
+				days = 1
+			}
 		}
 		ai_chance = {
 			factor = 79
@@ -596,7 +635,7 @@ country_event = { # Samuel Doe coups government
 	}
 }
 country_event = {
-	id = 31016 #
+	id = 31016 #OAS is informed that Liberia is leaving the OAS
 	
 	title = "EVT_31016_NAME"
 	desc = "EVT_31016_DESC"
@@ -606,13 +645,25 @@ country_event = {
 
 	option = {#Intervene
 		name = "EVT_31016_OPTA"
-		FROM={
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = become_independent }
+		war = {
+			target = KRU
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+			defender_goal = {
+				casus_belli = status_quo
 			}
 		}
-		
+		set_global_flag = samuel_doe_intervene_flag
+		change_variable = {
+			which = oas_unity
+			value = -1
+		}
+		oas_unity_tooltip_lower = { }
+	}
+	option = {#leave him
+		name = "EVT_31016_OPTB"
+		KRU={country_event = 31018}
 	}
 }
 
@@ -644,6 +695,82 @@ country_event = { # Oyo-OAS war
 		
 		ai_chance = {
 			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 31018 #OAS allows liberia to leave
+	
+	title = "EVT_31018_NAME"
+	desc = "EVT_31018_DESC"
+	picture = "events_default"
+
+	is_triggered_only = yes
+
+	option = {#
+		name = "EVT_31018_OPTA"
+		annex_to = LIB
+	}
+}
+
+country_event = { # Samuel Doe loses
+	id = 31019
+	title = "EVT_31019_NAME"
+	desc = "EVT_31019_DESC"
+
+	picture = "events_default"
+	
+	trigger={
+		tag = LIB
+		OR={
+			NOT={exists = KRU}
+			war = no
+		}
+		has_global_flag = samuel_doe_intervene_flag
+	}
+	#is_triggered_only = yes
+	option = {
+		name = "EVT_31019_OPTA" # 
+		all_core={
+			secede_province = LIB
+			remove_core = KRU
+		}
+		capital = 1887
+		clr_global_flag = samuel_doe_intervene_flag
+		ai_chance = {
+			factor = 79
+		}
+	}
+}
+
+country_event = { # Samuel Doe succeeds
+	id = 31020
+	title = "EVT_31020_NAME"
+	desc = "EVT_31020_DESC"
+
+	picture = "events_default"
+	
+	trigger={
+		tag = KRU
+		OR={
+			LIB={exists = no}
+			war = no
+		}
+		has_global_flag = samuel_doe_intervene_flag
+	}
+	#is_triggered_only = yes
+	option = {
+		name = "EVT_31020_OPTA" # 
+		LIB={
+			all_core={
+				secede_province = KRU
+				remove_core = LIB
+			}
+		}
+		clr_global_flag = samuel_doe_intervene_flag
+		ai_chance = {
+			factor = 79
 		}
 	}
 }

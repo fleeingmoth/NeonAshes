@@ -122,7 +122,7 @@ FGU = "countries/French Guiana.txt"
 # North Latin America - Unification
 #Norteno tag for North Mexico
 #"Sorteno" tag, South Mexico
-#MEX = "countries/Mexico.txt"
+MEX = "countries/Mexico.txt"
 #UCA = "countries/Central America.txt"
 #CBB = "countries/Caribbean.txt"
 #NSP = "countries/New Spain.txt" #For Mexico+Cent.Am+Caribbean tag, loc key will be different

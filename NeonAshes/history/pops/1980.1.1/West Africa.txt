@@ -200,11 +200,36 @@
 		size = 84919
 	}
 }
-1785 = {#Gambia
+1785 = {#Gambia, 171954 pops
 	farmers = {
 		culture = malian
 		religion = catholic
-		size = 171954
+		size = 71414
+	}
+	clergymen = {
+		culture = malian
+		religion = catholic
+		size = 4642
+	}
+	craftsmen = {
+		culture = malian
+		religion = catholic
+		size = 4298
+	}
+	artisans = {
+		culture = malian
+		religion = catholic
+		size = 88039
+	}
+	bureaucrats = {
+		culture = malian
+		religion = catholic
+		size = 1547
+	}
+	soldiers = {
+		culture = malian
+		religion = catholic
+		size = 2014
 	}
 }
 1783 = {#Dakar
@@ -323,14 +348,29 @@
 	farmers = {
 		culture = malian
 		religion = catholic
-		size = 88865
+		size = 87823
+	}
+	artisans = {
+		culture = malian
+		religion = catholic
+		size = 1042
 	}
 }
 1877 = {#Bissau
 	farmers = {
 		culture = malian
 		religion = catholic
-		size = 103002
+		size = 98679
+	}
+	artisans = {
+		culture = malian
+		religion = catholic
+		size = 4171
+	}
+	bureaucrats = {
+		culture = malian
+		religion = catholic
+		size = 152
 	}
 }
 #guinea

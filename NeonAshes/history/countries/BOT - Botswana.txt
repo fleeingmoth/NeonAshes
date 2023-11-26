@@ -1,7 +1,7 @@
 capital = 2574 #
 primary_culture = botswanan
 religion = catholic
-government = auth_democracy
+government = democracy
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.50
@@ -27,10 +27,10 @@ unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 school_reforms = low_schools
 
-ruling_party = BOT_conservative
+ruling_party = BOT_liberal
 last_election = 1980.1.1
 upper_house = {
-	conservative = 100
+	liberal = 100
 }
 
 

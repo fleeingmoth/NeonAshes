@@ -1,22 +1,22 @@
-capital = 2339 #
-primary_culture = paraguayian
+capital = 1941 #
+primary_culture = liberian
 religion = catholic
 government = auth_democracy
 plurality = 25.0
-nationalvalue = nv_liberty
+nationalvalue = nv_order
 literacy = 0.50
 civilized = yes
 prestige = 0
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = party_appointed
+upper_house_composition = state_equal_weight
 vote_franschise = universal_voting
-public_meetings = no_meeting
-press_rights = censored_press
+public_meetings = yes_meeting
+press_rights = free_press
 trade_unions = state_controlled
 voting_system = first_past_the_post
-political_parties = harassment
+political_parties = secret_ballots
 
 # Social Reforms
 wage_reform = trinket_wage
@@ -27,13 +27,12 @@ unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 school_reforms = low_schools
 
-ruling_party = PAR_nationalist
+ruling_party = KRU_conservative
 last_election = 1980.1.1
 upper_house = {
-	nationalist = 47
-	conservative = 26
-	liberal = 27
+	conservative = 100
 }
+
 
 # Technologies
 

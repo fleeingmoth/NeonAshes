@@ -188,7 +188,7 @@ nuclear_reactor = {
 	time = 720
 	visibility = yes
 	onmap = no
-	default_enabled = yes
+	default_enabled = no
 	production_type = nuclear_reactor
 	pop_build_factory = yes
 }
@@ -244,7 +244,7 @@ biofuel_refinery = {
 	time = 720
 	visibility = yes
 	onmap = no
-	default_enabled = yes
+	default_enabled = no
 	production_type = biofuel_refinery
 	pop_build_factory = yes
 }

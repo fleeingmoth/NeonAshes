@@ -788,7 +788,7 @@ pharmaceuticals_manufacturer = {
 	template = labor_heavy_factory_template
 	input_goods = {
 		tea_n_coffee = 1.00		# 
-		fibre = 1.00	# 
+		fibre_crops = 1.00	# 
 		oilseed_crops = 1.00
 		alcohol_beverages = 1.00
 	}
@@ -803,7 +803,7 @@ pharmaceuticals_manufacturer = {
 		value = 0.10
 	}
 	bonus = {
-		trigger = { trade_goods_in_state = fibre }
+		trigger = { trade_goods_in_state = fibre_crops }
 		value = 0.10
 	}
 	bonus = {
@@ -811,7 +811,6 @@ pharmaceuticals_manufacturer = {
 		value = 0.10
 	}
 }
-
 ### Office Supplies ###
 
 stationary_manufacturer = {

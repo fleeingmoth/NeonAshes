@@ -4,3 +4,8 @@ add_core = BIA
 add_core = NIG
 trade_goods = oil
 life_rating = 35
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

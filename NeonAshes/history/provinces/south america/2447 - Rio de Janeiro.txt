@@ -1,5 +1,15 @@
 owner = RIO
 controller = RIO
 add_core = RIO
-trade_goods = fruit #oil discoverable
+trade_goods = oil
 life_rating = 35
+state_building = {
+	level = 5
+	building = construction_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = chemical_plant
+	upgrade = yes
+}

@@ -3,7 +3,7 @@
 	farmers = {
 		culture = egyptian
 		religion = catholic
-		size = 1253746
+		size = 1237022
 	}
 	artisans = {
 		culture = egyptian
@@ -13,7 +13,12 @@
 	craftsmen = {
 		culture = egyptian
 		religion = catholic
-		size = 16871
+		size = 24871
+	}
+	clerks = {
+		culture = egyptian
+		religion = catholic
+		size = 8724
 	}
 	soldiers = {
 		culture = egyptian
@@ -395,6 +400,18 @@
 		culture = syrian
 		religion = catholic
 		size = 49778
+	}
+}
+3301 = {#
+	farmers = {
+		culture = syrian
+		religion = sunni
+		size = 3541
+	}
+	farmers = {
+		culture = israeli
+		religion = jewish
+		size = 3624
 	}
 }
 #iraq

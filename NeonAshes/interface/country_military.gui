@@ -61,10 +61,10 @@ guiTypes = {
 		
 		textBoxType = { 
 			name = "headline_military"
-			position = { x = 770 y = -42 }
+			position = { x = 700 y = -42 }
 			font = "vic_title"
 			text = "MILITARY"	
-			maxWidth = 200
+			maxWidth = 300
 			maxHeight = 48	
 			format = right
 		}

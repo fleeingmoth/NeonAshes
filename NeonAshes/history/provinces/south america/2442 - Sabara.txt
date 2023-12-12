@@ -3,3 +3,13 @@ controller = MGE
 add_core = MGE
 trade_goods = other_metals
 life_rating = 35
+state_building = {
+	level = 1
+	building = engine_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = textile_mill
+	upgrade = yes
+}

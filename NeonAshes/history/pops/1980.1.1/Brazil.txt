@@ -154,18 +154,58 @@
 	}
 }
 #rio (2,689,618 pops)
-2447 = {#Rio de Janeiro
-	farmers = {
+2447 = {#Rio de Janeiro. 1,676,838
+	clerks = {
 		culture = brazilian
 		religion = catholic
-		size = 1676838
+		size = 43122
+	}
+	artisans = {
+		culture = brazilian
+		religion = catholic
+		size = 578172
+	}
+	craftsmen = {
+		culture = brazilian
+		religion = catholic
+		size = 126395
+	}
+	bureaucrats = {
+		culture = brazilian
+		religion = catholic
+		size = 74111
+	}
+	clergymen = {
+		culture = brazilian
+		religion = catholic
+		size = 136778
+	}
+	soldiers = {
+		culture = brazilian
+		religion = catholic
+		size = 49746
+	}
+	labourers = {
+		culture = brazilian
+		religion = catholic
+		size = 668514
 	}
 }
 2448 = {#Campos
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 1012779
+		size = 626813
+	}
+	artisans = {
+		culture = brazilian
+		religion = catholic
+		size = 378142
+	}
+	soldiers = {
+		culture = brazilian
+		religion = catholic
+		size = 7824
 	}
 }
 #Minas Gerais (3,306,061)
@@ -201,7 +241,22 @@
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 1364712
+		size = 811625
+	}
+	artisans = {
+		culture = brazilian
+		religion = catholic
+		size = 453112
+	}
+	craftsmen = {
+		culture = brazilian
+		religion = catholic
+		size = 87524
+	}
+	soldiers = {
+		culture = brazilian
+		religion = catholic
+		size = 12451
 	}
 }
 2444 = {#Paracatu

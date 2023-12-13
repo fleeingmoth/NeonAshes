@@ -3,3 +3,28 @@ controller = SGP
 add_core = SGP
 trade_goods = credit_money
 life_rating = 35
+state_building = {
+	level = 2
+	building = cold_works
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = oil_refinery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = pharmaceuticals_manufacturer
+	upgrade = yes
+}

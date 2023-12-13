@@ -712,7 +712,7 @@ cold_works = {
 		value = 0.10
 	}
 	bonus = {
-		trigger = { trade_goods_in_state = sheep }
+		trigger = { trade_goods_in_state = sheeps }
 		value = 0.10
 	}
 }
@@ -787,8 +787,8 @@ furniture_manufacturer = {
 pharmaceuticals_manufacturer = {
 	template = labor_heavy_factory_template
 	input_goods = {
-		tea_n_coffee = 1.00		# 
-		fibre_crops = 1.00	# 
+		tea_n_coffee = 3.00		# 
+		fibre_crops = 2.00	# 
 		oilseed_crops = 1.00
 		alcohol_beverages = 1.00
 	}

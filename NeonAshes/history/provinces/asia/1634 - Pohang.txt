@@ -3,3 +3,8 @@ controller = SKR
 add_core = SKR
 trade_goods = grain
 life_rating = 35
+state_building = {
+	level = 3
+	building = shipyard
+	upgrade = yes
+}

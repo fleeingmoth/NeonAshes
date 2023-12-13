@@ -19,14 +19,14 @@ sealift_ship = {
 	#Building Costs
 	build_time = 360
 	build_cost = {
-		timber = 10
+		ships = 10
 	}
 	min_port_level = 0
 	limit_per_port = -1
 	supply_consumption_score = 1
 	supply_consumption = 1.0
 	supply_cost = {
-		timber = 0.1
+		ships = 0.1
 	}
 	
 	#Naval Abilties

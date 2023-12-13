@@ -442,7 +442,22 @@
 	farmers = {
 		culture = chechnyan
 		religion = catholic
-		size = 223400
+		size = 157382
+	}
+	artisans = {
+		culture = chechnyan
+		religion = catholic
+		size = 59496
+	}
+	craftsmen = {
+		culture = chechnyan
+		religion = catholic
+		size = 3781
+	}
+	soldiers = {
+		culture = chechnyan
+		religion = catholic
+		size = 2741
 	}
 }
 #dagestan

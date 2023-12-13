@@ -241,7 +241,12 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 316407
+		size = 247696
+	}
+	craftsmen = {
+		culture = japanese
+		religion = shinto
+		size = 68711
 	}
 }
 1665 = {#

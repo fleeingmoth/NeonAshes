@@ -3,3 +3,13 @@ controller = CHC
 add_core = CHC
 trade_goods = oil
 life_rating = 35
+state_building = {
+	level = 1
+	building = oil_power_plant
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

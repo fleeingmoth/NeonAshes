@@ -11,7 +11,12 @@
 	farmers = {
 		culture = mauritanian
 		religion = catholic
-		size = 12711
+		size = 11686
+	}
+	soldiers = {
+		culture = mauritanian
+		religion = catholic
+		size = 1025
 	}
 }
 1774 = {#

@@ -537,7 +537,22 @@
 	farmers = {
 		culture = yankee
 		religion = catholic
-		size = 777357
+		size = 115547
+	}
+	craftsmen = {
+		culture = yankee
+		religion = catholic
+		size = 14769
+	}
+	artisans = {
+		culture = yankee
+		religion = catholic
+		size = 645321
+	}
+	soldiers = {
+		culture = yankee
+		religion = catholic
+		size = 1720
 	}
 }
 2226 = { #Tortola

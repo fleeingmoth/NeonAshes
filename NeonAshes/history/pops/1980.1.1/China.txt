@@ -589,14 +589,169 @@
 	farmers = {
 		culture = chinese
 		religion = catholic
-		size = 1883646
+		size = 1634425
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 5776
+	}
+	craftsmen = {
+		culture = chinese
+		religion = catholic
+		size = 39296
+	}
+	clergymen = {
+		culture = chinese
+		religion = catholic
+		size = 18560
+	}
+	bureaucrats = {
+		culture = chinese
+		religion = catholic
+		size = 25520
+	}
+	capitalists = {
+		culture = chinese
+		religion = catholic
+		size = 69
 	}
 }
 1540 = {#
 	farmers = {
 		culture = chinese
 		religion = catholic
-		size = 1081291
+		size = 952539
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	craftsmen = {
+		culture = chinese
+		religion = catholic
+		size = 38752
 	}
 }
 
@@ -887,11 +1042,386 @@
 	}
 }
 
-1496 = {#
+1496 = {#Hong Kong, 1,265,750
 	farmers = {
 		culture = chinese
 		religion = catholic
-		size = 1265750
+		size = 313451
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 9833
+	}
+	craftsmen = {
+		culture = chinese
+		religion = catholic
+		size = 146465
+	}
+	clerks = {
+		culture = chinese
+		religion = catholic
+		size = 68712
+	}
+	capitalists = {
+		culture = chinese
+		religion = catholic
+		size = 3164
+	}
+	aristocrats = {
+		culture = chinese
+		religion = catholic
+		size = 542
+	}
+	soldiers = {
+		culture = chinese
+		religion = catholic
+		size = 5712
+	}
+	bureaucrats = {
+		culture = chinese
+		religion = catholic
+		size = 37871
 	}
 }
 
@@ -1048,9 +1578,19 @@
 	}
 }
 1498 = {#
-	farmers = {
+	clerks = {
 		culture = chinese
 		religion = catholic
-		size = 61333
+		size = 39401
+	}
+	craftsmen = {
+		culture = chinese
+		religion = catholic
+		size = 7411
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 14521
 	}
 }

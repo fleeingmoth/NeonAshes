@@ -471,7 +471,172 @@
 	artisans = {
 		culture = singaporean
 		religion = animist
-		size = 331212
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 10000
+	}
+	artisans = {
+		culture = singaporean
+		religion = animist
+		size = 1212
 	}
 	clerks = {
 		culture = singaporean

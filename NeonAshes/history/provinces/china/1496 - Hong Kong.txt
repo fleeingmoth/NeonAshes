@@ -5,3 +5,18 @@ add_core = HNK
 add_core = CHI
 trade_goods = fish
 life_rating = 35
+state_building = {
+	level = 7
+	building = textile_mill
+	upgrade = yes
+}
+state_building = {
+	level = 4
+	building = clothing_manufacturer
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = electronic_components_factory
+	upgrade = yes
+}

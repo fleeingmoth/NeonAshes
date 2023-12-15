@@ -57,7 +57,7 @@
 }
 2552 = {#
 	farmers = {
-		culture = polynesian
+		culture = english
 		religion = catholic
 		size = 15
 	}

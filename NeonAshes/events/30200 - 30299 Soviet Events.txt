@@ -60,3 +60,36 @@ country_event = { # Independance of Kazakhstan
 		}
 	}
 }
+country_event = { #
+	id = 30202
+	title = "EVT_30202_NAME"
+	desc = "EVT_30202_DESC"
+	news = yes
+	news_desc_long = "EVTDESC30202_NEWS_LONG"
+	news_desc_medium = "EVTDESC30202_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC30202_NEWS_SHORT"
+	picture = "events_default"
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA30202"
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	option = {
+		name = "EVTOPTB30202"
+		prestige = 1
+		relation = {
+			who = FROM
+			value = -100
+		}
+		any_pop = {
+			militancy = 3
+			consciousness = 2
+		}
+	}
+}

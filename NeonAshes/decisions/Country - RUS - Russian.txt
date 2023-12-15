@@ -1,0 +1,52 @@
+political_decisions = {
+	reform_russia = {
+		news = yes
+		news_desc_long = "reform_russia_NEWS_LONG"
+		news_desc_medium = "reform_russia_NEWS_MEDIUM"
+		news_desc_short = "reform_russia_NEWS_SHORT"
+		picture = decisions_default
+		potential = {
+			is_culture_group = east_slavic
+			NOT = {
+				exists = RUS
+				tag = SOV
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			RUS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						empty = yes
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = RUS
+			add_accepted_culture = russian
+			add_accepted_culture = permian
+			add_accepted_culture = siberian_russian
+			any_country = {
+				limit = {
+					is_culture_group = east_slavic
+					in_sphere = THIS
+					NOT={tag = SOV}
+				}
+				country_event = { id=30202 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,3 +1,6 @@
-trade_goods = timber
+owner = MLT
+controller = MLT
+add_core = MLT
+trade_goods = fish
 life_rating = 35
 

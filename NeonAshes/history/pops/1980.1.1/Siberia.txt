@@ -635,7 +635,22 @@
 	farmers = {
 		culture = siberian_russian
 		religion = orthodox
-		size = 474262
+		size = 372494
+	}
+	artisans = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 87822
+	}
+	craftsmen = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 9412
+	}
+	soldiers = {
+		culture = siberian_russian
+		religion = orthodox
+		size = 4534
 	}
 }
 

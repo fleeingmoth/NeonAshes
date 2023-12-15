@@ -199,7 +199,7 @@ CRS = "countries/Corsica.txt"
 #LON = "countries/London.txt"
 #CNN = "countries/Cornwall.txt" #Should appear by event and try to unify with Wales ~20 yrs before scramble
 #NMN = "countries/Normandy.txt"
-#FRA = "countries/France.txt"
+FRA = "countries/France.txt"
 #BRT = "countries/Brittany.txt"
 SPA = "countries/Spain.txt"
 #POR = "countries/Portugal.txt"
@@ -219,6 +219,7 @@ ITA = "countries/Italy.txt"
 #ALB = "countries/Albania.txt"
 NRM = "countries/Normark.txt"
 LUX = "countries/Luxembourg.txt"
+MLT = "countries/Malta.txt"
 
 #East Europe
 FIN = "countries/Finland.txt"

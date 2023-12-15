@@ -1,5 +1,5 @@
-owner = NZL
-controller = NZL
-add_core = NZL
+owner = GBN
+controller = GBN
+add_core = GBN
 trade_goods = timber
 life_rating = 35

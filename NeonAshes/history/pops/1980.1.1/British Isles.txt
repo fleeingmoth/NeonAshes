@@ -300,3 +300,155 @@
 		size = 1
 	}
 }
+300 = {#London
+	artisans = {
+		culture = english
+		religion = catholic
+		size = 904192
+	}
+	clerks = {
+		culture = english
+		religion = catholic
+		size = 235645
+	}
+}
+292 = {#Anglia
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 218503
+	}
+}
+293 = {#Chelmsford
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 200480
+	}
+}
+301 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 270043
+	}
+}
+303 = {#southhamton
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 201737
+	}
+}
+302 = {#britom
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 352872
+	}
+}
+297 = {#Salisbury
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 188538
+	}
+}
+298 = {#Bath
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 227699
+	}
+}
+299 = {#Cornwall
+	farmers = {
+		culture = welsh
+		religion = catholic
+		size = 232841
+	}
+}
+296 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 84788
+	}
+}
+286 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 88808
+	}
+}
+284 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 160063
+	}
+}
+287 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 619900
+	}
+}
+294 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 207633
+	}
+}
+295 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 236526
+	}
+}
+291 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 205237
+	}
+}
+281 = {#Hull
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 229977
+	}
+}
+283 = {#Sheffield
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 220698
+	}
+}
+289 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 233026
+	}
+}
+290 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 119662
+	}
+}
+288 = {#
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 319657
+	}
+}

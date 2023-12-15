@@ -3,3 +3,18 @@ controller = FER
 add_core = FER
 trade_goods = fish
 life_rating = 35
+state_building = {
+	level = 1
+	building = construction_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fish_factory
+	upgrade = yes
+}

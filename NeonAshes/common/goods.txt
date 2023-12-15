@@ -114,7 +114,7 @@ industrial_goods = {
 		color = { 192 68 20 }
 	}
 	electronic_components = { 
-		cost = 1.00 # 1980 Kilodollars per 10 computer systems, roughly.
+		cost = 10.00 # 1980 Kilodollars per 10 computer systems, roughly.
 		color = { 21 65 30 }
 	}
 	aluminum = { 
@@ -205,12 +205,12 @@ consumer_goods = {
 		available_from_start = no 
 	}
 	ships = { 
-		cost = 1.8
+		cost = 85.0
 		color = { 186 50 40 }
 		available_from_start = no 
 	}
 	spacecraft = { 
-		cost = 1.0
+		cost = 100.0
 		color = { 180 94 26 }
 		available_from_start = no 
 	}

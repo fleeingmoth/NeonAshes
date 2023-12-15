@@ -716,6 +716,28 @@ cold_works = {
 		value = 0.10
 	}
 }
+synthetic_meats = {       
+	template = labor_heavy_factory_template
+	input_goods = { 
+		oilseed_crops = 1.00 			# 
+		grain = 2.00 		#
+		sugar_crops = 2.00 		#
+	}
+	output_goods = meats			# Total cost of inputs	# 80
+	value = 25			# Total value of goods	# 85
+	bonus = {
+		trigger = { trade_goods_in_state = oilseed_crops }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = grain }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = sugar_crops }
+		value = 0.10
+	}
+}
 
 ### Alcoholic Beverages (aka breweries) ###
 
@@ -931,12 +953,12 @@ aerospace_manufacturer = {
 shipyard = {
 	template = labor_heavy_factory_template
 	input_goods = {
-		engines = 20.00			# 
-		steel = 10.00			# 
+		engines = 10.00			# 
+		steel = 20.00			# 
 		electronic_components = 2.00			# 
 	}
 	output_goods = ships		# Total cost of inputs	# 540
-	value = 5				# Total value of goods	# 80
+	value = 10				# Total value of goods	# 80
 	bonus = {
 		trigger = { has_building = engine_factory }
 		value = 0.10

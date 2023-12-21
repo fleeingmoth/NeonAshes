@@ -136,33 +136,35 @@ production_focus =
 {
 	automation_focus =
 	{
-#		aeroplanes = 18.3
-#		barrels = 18.3
-#		automobiles = 18.3
+		engines = 18.3
+		motor_vehicles = 18.3
+		aircraft = 18.3
 		icon = 16
 		limit = { year = 1880 }
 	}
 
 	electrical_focus =
 	{
-#		radio = 18.3
-#		telephones = 18.3
-#		electric_gear = 18.3
+		consumer_electronics = 18.3
+		electronic_components = 18.3
+		batteries = 18.3
 		icon = 17
-		limit = { year = 1880 }
+		#limit = { year = 1880 }
 	}
 
 	chemical_focus =
 	{
-#		energy = 18.3
-#		oil = 18.3
+		energy = 18.3
+		oil = 18.3
+		fuel = 18.3
+		polymers_and_plastics = 18.3
 		icon = 18
 		limit = { year = 1880 }
 	}
 
 	shipping_focus =
 	{
-#		steamer_convoy = 18.3
+		ships = 18.3
 #		clipper_convoy = 18.3
 		icon = 19
 		limit = { 
@@ -173,10 +175,8 @@ production_focus =
 
 	textile_focus =
 	{
-#		luxury_clothes = 18.3
-#		regular_clothes = 18.3
-#		fabric = 0.3
-#		dye = 0.3
+		clothing = 18.3
+		textiles = 18.3
 		icon = 20
 		#limit = { 
 		#	civilized = yes
@@ -185,10 +185,8 @@ production_focus =
 
 	wood_focus = 
 	{
-#		paper = 18.3
-#		luxury_furniture = 18.3
-#		furniture = 18.3
-#		lumber = 18.3
+		office_supplies = 18.3
+		furniture = 18.3
 		icon = 21
 		#limit = { 
 		#	civilized = yes
@@ -197,9 +195,10 @@ production_focus =
 
 	basic_industry_focus =
 	{
-#		steel = 18.3
-#		machine_parts = 25.3
-#		construction_materials = 18.3
+		aluminum = 18.3
+		machine_parts = 25.3
+		construction_materials = 18.3
+		fertilizer = 18.3
 		icon = 22
 		#limit = { 
 		#	civilized = yes
@@ -208,8 +207,12 @@ production_focus =
 
 	armaments_focus = 
 	{
-#		small_arms = 18.3
-#		conv_ammunition = 18.3
+		small_arms = 18.3
+		conv_ammunition = 18.3
+		heavy_weapons = 18.3
+		adv_ammunition = 18.3
+		elec_weapons = 9.15
+		armored_vehicles = 9.15
 		icon = 23
 		#limit = { 
 		#	civilized = yes
@@ -218,8 +221,8 @@ production_focus =
 
 	consumer_focus = 
 	{
-#		liquor = 18.3
-#		wine = 18.3
+		pharma_n_equipment = 18.3
+		alcohol_beverages = 18.3
 #		glass = 18.3
 		icon = 24
 		#limit = { 
@@ -237,20 +240,31 @@ party_loyalty_focus =
 		icon = 25
 	}
 	
+	nationalist_focus =
+	{
+		ideology = nationalist
+		loyalty_value = 0.001 # By that much pops will be more loyal
+		icon = 26
+	}
 	traditionalist_focus =
 	{
 		ideology = traditionalist
 		loyalty_value = 0.001 # By that much pops will be more loyal
-		icon = 26
+		icon = 27
 	}
 	
 	conservative_focus =
 	{
 		ideology = conservative
 		loyalty_value = 0.001 # By that much pops will be more loyal
-		icon = 27
+		icon = 32
 	}
-	
+	social_democrat_focus =
+	{
+		ideology = social_democrat
+		loyalty_value = 0.001 # By that much pops will be more loyal
+		icon = 34
+	}
 	socialist_focus =
 	{
 		ideology = socialist
@@ -277,5 +291,11 @@ party_loyalty_focus =
 		ideology = anarcho_liberal
 		loyalty_value = 0.001 # By that much pops will be more loyal
 		icon = 31
+	}
+	green_focus =
+	{
+		ideology = green
+		loyalty_value = 0.001 # By that much pops will be more loyal
+		icon = 33
 	}
 }

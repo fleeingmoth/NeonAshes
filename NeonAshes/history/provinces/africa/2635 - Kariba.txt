@@ -1,5 +1,6 @@
 owner = ZIM
 controller = ZIM
 add_core = ZIM
+add_core = ZRH
 trade_goods = tea_n_coffee
 life_rating = 35

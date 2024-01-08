@@ -1,5 +1,6 @@
 owner = ZRH
 controller = ZRH
+add_core = ZIM
 add_core = ZRH
 trade_goods = coal
 life_rating = 35

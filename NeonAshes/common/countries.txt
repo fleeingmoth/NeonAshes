@@ -127,7 +127,6 @@ MEX = "countries/Mexico.txt"
 #CBB = "countries/Caribbean.txt"
 #NSP = "countries/New Spain.txt" #For Mexico+Cent.Am+Caribbean tag, loc key will be different
 #GCO = "countries/Gran Colombia.txt"
-#BOL = "countries/Bolivia.txt"
 #PBC = "countries/Peru-Bolivia.txt"
 #ANN = "countries/Andinea.txt" #Andes formable, can annex Chile by invasion decision (no cores)
 
@@ -159,7 +158,7 @@ BAI = "countries/Bahia.txt"
 BNU = "countries/Nordeste Union.txt"
 
 # Latin and South America - Southern Formables
-#BRA = "countries/Brazil.txt"
+BRA = "countries/Brazil.txt"
 #SBZ = "countries/South Brazil.txt"
 #NBZ = "countries/North Brazil.txt"
 #PLN = "countries/Platinea.txt" #formable for North Argentina

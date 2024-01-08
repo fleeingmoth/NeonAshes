@@ -1,0 +1,52 @@
+political_decisions = {
+	zimbabwe_victory = {
+		news = yes
+		news_desc_long = "zimbabwe_victory_NEWS_LONG"
+		news_desc_medium = "zimbabwe_victory_NEWS_MEDIUM"
+		news_desc_short = "zimbabwe_victory_NEWS_SHORT"
+		picture = flag_texas_smallpic
+		potential = { 
+			tag = ZIM
+			any_core = { has_core = ZRH}
+		}
+		allow = {
+			NOT = { exists = ZRH } #
+			war = no
+			owns = 2068 #We have Salisbury
+		}
+		effect = {
+			prestige = 5
+			ZRH={
+				all_core={		
+					remove_core = ZRH
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	zimbabwe_rhodesia_victory = {
+		news = yes
+		news_desc_long = "rhodesia_victory_NEWS_LONG"
+		news_desc_medium = "rhodesia_victory_NEWS_MEDIUM"
+		news_desc_short = "rhodesia_victory_NEWS_SHORT"
+		picture = flag_texas_smallpic
+		potential = { 
+			tag = ZRH
+			any_core = { has_core = ZIM}
+		}
+		allow = {
+			NOT = { exists = ZIM } #
+			war = no
+			owns = 2068 #We have Salisbury
+		}
+		effect = {
+			prestige = 5
+			ZIM={
+				all_core={
+					remove_core = ZIM
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

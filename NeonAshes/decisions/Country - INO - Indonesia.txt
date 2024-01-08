@@ -5,6 +5,7 @@ political_decisions = {
 			NOT = {
 				exists = SMT
 			}
+			NOT={tag = INO}
 		}	
 		allow = {
 			war = no

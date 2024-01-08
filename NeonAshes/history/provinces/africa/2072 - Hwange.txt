@@ -1,5 +1,6 @@
 owner = ZIM
 controller = ZIM
 add_core = ZIM
+add_core = ZRH
 trade_goods = timber
 life_rating = 35

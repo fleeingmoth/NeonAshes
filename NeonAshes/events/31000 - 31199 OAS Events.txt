@@ -218,7 +218,7 @@ country_event = { #Abandon Mali Federation or not
 	title = "EVT_31004_NAME"
 	desc = "EVT_31004_DESC"
 
-	picture = "events_default"
+	picture = "african_union_formation"
 	
 	trigger={
 		tag = OAS

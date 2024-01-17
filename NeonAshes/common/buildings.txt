@@ -557,7 +557,7 @@ consumer_electronics_factory = {	#
 	time = 720
 	visibility = yes
 	onmap = no
-	production_type = consumer_electronics_factory
+	production_type = consumer_electronics_production
 	pop_build_factory = yes
 }
 battery_factory = {	# 

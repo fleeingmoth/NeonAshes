@@ -7,7 +7,7 @@ political_decisions = {
 		picture = flag_texas_smallpic
 		potential = { 
 			tag = ZIM
-			any_core = { has_core = ZRH}
+			any_core = { is_core = ZRH}
 		}
 		allow = {
 			NOT = { exists = ZRH } #
@@ -32,7 +32,7 @@ political_decisions = {
 		picture = flag_texas_smallpic
 		potential = { 
 			tag = ZRH
-			any_core = { has_core = ZIM}
+			any_core = {is_core = ZIM}
 		}
 		allow = {
 			NOT = { exists = ZIM } #

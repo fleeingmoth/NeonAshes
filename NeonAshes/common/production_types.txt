@@ -84,6 +84,33 @@ energy_power_template = {
 	type = factory
 	workforce = 10000 
 }
+nuclear_power_template = {
+	efficiency = {
+		machine_parts = 0.10		# About 2.00
+		construction_materials = 0.15	# About 1.125
+	}
+	owner = {
+		poptype = capitalists 
+		effect = input
+		effect_multiplier = -2.5
+	}
+	employees = {		
+		{ 
+			poptype = clerks
+			effect = throughput
+			amount = 0.6
+		}		
+		{ 
+			poptype = bureaucrats 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.4
+		}
+	
+	}
+	type = factory
+	workforce = 10000 
+}
 
 labor_heavy_factory_template = {
 	efficiency = {
@@ -469,7 +496,7 @@ oil_power_plant = {
 	}
 }
 nuclear_reactor = {       
-	template = energy_power_template
+	template = nuclear_power_template
 	input_goods = { 
 		other_metals = 1.00 			# 10,000 barrels	# 30
 	}
@@ -576,7 +603,7 @@ aluminum_refinery = {
 	template = energy_heavy_factory_template
 	input_goods = {
 		bauxite = 1.00		# 100 tonnes of bauxite		# 3
-		energy = 200.00		# 200,000 MWh			# 80
+		energy = 100.00		# 200,000 MWh			# 80 lowering due to price
 		other_metals = 1.00	# 100 tonnes of other metals	# 10
 	}
 	output_goods = aluminum			# Total cost of inputs	# 93
@@ -854,7 +881,7 @@ stationary_manufacturer = {
 }
 ### Consumer Electronics ###
 
-consumer_electronics_factory = {       
+consumer_electronics_production = {       
 	template = modern_factory_template
 	input_goods = { 			# Silicon is locally-sourced
 		electronic_components = 1.00			# 1 tonne of copper		# 2
@@ -931,7 +958,7 @@ electric_vehicle_assembly = {
 aerospace_manufacturer = {
 	template = modern_factory_template
 	input_goods = {
-		engines = 20.00			# 
+		engines = 2.00			# 
 		aluminum = 25.00			# 
 		consumer_electronics = 2.00			# 
 		textiles = 10.00		# 

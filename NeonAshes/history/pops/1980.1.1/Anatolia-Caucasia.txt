@@ -48,11 +48,31 @@
 		size = 329043
 	}
 }
-876 = {#
+876 = {#878273
+	artisans = {
+		culture = turkish
+		religion = catholic
+		size = 375074
+	}
+	capitalists = {
+		culture = turkish
+		religion = catholic
+		size = 174
+	}
+	craftsmen = {
+		culture = turkish
+		religion = catholic
+		size = 142403
+	}
+	bureaucrats = {
+		culture = turkish
+		religion = catholic
+		size = 5841
+	}
 	farmers = {
 		culture = turkish
 		religion = catholic
-		size = 878273
+		size = 353881
 	}
 }
 879 = {#

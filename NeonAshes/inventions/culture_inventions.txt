@@ -14,7 +14,9 @@ consumer_electronics = { # The Cognitive Process
 			year = 2010	# Running really behind
 		}
 	}
-	activate_building = consumer_electronics_factory
+	effect = {
+		activate_building = consumer_electronics_factory
+	}
 }
 
 ### ### Psychology ### ###

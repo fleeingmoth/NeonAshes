@@ -316,8 +316,8 @@ CBV = "countries/Cabo Verde.txt"
 
 ##Countries of the OAU
 #OAS unified tags
-#WAU = "countries/West Africa.txt" #
-#NSR = "countries/New Songhai Republic.txt"#
+WAU = "countries/West Africa.txt" #
+NSR = "countries/New Songhai Republic.txt"#
 OAS = "countries/Organization of African States.txt" #Organization of African Unity, Monrovia-Casablanca Group. Ghana, Guinea, Mali. Social Democratic dictatorship, but vassals are limited democracies, govtype African Union Member
 MLF = "countries/Mali Federation.txt"#What the OAS evolved from, and what it will devolve into after 1st breakdown
 #MAL = "countries/Mali.txt"

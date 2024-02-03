@@ -237,6 +237,13 @@
 		size = 50325
 	}
 }
+857 = {#
+	farmers = {
+		culture = turkish
+		religion = catholic
+		size = 42123
+	}
+}
 
 899 = {#
 	farmers = {

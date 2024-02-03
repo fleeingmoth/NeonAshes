@@ -245,7 +245,7 @@ country_event = { #Abandon Mali Federation or not
 		}
 	}
 }
-country_event = { #
+country_event = { #collapse of the OAS
 	id = 31005
 	title = "EVT_31005_NAME"
 	desc = "EVT_31005_DESC"
@@ -420,11 +420,11 @@ country_event = {
 
 	option = {#New Songhai Republic
 		name = "EVT_31009_OPTA"
-		
+		change_tag = NSR
 	}
 	option = {#West African Union
 		name = "EVT_31009_OPTB"
-		
+		change_tag = WAU
 	}
 	option = {#stay the OAS
 		name = "EVT_31009_OPTC"

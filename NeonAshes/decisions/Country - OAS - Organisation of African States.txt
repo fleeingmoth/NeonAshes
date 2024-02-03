@@ -214,7 +214,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	OAS_unify_the_union = { #information tooltip
+	OAS_unify_the_union = { #integrate the member-states
 		picture = symbol_OAS_smallpic
 		potential = { 
 			tag = OAS
@@ -252,4 +252,5 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+	
 }

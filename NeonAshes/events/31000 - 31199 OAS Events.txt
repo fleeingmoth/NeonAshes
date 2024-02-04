@@ -878,3 +878,28 @@ country_event = { # Nigerian OAS Backstory
 		}
 	}
 }
+
+country_event = { # Centenial of the creation of the OAS
+	id = 31025
+	title = "EVT_31025_NAME"
+	desc = "EVT_31025_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = OAS
+		year = 2058
+		NOT={month = 10}
+	}
+	option = {
+		name = "EVT_31025_OPTA" # 
+		change_variable = {
+			which = oas_unity
+			value = 1
+		}
+		oas_unity_tooltip_gain = {}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

@@ -1,3 +1,18 @@
-EVT_601_NAME;The East African Federation;;;;;;;;;;;;;x;;;;
-EVT_601_DESC;The british colonies of east africa, long benifiting from a shared market, decided to become independant together as a federated union in 1964 while the british empire crumbled in europe. The federation had only a few years of existance until a crisis erupted within uganda between the Buganda Kingdom desiring a equal place under the EAF and the new president of uganada, Idi Amin. This Crisis quickly escalated into the first EAF-Uganda war by 1970 as the federal government under Julius Nyerere, attempted to oust the dictatorial Amin. this war was set to be over quickly, however the resource wars restarted in europe, causing the global market of modern arms that the EAF armed forces relied on to be quickly depleted. by the mid 1970s the war drew out into a stalemate.;;;;;;;;;;;;;x;;;;
-EVT_601_OPTA;Go on...;;;;;;;;;;;;;x;;;;
+#600-
+country_event = { # East African Federation
+	id = 601
+	title = "EVT_601_NAME"
+	desc = "EVT_601_DESC"
+	picture = "overview_east_african_federation_pic"
+	fire_only_once = yes
+	trigger = { tag = EAF }
+	option = {
+		name = "EVT_601_OPTA" # "Go on..."
+		any_pop = {		# 
+			ideology = {
+				factor = 0.30
+				value = social_democrat
+			}
+		}
+	}
+}

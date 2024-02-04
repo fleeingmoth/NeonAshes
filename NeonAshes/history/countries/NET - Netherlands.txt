@@ -1,12 +1,12 @@
-capital = 1783 #
-primary_culture = malian
+capital = 425 #
+primary_culture = dutch
 religion = catholic
-government = democracy
+government = auth_democracy
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.50
 civilized = yes
-prestige = 35
+prestige = 0
 
 # Political reforms
 slavery = no_slavery
@@ -27,11 +27,10 @@ unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 school_reforms = low_schools
 
-ruling_party = OAS_social_democrat
+ruling_party = NET_conservative
 last_election = 1980.1.1
 upper_house = {
-	social_democrat = 100
-	conservative = 0
+	conservative = 100
 }
 
 
@@ -40,12 +39,3 @@ upper_house = {
 # Starting Consciousness
 consciousness = 3
 
-# Order of Battle
-oob = "OAS_oob.txt"
-
-1979.12.30 = {
-	decision = OAS_unity
-	decision = OAS_unity
-	decision = OAS_unity
-	decision = OAS_unity
-}

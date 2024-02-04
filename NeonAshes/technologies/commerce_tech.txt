@@ -551,6 +551,7 @@ modern_corporate_structure = { #Modern Corporate Structure
 	cost = 4000
 
 	factory_output = 0.01
+	activate_building = stationary_manufacturer
 
 	ai_chance = {
 		factor = 1.05

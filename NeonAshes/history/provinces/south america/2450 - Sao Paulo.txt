@@ -4,7 +4,7 @@ add_core = SPL
 trade_goods = fruit
 life_rating = 35
 state_building = {
-	level = 3
+	level = 1
 	building = engine_factory
 	upgrade = yes
 }
@@ -16,6 +16,16 @@ state_building = {
 state_building = {
 	level = 3
 	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = biofuel_refinery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = aerospace_manufacturer
 	upgrade = yes
 }
 state_building = {

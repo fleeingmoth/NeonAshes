@@ -441,6 +441,7 @@ shipbuilding_industry = { # Shipbuilding Industry
 	unciv_military = yes
 
 	navy_base = { build_time = -10 }
+	activate_building = shipyard
 
 	ai_chance = {
 		factor = 1
@@ -994,6 +995,7 @@ aerospace_industry = { #Aerospace Industry
 	armyaviation = { supply_consumption = 0.10 }
 	fighteraircraft = { supply_consumption = 0.10 }
 	groundattackaircraft = { supply_consumption = 0.10 }
+	activate_building = aerospace_manufacturer
 
 	ai_chance = {
 		factor = 1.01

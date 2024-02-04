@@ -14,7 +14,22 @@
 	artisans = {
 		culture = cuban
 		religion = catholic
-		size = 40000
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
 	}
 	bureaucrats = {
 		culture = cuban
@@ -67,7 +82,32 @@
 	artisans = {
 		culture = cuban
 		religion = catholic
-		size = 60000
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
 	}
 	bureaucrats = {
 		culture = cuban
@@ -120,7 +160,37 @@
 	artisans = {
 		culture = cuban
 		religion = catholic
-		size = 64000
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 4000
 	}
 	bureaucrats = {
 		culture = cuban
@@ -173,7 +243,62 @@
 	artisans = {
 		culture = cuban
 		religion = catholic
-		size = 240000
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = cuban
+		religion = catholic
+		size = 20000
 	}
 	bureaucrats = {
 		culture = cuban
@@ -353,7 +478,12 @@
 	artisans = {
 		culture = anglo_antillian
 		religion = protestant
-		size = 17041
+		size = 10000
+	}
+	artisans = {
+		culture = anglo_antillian
+		religion = protestant
+		size = 7041
 	}
 	bureaucrats = {
 		culture = anglo_antillian
@@ -492,7 +622,22 @@
 	artisans = {
 		culture = anglo_antillian
 		religion = catholic
-		size = 36748
+		size = 10000
+	}
+	artisans = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = anglo_antillian
+		religion = catholic
+		size = 6748
 	}
 	clergymen = {
 		culture = anglo_antillian

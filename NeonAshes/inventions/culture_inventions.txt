@@ -1,3 +1,24 @@
+### ### Computer Science### ###
+### Microprocessors ###
+
+consumer_electronics = { # The Cognitive Process
+	limit = { microprocessors = 1 }
+	chance = {
+		base = 5 		# Very high chance by itself
+		modifier = {
+			factor = 2
+			year = 1990	# Running behind
+		}
+		modifier = {
+			factor = 2
+			year = 2010	# Running really behind
+		}
+	}
+	effect = {
+		activate_building = consumer_electronics_factory
+	}
+}
+
 ### ### Psychology ### ###
 ### Cognitive Psychology ###
 

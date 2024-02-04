@@ -4,3 +4,13 @@ add_core = KYT
 add_core = JAP
 trade_goods = fibre_crops
 life_rating = 35
+state_building = {
+	level = 5
+	building = shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = engine_factory
+	upgrade = yes
+}

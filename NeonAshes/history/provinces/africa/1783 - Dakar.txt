@@ -9,3 +9,8 @@ state_building = {
 	building = textile_mill
 	upgrade = yes
 }
+state_building = {
+	level = 3
+	building = fertilizer_manufactory
+	upgrade = yes
+}

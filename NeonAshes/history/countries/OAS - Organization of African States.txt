@@ -27,10 +27,10 @@ unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 school_reforms = low_schools
 
-ruling_party = OAS_conservative
+ruling_party = OAS_social_democrat
 last_election = 1980.1.1
 upper_house = {
-	conservative = 100
+	social_democrat = 100
 }
 
 

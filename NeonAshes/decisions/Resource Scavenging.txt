@@ -4,6 +4,7 @@ political_decisions = {
 		picture = scavenge_industry_smallpic
 		potential = {
 			NOT = { industrial_score = 10 }	# We have very little indusutry
+			NOT= {tag = OAS}
 		}
 		allow = {
 			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
@@ -26,6 +27,7 @@ political_decisions = {
 		potential = {
 			industrial_score = 10	# We have little indusutry
 			NOT = { industrial_score = 100 }
+			NOT= {tag = OAS}
 		}
 		allow = {
 			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
@@ -54,6 +56,7 @@ political_decisions = {
 		potential = {
 			industrial_score = 100	# We have a decent industrial base
 			NOT = { industrial_score = 1000 }
+			NOT= {tag = OAS}
 		}
 		allow = {
 			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
@@ -91,6 +94,7 @@ political_decisions = {
 		picture = scavenge_industry_smallpic
 		potential = {
 			industrial_score = 1000	# We are a large country
+			NOT= {tag = OAS}
 		}
 		allow = {
 			NOT = { has_country_modifier = industrial_scavenging }	# Recent industrial scavenging
@@ -118,6 +122,7 @@ political_decisions = {
 		picture = scavenge_buildings_smallpic
 		potential = {
 			NOT = { industrial_score = 10 }	# We have very little indusutry
+			NOT= {tag = OAS}
 		}
 		allow = {
 			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging
@@ -140,6 +145,7 @@ political_decisions = {
 		potential = {
 			industrial_score = 10	# We have little indusutry
 			NOT = { industrial_score = 100 }
+			NOT= {tag = OAS}
 		}
 		allow = {
 			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging
@@ -168,6 +174,7 @@ political_decisions = {
 		potential = {
 			industrial_score = 100	# We have a decent industrial base
 			NOT = { industrial_score = 1000 }
+			NOT= {tag = OAS}
 		}
 		allow = {
 			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging
@@ -205,6 +212,7 @@ political_decisions = {
 		picture = scavenge_buildings_smallpic
 		potential = {
 			industrial_score = 1000	# We are a large country
+			NOT= {tag = OAS}
 		}
 		allow = {
 			NOT = { has_country_modifier = building_scavenging }	# Recent real estate scavenging

@@ -12,6 +12,7 @@ political_decisions = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = conservative
 			}
+			NOT= {tag = OAS}
 		}
 		allow = {
 			OR = {
@@ -81,6 +82,7 @@ political_decisions = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = conservative
 			}
+			NOT= {tag = OAS}
 		}
 		allow = {
 			OR = {
@@ -152,6 +154,7 @@ political_decisions = {
 				ruling_party_ideology = socialist
 				ruling_party_ideology = communist
 			}
+			NOT= {tag = OAS}
 		}
 		allow = {
 			OR = {
@@ -248,6 +251,7 @@ political_decisions = {
 				ruling_party_ideology = traditionalist
 				ruling_party_ideology = ultranationalist
 			}
+			NOT= {tag = OAS}
 		}
 		allow = {
 			OR = {

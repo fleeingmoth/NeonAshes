@@ -1,4 +1,42 @@
 political_decisions = {
+	OAS_unify_the_union = { #integrate the member-states
+		picture = symbol_OAS_smallpic
+		potential = { 
+			tag = OAS
+		}
+		allow = {
+			check_variable = {
+				which = oas_unity
+				value = 10
+			}
+			NOT={
+				any_substate={
+					OR={
+						government = socialist_dictatorship
+						government = communist_state
+						government = minarchist_state
+						government = eco_state
+						government = nat_dictatorship
+						government = theo_dictatorship
+						government = ultranat_dictatorship
+					}
+				}
+			}
+			new_international_system = 1
+		}
+		effect = {
+			country_event = { id=31009 days=1 }
+			any_country = {
+				limit = {
+					NOT={tag = THIS}
+					substate_of = OAS
+					num_of_cities = 1
+				}
+				country_event = { id=31008 days=0 }
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
 	OAS_unity = { #information tooltip
 		picture = symbol_OAS_smallpic
 		potential = { 
@@ -214,43 +252,173 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	OAS_unify_the_union = { #integrate the member-states
-		picture = symbol_OAS_smallpic
+	OAS_ECOWAS_success = { #Economic success
+		picture = symbol_ECOWAS_smallpic
 		potential = { 
 			tag = OAS
 		}
 		allow = {
-			check_variable = {
-				which = oas_unity
-				value = 10
+			industrial_score = 20
+			SNG={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
 			}
-			NOT={
-				any_substate={
-					OR={
-						government = socialist_dictatorship
-						government = communist_state
-						government = minarchist_state
-						government = eco_state
-						government = nat_dictatorship
-						government = theo_dictatorship
-						government = ultranat_dictatorship
+			GHA={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			GUN={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			SIE={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			LIB={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			IVO={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			UPV={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			BKF={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			BEN={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			TOG={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			NGE={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			ASN={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+			NIG={
+				OR={
+					NOT={vassal_of = OAS}
+					industrial_score = 5
+				}
+			}
+		}
+		effect = {
+			country_event = 31021
+			change_variable = {
+				which = oas_unity
+				value = 1
+			}
+			oas_unity_tooltip_gain_great = {}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	complete_nigerian_mandate = { #
+		#news = yes
+		#news_desc_long = "north_cali_victory_NEWS_LONG"
+		#news_desc_medium = "north_cali_victory_NEWS_MEDIUM"
+		#news_desc_short = "north_cali_victory_NEWS_SHORT"
+		picture = flag_nigeria_smallpic
+		potential = { 
+			tag = OAS
+			is_our_vassal = ASN
+			NOT = { exists = NIG } #
+		}
+		allow = {
+			war = no
+			NIG={
+				all_core = {
+					OR = {
+						owned_by = ASN
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
 					}
 				}
 			}
-			new_international_system = 1
 		}
 		effect = {
-			country_event = { id=31009 days=1 }
-			any_country = {
-				limit = {
-					NOT={tag = THIS}
-					substate_of = OAS
-					num_of_cities = 1
+			NIG={
+				all_core = {
+					limit ={
+						OR={
+							owned_by = OAS
+							in_sphere = OAS
+						}
+					}
+					secede_province = ASN
 				}
-				country_event = { id=31008 days=0 }
+			}
+			ASN={
+				change_tag = NIG #
+				OYO={
+					all_core={
+						remove_core = OYO
+					}
+				}
+				BIA={
+					all_core={		
+						remove_core = BIA
+					}
+				}
+				HAU={
+					all_core={		
+						remove_core = HAU
+					}
+				}
+				ASN={
+					all_core={		
+						remove_core = ASN
+					}
+				}
+			}
+			OAS={
+				prestige = 10
+				change_variable = {
+					which = oas_unity
+					value = 1
+				}
+				oas_unity_tooltip_gain = {}
 			}
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
 }

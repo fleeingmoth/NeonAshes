@@ -458,10 +458,12 @@ country_event = { # loss of Ghana
 	fire_only_once = yes
 	trigger={
 		tag = OAS
-		GHA={
-			NOT={substate_of = OAS}
+		NOT={
+			GHA={
+				substate_of = OAS
+			}
+			has_country_flag = OAS_lost_ghana
 		}
-		NOT={has_country_flag = OAS_lost_ghana}
 	}
 	option = {
 		name = "EVT_31011_OPTA" # 
@@ -771,6 +773,108 @@ country_event = { # Samuel Doe succeeds
 		clr_global_flag = samuel_doe_intervene_flag
 		ai_chance = {
 			factor = 79
+		}
+	}
+}
+
+country_event = { # ECOWAS successful
+	id = 31021
+	title = "EVT_31021_NAME"
+	desc = "EVT_31021_DESC"
+
+	picture = "events_default"
+	
+	#trigger={
+	#	always = no
+	#}
+	#fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "EVT_31021_OPTA" # 
+		prestige = 15
+		ai_chance = {
+			factor = 79
+		}
+	}
+}
+country_event = { # loss of Senegambia
+	id = 31022
+	title = "EVT_31022_NAME"
+	desc = "EVT_31022_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = OAS
+		SNG={
+			NOT={vassal_of = OAS}
+		}
+		NOT={has_country_flag = OAS_lost_senegambia}
+	}
+	option = {
+		name = "EVT_31022_OPTA" #
+		set_country_flag = OAS_lost_senegambia
+		change_variable = {
+			which = oas_unity
+			value = -1
+		}
+		oas_unity_tooltip_lower = { }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { # regain Senegambia
+	id = 31023
+	title = "EVT_31023_NAME"
+	desc = "EVT_31023_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = OAS
+		has_country_flag = OAS_lost_senegambia
+		SNG={
+			all_core={
+				owner={
+					OR={
+						vassal_of = OAS
+						tag = OAS
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVT_31023_OPTA" # 
+		clr_country_flag = OAS_lost_senegambia
+		change_variable = {
+			which = oas_unity
+			value = 1
+		}
+		oas_unity_tooltip_gain = { }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Nigerian OAS Backstory
+	id = 31024
+	title = "EVT_31024_NAME"
+	desc = "EVT_31024_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = OAS
+		
+	}
+	option = {
+		name = "EVT_31024_OPTA" # 
+		
+		ai_chance = {
+			factor = 100
 		}
 	}
 }

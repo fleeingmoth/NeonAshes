@@ -29,8 +29,14 @@ political_decisions = {
 			any_country = {
 				limit = {
 					NOT={tag = THIS}
-					substate_of = OAS
 					num_of_cities = 1
+					OR={
+						substate_of = OAS
+						AND={
+							vassal_of = OAS
+							has_country_flag = OAS_member
+						}
+					}
 				}
 				country_event = { id=31008 days=0 }
 			}

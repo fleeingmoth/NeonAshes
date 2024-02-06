@@ -58,4 +58,64 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+	SCO_unification = { #
+		news = yes
+		news_desc_long = "SCO_unification_NEWS_LONG"
+		news_desc_medium = "SCO_unification_NEWS_MEDIUM"
+		news_desc_short = "SCO_unification_NEWS_SHORT"
+		picture = flags_scotland_smallpic
+		potential = {
+			primary_culture = scotish
+			#institutionalism = 1					# We have Institutionalism
+			NOT = { exists = SCO }					# UK already unified
+			NOT = {tag = GBR} #GB should not devolve
+		}
+		allow = {
+			new_international_system = 1				# We have New International System
+			war = no
+			SCO = {
+				all_core={
+					OR={
+						owned_by = THIS
+						owner={
+							OR={
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+						province_id = 267
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 1			# Tiny badboy hit
+			prestige = 5			# Rising up in the world
+			change_tag = SCO		# We become Scotland
+			# any_country = {
+				# limit = {
+					# OR = {
+						# tag = BCB
+						# tag = CPR
+						# tag = MAR
+						# tag = NFL
+						# tag = NWT
+						# tag = ONT
+						# tag = QBC
+						# tag = WCA
+						# tag = ECA
+					# }
+				# }
+				# country_event = {
+					# id = 18201
+					# days = 0
+				# }
+			# }
+			# country_event = { #change to custom event
+				# id = 
+				# days = 0
+			# }
+		}
+		ai_will_do = { factor = 1 }
+	}
 }

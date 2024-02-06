@@ -1,5 +1,6 @@
 owner = GLS
 controller = GLS
 add_core = GLS
+add_core = SCO
 trade_goods = coal
 life_rating = 35

@@ -33,6 +33,7 @@ upper_house = {
 	conservative = 100
 }
 
+set_country_flag = OAS_member
 
 # Technologies
 

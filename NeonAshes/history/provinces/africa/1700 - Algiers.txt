@@ -1,6 +1,7 @@
 owner = FRR
 controller = FRR
 add_core = FRR
+add_core = EPN
 add_core = ALG
 trade_goods = fruit
 life_rating = 35

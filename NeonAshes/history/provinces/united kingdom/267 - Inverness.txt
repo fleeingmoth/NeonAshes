@@ -1,5 +1,6 @@
 owner = GBN
 controller = GBN
 add_core = GBN
+add_core = SCO
 trade_goods = oil
 life_rating = 35

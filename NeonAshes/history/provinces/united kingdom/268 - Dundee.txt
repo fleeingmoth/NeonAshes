@@ -1,5 +1,6 @@
 owner = EDB
 controller = EDB
 add_core = EDB
+add_core = SCO
 trade_goods = fish
 life_rating = 35

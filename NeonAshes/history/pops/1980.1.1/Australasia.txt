@@ -533,3 +533,10 @@
 		size = 180
 	}
 }
+2244 = {#
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 350
+	}
+}

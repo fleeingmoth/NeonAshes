@@ -267,6 +267,7 @@ british = {
 	}
 	scotish = {
 		color = { 224 207 100}
+		primary = SCO
 		first_names = { Albert Alexander Alfred Archibald Arthur Augustus Benjamin Bernard Charles Colbert
 		Colin Cyril David Donald Douglas Edmund Edwar Fairfax Ferdinand Francis
 		Frederick Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
@@ -424,6 +425,20 @@ french = {
 	}
 	corsican = { 
 		color = {64 64 64}
+		first_names = { Achille Adolphe Adrien Aimable Alphonse Am餩e Antoine Armand August Augustin
+		Charles Daniel Denis ɤouard Elie ɴtiene Eug讥 F鬩cien F鬩x Fernand
+		Fran篩s Fr餩ric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+		Joseph Jules Julien Lazare L鯰old Leroy Louis Lucien Matthieu Michel
+		Napol鯮 Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
+		
+		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Bou頤e Lapeyr貥" Bou봭Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchꮥ Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Esp貥y" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaur賠Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle P鬬issier Petain Vaillant }
+	}
+	pied_noir = { 
+		color = {0 42 127}
 		first_names = { Achille Adolphe Adrien Aimable Alphonse Am餩e Antoine Armand August Augustin
 		Charles Daniel Denis ɤouard Elie ɴtiene Eug讥 F鬩cien F鬩x Fernand
 		Fran篩s Fr餩ric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean

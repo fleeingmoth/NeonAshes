@@ -27,6 +27,7 @@ oas_unity_tooltip_10;§!The §YUnity of the OAS§! is higher than §G10§!§b;;;;;;;;;
 oas_unity_tooltip_gain;§!The §YUnity of the OAS§! increases by §G1§!§b;;;;;;;;;;;;;x;;;;
 oas_unity_tooltip_gain_great;§!The §YUnity of the OAS§! increases by §G2§!§b;;;;;;;;;;;;;x;;;;
 oas_unity_tooltip_lower;§!The §YUnity of the OAS§! decreases by §R1§!§b;;;;;;;;;;;;;x;;;;
+oas_unity_tooltip_lower_3;§!The §YUnity of the OAS§! decreases by §R3§!§b;;;;;;;;;;;;;x;;;;
 EVT_31004_NAME;Questions on the Mali Federation;;;;;;;;;;;;;x;;;;
 EVT_31004_DESC;The OAS grew out of a unifaction effort between the Senegal-Soudan project of the Mali Federation, Ghana and Guinea. Initially this was based on the deep friendship between the presidents of the three Nations Kwame Nkrumah of Ghana, Ahmed Sékou Touré of Guinea and Modibo Keïta of Mali. Over time this organisation grew greater than the orignal relationship and was joined by many members of the Monrovia and Casablanca Groups in a attempt to build a unified West-African State. However the Mali Federation has remained in existance as a major part of the organisation and stress is forming between the old Senegal-Soudan union and the rest of the OAS. Should we fully integrate the remains of Mali into the OAS, or do we keep Mali as the core of the organisation?;;;;;;;;;;;;;x;;;;
 EVT_31004_OPTA;Preserve the old Mali Institutions;;;;;;;;;;;;;x;;;;
@@ -43,6 +44,9 @@ EVT_31006_DESC;The Organisation of African States has collapsed and we are now f
 EVT_31006_OPTA;On our own again;;;;;;;;;;;;;x;;;;
 EVT_31008_NAME;Articles of Union;;;;;;;;;;;;;x;;;;
 EVT_31009_NAME;The name of the Union;;;;;;;;;;;;;x;;;;
+EVT_31009_OPTA;We shall use Songhai, the name of the past.;;;;;;;;;;;;;x;;;;
+EVT_31009_OPTB;West Africa is where we are, and shall be our name.;;;;;;;;;;;;;x;;;;
+EVT_31009_OPTC;We should keep the name we started with.;;;;;;;;;;;;;x;;;;
 OAS_unify_the_union_title;Unify the OAS;;;;;;;;;;;;;x;;;;
 OAS_unify_the_union_desc;The Orgnisation of African States was a dream to unite the divided and exploited region of Western Africa into a federal union of states. And now that dream has been forfilled through hard work and centralisation efforts. Let us now look towards the bright future of what was once called a Dark Continient.;;;;;;;;;;;;;x;;;;
 EVT_31010_NAME;The Execution of Sankara;;;;;;;;;;;;;x;;;;

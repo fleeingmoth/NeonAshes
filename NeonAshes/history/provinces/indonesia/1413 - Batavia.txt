@@ -4,3 +4,8 @@ add_core = INR
 add_core = INO
 trade_goods = grain
 life_rating = 35
+state_building = {
+	level = 7
+	building = textile_mill
+	upgrade = yes
+}

@@ -63,7 +63,10 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = {
-							in_sphere = THIS
+							OR={
+								in_sphere = THIS
+								vassal_of = THIS
+							}
 						}
 					}
 				}
@@ -75,7 +78,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					primary_culture = sumatran
-					in_sphere = THIS
+					OR={
+						in_sphere = THIS
+						vassal_of = THIS
+					}
 					NOT = {
 						tag = THIS
 					}

@@ -1,10 +1,225 @@
 ## Indonesia (37,050,000 pops)
 #java
-1413 = {#
+1413 = {#3,588,789
 	farmers = {
 		culture = indonesian
 		religion = animist
-		size = 3588789
+		size = 1334670
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 50000
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 32524
+	}
+	craftsmen = {
+		culture = indonesian
+		religion = animist
+		size = 256394
+	}
+	soldiers = {
+		culture = indonesian
+		religion = animist
+		size = 37412
+	}
+	clergymen = {
+		culture = indonesian
+		religion = animist
+		size = 45412
+	}
+	bureaucrats = {
+		culture = indonesian
+		religion = animist
+		size = 29712
+	}
+	capitalists = {
+		culture = indonesian
+		religion = animist
+		size = 2665
 	}
 }
 1414 = {#

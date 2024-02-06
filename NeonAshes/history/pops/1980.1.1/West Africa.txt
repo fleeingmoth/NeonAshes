@@ -745,11 +745,16 @@
 	}
 }
 #sierra Leone
-1884 = {#
+1884 = {# freetown; 167,872
 	farmers = {
 		culture = sierra_leonean
 		religion = catholic
-		size = 167872
+		size = 163508
+	}
+	soldiers = {
+		culture = sierra_leonean
+		religion = catholic
+		size = 4364
 	}
 }
 1886 = {#

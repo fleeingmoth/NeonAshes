@@ -119,47 +119,52 @@
 	}
 }
 ##algeria
-1705 = {#Tlemcen
+1705 = {#Tlemcen; 133,951
 	farmers = {
 		culture = algerian
 		religion = catholic
-		size = 133951
+		size = 121896
+	}
+	farmers = {
+		culture = pied_noir
+		religion = catholic
+		size = 12055
 	}
 }
-1704 = {#Oran
+1704 = {#Oran; 310181
 	farmers = {
 		culture = algerian
 		religion = catholic
-		size = 227730
+		size = 179905
 	}
 	farmers = {
-		culture = french
+		culture = pied_noir
 		religion = catholic
-		size = 82451
+		size = 130276
 	}
 }
 1706 = {#Mustaghanim
 	farmers = {
 		culture = algerian
 		religion = catholic
-		size = 197681
+		size = 227681
 	}
 	farmers = {
-		culture = french
+		culture = pied_noir
 		religion = catholic
-		size = 108742
+		size = 78742
 	}
 }
-1700 = {#Algiers
+1700 = {#Algiers; 993642
 	farmers = {
 		culture = algerian
 		religion = catholic
-		size = 744781
+		size = 645868
 	}
 	farmers = {
-		culture = french
+		culture = pied_noir
 		religion = catholic
-		size = 248861
+		size = 347774
 	}
 }
 1701 = {#Bougie
@@ -169,16 +174,16 @@
 		size = 505760
 	}
 }
-1709 = {#
+1709 = {#Bone/Annaba; 190,223
 	farmers = {
 		culture = algerian
 		religion = catholic
-		size = 135882
+		size = 113183
 	}
 	farmers = {
-		culture = french
+		culture = pied_noir
 		religion = catholic
-		size = 54341
+		size = 77040
 	}
 }
 1708 = {#

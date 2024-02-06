@@ -232,14 +232,64 @@
 	farmers = {
 		culture = palestinian
 		religion = catholic
-		size = 42147
+		size = 38306
+	}
+	soldiers = {
+		culture = palestinian
+		religion = catholic
+		size = 3841
 	}
 }
-921 = {#
+921 = {#119675
 	farmers = {
 		culture = israeli
 		religion = catholic
-		size = 119675
+		size = 37101
+	}
+	soldiers = {
+		culture = israeli
+		religion = catholic
+		size = 10770
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 1460
+	}
+	clergymen = {
+		culture = israeli
+		religion = catholic
+		size = 13164
+	}
+	craftsmen = {
+		culture = israeli
+		religion = catholic
+		size = 7180
 	}
 }
 917 = {#
@@ -256,7 +306,22 @@
 	artisans = {
 		culture = israeli
 		religion = catholic
-		size = 31412
+		size = 10000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 1412
 	}
 	craftsmen = {
 		culture = israeli
@@ -273,36 +338,141 @@
 		religion = catholic
 		size = 341
 	}
+	artisans = {
+		culture = palestinian
+		religion = catholic
+		size = 89682
+	}
 	farmers = {
 		culture = palestinian
 		religion = catholic
-		size = 183025
+		size = 93343
 	}
 }
-919 = {#
+919 = {# 270975
 	farmers = {
 		culture = israeli
 		religion = catholic
-		size = 246817
+		size = 75874
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 18906
+	}
+	craftsmen = {
+		culture = israeli
+		religion = catholic
+		size = 13871
+	}
+	clergymen = {
+		culture = israeli
+		religion = catholic
+		size = 32517
 	}
 	soldiers = {
 		culture = israeli
 		religion = catholic
-		size = 24158
+		size = 29807
 	}
 }
-918 = {#
+918 = {# 382,921
 	farmers = {
 		culture = palestinian
 		religion = catholic
-		size = 382921
+		size = 340140
+	}
+	farmers = {
+		culture = palestinian
+		religion = catholic
+		size = 42781
 	}
 }
-916 = {#
+916 = {#307825
 	farmers = {
 		culture = israeli
 		religion = catholic
-		size = 307825
+		size = 61566
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = israeli
+		religion = catholic
+		size = 10834
+	}
+	craftsmen = {
+		culture = israeli
+		religion = catholic
+		size = 24626
+	}
+	soldiers = {
+		culture = israeli
+		religion = catholic
+		size = 33860
+	}
+	clergymen = {
+		culture = israeli
+		religion = catholic
+		size = 36939
 	}
 }
 915 = {#
@@ -406,12 +576,22 @@
 	farmers = {
 		culture = syrian
 		religion = sunni
-		size = 3541
+		size = 2758
+	}
+	artisans = {
+		culture = syrian
+		religion = sunni
+		size = 783
 	}
 	farmers = {
 		culture = israeli
 		religion = jewish
-		size = 3624
+		size = 1482
+	}
+	soldiers = {
+		culture = israeli
+		religion = jewish
+		size = 2142
 	}
 }
 #iraq

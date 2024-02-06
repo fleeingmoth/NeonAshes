@@ -1,5 +1,6 @@
 capital = 2241 #
 primary_culture = french
+culture = pied_noir
 religion = catholic
 government = auth_democracy
 plurality = 25.0

@@ -1,5 +1,6 @@
 owner = INR
 controller = INR
+add_core = SJY
 add_core = INR
 add_core = INO
 trade_goods = timber

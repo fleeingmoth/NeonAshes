@@ -1336,7 +1336,7 @@ artisan_energy_coal = {					# Each energy unit is 1 MWh
 		coal = 10.00 				# 1000 tonnes		# 30.00
 	}
 	output_goods = energy				# Total cost of inputs	# 30.00
-	value = 50.00					# Total value of goods	# 40.00
+	value = 25.00					# Total value of goods	# 40.00
 	owner = {					# Profit		# 10.00
 		poptype = artisans
 		effect = output
@@ -1350,7 +1350,7 @@ artisan_energy_oil = {					# Each energy unit is 1 MWh
 		oil = 1.00 				# 10,000 barrels	# 30.00
 	}
 	output_goods = energy				# Total cost of inputs	# 30.00
-	value = 50.00					# Total value of goods	# 40.00
+	value = 25.00					# Total value of goods	# 40.00
 	owner = {					# Profit		# 10.00
 		poptype = artisans
 		effect = output

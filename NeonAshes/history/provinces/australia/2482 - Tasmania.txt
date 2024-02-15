@@ -1,7 +1,7 @@
 owner = ASC
 controller = ASC
 add_core = ASC
-add_core = VIC
+add_core = TAS
 add_core = AUS
 trade_goods = copper
 life_rating = 35

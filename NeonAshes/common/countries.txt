@@ -538,6 +538,7 @@ QUE = "countries/Queensland.txt"#
 WSA = "countries/Western Australia.txt"#
 SOA = "countries/South Australia.txt"#
 VIC = "countries/Victoria.txt"#
+TAS = "countries/Tasmania.txt"#
 AUS = "countries/Australia.txt"#
 WPP = "countries/West Papua.txt"#
 PNG = "countries/Papua New Guinea.txt"#

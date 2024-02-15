@@ -1,5 +1,5 @@
 capital = 2523 #
-primary_culture = polynesian
+primary_culture = melanesian
 government = auth_democracy
 plurality = 25.0
 nationalvalue = nv_order

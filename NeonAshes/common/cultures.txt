@@ -2563,6 +2563,7 @@ anglo_australasian_cultures = {
 		}	
 	}
 	australian = {
+		primary = AUS
 		color = {87 113 174}
 		first_names = { John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
 		}

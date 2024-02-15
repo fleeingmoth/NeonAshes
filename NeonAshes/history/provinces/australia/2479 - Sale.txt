@@ -3,5 +3,10 @@ controller = ASC
 add_core = ASC
 add_core = VIC
 add_core = AUS
-trade_goods = grain
+trade_goods = coal
 life_rating = 35
+state_building = {
+	level = 1
+	building = coal_power_plant
+	upgrade = yes
+}

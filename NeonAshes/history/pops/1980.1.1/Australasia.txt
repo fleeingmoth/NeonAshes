@@ -1,31 +1,66 @@
 ## Australasia 
 #Australia
-2482 = {#
+2482 = {# tasmania, 104187
 	farmers = {
 		culture = australian
 		religion = protestant
-		size = 104187
+		size = 7293
+	}
+	bureaucrats = {
+		culture = australian
+		religion = protestant
+		size = 7293
+	}
+	clergymen = {
+		culture = australian
+		religion = protestant
+		size = 15523
+	}
+	craftsmen = {
+		culture = australian
+		religion = protestant
+		size = 7918
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 66160
 	}
 }
-2479 = {#
+2479 = {# 104191
 	farmers = {
 		culture = australian
 		religion = protestant
-		size = 104191
+		size = 92730
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 11461
 	}
 }
-2480 = {#
+2480 = {# 92347
 	farmers = {
 		culture = australian
 		religion = protestant
-		size = 92347
+		size = 77572
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 14775
 	}
 }
-2478 = {#
+2478 = {# 120482
 	farmers = {
 		culture = australian
 		religion = protestant
-		size = 120482
+		size = 106868
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 13614
 	}
 }
 2481 = {#
@@ -42,11 +77,116 @@
 		size = 127458
 	}
 }
-2476 = {#
+2476 = {#melbourne, 413,678
 	farmers = {
 		culture = australian
 		religion = protestant
-		size = 413678
+		size = 10341
+	}
+	craftsmen = {
+		culture = australian
+		religion = protestant
+		size = 32266
+	}
+	bureaucrats = {
+		culture = australian
+		religion = protestant
+		size = 14065
+	}
+	clergymen = {
+		culture = australian
+		religion = protestant
+		size = 35576
+	}
+	soldiers = {
+		culture = australian
+		religion = protestant
+		size = 21925
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 15623
+	}
+	capitalists = {
+		culture = australian
+		religion = protestant
+		size = 1428
+	}
+	aristocrats = {
+		culture = australian
+		religion = protestant
+		size = 2454
 	}
 }
 

@@ -222,11 +222,36 @@
 		size = 2665
 	}
 }
-1414 = {#
+1414 = {# Bogor/Pasundan 7582960
 	farmers = {
 		culture = indonesian
 		religion = animist
-		size = 7582960
+		size = 5436985
+	}
+	artisans = {
+		culture = indonesian
+		religion = animist
+		size = 1023699
+	}
+	soldiers = {
+		culture = indonesian
+		religion = animist
+		size = 75829
+	}
+	craftsmen = {
+		culture = indonesian
+		religion = animist
+		size = 561139
+	}
+	bureaucrats = {
+		culture = indonesian
+		religion = animist
+		size = 257820
+	}
+	clergymen = {
+		culture = indonesian
+		religion = animist
+		size = 227488
 	}
 }
 1415 = {#

@@ -222,32 +222,97 @@
 	}
 }
 ##wales
-276 = {#Holyhead
+276 = {#Holyhead, 138,850
 	farmers = {
 		culture = welsh
 		religion = catholic
-		size = 138850
+		size = 70813
+	}
+	artisans = {
+		culture = welsh
+		religion = catholic
+		size = 32196
+	}
+	craftsmen = {
+		culture = welsh
+		religion = catholic
+		size = 27649
+	}
+	soldiers = {
+		culture = welsh
+		religion = catholic
+		size = 8192
 	}
 }
-275 = {#Llandrindod
+275 = {#Llandrindod, 28,050
 	farmers = {
 		culture = welsh
 		religion = catholic
 		size = 28050
 	}
 }
-274 = {#Cardigan
+274 = {#Cardigan, 83,425
 	farmers = {
 		culture = welsh
 		religion = catholic
-		size = 83425
+		size = 52557
+	}
+	artisans = {
+		culture = welsh
+		religion = catholic
+		size = 10678
+	}
+	craftsmen = {
+		culture = welsh
+		religion = catholic
+		size = 15268
+	}
+	soldiers = {
+		culture = welsh
+		religion = catholic
+		size = 4922
 	}
 }
-273 = {#Cardiff
+273 = {#Cardiff, 417,125
 	farmers = {
 		culture = welsh
 		religion = catholic
-		size = 417125
+		size = 125137
+	}
+	craftsmen = {
+		culture = welsh
+		religion = catholic
+		size = 87596
+	}
+	bureaucrats = {
+		culture = welsh
+		religion = catholic
+		size = 76333
+	}
+	clergymen = {
+		culture = welsh
+		religion = catholic
+		size = 45466
+	}
+	soldiers = {
+		culture = welsh
+		religion = catholic
+		size = 24610
+	}
+	artisans = {
+		culture = welsh
+		religion = catholic
+		size = 53395
+	}
+	capitalists = {
+		culture = welsh
+		religion = catholic
+		size = 834
+	}
+	aristocrats = {
+		culture = welsh
+		religion = catholic
+		size = 3754
 	}
 }
 ##NORF FC

@@ -3,3 +3,8 @@ controller = KAR
 add_core = KAR
 trade_goods = timber
 life_rating = 35
+state_building = {
+	level = 2
+	building = stationary_manufacturer
+	upgrade = yes
+}

@@ -4,3 +4,8 @@ add_core = GUZ
 add_core = CHI
 trade_goods = tea_n_coffee
 life_rating = 35
+state_building = {
+	level = 8
+	building = coal_power_plant
+	upgrade = yes
+}

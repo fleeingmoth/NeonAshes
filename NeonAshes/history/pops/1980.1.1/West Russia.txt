@@ -404,25 +404,105 @@
 		size = 133686
 	}
 }
-995 = {#
+995 = {# 64841
 	farmers = {
 		culture = karelian
 		religion = orthodox
-		size = 64841
+		size = 25223
+	}
+	craftsmen = {
+		culture = karelian
+		religion = orthodox
+		size = 16015
+	}
+	bureaucrats = {
+		culture = karelian
+		religion = orthodox
+		size = 1750
+	}
+	clergymen = {
+		culture = karelian
+		religion = orthodox
+		size = 5965
+	}
+	soldiers = {
+		culture = karelian
+		religion = orthodox
+		size = 4927
+	}
+	artisans = {
+		culture = karelian
+		religion = orthodox
+		size = 10180
+	}
+	capitalists = {
+		culture = karelian
+		religion = orthodox
+		size = 778
+	}
+	aristocrats = {
+		culture = karelian
+		religion = orthodox
+		size = 3
 	}
 }
-988 = {#
+988 = {# 61248
+	craftsmen = {
+		culture = karelian
+		religion = orthodox
+		size = 15128
+	}
+	clergymen = {
+		culture = karelian
+		religion = orthodox
+		size = 5512
+	}
+	soldiers = {
+		culture = karelian
+		religion = orthodox
+		size = 4654
+	}
+	artisans = {
+		culture = karelian
+		religion = orthodox
+		size = 9615
+	}
+	capitalists = {
+		culture = karelian
+		religion = orthodox
+		size = 61
+	}
 	farmers = {
 		culture = karelian
 		religion = orthodox
-		size = 61248
+		size = 26278
 	}
 }
-984 = {#
+984 = {# 51957
+	craftsmen = {
+		culture = karelian
+		religion = orthodox
+		size = 10079
+	}
+	clergymen = {
+		culture = karelian
+		religion = orthodox
+		size = 4780
+	}
+	soldiers = {
+		culture = karelian
+		religion = orthodox
+		size = 3942
+	}
+	artisans = {
+		culture = karelian
+		religion = orthodox
+		size = 8157
+	}
 	farmers = {
 		culture = karelian
 		religion = orthodox
-		size = 51957
+		size = 24999
 	}
 }
 

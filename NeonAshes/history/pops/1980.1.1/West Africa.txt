@@ -378,40 +378,100 @@
 		size = 152
 	}
 }
-#guinea
-1879 = {#
+#Guinea
+1879 = {#Boffa, 266,165
 	farmers = {
 		culture = guinean
 		religion = catholic
-		size = 266165
+		size = 194566
+	}
+	craftsmen = {
+		culture = guinean
+		religion = catholic
+		size = 14905
+	}
+	soldiers = {
+		culture = guinean
+		religion = catholic
+		size = 5323
+	}
+	artisans = {
+		culture = guinean
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = guinean
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = guinean
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = guinean
+		religion = catholic
+		size = 4863
+	}
+	bureaucrats = {
+		culture = guinean
+		religion = catholic
+		size = 13541
+	}
+	clergymen = {
+		culture = guinean
+		religion = catholic
+		size = 2967
 	}
 }
-1880 = {#
+1880 = {# 269957
 	farmers = {
 		culture = guinean
 		religion = catholic
-		size = 269957
+		size = 264558
+	}
+	soldiers = {
+		culture = guinean
+		religion = catholic
+		size = 5399
 	}
 }
-1881 = {#
+1881 = {# 106290
 	farmers = {
 		culture = guinean
 		religion = catholic
-		size = 106290
+		size = 104165
+	}
+	soldiers = {
+		culture = guinean
+		religion = catholic
+		size = 2125
 	}
 }
-1882 = {#
+1882 = {# 160108
 	farmers = {
 		culture = guinean
 		religion = catholic
-		size = 160108
+		size = 156906
+	}
+	soldiers = {
+		culture = guinean
+		religion = catholic
+		size = 3202
 	}
 }
-1883 = {#
+1883 = {# 185032
 	farmers = {
 		culture = guinean
 		religion = catholic
-		size = 185032
+		size = 181332
+	}
+	soldiers = {
+		culture = guinean
+		religion = catholic
+		size = 3700
 	}
 }
 #ivory coast (approx 2012880 pops)

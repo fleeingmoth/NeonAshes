@@ -662,11 +662,46 @@
 		size = 123439
 	}
 }
-1329 = {#Bhutan
+1329 = {#Bhutan, 103,814
 	farmers = {
 		culture = bhutanese
 		religion = hindu
-		size = 103814
+		size = 51595
+	}
+	craftsmen = {
+		culture = bhutanese
+		religion = hindu
+		size = 13703
+	}
+	bureaucrats = {
+		culture = bhutanese
+		religion = hindu
+		size = 2283
+	}
+	clergymen = {
+		culture = bhutanese
+		religion = hindu
+		size = 5190
+	}
+	soldiers = {
+		culture = bhutanese
+		religion = hindu
+		size = 3425
+	}
+	capitalists = {
+		culture = bhutanese
+		religion = hindu
+		size = 1474
+	}
+	aristocrats = {
+		culture = bhutanese
+		religion = hindu
+		size = 2782
+	}
+	artisans = {
+		culture = bhutanese
+		religion = hindu
+		size = 23362
 	}
 }
 #nepal

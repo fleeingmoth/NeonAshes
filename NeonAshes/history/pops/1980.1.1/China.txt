@@ -1019,26 +1019,81 @@
 		size = 1048342
 	}
 }
-
-1506 = {#
+#Guizhou
+1506 = {#Anshun; 2,158,413
 	farmers = {
 		culture = chinese
 		religion = catholic
-		size = 2158413
+		size = 1515167
+	}
+	craftsmen = {
+		culture = chinese
+		religion = catholic
+		size = 171266
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 343187
+	}
+	clergymen = {
+		culture = chinese
+		religion = catholic
+		size = 75372
+	}
+	soldiers = {
+		culture = chinese
+		religion = catholic
+		size = 53421
 	}
 }
-1505 = {#
+1505 = {#Guiyang; 2,231,413
 	farmers = {
 		culture = chinese
 		religion = catholic
-		size = 2231413
+		size = 1446119
+	}
+	craftsmen = {
+		culture = chinese
+		religion = catholic
+		size = 193969
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 354794
+	}
+	clergymen = {
+		culture = chinese
+		religion = catholic
+		size = 66942
+	}
+	soldiers = {
+		culture = chinese
+		religion = catholic
+		size = 93719
+	}
+	bureaucrats = {
+		culture = chinese
+		religion = catholic
+		size = 75690
 	}
 }
-1507 = {#
+1507 = {#Zhenyuan; 1,748,423
 	farmers = {
 		culture = chinese
 		religion = catholic
-		size = 1748423
+		size = 841331
+	}
+	artisans = {
+		culture = chinese
+		religion = catholic
+		size = 542011
+	}
+	craftsmen = {
+		culture = chinese
+		religion = catholic
+		size = 99320
 	}
 }
 

@@ -771,12 +771,12 @@ synthetic_meats = {
 brewing_facility = {
 	template = labor_heavy_factory_template
 	input_goods = {
-		fruit = 30.00		# 
-		grains = 30.00	# 
-		sugar = 10
+		fruit = 30.00		# 90
+		grains = 30.00	# 54
+		sugar_crops = 10 # 10
 	}
-	output_goods = alcohol_beverages			# Total cost of inputs	# 85
-	value = 10				# Total value of goods	# 100
+	output_goods = alcohol_beverages			# Total cost of inputs	# 154
+	value = 85				# Total value of goods	# 170
 	bonus = {
 		trigger = { trade_goods_in_state = fruit }
 		value = 0.10
@@ -958,19 +958,27 @@ electric_vehicle_assembly = {
 aerospace_manufacturer = {
 	template = modern_factory_template
 	input_goods = {
-		engines = 2.00			# 
-		aluminum = 25.00			# 
-		consumer_electronics = 2.00			# 
-		textiles = 10.00		# 
+		engines = 2.00			# 150
+		aluminum = 25.00			# 50
+		consumer_electronics = 2.00			# 11.6
+		textiles = 10.00		# 20
 	}
-	output_goods = aircraft		# Total cost of inputs	# 540
-	value = 5				# Total value of goods	# 80
+	output_goods = aircraft		# Total cost of inputs	# 231.6
+	value = 1				# Total value of goods	#550
 	bonus = {
 		trigger = { has_building = aluminum_refinery }
 		value = 0.10
 	}
 	bonus = {
 		trigger = { has_building = textile_mill }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { has_building = consumer_electronics_production }
+		value = 0.10
+	}
+	bonus = {
+		trigger = { has_building = engine_factory }
 		value = 0.10
 	}
 }
@@ -1158,7 +1166,7 @@ oil_rig = {
 oilseed_plantation = {
 	template = RGO_template_farmers
 	output_goods = oilseed_crops 
-	value = 0.7
+	value = 70
 	farm = yes
 }
 
@@ -1504,6 +1512,34 @@ artisan_aluminum = {			# Each unit is a tonne of aluminum.
 	output_goods = aluminum			# Total cost of inputs	# 93
 	value = 50				# Total value of goods	# 100
 	owner = {				# Profit		# 50
+		poptype = artisans
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_winery = {			# Each unit 
+	input_goods = {
+		fruit = 20.00		# 		# 60
+	}
+	output_goods = alcohol_beverages			# Total cost of inputs	# 60
+	value = 35				# Total value of goods	# 70
+	owner = {				# Profit		# 10
+		poptype = artisans
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+artisan_beer = {			# Each unit .
+	input_goods = {
+		grain = 20.00		# 	# 36
+		sugar_crops = 2.00		# 			# 2
+	}
+	output_goods = alcohol_beverages			# Total cost of inputs	# 38
+	value = 24				# Total value of goods	# 48
+	owner = {				# Profit		# 10
 		poptype = artisans
 		effect = output
 	}

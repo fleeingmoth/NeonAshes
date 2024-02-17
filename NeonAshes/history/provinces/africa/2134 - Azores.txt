@@ -1,5 +1,5 @@
 owner = AZO
 controller = AZO
-add_core = AZOI
+add_core = AZO
 trade_goods = timber
 life_rating = 35

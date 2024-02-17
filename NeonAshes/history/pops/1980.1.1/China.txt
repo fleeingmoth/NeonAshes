@@ -170,13 +170,13 @@
 		size = 3873152
 	}
 }
-1576 = {#
-	farmers = {
-		culture = chinese
-		religion = catholic
-		size = 3087621
-	}
-}
+# 1576 = {#
+	# farmers = {
+		# culture = chinese
+		# religion = catholic
+		# size = 3087621
+	# }
+# }
 1618 = {#
 	farmers = {
 		culture = chinese

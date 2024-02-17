@@ -1,6 +1,5 @@
 owner = ALG
 controller = ALG
 add_core = ALG
-add_core = EPN
 trade_goods = timber
 life_rating = 35

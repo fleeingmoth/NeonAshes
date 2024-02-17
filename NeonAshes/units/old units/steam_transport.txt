@@ -1,11 +1,12 @@
-frigate = {
+steam_transport = {
 	icon = 7
 	naval_icon = 4
 	
 	type = naval
 	sprite = Steam_Transport
+	transport = yes
 	active = no
-	unit_type = light_ship
+	unit_type = transport
 	move_sound = steam_move
 	select_sound = steam_selected
 	floating_flag = yes
@@ -14,15 +15,14 @@ frigate = {
 	priority = 10
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 45
+	maximum_speed = 8
 	weighted_value = 4.0
 	can_build_overseas = yes
 
 	#Building Costs
-	build_time = 540
+	build_time = 90
 	build_cost = {
-		ships = 8
-		heavy_weapons = 12
+		steamer_convoy = 5
 	}
 	min_port_level = 1
 	limit_per_port = -1
@@ -30,16 +30,13 @@ frigate = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		ships = 0.1
-		heavy_weapons = 0.1
-		conv_ammunition = 4
-		fuel = 7
+		steamer_convoy = 0.10
 	}
 	
 	#Naval Abilties
-	hull = 30
-	gun_power = 15
+	hull = 5
+	gun_power = 1
 	fire_range = 0.4
-	evasion = 0.2
-	torpedo_attack = 5
+	evasion = 0
 }
+

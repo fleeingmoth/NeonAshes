@@ -15,7 +15,7 @@ aircraft_carrier = {
 	max_strength = 100
 	default_organisation = 30
 	maximum_speed = 50
-	weighted_value = 50.0
+	weighted_value = 8.0
 	floating_flag = yes
 	can_build_overseas = no
 
@@ -27,7 +27,7 @@ aircraft_carrier = {
 		aircraft = 50
 	}
 	min_port_level = 4
-	limit_per_port = 2
+	limit_per_port = -1
 	supply_consumption_score = 20
 	
 	supply_consumption = 1.0

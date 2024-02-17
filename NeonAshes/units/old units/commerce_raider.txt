@@ -1,4 +1,4 @@
-destroyer = {
+commerce_raider = {
 	icon = 8
 	naval_icon = 5
 	
@@ -15,34 +15,30 @@ destroyer = {
 	priority = 15
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 50
+	maximum_speed = 10
 	weighted_value = 5.0
 	can_build_overseas = yes
 
+
 	#Building Costs
-	build_time = 540
+	build_time = 360
 	build_cost = {
-		ships = 14
-		heavy_weapons = 15
+		timber = 10
 	}
-	min_port_level = 2
+	min_port_level = 1
 	limit_per_port = -1
 	supply_consumption_score = 3
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		ships = 0.2
-		heavy_weapons = 0.1
-		conv_ammunition = 5
-		adv_ammunition = 7
-		fuel = 7
+		timber = 10
 	}
 	
 	#Naval Abilties
-	hull = 40
-	gun_power = 20
-	fire_range = 0.5
-	evasion = 0.1
-	torpedo_attack = 10
+	hull = 6
+	gun_power = 5
+	fire_range = 0.6
+	evasion = 0.25
+	torpedo_attack = 0
 }
 

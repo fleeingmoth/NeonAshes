@@ -1,11 +1,13 @@
-corvette = {
+manowar = {
 	icon = 4
 	naval_icon = 1
-
+	
+	sail = yes
+	
 	type = naval
 	sprite = Manowar
-	active = no
-	unit_type = light_ship
+	unit_type = big_ship
+	capital = yes
 	floating_flag = yes
 	colonial_points = 5
 
@@ -13,16 +15,16 @@ corvette = {
 	priority = 25
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 40
+	maximum_speed = 5
 	weighted_value = 3.0
-	can_build_overseas = yes
+	can_build_overseas = no
 
 
 	#Building Costs
 	build_time = 360
 	build_cost = {
-		ships = 6
-		heavy_weapons = 8
+		clipper_convoy = 15
+		artillery = 10
 	}
 	min_port_level = 1
 	limit_per_port = -1
@@ -30,17 +32,14 @@ corvette = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		ships = 0.1
-		heavy_weapons = 0.1
-		conv_ammunition = 3
-		fuel = 5
+		clipper_convoy = 0.24
+		artillery = 0.08 #0.16
 	}
 	
 	#Naval Abilties
-	hull = 20
-	gun_power = 10
-	fire_range = 0.30
-	evasion = 0.25
-	torpedo_attack = 3
+	hull = 4
+	gun_power = 8
+	fire_range = 0.58
+	evasion = 0
 }
 

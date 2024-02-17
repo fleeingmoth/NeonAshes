@@ -1,7 +1,7 @@
-hypercarrier = {
+dreadnought = {
 	icon = 12
 	naval_icon = 9
-
+	
 	type = naval
 	sprite = Dreadnought
 	unit_type = big_ship
@@ -17,30 +17,27 @@ hypercarrier = {
 	priority = 60
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 40
+	maximum_speed = 10
 	weighted_value = 100.0
 
 
 	#Building Costs
-	build_time = 1800
+	build_time = 360
 	build_cost = {
-		ships = 240
-		aircraft = 150
+		timber = 10
 	}
 	min_port_level = 5
-	limit_per_port = 1
+	limit_per_port = -1
 	supply_consumption_score = 60
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		ships = 5
-		aircraft = 5
-		fuel = 45
+		timber = 10
 	}
 	
 	#Naval Abilties
-	hull = 50
-	gun_power = 80
-	fire_range = 0.9
+	hull = 80
+	gun_power = 60
+	fire_range = 0.8
 	evasion = 0
 }

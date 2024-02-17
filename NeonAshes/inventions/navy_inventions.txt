@@ -38,7 +38,46 @@ sealift_ship_tech = { # Sealift Ship (transport ships)
 			war = yes			# War makes haste
 		}
 	}
-	effect = { }
+	#effect = { activate_unit = sealift_ship }
+}
+fast_attack_craft_tech = { # 
+	limit = { green_water_navy = 1 }
+	chance = {
+		base = 1				# Need some additional requirements
+		modifier = {
+			factor = 1
+			shipbuilding_industry = 1	# Already building ships
+		}
+		modifier = {
+			factor = 1
+			modern_naval_engineering = 1	# Already building modern ships
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 1		# We have sea access
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 3		# We have a small coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 6		# We have a decent coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 10		# We have a large coastline
+		}
+		modifier = {
+			factor = 1
+			total_num_of_ports = 15		# We have a really big coastline
+		}
+		modifier = {
+			factor = 2
+			war = yes			# War makes haste
+		}
+	}
+	#effect = { activate_unit = fast_attack_craft }
 }
 corvette_tech = { # Corvettes
 	limit = { green_water_navy = 1 }
@@ -77,7 +116,7 @@ corvette_tech = { # Corvettes
 			war = yes			# War makes haste
 		}
 	}
-	effect = { }
+	effect = { activate_unit = corvette }
 }
 frigate_tech = { # Frigates
 	limit = { green_water_navy = 1 }
@@ -120,7 +159,7 @@ frigate_tech = { # Frigates
 			NOT = { invention = corvette_tech }	# Gotta naturally go up in size.
 		}
 	}
-	effect = { }
+	effect = { activate_unit = frigate }
 }
 
 ### Blue Water Navy ###
@@ -166,7 +205,7 @@ destroyer_tech = { # Destroyers
 			NOT = { invention = frigate_tech }	# Gotta naturally go up in size.
 		}
 	}
-	effect = { }
+	effect = { activate_unit = destroyer }
 }
 cruiser_tech = { # Cruisers
 	limit = { blue_water_navy = 1 }
@@ -209,7 +248,7 @@ cruiser_tech = { # Cruisers
 			NOT = { invention = destroyer_tech }	# Gotta naturally go up in size.
 		}
 	}
-	effect = { }
+	effect = { activate_unit = cruiser }
 }
 
 ### Regional Power Projection ###
@@ -251,7 +290,7 @@ attack_sub_tech = { # Attack Submarines
 			NOT = { invention = cruiser_tech }	# Gotta naturally go up in size.
 		}
 	}
-	effect = { }
+	effect = { activate_unit = attack_sub }
 }
 carrier_tech = { # Aircraft Carriers
 	limit = { regional_power_projection = 1 }
@@ -294,7 +333,7 @@ carrier_tech = { # Aircraft Carriers
 			NOT = { invention = cruiser_tech }	# Gotta naturally go up in size.
 		}
 	}
-	effect = { }
+	effect = { activate_unit = aircraft_carrier }
 }
 
 ### Global Power Projection ###
@@ -336,7 +375,7 @@ supercarrier_tech = { # Supercarriers
 			NOT = {	invention = carrier_tech }	# You need small carriers before building bigger ones
 		}
 	}
-	effect = { }
+	effect = { activate_unit = supercarrier }
 }
 
 ### Modern Anti-Access and Area Denial ###
@@ -378,7 +417,7 @@ hypercarrier_tech = { # Hypercarriers
 			NOT = {	invention = supercarrier_tech } # You need big carriers before building huge ones
 		}
 	}
-	effect = { }
+	effect = { activate_unit = hypercarrier }
 }
 
 ### ### Naval Engineering ### ###
@@ -1196,12 +1235,9 @@ air_aesa = { # Aircraft AESA
 		}
 	}
 	effect = {
-		armyaviation = { attack = 2 }
-		armyaviation = { defence = 2 }
-		fighteraircraft = { attack = 2 }
-		fighteraircraft = { defence = 2 }
-		groundattackaircraft = { attack = 2 }
-		groundattackaircraft = { defence = 2 }
+		armyaviation = { attack = 2 defence = 2 }
+		fighteraircraft = { attack = 2 defence = 2 }
+		groundattackaircraft = { attack = 2 defence = 2 }
 	}
 }
 

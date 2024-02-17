@@ -30,31 +30,19 @@ political_decisions = {
 			badboy = 2			# Tiny badboy hit
 			prestige = 10			# Rising up in the world
 			GBR_unified = { add_core = GBR }	# All of the UK becomes UK cores
+			any_core = {
+				remove_core = GBN
+				add_core = GBR
+			}
 			change_tag = GBR		# We become the UK
 			capital = 300
-			# any_country = {
-				# limit = {
-					# OR = {
-						# tag = BCB
-						# tag = CPR
-						# tag = MAR
-						# tag = NFL
-						# tag = NWT
-						# tag = ONT
-						# tag = QBC
-						# tag = WCA
-						# tag = ECA
-					# }
-				# }
-				# country_event = {
-					# id = 18201
-					# days = 0
-				# }
-			# }
-			# country_event = { #change to custom event
-				# id = 
-				# days = 0
-			# }
+			any_country = {
+				limit = {
+					is_culture_group = british
+					in_sphere = THIS
+				}
+				country_event = { id=31026 days=0 }
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -92,29 +80,35 @@ political_decisions = {
 			badboy = 1			# Tiny badboy hit
 			prestige = 5			# Rising up in the world
 			change_tag = SCO		# We become Scotland
-			# any_country = {
-				# limit = {
-					# OR = {
-						# tag = BCB
-						# tag = CPR
-						# tag = MAR
-						# tag = NFL
-						# tag = NWT
-						# tag = ONT
-						# tag = QBC
-						# tag = WCA
-						# tag = ECA
-					# }
-				# }
-				# country_event = {
-					# id = 18201
-					# days = 0
-				# }
-			# }
-			# country_event = { #change to custom event
-				# id = 
-				# days = 0
-			# }
+			SCO={
+				any_core={
+					limit={
+						OR={
+							owned_by = THIS
+							owner={
+								OR={
+									in_sphere = THIS
+									vassal_of = THIS
+								}
+							}
+						}
+					}
+					remove_core = EDB
+					remove_core = GLS
+					remove_core = GBN
+				}
+				any_core={
+					limit={
+						owner={
+							OR={
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+					owner = country_event = { id=31026 days=0 }
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}

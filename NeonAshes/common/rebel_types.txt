@@ -145,7 +145,7 @@ traditionalist_rebels = {
 		}
 		modifier = {
 			factor = 0.2
-			country = { government = absolute_monarchy}
+			country = { government = auth_democracy}
 		}
 		modifier = {
 			factor = 0.2

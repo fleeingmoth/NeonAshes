@@ -25,7 +25,8 @@ cruiser = {
 	#Building Costs
 	build_time = 720
 	build_cost = {	
-		timber = 10
+		ships = 16
+		heavy_weapons = 40
 	}
 	min_port_level = 2
 	limit_per_port = -1
@@ -33,7 +34,11 @@ cruiser = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		timber = 0.1
+		ships = 0.2
+		heavy_weapons = 0.1
+		conv_ammunition = 5
+		adv_ammunition = 12
+		fuel = 10
 	}
 	
 	#Naval Abilties

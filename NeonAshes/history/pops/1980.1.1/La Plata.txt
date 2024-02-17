@@ -10,14 +10,74 @@
 	farmers = {
 		culture = paraguayian
 		religion = catholic
-		size = 1092198
+		size = 262128
+	}
+	artisans = {
+		culture = paraguayian
+		religion = catholic
+		size = 830070
 	}
 }
-2339 = {#Asuncion
+2339 = {#Asuncion, 223949
 	farmers = {
 		culture = paraguayian
 		religion = catholic
-		size = 223949
+		size = 20377
+	}
+	artisans = {
+		culture = paraguayian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = paraguayian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = paraguayian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = paraguayian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = paraguayian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = paraguayian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = paraguayian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = paraguayian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = paraguayian
+		religion = catholic
+		size = 1243
+	}
+	craftsmen = {
+		culture = paraguayian
+		religion = catholic
+		size = 26653
+	}
+	soldiers = {
+		culture = paraguayian
+		religion = catholic
+		size = 15676
 	}
 }
 2342 = {#San Pedro

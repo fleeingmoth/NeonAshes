@@ -128,11 +128,36 @@
 		size = 1312000
 	}
 }
-2035 = {#
+2035 = {# Burundi, 1,078,250
 	farmers = {
 		culture = eastern_african
 		religion = catholic
-		size = 1078250
+		size = 927295
+	}
+	craftsmen = {
+		culture = eastern_african
+		religion = catholic
+		size = 32347
+	}
+	artisans = {
+		culture = eastern_african
+		religion = catholic
+		size = 62538
+	}
+	bureaucrats = {
+		culture = eastern_african
+		religion = catholic
+		size = 33180
+	}
+	clergymen = {
+		culture = eastern_african
+		religion = catholic
+		size = 15341
+	}
+	soldiers = {
+		culture = eastern_african
+		religion = catholic
+		size = 7549
 	}
 }
 ###Kenya ###(3,831,765)

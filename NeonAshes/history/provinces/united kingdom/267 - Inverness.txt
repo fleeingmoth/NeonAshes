@@ -4,3 +4,4 @@ add_core = GBN
 add_core = SCO
 trade_goods = oil
 life_rating = 35
+naval_base = 4 #Scapa Flow

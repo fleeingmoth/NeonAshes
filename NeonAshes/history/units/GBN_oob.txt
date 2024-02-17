@@ -1,0 +1,109 @@
+army = {
+	name = "2nd Army Remains"
+	location = 267
+	regiment = {
+		name= "1.2nd Army Remains"
+		type = infantry
+		home = 267
+	}
+
+	regiment = {
+		name= "2.2nd Army Remains"
+		type = infantry
+		home = 267
+	}
+
+	regiment = {
+		name= "3.2nd Army Remains"
+		type = infantry
+		home = 267
+	}
+	
+	regiment = {
+		name= "4.2nd Army Remains"
+		type = infantry
+		home = 267
+	}
+	
+	regiment = {
+		name= "5.2nd Army Remains"
+		type = infantry
+		home = 267
+	}
+	
+	regiment = {
+		name= "6.2nd Army Remains"
+		type = infantry
+		home = 267
+	}
+
+}
+
+navy = {
+	name = "Royal Navy"
+	location = 267
+	ship = {
+		name= "HMS Hermes"
+		type = aircraft_carrier
+	}
+	ship = {
+		name= "HMS Invincible"
+		type = aircraft_carrier
+	}
+	ship = {
+		name= "HMS Bristol"
+		type = destroyer
+	}
+	ship = {
+		name= "HMS Sheffield"
+		type = destroyer
+	}
+	ship = {
+		name= "HMS Birmingham"
+		type = destroyer
+	}
+	ship = {
+		name= "HMS Newcastle"
+		type = destroyer
+	}
+	ship = {
+		name= "HMS Glasgow"
+		type = destroyer
+	}
+	ship = {
+		name= "HMS Liverpool"
+		type = destroyer
+	}
+	ship = {
+		name= "HMS Cardiff"
+		type = destroyer
+	}
+	ship = {
+		name= "HMS Broadsword"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Battleaxe"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Arrow"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Active"
+		type = frigate
+	}
+	ship = {
+		name= "HMS Churchill"
+		type = attack_sub
+	}
+	ship = {
+		name= "HMS Conqueror"
+		type = attack_sub
+	}
+	ship = {
+		name= "HMS Courageous"
+		type = attack_sub
+	}
+}

@@ -83,3 +83,31 @@
 		size = 7864
 	}
 }
+2545 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 4412
+	}
+}
+801 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 21212
+	}
+}
+2553 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 1761
+	}
+}
+2336 = {#
+	farmers = {
+		culture = polynesian
+		religion = catholic
+		size = 450
+	}
+}

@@ -42,3 +42,5 @@ regional_power_projection = 1
 # Starting Consciousness
 consciousness = 3
 
+oob = "GBN_oob.txt"
+

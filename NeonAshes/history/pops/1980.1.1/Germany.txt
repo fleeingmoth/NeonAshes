@@ -1,0 +1,564 @@
+573 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 115343
+	}
+}
+571 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 170855
+	}
+}
+570 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 85346
+	}
+}
+574 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 142128
+	}
+}
+572 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 77446
+	}
+}
+576 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 187353
+	}
+}
+579 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 111880
+	}
+}
+577 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 167095
+	}
+}
+575 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 333691
+	}
+}
+578 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 279581
+	}
+}
+2561 = {#
+	farmers = {
+		culture = rhinelander
+		religion = catholic
+		size = 164519
+	}
+}
+
+370 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 67151
+	}
+}
+369 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 162188
+	}
+}
+530 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 34361
+	}
+}
+529 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 92793
+	}
+}
+528 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 328062
+	}
+}
+2560 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 156208
+	}
+}
+564 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 154702
+	}
+}
+565 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 128840
+	}
+}
+567 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 137698
+	}
+}
+568 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 91852
+	}
+}
+566 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 137012
+	}
+}
+583 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 67102
+	}
+}
+584 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 68335
+	}
+}
+580 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 490344
+	}
+}
+581 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 310977
+	}
+}
+582 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 248832
+	}
+}
+585 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 54432
+	}
+}
+539 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 124460
+	}
+}
+531 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 99284
+	}
+}
+535 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 48902
+	}
+}
+541 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 64721
+	}
+}
+540 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 82416
+	}
+}
+543 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 67108
+	}
+}
+542 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 61340
+	}
+}
+538 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 75687
+	}
+}
+532 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 124401
+	}
+}
+534 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 240831
+	}
+}
+536 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 180078
+	}
+}
+537 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 105473
+	}
+}
+
+547 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 48012
+	}
+}
+548 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 44733
+	}
+}
+550 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 78888
+	}
+}
+687 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 58749
+	}
+}
+558 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 188003
+	}
+}
+545 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 53812
+	}
+}
+551 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 63284
+	}
+}
+549 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 525161
+	}
+}
+552 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 139768
+	}
+}
+544 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 158519
+	}
+}
+557 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 41788
+	}
+}
+553 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 92753
+	}
+}
+555 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 82504
+	}
+}
+556 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 122128
+	}
+}
+560 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 252060
+	}
+}
+559 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 171841
+	}
+}
+561 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 142205
+	}
+}
+554 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 101801
+	}
+}
+563 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 79198
+	}
+}
+562 = {#
+	farmers = {
+		culture = east_german
+		religion = catholic
+		size = 101285
+	}
+}
+
+
+586 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 205427
+	}
+}
+587 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 144743
+	}
+}
+588 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 139713
+	}
+}
+593 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 145600
+	}
+}
+592 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 145600
+	}
+}
+592 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 234344
+	}
+}
+599 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 500712
+	}
+}
+594 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 101423
+	}
+}
+591 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 62573
+	}
+}
+590 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 145925
+	}
+}
+589 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 465530
+	}
+}
+569 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 204158
+	}
+}
+601 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 61749
+	}
+}
+600 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 157287
+	}
+}
+602 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 148727
+	}
+}
+595 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 225769
+	}
+}
+598 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 96581
+	}
+}
+597 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 204991
+	}
+}
+596 = {#
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 259685
+	}
+}
+533 = {#
+	farmers = {
+		culture = west_german
+		religion = catholic
+		size = 1
+	}
+}

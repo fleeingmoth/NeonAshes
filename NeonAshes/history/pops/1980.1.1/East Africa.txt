@@ -121,11 +121,36 @@
 	}
 }
 #buruni & rwanada
-2034 = {#
+2034 = {# Rwanda, 1312000
 	farmers = {
 		culture = eastern_african
 		religion = catholic
-		size = 1312000
+		size = 1035666
+	}
+	craftsmen = {
+		culture = eastern_african
+		religion = catholic
+		size = 93968
+	}
+	clergymen = {
+		culture = eastern_african
+		religion = catholic
+		size = 43296
+	}
+	bureaucrats = {
+		culture = eastern_african
+		religion = catholic
+		size = 24928
+	}
+	artisans = {
+		culture = eastern_african
+		religion = catholic
+		size = 89216
+	}
+	soldiers = {
+		culture = eastern_african
+		religion = catholic
+		size = 24928
 	}
 }
 2035 = {# Burundi, 1,078,250

@@ -1,0 +1,267 @@
+# 
+705 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 110014
+	}
+}
+# 
+696 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 74988
+	}
+}
+# 
+707 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 9729
+	}
+}
+# 
+719 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 35027
+	}
+}
+# 
+715 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 78979
+	}
+}
+# 
+711 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 49571
+	}
+}
+# 
+2584 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 33748
+	}
+}
+# 
+703 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 77464
+	}
+}# 
+714 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 34509
+	}
+}
+# 
+704 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 55381
+	}
+}
+# 
+713 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 38181
+	}
+}
+# 
+716 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 68117
+	}
+}
+# 
+685 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 215252
+	}
+}
+706 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 140194
+	}
+}
+709 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 28181
+	}
+}
+708 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 41092
+	}
+}
+684 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 55914
+	}
+}
+710 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 43514
+	}
+}
+712 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 54950
+	}
+}
+717 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 38712
+	}
+}
+681 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 52970
+	}
+}
+683 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 65416
+	}
+}
+682 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 87212
+	}
+}
+#
+546 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 45612
+	}
+}
+#
+679 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 43544
+	}
+}
+690 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 39727
+	}
+}
+693 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 5180
+	}
+}
+694 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 6393
+	}
+}
+691 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 42831
+	}
+}
+680 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 17325
+	}
+}
+692 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 13669
+	}
+}
+700 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 64124
+	}
+}
+699 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 61841
+	}
+}
+701 = {#
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 39241
+	}
+}
+
+695 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 97531
+	}
+}
+697 = {#
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 55773
+	}
+}

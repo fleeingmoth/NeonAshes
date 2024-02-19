@@ -1,0 +1,128 @@
+# 
+637 = {#
+	farmers = {
+		culture = slovak
+		religion = orthodox
+		size = 136944
+	}
+}
+# 
+638 = {#
+	farmers = {
+		culture = slovak
+		religion = orthodox
+		size = 59338
+	}
+}
+# 
+636 = {#
+	farmers = {
+		culture = slovak
+		religion = orthodox
+		size = 61861
+	}
+}
+# 
+635 = {#
+	farmers = {
+		culture = slovak
+		religion = orthodox
+		size = 77060
+	}
+}
+# 
+634 = {#
+	farmers = {
+		culture = slovak
+		religion = orthodox
+		size = 64561
+	}
+}
+# 
+633 = {#
+	farmers = {
+		culture = slovak
+		religion = orthodox
+		size = 152155
+	}
+}
+# 
+689 = {#
+	farmers = {
+		culture = czech
+		religion = orthodox
+		size = 29481
+	}
+}
+# 
+688 = {#
+	farmers = {
+		culture = czech
+		religion = orthodox
+		size = 74883
+	}
+}
+# 
+632 = {#
+	farmers = {
+		culture = czech
+		religion = orthodox
+		size = 53115
+	}
+}
+# 
+631 = {#
+	farmers = {
+		culture = czech
+		religion = orthodox
+		size = 196169
+	}
+}
+# 
+626 = {#
+	farmers = {
+		culture = czech
+		religion = orthodox
+		size = 87367
+	}
+}
+# 
+628 = {#
+	farmers = {
+		culture = czech
+		religion = orthodox
+		size = 102996
+	}
+}
+# 
+627 = {#
+	farmers = {
+		culture = czech
+		religion = orthodox
+		size = 25105
+	}
+}
+# 
+625 = {#
+	farmers = {
+		culture = czech
+		religion = orthodox
+		size = 189055
+	}
+}
+# 
+629 = {#
+	farmers = {
+		culture = czech
+		religion = orthodox
+		size = 45431
+	}
+}
+# 
+630 = {#
+	farmers = {
+		culture = czech
+		religion = orthodox
+		size = 51584
+	}
+}

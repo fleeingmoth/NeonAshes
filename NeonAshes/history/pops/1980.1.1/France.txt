@@ -63,3 +63,486 @@
 		size = 135416
 	}
 }
+418 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 576924
+	}
+}
+417 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 55401
+	}
+}
+416 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 86672
+	}
+}
+415 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 223707
+	}
+}
+426 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 68027
+	}
+}
+436 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 94644
+	}
+}
+435 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 50959
+	}
+}
+434 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 126561
+	}
+}
+437 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 90567
+	}
+}
+441 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 94892
+	}
+}
+443 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size =133920
+	}
+}
+442 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 96228
+	}
+}
+444 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 63894
+	}
+}
+458 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 267181
+	}
+}
+459 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 88626
+	}
+}
+460 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 146928
+	}
+}
+445 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 66700
+	}
+}
+447 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 116025
+	}
+}
+425 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 1538646
+	}
+}
+427 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 166333
+	}
+}
+403 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 100111
+	}
+}
+2570 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 124083
+	}
+}
+402 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 102106
+	}
+}
+400 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 203421
+	}
+}
+401 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 235141
+	}
+}
+399 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 158742
+	}
+}
+404 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 140122
+	}
+}
+405 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 46688
+	}
+}
+408 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 101938
+	}
+}
+406 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 54243
+	}
+}
+440 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 55542
+	}
+}
+438 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 100437
+	}
+}
+446 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 45598
+	}
+}
+439 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 60032
+	}
+}
+472 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 52883
+	}
+}
+471 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 112341
+	}
+}
+470 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 132812
+	}
+}
+467 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 323287
+	}
+}
+464 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 62729
+	}
+}
+457 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 25448
+	}
+}
+455 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 154593
+	}
+}
+463 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 52628
+	}
+}
+461 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 132468
+	}
+}
+456 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 99343
+	}
+}
+450 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 28974
+	}
+}
+462 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 52247
+	}
+}
+449 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 44462
+	}
+}
+468 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 179591
+	}
+}
+469 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 22325
+	}
+}
+465 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 87723
+	}
+}
+466 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 65685
+	}
+}
+454 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 195345
+	}
+}
+453 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 73083
+	}
+}
+451 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 689492
+	}
+}
+452 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 138660
+	}
+}
+448 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 150048
+	}
+}
+431 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 107222
+	}
+}
+433 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 45548
+	}
+}
+430 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 44931
+	}
+}
+428 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 88790
+	}
+}
+429 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 58316
+	}
+}
+410 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 121944
+	}
+}
+409 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 171689
+	}
+}
+412 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 188847
+	}
+}
+432 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 157710
+	}
+}
+414 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 74206
+	}
+}
+407 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 39500
+	}
+}
+411 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 134430
+	}
+}
+413 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 37496
+	}
+}

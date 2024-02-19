@@ -1,112 +1,85 @@
-733 = {#
+# 
+614 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 265603
+		size = 57981
 	}
 }
-734 = {#
+612 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 87852
+		size = 111465
 	}
 }
-735 = {#
+613 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 99931
+		size = 84037
 	}
 }
-721 = {#
+615 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 24155
+		size = 9023
 	}
 }
-722 = {#
+622 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 438741
+		size = 241213
 	}
 }
-720 = {#
+617 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 254312
+		size = 74800
 	}
 }
-723 = {#
+618 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 269938
+		size = 101874
 	}
 }
-725 = {#
+616 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 173784
+		size = 150639
 	}
 }
-724 = {#
+621 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 214912
+		size = 44117
 	}
 }
-726 = {#
+620 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 873854
+		size = 149341
 	}
 }
-727 = {#
+619 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 658435
+		size = 368789
 	}
 }
-728 = {#
+624 = {#
 	farmers = {
-		culture = italian
+		culture = austrian
 		religion = catholic
-		size = 379416
-	}
-}
-732 = {#
-	farmers = {
-		culture = italian
-		religion = catholic
-		size = 254361
-	}
-}
-729 = {#
-	farmers = {
-		culture = italian
-		religion = catholic
-		size = 227312
-	}
-}
-731 = {#
-	farmers = {
-		culture = italian
-		religion = catholic
-		size = 243541
-	}
-}
-730 = {#
-	farmers = {
-		culture = italian
-		religion = catholic
-		size = 208674
+		size = 51256
 	}
 }

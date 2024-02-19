@@ -30,6 +30,7 @@ political_decisions = {
 			badboy = 2			# Tiny badboy hit
 			prestige = 10			# Rising up in the world
 			GBR_unified = { add_core = GBR }	# All of the UK becomes UK cores
+			add_accepted_culture = welsh
 			any_core = {
 				remove_core = GBN
 				add_core = GBR
@@ -81,7 +82,7 @@ political_decisions = {
 			prestige = 5			# Rising up in the world
 			change_tag = SCO		# We become Scotland
 			SCO={
-				any_core={
+				all_core={
 					limit={
 						OR={
 							owned_by = THIS
@@ -97,7 +98,7 @@ political_decisions = {
 					remove_core = GLS
 					remove_core = GBN
 				}
-				any_core={
+				all_core={
 					limit={
 						owner={
 							OR={
@@ -106,7 +107,7 @@ political_decisions = {
 							}
 						}
 					}
-					owner = country_event = { id=31026 days=0 }
+					owner = {country_event = { id=31026 days=0 } }
 				}
 			}
 		}

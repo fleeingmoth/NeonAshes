@@ -12,4 +12,185 @@
 		size = 453151
 	}
 }
-
+674 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 152204
+	}
+}
+675 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 63632
+	}
+}
+672 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 392406
+	}
+}
+673 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 145390
+	}
+}
+670 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 291623
+	}
+}
+671 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 112804
+	}
+}
+633 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 158474
+	}
+}
+668 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 166195
+	}
+}
+669 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 158693
+	}
+}
+664 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 735353
+	}
+}
+667 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 494176
+	}
+}
+665 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 271283
+	}
+}
+666 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 317283
+	}
+}
+653 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 96394
+	}
+}
+652 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 202226
+	}
+}
+656 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 128609
+	}
+}
+647 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 158273
+	}
+}
+651 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 98460
+	}
+}
+661 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 194872
+	}
+}
+654 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 66142
+	}
+}
+655 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 281285
+	}
+}
+660 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 131331
+	}
+}
+2533 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 151336
+	}
+}
+657 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 120411
+	}
+}
+659 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 145715
+	}
+}
+663 = {#
+	farmers = {
+		culture = romanian
+		religion = catholic
+		size = 158474
+	}
+}

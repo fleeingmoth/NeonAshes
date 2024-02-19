@@ -227,3 +227,60 @@
 		size = 21384
 	}
 }
+# Danish
+374 = {#
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 3675
+	}
+}
+372 = {#
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 135177
+	}
+}
+373 = {#
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 40659
+	}
+}
+371 = {#
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 19846
+	}
+}
+368 = {#
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 4910
+	}
+}
+2557 = {#
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 68098
+	}
+}
+367 = {#
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 49028
+	}
+}
+366 = {#
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 43472
+	}
+}

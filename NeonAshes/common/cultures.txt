@@ -820,7 +820,7 @@ east_slavic = {
         last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
 	}
 	siberian_russian = {  
-		color = {159 120 204}
+		color = {145 193 145}
         first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 
         last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }

@@ -22,7 +22,6 @@ political_decisions = {
 			controls = 1405
 			controls = 1406
 			controls = 1407
-			controls = 1408
 		}
 		
 		effect = {

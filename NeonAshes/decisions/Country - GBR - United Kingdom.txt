@@ -4,7 +4,7 @@ political_decisions = {
 		news_desc_long = "GBR_unification_NEWS_LONG"
 		news_desc_medium = "GBR_unification_NEWS_MEDIUM"
 		news_desc_short = "GBR_unification_NEWS_SHORT"
-		picture = flags_united_kingdom_smallpic
+		picture = flag_uk_smallpic
 		potential = {
 			tag = GBN
 			#institutionalism = 1					# We have Institutionalism
@@ -60,7 +60,7 @@ political_decisions = {
 			NOT = {tag = GBR} #GB should not devolve
 		}
 		allow = {
-			new_international_system = 1				# We have New International System
+			institutionalism = 1				# We have Institutionalism
 			war = no
 			SCO = {
 				all_core={

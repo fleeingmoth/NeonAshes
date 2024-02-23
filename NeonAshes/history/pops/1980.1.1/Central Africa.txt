@@ -374,11 +374,36 @@
 		size = 281711
 	}
 }
-1997 = {#
+1997 = {# 173277
 	farmers = {
 		culture = zairian
 		religion = catholic
-		size = 173277
+		size = 138456
+	}
+	artisans = {
+		culture = zairian
+		religion = catholic
+		size = 12129
+	}
+	soldiers = {
+		culture = zairian
+		religion = catholic
+		size = 3274
+	}
+	craftsmen = {
+		culture = zairian
+		religion = catholic
+		size = 13862
+	}
+	clergymen = {
+		culture = zairian
+		religion = catholic
+		size = 5198
+	}
+	aristocrats = {
+		culture = zairian
+		religion = catholic
+		size = 358
 	}
 }
 1998 = {#

@@ -1,7 +1,6 @@
 owner = ASC
 controller = ASC
 add_core = ASC
-add_core = VIC
 add_core = AUS
 trade_goods = timber
 life_rating = 35

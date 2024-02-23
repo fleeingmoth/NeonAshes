@@ -1,5 +1,5 @@
 capital = 306 #
-primary_culture = democracy
+primary_culture = norwegian
 government = auth_democracy
 plurality = 25.0
 nationalvalue = nv_order

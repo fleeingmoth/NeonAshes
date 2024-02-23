@@ -4,3 +4,18 @@ add_core = OYO
 add_core = NIG
 trade_goods = credit_money
 life_rating = 35
+state_building = {
+	level = 1
+	building = pharmaceuticals_manufacturer
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = engine_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = traditional_vehicle_factory
+	upgrade = yes
+}

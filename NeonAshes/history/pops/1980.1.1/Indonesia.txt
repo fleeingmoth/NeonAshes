@@ -393,7 +393,7 @@
 	farmers = {
 		culture = sumatran
 		religion = animist
-		size = 0
+		size = 126686
 	}
 }
 1400 = {#

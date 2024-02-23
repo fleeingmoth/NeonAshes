@@ -1,6 +1,6 @@
-owner = ROC
-controller = ROC
-add_core = ROC
+owner = PRD
+controller = PRD
+add_core = PRD
 add_core = CHI
 trade_goods = fish
 life_rating = 35

@@ -306,11 +306,41 @@
 		size = 84361
 	}
 }
-1003 = {#
+1003 = {# Novgorod, 85076
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 85076
+		size = 47502
+	}
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 5955
+	}
+	craftsmen = {
+		culture = russian
+		religion = orthodox
+		size = 15994
+	}
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 9613
+	}
+	bureaucrats = {
+		culture = russian
+		religion = orthodox
+		size = 2552
+	}
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 3403
+	}
+	capitalists = {
+		culture = russian
+		religion = orthodox
+		size = 57
 	}
 }
 2580 = {#
@@ -320,11 +350,26 @@
 		size = 156912
 	}
 }
-1004 = {#
+1004 = {# 108,390
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 108390
+		size = 85216
+	}
+	craftsmen = {
+		culture = russian
+		religion = orthodox
+		size = 13440
+	}
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 7587
+	}
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 2147
 	}
 }
 996 = {#
@@ -562,11 +607,51 @@
 		size = 177500
 	}
 }
-1031 = {#
+1031 = {# 377000
 	farmers = {
 		culture = udmurt
 		religion = orthodox
-		size = 377000
+		size = 221729
+	}
+	artisans = {
+		culture = udmurt
+		religion = orthodox
+		size = 10000
+	}
+	artisans = {
+		culture = udmurt
+		religion = orthodox
+		size = 10000
+	}
+	artisans = {
+		culture = udmurt
+		religion = orthodox
+		size = 10000
+	}
+	artisans = {
+		culture = udmurt
+		religion = orthodox
+		size = 10000
+	}
+	artisans = {
+		culture = udmurt
+		religion = orthodox
+		size = 10000
+	}
+	artisans = {
+		culture = udmurt
+		religion = orthodox
+		size = 3534
+	}
+	craftsmen = {
+		culture = udmurt
+		religion = orthodox
+		size = 98020
+	}
+	soldiers = {
+		culture = udmurt
+		religion = orthodox
+		size = 3717
 	}
 }
 

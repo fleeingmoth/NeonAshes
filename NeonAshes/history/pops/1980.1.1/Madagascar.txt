@@ -71,11 +71,36 @@
 	}
 }
 #Seychelles
-2127 = {#
+2127 = {# 15815
 	farmers = {
 		culture = seychelles
 		religion = catholic
-		size = 15815
+		size = 2925
+	}
+	craftsmen = {
+		culture = seychelles
+		religion = catholic
+		size = 3004
+	}
+	artisans = {
+		culture = seychelles
+		religion = catholic
+		size = 2135
+	}
+	soldiers = {
+		culture = seychelles
+		religion = catholic
+		size = 650
+	}
+	bureaucrats = {
+		culture = seychelles
+		religion = catholic
+		size = 8672
+	}
+	clergymen = {
+		culture = seychelles
+		religion = catholic
+		size = 1354
 	}
 }
 #Mauritius

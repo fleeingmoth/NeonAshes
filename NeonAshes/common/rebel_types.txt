@@ -967,7 +967,7 @@ nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
-			country = { government = bourgeois_dictatorship }
+			country = { government = socialist_dictatorship }
 		}
 	}
  
@@ -1235,6 +1235,18 @@ independance_rebels = {
 				OR={
 					tag = NTX
 					tag = STX
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				is_core = SCO
+			}
+			country = {
+				OR={
+					tag = GLS
+					tag = EDB
 				}
 			}
 		}
@@ -1578,8 +1590,6 @@ pan_nationalist_rebels = {
 				is_culture_group = THIS
 				OR = {
 					is_greater_power = yes
-					tag = WAL
-					tag = MOL
 					tag = SER
 				}
 				NOT = {
@@ -1591,7 +1601,7 @@ pan_nationalist_rebels = {
 					cultural_union = { exists = yes }
 				}
 			}
-			country_event = { id=11100 days=0 }
+			country_event = { id=31026 days=0 }
 		}
 	}
 }

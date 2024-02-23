@@ -715,17 +715,52 @@
 	}
 }
 #Trinidad & Tobago (269947 pops)
-2237 = { #Trinidad
+2237 = { #Trinidad, 266263
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 266263
+		size = 69760
+	}
+	clergymen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 18372
+	}
+	craftsmen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 62305
+	}
+	artisans = {
+		culture = afro_antillean
+		religion = catholic
+		size = 88665
+	}
+	soldiers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 10650
+	}
+	bureaucrats = {
+		culture = afro_antillean
+		religion = catholic
+		size = 16511
 	}
 }
-2238 = { #Tobago
+2238 = { #Tobago, 3684
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 3684
+		size = 1596
+	}
+	craftsmen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 862
+	}
+	artisans = {
+		culture = afro_antillean
+		religion = catholic
+		size = 1226
 	}
 }

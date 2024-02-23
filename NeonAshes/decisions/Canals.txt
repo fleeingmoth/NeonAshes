@@ -38,7 +38,7 @@ political_decisions = {
 		potential = {
 			NOT = { is_canal_enabled = 2 }
 			is_greater_power = yes
-			mechanical_production = 1
+			#mechanical_production = 1
 		}
 		allow = {
 			OR = {
@@ -70,7 +70,7 @@ political_decisions = {
 		potential = {
 			NOT = { is_canal_enabled = 3 }
 			is_greater_power = yes
-			mechanical_production = 1
+			#mechanical_production = 1
 		}
 		allow = {
 			OR = {

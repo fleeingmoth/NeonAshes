@@ -48,11 +48,26 @@
 		size = 821100
 	}
 }
-1460 = {#
+1460 = {# 1132599
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 1132599
+		size = 919672
+	}
+	artisans = {
+		culture = filipino
+		religion = catholic
+		size = 109820
+	}
+	craftsmen = {
+		culture = filipino
+		religion = catholic
+		size = 82721
+	}
+	soldiers = {
+		culture = filipino
+		religion = catholic
+		size = 20386
 	}
 }
 1458 = {#

@@ -556,7 +556,7 @@ biofuel_refinery = {
 	input_goods = { 
 		grain = 100.00 			# 
 		oilseed_crops = 50.00 	# 
-		sugar = 5.00 			# 
+		sugar_crops = 5.00 			# 
 		other_metals = 0.10		# 10 tonnes		#  1
 	}
 	output_goods = fuel			# Total cost of inputs	# 31
@@ -772,7 +772,7 @@ brewing_facility = {
 	template = labor_heavy_factory_template
 	input_goods = {
 		fruit = 30.00		# 90
-		grains = 30.00	# 54
+		grain = 30.00	# 54
 		sugar_crops = 10 # 10
 	}
 	output_goods = alcohol_beverages			# Total cost of inputs	# 154
@@ -1236,7 +1236,7 @@ sugar_crops_farm = {
 other_metals_mine = {
 	template = RGO_template_labourers
 	output_goods = other_metals
-	value = 1 # I don't know what to put here right mow
+	value = 2 # I don't know what to put here right mow
 	mine = yes
 }
 
@@ -1496,21 +1496,6 @@ artisan_composter = {			# Each unit is a tonne of Fert.
 	}
 	output_goods = fertilizer			# Total cost of inputs	# 93
 	value = 15			# Total value of goods	# 100
-	owner = {				# Profit		# 50
-		poptype = artisans
-		effect = output
-	}
-	type = artisan
-	workforce = 10000
-}
-artisan_aluminum = {			# Each unit is a tonne of aluminum.
-	input_goods = {
-		bauxite = 1.00		# 100 tonnes of bauxite		# 3
-		energy = 200.00		# 200,000 MWh			# 80
-		other_metals = 1.00	# 100 tonnes of other metals	# 10
-	}
-	output_goods = aluminum			# Total cost of inputs	# 93
-	value = 50				# Total value of goods	# 100
 	owner = {				# Profit		# 50
 		poptype = artisans
 		effect = output

@@ -184,26 +184,87 @@
 	}
 }
 
-1201 = {#
+1201 = {# 298,670
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 298670
+		size = 184281
+	}
+	craftsmen = {
+		culture = tajik
+		religion = sunni
+		size = 38827
+	}
+	artisans = {
+		culture = tajik
+		religion = sunni
+		size = 35541
+	}
+	clergymen = {
+		culture = tajik
+		religion = sunni
+		size = 29867
+	}
+	soldiers = {
+		culture = tajik
+		religion = sunni
+		size = 3285
+	}
+	bureaucrats = {
+		culture = tajik
+		religion = sunni
+		size = 6869
 	}
 }
-1207 = {#
+1207 = {# 619,972
+	artisans = {
+		culture = tajik
+		religion = sunni
+		size = 123374
+	}
+	craftsmen = {
+		culture = tajik
+		religion = sunni
+		size = 80596
+	}
+	bureaucrats = {
+		culture = tajik
+		religion = sunni
+		size = 14259
+	}
+	clergymen = {
+		culture = tajik
+		religion = sunni
+		size = 65097
+	}
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 619972
+		size = 328469
+	}
+	soldiers = {
+		culture = tajik
+		religion = sunni
+		size = 6819
+	}
+	capitalists = {
+		culture = tajik
+		religion = sunni
+		size = 1358
 	}
 }
-1208 = {#
+1208 = {# 31,695
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 31695
+		size = 31093
 	}
+	soldiers = {
+		culture = tajik
+		religion = sunni
+		size = 602
+	}
+	
 }
 
 1205 = {#

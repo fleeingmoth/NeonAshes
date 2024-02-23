@@ -917,29 +917,6 @@ country_event = { # Centenial of the creation of the OAS
 		}
 	}
 }
-country_event = { # Breaking of the OAS
-	id = 31026
-	title = "EVT_31026_NAME"
-	desc = "EVT_31026_DESC"
-
-	picture = "events_default"
-	fire_only_once = yes
-	trigger={
-		tag = OAS
-		NOT={num_of_vassals = 5}
-	}
-	option = {
-		name = "EVT_31026_OPTA" # 
-		change_variable = {
-			which = oas_unity
-			value = -3
-		}
-		oas_unity_tooltip_lower_3 = {}
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
 # Event to Inherit
 country_event = {
 	id = 31026
@@ -969,6 +946,29 @@ country_event = {
 		any_pop = {
 			militancy = 3
 			consciousness = 2
+		}
+	}
+}
+country_event = { # Breaking of the OAS
+	id = 31027
+	title = "EVT_31026_NAME"
+	desc = "EVT_31026_DESC"
+
+	picture = "events_default"
+	fire_only_once = yes
+	trigger={
+		tag = OAS
+		NOT={num_of_vassals = 5}
+	}
+	option = {
+		name = "EVT_31026_OPTA" # 
+		change_variable = {
+			which = oas_unity
+			value = -3
+		}
+		oas_unity_tooltip_lower_3 = {}
+		ai_chance = {
+			factor = 100
 		}
 	}
 }

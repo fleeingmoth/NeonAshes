@@ -111,3 +111,11 @@ vassal = {#Soviets puppeted afghanistan just before collapse
 	start_date = 1979.8.12
 	end_date = 1980.11.21
 }
+
+# PRD-GRA puppeted Macao on its independance
+vassal = {
+	first = PRD
+	second = MCA
+	start_date = 1979.12.31
+	end_date = 2099.12.31
+}

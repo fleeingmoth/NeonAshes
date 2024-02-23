@@ -325,6 +325,7 @@ battery_factory = {
 		construction_materials = 100	# 100,000 sqft
 		machine_parts = 100		# 10,000 metric tons of equipment
 		steel = 50			# 50 tonnes of steel
+		electronic_components = 100	# 1,000 computer systems roughly
 	}
 	time = 180
 	visibility = yes
@@ -577,23 +578,7 @@ consumer_electronics_factory = {	#
 	production_type = consumer_electronics_production
 	pop_build_factory = yes
 }
-battery_factory = {	# 
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost = {
-		construction_materials = 100	# 100,000 sqft
-		machine_parts = 100		# 10,000 metric tons of equipment
-		steel = 50			# 50 tonnes of steel
-		electronic_components = 100	# 1,000 computer systems roughly
-	}
-	time = 720
-	visibility = yes
-	onmap = no
-	production_type = battery_factory
-	pop_build_factory = yes
-}
+
 
 # Textiles
 

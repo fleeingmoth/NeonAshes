@@ -1,5 +1,5 @@
 capital = 2482 #
-primary_culture = protestant
+primary_culture = australian
 religion = catholic
 government = auth_democracy
 plurality = 25.0

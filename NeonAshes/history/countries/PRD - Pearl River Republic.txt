@@ -1,6 +1,5 @@
-capital = 1706 #
-primary_culture = pied_noir
-religion = catholic
+capital = 1493 #
+primary_culture = chinese
 government = auth_democracy
 plurality = 25.0
 nationalvalue = nv_order
@@ -27,7 +26,7 @@ unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 school_reforms = low_schools
 
-ruling_party = EPD_conservative
+ruling_party = PRD_conservative
 last_election = 1980.1.1
 upper_house = {
 	conservative = 100

@@ -54,13 +54,6 @@
 		size = 112804
 	}
 }
-633 = {#
-	farmers = {
-		culture = romanian
-		religion = catholic
-		size = 158474
-	}
-}
 668 = {#
 	farmers = {
 		culture = romanian

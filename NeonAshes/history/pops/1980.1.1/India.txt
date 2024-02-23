@@ -203,13 +203,6 @@
 		size = 4384714
 	}
 }
-1240 = {#
-	farmers = {
-		culture = indian
-		religion = hindu
-		size = 2412288
-	}
-}
 1241 = {#
 	farmers = {
 		culture = indian

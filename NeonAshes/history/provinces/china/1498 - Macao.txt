@@ -1,6 +1,7 @@
-owner = SHG
-controller = SHG
-add_core = SHG
+owner = MCA
+controller = MCA
+add_core = MCA
+add_core = PRD
 add_core = CHI
 trade_goods = credit_money
 life_rating = 35

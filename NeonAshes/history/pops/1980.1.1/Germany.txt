@@ -454,13 +454,6 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 145600
-	}
-}
-592 = {#
-	farmers = {
-		culture = south_german
-		religion = catholic
 		size = 234344
 	}
 }

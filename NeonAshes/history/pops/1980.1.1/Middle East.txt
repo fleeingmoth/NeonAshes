@@ -475,32 +475,107 @@
 		size = 36939
 	}
 }
-915 = {#
+915 = {# 68734
 	farmers = {
 		culture = lebanese
 		religion = catholic
-		size = 68734
+		size = 45297
+	}
+	artisans = {
+		culture = lebanese
+		religion = catholic
+		size = 14434
+	}
+	craftsmen = {
+		culture = lebanese
+		religion = catholic
+		size = 4811
+	}
+	clergymen = {
+		culture = lebanese
+		religion = catholic
+		size = 3230
+	}
+	soldiers = {
+		culture = lebanese
+		religion = catholic
+		size = 962
 	}
 }
-913 = {#
+913 = {# 229090
 	farmers = {
 		culture = lebanese
 		religion = catholic
-		size = 229090
+		size = 82704
+	}
+	artisans = {
+		culture = lebanese
+		religion = catholic
+		size = 61854
+	}
+	craftsmen = {
+		culture = lebanese
+		religion = catholic
+		size = 25199
+	}
+	clergymen = {
+		culture = lebanese
+		religion = catholic
+		size = 19930
+	}
+	bureaucrats = {
+		culture = lebanese
+		religion = catholic
+		size = 16036
+	}
+	soldiers = {
+		culture = lebanese
+		religion = catholic
+		size = 22909
+	}
+	capitalists = {
+		culture = lebanese
+		religion = catholic
+		size = 458
 	}
 }
-914 = {#
+914 = {# 100357
 	farmers = {
 		culture = lebanese
 		religion = catholic
-		size = 100357
+		size = 55541
+	}
+	artisans = {
+		culture = lebanese
+		religion = catholic
+		size = 26451
+	}
+	craftsmen = {
+		culture = lebanese
+		religion = catholic
+		size = 11039
+	}
+	soldiers = {
+		culture = lebanese
+		religion = catholic
+		size = 7326
 	}
 }
-912 = {#
+912 = {# 55968
 	farmers = {
 		culture = lebanese
 		religion = catholic
-		size = 55968
+		size = 42312
+	}
+	artisans = {
+		culture = lebanese
+		religion = catholic
+		size = 11977
+	}
+	soldiers = {
+		culture = lebanese
+		religion = catholic
+		size = 1679
 	}
 }
 #syria

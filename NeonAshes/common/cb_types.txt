@@ -935,17 +935,21 @@ free_peoples = {
 			OR = {
 				exists = yes
 				NOT = {
-						OR = {
-							tag = GER
-							tag = SCA
-							tag = ITA
-							tag = YUG
-							tag = ROM
-							tag = CZH
-						}
+					OR = {#formables
+						tag = SCO
+						tag = GBR
+						tag = CAN
+						tag = OAS
+						tag = WCA
+						tag = ECA
+						tag = MEX
+						tag = BRA
+						tag = SOV
+						tag = CHI
 					}
 				}
 			}
+		}
 		
 		any_owned_province = {
 			is_core = FROM
@@ -1489,10 +1493,8 @@ establish_protectorate_casus_belli = {
 			}
 			AND = {
 				THIS = {
-					AND = {
-						is_greater_power = yes
-#						nationalism_n_imperialism = 1 # Needs to change
-					}
+					is_greater_power = yes
+#					nationalism_n_imperialism = 1 # Needs to change
 				}
 				NOT = { number_of_states = 5 }
 			}
@@ -1779,7 +1781,7 @@ unification_annex_casus_belli = {
 		}
 		any_owned_province = {
 			any_core = {
-				THIS_culture_union = THIS_union
+				this_culture_union = this_union
 				is_cultural_union = yes
 			}
 		}

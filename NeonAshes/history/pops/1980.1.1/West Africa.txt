@@ -646,32 +646,62 @@
 	}
 }
 #liberia
-1888 = {#
+1888 = {# 58513
 	farmers = {
 		culture = liberian
 		religion = catholic
-		size = 58513
+		size = 56972
+	}
+	soldiers = {
+		culture = liberian
+		religion = catholic
+		size = 1541
 	}
 }
-1889 = {#
+1889 = {# 61910
 	farmers = {
 		culture = liberian
 		religion = catholic
-		size = 61910
+		size = 60479
+	}
+	soldiers = {
+		culture = liberian
+		religion = catholic
+		size = 1431
 	}
 }
-1887 = {#
+1887 = {# 237065
 	farmers = {
 		culture = liberian
 		religion = catholic
-		size = 237065
+		size = 146139
+	}
+	artisans = {
+		culture = liberian
+		religion = catholic
+		size = 62821
+	}
+	craftsmen = {
+		culture = liberian
+		religion = catholic
+		size = 24521
+	}
+	soldiers = {
+		culture = liberian
+		religion = catholic
+		size = 3584
 	}
 }
-1890 = {#
+1890 = {# 142215
 	farmers = {
 		culture = liberian
 		religion = catholic
-		size = 142215
+		size = 140903
+	}
+	soldiers = {
+		culture = liberian
+		religion = catholic
+		size = 1312
 	}
 }
 1891 = {#
@@ -836,8 +866,89 @@
 	farmers = {
 		culture = nigerian
 		religion = catholic
-		size = 1202274
+		size = 820850
 	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 20000
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 7821
+	}
+	craftsmen = {
+		culture = nigerian
+		religion = catholic
+		size = 108204
+	}
+	soldiers = {
+		culture = nigerian
+		religion = catholic
+		size = 24045
+	}
+	capitalists = {
+		culture = nigerian
+		religion = catholic
+		size = 1354
+	}
+	
 }
 1924 = {#
 	farmers = {
@@ -853,11 +964,21 @@
 		size = 725071
 	}
 }
-1926 = {#
+1926 = {# 453210
 	farmers = {
 		culture = nigerian
 		religion = catholic
-		size = 453210
+		size = 391121
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 58917
+	}
+	soldiers = {
+		culture = nigerian
+		religion = catholic
+		size = 3172
 	}
 }
 1927 = {#
@@ -955,14 +1076,54 @@
 	farmers = {
 		culture = nigerian
 		religion = catholic
-		size = 383718
+		size = 353175
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 26860
+	}
+	soldiers = {
+		culture = nigerian
+		religion = catholic
+		size = 3683
 	}
 }
-1941 = {#
+1941 = {# 331705
 	farmers = {
 		culture = nigerian
 		religion = catholic
-		size = 331705
+		size = 188424
+	}
+	soldiers = {
+		culture = nigerian
+		religion = catholic
+		size = 6302
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 64019
+	}
+	craftsmen = {
+		culture = nigerian
+		religion = catholic
+		size = 36487
+	}
+	clergymen = {
+		culture = nigerian
+		religion = catholic
+		size = 19902
+	}
+	bureaucrats = {
+		culture = nigerian
+		religion = catholic
+		size = 15921
+	}
+	capitalists = {
+		culture = nigerian
+		religion = catholic
+		size = 650
 	}
 }
 1942 = {#

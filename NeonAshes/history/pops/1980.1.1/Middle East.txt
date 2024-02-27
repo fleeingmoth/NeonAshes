@@ -905,18 +905,68 @@
 	}
 }
 #red sea opms
-935 = {#
+935 = {# 373500
 	farmers = {
 		culture = kuwaiti
 		religion = catholic
-		size = 373500
+		size = 101853
+	}
+	craftsmen = {
+		culture = kuwaiti
+		religion = catholic
+		size = 42579
+	}
+	soldiers = {
+		culture = kuwaiti
+		religion = catholic
+		size = 3735
+	}
+	bureaucrats = {
+		culture = kuwaiti
+		religion = catholic
+		size = 26145
+	}
+	clergymen = {
+		culture = kuwaiti
+		religion = catholic
+		size = 14940
+	}
+	artisans = {
+		culture = kuwaiti
+		religion = catholic
+		size = 184248
 	}
 }
-1162 = {#
+1162 = {# 90648
 	farmers = {
 		culture = bahraian
-		religion = catholic
-		size = 90648
+		religion = sunni
+		size = 16007
+	}
+	artisans = {
+		culture = bahraian
+		religion = sunni
+		size = 4255
+	}
+	bureaucrats = {
+		culture = bahraian
+		religion = sunni
+		size = 2192
+	}
+	clergymen = {
+		culture = bahraian
+		religion = sunni
+		size = 571
+	}
+	farmers = {
+		culture = indian
+		religion = hindu
+		size = 55451
+	}
+	craftsmen = {
+		culture = indian
+		religion = hindu
+		size = 12172
 	}
 }
 1165 = {#

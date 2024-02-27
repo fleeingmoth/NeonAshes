@@ -1,6 +1,5 @@
-owner = BIA
-controller = BIA
-add_core = BIA
+owner = AMB
+controller = AMB
 add_core = AMB
 trade_goods = timber
 life_rating = 35

@@ -593,11 +593,36 @@
 		size = 246000
 	}
 }
-1033 = {#
+1033 = {# 325500
 	farmers = {
 		culture = chuvashian
 		religion = orthodox
-		size = 325500
+		size = 153707
+	}
+	craftsmen = {
+		culture = chuvashian
+		religion = orthodox
+		size = 43187
+	}
+	artisans = {
+		culture = chuvashian
+		religion = orthodox
+		size = 87013
+	}
+	soldiers = {
+		culture = chuvashian
+		religion = orthodox
+		size = 5789
+	}
+	bureaucrats = {
+		culture = chuvashian
+		religion = orthodox
+		size = 6509
+	}
+	clergymen = {
+		culture = chuvashian
+		religion = orthodox
+		size = 29295
 	}
 }
 1030 = {#

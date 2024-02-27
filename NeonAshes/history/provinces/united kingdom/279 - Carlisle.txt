@@ -1,5 +1,6 @@
 owner = NNG
 controller = NNG
 add_core = NNG
+add_core = EGL
 trade_goods = iron
 life_rating = 35

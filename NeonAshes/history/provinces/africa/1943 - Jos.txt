@@ -1,6 +1,6 @@
-owner = HAU
-controller = HAU
-add_core = HAU
+owner = BEU
+controller = BEU
+add_core = BEU
 add_core = NIG
 trade_goods = bauxite
 life_rating = 35

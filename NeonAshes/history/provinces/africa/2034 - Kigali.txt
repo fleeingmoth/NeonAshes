@@ -1,5 +1,6 @@
 owner = EAF
 controller = EAF
 add_core = EAF
+add_core = RWA
 trade_goods = tea_n_coffee
 life_rating = 35

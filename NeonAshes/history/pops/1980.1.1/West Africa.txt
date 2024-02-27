@@ -152,7 +152,12 @@
 	farmers = {
 		culture = malian
 		religion = catholic
-		size = 186402
+		size = 183161
+	}
+	soldiers = {
+		culture = malian
+		religion = catholic
+		size = 3241
 	}
 	artisans = {
 		culture = malian
@@ -188,14 +193,24 @@
 	farmers = {
 		culture = malian
 		religion = catholic
-		size = 112748
+		size = 111734
+	}
+	soldiers = {
+		culture = malian
+		religion = catholic
+		size = 1014
 	}
 }
 1802 = {#
 	farmers = {
 		culture = malian
 		religion = catholic
-		size = 197341
+		size = 195565
+	}
+	soldiers = {
+		culture = malian
+		religion = catholic
+		size = 1776
 	}
 }
 1804 = {#

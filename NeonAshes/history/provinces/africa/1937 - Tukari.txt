@@ -1,6 +1,6 @@
-owner = BIA
-controller = BIA
-add_core = BIA
+owner = BEU
+controller = BEU
+add_core = BEU
 add_core = NIG
 trade_goods = tea_n_coffee
 life_rating = 35

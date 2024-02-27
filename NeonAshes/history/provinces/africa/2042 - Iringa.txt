@@ -1,5 +1,6 @@
 owner = EAF
 controller = EAF
 add_core = EAF
+add_core = TZN
 trade_goods = tea_n_coffee # Potential for rare_earths
 life_rating = 35

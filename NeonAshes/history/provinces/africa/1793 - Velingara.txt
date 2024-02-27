@@ -1,5 +1,6 @@
 owner = SNG
 controller = SNG
 add_core = SNG
+add_core = CAS
 trade_goods = oilseed_crops
 life_rating = 35

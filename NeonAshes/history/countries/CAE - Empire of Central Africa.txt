@@ -33,6 +33,10 @@ upper_house = {
 	conservative = 100
 }
 
+govt_flag = {
+	government = nat_dictatorship
+	flag = ultranat_dictatorship
+}
 
 # Technologies
 

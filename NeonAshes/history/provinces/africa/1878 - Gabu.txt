@@ -1,5 +1,6 @@
 owner = OAS
 controller = OAS
 add_core = OAS
+add_core = GIB
 trade_goods = oilseed_crops
 life_rating = 35

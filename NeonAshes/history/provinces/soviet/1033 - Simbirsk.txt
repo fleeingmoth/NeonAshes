@@ -3,3 +3,18 @@ controller = CHV
 add_core = CHV
 trade_goods = cattle
 life_rating = 35
+state_building = {
+	level = 3
+	building = traditional_vehicle_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = engine_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = brewery
+	upgrade = yes
+}

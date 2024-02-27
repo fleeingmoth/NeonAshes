@@ -635,39 +635,134 @@
 	}
 }
 
-2512 = {#
+2512 = {# 132280
 	farmers = {
 		culture = new_zealander
 		religion = protestant
-		size = 132280
+		size = 53123
+	}
+	craftsmen = {
+		culture = new_zealander
+		religion = protestant
+		size = 13757
+	}
+	artisans = {
+		culture = new_zealander
+		religion = protestant
+		size = 37093
+	}
+	clergymen = {
+		culture = new_zealander
+		religion = protestant
+		size = 10582
+	}
+	soldiers = {
+		culture = new_zealander
+		religion = protestant
+		size = 6217
+	}
+	bureaucrats = {
+		culture = new_zealander
+		religion = protestant
+		size = 11508
 	}
 }
-2511 = {#
+2511 = {# 38760
 	farmers = {
 		culture = new_zealander
 		religion = protestant
-		size = 38760
+		size = 23645
+	}
+	craftsmen = {
+		culture = new_zealander
+		religion = protestant
+		size = 2829
+	}
+	artisans = {
+		culture = new_zealander
+		religion = protestant
+		size = 12286
 	}
 }
 2510 = {#
 	farmers = {
 		culture = new_zealander
 		religion = protestant
-		size = 21800
+		size = 17222
+	}
+	artisans = {
+		culture = new_zealander
+		religion = protestant
+		size = 3706
+	}
+	craftsmen = {
+		culture = new_zealander
+		religion = protestant
+		size = 872
 	}
 }
-2571 = {#
+2571 = {# 117880
 	farmers = {
 		culture = new_zealander
 		religion = protestant
-		size = 117880
+		size = 73399
+	}
+	craftsmen = {
+		culture = new_zealander
+		religion = protestant
+		size = 11080
+	}
+	clergymen = {
+		culture = new_zealander
+		religion = protestant
+		size = 8841
+	}
+	artisans = {
+		culture = new_zealander
+		religion = protestant
+		size = 23006
+	}
+	soldiers = {
+		culture = new_zealander
+		religion = protestant
+		size = 1554
 	}
 }
-2509 = {#
+2509 = {# 251300
 	farmers = {
 		culture = new_zealander
 		religion = protestant
-		size = 251300
+		size = 91923
+	}
+	craftsmen = {
+		culture = new_zealander
+		religion = protestant
+		size = 26135
+	}
+	artisans = {
+		culture = new_zealander
+		religion = protestant
+		size = 79113
+	}
+	clergymen = {
+		culture = new_zealander
+		religion = protestant
+		size = 20104
+	}
+	soldiers = {
+		culture = new_zealander
+		religion = protestant
+		size = 11811
+	}
+	bureaucrats = {
+		culture = new_zealander
+		religion = protestant
+		size = 21863
+	}
+	capitalists = {
+		culture = new_zealander
+		religion = protestant
+		size = 351
 	}
 }
 2516 = {#
@@ -677,11 +772,31 @@
 		size = 15600
 	}
 }
-2515 = {#
+2515 = {#96080
 	farmers = {
 		culture = new_zealander
 		religion = protestant
-		size = 96080
+		size = 51797
+	}
+	artisans = {
+		culture = new_zealander
+		religion = protestant
+		size = 21418
+	}
+	craftsmen = {
+		culture = new_zealander
+		religion = protestant
+		size = 9992
+	}
+	soldiers = {
+		culture = new_zealander
+		religion = protestant
+		size = 4515
+	}
+	bureaucrats = {
+		culture = new_zealander
+		religion = protestant
+		size = 8358
 	}
 }
 2514 = {#
@@ -691,11 +806,16 @@
 		size = 6640
 	}
 }
-2513 = {#
+2513 = {#57660
 	farmers = {
 		culture = new_zealander
 		religion = protestant
-		size = 57660
+		size = 44572
+	}
+	artisans = {
+		culture = new_zealander
+		religion = protestant
+		size = 13088
 	}
 }
 

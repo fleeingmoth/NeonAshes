@@ -1,2 +1,3 @@
+add_core = EGL
 trade_goods = credit_money
 life_rating = 35

@@ -341,8 +341,8 @@ country_event = { #collapse of the OAS
 		}
 	}
 }
-country_event = {
-	id = 31006 #The Breakup of the OAS
+country_event = { #The Breakup of the OAS -Mali federation successor
+	id = 31006 
 	
 	title = "EVT_31006_NAME"
 	desc = "EVT_31006_DESC"
@@ -363,8 +363,8 @@ country_event = {
 		}
 	}
 }
-country_event = {
-	id = 31007 #The Breakup of the OAS
+country_event = { #The Breakup of the OAS-not mali
+	id = 31007 
 	
 	title = "EVT_31006_NAME"
 	desc = "EVT_31006_DESC"
@@ -385,8 +385,8 @@ country_event = {
 		}
 	}
 }
-country_event = {
-	id = 31008 #The Unifaction of the OAS
+country_event = { #The Unifaction of the OAS
+	id = 31008 
 	
 	title = "EVT_31008_NAME"
 	desc = "EVT_31008_DESC"
@@ -423,8 +423,8 @@ country_event = {
 		leave_alliance = OAS
 	}
 }
-country_event = {
-	id = 31009 #The name of the OAS
+country_event = { #The name of the unified OAS
+	id = 31009 
 	
 	title = "EVT_31009_NAME"
 	desc = "EVT_31009_DESC"
@@ -445,8 +445,8 @@ country_event = {
 		
 	}
 }
-country_event = {
-	id = 31010 #Sankara was put down
+country_event = { #Sankara was put down
+	id = 31010 
 	
 	title = "EVT_31010_NAME"
 	desc = "EVT_31010_DESC"
@@ -463,7 +463,7 @@ country_event = {
 		oas_unity_tooltip_gain = {}
 	}
 }
-country_event = { # loss of Ghana
+country_event = { # loss of Ghana -1U
 	id = 31011
 	title = "EVT_31011_NAME"
 	desc = "EVT_31011_DESC"
@@ -492,7 +492,7 @@ country_event = { # loss of Ghana
 		}
 	}
 }
-country_event = { # regain Ghana
+country_event = { # regain Ghana +1U
 	id = 31012
 	title = "EVT_31012_NAME"
 	desc = "EVT_31012_DESC"
@@ -526,7 +526,7 @@ country_event = { # regain Ghana
 		}
 	}
 }
-country_event = { # loss of Guinea
+country_event = { # loss of Guinea -1U
 	id = 31013
 	title = "EVT_31013_NAME"
 	desc = "EVT_31013_DESC"
@@ -553,7 +553,7 @@ country_event = { # loss of Guinea
 		}
 	}
 }
-country_event = { # regain Guinea
+country_event = { # regain Guinea +1U
 	id = 31014
 	title = "EVT_31014_NAME"
 	desc = "EVT_31014_DESC"
@@ -650,8 +650,8 @@ country_event = { # Samuel Doe coups government
 		}
 	}
 }
-country_event = {
-	id = 31016 #OAS is informed that Liberia is leaving the OAS
+country_event = { #OAS is informed that Liberia is leaving the OAS
+	id = 31016 
 	
 	title = "EVT_31016_NAME"
 	desc = "EVT_31016_DESC"
@@ -659,7 +659,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = {#Intervene
+	option = {#Intervene, -1U
 		name = "EVT_31016_OPTA"
 		war = {
 			target = KRU
@@ -715,8 +715,8 @@ country_event = { # Oyo-OAS war
 	}
 }
 
-country_event = {
-	id = 31018 #OAS allows liberia to leave
+country_event = { #OAS allows liberia to leave
+	id = 31018
 	
 	title = "EVT_31018_NAME"
 	desc = "EVT_31018_DESC"
@@ -811,7 +811,7 @@ country_event = { # ECOWAS successful
 		}
 	}
 }
-country_event = { # loss of Senegambia
+country_event = { # loss of Senegambia, -1U
 	id = 31022
 	title = "EVT_31022_NAME"
 	desc = "EVT_31022_DESC"
@@ -838,7 +838,7 @@ country_event = { # loss of Senegambia
 		}
 	}
 }
-country_event = { # regain Senegambia
+country_event = { # regain Senegambia, +1U
 	id = 31023
 	title = "EVT_31023_NAME"
 	desc = "EVT_31023_DESC"
@@ -949,7 +949,7 @@ country_event = {
 		}
 	}
 }
-country_event = { # Breaking of the OAS
+country_event = { # Breaking of the OAS, low member count
 	id = 31027
 	title = "EVT_31026_NAME"
 	desc = "EVT_31026_DESC"

@@ -1250,6 +1250,15 @@ independance_rebels = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			location = {
+				is_core = ENG
+			}
+			country = {
+				culture = english
+			}
+		}
 	
 	}
  

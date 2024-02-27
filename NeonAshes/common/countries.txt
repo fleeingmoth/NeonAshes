@@ -38,6 +38,7 @@ NYC = "countries/New York.txt"
 SAP = "countries/South Appalachia.txt"
 UGL = "countries/Union of Great Lakes.txt"
 UMW = "countries/Upper Midwest.txt"
+#NYS = "countries/New York State.txt"
 
 # North America - Civil War Factions
 
@@ -185,7 +186,7 @@ GLS = "countries/Glasgow.txt" #3-way division of scotland
 #YOR = "countries/York.txt"
 
 #GIUK Formables
-#ENG = "countries/England.txt"
+EGL = "countries/England.txt"
 NNG = "countries/North England.txt"
 GBR = "countries/United Kingdom.txt"
 IRE = "countries/Ireland.txt"
@@ -333,14 +334,15 @@ KRU = "countries/Doe Liberia.txt"#liberian civil war tag
 IVO = "countries/Ivory Coast.txt" #Third-next, 1995
 UPV = "countries/Upper Volta.txt" #Should have Sankara, "Boxer"-style rebellion in 1980s
 BKF = "countries/Burkina Faso.txt" #the "Boxer"-style rebellion
-BEN = "countries/Benin.txt"
+BEN = "countries/Dahomey.txt"
 GHA = "countries/Ghana.txt"
 TOG = "countries/Togo.txt"
 NGE = "countries/Niger.txt" #4th-next capital, 2000. Liberian, Guinea-Bissau, Sierra Leone revolt 
 SIE = "countries/Sierra Leone.txt"
-#GIB = "countries/Guinea-Bissau.txt"
+GIB = "countries/Guinea-Bissau.txt"
 GUN = "countries/Guinea.txt"
 TUA = "countries/Tuareg Confederation.txt"
+CAS = "countries/Casamance.txt"
 
 #Greater Mauretania, Stomping ground for OAU. sad but true
 #MAU = "countries/Mauretania.txt" 
@@ -354,6 +356,8 @@ OYO = "countries/Oyo.txt"
 BIA = "countries/Biafra.txt"
 HAU = "countries/Hausaland.txt" #puppet under Biafra
 AMB = "countries/Ambazonia.txt"
+BNN = "countries/Benin.txt"
+BEU = "countries/Benue.txt"
 #CMR = "countries/Cameroon.txt" #Ambazonia is under Biafra
 #Tags for OAS military cliques?
 ASN = "countries/Mandatory Nigeria.txt"
@@ -381,6 +385,10 @@ ZAI = "countries/Zaire.txt"
 
 #Eastern Africa
 EAF = "countries/East African Federation.txt"
+TZN = "countries/Tanzania.txt"
+RWA = "countries/Rwanda.txt"
+BRD = "countries/Burundi.txt"
+KEN = "countries/Kenya.txt"
 UGA = "countries/Uganadan.txt"
 SUD = "countries/Sudan.txt"
 SSD = "countries/South Sudan.txt"

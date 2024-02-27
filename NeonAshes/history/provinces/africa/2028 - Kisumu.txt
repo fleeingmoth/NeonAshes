@@ -1,6 +1,7 @@
 owner = EAF
 controller = EAF
 add_core = EAF
+add_core = KEN
 trade_goods = sugar_crops
 life_rating = 35
 state_building = {

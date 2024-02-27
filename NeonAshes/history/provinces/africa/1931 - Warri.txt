@@ -1,6 +1,7 @@
-owner = BIA
-controller = BIA
-add_core = BIA
+owner = BNN
+controller = BNN
+add_core = BNN
+add_core = OYO
 add_core = NIG
 trade_goods = oil
 life_rating = 35

@@ -172,3 +172,102 @@ alliance = {
 	start_date = 1980.1.1
 	end_date = 1999.1.1
 }
+#Cuba helped get angolan independance
+alliance = {
+	first = CUB
+	second = ANG
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+
+#Arab alliance
+alliance = {
+	first = SAU
+	second = OMN
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = SAU
+	second = UAE
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = SAU
+	second = QAT
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = SAU
+	second = BHR
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = SAU
+	second = KUW
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = OMN
+	second = UAE
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = OMN
+	second = QAT
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = OMN
+	second = BHR
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = OMN
+	second = KUW
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = UAE
+	second = QAT
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = UAE
+	second = BHR
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = UAE
+	second = KUW
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = QAT
+	second = BHR
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = QAT
+	second = KUW
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = BHR
+	second = KUW
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}

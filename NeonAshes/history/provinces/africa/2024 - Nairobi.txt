@@ -1,5 +1,6 @@
 owner = EAF
 controller = EAF
 add_core = EAF
+add_core = KEN
 trade_goods = iron
 life_rating = 35

@@ -1,0 +1,41 @@
+capital = 2024 #
+primary_culture = malian
+religion = catholic
+government = auth_democracy
+plurality = 25.0
+nationalvalue = nv_order
+literacy = 0.50
+civilized = yes
+prestige = 0
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = state_controlled
+voting_system = first_past_the_post
+political_parties = secret_ballots
+
+# Social Reforms
+wage_reform = trinket_wage
+work_hours = fourteen_hours
+safety_regulations = trinket_safety
+health_care = low_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+school_reforms = low_schools
+
+ruling_party = CAS_conservative
+last_election = 1980.1.1
+upper_house = {
+	conservative = 100
+}
+
+
+# Technologies
+
+# Starting Consciousness
+consciousness = 3
+

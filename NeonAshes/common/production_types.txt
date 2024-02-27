@@ -782,11 +782,11 @@ brewing_facility = {
 		value = 0.10
 	}
 	bonus = {
-		trigger = { trade_goods_in_state = grains }
+		trigger = { trade_goods_in_state = grain }
 		value = 0.10
 	}
 	bonus = {
-		trigger = { trade_goods_in_state = sugar }
+		trigger = { trade_goods_in_state = sugar_crops }
 		value = 0.10
 	}
 }

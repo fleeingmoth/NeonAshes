@@ -1,5 +1,6 @@
-owner = BRU
-controller = BRU
-add_core = BRU
+owner = MLY
+controller = MLY
+add_core = MLY
+add_core = SRW
 trade_goods = oil
 life_rating = 35

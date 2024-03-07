@@ -204,32 +204,82 @@
 		size = 39840
 	}
 }
-2348 = {#Buenos Aires
+2348 = {#Buenos Aires, 730707
 	farmers = {
 		culture = argentinian
 		religion = catholic
-		size = 730707
+		size = 343872
+	}
+	craftsmen = {
+		culture = argentinian
+		religion = catholic
+		size = 62402
+	}
+	artisans = {
+		culture = argentinian
+		religion = catholic
+		size = 236749
+	}
+	bureaucrats = {
+		culture = argentinian
+		religion = catholic
+		size = 34343
+	}
+	clergymen = {
+		culture = argentinian
+		religion = catholic
+		size = 48957
+	}
+	soldiers = {
+		culture = argentinian
+		religion = catholic
+		size = 4384
 	}
 }
 2351 = {#La Plata
 	farmers = {
 		culture = argentinian
 		religion = catholic
-		size = 986411
+		size = 788735
+	}
+	soldiers = {
+		culture = argentinian
+		religion = catholic
+		size = 5918
+	}
+	artisans = {
+		culture = argentinian
+		religion = catholic
+		size = 191758
 	}
 }
-2352 = {#Mar del Plata
+2352 = {#Mar del Plata, 343142
 	farmers = {
 		culture = argentinian
 		religion = catholic
-		size = 343142
+		size = 277603
+	}
+	artisans = {
+		culture = argentinian
+		religion = catholic
+		size = 62794
+	}
+	soldiers = {
+		culture = argentinian
+		religion = catholic
+		size = 2745
 	}
 }
-2354 = {#Bahia Blanca
+2354 = {#Bahia Blanca, 167841
 	farmers = {
 		culture = argentinian
 		religion = catholic
-		size = 167841
+		size = 154414
+	}
+	farmers = {
+		culture = argentinian
+		religion = catholic
+		size = 13427
 	}
 }
 2355 = {#Carmen
@@ -246,11 +296,21 @@
 		size = 162784
 	}
 }
-2350 = {#Azul
+2350 = {#Azul, 351571
 	farmers = {
 		culture = argentinian
 		religion = catholic
-		size = 351571
+		size = 315466
+	}
+	artisans = {
+		culture = argentinian
+		religion = catholic
+		size = 33891
+	}
+	soldiers = {
+		culture = argentinian
+		religion = catholic
+		size = 2214
 	}
 }
 2349 = {#Junin

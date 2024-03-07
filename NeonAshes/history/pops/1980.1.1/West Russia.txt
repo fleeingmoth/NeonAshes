@@ -625,11 +625,36 @@
 		size = 29295
 	}
 }
-1030 = {#
+1030 = {# 177500
 	farmers = {
 		culture = mari
 		religion = orthodox
-		size = 177500
+		size = 78455
+	}
+	craftsmen = {
+		culture = mari
+		religion = orthodox
+		size = 10472
+	}
+	artisans = {
+		culture = mari
+		religion = orthodox
+		size = 63190
+	}
+	soldiers = {
+		culture = mari
+		religion = orthodox
+		size = 1137
+	}
+	bureaucrats = {
+		culture = mari
+		religion = orthodox
+		size = 13711
+	}
+	clergymen = {
+		culture = mari
+		religion = orthodox
+		size = 10535
 	}
 }
 1031 = {# 377000

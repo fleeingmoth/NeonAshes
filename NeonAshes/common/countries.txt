@@ -167,6 +167,7 @@ PAT = "countries/Patagonia.txt"
 #LPL = "countries/La Plata.txt"
 #GRR = "countries/Guaraninea.txt" #Paraguy, Bolivia, Mata Grosso formable
 #CHL = "countries/Chile.txt"
+ARG = "countries/Argentina.txt"
 
 # Europe - GIUK #Original Victopia setup: GRN, ICE, IRE, ENG, SCO, WAL, NIR. Choose more fragmentation for Scramble for Europe scenario.
 
@@ -302,6 +303,7 @@ CHI = "countries/China.txt"
 
 NKR = "countries/North Korea.txt"
 SKR = "countries/South Korea.txt"
+KOR = "countries/Korea.txt"
 
 JAP = "countries/Japan.txt"
 USJ = "countries/Kyushu Governate.txt"
@@ -410,6 +412,7 @@ WSL = "countries/West Somalia.txt"
 
 #Southern Africa
 ANG = "countries/Angola.txt"
+CAB = "countries/Cabinda.txt"
 NAM = "countries/Nambia.txt"
 ZAM = "countries/Zambia.txt"
 BOT = "countries/Botswana.txt"
@@ -443,19 +446,20 @@ KUW = "countries/Kuwait.txt"
 OMN = "countries/Oman.txt"
 SYM = "countries/South Yemen.txt"
 YEM = "countries/Yemen.txt"
+DHO = "countries/Dhofar.txt"
+ISS = "countries/Islamic State.txt"
 
 #Anatolia-Caucasus
 TUR = "countries/Turkey.txt"
 ARM = "countries/Armenia.txt"
 KRD = "countries/Kurdistan.txt"
 AZB = "countries/Azerbaijan.txt"
+TAL = "countries/Talysh.txt"
 
 GEO = "countries/Georgia.txt"
 ABK = "countries/Abkhazia.txt"
 ADJ = "countries/Adjara.txt"
-SOS = "countries/South Ossetia.txt"
-NOS = "countries/North Ossetia.txt"
-#OSS = "countries/Ossetia.txt"
+OSS = "countries/Ossetia.txt"
 CHC = "countries/Chechnya.txt"
 DAG = "countries/Dagestan.txt"
 
@@ -510,7 +514,9 @@ LAO = "countries/Laos.txt"
 VIT = "countries/Vietnam.txt"
 CMB = "countries/Cambodia.txt"
 MLY = "countries/Malaysia.txt"
+SRW = "countries/Sarawak.txt"
 SGP = "countries/Singapore.txt"
+PTN = "countries/Patani.txt"
 
 #Indonesia
 ACH = "countries/Aceh.txt"#
@@ -581,6 +587,8 @@ TAH = "countries/Tahiti.txt"
 ESI = "countries/Easter Island.txt"
 WAF = "countries/Wallis and Futuna.txt"
 NAU = "countries/Nauru.txt"
+
+QQQ = "countries/DEBUG.txt"
 
 ## HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

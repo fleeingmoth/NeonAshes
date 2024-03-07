@@ -81,19 +81,29 @@
 	farmers = {
 		culture = khuzestani
 		religion = shiite
-		size = 308002
+		size = 303306
 	}
 	craftsmen = {
 		culture = khuzestani
 		religion = shiite
 		size = 7835
 	}
+	soldiers = {
+		culture = khuzestani
+		religion = shiite
+		size = 4696
+	}
 }
 1131 = {#
 	farmers = {
 		culture = khuzestani
 		religion = shiite
-		size = 287121
+		size = 285019
+	}
+	soldiers = {
+		culture = khuzestani
+		religion = shiite
+		size = 2102
 	}
 }
 1133 = {#

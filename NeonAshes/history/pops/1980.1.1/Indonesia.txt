@@ -516,18 +516,48 @@
 		size = 93252
 	}
 }
-1449 = {#
+1449 = {# 178748
 	farmers = {
 		culture = moluccan
 		religion = animist
-		size = 178748
+		size = 103231
+	}
+	craftsmen = {
+		culture = moluccan
+		religion = animist
+		size = 6256
+	}
+	artisans = {
+		culture = moluccan
+		religion = animist
+		size = 67397
+	}
+	soldiers = {
+		culture = moluccan
+		religion = animist
+		size = 1864
 	}
 }
-1450 = {#
+1450 = {# 149878
 	farmers = {
 		culture = moluccan
 		religion = animist
-		size = 149878
+		size = 88632
+	}
+	craftsmen = {
+		culture = moluccan
+		religion = animist
+		size = 5245
+	}
+	artisans = {
+		culture = moluccan
+		religion = animist
+		size = 54897
+	}
+	soldiers = {
+		culture = moluccan
+		religion = animist
+		size = 1104
 	}
 }
 1451 = {#
@@ -605,14 +635,14 @@
 }
 1395 = {#
 	farmers = {
-		culture = brunei
+		culture = malay
 		religion = animist
 		size = 75453
 	}
 }
 1394 = {#
 	farmers = {
-		culture = brunei
+		culture = malay
 		religion = animist
 		size = 77901
 	}

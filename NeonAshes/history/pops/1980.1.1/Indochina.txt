@@ -173,32 +173,107 @@
 		size = 514531
 	}
 }
-1351 = {#
+1351 = {# 568931
 	farmers = {
 		culture = thai
 		religion = animist
-		size = 568931
+		size = 406787
+	}
+	artisans = {
+		culture = thai
+		religion = animist
+		size = 69413
+	}
+	craftsmen = {
+		culture = thai
+		religion = animist
+		size = 7392
+	}
+	soldiers = {
+		culture = thai
+		religion = animist
+		size = 5689
+	}
+	clergymen = {
+		culture = thai
+		religion = animist
+		size = 79650
 	}
 }
-1346 = {#
+1346 = {# 2,446,284
 	farmers = {
 		culture = thai
 		religion = animist
-		size = 2446284
+		size = 1550944
+	}
+	artisans = {
+		culture = thai
+		religion = animist
+		size = 315570
+	}
+	craftsmen = {
+		culture = thai
+		religion = animist
+		size = 9305
+	}
+	soldiers = {
+		culture = thai
+		religion = animist
+		size = 24462
+	}
+	clergymen = {
+		culture = thai
+		religion = animist
+		size = 318016
+	}
+	bureaucrats = {
+		culture = thai
+		religion = animist
+		size = 227987
 	}
 }
-1347 = {#
+1347 = {#735614
 	farmers = {
 		culture = thai
 		religion = animist
-		size = 735614
+		size = 628951
+	}
+	soldiers = {
+		culture = thai
+		religion = animist
+		size = 7356
+	}
+	artisans = {
+		culture = thai
+		religion = animist
+		size = 99307
 	}
 }
-1353 = {#
+1353 = {#907030
 	farmers = {
 		culture = thai
 		religion = animist
-		size = 907030
+		size = 653061
+	}
+	artisans = {
+		culture = thai
+		religion = animist
+		size = 171374
+	}
+	craftsmen = {
+		culture = thai
+		religion = animist
+		size = 1075
+	}
+	clergymen = {
+		culture = thai
+		religion = animist
+		size = 72450
+	}
+	soldiers = {
+		culture = thai
+		religion = animist
+		size = 9070
 	}
 }
 1354 = {#
@@ -215,11 +290,21 @@
 		size = 703438
 	}
 }
-1392 = {#
+1392 = {# 694,543
 	farmers = {
-		culture = thai
+		culture = malay
 		religion = animist
-		size = 694543
+		size = 475705
+	}
+	soldiers = {
+		culture = malay
+		religion = animist
+		size = 93821
+	}
+	artisans = {
+		culture = malay
+		religion = animist
+		size = 125017
 	}
 }
 

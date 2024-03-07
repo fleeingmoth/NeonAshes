@@ -1,5 +1,7 @@
 color = { 133 181 134 }
+ultranat_dictatorship = { 15 75 50 }
 graphical_culture = BritishGC
+
 
 party = {
 	name = "ZRH_social_democrat"

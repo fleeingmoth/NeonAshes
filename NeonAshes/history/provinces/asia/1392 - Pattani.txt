@@ -1,5 +1,6 @@
 owner = THI
 controller = THI
 add_core = THI
+add_core = PTN
 trade_goods = oil
 life_rating = 35

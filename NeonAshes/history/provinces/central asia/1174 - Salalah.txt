@@ -1,5 +1,6 @@
-owner = OMN
-controller = OMN
+owner = DHO
+controller = DHO
+add_core = DHO
 add_core = OMN
 trade_goods = oil
 life_rating = 35

@@ -1117,7 +1117,7 @@ cattle_ranch = {
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
-	value = 4.8 #temp 2x from base for output reasons
+	value = 24 #temp 10x from base for output reasons
 	mine = yes
 }
 

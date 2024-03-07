@@ -1,5 +1,6 @@
-owner = COG
-controller = COG
-add_core = COG
+owner = CAB
+controller = CAB
+add_core = CAB
+add_core = ANG
 trade_goods = oil
 life_rating = 35

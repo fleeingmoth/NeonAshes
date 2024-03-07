@@ -450,18 +450,78 @@
 	}
 }
 #N. & S. Ossetia
-1054 = {#
+1054 = {#149500
 	farmers = {
 		culture = ossetian
 		religion = catholic
-		size =149500
+		size = 76396
+	}
+	craftsmen = {
+		culture = ossetian
+		religion = catholic
+		size = 17790
+	}
+	artisans = {
+		culture = ossetian
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = ossetian
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = ossetian
+		religion = catholic
+		size = 5116
+	}
+	clergymen = {
+		culture = ossetian
+		religion = catholic
+		size = 14800
+	}
+	bureaucrats = {
+		culture = ossetian
+		religion = catholic
+		size = 12857
+	}
+	soldiers = {
+		culture = ossetian
+		religion = catholic
+		size = 2541
 	}
 }
-3293 = {#
+3293 = {#20316
 	farmers = {
 		culture = ossetian
 		religion = catholic
-		size = 20316
+		size = 14383
+	}
+	craftsmen = {
+		culture = ossetian
+		religion = catholic
+		size = 1417
+	}
+	artisans = {
+		culture = ossetian
+		religion = catholic
+		size = 2413
+	}
+	clergymen = {
+		culture = ossetian
+		religion = catholic
+		size = 1011
+	}
+	bureaucrats = {
+		culture = ossetian
+		religion = catholic
+		size = 747
+	}
+	soldiers = {
+		culture = ossetian
+		religion = catholic
+		size = 345
 	}
 }
 #Chechnya
@@ -474,7 +534,32 @@
 	artisans = {
 		culture = chechnyan
 		religion = catholic
-		size = 59496
+		size = 10000
+	}
+	artisans = {
+		culture = chechnyan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chechnyan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chechnyan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chechnyan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = chechnyan
+		religion = catholic
+		size = 9496
 	}
 	craftsmen = {
 		culture = chechnyan

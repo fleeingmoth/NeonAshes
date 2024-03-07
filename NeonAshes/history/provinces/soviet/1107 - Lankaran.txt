@@ -1,5 +1,6 @@
-owner = AZB
-controller = AZB
+owner = TAL
+controller = TAL
+add_core = TAL
 add_core = AZB
 trade_goods = iron
 life_rating = 35

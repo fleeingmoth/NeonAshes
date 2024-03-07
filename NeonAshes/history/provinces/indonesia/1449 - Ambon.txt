@@ -2,5 +2,10 @@ owner = AMN
 controller = AMN
 add_core = AMN
 add_core = INO
-trade_goods = grain
+trade_goods = tea_n_coffee
 life_rating = 35
+state_building = {
+	level = 1
+	building = chemical_plant
+	upgrade = yes
+}

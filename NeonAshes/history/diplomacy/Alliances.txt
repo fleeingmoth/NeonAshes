@@ -271,3 +271,43 @@ alliance = {
 	start_date = 1980.1.1
 	end_date = 2020.1.1
 }
+#indochinese communists are allied as is historical
+alliance = {
+	first = VIT
+	second = LAO
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = VIT
+	second = CMB
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+alliance = {
+	first = LAO
+	second = CMB
+	start_date = 1980.1.1
+	end_date = 2020.1.1
+}
+
+# American Asian command
+
+alliance = {
+	first = SKR
+	second = USJ
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = SKR
+	second = TTP
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}
+alliance = {
+	first = USJ
+	second = TTP
+	start_date = 1980.1.1
+	end_date = 1999.1.1
+}

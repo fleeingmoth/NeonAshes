@@ -1,4 +1,4 @@
-capital = 1661 #
+capital = 1662 #
 primary_culture = yankee
 culture = japanese
 government = auth_democracy

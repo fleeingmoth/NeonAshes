@@ -32,3 +32,56 @@ country_event = { # Collapse of UAR
 		}
 	}
 }
+country_event = { # Isis rebels aganist syria
+	id = 30102
+	title = "EVT_30102_NAME"
+	desc = "EVT_30102_DESC"
+	picture = "events_default"
+	trigger={
+		tag = UAR
+		owns = 901
+		owns = 907
+		owns = 904
+		owns = 923
+		owns = 927
+		year = 2001
+	}
+	fire_only_once = yes
+	option = {
+		name = "EVT_30102_OPTA" # fight them
+		901={
+			add_core = ISS
+		}
+		907={
+			add_core = ISS
+		}
+		904={
+			add_core = ISS
+		}
+		923={
+			add_core = ISS
+		}
+		927={
+			add_core = ISS
+		}
+		any_owned = {
+			limit = {
+				is_core = ISS
+			}
+			secede_province = ISS
+		}
+		war = {
+			target = ISS
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

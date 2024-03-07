@@ -529,11 +529,36 @@
 		size = 787112
 	}
 }
-1858 = {#
+1858 = {#654857
 	farmers = {
 		culture = afar
 		religion = catholic
-		size = 654857
+		size = 428934
+	}
+	artisans = {
+		culture = afar
+		religion = catholic
+		size = 140139
+	}
+	clergymen = {
+		culture = afar
+		religion = catholic
+		size = 22919
+	}
+	soldiers = {
+		culture = afar
+		religion = catholic
+		size = 2619
+	}
+	bureaucrats = {
+		culture = afar
+		religion = catholic
+		size = 20955
+	}
+	craftsmen = {
+		culture = afar
+		religion = catholic
+		size = 39291
 	}
 }
 1857 = {#

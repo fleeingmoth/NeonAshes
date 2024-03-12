@@ -371,11 +371,26 @@
 		size = 88817
 	}
 }
-2494 = {#
+2494 = {#97861
 	farmers = {
 		culture = australian
 		religion = protestant
-		size = 97861
+		size = 66057
+	}
+	soldiers = {
+		culture = australian
+		religion = protestant
+		size = 3425
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 22508
+	}
+	craftsmen = {
+		culture = australian
+		religion = protestant
+		size = 5871
 	}
 }
 2495 = {#
@@ -627,11 +642,36 @@
 		size = 58417
 	}
 }
-2523 = {#
+2523 = {# 2082
 	farmers = {
 		culture = melanesian
 		religion = animist
-		size = 2082
+		size = 909
+	}
+	craftsmen = {
+		culture = melanesian
+		religion = animist
+		size = 166
+	}
+	artisans = {
+		culture = melanesian
+		religion = animist
+		size = 816
+	}
+	clergymen = {
+		culture = melanesian
+		religion = animist
+		size = 42
+	}
+	bureaucrats = {
+		culture = melanesian
+		religion = animist
+		size = 145
+	}
+	capitalists = {
+		culture = melanesian
+		religion = animist
+		size = 4
 	}
 }
 

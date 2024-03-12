@@ -49,3 +49,16 @@ oob = "OAS_oob.txt"
 	decision = OAS_unity
 	decision = OAS_unity
 }
+
+foreign_investment = {
+	GHA = 15000
+	GUN = 12000
+	SNG = 21000
+	SIE = 7000
+	LIB = 5000
+	IVO = 5000
+	UPV = 5000
+	BEN = 5000
+	TOG = 5000
+	NGE = 5000
+}

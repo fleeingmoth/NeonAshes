@@ -274,13 +274,13 @@ political_decisions = {
 			GHA={
 				OR={
 					NOT={vassal_of = OAS}
-					industrial_score = 5
+					industrial_score = 10
 				}
 			}
 			GUN={
 				OR={
 					NOT={vassal_of = OAS}
-					industrial_score = 5
+					industrial_score = 10
 				}
 			}
 			SIE={

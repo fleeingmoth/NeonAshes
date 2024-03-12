@@ -3,3 +3,8 @@ controller = SIE
 add_core = SIE
 trade_goods = other_metals #titanium
 life_rating = 35
+state_building = {
+	level = 1
+	building = furniture_manufacturer
+	upgrade = yes
+}

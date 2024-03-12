@@ -1,5 +1,6 @@
 owner = PCZ
 controller = PCZ
 add_core = PCZ
+add_core = PNM
 trade_goods = credit_money
 life_rating = 35

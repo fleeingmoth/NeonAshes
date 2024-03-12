@@ -10,6 +10,8 @@ political_decisions = {
 				tag = OYO
 				tag = BIA
 				tag = HAU
+				tag = BEU
+				tag = BNN
 			}
 			NOT = { exists = NIG } #
 		}
@@ -45,6 +47,16 @@ political_decisions = {
 			HAU={
 				all_core={		
 					remove_core = HAU
+				}
+			}
+			BEU={
+				all_core={		
+					remove_core = BEU
+				}
+			}
+			BNN={
+				all_core={		
+					remove_core = BNN
 				}
 			}
 			ASN={

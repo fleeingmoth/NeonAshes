@@ -2624,6 +2624,7 @@ anglo_australasian_cultures = {
 		last_names = { Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
 		}	
 	}
+	union = AUS
 }
 
 latin_american_cultures = {

@@ -1218,8 +1218,8 @@ independance_rebels = {
 			factor = 0
 			country = {
 				OR={
-					tag = NTX
-					tag = STX
+					tag = NCA
+					tag = SCA
 				}
 			}
 			location = {

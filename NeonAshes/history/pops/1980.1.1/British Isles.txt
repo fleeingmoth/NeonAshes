@@ -517,3 +517,10 @@
 		size = 319657
 	}
 }
+419 = {#Channel isles
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 6145
+	}
+}

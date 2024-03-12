@@ -3,3 +3,8 @@ controller = IVO
 add_core = IVO
 trade_goods = tea_n_coffee
 life_rating = 35
+state_building = {
+	level = 1
+	building = oil_refinery
+	upgrade = yes
+}

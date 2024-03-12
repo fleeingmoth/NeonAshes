@@ -487,46 +487,226 @@
 		size = 954012
 	}
 }
-1862 = {#
+1862 = {#753678
 	farmers = {
 		culture = ethiopian
 		religion = catholic
-		size = 753678
+		size = 621032
+	}
+	clerks = {
+		culture = ethiopian
+		religion = catholic
+		size = 4522
+	}
+	craftsmen = {
+		culture = ethiopian
+		religion = catholic
+		size = 19595
+	}
+	artisans = {
+		culture = ethiopian
+		religion = catholic
+		size = 91195
+	}
+	clergymen = {
+		culture = ethiopian
+		religion = catholic
+		size = 9044
+	}
+	soldiers = {
+		culture = ethiopian
+		religion = catholic
+		size = 6029
+	}
+	aristocrats = {
+		culture = ethiopian
+		religion = catholic
+		size = 2261
 	}
 }
-1863 = {#
+1863 = {#475845
 	farmers = {
 		culture = ethiopian
 		religion = catholic
-		size = 475845
+		size = 416841
+	}
+	clerks = {
+		culture = ethiopian
+		religion = catholic
+		size = 2855
+	}
+	craftsmen = {
+		culture = ethiopian
+		religion = catholic
+		size = 12371
+	}
+	artisans = {
+		culture = ethiopian
+		religion = catholic
+		size = 57577
+	}
+	clergymen = {
+		culture = ethiopian
+		religion = catholic
+		size = 5710
+	}
+	soldiers = {
+		culture = ethiopian
+		religion = catholic
+		size = 3806
+	}
+	aristocrats = {
+		culture = ethiopian
+		religion = catholic
+		size = 1427
 	}
 }
-1860 = {#
+1860 = {#554364
 	farmers = {
 		culture = ethiopian
 		religion = catholic
-		size = 554364
+		size = 456789
+	}
+	clerks = {
+		culture = ethiopian
+		religion = catholic
+		size = 3326
+	}
+	craftsmen = {
+		culture = ethiopian
+		religion = catholic
+		size = 14413
+	}
+	artisans = {
+		culture = ethiopian
+		religion = catholic
+		size = 67087
+	}
+	clergymen = {
+		culture = ethiopian
+		religion = catholic
+		size = 6652
+	}
+	soldiers = {
+		culture = ethiopian
+		religion = catholic
+		size = 4434
+	}
+	aristocrats = {
+		culture = ethiopian
+		religion = catholic
+		size = 1663
 	}
 }
-1859 = {#
+1859 = {#1074583
 	farmers = {
 		culture = ethiopian
 		religion = catholic
-		size = 1074583
+		size = 924289
+	}
+	clerks = {
+		culture = ethiopian
+		religion = catholic
+		size = 6447
+	}
+	craftsmen = {
+		culture = ethiopian
+		religion = catholic
+		size = 27939
+	}
+	artisans = {
+		culture = ethiopian
+		religion = catholic
+		size = 91195
+	}
+	clergymen = {
+		culture = ethiopian
+		religion = catholic
+		size = 12894
+	}
+	soldiers = {
+		culture = ethiopian
+		religion = catholic
+		size = 8596
+	}
+	aristocrats = {
+		culture = ethiopian
+		religion = catholic
+		size = 3223
 	}
 }
-1855 = {#
+1855 = {#410786
 	farmers = {
 		culture = ethiopian
 		religion = catholic
-		size = 410786
+		size = 336435
+	}
+	clerks = {
+		culture = ethiopian
+		religion = catholic
+		size = 2464
+	}
+	craftsmen = {
+		culture = ethiopian
+		religion = catholic
+		size = 12734
+	}
+	artisans = {
+		culture = ethiopian
+		religion = catholic
+		size = 49705
+	}
+	clergymen = {
+		culture = ethiopian
+		religion = catholic
+		size = 4930
+	}
+	soldiers = {
+		culture = ethiopian
+		religion = catholic
+		size = 3286
+	}
+	aristocrats = {
+		culture = ethiopian
+		religion = catholic
+		size = 1232
 	}
 }
-1853 = {#
+1853 = {#787112
 	farmers = {
 		culture = ethiopian
 		religion = catholic
 		size = 787112
+	}
+	clerks = {
+		culture = ethiopian
+		religion = catholic
+		size = 4722
+	}
+	craftsmen = {
+		culture = ethiopian
+		religion = catholic
+		size = 32271
+	}
+	artisans = {
+		culture = ethiopian
+		religion = catholic
+		size = 95240
+	}
+	clergymen = {
+		culture = ethiopian
+		religion = catholic
+		size = 9445
+	}
+	soldiers = {
+		culture = ethiopian
+		religion = catholic
+		size = 6296
+	}
+	aristocrats = {
+		culture = ethiopian
+		religion = catholic
+		size = 2361
 	}
 }
 1858 = {#654857
@@ -561,32 +741,157 @@
 		size = 39291
 	}
 }
-1857 = {#
+1857 = {#578541
 	farmers = {
 		culture = ethiopian
 		religion = catholic
-		size = 578541
+		size = 467133
+	}
+	clerks = {
+		culture = ethiopian
+		religion = catholic
+		size = 3471
+	}
+	craftsmen = {
+		culture = ethiopian
+		religion = catholic
+		size = 24877
+	}
+	artisans = {
+		culture = ethiopian
+		religion = catholic
+		size = 69755
+	}
+	clergymen = {
+		culture = ethiopian
+		religion = catholic
+		size = 6942
+	}
+	soldiers = {
+		culture = ethiopian
+		religion = catholic
+		size = 4628
+	}
+	aristocrats = {
+		culture = ethiopian
+		religion = catholic
+		size = 1735
 	}
 }
-1856 = {#
+1856 = {#878541
 	farmers = {
 		culture = ethiopian
 		religion = catholic
-		size = 878541
+		size = 714256
+	}
+	clerks = {
+		culture = ethiopian
+		religion = catholic
+		size = 5271
+	}
+	craftsmen = {
+		culture = ethiopian
+		religion = catholic
+		size = 32506
+	}
+	artisans = {
+		culture = ethiopian
+		religion = catholic
+		size = 106303
+	}
+	clergymen = {
+		culture = ethiopian
+		religion = catholic
+		size = 10542
+	}
+	soldiers = {
+		culture = ethiopian
+		religion = catholic
+		size = 7028
+	}
+	aristocrats = {
+		culture = ethiopian
+		religion = catholic
+		size = 2635
 	}
 }
-1852 = {#
+1852 = {#674891
 	farmers = {
 		culture = ethiopian
 		religion = catholic
-		size = 674891
+		size = 538566
+	}
+	clerks = {
+		culture = ethiopian
+		religion = catholic
+		size = 4049
+	}
+	craftsmen = {
+		culture = ethiopian
+		religion = catholic
+		size = 36444
+	}
+	artisans = {
+		culture = ethiopian
+		religion = catholic
+		size = 81661
+	}
+	clergymen = {
+		culture = ethiopian
+		religion = catholic
+		size = 8098
+	}
+	soldiers = {
+		culture = ethiopian
+		religion = catholic
+		size = 5399
+	}
+	bureaucrats={
+		culture = ethiopian
+		religion = catholic
+		size = 6748
+	}
+	aristocrats = {
+		culture = ethiopian
+		religion = catholic
+		size = 2024
 	}
 }
-1854 = {#
+1854 = {#698121
 	farmers = {
 		culture = ethiopian
 		religion = catholic
-		size = 698121
+		size = 575255
+	}
+	clerks = {
+		culture = ethiopian
+		religion = catholic
+		size = 4188
+	}
+	craftsmen = {
+		culture = ethiopian
+		religion = catholic
+		size = 18151
+	}
+	artisans = {
+		culture = ethiopian
+		religion = catholic
+		size = 84472
+	}
+	clergymen = {
+		culture = ethiopian
+		religion = catholic
+		size = 8377
+	}
+	soldiers = {
+		culture = ethiopian
+		religion = catholic
+		size = 5584
+	}
+	aristocrats = {
+		culture = ethiopian
+		religion = catholic
+		size = 2094
 	}
 }
 ##somalia (1,689,677 pops)

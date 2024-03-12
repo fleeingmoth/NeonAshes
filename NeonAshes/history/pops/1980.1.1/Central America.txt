@@ -886,3 +886,32 @@
 		size = 1740
 	}
 }
+
+2208 = {#
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 16159
+	}
+}
+2204 = {#
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 214325
+	}
+}
+2206 = {#
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 114404
+	}
+}
+2205 = {#
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 138446
+	}
+}

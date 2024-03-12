@@ -1,2 +1,6 @@
+owner = GUE
+controller = GUE
+add_core = GUE
+add_core = EGL
 trade_goods = timber
 life_rating = 35

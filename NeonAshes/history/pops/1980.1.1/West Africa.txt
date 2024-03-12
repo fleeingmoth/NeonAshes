@@ -490,18 +490,38 @@
 	}
 }
 #ivory coast (approx 2012880 pops)
-1893 = {#
+1893 = {#446412
 	farmers = {
 		culture = ivorian
 		religion = catholic
-		size = 446412
+		size = 384262
+	}
+	craftsmen = {
+		culture = ivorian
+		religion = catholic
+		size = 9724
+	}
+	artisans = {
+		culture = ivorian
+		religion = catholic
+		size = 48309
+	}
+	soldiers = {
+		culture = ivorian
+		religion = catholic
+		size = 4117
 	}
 }
 1896 = {#
 	farmers = {
 		culture = ivorian
 		religion = catholic
-		size = 645312
+		size = 587234
+	}
+	artisans = {
+		culture = ivorian
+		religion = catholic
+		size = 58078
 	}
 }
 1900 = {#
@@ -511,11 +531,21 @@
 		size = 124831
 	}
 }
-1898 = {#
+1898 = {#245124
 	farmers = {
 		culture = ivorian
 		religion = catholic
-		size = 245124
+		size = 238163
+	}
+	artisans = {
+		culture = ivorian
+		religion = catholic
+		size = 4657
+	}
+	soldiers = {
+		culture = ivorian
+		religion = catholic
+		size = 2304
 	}
 }
 1899 = {#
@@ -525,11 +555,16 @@
 		size = 64512
 	}
 }
-1892 = {#
+1892 = {#124348
 	farmers = {
 		culture = ivorian
 		religion = catholic
-		size = 124834
+		size = 109743
+	}
+	artisans = {
+		culture = ivorian
+		religion = catholic
+		size = 14605
 	}
 }
 1895 = {#
@@ -539,11 +574,21 @@
 		size = 97851
 	}
 }
-1894 = {#
+1894 = {#115438
 	farmers = {
 		culture = ivorian
 		religion = catholic
-		size = 115438
+		size = 103665
+	}
+	artisans = {
+		culture = ivorian
+		religion = catholic
+		size = 10735
+	}
+	soldiers = {
+		culture = ivorian
+		religion = catholic
+		size = 1038
 	}
 }
 1897 = {#
@@ -554,32 +599,107 @@
 	}
 }
 #ghana (2,967,500 pops)
-1909 = {#
+1909 = {#254311
 	farmers = {
 		culture = ghanan
 		religion = catholic
-		size = 254311
+		size = 201666
+	}
+	artisans = {
+		culture = ghanan
+		religion = catholic
+		size = 43236
+	}
+	clergymen = {
+		culture = ghanan
+		religion = catholic
+		size = 7375
+	}
+	soldiers = {
+		culture = ghanan
+		religion = catholic
+		size = 2034
 	}
 }
-1908 = {#
+1908 = {#315834
 	farmers = {
 		culture = ghanan
 		religion = catholic
-		size = 315834
+		size = 252353
+	}
+	artisans = {
+		culture = ghanan
+		religion = catholic
+		size = 51796
+	}
+	clergymen = {
+		culture = ghanan
+		religion = catholic
+		size = 9159
+	}
+	soldiers = {
+		culture = ghanan
+		religion = catholic
+		size = 2526
 	}
 }
-1907 = {#
+1907 = {#274814
 	farmers = {
 		culture = ghanan
 		religion = catholic
-		size = 274814
+		size = 222169
+	}
+	artisans = {
+		culture = ghanan
+		religion = catholic
+		size = 43236
+	}
+	clergymen = {
+		culture = ghanan
+		religion = catholic
+		size = 7375
+	}
+	soldiers = {
+		culture = ghanan
+		religion = catholic
+		size = 2034
 	}
 }
-1910 = {#
+1910 = {#Kumasi; 786,411
 	farmers = {
 		culture = ghanan
 		religion = catholic
-		size = 786411
+		size = 524540
+	}
+	craftsmen = {
+		culture = ghanan
+		religion = catholic
+		size = 85718
+	}
+	artisans = {
+		culture = ghanan
+		religion = catholic
+		size = 133689
+	}
+	bureaucrats = {
+		culture = ghanan
+		religion = catholic
+		size = 11009
+	}
+	clergymen = {
+		culture = ghanan
+		religion = catholic
+		size = 22805
+	}
+	soldiers = {
+		culture = ghanan
+		religion = catholic
+		size = 6291
+	}
+	capitalists = {
+		culture = ghanan
+		religion = catholic
+		size = 2359
 	}
 }
 1911 = {#
@@ -799,54 +919,214 @@
 	}
 }
 #togo
-1914 = {#
+1914 = {#260060
 	farmers = {
 		culture = togoan
 		religion = catholic
-		size = 260060
+		size = 162541
+	}
+	craftsmen = {
+		culture = togoan
+		religion = catholic
+		size = 10922
+	}
+	clergymen = {
+		culture = togoan
+		religion = catholic
+		size = 8321
+	}
+	bureaucrats = {
+		culture = togoan
+		religion = catholic
+		size = 12222
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 2414
+	}
+	soldiers = {
+		culture = togoan
+		religion = catholic
+		size = 3640
 	}
 }
-1917 = {#
+1917 = {#230882
 	farmers = {
 		culture = togoan
 		religion = catholic
-		size = 230882
+		size = 162843
+	}
+	craftsmen = {
+		culture = togoan
+		religion = catholic
+		size = 4848
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 3867
+	}
+	clergymen = {
+		culture = togoan
+		religion = catholic
+		size = 7157
+	}
+	bureaucrats = {
+		culture = togoan
+		religion = catholic
+		size = 9004
+	}
+	soldiers = {
+		culture = togoan
+		religion = catholic
+		size = 3163
 	}
 }
-1918 = {#
+1918 = {#188948
 	farmers = {
 		culture = togoan
 		religion = catholic
-		size = 188948
+		size = 164575
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 10000
+	}
+	artisans = {
+		culture = togoan
+		religion = catholic
+		size = 2673
+	}
+	soldiers = {
+		culture = togoan
+		religion = catholic
+		size = 1700
 	}
 }
 #benin
-1919 = {#
+1919 = {#299155
 	farmers = {
 		culture = benin
 		religion = catholic
 		size = 299155
 	}
-}
-1920 = {#
-	farmers = {
+	craftsmen = {
 		culture = benin
 		religion = catholic
-		size = 210992
+		size = 22735
+	}
+	artisans = {
+		culture = benin
+		religion = catholic
+		size = 86754
+	}
+	clergymen = {
+		culture = benin
+		religion = catholic
+		size = 3889
+	}
+	bureaucrats = {
+		culture = benin
+		religion = catholic
+		size = 8376
+	}
+	soldiers = {
+		culture = benin
+		religion = catholic
+		size = 2482
 	}
 }
-1921 = {#
+1920 = {#210992
 	farmers = {
 		culture = benin
 		religion = catholic
-		size = 119901
+		size = 166684
+	}
+	artisans = {
+		culture = benin
+		religion = catholic
+		size = 44308
 	}
 }
-1922 = {#
+1921 = {#119901
 	farmers = {
 		culture = benin
 		religion = catholic
-		size = 122669
+		size = 94722
+	}
+	farmers = {
+		culture = benin
+		religion = catholic
+		size = 25179
+	}
+}
+1922 = {#122669
+	farmers = {
+		culture = benin
+		religion = catholic
+		size = 98626
+	}
+	farmers = {
+		culture = benin
+		religion = catholic
+		size = 24043
 	}
 }
 #sierra Leone
@@ -854,7 +1134,17 @@
 	farmers = {
 		culture = sierra_leonean
 		religion = catholic
-		size = 163508
+		size = 151788
+	}
+	artisans = {
+		culture = sierra_leonean
+		religion = catholic
+		size = 10911
+	}
+	craftsmen = {
+		culture = sierra_leonean
+		religion = catholic
+		size = 817
 	}
 	soldiers = {
 		culture = sierra_leonean
@@ -1003,11 +1293,36 @@
 		size = 826479
 	}
 }
-1928 = {#
+1928 = {#Benin, 456,121
 	farmers = {
 		culture = nigerian
 		religion = catholic
-		size = 456121
+		size = 301359
+	}
+	craftsmen = {
+		culture = nigerian
+		religion = catholic
+		size = 30103
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 99255
+	}
+	clergymen = {
+		culture = nigerian
+		religion = catholic
+		size = 16876
+	}
+	bureaucrats = {
+		culture = nigerian
+		religion = catholic
+		size = 3192
+	}
+	soldiers = {
+		culture = nigerian
+		religion = catholic
+		size = 5336
 	}
 }
 1929 = {#
@@ -1024,39 +1339,154 @@
 		size = 451028
 	}
 }
-1931 = {#
+1931 = {#Warri, 779,558
 	farmers = {
 		culture = nigerian
 		religion = catholic
-		size = 779558
+		size = 632866
+	}
+	craftsmen = {
+		culture = nigerian
+		religion = catholic
+		size = 22607
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 80588
+	}
+	clergymen = {
+		culture = nigerian
+		religion = catholic
+		size = 26504
+	}
+	bureaucrats = {
+		culture = nigerian
+		religion = catholic
+		size = 7873
+	}
+	soldiers = {
+		culture = nigerian
+		religion = catholic
+		size = 9120
 	}
 }
-1932 = {#
+1932 = {#Bonny, 669,447
 	farmers = {
 		culture = nigerian
 		religion = catholic
-		size = 669447
+		size = 488776
+	}
+	craftsmen = {
+		culture = nigerian
+		religion = catholic
+		size = 28786
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 82633
+	}
+	clergymen = {
+		culture = nigerian
+		religion = catholic
+		size = 36150
+	}
+	bureaucrats = {
+		culture = nigerian
+		religion = catholic
+		size = 23430
+	}
+	soldiers = {
+		culture = nigerian
+		religion = catholic
+		size = 9372
 	}
 }
-1933 = {#
+1933 = {#Awka; 1,109,243
 	farmers = {
 		culture = nigerian
 		religion = catholic
-		size = 1109243
+		size = 1309243
+	}
+	craftsmen = {
+		culture = nigerian
+		religion = catholic
+		size = 96504
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 221512
+	}
+	clergymen = {
+		culture = nigerian
+		religion = catholic
+		size = 31058
+	}
+	bureaucrats = {
+		culture = nigerian
+		religion = catholic
+		size = 16638
+	}
+	soldiers = {
+		culture = nigerian
+		religion = catholic
+		size = 12090
 	}
 }
-1934 = {#
+1934 = {#Calabar 1,398,473
 	farmers = {
 		culture = nigerian
 		religion = catholic
-		size = 1398473
+		size = 995593
+	}
+	craftsmen = {
+		culture = nigerian
+		religion = catholic
+		size = 68525
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 234925
+	}
+	clergymen = {
+		culture = nigerian
+		religion = catholic
+		size = 82509
+	}
+	soldiers = {
+		culture = nigerian
+		religion = catholic
+		size = 16921
 	}
 }
-1935 = {#
+1935 = {#Aruchukwu; 662,419
 	farmers = {
 		culture = nigerian
 		religion = catholic
-		size = 662419
+		size = 540191
+	}
+	craftsmen = {
+		culture = nigerian
+		religion = catholic
+		size = 22522
+	}
+	artisans = {
+		culture = nigerian
+		religion = catholic
+		size = 86458
+	}
+	clergymen = {
+		culture = nigerian
+		religion = catholic
+		size = 5299
+	}
+	soldiers = {
+		culture = nigerian
+		religion = catholic
+		size = 7949
 	}
 }
 1936 = {#

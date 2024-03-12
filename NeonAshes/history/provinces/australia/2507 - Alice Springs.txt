@@ -1,6 +1,5 @@
 owner = QUE
 controller = QUE
-add_core = QUE
 add_core = AUS
 trade_goods = cattle
 life_rating = 35

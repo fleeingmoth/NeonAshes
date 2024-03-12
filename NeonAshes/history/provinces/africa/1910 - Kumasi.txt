@@ -3,3 +3,13 @@ controller = GHA
 add_core = GHA
 trade_goods = rare_earths
 life_rating = 35
+state_building = {
+	level = 2
+	building = oil_refinery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = furniture_manufacturer
+	upgrade = yes
+}

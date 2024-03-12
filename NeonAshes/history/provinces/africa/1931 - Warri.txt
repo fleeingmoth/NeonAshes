@@ -1,7 +1,16 @@
 owner = BNN
 controller = BNN
 add_core = BNN
-add_core = OYO
 add_core = NIG
 trade_goods = oil
 life_rating = 35
+state_building = {
+	level = 1
+	building = oil_refinery
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = chemical_plant
+	upgrade = yes
+}

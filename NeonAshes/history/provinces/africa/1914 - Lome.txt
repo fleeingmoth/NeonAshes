@@ -3,3 +3,8 @@ controller = TOG
 add_core = TOG
 trade_goods = fibre_crops
 life_rating = 35
+state_building = {
+	level = 2
+	building = textile_mill
+	upgrade = yes
+}

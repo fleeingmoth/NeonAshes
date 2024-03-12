@@ -83,7 +83,7 @@ ELS = "countries/El Salvador.txt"
 HON = "countries/Honduras.txt"
 NIC = "countries/Nicaragua.txt"
 COS = "countries/Costa Rica.txt"
-#PNM = "countries/Panama.txt"
+PNM = "countries/Panama.txt"
 PCZ = "countries/Panama Canal Zone.txt"
 
 # Latin and South America - Caribbean
@@ -185,6 +185,7 @@ GLS = "countries/Glasgow.txt" #3-way division of scotland
 #LVP = "countries/Liverpool.txt"
 #MDL = "countries/Midlands.txt"
 #YOR = "countries/York.txt"
+GUE = "countries/Guernsey.txt"
 
 #GIUK Formables
 EGL = "countries/England.txt"
@@ -357,14 +358,13 @@ NIG = "countries/Nigeria.txt" #at start, Oyo + some of west Sokotoland, next to 
 OYO = "countries/Oyo.txt"
 BIA = "countries/Biafra.txt"
 HAU = "countries/Hausaland.txt" #puppet under Biafra
-AMB = "countries/Ambazonia.txt"
 BNN = "countries/Benin.txt"
 BEU = "countries/Benue.txt"
-#CMR = "countries/Cameroon.txt" #Ambazonia is under Biafra
 #Tags for OAS military cliques?
 ASN = "countries/Mandatory Nigeria.txt"
 
 CAM = "countries/Cameroon.txt"
+AMB = "countries/Ambazonia.txt"
 CHD = "countries/Chad.txt"
 GAB = "countries/Gabon.txt"
 COG = "countries/Congo.txt"

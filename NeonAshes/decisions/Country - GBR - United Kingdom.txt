@@ -56,7 +56,7 @@ political_decisions = {
 		potential = {
 			primary_culture = scotish
 			#institutionalism = 1					# We have Institutionalism
-			NOT = { exists = SCO }					# UK already unified
+			NOT = { exists = SCO }					# Scotland already unified
 			NOT = {tag = GBR} #GB should not devolve
 		}
 		allow = {
@@ -82,6 +82,71 @@ political_decisions = {
 			prestige = 5			# Rising up in the world
 			change_tag = SCO		# We become Scotland
 			SCO={
+				all_core={
+					limit={
+						OR={
+							owned_by = THIS
+							owner={
+								OR={
+									in_sphere = THIS
+									vassal_of = THIS
+								}
+							}
+						}
+					}
+					remove_core = EDB
+					remove_core = GLS
+					remove_core = GBN
+				}
+				all_core={
+					limit={
+						owner={
+							OR={
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+					owner = {country_event = { id=31026 days=0 } }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	EGL_unification = { #
+		news = yes
+		news_desc_long = "EGL_unification_NEWS_LONG"
+		news_desc_medium = "EGL_unification_NEWS_MEDIUM"
+		news_desc_short = "EGL_unification_NEWS_SHORT"
+		picture = flags_scotland_smallpic
+		potential = {
+			primary_culture = english
+			#institutionalism = 1					# We have Institutionalism
+			NOT = { exists = EGL }					# England already unified
+			NOT = {tag = GBR} #GB should not devolve
+		}
+		allow = {
+			institutionalism = 1				# We have Institutionalism
+			war = no
+			EGL = {
+				all_core={
+					OR={
+						owned_by = THIS
+						owner={
+							OR={
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 1			# Tiny badboy hit
+			prestige = 5			# Rising up in the world
+			change_tag = EGL		# We become England
+			EGL={
 				all_core={
 					limit={
 						OR={

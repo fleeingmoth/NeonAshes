@@ -302,12 +302,14 @@ political_decisions = {
 				}
 			}
 			UPV={
+				NOT={exists = BKF}
 				OR={
 					NOT={vassal_of = OAS}
 					industrial_score = 5
 				}
 			}
 			BKF={
+				NOT={exists = UPV}
 				OR={
 					NOT={vassal_of = OAS}
 					industrial_score = 5
@@ -332,12 +334,14 @@ political_decisions = {
 				}
 			}
 			ASN={
+				NOT={exists = NIG}
 				OR={
 					NOT={vassal_of = OAS}
 					industrial_score = 5
 				}
 			}
 			NIG={
+				NOT={exists = ASN}
 				OR={
 					NOT={vassal_of = OAS}
 					industrial_score = 5
@@ -382,17 +386,6 @@ political_decisions = {
 			}
 		}
 		effect = {
-			NIG={
-				all_core = {
-					limit ={
-						OR={
-							owned_by = OAS
-							in_sphere = OAS
-						}
-					}
-					secede_province = ASN
-				}
-			}
 			ASN={
 				change_tag = NIG #
 				OYO={
@@ -415,6 +408,9 @@ political_decisions = {
 						remove_core = ASN
 					}
 				}
+			}
+			NIG={
+				country_event = 31028
 			}
 			OAS={
 				prestige = 10

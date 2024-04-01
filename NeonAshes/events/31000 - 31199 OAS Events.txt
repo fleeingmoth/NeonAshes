@@ -506,7 +506,7 @@ country_event = { # regain Ghana +1U
 			all_core={
 				owner={
 					OR={
-						substate_of = OAS
+						puppet_of = OAS
 						tag = OAS
 					}
 				}
@@ -951,8 +951,8 @@ country_event = {
 }
 country_event = { # Breaking of the OAS, low member count
 	id = 31027
-	title = "EVT_31026_NAME"
-	desc = "EVT_31026_DESC"
+	title = "EVT_31027_NAME"
+	desc = "EVT_31027_DESC"
 
 	picture = "events_default"
 	fire_only_once = yes
@@ -961,12 +961,46 @@ country_event = { # Breaking of the OAS, low member count
 		NOT={num_of_vassals = 5}
 	}
 	option = {
-		name = "EVT_31026_OPTA" # 
+		name = "EVT_31027_OPTA" # 
 		change_variable = {
 			which = oas_unity
 			value = -3
 		}
 		oas_unity_tooltip_lower_3 = {}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { # Nigeria formation event
+	id = 31028
+	title = "EVT_31028_NAME"
+	desc = "EVT_31028_DESC"
+
+	picture = "events_default"
+	is_triggered_only = yes
+	option = {
+		name = "EVT_31028_OPTA" # 
+		all_core = {
+			limit ={
+				owner = {
+					tag = OAS
+				}
+			}
+			secede_province = THIS
+		}
+		all_core={
+			limit={
+				owner={
+					OR={
+						in_sphere = OAS
+						vassal_of = OAS
+					}
+					NOT={tag = NIG}
+				}
+			}
+			owner = {country_event = 31026 }
+		}
 		ai_chance = {
 			factor = 100
 		}

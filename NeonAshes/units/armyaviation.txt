@@ -23,7 +23,7 @@ armyaviation = {
 	#Building Costs
 	build_time = 150
 	build_cost = {
-		aircraft = 50
+		aircraft = 5
 		heavy_weapons = 30
 		fuel = 25
 		electronic_components = 40

@@ -1505,6 +1505,10 @@ pan_nationalist_rebels = {
 			factor = 0
 			culture = ukrainian
 		}
+		modifier = {
+			factor = 0
+			culture = australian
+		}
 		
 		
 

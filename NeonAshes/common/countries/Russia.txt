@@ -1,4 +1,7 @@
 color = { 81 119 214 }
+socialist_dictatorship = { 219 39 54 }
+socialist_democracy = { 219 39 54 }
+communist_state = { 219 39 54 }
 graphical_culture = BritishGC
 
 party = {

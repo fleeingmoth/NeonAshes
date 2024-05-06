@@ -1,0 +1,49 @@
+army = {
+	name = "IDF"
+	location = 917		#
+	regiment = {
+		name= "1st Israeli Regulars Brig."
+		type = infantry
+		home = 919	# 
+	}
+	regiment = {
+		name= "2nd Israeli Regulars Brig."
+		type = infantry
+		home = 919	# 
+	}
+	regiment = {
+		name= "3rd Israeli Regulars Brig."
+		type = infantry
+		home = 919	# 
+	}
+	regiment = {
+		name= "4th Israeli Regulars Brig."
+		type = infantry
+		home = 919	# 
+	}
+	regiment = {
+		name= "5th Israeli Regulars Brig."
+		type = infantry
+		home = 916	# 
+	}
+	regiment = {
+		name= "6th Israeli Regulars Brig."
+		type = infantry
+		home = 916	# 
+	}
+	regiment = {
+		name= "7th Israeli Regulars Brig."
+		type = infantry
+		home = 916	# 
+	}
+	regiment = {
+		name= "8th Israeli Regulars Brig."
+		type = infantry
+		home = 916	# 
+	}
+	regiment = {
+		name= "9th Israeli Regulars Brig."
+		type = infantry
+		home = 916	# 
+	}
+}

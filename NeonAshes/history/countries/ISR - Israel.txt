@@ -42,3 +42,5 @@ professional_army = 1
 # Starting Consciousness
 consciousness = 3
 
+# Order of Battle
+oob = "ISR_oob.txt"

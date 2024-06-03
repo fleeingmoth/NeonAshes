@@ -13,6 +13,41 @@
 		size = 56078
 	}
 }
+316 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 104427
+	}
+}
+313 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 138306
+	}
+}
+312 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 61437
+	}
+}
+311 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 25598
+	}
+}
+310 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 88405
+	}
+}
 # Finland
 338 = {#
 	farmers = {
@@ -282,5 +317,139 @@
 		culture = danish
 		religion = catholic
 		size = 43472
+	}
+}
+##Sweden
+331 = {#gotland
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 9565
+	}
+}
+334 = {#Malmo
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 168722
+	}
+}
+335 = {#Karlkrona
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 19196
+	}
+}
+332 = {#Karlkrona
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 30740
+	}
+}
+333 = {#Vaxjo
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 61986
+	}
+}
+325 = {#Norrkoping
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 51383
+	}
+}
+322 = {#Stockholm
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 209312
+	}
+}
+326 = {#vasteras
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 64719
+	}
+}
+324 = {#Uppsala
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 36009
+	}
+}
+330 = {#boras
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 185916
+	}
+}
+327 = {#orebro
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 34745
+	}
+}
+328 = {#karlstad
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 36096
+	}
+}
+323 = {#Falun
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 36856
+	}
+}
+317 = {#Gavle
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 36884
+	}
+}
+333 = {#Vaxjo
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 61986
+	}
+}
+319 = {#Vaxjo
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 17305
+	}
+}
+318 = {#Sundsvall
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 33297
+	}
+}
+320 = {#Umea
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 32125
+	}
+}
+321 = {#Lulea
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 33626
 	}
 }

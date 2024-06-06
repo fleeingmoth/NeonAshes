@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+  <version>2.9.0 (385f17ad49c8 2023-09-01)</version>
+  <timetype>gregoriantime</timetype>
+  <eras>
+    <era>
+      <name>From Point of divergance</name>
+      <start>1944-12-01 00:00:00</start>
+      <end>1980-01-01 00:00:00</end>
+      <color>221,221,221</color>
+      <ends_today>False</ends_today>
+    </era>
+    <era>
+      <name>Game Timeline</name>
+      <start>1980-01-01 00:00:00</start>
+      <end>2100-01-01 00:00:00</end>
+      <color>200,200,200</color>
+      <ends_today>False</ends_today>
+    </era>
+  </eras>
+  <categories>
+    <category>
+      <name>Hot "Cold" War</name>
+      <color>128,64,64</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Canadian</name>
+      <color>255,0,0</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>American</name>
+      <color>0,0,255</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>255,255,255</font_color>
+    </category>
+    <category>
+      <name>Britian</name>
+      <color>196,38,21</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>EAF</name>
+      <color>15,196,187</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>OAS</name>
+      <color>166,227,111</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Argentinia</name>
+      <color>99,232,239</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>USSR</name>
+      <color>174,0,0</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>UAR</name>
+      <color>0,168,0</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+  </categories>
+  <events>
+    <event>
+      <start>1944-12-01 00:00:00</start>
+      <end>1944-12-01 00:00:00</end>
+      <text>Death of FDR</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1945-03-01 00:00:00</start>
+      <end>1945-03-01 00:00:00</end>
+      <text>Berlin Falls</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1945-03-10 00:00:00</start>
+      <end>1945-03-10 00:00:00</end>
+      <text>Japanese fire ballon succedes in causing a meltdown</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1945-06-01 00:00:00</start>
+      <end>1945-06-01 00:00:00</end>
+      <text>West Bonn Declaration</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1945-10-01 00:00:00</start>
+      <end>1945-10-01 00:00:00</end>
+      <text>Operation Downfall</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1945-07-01 00:00:00</start>
+      <end>1945-07-01 00:00:00</end>
+      <text>Japan leaves china</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1946-01-01 00:00:00</start>
+      <end>1946-01-01 00:00:00</end>
+      <text>Soviet republics established in N.Iran</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1946-08-01 00:00:00</start>
+      <end>1946-08-01 00:00:00</end>
+      <text>Tokyo falls</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1946-09-02 00:00:00</start>
+      <end>1946-09-02 00:00:00</end>
+      <text>Japanese Surrender</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1971-01-01 00:00:00</start>
+      <end>1971-01-01 00:00:00</end>
+      <text>Canadian Resource Wars</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1948-05-03 00:00:00</start>
+      <end>1948-06-22 00:00:00</end>
+      <text>Anti-federalists win the Newfoundland referendums</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1964-06-13 00:00:00</start>
+      <end>1964-06-13 00:00:00</end>
+      <text>Independance of the East African Federation</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>EAF</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1959-01-01 00:00:00</start>
+      <end>1959-01-01 00:00:00</end>
+      <text>Alaskan Statehood</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>American</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1978-01-01 16:14:00</start>
+      <end>1978-01-01 16:14:00</end>
+      <text>Dissolution of Canada</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1973-01-01 00:00:00</start>
+      <end>1973-01-01 00:00:00</end>
+      <text>Quebec Nationalists win election</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1978-01-01 00:00:00</start>
+      <end>1978-01-01 00:00:00</end>
+      <text>Halifax Conferance</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <description>Formation of the Canadian Praries</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1976-01-01 00:00:00</start>
+      <end>1976-01-01 00:00:00</end>
+      <text>Union of the canadian Maritimes</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1968-06-25 00:00:00</start>
+      <end>1968-06-25 00:00:00</end>
+      <text>Pierre Trudeau wins election</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1974-01-01 00:00:00</start>
+      <end>1974-01-01 00:00:00</end>
+      <text>Progressive conservatives win election</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1970-10-01 00:00:00</start>
+      <end>1970-10-01 00:00:00</end>
+      <text>FLQ kidnapping</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1964-03-27 00:00:00</start>
+      <end>1964-03-27 00:00:00</end>
+      <text>Good Friday Earthquake in alaska</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>American</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1967-01-01 00:00:00</start>
+      <end>1967-01-01 00:00:00</end>
+      <text>Alaska declares itself "In Rebellion"</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>American</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1972-01-01 00:00:00</start>
+      <end>1972-01-01 00:00:00</end>
+      <text>Alaskan Independance</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>American</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1976-01-01 00:00:00</start>
+      <end>1976-01-01 00:00:00</end>
+      <text>Collapse of the USA</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>American</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1979-12-24 00:00:00</start>
+      <end>1979-12-24 00:00:00</end>
+      <text>Articles of Dissolution</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>American</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1965-01-01 00:00:00</start>
+      <end>1969-12-30 00:00:00</end>
+      <text>Collapse of the UK</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Britian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1971-01-25 00:00:00</start>
+      <end>1982-01-01 00:00:00</end>
+      <text>Uganda Crisis</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>EAF</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1958-01-01 00:00:00</start>
+      <end>1958-01-01 00:00:00</end>
+      <text>Union of African States forms between Guinea and Ghana</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1959-04-04 00:00:00</start>
+      <end>1959-04-04 00:00:00</end>
+      <text>Independance of the Mail Federation</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1961-07-01 00:00:00</start>
+      <end>1961-07-01 00:00:00</end>
+      <text>Mali Fed. joins the UAS</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1968-01-01 00:00:00</start>
+      <end>1968-01-01 00:00:00</end>
+      <text>UAS becomes the Organisation of African States</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1979-06-18 00:00:00</start>
+      <end>1979-06-18 00:00:00</end>
+      <text>Creation of Senegambia under the OAS</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1982-01-01 00:00:00</start>
+      <end>1982-01-01 00:00:00</end>
+      <text>Siege of Mercedes</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Argentinia</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1983-01-01 00:00:00</start>
+      <end>1983-01-01 00:00:00</end>
+      <text>Sankara Revolt</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1980-04-01 00:00:00</start>
+      <end>1980-04-01 00:00:00</end>
+      <text>Samuel Doe sucessfully coups liberia</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1985-01-01 00:00:00</start>
+      <end>1985-01-01 00:00:00</end>
+      <text>Oyo-OAS War</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1980-10-01 00:00:00</start>
+      <end>1980-10-01 00:00:00</end>
+      <text>Kazakhstan Independance</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>USSR</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1958-02-01 00:00:00</start>
+      <end>1958-02-01 00:00:00</end>
+      <text>Formation of the UAR</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>UAR</category>
+      <description>Nassar uses the Ba'athists to govern syria rather than sidelining them like OTL</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1972-03-01 00:00:00</start>
+      <end>1972-03-01 00:00:00</end>
+      <text>Iraq joins the UAR</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>UAR</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1967-06-05 00:00:00</start>
+      <end>1967-06-10 00:00:00</end>
+      <text>Six Day War - Isreali Victory</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>UAR</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1950-12-20 00:00:00</start>
+      <end>1950-12-20 00:00:00</end>
+      <text>UK refuses West German request for heligoland</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Britian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1975-03-28 00:00:00</start>
+      <end>1975-03-28 00:00:00</end>
+      <text>Founding of ECOWAS</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1967-08-06 00:00:00</start>
+      <end>1973-07-08 00:00:00</end>
+      <text>Biafara War</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <description>the war lasts longer than otl and results in biafaran independance</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1974-11-17 00:00:00</start>
+      <end>1974-11-17 00:00:00</end>
+      <text>Collapse of Nigeria</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1975-01-18 00:00:00</start>
+      <end>1975-01-18 00:00:00</end>
+      <text>OAS establishes the Mandate of Nigeria</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+  </events>
+  <view>
+    <displayed_period>
+      <start>1965-07-01 01:39:41</start>
+      <end>1975-07-02 01:39:41</end>
+    </displayed_period>
+    <hidden_categories>
+    </hidden_categories>
+  </view>
+</timeline>

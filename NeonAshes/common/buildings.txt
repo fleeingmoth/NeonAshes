@@ -101,6 +101,23 @@ heavy_weapons_factory = {
 	production_type = heavy_weapons_factory
 	pop_build_factory = yes
 }
+adv_ammo_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost = {
+		construction_materials = 100	# 100,000 sqft
+		machine_parts = 100		# 10,000 metric tons of equipment
+		steel = 50			# 50 tonnes of steel
+	}
+	time = 180
+	visibility = yes
+	onmap = no
+	default_enabled = no
+	production_type = adv_ammo_factory
+	pop_build_factory = yes
+}
 elec_weapons_factory = {
 	type = factory
 	on_completion = factory

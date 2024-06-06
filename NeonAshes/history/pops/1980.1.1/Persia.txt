@@ -276,7 +276,12 @@
 	farmers = {
 		culture = iranian
 		religion = shiite
-		size = 294214
+		size = 289801
+	}
+	farmers = {
+		culture = iranian
+		religion = shiite
+		size = 4413
 	}
 }
 1135 = {#

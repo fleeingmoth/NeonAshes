@@ -700,9 +700,9 @@ battery_factory = {
 		trigger = { 
 			OR={
 				has_building = oil_power_plant 
-				has_building = nuclear_reactor_plant
+				has_building = nuclear_reactor
 				has_building = coal_power_plant
-				has_building = hydro_electric_plant
+				#has_building = hydro_electric_plant
 			}
 		}
 		value = 0.15
@@ -844,7 +844,7 @@ pharmaceuticals_manufacturer = {
 	output_goods = pharma_n_equipment			# Total cost of inputs	# 85
 	value = 20				# Total value of goods	# 100
 	bonus = {
-		trigger = { has_building = brewing_facility }
+		trigger = { has_building = brewery }
 		value = 0.20
 	}
 	bonus = {
@@ -974,7 +974,7 @@ aerospace_manufacturer = {
 		value = 0.10
 	}
 	bonus = {
-		trigger = { has_building = consumer_electronics_production }
+		trigger = { has_building = consumer_electronics_factory }
 		value = 0.10
 	}
 	bonus = {

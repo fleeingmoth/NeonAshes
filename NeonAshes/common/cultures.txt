@@ -1362,7 +1362,7 @@ arab = {
 			}
 	}
 
-	union = ARA
+	#union = ARA
 }
 
 iranian_turanian = {

@@ -114,7 +114,12 @@
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 12961
+		size = 12564
+	}
+	artisans = {
+		culture = brazilian
+		religion = catholic
+		size = 397
 	}
 }
 2415 = {#Macapa
@@ -124,11 +129,31 @@
 		size = 47812
 	}
 }
-2410 = {#Belem
+2410 = {#Belem, 178329
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 178329
+		size = 151737
+	}
+	artisans = {
+		culture = brazilian
+		religion = catholic
+		size = 16049
+	}
+	craftsmen = {
+		culture = brazilian
+		religion = catholic
+		size = 8916
+	}
+	soldiers = {
+		culture = brazilian
+		religion = catholic
+		size = 1604
+	}
+	capitalists = {
+		culture = brazilian
+		religion = catholic
+		size = 23
 	}
 }
 

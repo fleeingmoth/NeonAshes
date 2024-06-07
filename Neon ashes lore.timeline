@@ -41,7 +41,7 @@
       <font_color>255,255,255</font_color>
     </category>
     <category>
-      <name>Britian</name>
+      <name>Britain</name>
       <color>196,38,21</color>
       <progress_color>255,153,153</progress_color>
       <done_color>255,153,153</done_color>
@@ -94,6 +94,7 @@
       <fuzzy_end>False</fuzzy_end>
       <locked>False</locked>
       <ends_today>False</ends_today>
+      <category>American</category>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -118,6 +119,7 @@
       <fuzzy_end>False</fuzzy_end>
       <locked>False</locked>
       <ends_today>False</ends_today>
+      <category>American</category>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -166,6 +168,7 @@
       <fuzzy_end>False</fuzzy_end>
       <locked>False</locked>
       <ends_today>False</ends_today>
+      <category>Hot "Cold" War</category>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -193,35 +196,9 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>1971-01-01 00:00:00</start>
-      <end>1971-01-01 00:00:00</end>
-      <text>Canadian Resource Wars</text>
-      <progress>0</progress>
-      <fuzzy>False</fuzzy>
-      <fuzzy_start>True</fuzzy_start>
-      <fuzzy_end>True</fuzzy_end>
-      <locked>False</locked>
-      <ends_today>False</ends_today>
-      <category>Canadian</category>
-      <default_color>192,192,192</default_color>
-    </event>
-    <event>
-      <start>1948-05-03 00:00:00</start>
-      <end>1948-06-22 00:00:00</end>
-      <text>Anti-federalists win the Newfoundland referendums</text>
-      <progress>0</progress>
-      <fuzzy>False</fuzzy>
-      <fuzzy_start>False</fuzzy_start>
-      <fuzzy_end>False</fuzzy_end>
-      <locked>False</locked>
-      <ends_today>False</ends_today>
-      <category>Canadian</category>
-      <default_color>192,192,192</default_color>
-    </event>
-    <event>
       <start>1964-06-13 00:00:00</start>
       <end>1964-06-13 00:00:00</end>
-      <text>Independance of the East African Federation</text>
+      <text>Independence of the East African Federation</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -313,7 +290,7 @@
     <event>
       <start>1974-01-01 00:00:00</start>
       <end>1974-01-01 00:00:00</end>
-      <text>Progressive conservatives win election</text>
+      <text>Canada: Progressive Conservatives win election</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>True</fuzzy_start>
@@ -326,7 +303,7 @@
     <event>
       <start>1970-10-01 00:00:00</start>
       <end>1970-10-01 00:00:00</end>
-      <text>FLQ kidnapping</text>
+      <text>FLQ kidnaps Pierre Laporte, provincial Deputy, and British diplomat James Cross</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>True</fuzzy_start>
@@ -411,13 +388,13 @@
       <fuzzy_end>True</fuzzy_end>
       <locked>False</locked>
       <ends_today>False</ends_today>
-      <category>Britian</category>
+      <category>Britain</category>
       <default_color>192,192,192</default_color>
     </event>
     <event>
       <start>1971-01-25 00:00:00</start>
       <end>1982-01-01 00:00:00</end>
-      <text>Uganda Crisis</text>
+      <text>Uganda War</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -521,7 +498,7 @@
     <event>
       <start>1980-04-01 00:00:00</start>
       <end>1980-04-01 00:00:00</end>
-      <text>Samuel Doe sucessfully coups liberia</text>
+      <text>Samuel Doe sucessfully coups Liberia.</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>True</fuzzy_start>
@@ -607,7 +584,7 @@
       <fuzzy_end>False</fuzzy_end>
       <locked>False</locked>
       <ends_today>False</ends_today>
-      <category>Britian</category>
+      <category>Britain</category>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -626,14 +603,14 @@
     <event>
       <start>1967-08-06 00:00:00</start>
       <end>1973-07-08 00:00:00</end>
-      <text>Biafara War</text>
+      <text>Biafra War: the war lasts longer than otl and results in biafaran independance</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
       <fuzzy_end>False</fuzzy_end>
       <locked>False</locked>
       <ends_today>False</ends_today>
-      <description>the war lasts longer than otl and results in biafaran independance</description>
+      <category>OAS</category>
       <default_color>192,192,192</default_color>
     </event>
     <event>
@@ -659,6 +636,328 @@
       <locked>False</locked>
       <ends_today>False</ends_today>
       <category>OAS</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1946-01-01 00:00:00</start>
+      <end>1946-01-01 00:00:00</end>
+      <text>British Columbia: Conservative-Liberal coalition collapses, Social Credit wins first victory</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1963-01-01 00:00:00</start>
+      <end>1963-01-01 00:00:00</end>
+      <text>Britain: The 1963 Devolution Act passes. (Newfoundland)</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Britain</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1968-01-01 00:00:00</start>
+      <end>1968-01-01 00:00:00</end>
+      <text>Newfoundland: The independence referendum leads to a victory for autonomy from Canada. Independence.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1962-01-01 00:00:00</start>
+      <end>1962-01-01 00:00:00</end>
+      <text>Canada: The Social Credit Party nationally collapses. Conservatives rally around the Progressive-Conservative Party.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1959-08-04 00:00:00</start>
+      <end>1959-08-04 00:00:00</end>
+      <text>Quebec: Maurice Duplessis of the National Union Party dies in office.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1950-02-02 00:00:00</start>
+      <end>1959-02-02 00:00:00</end>
+      <text>USA/Canada: US/Canadian economy is in an upswing.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>American</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1952-02-08 00:00:00</start>
+      <end>1958-02-02 00:00:00</end>
+      <text>UK/Europe: Europe's economy is in a downturn.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Britain</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1950-01-01 00:00:00</start>
+      <end>1970-01-01 00:00:00</end>
+      <text>Canada: Heyday of Liberal rule - province equalization payments, social safety net</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1960-08-22 00:00:00</start>
+      <end>1960-08-22 00:00:00</end>
+      <text>Quebec: The Liberal Party wins the governorship, defeating the NUP</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1960-02-01 00:00:00</start>
+      <end>1960-02-01 00:00:00</end>
+      <text>Quebec: Duplessis' successor dies in office.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1961-01-01 00:00:00</start>
+      <end>1969-01-01 00:00:00</end>
+      <text>Quebec: The "quiet revolution" - secularization, welfare, realignment to federalist vs separatist</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1971-01-01 00:00:00</start>
+      <end>1974-01-01 00:00:00</end>
+      <text>Europe: The Resource Wars of 1971 wreak havoc globally.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Hot "Cold" War</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1971-04-05 00:00:00</start>
+      <end>1972-12-31 00:00:00</end>
+      <text>Canada: The Canadian economy crashes due to the Resource Wars.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1975-08-12 00:00:00</start>
+      <end>1975-08-12 00:00:00</end>
+      <text>Yukon: Yukon + Northwest are granted autonomy.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1971-08-12 00:00:00</start>
+      <end>1971-08-12 00:00:00</end>
+      <text>British Columbia: W.A.C. Bennett dies in office; the Social Credit policy of "detente" with Ottawa ends.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1965-01-01 00:00:00</start>
+      <end>1970-01-01 00:00:00</end>
+      <text>Uganda: Idi Amin and the Kingdom of Buganda fight politically and later militarily over entrance into the EAF.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>EAF</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1967-02-02 00:00:00</start>
+      <end>1971-01-01 00:00:00</end>
+      <text>World: International trade sees a noticeable decrease.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1970-01-01 00:00:00</start>
+      <end>1979-04-04 00:00:00</end>
+      <text>Newfoundland: Fishing disputes between Canada/Quebec and Newfoundland.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1973-01-01 00:00:00</start>
+      <end>1973-01-01 00:00:00</end>
+      <text>NATO/similar org dissolves.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>American</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1974-01-01 00:00:00</start>
+      <end>1974-01-01 00:00:00</end>
+      <text>The Warsaw Pact dissolves.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1970-10-25 00:00:00</start>
+      <end>1970-10-25 00:00:00</end>
+      <text>Canada: In response to the FLQ, Pierre Trudeau invokes the War Measures Act to destroy dissent.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1969-10-10 00:00:00</start>
+      <end>1969-10-10 00:00:00</end>
+      <text>Canada: The White Paper is passed.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1976-01-01 00:00:00</start>
+      <end>1976-01-01 00:00:00</end>
+      <text>Quebec: The FLQ government proposes an independence referendum</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1976-08-22 00:00:00</start>
+      <end>1976-08-22 00:00:00</end>
+      <text>Quebec: Independence referendum narrowly approved</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Canadian</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1971-01-01 00:00:00</start>
+      <end>1971-01-01 00:00:00</end>
+      <text>Work on the Trans-Alaska Pipeline system is stopped.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>American</category>
       <default_color>192,192,192</default_color>
     </event>
   </events>

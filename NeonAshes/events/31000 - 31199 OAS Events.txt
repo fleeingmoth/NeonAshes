@@ -506,7 +506,8 @@ country_event = { # regain Ghana +1U
 			all_core={
 				owner={
 					OR={
-						puppet_of = OAS
+						vassal_of = OAS
+						substate_of = OAS
 						tag = OAS
 					}
 				}
@@ -567,6 +568,7 @@ country_event = { # regain Guinea +1U
 			all_core={
 				owner={
 					OR={
+						vassal_of = OAS
 						substate_of = OAS
 						tag = OAS
 					}
@@ -853,7 +855,7 @@ country_event = { # regain Senegambia, +1U
 				owner={
 					OR={
 						vassal_of = OAS
-						tag = OAS
+						substate_of = OAS
 					}
 				}
 			}

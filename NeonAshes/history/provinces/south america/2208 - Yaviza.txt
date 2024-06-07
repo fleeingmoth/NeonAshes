@@ -2,4 +2,4 @@ owner = PNM
 controller = PNM
 add_core = PNM
 trade_goods = sugar_crops
-life_rating = 35
+life_rating = 30

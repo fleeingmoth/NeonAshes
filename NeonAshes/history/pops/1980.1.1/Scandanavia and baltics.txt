@@ -48,6 +48,41 @@
 		size = 88405
 	}
 }
+309 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 95266
+	}
+}
+308 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 42126
+	}
+}
+305 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 68977
+	}
+}
+315 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 43641
+	}
+}
+314 = {#
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 21117
+	}
+}
 # Finland
 338 = {#
 	farmers = {
@@ -387,7 +422,7 @@
 	farmers = {
 		culture = swedish
 		religion = catholic
-		size = 185916
+		size = 54708
 	}
 }
 327 = {#orebro
@@ -451,5 +486,12 @@
 		culture = swedish
 		religion = catholic
 		size = 33626
+	}
+}
+329 = {#Lulea
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 131208
 	}
 }

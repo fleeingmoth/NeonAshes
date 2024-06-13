@@ -451,3 +451,101 @@
 		size = 193171
 	}
 }
+2549 = {#Tarauaca
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 82499
+	}
+}
+2532 = {#Forte Sao Joaquim
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 41340
+	}
+}
+2550 = {#Forte do Principe
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 215211
+	}
+}
+2403 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 73145
+	}
+}
+2401 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 69752
+	}
+}
+2407 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 74217
+	}
+}
+2404 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 66972
+	}
+}
+2405 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 62034
+	}
+}
+2402 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 53496
+	}
+}
+2408 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 127814
+	}
+}
+2412 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 187354
+	}
+}
+2411 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 169871
+	}
+}
+2600 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 138741
+	}
+}
+2413 = {#
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 138411
+	}
+}

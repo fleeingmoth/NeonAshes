@@ -2,5 +2,6 @@ owner = UAR
 controller = UAR
 add_core = UAR
 add_core = IRQ
+add_core = KRD
 trade_goods = cattle
 life_rating = 35

@@ -425,3 +425,207 @@
 		size = 687339
 	}
 }
+#S.A
+2114 = {#
+	farmers = {
+		culture = swazi
+		religion = catholic
+		size = 118216
+	}
+}
+2104 = {#
+	farmers = {
+		culture = sotho
+		religion = catholic
+		size = 235840
+	}
+}
+2087 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 377554
+	}
+}
+2088 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 11011
+	}
+}
+2089 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 91043
+	}
+}
+2090 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 20523
+	}
+}
+2091 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 45763
+	}
+}
+2093 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 14977
+	}
+}
+2558 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 19798
+	}
+}
+2092 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 7996
+	}
+}
+2096 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 190904
+	}
+}
+2098 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 197619
+	}
+}
+2097 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 69386
+	}
+}
+2099 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 76497
+	}
+}
+2100 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 293792
+	}
+}
+2095 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 106295
+	}
+}
+2094 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 54055
+	}
+}
+2107 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 308112
+	}
+}
+2103 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 17342
+	}
+}
+2101 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 197137
+	}
+}
+2102 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 160793
+	}
+}
+2111 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 722461
+	}
+}
+2112 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 183490
+	}
+}
+2113 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 315602
+	}
+}
+2105 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 529660
+	}
+}
+2106 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 195042
+	}
+}
+2109 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 327903
+	}
+}
+2110 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 261592
+	}
+}
+2108 = {#
+	farmers = {
+		culture = south_african
+		religion = catholic
+		size = 390506
+	}
+}

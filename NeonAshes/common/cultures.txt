@@ -3817,6 +3817,22 @@ southern_african = {
 		last_names = { Tsiranana Ramanantsoa Ratsimandrava Andriamahazo Ratsiraka
 		}
 	}
+	swazi = {
+		color = {91 109 70}
+		first_names = { Radama Rainilaiarivony Rabiby Andriamanely Ndriantompoinairivo Tonanahary Ratsimivila Ramasoandro Andriantsirotso Lamboina Tsialana Tsimiharo
+		}
+
+		last_names = { Tsiranana Ramanantsoa Ratsimandrava Andriamahazo Ratsiraka
+		}
+	}
+	south_african = {
+		color = {109 69 43}
+		first_names = { Radama Rainilaiarivony Rabiby Andriamanely Ndriantompoinairivo Tonanahary Ratsimivila Ramasoandro Andriantsirotso Lamboina Tsialana Tsimiharo
+		}
+
+		last_names = { Tsiranana Ramanantsoa Ratsimandrava Andriamahazo Ratsiraka
+		}
+	}
 
 }
 

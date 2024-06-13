@@ -2,5 +2,6 @@ owner = UAR
 controller = UAR
 add_core = UAR
 add_core = SYR
+add_core = KRD
 trade_goods = oil
 life_rating = 35

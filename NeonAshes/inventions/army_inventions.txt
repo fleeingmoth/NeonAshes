@@ -85,7 +85,7 @@ cbrn_defense = { # CBRN Defense
 		infantry = { defence = 0.5 }
 		motinfantry = { defence = 0.5 }
 		mechinfantry = { defence = 0.5 }
-		fieldartillery = { defence = 0.5 }
+		artillery = { defence = 0.5 }
 		spartillery = { defence = 0.5 }
 		lightarmor = { defence = 0.5 }
 		heavyarmor = { defence = 0.5 }
@@ -259,7 +259,7 @@ counter_ied_efforts = { # Counter-IED Efforts
 		infantry = { defence = 0.5 }
 		motinfantry = { defence = 0.5 }
 		mechinfantry = { defence = 0.5 }
-		fieldartillery = { defence = 0.5 }
+		artillery = { defence = 0.5 }
 		spartillery = { defence = 0.5 }
 		lightarmor = { defence = 0.5 }
 		heavyarmor = { defence = 0.5 }
@@ -429,7 +429,7 @@ military_cybersec = { # Military Cybersecurity
 		infantry = { defence = 1 }
 		motinfantry = { defence = 1 }
 		mechinfantry = { defence = 1 }
-		fieldartillery = { defence = 1 }
+		artillery = { defence = 1 }
 		spartillery = { defence = 1 }
 		lightarmor = { defence = 1 }
 		heavyarmor = { defence = 1 }
@@ -585,7 +585,7 @@ ai_hardening = { # A.I. Hardening
 		infantry = { defence = 1 }
 		motinfantry = { defence = 1 }
 		mechinfantry = { defence = 1 }
-		fieldartillery = { defence = 1 }
+		artillery = { defence = 1 }
 		spartillery = { defence = 1 }
 		lightarmor = { defence = 1 }
 		heavyarmor = { defence = 1 }
@@ -749,7 +749,7 @@ enemy_anticipation = { # Enemy Anticipation
 		infantry = { defence = 2 }
 		motinfantry = { defence = 2 }
 		mechinfantry = { defence = 2 }
-		fieldartillery = { defence = 2 }
+		artillery = { defence = 2 }
 		spartillery = { defence = 2 }
 		lightarmor = { defence = 2 }
 		heavyarmor = { defence = 2 }
@@ -905,7 +905,7 @@ battlefield_extrapolation = { # Battlefield Extrapolation
 		infantry = { defence = 2 }
 		motinfantry = { defence = 2 }
 		mechinfantry = { defence = 2 }
-		fieldartillery = { defence = 2 }
+		artillery = { defence = 2 }
 		spartillery = { defence = 2 }
 		lightarmor = { defence = 2 }
 		heavyarmor = { defence = 2 }
@@ -999,7 +999,7 @@ modern_service_rifle = { # Modern Service Rifle
 		infantry = { attack = 1 }
 		motinfantry = { attack = 1 }
 		mechinfantry = { attack = 1 }
-		fieldartillery = { attack = 0.5 }
+		artillery = { attack = 0.5 }
 		spartillery = { attack = 0.5 }
 		lightarmor = { attack = 0.5 }
 		heavyarmor = { attack = 0.5 }
@@ -1116,7 +1116,7 @@ modern_carbine = { # Modern Carbine
 		infantry = { attack = 1 }
 		motinfantry = { attack = 1 }
 		mechinfantry = { attack = 1 }
-		fieldartillery = { attack = 0.5 }
+		artillery = { attack = 0.5 }
 		spartillery = { attack = 0.5 }
 		lightarmor = { attack = 0.5 }
 		heavyarmor = { attack = 0.5 }
@@ -1241,7 +1241,7 @@ early_electronic_weapons = { # Early Electronic Weapons
 		infantry = { attack = 2 }
 		motinfantry = { attack = 2 }
 		mechinfantry = { attack = 2 }
-		fieldartillery = { attack = 1 }
+		artillery = { attack = 1 }
 		spartillery = { attack = 1 }
 		lightarmor = { attack = 1 }
 		heavyarmor = { attack = 1 }
@@ -1374,7 +1374,7 @@ smart_rifle = { # Smart Rifle
 		infantry = { attack = 2 }
 		motinfantry = { attack = 2 }
 		mechinfantry = { attack = 2 }
-		fieldartillery = { attack = 1 }
+		artillery = { attack = 1 }
 		spartillery = { attack = 1 }
 		lightarmor = { attack = 1 }
 		heavyarmor = { attack = 1 }
@@ -1511,7 +1511,7 @@ manpans = { # Man-Portable Attack Nanite System
 		infantry = { attack = 4 }
 		motinfantry = { attack = 4 }
 		mechinfantry = { attack = 4 }
-		fieldartillery = { attack = 2 }
+		artillery = { attack = 2 }
 		spartillery = { attack = 2 }
 		lightarmor = { attack = 2 }
 		heavyarmor = { attack = 2 }
@@ -1648,7 +1648,7 @@ plasma_rifle = { # Plasma Rifle
 		infantry = { attack = 4 }
 		motinfantry = { attack = 4 }
 		mechinfantry = { attack = 4 }
-		fieldartillery = { attack = 2 }
+		artillery = { attack = 2 }
 		spartillery = { attack = 2 }
 		lightarmor = { attack = 2 }
 		heavyarmor = { attack = 2 }
@@ -1750,7 +1750,7 @@ field_artillery_brigade = { # Field Artillery Brigade
 			war = yes # Learning by combat
 		}
 	}
-	effect = { activate_unit = fieldartillery }
+	effect = { activate_unit = artillery }
 }
 sp_artillery_brigade = { # Self-Propelled Artillery Brigade
 	limit = { arms_industry = 1 }
@@ -1793,7 +1793,7 @@ fire_control_radar = { # Fire Control Radar
 		}
 	}
 	effect = {
-		fieldartillery = { attack = 1 }
+		artillery = { attack = 1 }
 		spartillery = { attack = 1 }
 	}
 }
@@ -1811,7 +1811,7 @@ counter_battery_radar = { # Counter-Battery Radar
 		}
 	}
 	effect = {
-		fieldartillery = { attack = 1 }
+		artillery = { attack = 1 }
 		spartillery = { attack = 1 }
 	}
 }
@@ -1834,7 +1834,7 @@ rocket_assisted_projectiles = { # Rocket-Assisted Projectiles
 		}
 	}
 	effect = {
-		fieldartillery = { support = 0.25 }
+		artillery = { support = 0.25 }
 		spartillery = { support = 0.25 }
 	}
 }
@@ -1856,7 +1856,7 @@ improved_conventional_munitions = { # Improved Conventional Munitions
 		}
 	}
 	effect = {
-		fieldartillery = { attack = 1 }
+		artillery = { attack = 1 }
 		spartillery = { attack = 1 }
 	}
 }
@@ -1893,7 +1893,7 @@ land_based_pesa = { # Land-Based PESA
 		}
 	}
 	effect = {
-		fieldartillery = { 
+		artillery = { 
 			attack = 1 
 			defence = 2 
 		}
@@ -1929,7 +1929,7 @@ base_bleed_projectiles = { # Base Bleed Projectiles
 		}
 	}
 	effect = {
-		fieldartillery = { support = 0.25 }
+		artillery = { support = 0.25 }
 		spartillery = { support = 0.25 }
 	}
 }
@@ -1951,7 +1951,7 @@ subsonic_cruise_missiles = { # Subsonic Cruise Missiles
 		}
 	}
 	effect = {
-		fieldartillery = { support = 0.25 }
+		artillery = { support = 0.25 }
 		spartillery = { support = 0.25 }
 	}
 }
@@ -1973,7 +1973,7 @@ high_capacity_artillery_projectile = { # High-Capacity Artillery Projectile
 		}
 	}
 	effect = {
-		fieldartillery = { attack = 1 }
+		artillery = { attack = 1 }
 		spartillery = { attack = 1 }
 	}
 }
@@ -1995,7 +1995,7 @@ terrain_contour_matching = { # Terrain Contour Matching
 		}
 	}
 	effect = {
-		fieldartillery = { attack = 1 }
+		artillery = { attack = 1 }
 		spartillery = { attack = 1 }
 	}
 }
@@ -2028,7 +2028,7 @@ land_based_aesa = { # Land-Based AESA
 		}
 	}
 	effect = {
-		fieldartillery = { 
+		artillery = { 
 			attack = 1 
 			defence = 2 
 		}
@@ -2064,7 +2064,7 @@ supersonic_cruise_missiles = { # Supersonic Cruise Missiles
 		}
 	}
 	effect = {
-		fieldartillery = { support = 0.50 }
+		artillery = { support = 0.50 }
 		spartillery = { support = 0.50 }
 	}
 }
@@ -2086,7 +2086,7 @@ automatic_target_recognition = { # Automatic Target Recognition
 		}
 	}
 	effect = {
-		fieldartillery = { attack = 2 }
+		artillery = { attack = 2 }
 		spartillery = { attack = 2 }
 	}
 }
@@ -2123,7 +2123,7 @@ modern_battlefield_radar = { # Modern Battlefield Radar
 			attack = 0.5 
 			defence = 0.5 
 		}
-		fieldartillery = {
+		artillery = {
 			attack = 2 
 			defence = 4 
 		}
@@ -2159,7 +2159,7 @@ hypersonic_cruise_missiles = { # Hypersonic Cruise Missiles
 		}
 	}
 	effect = {
-		fieldartillery = { support = 0.50 }
+		artillery = { support = 0.50 }
 		spartillery = { support = 0.50 }
 	}
 }
@@ -2181,7 +2181,7 @@ linear_motor_artillery = { # Linear Motor Artillery
 		}
 	}
 	effect = {
-		fieldartillery = { attack = 2 }
+		artillery = { attack = 2 }
 	}
 }
 
@@ -2221,7 +2221,7 @@ integrated_chassis_sensors = { # Integrated Chassis Sensors
 			attack = 0.5
 			defence = 0.5 
 		}
-		fieldartillery = {
+		artillery = {
 			attack = 2 
 			defence = 4 
 		}
@@ -2257,7 +2257,7 @@ hunter_killer_cruise_missiles = { # Hunter-Killer Cruise Missiles
 		}
 	}
 	effect = {
-		fieldartillery = { support = 0.50 }
+		artillery = { support = 0.50 }
 		spartillery = { support = 0.50 }
 	}
 }
@@ -2282,7 +2282,7 @@ euclidean_artillery = { # Euclidean Artillery
 		}
 	}
 	effect = {
-		fieldartillery = { support = 0.50 }
+		artillery = { support = 0.50 }
 		spartillery = { support = 0.50 }
 	}
 }
@@ -2440,7 +2440,7 @@ military_police = { # Military Police
 		infantry = { discipline = 0.10 }
 		motinfantry = { discipline = 0.10 }
 		mechinfantry = { discipline = 0.10 }
-		fieldartillery = { discipline = 0.10 }
+		artillery = { discipline = 0.10 }
 		spartillery = { discipline = 0.10 }
 		lightarmor = { discipline = 0.10 }
 		heavyarmor = { discipline = 0.10 }
@@ -2547,7 +2547,7 @@ special_operations_forces = { # Special Operations Forces
 		infantry = { discipline = 0.10 }
 		motinfantry = { discipline = 0.10 }
 		mechinfantry = { discipline = 0.10 }
-		fieldartillery = { discipline = 0.10 }
+		artillery = { discipline = 0.10 }
 		spartillery = { discipline = 0.10 }
 		lightarmor = { discipline = 0.10 }
 		heavyarmor = { discipline = 0.10 }

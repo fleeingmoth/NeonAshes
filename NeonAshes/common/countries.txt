@@ -61,7 +61,7 @@ CAN = "countries/Canada.txt"
 # USC = "countries/Southcentral United States.txt"
 # UNE = "countries/Northeastern United States.txt"
 # USE = "countries/Southeastern United States.txt"
-# USA = "countries/United States of America.txt"
+USA = "countries/United States of America.txt"
 
 # Latin and South America - Mexico
 

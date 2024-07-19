@@ -8,7 +8,7 @@ country_event = { # Successful Propaganda Campaign
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_socdem		# Anti-socdem Propaganda
-		ideology = social_democrat				# Sanity check - do not fire if not socdem
+		ruling_party_ideology = social_democrat				# Sanity check - do not fire if not socdem
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -188,7 +188,7 @@ country_event = { # Target Social Strata
 	trigger = {
 		has_country_modifier = propaganda_anti_socdem			# Anti-socdem Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
-		ideology = social_democrat					# Sanity check - do not fire if not socdem
+		ruling_party_ideology = social_democrat					# Sanity check - do not fire if not socdem
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -379,7 +379,7 @@ country_event = { # Target Govt Employees
 	trigger = {
 		has_country_modifier = propaganda_anti_socdem			# Anti-socdem Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
-		ideology = social_democrat					# Sanity check - do not fire if not socdem
+		ruling_party_ideology = social_democrat					# Sanity check - do not fire if not socdem
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -563,7 +563,7 @@ country_event = { # Target Academia
 	trigger = {
 		has_country_modifier = propaganda_anti_socdem			# Anti-socdem Propaganda
 		NOT = { has_country_flag = propaganda_education_target }	# Hasn't happened yet
-		ideology = social_democrat					# Sanity check - do not fire if not socdem
+		ruling_party_ideology = social_democrat					# Sanity check - do not fire if not socdem
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -792,7 +792,7 @@ country_event = { # Target Armed Forces
 	trigger = {
 		has_country_modifier = propaganda_anti_socdem			# Anti-socdem Propaganda
 		NOT = { has_country_flag = propaganda_armed_forces_target }	# Hasn't happened yet
-		ideology = social_democrat					# Sanity check - do not fire if not socdem
+		ruling_party_ideology = social_democrat					# Sanity check - do not fire if not socdem
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -1047,7 +1047,7 @@ country_event = { # Target Consciousness or Militancy
 	trigger = {
 		has_country_modifier = propaganda_anti_socdem			# Anti-socdem Propaganda
 		NOT = { has_country_flag = propaganda_con_mil_target }		# Hasn't happened yet
-		ideology = social_democrat					# Sanity check - do not fire if not socdem
+		ruling_party_ideology = social_democrat					# Sanity check - do not fire if not socdem
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -1270,7 +1270,7 @@ country_event = { # Target International Relations
 	trigger = {
 		has_country_modifier = propaganda_anti_socdem			# Anti-socdem Propaganda
 		NOT = { has_country_flag = propaganda_diplo_prestige_target }	# Hasn't happened yet
-		ideology = social_democrat					# Sanity check - do not fire if not socdem
+		ruling_party_ideology = social_democrat					# Sanity check - do not fire if not socdem
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -1437,7 +1437,7 @@ country_event = { # Target Political Coalitions
 	trigger = {
 		has_country_modifier = propaganda_anti_socdem			# Anti-socdem Propaganda
 		NOT = { has_country_flag = propaganda_close_ideologies_target }	# Hasn't happened yet
-		ideology = social_democrat					# Sanity check - do not fire if not socdem
+		ruling_party_ideology = social_democrat					# Sanity check - do not fire if not socdem
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -1787,7 +1787,7 @@ country_event = { # Propaganda Backfire
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_socdem		# Anti-socdem Propaganda
-		ideology = social_democrat				# Sanity check - do not fire if not socdem
+		ruling_party_ideology = social_democrat				# Sanity check - do not fire if not socdem
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -1922,7 +1922,7 @@ country_event = { # Successful Propaganda Campaign
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_socialist		# Anti-socdem Propaganda
-		ideology = socialist					# Sanity check - do not fire if not socialist
+		ruling_party_ideology = socialist					# Sanity check - do not fire if not socialist
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -2102,7 +2102,7 @@ country_event = { # Target Social Strata
 	trigger = {
 		has_country_modifier = propaganda_anti_socialist			# Anti-socialist Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
-		ideology = socialist					# Sanity check - do not fire if not socialist
+		ruling_party_ideology = socialist					# Sanity check - do not fire if not socialist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -2293,7 +2293,7 @@ country_event = { # Target Govt Employees
 	trigger = {
 		has_country_modifier = propaganda_anti_socialist			# Anti-socialist Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
-		ideology = socialist					# Sanity check - do not fire if not socialist
+		ruling_party_ideology = socialist					# Sanity check - do not fire if not socialist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -2476,7 +2476,7 @@ country_event = { # Target Academia
 	trigger = {
 		has_country_modifier = propaganda_anti_socialist			# Anti-socialist Propaganda
 		NOT = { has_country_flag = propaganda_education_target }	# Hasn't happened yet
-		ideology = socialist					# Sanity check - do not fire if not socialist
+		ruling_party_ideology = socialist					# Sanity check - do not fire if not socialist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -2705,7 +2705,7 @@ country_event = { # Target Armed Forces
 	trigger = {
 		has_country_modifier = propaganda_anti_socialist			# Anti-socialist Propaganda
 		NOT = { has_country_flag = propaganda_armed_forces_target }	# Hasn't happened yet
-		ideology = socialist					# Sanity check - do not fire if not socialist
+		ruling_party_ideology = socialist					# Sanity check - do not fire if not socialist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -2960,7 +2960,7 @@ country_event = { # Target Consciousness or Militancy
 	trigger = {
 		has_country_modifier = propaganda_anti_socialist			# Anti-socialist Propaganda
 		NOT = { has_country_flag = propaganda_con_mil_target }		# Hasn't happened yet
-		ideology = socialist					# Sanity check - do not fire if not socialist
+		ruling_party_ideology = socialist					# Sanity check - do not fire if not socialist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -3183,7 +3183,7 @@ country_event = { # Target International Relations
 	trigger = {
 		has_country_modifier = propaganda_anti_socialist			# Anti-socialist Propaganda
 		NOT = { has_country_flag = propaganda_diplo_prestige_target }	# Hasn't happened yet
-		ideology = socialist					# Sanity check - do not fire if not socialist
+		ruling_party_ideology = socialist					# Sanity check - do not fire if not socialist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -3350,7 +3350,7 @@ country_event = { # Target Political Coalitions
 	trigger = {
 		has_country_modifier = propaganda_anti_socialist			# Anti-socialist Propaganda
 		NOT = { has_country_flag = propaganda_close_ideologies_target }	# Hasn't happened yet
-		ideology = socialist					# Sanity check - do not fire if not socialist
+		ruling_party_ideology = socialist					# Sanity check - do not fire if not socialist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -3700,7 +3700,7 @@ country_event = { # Propaganda Backfire
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_socialist		# Anti-socialist Propaganda
-		ideology = socialist				# Sanity check - do not fire if not socialist
+		ruling_party_ideology = socialist				# Sanity check - do not fire if not socialist
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -3835,7 +3835,7 @@ country_event = { # Successful Propaganda Campaign
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_communist	# Anti-communist Propaganda
-		ideology = communist				# Sanity check - do not fire if not communist
+		ruling_party_ideology = communist				# Sanity check - do not fire if not communist
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -4015,7 +4015,7 @@ country_event = { # Target Social Strata
 	trigger = {
 		has_country_modifier = propaganda_anti_communist			# Anti-communist Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
-		ideology = communist					# Sanity check - do not fire if not communist
+		ruling_party_ideology = communist					# Sanity check - do not fire if not communist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -4206,7 +4206,7 @@ country_event = { # Target Govt Employees
 	trigger = {
 		has_country_modifier = propaganda_anti_communist			# Anti-communist Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
-		ideology = communist					# Sanity check - do not fire if not communist
+		ruling_party_ideology = communist					# Sanity check - do not fire if not communist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -4389,7 +4389,7 @@ country_event = { # Target Academia
 	trigger = {
 		has_country_modifier = propaganda_anti_communist			# Anti-communist Propaganda
 		NOT = { has_country_flag = propaganda_education_target }	# Hasn't happened yet
-		ideology = communist					# Sanity check - do not fire if not communist
+		ruling_party_ideology = communist					# Sanity check - do not fire if not communist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -4618,7 +4618,7 @@ country_event = { # Target Armed Forces
 	trigger = {
 		has_country_modifier = propaganda_anti_communist			# Anti-communist Propaganda
 		NOT = { has_country_flag = propaganda_armed_forces_target }	# Hasn't happened yet
-		ideology = communist					# Sanity check - do not fire if not communist
+		ruling_party_ideology = communist					# Sanity check - do not fire if not communist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -4873,7 +4873,7 @@ country_event = { # Target Consciousness or Militancy
 	trigger = {
 		has_country_modifier = propaganda_anti_communist			# Anti-communist Propaganda
 		NOT = { has_country_flag = propaganda_con_mil_target }		# Hasn't happened yet
-		ideology = communist					# Sanity check - do not fire if not communist
+		ruling_party_ideology = communist					# Sanity check - do not fire if not communist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -5096,7 +5096,7 @@ country_event = { # Target International Relations
 	trigger = {
 		has_country_modifier = propaganda_anti_communist			# Anti-communist Propaganda
 		NOT = { has_country_flag = propaganda_diplo_prestige_target }	# Hasn't happened yet
-		ideology = communist					# Sanity check - do not fire if not communist
+		ruling_party_ideology = communist					# Sanity check - do not fire if not communist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -5263,7 +5263,7 @@ country_event = { # Target Political Coalitions
 	trigger = {
 		has_country_modifier = propaganda_anti_communist			# Anti-communist Propaganda
 		NOT = { has_country_flag = propaganda_close_ideologies_target }	# Hasn't happened yet
-		ideology = communist					# Sanity check - do not fire if not communist
+		ruling_party_ideology = communist					# Sanity check - do not fire if not communist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -5613,7 +5613,7 @@ country_event = { # Propaganda Backfire
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_communist		# Anti-communist Propaganda
-		ideology = communist				# Sanity check - do not fire if not communist
+		ruling_party_ideology = communist				# Sanity check - do not fire if not communist
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -5748,7 +5748,7 @@ country_event = { # Successful Propaganda Campaign
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_liberal	# Anti-liberal Propaganda
-		ideology = liberal				# Sanity check - do not fire if not liberal
+		ruling_party_ideology = liberal				# Sanity check - do not fire if not liberal
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -5928,7 +5928,7 @@ country_event = { # Target Social Strata
 	trigger = {
 		has_country_modifier = propaganda_anti_liberal			# Anti-liberal Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
-		ideology = liberal					# Sanity check - do not fire if not liberal
+		ruling_party_ideology = liberal					# Sanity check - do not fire if not liberal
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -6119,7 +6119,7 @@ country_event = { # Target Govt Employees
 	trigger = {
 		has_country_modifier = propaganda_anti_liberal			# Anti-liberal Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
-		ideology = liberal					# Sanity check - do not fire if not liberal
+		ruling_party_ideology = liberal					# Sanity check - do not fire if not liberal
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -6302,7 +6302,7 @@ country_event = { # Target Academia
 	trigger = {
 		has_country_modifier = propaganda_anti_liberal			# Anti-liberal Propaganda
 		NOT = { has_country_flag = propaganda_education_target }	# Hasn't happened yet
-		ideology = liberal					# Sanity check - do not fire if not liberal
+		ruling_party_ideology = liberal					# Sanity check - do not fire if not liberal
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -6531,7 +6531,7 @@ country_event = { # Target Armed Forces
 	trigger = {
 		has_country_modifier = propaganda_anti_liberal			# Anti-liberal Propaganda
 		NOT = { has_country_flag = propaganda_armed_forces_target }	# Hasn't happened yet
-		ideology = liberal					# Sanity check - do not fire if not liberal
+		ruling_party_ideology = liberal					# Sanity check - do not fire if not liberal
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -6786,7 +6786,7 @@ country_event = { # Target Consciousness or Militancy
 	trigger = {
 		has_country_modifier = propaganda_anti_liberal			# Anti-liberal Propaganda
 		NOT = { has_country_flag = propaganda_con_mil_target }		# Hasn't happened yet
-		ideology = liberal					# Sanity check - do not fire if not liberal
+		ruling_party_ideology = liberal					# Sanity check - do not fire if not liberal
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -7009,7 +7009,7 @@ country_event = { # Target International Relations
 	trigger = {
 		has_country_modifier = propaganda_anti_liberal			# Anti-liberal Propaganda
 		NOT = { has_country_flag = propaganda_diplo_prestige_target }	# Hasn't happened yet
-		ideology = liberal					# Sanity check - do not fire if not liberal
+		ruling_party_ideology = liberal					# Sanity check - do not fire if not liberal
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -7176,7 +7176,7 @@ country_event = { # Target Political Coalitions
 	trigger = {
 		has_country_modifier = propaganda_anti_liberal			# Anti-liberal Propaganda
 		NOT = { has_country_flag = propaganda_close_ideologies_target }	# Hasn't happened yet
-		ideology = liberal					# Sanity check - do not fire if not liberal
+		ruling_party_ideology = liberal					# Sanity check - do not fire if not liberal
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -7526,7 +7526,7 @@ country_event = { # Propaganda Backfire
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_liberal	# Anti-liberal Propaganda
-		ideology = liberal				# Sanity check - do not fire if not liberal
+		ruling_party_ideology = liberal				# Sanity check - do not fire if not liberal
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -7661,7 +7661,7 @@ country_event = { # Successful Propaganda Campaign
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_anarcho_liberal	# Anti-libertarian Propaganda
-		ideology = anarcho_liberal				# Sanity check - do not fire if not libertarian
+		ruling_party_ideology = anarcho_liberal				# Sanity check - do not fire if not libertarian
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -7841,7 +7841,7 @@ country_event = { # Target Social Strata
 	trigger = {
 		has_country_modifier = propaganda_anti_anarcho_liberal			# Anti-libertarian Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
-		ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
+		ruling_party_ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -8032,7 +8032,7 @@ country_event = { # Target Govt Employees
 	trigger = {
 		has_country_modifier = propaganda_anti_anarcho_liberal			# Anti-libertarian Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
-		ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
+		ruling_party_ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -8215,7 +8215,7 @@ country_event = { # Target Academia
 	trigger = {
 		has_country_modifier = propaganda_anti_anarcho_liberal			# Anti-libertarian Propaganda
 		NOT = { has_country_flag = propaganda_education_target }	# Hasn't happened yet
-		ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
+		ruling_party_ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -8444,7 +8444,7 @@ country_event = { # Target Armed Forces
 	trigger = {
 		has_country_modifier = propaganda_anti_anarcho_liberal			# Anti-libertarian Propaganda
 		NOT = { has_country_flag = propaganda_armed_forces_target }	# Hasn't happened yet
-		ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
+		ruling_party_ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -8699,7 +8699,7 @@ country_event = { # Target Consciousness or Militancy
 	trigger = {
 		has_country_modifier = propaganda_anti_anarcho_liberal			# Anti-libertarian Propaganda
 		NOT = { has_country_flag = propaganda_con_mil_target }		# Hasn't happened yet
-		ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
+		ruling_party_ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -8922,7 +8922,7 @@ country_event = { # Target International Relations
 	trigger = {
 		has_country_modifier = propaganda_anti_anarcho_liberal			# Anti-libertarian Propaganda
 		NOT = { has_country_flag = propaganda_diplo_prestige_target }	# Hasn't happened yet
-		ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
+		ruling_party_ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -9089,7 +9089,7 @@ country_event = { # Target Political Coalitions
 	trigger = {
 		has_country_modifier = propaganda_anti_anarcho_liberal			# Anti-libertarian Propaganda
 		NOT = { has_country_flag = propaganda_close_ideologies_target }	# Hasn't happened yet
-		ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
+		ruling_party_ideology = anarcho_liberal					# Sanity check - do not fire if not libertarian
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -9439,7 +9439,7 @@ country_event = { # Propaganda Backfire
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_anarcho_liberal		# Anti-libertarian Propaganda
-		ideology = anarcho_liberal				# Sanity check - do not fire if not libertarian
+		ruling_party_ideology = anarcho_liberal				# Sanity check - do not fire if not libertarian
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -9574,7 +9574,7 @@ country_event = { # Successful Propaganda Campaign
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_greens	# Anti-green Propaganda
-		ideology = green				# Sanity check - do not fire if not green
+		ruling_party_ideology = green				# Sanity check - do not fire if not green
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -9754,7 +9754,7 @@ country_event = { # Target Social Strata
 	trigger = {
 		has_country_modifier = propaganda_anti_greens			# Anti-green Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
-		ideology = green					# Sanity check - do not fire if not green
+		ruling_party_ideology = green					# Sanity check - do not fire if not green
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -9945,7 +9945,7 @@ country_event = { # Target Govt Employees
 	trigger = {
 		has_country_modifier = propaganda_anti_greens			# Anti-green Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
-		ideology = green					# Sanity check - do not fire if not green
+		ruling_party_ideology = green					# Sanity check - do not fire if not green
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -10128,7 +10128,7 @@ country_event = { # Target Academia
 	trigger = {
 		has_country_modifier = propaganda_anti_greens			# Anti-green Propaganda
 		NOT = { has_country_flag = propaganda_education_target }	# Hasn't happened yet
-		ideology = green					# Sanity check - do not fire if not green
+		ruling_party_ideology = green					# Sanity check - do not fire if not green
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -10357,7 +10357,7 @@ country_event = { # Target Armed Forces
 	trigger = {
 		has_country_modifier = propaganda_anti_greens			# Anti-green Propaganda
 		NOT = { has_country_flag = propaganda_armed_forces_target }	# Hasn't happened yet
-		ideology = green					# Sanity check - do not fire if not green
+		ruling_party_ideology = green					# Sanity check - do not fire if not green
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -10612,7 +10612,7 @@ country_event = { # Target Consciousness or Militancy
 	trigger = {
 		has_country_modifier = propaganda_anti_greens			# Anti-green Propaganda
 		NOT = { has_country_flag = propaganda_con_mil_target }		# Hasn't happened yet
-		ideology = green					# Sanity check - do not fire if not green
+		ruling_party_ideology = green					# Sanity check - do not fire if not green
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -10835,7 +10835,7 @@ country_event = { # Target International Relations
 	trigger = {
 		has_country_modifier = propaganda_anti_greens			# Anti-green Propaganda
 		NOT = { has_country_flag = propaganda_diplo_prestige_target }	# Hasn't happened yet
-		ideology = green					# Sanity check - do not fire if not green
+		ruling_party_ideology = green					# Sanity check - do not fire if not green
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -11002,7 +11002,7 @@ country_event = { # Target Political Coalitions
 	trigger = {
 		has_country_modifier = propaganda_anti_greens			# Anti-green Propaganda
 		NOT = { has_country_flag = propaganda_close_ideologies_target }	# Hasn't happened yet
-		ideology = green					# Sanity check - do not fire if not green
+		ruling_party_ideology = green					# Sanity check - do not fire if not green
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -11352,7 +11352,7 @@ country_event = { # Propaganda Backfire
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_greens	# Anti-green Propaganda
-		ideology = green				# Sanity check - do not fire if not green
+		ruling_party_ideology = green				# Sanity check - do not fire if not green
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -11487,7 +11487,7 @@ country_event = { # Successful Propaganda Campaign
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_conservative	# Anti-conservative Propaganda
-		ideology = conservative					# Sanity check - do not fire if not conservative
+		ruling_party_ideology = conservative					# Sanity check - do not fire if not conservative
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -11667,7 +11667,7 @@ country_event = { # Target Social Strata
 	trigger = {
 		has_country_modifier = propaganda_anti_conservative		# Anti-conservative Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
-		ideology = conservative						# Sanity check - do not fire if not conservative
+		ruling_party_ideology = conservative						# Sanity check - do not fire if not conservative
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -11858,7 +11858,7 @@ country_event = { # Target Govt Employees
 	trigger = {
 		has_country_modifier = propaganda_anti_conservative		# Anti-conservative Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
-		ideology = conservative						# Sanity check - do not fire if not conservative
+		ruling_party_ideology = conservative						# Sanity check - do not fire if not conservative
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -12041,7 +12041,7 @@ country_event = { # Target Academia
 	trigger = {
 		has_country_modifier = propaganda_anti_conservative		# Anti-conservative Propaganda
 		NOT = { has_country_flag = propaganda_education_target }	# Hasn't happened yet
-		ideology = conservative						# Sanity check - do not fire if not conservative
+		ruling_party_ideology = conservative						# Sanity check - do not fire if not conservative
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -12270,7 +12270,7 @@ country_event = { # Target Armed Forces
 	trigger = {
 		has_country_modifier = propaganda_anti_conservative		# Anti-conservative Propaganda
 		NOT = { has_country_flag = propaganda_armed_forces_target }	# Hasn't happened yet
-		ideology = conservative						# Sanity check - do not fire if not conservative
+		ruling_party_ideology = conservative						# Sanity check - do not fire if not conservative
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -12525,7 +12525,7 @@ country_event = { # Target Consciousness or Militancy
 	trigger = {
 		has_country_modifier = propaganda_anti_conservative	# Anti-conservative Propaganda
 		NOT = { has_country_flag = propaganda_con_mil_target }	# Hasn't happened yet
-		ideology = conservative					# Sanity check - do not fire if not conservative
+		ruling_party_ideology = conservative					# Sanity check - do not fire if not conservative
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -12748,7 +12748,7 @@ country_event = { # Target International Relations
 	trigger = {
 		has_country_modifier = propaganda_anti_conservative		# Anti-conservative Propaganda
 		NOT = { has_country_flag = propaganda_diplo_prestige_target }	# Hasn't happened yet
-		ideology = conservative						# Sanity check - do not fire if not conservative
+		ruling_party_ideology = conservative						# Sanity check - do not fire if not conservative
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -12915,7 +12915,7 @@ country_event = { # Target Political Coalitions
 	trigger = {
 		has_country_modifier = propaganda_anti_conservative		# Anti-conservative Propaganda
 		NOT = { has_country_flag = propaganda_close_ideologies_target }	# Hasn't happened yet
-		ideology = conservative						# Sanity check - do not fire if not conservative
+		ruling_party_ideology = conservative						# Sanity check - do not fire if not conservative
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -13265,7 +13265,7 @@ country_event = { # Propaganda Backfire
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_conservative	# Anti-conservative Propaganda
-		ideology = conservative					# Sanity check - do not fire if not conservative
+		ruling_party_ideology = conservative					# Sanity check - do not fire if not conservative
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -13400,7 +13400,7 @@ country_event = { # Successful Propaganda Campaign
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_traditionalist	# Anti-traditionalist Propaganda
-		ideology = traditionalist				# Sanity check - do not fire if not traditionalist
+		ruling_party_ideology = traditionalist				# Sanity check - do not fire if not traditionalist
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -13580,7 +13580,7 @@ country_event = { # Target Social Strata
 	trigger = {
 		has_country_modifier = propaganda_anti_traditionalist		# Anti-traditionalist Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
-		ideology = traditionalist					# Sanity check - do not fire if not traditionalist
+		ruling_party_ideology = traditionalist					# Sanity check - do not fire if not traditionalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -13771,7 +13771,7 @@ country_event = { # Target Govt Employees
 	trigger = {
 		has_country_modifier = propaganda_anti_traditionalist		# Anti-traditionalist Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
-		ideology = traditionalist					# Sanity check - do not fire if not traditionalist
+		ruling_party_ideology = traditionalist					# Sanity check - do not fire if not traditionalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -13954,7 +13954,7 @@ country_event = { # Target Academia
 	trigger = {
 		has_country_modifier = propaganda_anti_traditionalist			# Anti-traditionalist Propaganda
 		NOT = { has_country_flag = propaganda_education_target }	# Hasn't happened yet
-		ideology = traditionalist					# Sanity check - do not fire if not traditionalist
+		ruling_party_ideology = traditionalist					# Sanity check - do not fire if not traditionalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -14183,7 +14183,7 @@ country_event = { # Target Armed Forces
 	trigger = {
 		has_country_modifier = propaganda_anti_traditionalist			# Anti-traditionalist Propaganda
 		NOT = { has_country_flag = propaganda_armed_forces_target }	# Hasn't happened yet
-		ideology = traditionalist					# Sanity check - do not fire if not traditionalist
+		ruling_party_ideology = traditionalist					# Sanity check - do not fire if not traditionalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -14438,7 +14438,7 @@ country_event = { # Target Consciousness or Militancy
 	trigger = {
 		has_country_modifier = propaganda_anti_traditionalist			# Anti-traditionalist Propaganda
 		NOT = { has_country_flag = propaganda_con_mil_target }		# Hasn't happened yet
-		ideology = traditionalist					# Sanity check - do not fire if not traditionalist
+		ruling_party_ideology = traditionalist					# Sanity check - do not fire if not traditionalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -14661,7 +14661,7 @@ country_event = { # Target International Relations
 	trigger = {
 		has_country_modifier = propaganda_anti_traditionalist			# Anti-traditionalist Propaganda
 		NOT = { has_country_flag = propaganda_diplo_prestige_target }	# Hasn't happened yet
-		ideology = traditionalist					# Sanity check - do not fire if not traditionalist
+		ruling_party_ideology = traditionalist					# Sanity check - do not fire if not traditionalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -14828,7 +14828,7 @@ country_event = { # Target Political Coalitions
 	trigger = {
 		has_country_modifier = propaganda_anti_traditionalist			# Anti-traditionalist Propaganda
 		NOT = { has_country_flag = propaganda_close_ideologies_target }	# Hasn't happened yet
-		ideology = traditionalist					# Sanity check - do not fire if not traditionalist
+		ruling_party_ideology = traditionalist					# Sanity check - do not fire if not traditionalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -15178,7 +15178,7 @@ country_event = { # Propaganda Backfire
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_traditionalist		# Anti-traditionalist Propaganda
-		ideology = traditionalist				# Sanity check - do not fire if not traditionalist
+		ruling_party_ideology = traditionalist				# Sanity check - do not fire if not traditionalist
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -15313,7 +15313,7 @@ country_event = { # Successful Propaganda Campaign
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_nationalist	# Anti-nationalist Propaganda
-		ideology = nationalist					# Sanity check - do not fire if not nationalist
+		ruling_party_ideology = nationalist					# Sanity check - do not fire if not nationalist
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -15493,7 +15493,7 @@ country_event = { # Target Social Strata
 	trigger = {
 		has_country_modifier = propaganda_anti_nationalist		# Anti-nationalist Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
-		ideology = nationalist						# Sanity check - do not fire if not nationalist
+		ruling_party_ideology = nationalist						# Sanity check - do not fire if not nationalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -15684,7 +15684,7 @@ country_event = { # Target Govt Employees
 	trigger = {
 		has_country_modifier = propaganda_anti_nationalist		# Anti-nationalist Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
-		ideology = nationalist						# Sanity check - do not fire if not nationalist
+		ruling_party_ideology = nationalist						# Sanity check - do not fire if not nationalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -15867,7 +15867,7 @@ country_event = { # Target Academia
 	trigger = {
 		has_country_modifier = propaganda_anti_nationalist		# Anti-nationalist Propaganda
 		NOT = { has_country_flag = propaganda_education_target }	# Hasn't happened yet
-		ideology = nationalist						# Sanity check - do not fire if not nationalist
+		ruling_party_ideology = nationalist						# Sanity check - do not fire if not nationalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -16096,7 +16096,7 @@ country_event = { # Target Armed Forces
 	trigger = {
 		has_country_modifier = propaganda_anti_nationalist		# Anti-nationalist Propaganda
 		NOT = { has_country_flag = propaganda_armed_forces_target }	# Hasn't happened yet
-		ideology = nationalist						# Sanity check - do not fire if not nationalist
+		ruling_party_ideology = nationalist						# Sanity check - do not fire if not nationalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -16351,7 +16351,7 @@ country_event = { # Target Consciousness or Militancy
 	trigger = {
 		has_country_modifier = propaganda_anti_nationalist	# Anti-nationalist Propaganda
 		NOT = { has_country_flag = propaganda_con_mil_target }	# Hasn't happened yet
-		ideology = nationalist					# Sanity check - do not fire if not nationalist
+		ruling_party_ideology = nationalist					# Sanity check - do not fire if not nationalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -16574,7 +16574,7 @@ country_event = { # Target International Relations
 	trigger = {
 		has_country_modifier = propaganda_anti_nationalist		# Anti-nationalist Propaganda
 		NOT = { has_country_flag = propaganda_diplo_prestige_target }	# Hasn't happened yet
-		ideology = nationalist						# Sanity check - do not fire if not nationalist
+		ruling_party_ideology = nationalist						# Sanity check - do not fire if not nationalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -16741,7 +16741,7 @@ country_event = { # Target Political Coalitions
 	trigger = {
 		has_country_modifier = propaganda_anti_nationalist		# Anti-nationalist Propaganda
 		NOT = { has_country_flag = propaganda_close_ideologies_target }	# Hasn't happened yet
-		ideology = nationalist						# Sanity check - do not fire if not nationalist
+		ruling_party_ideology = nationalist						# Sanity check - do not fire if not nationalist
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -17091,7 +17091,7 @@ country_event = { # Propaganda Backfire
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_nationalist	# Anti-nationalist Propaganda
-		ideology = nationalist					# Sanity check - do not fire if not nationalist
+		ruling_party_ideology = nationalist					# Sanity check - do not fire if not nationalist
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -17226,7 +17226,7 @@ country_event = { # Successful Propaganda Campaign
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_ultranat		# Anti-ultranat Propaganda
-		ideology = ultranationalist				# Sanity check - do not fire if not ultranat
+		ruling_party_ideology = ultranationalist				# Sanity check - do not fire if not ultranat
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years
@@ -17406,7 +17406,7 @@ country_event = { # Target Social Strata
 	trigger = {
 		has_country_modifier = propaganda_anti_ultranat			# Anti-ultranat Propaganda
 		NOT = { has_country_flag = propaganda_social_strata_target }	# Hasn't happened yet
-		ideology = ultranationalist					# Sanity check - do not fire if not ultranat
+		ruling_party_ideology = ultranationalist					# Sanity check - do not fire if not ultranat
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -17597,7 +17597,7 @@ country_event = { # Target Govt Employees
 	trigger = {
 		has_country_modifier = propaganda_anti_ultranat			# Anti-ultranat Propaganda
 		NOT = { has_country_flag = propaganda_govt_employees_target }	# Hasn't happened yet
-		ideology = ultranationalist					# Sanity check - do not fire if not ultranat
+		ruling_party_ideology = ultranationalist					# Sanity check - do not fire if not ultranat
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -17780,7 +17780,7 @@ country_event = { # Target Academia
 	trigger = {
 		has_country_modifier = propaganda_anti_ultranat			# Anti-ultranat Propaganda
 		NOT = { has_country_flag = propaganda_education_target }	# Hasn't happened yet
-		ideology = ultranationalist					# Sanity check - do not fire if not ultranat
+		ruling_party_ideology = ultranationalist					# Sanity check - do not fire if not ultranat
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -18009,7 +18009,7 @@ country_event = { # Target Armed Forces
 	trigger = {
 		has_country_modifier = propaganda_anti_ultranat			# Anti-ultranat Propaganda
 		NOT = { has_country_flag = propaganda_armed_forces_target }	# Hasn't happened yet
-		ideology = ultranationalist					# Sanity check - do not fire if not ultranat
+		ruling_party_ideology = ultranationalist					# Sanity check - do not fire if not ultranat
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -18264,7 +18264,7 @@ country_event = { # Target Consciousness or Militancy
 	trigger = {
 		has_country_modifier = propaganda_anti_ultranat			# Anti-ultranat Propaganda
 		NOT = { has_country_flag = propaganda_con_mil_target }		# Hasn't happened yet
-		ideology = ultranationalist					# Sanity check - do not fire if not ultranat
+		ruling_party_ideology = ultranationalist					# Sanity check - do not fire if not ultranat
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -18487,7 +18487,7 @@ country_event = { # Target International Relations
 	trigger = {
 		has_country_modifier = propaganda_anti_ultranat			# Anti-ultranat Propaganda
 		NOT = { has_country_flag = propaganda_diplo_prestige_target }	# Hasn't happened yet
-		ideology = ultranationalist					# Sanity check - do not fire if not ultranat
+		ruling_party_ideology = ultranationalist					# Sanity check - do not fire if not ultranat
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -18654,7 +18654,7 @@ country_event = { # Target Political Coalitions
 	trigger = {
 		has_country_modifier = propaganda_anti_ultranat			# Anti-ultranat Propaganda
 		NOT = { has_country_flag = propaganda_close_ideologies_target }	# Hasn't happened yet
-		ideology = ultranationalist					# Sanity check - do not fire if not ultranat
+		ruling_party_ideology = ultranationalist					# Sanity check - do not fire if not ultranat
 	}
 	mean_time_to_happen = {
 		months = 36				# MTTH of three years
@@ -19004,7 +19004,7 @@ country_event = { # Propaganda Backfire
 	allow_multiple_instances = yes
 	trigger = {
 		has_country_modifier = propaganda_anti_ultranat		# Anti-ultranat Propaganda
-		ideology = ultranationalist				# Sanity check - do not fire if not ultranat
+		ruling_party_ideology = ultranationalist				# Sanity check - do not fire if not ultranat
 	}
 	mean_time_to_happen = {
 		months = 48				# MTTH of four years

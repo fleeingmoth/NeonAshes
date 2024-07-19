@@ -20,11 +20,36 @@
 		size = 19257
 	}
 }
-1465 = {#
+1465 = {# 176558
 	farmers = {
 		culture = mongol
 		religion = catholic
-		size = 176558
+		size = 120592
+	}
+	artisans = {
+		culture = mongol
+		religion = catholic
+		size = 21186
+	}
+	clerks = {
+		culture = mongol
+		religion = catholic
+		size = 3531
+	}
+	craftsmen = {
+		culture = mongol
+		religion = catholic
+		size = 11476
+	}
+	clergymen = {
+		culture = mongol
+		religion = catholic
+		size = 12888
+	}
+	bureaucrats = {
+		culture = mongol
+		religion = catholic
+		size = 6885
 	}
 }
 2678 = {#

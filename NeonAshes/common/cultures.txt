@@ -78,7 +78,7 @@ germanic = {
 		Levin Luria Morgenstern Nathan Oren Rosenthal Sachs Schapiro Schwartz Weinstein Weiss }
 	}
 	
-	union = GER
+	#union = GER
 }
 
 beneluxian = {
@@ -677,7 +677,7 @@ pan_romanian = {
 		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
 		}
 	}
-	union = ROM 
+	#union = ROM 
 }
 
 hungarian_culture_group = {

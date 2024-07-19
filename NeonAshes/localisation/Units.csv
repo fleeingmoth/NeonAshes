@@ -4,7 +4,7 @@ irregular;Irregular;;;;;;;;;;;;;x;;;;
 infantry;Light Infantry;;;;;;;;;;;;;x;;;;
 motinfantry;Motorized Infantry;;;;;;;;;;;;;x;;;;
 mechinfantry;Mechanized Infantry;;;;;;;;;;;;;x;;;;
-fieldartillery;Field Artillery;;;;;;;;;;;;;x;;;;
+artillery;Field Artillery;;;;;;;;;;;;;x;;;;
 spartillery;Self-Propelled Artillery;;;;;;;;;;;;;x;;;;
 armyaviation;Army Aviation;;;;;;;;;;;;;x;;;;
 lightarmor;Light Armor;;;;;;;;;;;;;x;;;;

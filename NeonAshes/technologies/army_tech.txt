@@ -796,7 +796,7 @@ arms_industry = { # Arms Industry
 	cost = 4000
 	unciv_military = yes
 
-	fieldartillery = { supply_consumption = 0.10 }
+	artillery = { supply_consumption = 0.10 }
 	spartillery = { supply_consumption = 0.10 }
 
 	ai_chance = {
@@ -867,7 +867,7 @@ rocket_artillery = { # Rocket Artillery
 	cost = 8000
 	unciv_military = yes
 
-	fieldartillery = { supply_consumption = 0.20 }
+	artillery = { supply_consumption = 0.20 }
 	spartillery = { supply_consumption = 0.20 }
 
 	ai_chance = {
@@ -942,7 +942,7 @@ precision_guided_munitions = { # Precision-guided Munitions
 	cost = 12000
 	unciv_military = yes
 
-	fieldartillery = { supply_consumption = 0.30 }
+	artillery = { supply_consumption = 0.30 }
 	spartillery = { supply_consumption = 0.30 }
 
 	ai_chance = {
@@ -1022,7 +1022,7 @@ electromagnetic_weapons = { # Electromagnetic Weapons
 	cost = 16000
 	unciv_military = yes
 
-	fieldartillery = { supply_consumption = 0.40 }
+	artillery = { supply_consumption = 0.40 }
 	spartillery = { supply_consumption = 0.40 }
 
 	ai_chance = {
@@ -1102,7 +1102,7 @@ autonomous_weapons = { # Autonomous Weapons
 	cost = 20000
 	unciv_military = yes
 
-	fieldartillery = { supply_consumption = 0.50 }
+	artillery = { supply_consumption = 0.50 }
 	spartillery = { supply_consumption = 0.50 }
 
 	ai_chance = {
@@ -1182,7 +1182,7 @@ directed_energy_weapons = { # Directed Energy Weapons
 	cost = 24000
 	unciv_military = yes
 
-	fieldartillery = { supply_consumption = 0.60 }
+	artillery = { supply_consumption = 0.60 }
 	spartillery = { supply_consumption = 0.60 }
 
 	ai_chance = {
@@ -1719,7 +1719,7 @@ professional_army = { # Professional Army
 	infantry = { default_organisation = 5 }
 	motinfantry = { default_organisation = 5 }
 	mechinfantry = { default_organisation = 5 }
-	fieldartillery = { default_organisation = 5 }
+	artillery = { default_organisation = 5 }
 	spartillery = { default_organisation = 5 }
 	lightarmor = { default_organisation = 5 }
 	heavyarmor = { default_organisation = 5 }
@@ -1788,7 +1788,7 @@ command_and_control = { # Command and Control
 	infantry = { default_organisation = 5 }
 	motinfantry = { default_organisation = 5 }
 	mechinfantry = { default_organisation = 5 }
-	fieldartillery = { default_organisation = 5 }
+	artillery = { default_organisation = 5 }
 	spartillery = { default_organisation = 5 }
 	lightarmor = { default_organisation = 5 }
 	heavyarmor = { default_organisation = 5 }
@@ -1857,7 +1857,7 @@ digital_battle_command = { # Digital Battle Command
 	infantry = { default_organisation = 5 }
 	motinfantry = { default_organisation = 5 }
 	mechinfantry = { default_organisation = 5 }
-	fieldartillery = { default_organisation = 5 }
+	artillery = { default_organisation = 5 }
 	spartillery = { default_organisation = 5 }
 	lightarmor = { default_organisation = 5 }
 	heavyarmor = { default_organisation = 5 }
@@ -1926,7 +1926,7 @@ command_ai = { # Command AI
 	infantry = { default_organisation = 5 }
 	motinfantry = { default_organisation = 5 }
 	mechinfantry = { default_organisation = 5 }
-	fieldartillery = { default_organisation = 5 }
+	artillery = { default_organisation = 5 }
 	spartillery = { default_organisation = 5 }
 	lightarmor = { default_organisation = 5 }
 	heavyarmor = { default_organisation = 5 }
@@ -1995,7 +1995,7 @@ global_decision_making = { #Global Decision-Making
 	infantry = { default_organisation = 5 }
 	motinfantry = { default_organisation = 5 }
 	mechinfantry = { default_organisation = 5 }
-	fieldartillery = { default_organisation = 5 }
+	artillery = { default_organisation = 5 }
 	spartillery = { default_organisation = 5 }
 	lightarmor = { default_organisation = 5 }
 	heavyarmor = { default_organisation = 5 }
@@ -2060,7 +2060,7 @@ command_decentralization = { #Command Decentralization
 	infantry = { default_organisation = 5 }
 	motinfantry = { default_organisation = 5 }
 	mechinfantry = { default_organisation = 5 }
-	fieldartillery = { default_organisation = 5 }
+	artillery = { default_organisation = 5 }
 	spartillery = { default_organisation = 5 }
 	lightarmor = { default_organisation = 5 }
 	heavyarmor = { default_organisation = 5 }

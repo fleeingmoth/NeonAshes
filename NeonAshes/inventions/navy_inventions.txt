@@ -636,7 +636,7 @@ tcbms = { # Tactical Ballistic Missiles
 		}
 	}
 	effect = {
-		fieldartillery = { support = 0.25 }
+		artillery = { support = 0.25 }
 		spartillery = { support = 0.25 }
 	}
 }
@@ -671,7 +671,7 @@ tbms = { # Theatre Ballistic Missiles
 		}
 	}
 	effect = {
-		fieldartillery = { attack = 1 }
+		artillery = { attack = 1 }
 		spartillery = { attack = 1 }
 	}
 }
@@ -893,7 +893,7 @@ reconnaissance_satellites = { # Reconnaissance Satellites
 		infantry = { reconnaissance = 1 }
 		motinfantry = { reconnaissance = 1 }
 		mechinfantry = { reconnaissance = 1 }
-		fieldartillery = { reconnaissance = 1 }
+		artillery = { reconnaissance = 1 }
 		spartillery = { reconnaissance = 1 }
 		lightarmor = { reconnaissance = 1 }
 		heavyarmor = { reconnaissance = 1 }

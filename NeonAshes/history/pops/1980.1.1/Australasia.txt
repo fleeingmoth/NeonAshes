@@ -214,7 +214,22 @@
 	artisans = {
 		culture = australian
 		religion = protestant
-		size = 80527
+		size = 20527
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = australian
+		religion = protestant
+		size = 20000
 	}
 }
 2468 = {#Sydney, 448212
@@ -585,49 +600,7 @@
 		size = 6453
 	}
 }
-#papua new guinea
-2528 = {#
-	farmers = {
-		culture = melanesian
-		religion = animist
-		size = 91321
-	}
-}
-2530 = {#
-	farmers = {
-		culture = melanesian
-		religion = animist
-		size = 84365
-	}
-}
-2531 = {#
-	farmers = {
-		culture = melanesian
-		religion = animist
-		size = 94631
-	}
-}
-2529 = {#
-	farmers = {
-		culture = melanesian
-		religion = animist
-		size = 106740
-	}
-}
-2537 = {#
-	farmers = {
-		culture = melanesian
-		religion = animist
-		size = 97131
-	}
-}
-1531 = {#
-	farmers = {
-		culture = melanesian
-		religion = animist
-		size = 78312
-	}
-}
+
 2539 = {#
 	farmers = {
 		culture = melanesian

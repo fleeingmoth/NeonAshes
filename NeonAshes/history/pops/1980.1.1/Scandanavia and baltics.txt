@@ -488,7 +488,7 @@
 		size = 33626
 	}
 }
-329 = {#Lulea
+329 = {#
 	farmers = {
 		culture = swedish
 		religion = catholic

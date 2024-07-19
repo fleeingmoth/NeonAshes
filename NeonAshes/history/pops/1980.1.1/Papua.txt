@@ -1,4 +1,4 @@
-## Papua 
+## West Papua 
 1453 = {#
 	farmers = {
 		culture = melanesian
@@ -18,5 +18,103 @@
 		culture = melanesian
 		religion = animist
 		size = 107613
+	}
+}
+#papua new guinea
+2528 = {# 91321
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 78565
+	}
+	artisans = {
+		culture = melanesian
+		religion = animist
+		size = 3388
+	}
+	craftsmen = {
+		culture = melanesian
+		religion = animist
+		size = 3926
+	}
+	soldiers = {
+		culture = melanesian
+		religion = animist
+		size = 3750
+	}
+	bureaucrats = {
+		culture = melanesian
+		religion = animist
+		size = 1552
+	}
+	clergymen = {
+		culture = melanesian
+		religion = animist
+		size = 136
+	}
+	capitalists = {
+		culture = melanesian
+		religion = animist
+		size = 4
+	}
+}
+2530 = {#84365
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 84050
+	}
+	artisans = {
+		culture = melanesian
+		religion = animist
+		size = 315
+	}
+}
+2531 = {#94631
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 94281
+	}
+	artisans = {
+		culture = melanesian
+		religion = animist
+		size = 350
+	}
+}
+2529 = {#106740
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 105812
+	}
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 928
+	}
+}
+2537 = {#97131
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 96073
+	}
+	artisans = {
+		culture = melanesian
+		religion = animist
+		size = 1058
+	}
+}
+1531 = {#78312
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 77608
+	}
+	artisans = {
+		culture = melanesian
+		religion = animist
+		size = 704
 	}
 }
